@@ -1,6 +1,6 @@
-# SKALE Open Source Plan and Community
+# SKALE Network: Open Source Plan and Community
 
-SKALE would be nothing without the open source community - we stand on the shoulders of giants. As we begin the process of open sourcing everything, we'd like to extend a thank you to everyone in the community who has made our technology possible. We'd also like to extend a special show of appreciation to the Aleth Project (which our skaled code is based on) and its many contributors.
+SKALE Network would be nothing without the open source community - we stand on the shoulders of giants. As we begin the process of open sourcing everything, we'd like to extend a thank you to everyone in the community who has made our technology possible. We'd also like to extend a special show of appreciation to the Aleth Project (which our skaled code is based on) and its many contributors.
 
 Most projects in this space led with a whitepaper and followed up (or not) with execution. We are fortunate to have investors who recognized that shipping and open sourcing were a higher priority and allowed us to focus on those items, first.
 
@@ -35,19 +35,19 @@ Dates are tentative (as with any software development), but here are the things 
 There's a lot of code, but we're not done yet! And we'd love for YOU to contribute! If you're new and just getting acquainted with the codebase, a few areas where you could provide immense value include:
 
 -   All things testing and CI / CD to ensure healthy repositories.
--   Example repositories building on SKALE.
--   Documentation on how to use SKALE.
+-   Example repositories building on the SKALE Network.
+-   Documentation on how to use SKALE Network.
 
 For more code-specific action items, there will be plenty of Github issues which we would greatly appreciate assistance with!
 
-For any questions please reach out to us on our [SKALE Discord Developer Community](https://discord.gg/vvUtWJB). [![Discord](https://img.shields.io/discord/534485763354787851.svg)](https://discord.gg/vvUtWJB)
+For any questions please reach out to us on our [SKALE Network Discord Developer Community](https://discord.gg/vvUtWJB). [![Discord](https://img.shields.io/discord/534485763354787851.svg)](https://discord.gg/vvUtWJB)
 
 ## A Note About Our Community
 
-At SKALE, we define our community as any individual or group of individuals, organization or entity who will be impacted by or have an interest in the outcome of our processes and decisions. This includes (in no particular order, and is not limited to):
+At the SKALE Network, we define our community as any individual or group of individuals, organization or entity who will be impacted by or have an interest in the outcome of our processes and decisions. This includes (in no particular order, and is not limited to):
 
 -   dApp developers
--   SKALE validators
+-   SKALE Network validators
 -   Ethereum community and contributors
 -   Core engineers
 -   Foundation members
