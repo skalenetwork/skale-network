@@ -18,8 +18,15 @@ Dates are tentative (as with any software development), but here are the things 
 -   [x] Release skale.js
 -   [x] Release filestorage.js
 -   [x] Release skale-consensus
+-   [x] Release of sgx.py
+-   [x] Release of SKALE NMS
+-   [x] Release of SKALE node
+-   [x] Release of SKALE node cli
+-   [x] Release of transaction-manager
+-   [x] Release of docker-lvmpy
+-   [x] Release of SGX Wallet
 -   [ ] Release SKALE smart contracts
--   [ ] Release SKALE validator software
+-   [ ] Release SKALE node admin
 -   [ ] Release SKALE interchain communication
 -   [ ] and more...
 

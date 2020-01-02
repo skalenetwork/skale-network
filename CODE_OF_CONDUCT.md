@@ -1,55 +1,38 @@
 # SKALE Code of Conduct
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ## Our Standards
 
-Examples of behavior that contributes to creating a positive environment
-include:
+Examples of behavior that contributes to creating a positive environment include:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+-   Using welcoming and inclusive language
+-   Being respectful of differing viewpoints and experiences
+-   Gracefully accepting constructive criticism
+-   Focusing on what is best for the community
+-   Showing empathy towards other community members
 
 Examples of unacceptable behavior by participants include:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Conduct which could reasonably be considered inappropriate for the forum in which it occurs.
+-   The use of sexualized language or imagery and unwelcome sexual attention or
+    advances
+-   Trolling, insulting/derogatory comments, and personal or political attacks
+-   Public or private harassment
+-   Publishing others' private information, such as a physical or electronic
+    address, without explicit permission
+-   Conduct which could reasonably be considered inappropriate for the forum in which it occurs.
 
 All SKALE forums and spaces are meant for professional interactions, and any behavior which could reasonably be considered inappropriate in a professional setting is unacceptable.
 
 ## Our Responsibilities
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing SKALE or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+This Code of Conduct applies both within project spaces and in public spaces when an individual is representing SKALE or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
 
 ## Conflict Resolution
 
@@ -61,13 +44,13 @@ However, for the vast majority of issues, we aim to empower individuals to first
 
 If you are experiencing or witnessing conflict, we ask you to use the following escalation strategy to address the conflict:
 
-1. Address the perceived conflict directly with those involved, preferably in a real-time medium.
-2. If this fails, get a third party (e.g. a mutual friend, and/or someone with background on the issue, but not involved in the conflict) to intercede.
-3. If you are still unable to resolve the conflict, and you believe it rises to harassment or another code of conduct violation, report it.
+1.  Address the perceived conflict directly with those involved, preferably in a real-time medium.
+2.  If this fails, get a third party (e.g. a mutual friend, and/or someone with background on the issue, but not involved in the conflict) to intercede.
+3.  If you are still unable to resolve the conflict, and you believe it rises to harassment or another code of conduct violation, report it.
 
 ## Reporting Violations
 
-Violations of the Code of Conduct can be reported to to the SKALE support team at <support+codeofconduct@skalelabs.com> or at [http://skale.chat](http://skale.chat). The Project Steward will determine whether the Code of Conduct was violated, and will issue an appropriate sanction, possibly including a written warning or expulsion from the project, project sponsored spaces, or project forums. We ask that you make a good-faith effort to resolve your conflict via the conflict resolution policy (above) before submitting a report.
+Violations of the Code of Conduct can be reported to to the SKALE support team at <mailto:support+codeofconduct@skalelabs.com> or at <http://skale.chat>. The Project Steward will determine whether the Code of Conduct was violated, and will issue an appropriate sanction, possibly including a written warning or expulsion from the project, project sponsored spaces, or project forums. We ask that you make a good-faith effort to resolve your conflict via the conflict resolution policy (above) before submitting a report.
 
 Violations of the Code of Conduct can occur in any setting, even those unrelated to the project. We will only consider complaints about conduct that has occurred within one year of the report.
 
@@ -78,4 +61,4 @@ If the Project Steward receives a report alleging a violation of the Code of Con
 ## Attribution
 
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html, and includes some aspects of the Geek Feminism Code of Conduct and the Drupal Code of Conduct.
+available at <https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>, and includes some aspects of the Geek Feminism Code of Conduct and the Drupal Code of Conduct.
