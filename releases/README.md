@@ -10,6 +10,7 @@
 
 -   Main Ethereum Network
     -   [Release 1.5.0](/releases/mainnet/skale-manager/1.5.0) (30 Jun 2020)
+    -   [Release 1.5.1](/releases/mainnet/skale-manager/1.5.1) (13 Aug 2020)
 
 ### Test Releases
 
