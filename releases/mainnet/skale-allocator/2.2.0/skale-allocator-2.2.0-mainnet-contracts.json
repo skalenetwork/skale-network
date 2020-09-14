@@ -1,0 +1,7 @@
+{
+    "allocator": "0xB575c158399227b6ef4Dcfb05AA3bCa30E12a7ba",
+    "contract_manager": "0xC04A10Fd5e6513242558f47331568aBD6185a310",
+    "escrow": "0x7A7d709332d10786adCf35FD83608F656a7b4a30",
+    "proxy_admin": "0x9B1E4A9Fe5142346E1C51907f0583e6aC663b8A0",
+    "proxy_factory": "0xBc81979091a5A7A50b80e490024Bcbc336216f9b"
+}

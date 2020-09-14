@@ -1,0 +1,1271 @@
+{
+    "allocator_abi": [
+        {
+            "anonymous": false, 
+            "inputs": [
+                {
+                    "indexed": false, 
+                    "internalType": "uint256", 
+                    "name": "id", 
+                    "type": "uint256"
+                }
+            ], 
+            "name": "PlanCreated", 
+            "type": "event"
+        }, 
+        {
+            "anonymous": false, 
+            "inputs": [
+                {
+                    "indexed": true, 
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "sender", 
+                    "type": "address"
+                }
+            ], 
+            "name": "RoleGranted", 
+            "type": "event"
+        }, 
+        {
+            "anonymous": false, 
+            "inputs": [
+                {
+                    "indexed": true, 
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "sender", 
+                    "type": "address"
+                }
+            ], 
+            "name": "RoleRevoked", 
+            "type": "event"
+        }, 
+        {
+            "inputs": [], 
+            "name": "DEFAULT_ADMIN_ROLE", 
+            "outputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "", 
+                    "type": "bytes32"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [], 
+            "name": "VESTING_MANAGER_ROLE", 
+            "outputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "", 
+                    "type": "bytes32"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [], 
+            "name": "contractManager", 
+            "outputs": [
+                {
+                    "internalType": "contract IContractManager", 
+                    "name": "", 
+                    "type": "address"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }
+            ], 
+            "name": "getRoleAdmin", 
+            "outputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "", 
+                    "type": "bytes32"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "index", 
+                    "type": "uint256"
+                }
+            ], 
+            "name": "getRoleMember", 
+            "outputs": [
+                {
+                    "internalType": "address", 
+                    "name": "", 
+                    "type": "address"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }
+            ], 
+            "name": "getRoleMemberCount", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }
+            ], 
+            "name": "grantRole", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }
+            ], 
+            "name": "hasRole", 
+            "outputs": [
+                {
+                    "internalType": "bool", 
+                    "name": "", 
+                    "type": "bool"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }
+            ], 
+            "name": "renounceRole", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }
+            ], 
+            "name": "revokeRole", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "operator", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "from", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "to", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "amount", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "bytes", 
+                    "name": "userData", 
+                    "type": "bytes"
+                }, 
+                {
+                    "internalType": "bytes", 
+                    "name": "operatorData", 
+                    "type": "bytes"
+                }
+            ], 
+            "name": "tokensReceived", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "startVesting", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "vestingCliff", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "totalVestingDuration", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "enum Allocator.TimeUnit", 
+                    "name": "vestingIntervalTimeUnit", 
+                    "type": "uint8"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "vestingInterval", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "bool", 
+                    "name": "canDelegate", 
+                    "type": "bool"
+                }, 
+                {
+                    "internalType": "bool", 
+                    "name": "isTerminatable", 
+                    "type": "bool"
+                }
+            ], 
+            "name": "addPlan", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "planId", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "startMonth", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "fullAmount", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "lockupAmount", 
+                    "type": "uint256"
+                }
+            ], 
+            "name": "connectBeneficiaryToPlan", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "stopVesting", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "getStartMonth", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "getFinishVestingTime", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "getVestingCliffInMonth", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "isVestingActive", 
+            "outputs": [
+                {
+                    "internalType": "bool", 
+                    "name": "", 
+                    "type": "bool"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "isBeneficiaryRegistered", 
+            "outputs": [
+                {
+                    "internalType": "bool", 
+                    "name": "", 
+                    "type": "bool"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "isDelegationAllowed", 
+            "outputs": [
+                {
+                    "internalType": "bool", 
+                    "name": "", 
+                    "type": "bool"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "getFullAmount", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "getEscrowAddress", 
+            "outputs": [
+                {
+                    "internalType": "address", 
+                    "name": "", 
+                    "type": "address"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "getLockupPeriodEndTimestamp", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "getTimeOfNextVest", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "planId", 
+                    "type": "uint256"
+                }
+            ], 
+            "name": "getPlan", 
+            "outputs": [
+                {
+                    "components": [
+                        {
+                            "internalType": "uint256", 
+                            "name": "totalVestingDuration", 
+                            "type": "uint256"
+                        }, 
+                        {
+                            "internalType": "uint256", 
+                            "name": "vestingCliff", 
+                            "type": "uint256"
+                        }, 
+                        {
+                            "internalType": "enum Allocator.TimeUnit", 
+                            "name": "vestingIntervalTimeUnit", 
+                            "type": "uint8"
+                        }, 
+                        {
+                            "internalType": "uint256", 
+                            "name": "vestingInterval", 
+                            "type": "uint256"
+                        }, 
+                        {
+                            "internalType": "bool", 
+                            "name": "isDelegationAllowed", 
+                            "type": "bool"
+                        }, 
+                        {
+                            "internalType": "bool", 
+                            "name": "isTerminatable", 
+                            "type": "bool"
+                        }
+                    ], 
+                    "internalType": "struct Allocator.Plan", 
+                    "name": "", 
+                    "type": "tuple"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "getBeneficiaryPlanParams", 
+            "outputs": [
+                {
+                    "components": [
+                        {
+                            "internalType": "enum Allocator.BeneficiaryStatus", 
+                            "name": "status", 
+                            "type": "uint8"
+                        }, 
+                        {
+                            "internalType": "uint256", 
+                            "name": "planId", 
+                            "type": "uint256"
+                        }, 
+                        {
+                            "internalType": "uint256", 
+                            "name": "startMonth", 
+                            "type": "uint256"
+                        }, 
+                        {
+                            "internalType": "uint256", 
+                            "name": "fullAmount", 
+                            "type": "uint256"
+                        }, 
+                        {
+                            "internalType": "uint256", 
+                            "name": "amountAfterLockup", 
+                            "type": "uint256"
+                        }
+                    ], 
+                    "internalType": "struct Allocator.Beneficiary", 
+                    "name": "", 
+                    "type": "tuple"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "contractManagerAddress", 
+                    "type": "address"
+                }
+            ], 
+            "name": "initialize", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "wallet", 
+                    "type": "address"
+                }
+            ], 
+            "name": "calculateVestedAmount", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "vestedAmount", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }
+    ], 
+    "allocator_address": "0xB575c158399227b6ef4Dcfb05AA3bCa30E12a7ba", 
+    "contract_manager_abi": [
+        {
+            "anonymous": false, 
+            "inputs": [
+                {
+                    "indexed": false, 
+                    "internalType": "string", 
+                    "name": "contractsName", 
+                    "type": "string"
+                }, 
+                {
+                    "indexed": false, 
+                    "internalType": "address", 
+                    "name": "contractsAddress", 
+                    "type": "address"
+                }
+            ], 
+            "name": "ContractUpgraded", 
+            "type": "event"
+        }, 
+        {
+            "anonymous": false, 
+            "inputs": [
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "previousOwner", 
+                    "type": "address"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "newOwner", 
+                    "type": "address"
+                }
+            ], 
+            "name": "OwnershipTransferred", 
+            "type": "event"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "", 
+                    "type": "bytes32"
+                }
+            ], 
+            "name": "contracts", 
+            "outputs": [
+                {
+                    "internalType": "address", 
+                    "name": "", 
+                    "type": "address"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [], 
+            "name": "owner", 
+            "outputs": [
+                {
+                    "internalType": "address", 
+                    "name": "", 
+                    "type": "address"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [], 
+            "name": "renounceOwnership", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "newOwner", 
+                    "type": "address"
+                }
+            ], 
+            "name": "transferOwnership", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [], 
+            "name": "initialize", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "string", 
+                    "name": "contractsName", 
+                    "type": "string"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "newContractsAddress", 
+                    "type": "address"
+                }
+            ], 
+            "name": "setContractsAddress", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "string", 
+                    "name": "name", 
+                    "type": "string"
+                }
+            ], 
+            "name": "getContract", 
+            "outputs": [
+                {
+                    "internalType": "address", 
+                    "name": "contractAddress", 
+                    "type": "address"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }
+    ], 
+    "contract_manager_address": "0xC04A10Fd5e6513242558f47331568aBD6185a310", 
+    "escrow_abi": [
+        {
+            "anonymous": false, 
+            "inputs": [
+                {
+                    "indexed": true, 
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "sender", 
+                    "type": "address"
+                }
+            ], 
+            "name": "RoleGranted", 
+            "type": "event"
+        }, 
+        {
+            "anonymous": false, 
+            "inputs": [
+                {
+                    "indexed": true, 
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }, 
+                {
+                    "indexed": true, 
+                    "internalType": "address", 
+                    "name": "sender", 
+                    "type": "address"
+                }
+            ], 
+            "name": "RoleRevoked", 
+            "type": "event"
+        }, 
+        {
+            "inputs": [], 
+            "name": "DEFAULT_ADMIN_ROLE", 
+            "outputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "", 
+                    "type": "bytes32"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [], 
+            "name": "contractManager", 
+            "outputs": [
+                {
+                    "internalType": "contract IContractManager", 
+                    "name": "", 
+                    "type": "address"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }
+            ], 
+            "name": "getRoleAdmin", 
+            "outputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "", 
+                    "type": "bytes32"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "index", 
+                    "type": "uint256"
+                }
+            ], 
+            "name": "getRoleMember", 
+            "outputs": [
+                {
+                    "internalType": "address", 
+                    "name": "", 
+                    "type": "address"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }
+            ], 
+            "name": "getRoleMemberCount", 
+            "outputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }
+            ], 
+            "name": "grantRole", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }
+            ], 
+            "name": "hasRole", 
+            "outputs": [
+                {
+                    "internalType": "bool", 
+                    "name": "", 
+                    "type": "bool"
+                }
+            ], 
+            "stateMutability": "view", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }
+            ], 
+            "name": "renounceRole", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "bytes32", 
+                    "name": "role", 
+                    "type": "bytes32"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "account", 
+                    "type": "address"
+                }
+            ], 
+            "name": "revokeRole", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "contractManagerAddress", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "beneficiary", 
+                    "type": "address"
+                }
+            ], 
+            "name": "initialize", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "contractManagerAddress", 
+                    "type": "address"
+                }
+            ], 
+            "name": "initialize", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "operator", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "from", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "to", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "amount", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "bytes", 
+                    "name": "userData", 
+                    "type": "bytes"
+                }, 
+                {
+                    "internalType": "bytes", 
+                    "name": "operatorData", 
+                    "type": "bytes"
+                }
+            ], 
+            "name": "tokensReceived", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "to", 
+                    "type": "address"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "bytes", 
+                    "name": "", 
+                    "type": "bytes"
+                }, 
+                {
+                    "internalType": "bytes", 
+                    "name": "", 
+                    "type": "bytes"
+                }
+            ], 
+            "name": "tokensToSend", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [], 
+            "name": "retrieve", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "address", 
+                    "name": "destination", 
+                    "type": "address"
+                }
+            ], 
+            "name": "retrieveAfterTermination", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "validatorId", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "amount", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "uint256", 
+                    "name": "delegationPeriod", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "string", 
+                    "name": "info", 
+                    "type": "string"
+                }
+            ], 
+            "name": "delegate", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "delegationId", 
+                    "type": "uint256"
+                }
+            ], 
+            "name": "requestUndelegation", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "delegationId", 
+                    "type": "uint256"
+                }
+            ], 
+            "name": "cancelPendingDelegation", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "validatorId", 
+                    "type": "uint256"
+                }, 
+                {
+                    "internalType": "address", 
+                    "name": "to", 
+                    "type": "address"
+                }
+            ], 
+            "name": "withdrawBounty", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }, 
+        {
+            "inputs": [
+                {
+                    "internalType": "uint256", 
+                    "name": "vestedAmount", 
+                    "type": "uint256"
+                }
+            ], 
+            "name": "cancelVesting", 
+            "outputs": [], 
+            "stateMutability": "nonpayable", 
+            "type": "function"
+        }
+    ], 
+    "escrow_address": "0x7A7d709332d10786adCf35FD83608F656a7b4a30", 
+    "proxy_admin_address": "0x9B1E4A9Fe5142346E1C51907f0583e6aC663b8A0", 
+    "proxy_factory_address": "0xBc81979091a5A7A50b80e490024Bcbc336216f9b"
+}
