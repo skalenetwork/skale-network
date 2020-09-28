@@ -27,6 +27,7 @@
 - [Release 1.0.0](https://github.com/skalenetwork/validator-cli/releases/tag/1.0.0) (16 Sept 2020)
 - [Release 1.1.0](https://github.com/skalenetwork/validator-cli/releases/tag/1.1.0) (18 Sept 2020)
 - [Release 1.1.1](https://github.com/skalenetwork/validator-cli/releases/tag/1.1.1) (18 Sept 2020)
+- [Release 1.1.2](https://github.com/skalenetwork/validator-cli/releases/tag/1.1.2) (25 Sept 2020)
 
 #### SGX Wallet
 
