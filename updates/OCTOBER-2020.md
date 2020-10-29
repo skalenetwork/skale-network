@@ -13,7 +13,7 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 During this month, key areas that the team was focused on, are:
 
 -   Mainnet Phase 2 support and bug fixes
--   DKG process improvements and gas usage optimisations
+-   DKG process improvements and gas usage optimizations
 -   Bounty algorithm updates to make payments per calendar month
 -   Schains enhancements and stability features in Skaled
 -   SKALE Consensus: moving to BLAKE3 hash, OpenSSL for ECDSA verification and other performance improvements
@@ -43,7 +43,7 @@ October:
 -   Passed all shared pointers as const reference[\[PR#271\]](https://github.com/skalenetwork/skale-consensus/pull/271)
 -   Fixed timeout exception when connecting to SGX [\[PR#272\]](https://github.com/skalenetwork/skale-consensus/pull/272), [\[PR#273\]](https://github.com/skalenetwork/skale-consensus/pull/273), [\[PR#274\]](https://github.com/skalenetwork/skale-consensus/pull/274)
 -   Build fixes [\[PR#275\]](https://github.com/skalenetwork/skale-consensus/pull/275)
--   Used faster Openssl curve for consensus message signing [\[PR#276\]](https://github.com/skalenetwork/skale-consensus/pull/276), [\[PR#278\]](https://github.com/skalenetwork/skale-consensus/pull/278)
+-   Used faster OpenSSL curve for consensus message signing [\[PR#276\]](https://github.com/skalenetwork/skale-consensus/pull/276), [\[PR#278\]](https://github.com/skalenetwork/skale-consensus/pull/278)
 -   Fixes for emptyBlockIntervalMs [\[PR#277\]](https://github.com/skalenetwork/skale-consensus/pull/277)
 -   Used fast signatures for data availability proofs [\[PR#279\]](https://github.com/skalenetwork/skale-consensus/pull/279)
 -   Adopted RapidJSON in consensus for performance improvements [\[PR#280\]](https://github.com/skalenetwork/skale-consensus/pull/280)
@@ -55,13 +55,13 @@ October:
 -   Fixed BLS keys import, allowing only Hex [\[PR#188\]](https://github.com/skalenetwork/SGXWallet/pull/188)
 -   Separated response and complaint functions [\[PR#190\]](https://github.com/skalenetwork/SGXWallet/pull/190)
 -   Updated to use Intel signed version by default [\[PR#191\]](https://github.com/skalenetwork/SGXWallet/pull/191)
--   Added additional tests for Response fubctionality [\[PR#193\]](https://github.com/skalenetwork/SGXWallet/pull/193), [\[PR#195\]](https://github.com/skalenetwork/SGXWallet/pull/195)
+-   Added additional tests for Response functionality [\[PR#193\]](https://github.com/skalenetwork/SGXWallet/pull/193), [\[PR#195\]](https://github.com/skalenetwork/SGXWallet/pull/195)
 -   Added ECDSA key import [\[PR#196\]](https://github.com/skalenetwork/SGXWallet/pull/196)
 
 **SKALED (1.46.0-develop.3)**
 
 -   Added DDOS protection [\[PR#356\]](https://github.com/skalenetwork/skaled/pull/356)
--   Snapshots fubctionality improvements [\[PR#357\]](https://github.com/skalenetwork/skaled/pull/357)
+-   Snapshots functionality improvements [\[PR#357\]](https://github.com/skalenetwork/skaled/pull/357)
 -   Fixes for snapshots downloading[\[PR#358\]](https://github.com/skalenetwork/skaled/pull/358)
 -   Adopting RapidJSON in Skaled [\[PR#359\]](https://github.com/skalenetwork/skaled/pull/359)
 -   Fixed eth_getTransactionReceipt: return status as 0x string [\[PR#360\]](https://github.com/skalenetwork/skaled/pull/360)
@@ -69,7 +69,7 @@ October:
 -   Merged OpenSSL fixes in consensus [\[PR#363\]](https://github.com/skalenetwork/skaled/pull/363)
 -   Improved Un-DDOS setting defaults in skaled [\[PR#364\]](https://github.com/skalenetwork/skaled/pull/364)
 -   Fixed semantic versioning to include patch number[\[PR#365\]](https://github.com/skalenetwork/skaled/pull/365)
--   Adopted consensus enhancements if conasensus is stopped in a middle of consensus [\[PR#366\]](https://github.com/skalenetwork/skaled/pull/366), [\[PR#367\]](https://github.com/skalenetwork/skaled/pull/367)
+-   Adopted consensus enhancements if consensus is stopped in a middle of consensus [\[PR#366\]](https://github.com/skalenetwork/skaled/pull/366), [\[PR#367\]](https://github.com/skalenetwork/skaled/pull/367)
 -   Add consensus with fixed failed::proposalVectorDB NodeGettersSetters [\[PR#368\]](https://github.com/skalenetwork/skaled/pull/368)
 
 
@@ -123,7 +123,7 @@ October:
 
 **bounty-agent (1.1.0-develop.0)**
 
--   Update bounty event maning [\[PR#86\]](https://github.com/skalenetwork/bounty-agent/pull/86)
+-   Update bounty event naming [\[PR#86\]](https://github.com/skalenetwork/bounty-agent/pull/86)
 -   Improved init logs [\[PR#87\]](https://github.com/skalenetwork/bounty-agent/pull/87)
 -   Updated reward date logic for sending getBounty tx [\[PR#88\]](https://github.com/skalenetwork/bounty-agent/pull/88)
 -   Updated dependencies
