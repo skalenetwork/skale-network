@@ -36,6 +36,7 @@
 #### SKALE Node
 
 - [Release 1.1.0](https://github.com/skalenetwork/skale-node/releases/tag/1.1.0) (17 Sept 2020)
+- [Release 1.1.1](https://github.com/skalenetwork/skale-node/releases/tag/1.1.1) (18 Nov 2020)
 
 #### Skaled
 
@@ -55,7 +56,8 @@
 
 #### SKALE Bounty
 
-- [Release 1.0.0-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/1.0.0-stable.0) (17 Sept 2020)  
+- [Release 1.0.0-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/1.0.0-stable.0) (17 Sept 2020) 
+- [Release 1.1.0-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/1.1.0-stable.0) (18 Nov 2020) 
 
 #### docker lvmpy
 
