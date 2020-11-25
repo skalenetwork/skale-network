@@ -56,3 +56,11 @@ October:
 -   Fixed SGX_ERROR_OUT_OF_TCS  [\[PR#219\]](https://github.com/skalenetwork/SGXWallet/pull/219)
 -   Added nightly tests  [\[PR#224\]](https://github.com/skalenetwork/SGXWallet/pull/224), [\[PR#225\]](https://github.com/skalenetwork/SGXWallet/pull/225)
 -   Intel Whitelisting submission [\[PR#226\]](https://github.com/skalenetwork/SGXWallet/pull/226), [\[PR#227\]](https://github.com/skalenetwork/SGXWallet/pull/227), [\[PR#228\]](https://github.com/skalenetwork/SGXWallet/pull/228), [\[PR#229\]](https://github.com/skalenetwork/SGXWallet/pull/229), [\[PR#230\]](https://github.com/skalenetwork/SGXWallet/pull/230), [\[PR#231\]](https://github.com/skalenetwork/SGXWallet/pull/231), [\[PR#232\]](https://github.com/skalenetwork/SGXWallet/pull/232), [\[PR#233\]](https://github.com/skalenetwork/SGXWallet/pull/233), [\[PR#234\]](https://github.com/skalenetwork/SGXWallet/pull/234)
+
+**SKALED ()**
+
+-   Fixed snapshots issue [\[PR#370\]](https://github.com/skalenetwork/skaled/pull/370)
+-   Fixed skaled build after latest libff update [\[PR#371\]](https://github.com/skalenetwork/skaled/pull/371)
+-   Fixed download snapshot if one of 15 nodes are offline [\[PR#373\]](https://github.com/skalenetwork/skaled/pull/373)
+-   Fixed skaled build [\[PR#374\]](https://github.com/skalenetwork/skaled/pull/374)
+-   Fixed skaled crash due to skale_nodesRpcInfo call [\[PR#376\]](https://github.com/skalenetwork/skaled/pull/376)
