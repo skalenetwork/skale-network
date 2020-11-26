@@ -17,7 +17,7 @@ During November, the team was mostly focused on:
 
 ## Code changes
 
-October:
+November:
 
 **SKALE Manager ()**
 
@@ -42,7 +42,7 @@ October:
 -   Fixed retry to SGX when the server is down [\[PR#295\]](https://github.com/skalenetwork/skale-consensus/pull/295)
 -   Fixed empty block time is consensus [\[PR#296\]](https://github.com/skalenetwork/skale-consensus/pull/296)
 
-**SGXWallet (1.59.1-develop.2)**
+**SGXWallet ()**
 
 -   Fixed memory leak in BLS [\[PR#194\]](https://github.com/skalenetwork/SGXWallet/pull/194)
 -   Extended tests for DKG procedure [\[PR#195\]](https://github.com/skalenetwork/SGXWallet/pull/195)
@@ -64,3 +64,35 @@ October:
 -   Fixed download snapshot if one of 15 nodes are offline [\[PR#373\]](https://github.com/skalenetwork/skaled/pull/373)
 -   Fixed skaled build [\[PR#374\]](https://github.com/skalenetwork/skaled/pull/374)
 -   Fixed skaled crash due to skale_nodesRpcInfo call [\[PR#376\]](https://github.com/skalenetwork/skaled/pull/376)
+-   Updated IMA messages verification [\[PR#379\]](https://github.com/skalenetwork/skaled/pull/379)
+-   Renamed snapshotInterval parameter [\[PR#380\]](https://github.com/skalenetwork/skaled/pull/380)
+-   Updated skaled container workflow [\[PR#381\]](https://github.com/skalenetwork/skaled/pull/381), [\[PR#382\]](https://github.com/skalenetwork/skaled/pull/382)
+-   Fixed skaled tests [\[PR#385\]](https://github.com/skalenetwork/skaled/pull/385)
+-   Updated skaled with the most recent fixes from consensus [\[PR#386\]](https://github.com/skalenetwork/skaled/pull/386), [\[PR#388\]](https://github.com/skalenetwork/skaled/pull/388)
+-   Added downloading snapshot from a random node [\[PR#387\]](https://github.com/skalenetwork/skaled/pull/387)
+-   Fixed IMA transfer for ERC20 and ERC721 tokens [\[PR#389\]](https://github.com/skalenetwork/skaled/pull/389)
+-   Generated new built-in IMA contracts for S-Chain [\[PR#390\]](https://github.com/skalenetwork/skaled/pull/390)
+-   Fixed default level logs [\[PR#391\]](https://github.com/skalenetwork/skaled/pull/391)
+-   Closed debug interface [\[PR#393\]](https://github.com/skalenetwork/skaled/pull/393)
+
+**SKALE Admin ()**
+
+-   Fixed dry run disabling [\[PR#327\]](https://github.com/skalenetwork/skale-admin/pull/327)
+-   Restructured allocation file, refactored containers limits [\[PR#328\]](https://github.com/skalenetwork/skale-admin/pull/328)
+-   Added IMA supporting SGX wallet [\[PR#331\]](https://github.com/skalenetwork/skale-admin/pull/331)
+-   Fixed schain block mining [\[PR#332\]](https://github.com/skalenetwork/skale-admin/pull/332)
+-   Moved wallet send API to RPC [\[PR#333\]](https://github.com/skalenetwork/skale-admin/pull/333)
+-   Renamed snapshotInterval parameter [\[PR#335\]](https://github.com/skalenetwork/skale-admin/pull/335)
+-   Added sChain blocks check, refactored SChainChecks, added tests [\[PR#336\]](https://github.com/skalenetwork/skale-admin/pull/336)
+-   Temporary commented out IMA [\[PR#337\]](https://github.com/skalenetwork/skale-admin/pull/337)
+-   Filtered empty schains structures [\[PR#338\]](https://github.com/skalenetwork/skale-admin/pull/338)
+-   Fixed ALLOWED_TIMESTAMP_DIFF type [\[PR#339\]](https://github.com/skalenetwork/skale-admin/pull/339)
+-   Fix IMA container execution in creator [\[PR#340\]](https://github.com/skalenetwork/skale-admin/pull/340)
+-   Fixed IMA cleaner [\[PR#341\]](https://github.com/skalenetwork/skale-admin/pull/341)
+-   Changed cleaner time during DKG process [\[PR#342\]](https://github.com/skalenetwork/skale-admin/pull/342)
+-   Removed deprecated set-env syntax form publish workflow [\[PR#343\]](https://github.com/skalenetwork/skale-admin/pull/343)
+-   Added catch failure after type 2 complaint (DKG process)  [\[PR#344\]](https://github.com/skalenetwork/skale-admin/pull/344)
+-   Changed SchainType for medium schain [\[PR#345\]](https://github.com/skalenetwork/skale-admin/pull/345)
+-   Temporary commented out IMA  [\[PR#346\]](https://github.com/skalenetwork/skale-admin/pull/346)
+-   Updated CODEOWNERS  [\[PR#348\]](https://github.com/skalenetwork/skale-admin/pull/348)
+-   Restructured Telegram notifications  [\[PR#349\]](https://github.com/skalenetwork/skale-admin/pull/349)
