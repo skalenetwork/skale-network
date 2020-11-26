@@ -126,3 +126,24 @@ November:
 -   Updated ownable contracts [\[PR#339\]](https://github.com/skalenetwork/ima/pull/339)
 -   Updated CODEOWNERS [\[PR#340\]](https://github.com/skalenetwork/ima/pull/340)
 -   Updated dependencies
+
+**SKALE Node CLI ()**
+
+-   Turned off dry run env [\[PR#337\]](https://github.com/skalenetwork/skale-node-cli/pull/337)
+-   Restructured resource allocation file, added IMA limits [\[PR#338\]](https://github.com/skalenetwork/skale-node-cli/pull/338)
+-   Added IMA limits [\[PR#339\]](https://github.com/skalenetwork/skale-node-cli/pull/339)
+-   Customized gas limit and gas price, removed deps [\[PR#345\]](https://github.com/skalenetwork/skale-node-cli/pull/345)
+-   Fixed resource allocation file init [\[PR#346\]](https://github.com/skalenetwork/skale-node-cli/pull/346)
+-   Handling script error [\[PR#347\]](https://github.com/skalenetwork/skale-node-cli/pull/347)
+-   Set node-cli to save metadata about current versions and versions history [\[PR#348\]](https://github.com/skalenetwork/skale-node-cli/pull/348)
+-   Hiding log folder init message [\[PR#353\]](https://github.com/skalenetwork/skale-node-cli/pull/353)
+-   Updated README.md [\[PR#354\]](https://github.com/skalenetwork/skale-node-cli/pull/354)
+-   Added node cli command for contracts abi validation [\[PR#355\]](https://github.com/skalenetwork/skale-node-cli/pull/355)
+-   Fixed backup and restore [\[PR#358\]](https://github.com/skalenetwork/skale-node-cli/pull/358)
+-   Fixed publish workflow [\[PR#360\]](https://github.com/skalenetwork/skale-node-cli/pull/360)
+-   Fixed set versions Github Actions script [\[PR#361\]](https://github.com/skalenetwork/skale-node-cli/pull/361)
+-   Enabled 1/32 of a node configurations for schains [\[PR#362\]](https://github.com/skalenetwork/skale-node-cli/pull/362)
+-   Added skaled RPC and blocks checks to checks cmd to node-cli [\[PR#365\]](https://github.com/skalenetwork/skale-node-cli/pull/365)
+-   Updated CODEOWNERS [\[PR#366\]](https://github.com/skalenetwork/skale-node-cli/pull/366)
+-   Added --gas-price --gas-limit for skale node register [\[PR#367\]](https://github.com/skalenetwork/skale-node-cli/pull/367)
+-   Updated dependencies
