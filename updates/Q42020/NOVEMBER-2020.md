@@ -147,3 +147,39 @@ November:
 -   Updated CODEOWNERS [\[PR#366\]](https://github.com/skalenetwork/skale-node-cli/pull/366)
 -   Added --gas-price --gas-limit for skale node register [\[PR#367\]](https://github.com/skalenetwork/skale-node-cli/pull/367)
 -   Updated dependencies
+
+**Validator CLI ()**
+
+-   Updated dependencies
+
+**sla-agent ()**
+
+-   no updates
+
+**bounty-agent ()**
+
+-   Used getNodeNextRewardDate for sending getBounty transaction [\[PR#92\]](https://github.com/skalenetwork/bounty-agent/pull/92)
+-   Updated to skale manager with a new getBounty procedure [\[PR#94\]](https://github.com/skalenetwork/bounty-agent/pull/94)
+-   Fixed set-env for publishing docker image [\[PR#97\]](https://github.com/skalenetwork/bounty-agent/pull/97)
+-   Updated dependencies
+
+**SKALE.py ()**
+
+-   Fixed DEFAULT_GAS_LIMIT env [\[PR#319\]](https://github.com/skalenetwork/skale.py/pull/319)
+-   Added function to send ETH with skale.wallet [\[PR#324\]](https://github.com/skalenetwork/skale.py/pull/324)
+-   Removed print  [\[PR#325\]](https://github.com/skalenetwork/skale.py/pull/325)
+-   Updated CODEOWNERS [\[PR#329\]](https://github.com/skalenetwork/skale.py/pull/329)
+-   Updated dependencies
+
+
+**Transaction-manager ()**
+
+-   Increaseв http timeout [\[PR#123\]](https://github.com/skalenetwork/transaction-manager/pull/123)
+-   Fixed crop dict for tx without data [\[PR#124\]](https://github.com/skalenetwork/transaction-manager/pull/124)
+-   Fixed Transaction manager exceeds connection limit [\[PR#125\]](https://github.com/skalenetwork/transaction-manager/pull/125)
+-   Added customizable blocks limit, dropped skale.py init [\[PR#128\]](https://github.com/skalenetwork/transaction-manager/pull/128)
+-   Updated dependencies
+
+**sgx.py ()**
+
+-   no updates
