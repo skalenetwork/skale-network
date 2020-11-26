@@ -12,7 +12,12 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During November, the team was mostly focused on:
 
--   Mainnet Phase 2 support and bug fixes
+-   Schains perforamnce and stability testing, enabling Medium schains 1/32 of a node configuration
+-   Consensus, skaled perormance optimisations and stability improvements
+-   SGX wallet memory usage optimisations, performance improvements, load testing and further submission to Intel Whitelisting
+-   Skale manager Bounty algorithm updates
+-   IMA beta release preparations, enabling SGX wallet and Transaction manager support, outstanding bug fixes and general enhancements
+-   Various bug fixes
 
 
 ## Code changes
