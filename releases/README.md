@@ -82,3 +82,7 @@
     -   [Release 1.0.0-develop.38](/releases/rinkeby/IMA/1.0.0-develop.38)
 -   Kovan
     -   [Release 1.0.0-develop.38](/releases/kovan/IMA/1.0.0-develop.38)
+    
+#### SKALE Node
+
+- [1.2.2 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.2.2-testnet) (30 Nov 2020)
