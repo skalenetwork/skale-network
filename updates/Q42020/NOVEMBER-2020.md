@@ -12,11 +12,11 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During November, the team was mostly focused on:
 
--   Schains perforamnce and stability testing, enabling Medium schains 1/32 of a node configuration
--   Consensus, skaled perormance optimisations and stability improvements
--   SGX wallet memory usage optimisations, performance improvements, load testing and further submission to Intel Whitelisting
+-   Schains performance and stability testing, enabling Medium schains 1/32 of a node configuration
+-   Consensus, skaled performance optimizations, and stability improvements
+-   SGX wallet memory usage optimizations, performance improvements, load testing, and further submission to Intel Whitelisting
 -   Skale manager Bounty algorithm updates
--   IMA beta release preparations, enabling SGX wallet and Transaction manager support, outstanding bug fixes and general enhancements
+-   IMA beta release preparations, enabling SGX wallet and Transaction manager support, outstanding bug fixes, and general enhancements
 -   Various bug fixes
 
 
@@ -24,7 +24,7 @@ During November, the team was mostly focused on:
 
 November:
 
-**SKALE Manager ()**
+**SKALE Manager (1.6.2-develop.0)**
 
 -   Fixed Bounty V2 migrartion issue [\[PR#419\]](https://github.com/skalenetwork/skale-manager/pull/419)
 -   Added independent audits references to the documentation[\[PR#420\]](https://github.com/skalenetwork/skale-manager/pull/420)
@@ -32,6 +32,7 @@ November:
 -   Merged release artifacts to the develop branch [\[PR#426\]](https://github.com/skalenetwork/skale-manager/pull/426)
 -   Added range check as part of the Crypto audit enhancements [\[PR#427\]](https://github.com/skalenetwork/skale-manager/pull/427)
 -   Added support of 1/32 of a node configuration for the schains launch [\[PR#431\]](https://github.com/skalenetwork/skale-manager/pull/431)
+-   Fixed Bounty formula [\[PR#435\]](https://github.com/skalenetwork/skale-manager/pull/435), [\[PR#438\]](https://github.com/skalenetwork/skale-manager/pull/438)
 -   Updated dependencies
 
 **SKALE Consensus**
@@ -46,8 +47,10 @@ November:
 -   Fixed: don't do an ECDSA signature check on a default block[\[PR#294\]](https://github.com/skalenetwork/skale-consensus/pull/294)
 -   Fixed retry to SGX when the server is down [\[PR#295\]](https://github.com/skalenetwork/skale-consensus/pull/295)
 -   Fixed empty block time is consensus [\[PR#296\]](https://github.com/skalenetwork/skale-consensus/pull/296)
+-   Updated CODEOWNERS [\[PR#297\]](https://github.com/skalenetwork/skale-consensus/pull/297)
+-   Added libcurl error 35 handling and print unexpected exception when reconnecting to SGX server [\[PR#298\]](https://github.com/skalenetwork/skale-consensus/pull/298)
 
-**SGXWallet ()**
+**SGXWallet (1.59.1-develop.8)**
 
 -   Fixed memory leak in BLS [\[PR#194\]](https://github.com/skalenetwork/SGXWallet/pull/194)
 -   Extended tests for DKG procedure [\[PR#195\]](https://github.com/skalenetwork/SGXWallet/pull/195)
@@ -60,9 +63,9 @@ November:
 -   GitHub actions CI process improvements [\[PR#213\]](https://github.com/skalenetwork/SGXWallet/pull/213), [\[PR#215\]](https://github.com/skalenetwork/SGXWallet/pull/215)
 -   Fixed SGX_ERROR_OUT_OF_TCS  [\[PR#219\]](https://github.com/skalenetwork/SGXWallet/pull/219)
 -   Added nightly tests  [\[PR#224\]](https://github.com/skalenetwork/SGXWallet/pull/224), [\[PR#225\]](https://github.com/skalenetwork/SGXWallet/pull/225)
--   Intel Whitelisting submission [\[PR#226\]](https://github.com/skalenetwork/SGXWallet/pull/226), [\[PR#227\]](https://github.com/skalenetwork/SGXWallet/pull/227), [\[PR#228\]](https://github.com/skalenetwork/SGXWallet/pull/228), [\[PR#229\]](https://github.com/skalenetwork/SGXWallet/pull/229), [\[PR#230\]](https://github.com/skalenetwork/SGXWallet/pull/230), [\[PR#231\]](https://github.com/skalenetwork/SGXWallet/pull/231), [\[PR#232\]](https://github.com/skalenetwork/SGXWallet/pull/232), [\[PR#233\]](https://github.com/skalenetwork/SGXWallet/pull/233), [\[PR#234\]](https://github.com/skalenetwork/SGXWallet/pull/234)
+-   Intel Whitelisting submission [\[PR#226\]](https://github.com/skalenetwork/SGXWallet/pull/226), [\[PR#227\]](https://github.com/skalenetwork/SGXWallet/pull/227), [\[PR#228\]](https://github.com/skalenetwork/SGXWallet/pull/228), [\[PR#229\]](https://github.com/skalenetwork/SGXWallet/pull/229), [\[PR#230\]](https://github.com/skalenetwork/SGXWallet/pull/230), [\[PR#231\]](https://github.com/skalenetwork/SGXWallet/pull/231), [\[PR#232\]](https://github.com/skalenetwork/SGXWallet/pull/232), [\[PR#233\]](https://github.com/skalenetwork/SGXWallet/pull/233), [\[PR#234\]](https://github.com/skalenetwork/SGXWallet/pull/234), [\[PR#237\]](https://github.com/skalenetwork/SGXWallet/pull/237), [\[PR#238\]](https://github.com/skalenetwork/SGXWallet/pull/238), [\[PR#239\]](https://github.com/skalenetwork/SGXWallet/pull/239), [\[PR#241\]](https://github.com/skalenetwork/SGXWallet/pull/241), [\[PR#242\]](https://github.com/skalenetwork/SGXWallet/pull/242), [\[PR#243\]](https://github.com/skalenetwork/SGXWallet/pull/243), [\[PR#244\]](https://github.com/skalenetwork/SGXWallet/pull/244), [\[PR#245\]](https://github.com/skalenetwork/SGXWallet/pull/245), [\[PR#246\]](https://github.com/skalenetwork/SGXWallet/pull/246)
 
-**SKALED ()**
+**SKALED (3.1.1-develop.0)**
 
 -   Fixed snapshots issue [\[PR#370\]](https://github.com/skalenetwork/skaled/pull/370)
 -   Fixed skaled build after latest libff update [\[PR#371\]](https://github.com/skalenetwork/skaled/pull/371)
@@ -79,8 +82,9 @@ November:
 -   Generated new built-in IMA contracts for S-Chain [\[PR#390\]](https://github.com/skalenetwork/skaled/pull/390)
 -   Fixed default level logs [\[PR#391\]](https://github.com/skalenetwork/skaled/pull/391)
 -   Closed debug interface [\[PR#393\]](https://github.com/skalenetwork/skaled/pull/393)
+-   Added features fir built-in IMA on schain [\[PR#394\]](https://github.com/skalenetwork/skaled/pull/394)
 
-**SKALE Admin ()**
+**SKALE Admin (1.1.0-develop.22)**
 
 -   Fixed dry run disabling [\[PR#327\]](https://github.com/skalenetwork/skale-admin/pull/327)
 -   Restructured allocation file, refactored containers limits [\[PR#328\]](https://github.com/skalenetwork/skale-admin/pull/328)
@@ -101,8 +105,11 @@ November:
 -   Temporary commented out IMA  [\[PR#346\]](https://github.com/skalenetwork/skale-admin/pull/346)
 -   Updated CODEOWNERS  [\[PR#348\]](https://github.com/skalenetwork/skale-admin/pull/348)
 -   Restructured Telegram notifications  [\[PR#349\]](https://github.com/skalenetwork/skale-admin/pull/349)
+-   Added option to sepcify gas price  [\[PR#350\]](https://github.com/skalenetwork/skale-admin/pull/350)
+-   Updated skale.py to 4.1dev18  [\[PR#352\]](https://github.com/skalenetwork/skale-admin/pull/352)
+-   Turned on IMA [\[PR#354\]](https://github.com/skalenetwork/skale-admin/pull/354)
 
-**IMA ()**
+**IMA (1.0.0-develop.57)**
 
 -   Added SGX Wallet support [\[PR#299\]](https://github.com/skalenetwork/ima/pull/299)
 -   Added OZ upgradable structure [\[PR#300\]](https://github.com/skalenetwork/ima/pull/300)
@@ -123,7 +130,7 @@ November:
 -   Fixed link node addresses [\[PR#321\]](https://github.com/skalenetwork/ima/pull/321)
 -   Fixed IMA data generator script  [\[PR#322\]](https://github.com/skalenetwork/ima/pull/322)
 -   Changed registration step “Add schain in LockAndData” [\[PR#325\]](https://github.com/skalenetwork/ima/pull/325)
--   Fixed waited feature and names [\[PR#326\]](https://github.com/skalenetwork/ima/pull/326)
+-   Fixed wait feature and names [\[PR#326\]](https://github.com/skalenetwork/ima/pull/326)
 -   Replaced deprecated set-env in publish pipeline [\[PR#327\]](https://github.com/skalenetwork/ima/pull/327)
 -   Added registration step Mainnet on schain [\[PR#329\]](https://github.com/skalenetwork/ima/pull/329)
 -   Fixed incorrectly handled chain ID [\[PR#330\]](https://github.com/skalenetwork/ima/pull/330)
@@ -132,7 +139,7 @@ November:
 -   Updated CODEOWNERS [\[PR#340\]](https://github.com/skalenetwork/ima/pull/340)
 -   Updated dependencies
 
-**SKALE Node CLI ()**
+**SKALE Node CLI (1.1.0-develop.22)**
 
 -   Turned off dry run env [\[PR#337\]](https://github.com/skalenetwork/skale-node-cli/pull/337)
 -   Restructured resource allocation file, added IMA limits [\[PR#338\]](https://github.com/skalenetwork/skale-node-cli/pull/338)
@@ -151,33 +158,37 @@ November:
 -   Added skaled RPC and blocks checks to checks cmd to node-cli [\[PR#365\]](https://github.com/skalenetwork/skale-node-cli/pull/365)
 -   Updated CODEOWNERS [\[PR#366\]](https://github.com/skalenetwork/skale-node-cli/pull/366)
 -   Added --gas-price --gas-limit for skale node register [\[PR#367\]](https://github.com/skalenetwork/skale-node-cli/pull/367)
+-   Added gas price env config option [\[PR#371\]](https://github.com/skalenetwork/skale-node-cli/pull/371)
 -   Updated dependencies
 
-**Validator CLI ()**
+**Validator CLI (1.2.0-develop.5)**
 
+-   Replaced deprecated set-env in publish pipeline  [\[PR#239\]](https://github.com/skalenetwork/validator-cli/pull/239)
 -   Updated dependencies
 
-**sla-agent ()**
+**sla-agent (1.0.2-develop.2)**
 
 -   no updates
 
-**bounty-agent ()**
+**bounty-agent (1.1.0-develop.1)**
 
 -   Used getNodeNextRewardDate for sending getBounty transaction [\[PR#92\]](https://github.com/skalenetwork/bounty-agent/pull/92)
 -   Updated to skale manager with a new getBounty procedure [\[PR#94\]](https://github.com/skalenetwork/bounty-agent/pull/94)
 -   Fixed set-env for publishing docker image [\[PR#97\]](https://github.com/skalenetwork/bounty-agent/pull/97)
 -   Updated dependencies
 
-**SKALE.py ()**
+**SKALE.py (4.1dev18)**
 
 -   Fixed DEFAULT_GAS_LIMIT env [\[PR#319\]](https://github.com/skalenetwork/skale.py/pull/319)
 -   Added function to send ETH with skale.wallet [\[PR#324\]](https://github.com/skalenetwork/skale.py/pull/324)
 -   Removed print  [\[PR#325\]](https://github.com/skalenetwork/skale.py/pull/325)
 -   Updated CODEOWNERS [\[PR#329\]](https://github.com/skalenetwork/skale.py/pull/329)
+-   Added DEFAULT_GAS_PRICE env config option  [\[PR#330\]](https://github.com/skalenetwork/skale.py/pull/330)
+-   Removed deprecated set-env usage  [\[PR#331\]](https://github.com/skalenetwork/skale.py/pull/331)
 -   Updated dependencies
 
 
-**Transaction-manager ()**
+**Transaction-manager (1.0.0-develop.8)**
 
 -   Increaseв http timeout [\[PR#123\]](https://github.com/skalenetwork/transaction-manager/pull/123)
 -   Fixed crop dict for tx without data [\[PR#124\]](https://github.com/skalenetwork/transaction-manager/pull/124)
@@ -185,6 +196,6 @@ November:
 -   Added customizable blocks limit, dropped skale.py init [\[PR#128\]](https://github.com/skalenetwork/transaction-manager/pull/128)
 -   Updated dependencies
 
-**sgx.py ()**
+**sgx.py (0.6dev15)**
 
 -   no updates
