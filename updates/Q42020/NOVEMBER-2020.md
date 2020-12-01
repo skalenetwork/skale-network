@@ -1,4 +1,4 @@
-# SKALE Network Product Updates (OCTOBER 2020)
+# SKALE Network Product Updates (NOVEMBER 2020)
 
 These updates are posted in: 
 
@@ -14,8 +14,8 @@ During November, the team was mostly focused on:
 
 -   Schains performance and stability testing, enabling Medium schains 1/32 of a node configuration
 -   Consensus, skaled performance optimizations, and stability improvements
--   SGX wallet memory usage optimizations, performance improvements, load testing, and further submission to Intel Whitelisting
--   Skale manager Bounty algorithm updates
+-   SGX wallet memory usage optimizations, performance improvements, load testing
+-   SKALE Manager Bounty algorithm updates
 -   IMA beta release preparations, enabling SGX wallet and Transaction manager support, outstanding bug fixes, and general enhancements
 -   Various bug fixes
 
@@ -26,7 +26,7 @@ November:
 
 **SKALE Manager (1.6.2-develop.0)**
 
--   Fixed Bounty V2 migrartion issue [\[PR#419\]](https://github.com/skalenetwork/skale-manager/pull/419)
+-   Fixed Bounty V2 migration issue [\[PR#419\]](https://github.com/skalenetwork/skale-manager/pull/419)
 -   Added independent audits references to the documentation[\[PR#420\]](https://github.com/skalenetwork/skale-manager/pull/420)
 -   Added name check as a part of the IMA improvements [\[PR#423\]](https://github.com/skalenetwork/skale-manager/pull/423)
 -   Merged release artifacts to the develop branch [\[PR#426\]](https://github.com/skalenetwork/skale-manager/pull/426)
@@ -63,7 +63,7 @@ November:
 -   GitHub actions CI process improvements [\[PR#213\]](https://github.com/skalenetwork/SGXWallet/pull/213), [\[PR#215\]](https://github.com/skalenetwork/SGXWallet/pull/215)
 -   Fixed SGX_ERROR_OUT_OF_TCS  [\[PR#219\]](https://github.com/skalenetwork/SGXWallet/pull/219)
 -   Added nightly tests  [\[PR#224\]](https://github.com/skalenetwork/SGXWallet/pull/224), [\[PR#225\]](https://github.com/skalenetwork/SGXWallet/pull/225)
--   Intel Whitelisting submission [\[PR#226\]](https://github.com/skalenetwork/SGXWallet/pull/226), [\[PR#227\]](https://github.com/skalenetwork/SGXWallet/pull/227), [\[PR#228\]](https://github.com/skalenetwork/SGXWallet/pull/228), [\[PR#229\]](https://github.com/skalenetwork/SGXWallet/pull/229), [\[PR#230\]](https://github.com/skalenetwork/SGXWallet/pull/230), [\[PR#231\]](https://github.com/skalenetwork/SGXWallet/pull/231), [\[PR#232\]](https://github.com/skalenetwork/SGXWallet/pull/232), [\[PR#233\]](https://github.com/skalenetwork/SGXWallet/pull/233), [\[PR#234\]](https://github.com/skalenetwork/SGXWallet/pull/234), [\[PR#237\]](https://github.com/skalenetwork/SGXWallet/pull/237), [\[PR#238\]](https://github.com/skalenetwork/SGXWallet/pull/238), [\[PR#239\]](https://github.com/skalenetwork/SGXWallet/pull/239), [\[PR#241\]](https://github.com/skalenetwork/SGXWallet/pull/241), [\[PR#242\]](https://github.com/skalenetwork/SGXWallet/pull/242), [\[PR#243\]](https://github.com/skalenetwork/SGXWallet/pull/243), [\[PR#244\]](https://github.com/skalenetwork/SGXWallet/pull/244), [\[PR#245\]](https://github.com/skalenetwork/SGXWallet/pull/245), [\[PR#246\]](https://github.com/skalenetwork/SGXWallet/pull/246)
+-   Secure enclave updates [\[PR#226\]](https://github.com/skalenetwork/SGXWallet/pull/226), [\[PR#227\]](https://github.com/skalenetwork/SGXWallet/pull/227), [\[PR#228\]](https://github.com/skalenetwork/SGXWallet/pull/228), [\[PR#229\]](https://github.com/skalenetwork/SGXWallet/pull/229), [\[PR#230\]](https://github.com/skalenetwork/SGXWallet/pull/230), [\[PR#231\]](https://github.com/skalenetwork/SGXWallet/pull/231), [\[PR#232\]](https://github.com/skalenetwork/SGXWallet/pull/232), [\[PR#233\]](https://github.com/skalenetwork/SGXWallet/pull/233), [\[PR#234\]](https://github.com/skalenetwork/SGXWallet/pull/234), [\[PR#237\]](https://github.com/skalenetwork/SGXWallet/pull/237), [\[PR#238\]](https://github.com/skalenetwork/SGXWallet/pull/238), [\[PR#239\]](https://github.com/skalenetwork/SGXWallet/pull/239), [\[PR#241\]](https://github.com/skalenetwork/SGXWallet/pull/241), [\[PR#242\]](https://github.com/skalenetwork/SGXWallet/pull/242), [\[PR#243\]](https://github.com/skalenetwork/SGXWallet/pull/243), [\[PR#244\]](https://github.com/skalenetwork/SGXWallet/pull/244), [\[PR#245\]](https://github.com/skalenetwork/SGXWallet/pull/245), [\[PR#246\]](https://github.com/skalenetwork/SGXWallet/pull/246)
 
 **SKALED (3.1.1-develop.0)**
 
@@ -190,7 +190,7 @@ November:
 
 **Transaction-manager (1.0.0-develop.8)**
 
--   Increaseв http timeout [\[PR#123\]](https://github.com/skalenetwork/transaction-manager/pull/123)
+-   Increased http timeout [\[PR#123\]](https://github.com/skalenetwork/transaction-manager/pull/123)
 -   Fixed crop dict for tx without data [\[PR#124\]](https://github.com/skalenetwork/transaction-manager/pull/124)
 -   Fixed Transaction manager exceeds connection limit [\[PR#125\]](https://github.com/skalenetwork/transaction-manager/pull/125)
 -   Added customizable blocks limit, dropped skale.py init [\[PR#128\]](https://github.com/skalenetwork/transaction-manager/pull/128)
