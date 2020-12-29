@@ -1,0 +1,74 @@
+# SKALE Network Product Updates (DECEMBER 2020)
+
+These updates are posted in: 
+
+-   <https://github.com/skalenetwork/skale-network/tree/master/updates>
+-   <https://forum.skale.network/>
+-   [SKALE Discord](https://discord.gg/vvUtWJB)
+
+If you would like to suggest changes, please post, discuss, or open a GitHub issue respective of the channels listed above.
+
+## Month focus
+
+During December, the team was mostly focused on:
+
+-   
+
+
+## Code changes
+
+December:
+
+**SKALE Manager ()**
+-   Improved gas usage in schains operations  [\[PR#441\]](https://github.com/skalenetwork/skale-manager/pull/441)
+-   Fixed check in nodeExit functionality [\[PR#443\]](https://github.com/skalenetwork/skale-manager/pull/443)
+-   Crypto audit fix: added hash on X coordinate [\[PR#445\]](https://github.com/skalenetwork/skale-manager/pull/445)
+-   Updated SECURITY.md [\[PR#450\]](https://github.com/skalenetwork/skale-manager/pull/450)
+-   Crypto audit fix: changed getG2 to getG2Generator and getG1 to getG1Generator [\[PR#454\]](https://github.com/skalenetwork/skale-manager/pull/454)
+-   Added restriction for undelegation requests to complete before 3-day window of month end [\[PR#455\]](https://github.com/skalenetwork/skale-manager/pull/455)
+-   Crypto audit: fixed range check for signature  [\[PR#456\]](https://github.com/skalenetwork/skale-manager/pull/456)
+-   Added additional fixes for crypto audit  [\[PR#461\]](https://github.com/skalenetwork/skale-manager/pull/461), [\[PR#469\]](https://github.com/skalenetwork/skale-manager/pull/469)
+-   Updated dependencies
+
+**SKALE Consensus**
+
+-   Fixed SIGILL signal right after start of skaled [\[PR#299\]](https://github.com/skalenetwork/skale-consensus/pull/299)
+-   Fixed SGXWallet waiting, async sendting and rebroadcasting [\[PR#300\]](https://github.com/skalenetwork/skale-consensus/pull/300), [\[PR#301\]](https://github.com/skalenetwork/skale-consensus/pull/301)
+-   Fixed consensus not always completing  when SGXWallet is unstable [\[PR#302\]](https://github.com/skalenetwork/skale-consensus/pull/302)
+-   Updated SECURITY.md [\[PR#303\]](https://github.com/skalenetwork/skale-consensus/pull/303)
+-   Removed ECDSA public key from ouput[\[PR#305\]](https://github.com/skalenetwork/skale-consensus/pull/305)
+-   Added log to consensus when SGX connection is reestablished[\[PR#306\]](https://github.com/skalenetwork/skale-consensus/pull/306)
+-   Fixed logging for Rotating DB [\[PR#307\]](https://github.com/skalenetwork/skale-consensus/pull/307)
+
+**SGXWallet ()**
+
+-   Added SGX server anti dos protection [\[PR#247\]](https://github.com/skalenetwork/SGXWallet/pull/247), [\[PR#248\]](https://github.com/skalenetwork/SGXWallet/pull/248)
+-   Added server limits check before running SGX Wallet [\[PR#249\]](https://github.com/skalenetwork/SGXWallet/pull/249), [\[PR#250\]](https://github.com/skalenetwork/SGXWallet/pull/250)
+-   Fixed SGX Wallet error reporting [\[PR#251\]](https://github.com/skalenetwork/SGXWallet/pull/251)
+-   Added command for getting SGX keys info [\[PR#252\]](https://github.com/skalenetwork/SGXWallet/pull/252)
+-   Removed semaphore [\[PR#253\]](https://github.com/skalenetwork/SGXWallet/pull/253)
+-   Updated SECURITY.md [\[PR#254\]](https://github.com/skalenetwork/SGXWallet/pull/254)
+-   Fixed block mining [\[PR#256\]](https://github.com/skalenetwork/SGXWallet/pull/256)
+-   Crypto Audit fix: added V2 methods to SGX Wallet [\[PR#257\]](https://github.com/skalenetwork/SGXWallet/pull/257)
+
+**SKALED ()**
+
+-   Added second verificartion step [\[PR#396\]](https://github.com/skalenetwork/skaled/pull/396)
+-   Fixed: use consensus without ADX instructions [\[PR#397\]](https://github.com/skalenetwork/skaled/pull/397)
+-   Fixed skaled not running after node restore [\[PR#398\]](https://github.com/skalenetwork/skaled/pull/398)
+-   Added consensus network fixes [\[PR#399\]](https://github.com/skalenetwork/skaled/pull/399)
+-   Added test case to ensure setting strorage element to zero processed in skaled [\[PR#400\]](https://github.com/skalenetwork/skaled/pull/400)
+-   Fixed fail verifying empty signatures [\[PR#401\]](https://github.com/skalenetwork/skaled/pull/401)
+-   Fixed IMA message verification [\[PR#402\]](https://github.com/skalenetwork/skaled/pull/402)
+-   Added libcurl error 52 handling consensus [\[PR#403\]](https://github.com/skalenetwork/skaled/pull/403)
+
+**SKALE Admin ()**
+
+-   Fixed dry run disabling [\[PR#327\]](https://github.com/skalenetwork/skale-admin/pull/327)
+-   Restructured allocation file, refactored containers limits [\[PR#328\]](https://github.com/skalenetwork/skale-admin/pull/328)
+-   Added IMA supporting SGX wallet [\[PR#331\]](https://github.com/skalenetwork/skale-admin/pull/331)
+-   Fixed schain block mining [\[PR#332\]](https://github.com/skalenetwork/skale-admin/pull/332)
+-   Moved wallet send API to RPC [\[PR#333\]](https://github.com/skalenetwork/skale-admin/pull/333)
+-   Renamed snapshotInterval parameter [\[PR#335\]](https://github.com/skalenetwork/skale-admin/pull/335)
+-   Added sChain blocks check, refactored SChainChecks, added tests [\[PR#336\]](https://github.com/skalenetwork/skale-admin/pull/336)
+-   Temporary commented out IMA [\[PR#337\]](https://github.com/skalenetwork/skale-admin/pull/337)
