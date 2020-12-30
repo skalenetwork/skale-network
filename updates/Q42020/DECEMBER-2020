@@ -110,3 +110,19 @@ December:
 -   Added more logging [\[PR#384\]](https://github.com/skalenetwork/ima/pull/384), [\[PR#385\]](https://github.com/skalenetwork/ima/pull/385), [\[PR#386\]](https://github.com/skalenetwork/ima/pull/386)
 -   Added emit logging [\[PR#389\]](https://github.com/skalenetwork/ima/pull/389)
 -   Updated dependencies
+
+**SKALE Node CLI ()**
+
+-   Updated API [\[PR#372\]](https://github.com/skalenetwork/skale-node-cli/pull/372)
+-   Fixed schains DKG showing phantom schain [\[PR#375\]](https://github.com/skalenetwork/skale-node-cli/pull/375)
+-   Added restore timeout [\[PR#376\]](https://github.com/skalenetwork/skale-node-cli/pull/376)
+-   Added --no-tablespaces. Improved outputs [\[PR#378\]](https://github.com/skalenetwork/skale-node-cli/pull/378)
+-   Add exit codes to cli commands [\[PR#388\]](https://github.com/skalenetwork/skale-node-cli/pull/388)
+-   Updated dependencies
+
+**Validator CLI ()**
+
+-   Added error exit codes [\[PR#248\]](https://github.com/skalenetwork/validator-cli/pull/248)
+-   Reverted accept all delegations feature [\[PR#251\]](https://github.com/skalenetwork/validator-cli/pull/251)
+-   Added revert reason handler [\[PR#254\]](https://github.com/skalenetwork/validator-cli/pull/254)
+-   Updated dependencies
