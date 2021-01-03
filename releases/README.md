@@ -84,10 +84,11 @@
 
 - Rinkeby
   - [Release 1.0.0-develop.38](/releases/rinkeby/IMA/1.0.0-develop.38)
-  - [Release 1.0.0-develop.103](releases/rinkeby/IMA/1.0.0-develop.103)
+  - [Release 1.0.0-develop.103](releases/rinkeby/IMA/1.0.0-develop.103) (30 Dec 2020)
 - Kovan
   - [Release 1.0.0-develop.38](/releases/kovan/IMA/1.0.0-develop.38)
 
 #### SKALE Node for testnet
 
 - [1.2.2 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.2.2-testnet) (30 Nov 2020)
+- [1.3.0 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.3.0-testnet) (30 Dec 2020)
