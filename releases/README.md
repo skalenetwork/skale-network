@@ -91,4 +91,4 @@
 #### SKALE Node for testnet
 
 - [1.2.2 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.2.2-testnet) (30 Nov 2020)
-- [1.3.1 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.3.1-testnet) (31 Dec 2020)
+- [1.3.2 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.3.2-testnet) (4 Jan 2021)
