@@ -66,3 +66,70 @@ January:
 -   Fixed proposing 000 [\[PR#436\]](https://github.com/skalenetwork/skaled/pull/436)
 -   Re-enable block filter  [\[PR#438\]](https://github.com/skalenetwork/skaled/pull/438)
 -   Remove state root checks for empty block [\[PR#441\]](https://github.com/skalenetwork/skaled/pull/441)
+
+**SKALE Admin ()**
+
+-   Updated skale.py [\[PR#392\]](https://github.com/skalenetwork/skale-admin/pull/392)
+-   Fixed link to sgx.py [\[PR#397\]](https://github.com/skalenetwork/skale-admin/pull/397)
+-   Added info RPC port [\[PR#409\]](https://github.com/skalenetwork/skale-admin/pull/409)
+-   Added domain names functionality [\[PR#413\]](https://github.com/skalenetwork/skale-admin/pull/413)
+-   Made rpc wallet run directly to sgx [\[PR#422\]](https://github.com/skalenetwork/skale-admin/pull/422)
+-   Updated dependencies
+
+**IMA ()**
+
+-   Added SGX error handling [\[PR#404\]](https://github.com/skalenetwork/ima/pull/404)
+-   Removed un-needed non-raw token transfers  [\[PR#407\]](https://github.com/skalenetwork/ima/pull/407)
+-   Removed stale dependencies [\[PR#410\]](https://github.com/skalenetwork/ima/pull/410)
+-   Added support for ETH unit names[\[PR#412\]](https://github.com/skalenetwork/ima/pull/412)
+-   Added IMA Agent Unit Tests [\[PR#416\]](https://github.com/skalenetwork/ima/pull/416)
+-   Fixed remaining typos [\[PR#417\]](https://github.com/skalenetwork/ima/pull/417)
+-   Added waiting for receipt after sign-and-send call to Transaction Manager [\[PR#418\]](https://github.com/skalenetwork/ima/pull/418)
+-   Fixed wait for transaction receipt [\[PR#420\]](https://github.com/skalenetwork/ima/pull/420)
+-   Added basic pending transactions analyzer [\[PR#425\]](https://github.com/skalenetwork/ima/pull/425)
+-   Updated dependencies
+
+**SKALE Node CLI ()**
+
+-   Added nginx to base containers [\[PR#394\]](https://github.com/skalenetwork/skale-node-cli/pull/394)
+-   Added domain names functionality [\[PR#398\]](https://github.com/skalenetwork/skale-node-cli/pull/398)
+-   Added new dir [\[PR#400\]](https://github.com/skalenetwork/skale-node-cli/pull/400)
+-   Updated dependencies
+
+**Validator CLI ()**
+
+-   Added revert reason handler [\[PR#254\]](https://github.com/skalenetwork/validator-cli/pull/254)
+-   Updated dependencies
+
+**bounty-agent ()**
+
+-   Added call block check [\[PR#114\]](https://github.com/skalenetwork/bounty-agent/pull/114)
+-   Updated dependencies
+
+**SKALE.py ()**
+
+-   Changed ports per sChain [\[PR#351\]](https://github.com/skalenetwork/skale.py/pull/351), [\[PR#352\]](https://github.com/skalenetwork/skale.py/pull/352)
+-   Fixed transaction manager recovery [\[PR#354\]](https://github.com/skalenetwork/skale.py/pull/354)
+-   Added info RPC port to node info  [\[PR#357\]](https://github.com/skalenetwork/skale.py/pull/357)
+-   Added domain names functionality [\[PR#360\]](https://github.com/skalenetwork/skale.py/pull/360)
+-   Added spawn skale_ima  [\[PR#364\]](https://github.com/skalenetwork/skale.py/pull/364)
+-   Added custom schain owner [\[PR#367\]](https://github.com/skalenetwork/skale.py/pull/367)
+-   Fixed domain name structure [\[PR#370\]](https://github.com/skalenetwork/skale.py/pull/370)
+-   Added delete_schain_by_root [\[PR#371\]](https://github.com/skalenetwork/skale.py/pull/371)
+-   Updated dependencies
+
+**Transaction-manager ()**
+
+-   Added call block check [\[PR#148\]](https://github.com/skalenetwork/transaction-manager/pull/148)
+-   Updated dependencies
+
+**Watchdog ()**
+
+-   Added sgx and schain healthchecks requests [\[PR#10\]](https://github.com/skalenetwork/skale-watchdog/pull/10)
+-   Added hardware and endpoint checks [\[PR#15\]](https://github.com/skalenetwork/skale-watchdog/pull/15)
+
+**sgx.py ()**
+
+-   Fixed hashing [\[PR#94\]](https://github.com/skalenetwork/sgx.py/pull/94)
+-   Updated dependencies
+
