@@ -12,8 +12,13 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During January, the team was mostly focused on:
 
--   abc
--   abc
+
+-   Skale Manager: optimized and descreased token transfer gas usage 
+-   IMA: added token whitelisting functionality, improved raw token transfer and implemented general usability enhancements
+-   Added domain names and SSL certificates support
+-   Schains stability and testing improvements
+-   Improved healthchecks and nodes monitoring 
+-   Support and release TestNet fixes and updates
 
 
 ## Code changes
@@ -64,7 +69,7 @@ January:
 -   Updated to conesus fixes [\[PR#431\]](https://github.com/skalenetwork/skaled/pull/431)
 -   Removed zero snapshot [\[PR#435\]](https://github.com/skalenetwork/skaled/pull/435)
 -   Fixed proposing 000 [\[PR#436\]](https://github.com/skalenetwork/skaled/pull/436)
--   Re-enable block filter  [\[PR#438\]](https://github.com/skalenetwork/skaled/pull/438)
+-   Re-enabled block filter  [\[PR#438\]](https://github.com/skalenetwork/skaled/pull/438)
 -   Remove state root checks for empty block [\[PR#441\]](https://github.com/skalenetwork/skaled/pull/441)
 
 **SKALE Admin ()**
@@ -81,6 +86,7 @@ January:
 -   Added SGX error handling [\[PR#404\]](https://github.com/skalenetwork/ima/pull/404)
 -   Removed un-needed non-raw token transfers  [\[PR#407\]](https://github.com/skalenetwork/ima/pull/407)
 -   Removed stale dependencies [\[PR#410\]](https://github.com/skalenetwork/ima/pull/410)
+-   Added token whitelisting functionality [\[PR#411\]](https://github.com/skalenetwork/ima/pull/411)
 -   Added support for ETH unit names[\[PR#412\]](https://github.com/skalenetwork/ima/pull/412)
 -   Added IMA Agent Unit Tests [\[PR#416\]](https://github.com/skalenetwork/ima/pull/416)
 -   Fixed remaining typos [\[PR#417\]](https://github.com/skalenetwork/ima/pull/417)
