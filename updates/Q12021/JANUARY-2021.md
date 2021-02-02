@@ -13,11 +13,11 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 During January, the team was mostly focused on:
 
 
--   Skale Manager: optimized and descreased token transfer gas usage 
+-   Skale Manager: optimized and decreased token transfer gas usage, access control and CI/CD improvements 
 -   IMA: added token whitelisting functionality, improved raw token transfer and implemented general usability enhancements
 -   Added domain names and SSL certificates support
 -   Schains stability and testing improvements
--   Improved healthchecks and nodes monitoring 
+-   Improved health checks and nodes monitoring 
 -   Support and release TestNet fixes and updates
 
 
@@ -25,8 +25,8 @@ During January, the team was mostly focused on:
 
 January:
 
-**SKALE Manager ()**
--   Fixed getbounty transaction for nodes 'In Maintenance'  [\[PR#475\]](https://github.com/skalenetwork/skale-manager/pull/475)
+**SKALE Manager (1.8.0-develop.3)**
+-   Fixed getBounty transaction for nodes 'In Maintenance'  [\[PR#475\]](https://github.com/skalenetwork/skale-manager/pull/475)
 -   Fixed incorrect state call [\[PR#477\]](https://github.com/skalenetwork/skale-manager/pull/477)
 -   Moved CI builds to GitHub actions [\[PR#480\]](https://github.com/skalenetwork/skale-manager/pull/480), [\[PR#488\]](https://github.com/skalenetwork/skale-manager/pull/488)
 -   Added script to calculate gas consumption of schain creation [\[PR#485\]](https://github.com/skalenetwork/skale-manager/pull/485)
@@ -34,6 +34,7 @@ January:
 -   Added set schain owner functionality [\[PR#493\]](https://github.com/skalenetwork/skale-manager/pull/493)
 -   Added token transfer optimizations [\[PR#506\]](https://github.com/skalenetwork/skale-manager/pull/506)
 -   Fixed domain names after update error [\[PR#512\]](https://github.com/skalenetwork/skale-manager/pull/512)
+-   SKL token transfer optimizations [\[PR#516\]](https://github.com/skalenetwork/skale-manager/pull/516)
 -   Updated dependencies
 
 **SKALE Consensus**
@@ -48,14 +49,15 @@ January:
 -   Fixed that node should not connect to itself [\[PR#325\]](https://github.com/skalenetwork/skale-consensus/pull/325)
 -   Fixed proposing 000 [\[PR#327\]](https://github.com/skalenetwork/skale-consensus/pull/327)
 -   Added empty proposal should have zero state root [\[PR#331\]](https://github.com/skalenetwork/skale-consensus/pull/331)
+-   Fixed schain mining [\[PR#333\]](https://github.com/skalenetwork/skale-consensus/pull/333)
 
-**SGXWallet ()**
+**SGXWallet (1.66.1-develop.3)**
 
 -   Added -O2 flag [\[PR#258\]](https://github.com/skalenetwork/SGXWallet/pull/258)
 -   Added more info to DB requests [\[PR#261\]](https://github.com/skalenetwork/SGXWallet/pull/261)
 -   Fixed hashing  [\[PR#262\]](https://github.com/skalenetwork/SGXWallet/pull/262)
 
-**SKALED ()**
+**SKALED (3.4.7-develop.0)**
 
 -   Added support for informational JSON RPC ports [\[PR#406\]](https://github.com/skalenetwork/skaled/pull/406)
 -   Added more logs [\[PR#416\]](https://github.com/skalenetwork/skaled/pull/416)
@@ -66,13 +68,15 @@ January:
 -   Added try-catch in TCPServerSocket [\[PR#423\]](https://github.com/skalenetwork/skaled/pull/423)
 -   Fixed download finalization [\[PR#424\]](https://github.com/skalenetwork/skaled/pull/424)
 -   Fixed schains graceful stop [\[PR#426\]](https://github.com/skalenetwork/skaled/pull/426)
--   Updated to conesus fixes [\[PR#431\]](https://github.com/skalenetwork/skaled/pull/431)
+-   Updated to consensus fixes [\[PR#431\]](https://github.com/skalenetwork/skaled/pull/431)
 -   Removed zero snapshot [\[PR#435\]](https://github.com/skalenetwork/skaled/pull/435)
 -   Fixed proposing 000 [\[PR#436\]](https://github.com/skalenetwork/skaled/pull/436)
 -   Re-enabled block filter  [\[PR#438\]](https://github.com/skalenetwork/skaled/pull/438)
 -   Remove state root checks for empty block [\[PR#441\]](https://github.com/skalenetwork/skaled/pull/441)
+-   Fixed block mining [\[PR#447\]](https://github.com/skalenetwork/skaled/pull/447)
+-   Fixed ws returning extra results [\[PR#449\]](https://github.com/skalenetwork/skaled/pull/449)
 
-**SKALE Admin ()**
+**SKALE Admin (2.0.0-develop.13)**
 
 -   Updated skale.py [\[PR#392\]](https://github.com/skalenetwork/skale-admin/pull/392)
 -   Fixed link to sgx.py [\[PR#397\]](https://github.com/skalenetwork/skale-admin/pull/397)
@@ -81,7 +85,7 @@ January:
 -   Made rpc wallet run directly to sgx [\[PR#422\]](https://github.com/skalenetwork/skale-admin/pull/422)
 -   Updated dependencies
 
-**IMA ()**
+**IMA (1.0.0-develop.129)**
 
 -   Added SGX error handling [\[PR#404\]](https://github.com/skalenetwork/ima/pull/404)
 -   Removed un-needed non-raw token transfers  [\[PR#407\]](https://github.com/skalenetwork/ima/pull/407)
@@ -93,26 +97,30 @@ January:
 -   Added waiting for receipt after sign-and-send call to Transaction Manager [\[PR#418\]](https://github.com/skalenetwork/ima/pull/418)
 -   Fixed wait for transaction receipt [\[PR#420\]](https://github.com/skalenetwork/ima/pull/420)
 -   Added basic pending transactions analyzer [\[PR#425\]](https://github.com/skalenetwork/ima/pull/425)
+-   Implemented double-step pending TX analysis with timeouts [\[PR#428\]](https://github.com/skalenetwork/ima/pull/428)
+-   Implemented kovan incompatible contract event search [\[PR#429\]](https://github.com/skalenetwork/ima/pull/429)
+-   Removed ignoring dry run [\[PR#430\]](https://github.com/skalenetwork/ima/pull/430)
 -   Updated dependencies
 
-**SKALE Node CLI ()**
+**SKALE Node CLI (2.0.0-develop.4)**
 
 -   Added nginx to base containers [\[PR#394\]](https://github.com/skalenetwork/skale-node-cli/pull/394)
 -   Added domain names functionality [\[PR#398\]](https://github.com/skalenetwork/skale-node-cli/pull/398)
 -   Added new dir [\[PR#400\]](https://github.com/skalenetwork/skale-node-cli/pull/400)
 -   Updated dependencies
 
-**Validator CLI ()**
+**Validator CLI (1.3.0-develop.0)**
 
 -   Added revert reason handler [\[PR#254\]](https://github.com/skalenetwork/validator-cli/pull/254)
+-   Updated README.md [\[PR#260\]](https://github.com/skalenetwork/validator-cli/pull/260)
 -   Updated dependencies
 
-**bounty-agent ()**
+**bounty-agent (1.1.1-develop.1)**
 
 -   Added call block check [\[PR#114\]](https://github.com/skalenetwork/bounty-agent/pull/114)
 -   Updated dependencies
 
-**SKALE.py ()**
+**SKALE.py (5.0dev14)**
 
 -   Changed ports per sChain [\[PR#351\]](https://github.com/skalenetwork/skale.py/pull/351), [\[PR#352\]](https://github.com/skalenetwork/skale.py/pull/352)
 -   Fixed transaction manager recovery [\[PR#354\]](https://github.com/skalenetwork/skale.py/pull/354)
@@ -124,17 +132,18 @@ January:
 -   Added delete_schain_by_root [\[PR#371\]](https://github.com/skalenetwork/skale.py/pull/371)
 -   Updated dependencies
 
-**Transaction-manager ()**
+**Transaction-manager (1.1.0-develop.3)**
 
 -   Added call block check [\[PR#148\]](https://github.com/skalenetwork/transaction-manager/pull/148)
+-   Removed redundant nonce requesting from logs [\[PR#153\]](https://github.com/skalenetwork/transaction-manager/pull/153)
 -   Updated dependencies
 
-**Watchdog ()**
+**Watchdog (1.1.3-develop.0)**
 
--   Added sgx and schain healthchecks requests [\[PR#10\]](https://github.com/skalenetwork/skale-watchdog/pull/10)
+-   Added SGX and schain healthchecks requests [\[PR#10\]](https://github.com/skalenetwork/skale-watchdog/pull/10)
 -   Added hardware and endpoint checks [\[PR#15\]](https://github.com/skalenetwork/skale-watchdog/pull/15)
 
-**sgx.py ()**
+**sgx.py (0.7dev3)**
 
 -   Fixed hashing [\[PR#94\]](https://github.com/skalenetwork/sgx.py/pull/94)
 -   Updated dependencies
