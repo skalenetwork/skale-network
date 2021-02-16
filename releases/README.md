@@ -79,6 +79,7 @@
   - [Release 1.5.0](/releases/rinkeby/skale-manager/1.5.0) (01 Jul 2020)
   - [Release 1.6.2](/releases/rinkeby/skale-manager/1.6.2) (30 Nov 2020)
   - [Release 1.7.0](/releases/rinkeby/skale-manager/1.7.0) (29 Dec 2020)
+  - [Release 1.8.0](/releases/rinkeby/skale-manager/1.8.0) (16 Feb 2021)
 - Kovan
   - [Release 1.5.0](/releases/kovan/skale-manager/1.5.0) (20 Jul 2020)
 
