@@ -1,0 +1,9 @@
+{
+    "lock_and_data_for_mainnet_address": "0xC44b37149D015B027eF1CE36078aF3416aB09374",
+    "message_proxy_mainnet_address": "0x4eeae9c7721766C5a214fE7ff051959002fadDB5",
+    "deposit_box_address": "0xd70686aaaE600045637345F4e24aB5A54a20DDAf",
+    "erc20_module_for_mainnet_address": "0x4FBaca0Be5bAc54EbE361BA18a94ecCAeFFA662a",
+    "lock_and_data_for_mainnet_erc20_address": "0xeE3121DD4A42a541cC69dB91f19848b5565aB290",
+    "erc721_module_for_mainnet_address": "0x1691cCe2Dd94720BDfB7442adFF8341727cEbBD8",
+    "lock_and_data_for_mainnet_erc721_address": "0x2F914788aaCa4d8AC2832f77791d7570598eaA9C"
+}

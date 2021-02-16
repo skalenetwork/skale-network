@@ -89,6 +89,7 @@
   - [Release 1.0.0-develop.38](/releases/rinkeby/IMA/1.0.0-develop.38)
   - [Release 1.0.0-develop.103](releases/rinkeby/IMA/1.0.0-develop.103) (30 Dec 2020)
   - [Release 1.0.0-beta.0](/releases/rinkeby/IMA/1.0.0-beta.0) (19 Jan 2021)
+  - [Release 1.0.0-beta.2](/releases/rinkeby/IMA/1.0.0-beta.2) (16 Feb 2021)
 - Kovan
   - [Release 1.0.0-develop.38](/releases/kovan/IMA/1.0.0-develop.38)
 
