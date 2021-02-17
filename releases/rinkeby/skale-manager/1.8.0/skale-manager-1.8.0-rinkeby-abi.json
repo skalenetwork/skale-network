@@ -8648,1324 +8648,1244 @@
     "schains_address": "0x08212eB2391F644dcf2F9cF431D540E1f04041C7",
     "schains_internal_abi": [
         {
+            "type": "event",
             "anonymous": false,
-            "inputs": [
-                {
-                    "indexed": true,
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
-                },
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "sender",
-                    "type": "address"
-                }
-            ],
             "name": "RoleGranted",
-            "type": "event"
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "account",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "sender",
+                    "indexed": true
+                }
+            ]
         },
         {
+            "type": "event",
             "anonymous": false,
-            "inputs": [
-                {
-                    "indexed": true,
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
-                },
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "sender",
-                    "type": "address"
-                }
-            ],
             "name": "RoleRevoked",
-            "type": "event"
-        },
-        {
-            "inputs": [],
-            "name": "DEFAULT_ADMIN_ROLE",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
             "inputs": [
                 {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "addSchainForNode",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint8",
-                    "name": "partOfNode",
-                    "type": "uint8"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "numberOfNodes",
-                    "type": "uint256"
-                }
-            ],
-            "name": "addSchainType",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "lifetime",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "deposit",
-                    "type": "uint256"
-                }
-            ],
-            "name": "changeLifetime",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "checkException",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainHash",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "indexOfNode",
-                    "type": "uint256"
-                }
-            ],
-            "name": "checkHoleForSchain",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [],
-            "name": "contractManager",
-            "outputs": [
-                {
-                    "internalType": "contract ContractManager",
-                    "name": "",
-                    "type": "address"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "numberOfNodes",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint8",
-                    "name": "partOfNode",
-                    "type": "uint8"
-                }
-            ],
-            "name": "createGroupForSchain",
-            "outputs": [
-                {
-                    "internalType": "uint256[]",
-                    "name": "",
-                    "type": "uint256[]"
-                }
-            ],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "deleteGroup",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "findSchainAtSchainsForNode",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "getActiveSchain",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "getActiveSchains",
-            "outputs": [
-                {
-                    "internalType": "bytes32[]",
-                    "name": "activeSchains",
-                    "type": "bytes32[]"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "getLengthOfSchainsForNode",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "nodeId",
-                    "type": "uint256"
-                }
-            ],
-            "name": "getNodeIndexInGroup",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "getNodesInGroup",
-            "outputs": [
-                {
-                    "internalType": "uint256[]",
-                    "name": "",
-                    "type": "uint256[]"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "getNumberOfNodesInGroup",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
+                    "type": "bytes32",
                     "name": "role",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "getRoleAdmin",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
+                    "indexed": true
                 },
                 {
-                    "internalType": "uint256",
-                    "name": "index",
-                    "type": "uint256"
-                }
-            ],
-            "name": "getRoleMember",
-            "outputs": [
-                {
-                    "internalType": "address",
-                    "name": "",
-                    "type": "address"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "getRoleMemberCount",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "address",
-                    "name": "from",
-                    "type": "address"
-                }
-            ],
-            "name": "getSchainIdsByAddress",
-            "outputs": [
-                {
-                    "internalType": "bytes32[]",
-                    "name": "",
-                    "type": "bytes32[]"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "getSchainIdsForNode",
-            "outputs": [
-                {
-                    "internalType": "bytes32[]",
-                    "name": "",
-                    "type": "bytes32[]"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "address",
-                    "name": "from",
-                    "type": "address"
-                }
-            ],
-            "name": "getSchainListSize",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "getSchainName",
-            "outputs": [
-                {
-                    "internalType": "string",
-                    "name": "",
-                    "type": "string"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "getSchainOwner",
-            "outputs": [
-                {
-                    "internalType": "address",
-                    "name": "",
-                    "type": "address"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [],
-            "name": "getSchains",
-            "outputs": [
-                {
-                    "internalType": "bytes32[]",
-                    "name": "",
-                    "type": "bytes32[]"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "getSchainsPartOfNode",
-            "outputs": [
-                {
-                    "internalType": "uint8",
-                    "name": "",
-                    "type": "uint8"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "address",
+                    "type": "address",
                     "name": "account",
-                    "type": "address"
-                }
-            ],
-            "name": "grantRole",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
+                    "indexed": true
                 },
                 {
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
-                }
-            ],
-            "name": "hasRole",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "name": "holesForNodes",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "name": "holesForSchains",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "address",
-                    "name": "newContractsAddress",
-                    "type": "address"
-                }
-            ],
-            "name": "initialize",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "string",
-                    "name": "name",
-                    "type": "string"
-                },
-                {
-                    "internalType": "address",
-                    "name": "from",
-                    "type": "address"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "lifetime",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "deposit",
-                    "type": "uint256"
-                }
-            ],
-            "name": "initializeSchain",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "isAnyFreeNode",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "isEnoughNodes",
-            "outputs": [
-                {
-                    "internalType": "uint256[]",
-                    "name": "result",
-                    "type": "uint256[]"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "address",
+                    "type": "address",
                     "name": "sender",
-                    "type": "address"
+                    "indexed": true
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "DEFAULT_ADMIN_ROLE",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "addSchainForNode",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                },
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
                 }
             ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "addSchainType",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint8",
+                    "name": "partOfNode"
+                },
+                {
+                    "type": "uint256",
+                    "name": "numberOfNodes"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "changeLifetime",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                },
+                {
+                    "type": "uint256",
+                    "name": "lifetime"
+                },
+                {
+                    "type": "uint256",
+                    "name": "deposit"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "checkException",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                },
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "checkHoleForSchain",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainHash"
+                },
+                {
+                    "type": "uint256",
+                    "name": "indexOfNode"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "contractManager",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "address"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "createGroupForSchain",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                },
+                {
+                    "type": "uint256",
+                    "name": "numberOfNodes"
+                },
+                {
+                    "type": "uint8",
+                    "name": "partOfNode"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256[]"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "deleteGroup",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "findSchainAtSchainsForNode",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                },
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getActiveSchain",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getActiveSchains",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32[]",
+                    "name": "activeSchains"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getLengthOfSchainsForNode",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getNodeIndexInGroup",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                },
+                {
+                    "type": "uint256",
+                    "name": "nodeId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getNodesInGroup",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256[]"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getNumberOfNodesInGroup",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getRoleAdmin",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getRoleMember",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "uint256",
+                    "name": "index"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "address"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getRoleMemberCount",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getSchainIdsByAddress",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "from"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32[]"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getSchainIdsForNode",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32[]"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getSchainListSize",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "from"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getSchainName",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getSchainOwner",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "address"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getSchains",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "bytes32[]"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getSchainsPartOfNode",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint8"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "grantRole",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "hasRole",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "holesForNodes",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256"
+                },
+                {
+                    "type": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "holesForSchains",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32"
+                },
+                {
+                    "type": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "initialize",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "newContractsAddress"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "initializeSchain",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "string",
+                    "name": "name"
+                },
+                {
+                    "type": "address",
+                    "name": "from"
+                },
+                {
+                    "type": "uint256",
+                    "name": "lifetime"
+                },
+                {
+                    "type": "uint256",
+                    "name": "deposit"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "isAnyFreeNode",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "isNodeAddressesInGroup",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "address",
-                    "name": "from",
-                    "type": "address"
+                    "type": "bytes32",
+                    "name": "schainId"
                 },
                 {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
+                    "type": "address",
+                    "name": "sender"
                 }
             ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "isOwnerAddress",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
+                    "type": "address",
+                    "name": "from"
+                },
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
                 }
             ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "isSchainActive",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "schainId",
                     "type": "bytes32"
                 }
             ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "isSchainExist",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "string",
-                    "name": "name",
-                    "type": "string"
+                    "type": "bytes32",
+                    "name": "schainId"
                 }
             ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "isSchainNameAvailable",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
+                    "type": "string",
+                    "name": "name"
                 }
             ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "isTimeExpired",
-            "outputs": [
-                {
-                    "internalType": "bool",
-                    "name": "",
-                    "type": "bool"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "schainHash",
-                    "type": "bytes32"
+                    "type": "bytes32",
+                    "name": "schainId"
                 }
             ],
+            "outputs": [
+                {
+                    "type": "bool"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "makeSchainNodesInvisible",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "makeSchainNodesVisible",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "moveToPlaceOfSchainOnNode",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainHash"
+                }
+            ],
+            "outputs": []
         },
         {
-            "inputs": [],
+            "type": "function",
             "name": "numberOfSchainTypes",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
             "outputs": [
                 {
-                    "internalType": "uint256",
-                    "name": "",
                     "type": "uint256"
                 }
-            ],
-            "stateMutability": "view",
-            "type": "function"
+            ]
         },
         {
-            "inputs": [],
+            "type": "function",
             "name": "numberOfSchains",
-            "outputs": [
-                {
-                    "internalType": "uint64",
-                    "name": "",
-                    "type": "uint64"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "name": "placeOfSchainOnNode",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainHash",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "removeHolesForSchain",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainHash",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "removeNodeFromExceptions",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "bytes32",
-                    "name": "schainHash",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "removeNodeFromSchain",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "address",
-                    "name": "from",
-                    "type": "address"
-                }
-            ],
-            "name": "removeSchain",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "schainIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "removeSchainForNode",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "typeOfSchain",
-                    "type": "uint256"
-                }
-            ],
-            "name": "removeSchainType",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
-                }
-            ],
-            "name": "renounceRole",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
-                }
-            ],
-            "name": "revokeRole",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "address",
-                    "name": "",
-                    "type": "address"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "name": "schainIndexes",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "name": "schainTypes",
-            "outputs": [
-                {
-                    "internalType": "uint8",
-                    "name": "partOfNode",
-                    "type": "uint8"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "numberOfNodes",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "name": "schains",
-            "outputs": [
-                {
-                    "internalType": "string",
-                    "name": "name",
-                    "type": "string"
-                },
-                {
-                    "internalType": "address",
-                    "name": "owner",
-                    "type": "address"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "indexInOwnerList",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint8",
-                    "name": "partOfNode",
-                    "type": "uint8"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "lifetime",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "startDate",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "startBlock",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "deposit",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint64",
-                    "name": "index",
-                    "type": "uint64"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "name": "schainsAtSystem",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "name": "schainsForNodes",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "name": "schainsGroups",
-            "outputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "",
-                    "type": "uint256"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "setException",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                }
-            ],
-            "name": "setNodeInGroup",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
-                    "name": "newNumberOfSchainTypes",
-                    "type": "uint256"
-                }
-            ],
-            "name": "setNumberOfSchainTypes",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "schainId",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "address",
-                    "name": "from",
-                    "type": "address"
-                }
-            ],
-            "name": "setSchainIndex",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [],
-            "name": "sumOfSchainsResources",
             "outputs": [
                 {
-                    "internalType": "uint256",
-                    "name": "",
+                    "type": "uint64"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "placeOfSchainOnNode",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32"
+                },
+                {
                     "type": "uint256"
                 }
             ],
-            "stateMutability": "view",
-            "type": "function"
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
         },
         {
+            "type": "function",
+            "name": "removeHolesForSchain",
+            "constant": false,
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "",
+                    "type": "bytes32",
+                    "name": "schainHash"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "removeNodeFromAllExceptionSchains",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "removeNodeFromExceptions",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainHash"
+                },
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "removeNodeFromSchain",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                },
+                {
+                    "type": "bytes32",
+                    "name": "schainHash"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "removeSchain",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                },
+                {
+                    "type": "address",
+                    "name": "from"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "removeSchainForNode",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                },
+                {
+                    "type": "uint256",
+                    "name": "schainIndex"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "removeSchainType",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "typeOfSchain"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "renounceRole",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "revokeRole",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "schainIndexes",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address"
+                },
+                {
+                    "type": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "schainTypes",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint8",
+                    "name": "partOfNode"
+                },
+                {
+                    "type": "uint256",
+                    "name": "numberOfNodes"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "schains",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
                     "type": "bytes32"
                 }
             ],
-            "name": "usedSchainNames",
             "outputs": [
                 {
-                    "internalType": "bool",
-                    "name": "",
+                    "type": "string",
+                    "name": "name"
+                },
+                {
+                    "type": "address",
+                    "name": "owner"
+                },
+                {
+                    "type": "uint256",
+                    "name": "indexInOwnerList"
+                },
+                {
+                    "type": "uint8",
+                    "name": "partOfNode"
+                },
+                {
+                    "type": "uint256",
+                    "name": "lifetime"
+                },
+                {
+                    "type": "uint256",
+                    "name": "startDate"
+                },
+                {
+                    "type": "uint256",
+                    "name": "startBlock"
+                },
+                {
+                    "type": "uint256",
+                    "name": "deposit"
+                },
+                {
+                    "type": "uint64",
+                    "name": "index"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "schainsAtSystem",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "schainsForNodes",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256"
+                },
+                {
+                    "type": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "schainsGroups",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32"
+                },
+                {
+                    "type": "uint256"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "setException",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                },
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "setNodeInGroup",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                },
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "setNumberOfSchainTypes",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "newNumberOfSchainTypes"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "setSchainIndex",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainId"
+                },
+                {
+                    "type": "address",
+                    "name": "from"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "sumOfSchainsResources",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "usedSchainNames",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32"
+                }
+            ],
+            "outputs": [
+                {
                     "type": "bool"
                 }
-            ],
-            "stateMutability": "view",
-            "type": "function"
+            ]
         }
     ],
     "schains_internal_address": "0x15bA21A241E29377A2573bE052BbfDc9dEdd2A3A",
