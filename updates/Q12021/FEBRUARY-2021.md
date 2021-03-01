@@ -12,14 +12,19 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During February, the team was mostly focused on:
 
-
--   TBD
+-   Skale Manager: added Self Recharging Wallets functionality, Schain creation gas usage optimisations, moved to Open Zeppelin upgrades, Gnosis Sare multisig process improvements, fixes for TestNet and Mainnet preparation
+-   Skaled and Consensus: TestNet fixes, additional error handling, snapshots improvements, memory leak fixes, block mining impovements, additional logging and optimizations
+-   IMA: TestNet fixes, gas estimation improvements
+-   Skale Node components: adding additional checks for schain creation, TestNet support and fixes, improved error handling and nodes monitoring
+-   Turned off SLA container until Validator Based Monitoring is implemented
 
 ## Code changes
 
 February:
 
 **SKALE Manager (1.8.0-develop.15)**
+-   Added self-recharging wallets functionality [\[PR#508\]](https://github.com/skalenetwork/skale-manager/pull/508)
+-   Added segment tree algorithm for schain creation optimisations [\[PR#515\]](https://github.com/skalenetwork/skale-manager/pull/515)
 -   Moved to Open Zeppelin upgrades [\[PR#522\]](https://github.com/skalenetwork/skale-manager/pull/522)
 -   Added automatic generation of accounts for testing [\[PR#528\]](https://github.com/skalenetwork/skale-manager/pull/528)
 -   Fixed initialize function and add tests [\[PR#529\]](https://github.com/skalenetwork/skale-manager/pull/529)
