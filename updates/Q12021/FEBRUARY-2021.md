@@ -149,3 +149,14 @@ January:
 -   Updated Skale Manager container [\[PR#384\]](https://github.com/skalenetwork/skale.py/pull/384), [\[PR#385\]](https://github.com/skalenetwork/skale.py/pull/385), [\[PR#386\]](https://github.com/skalenetwork/skale.py/pull/386)
 -   Merged beta to develop [\[PR#388\]](https://github.com/skalenetwork/skale.py/pull/388)
 -   Updated dependencies
+
+**Transaction-manager (1.1.0-develop.6)/(1.1.0-beta.7)**
+
+-   Added dry run for tx manager transaction queue [\[PR#156\]](https://github.com/skalenetwork/transaction-manager/pull/156)
+-   New beta [\[PR#157\]](https://github.com/skalenetwork/transaction-manager/pull/157)
+-   Fixed requirements.txt [\[PR#158\]](https://github.com/skalenetwork/transaction-manager/pull/158)
+-   New beta [\[PR#159\]](https://github.com/skalenetwork/transaction-manager/pull/159)
+-   Added skale.py back to base requirements [\[PR#160\]](https://github.com/skalenetwork/transaction-manager/pull/160)
+-   New beta  [\[PR#162\]](https://github.com/skalenetwork/transaction-manager/pull/162)
+-   Updated dependencies
+
