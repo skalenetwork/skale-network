@@ -123,3 +123,29 @@ January:
 -   Moved Bash logic to Python, refactor code [\[PR#422\]](https://github.com/skalenetwork/skale-node-cli/pull/422)
 -   Added docker lvmpy meta info [\[PR#423\]](https://github.com/skalenetwork/skale-node-cli/pull/423)
 -   Updated dependencies
+
+**Validator CLI (1.3.0-develop.1)/(1.2.0-beta.7)**
+
+-   Added self recharging wallets commands [\[PR#263\]](https://github.com/skalenetwork/validator-cli/pull/263)
+-   Update metrics commands tests [\[PR#264\]](https://github.com/skalenetwork/validator-cli/pull/264)
+-   Fixed gas price option for self recharging wallets [\[PR#268\]](https://github.com/skalenetwork/validator-cli/pull/268)
+-   Updated skale.py, Skale Manager contracts, added recharge custom validator [\[PR#270\]](https://github.com/skalenetwork/validator-cli/pull/270)
+-   Updated dependencies
+
+**bounty-agent (1.1.1-develop.3)/(1.1.1-beta.3)**
+
+-   Added Send next reward date to Telegram functionality [\[PR#125\]](https://github.com/skalenetwork/bounty-agent/pull/125)
+-   Updated skale.py to 4.1b16 with self-recharging wallet support [\[PR#127\]](https://github.com/skalenetwork/bounty-agent/pull/127)
+-   New Beta release [\[PR#129\]](https://github.com/skalenetwork/bounty-agent/pull/129)
+-   Updated dependencies
+
+**SKALE.py (5.0dev16)/(4.1b19)**
+
+-   Added self recharging wallets functionality[\[PR#374\]](https://github.com/skalenetwork/skale.py/pull/374)
+-   Add functionality to set/send ETH for the transaction [\[PR#375\]](https://github.com/skalenetwork/skale.py/pull/375), [\[PR#376\]](https://github.com/skalenetwork/skale.py/pull/376)
+-   Improved RPC wallet logs  [\[PR#377\]](https://github.com/skalenetwork/skale.py/pull/377)
+-   Updated Skale Manager version, updated helper-scripts  [\[PR#378\]](https://github.com/skalenetwork/skale.py/pull/378)
+-   Stop retrying dry run error from transaction manager  [\[PR#381\]](https://github.com/skalenetwork/skale.py/pull/381)
+-   Updated Skale Manager container [\[PR#384\]](https://github.com/skalenetwork/skale.py/pull/384), [\[PR#385\]](https://github.com/skalenetwork/skale.py/pull/385), [\[PR#386\]](https://github.com/skalenetwork/skale.py/pull/386)
+-   Merged beta to develop [\[PR#388\]](https://github.com/skalenetwork/skale.py/pull/388)
+-   Updated dependencies
