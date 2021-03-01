@@ -17,7 +17,7 @@ During February, the team was mostly focused on:
 
 ## Code changes
 
-January:
+February:
 
 **SKALE Manager (1.8.0-develop.15)**
 -   Moved to Open Zeppelin upgrades [\[PR#522\]](https://github.com/skalenetwork/skale-manager/pull/522)
