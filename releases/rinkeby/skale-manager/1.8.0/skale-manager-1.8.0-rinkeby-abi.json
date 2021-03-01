@@ -11275,484 +11275,445 @@
     "skale_d_k_g_address": "0x2620FdFA7869fb1E7A4D97FA2b86692D774A2dbD",
     "skale_manager_abi": [
         {
+            "type": "event",
             "anonymous": false,
-            "inputs": [
-                {
-                    "indexed": true,
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "address",
-                    "name": "owner",
-                    "type": "address"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "uint256",
-                    "name": "averageDowntime",
-                    "type": "uint256"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "uint256",
-                    "name": "averageLatency",
-                    "type": "uint256"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "uint256",
-                    "name": "bounty",
-                    "type": "uint256"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "uint256",
-                    "name": "previousBlockEvent",
-                    "type": "uint256"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "uint256",
-                    "name": "time",
-                    "type": "uint256"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "uint256",
-                    "name": "gasSpend",
-                    "type": "uint256"
-                }
-            ],
             "name": "BountyGot",
-            "type": "event"
-        },
-        {
-            "anonymous": false,
             "inputs": [
                 {
-                    "indexed": true,
-                    "internalType": "uint256",
+                    "type": "uint256",
                     "name": "nodeIndex",
-                    "type": "uint256"
+                    "indexed": true
                 },
                 {
-                    "indexed": false,
-                    "internalType": "address",
+                    "type": "address",
                     "name": "owner",
-                    "type": "address"
+                    "indexed": false
                 },
                 {
-                    "indexed": false,
-                    "internalType": "uint256",
+                    "type": "uint256",
                     "name": "averageDowntime",
-                    "type": "uint256"
+                    "indexed": false
                 },
                 {
-                    "indexed": false,
-                    "internalType": "uint256",
+                    "type": "uint256",
                     "name": "averageLatency",
-                    "type": "uint256"
+                    "indexed": false
                 },
                 {
-                    "indexed": false,
-                    "internalType": "uint256",
+                    "type": "uint256",
                     "name": "bounty",
-                    "type": "uint256"
+                    "indexed": false
                 },
                 {
-                    "indexed": false,
-                    "internalType": "uint256",
+                    "type": "uint256",
                     "name": "previousBlockEvent",
-                    "type": "uint256"
+                    "indexed": false
                 },
                 {
-                    "indexed": false,
-                    "internalType": "uint256",
+                    "type": "uint256",
                     "name": "time",
-                    "type": "uint256"
+                    "indexed": false
                 },
                 {
-                    "indexed": false,
-                    "internalType": "uint256",
+                    "type": "uint256",
                     "name": "gasSpend",
-                    "type": "uint256"
+                    "indexed": false
                 }
-            ],
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
             "name": "BountyReceived",
-            "type": "event"
-        },
-        {
-            "anonymous": false,
             "inputs": [
                 {
-                    "indexed": true,
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
-                },
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "sender",
-                    "type": "address"
-                }
-            ],
-            "name": "RoleGranted",
-            "type": "event"
-        },
-        {
-            "anonymous": false,
-            "inputs": [
-                {
-                    "indexed": true,
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
-                },
-                {
-                    "indexed": true,
-                    "internalType": "address",
-                    "name": "sender",
-                    "type": "address"
-                }
-            ],
-            "name": "RoleRevoked",
-            "type": "event"
-        },
-        {
-            "inputs": [],
-            "name": "ADMIN_ROLE",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [],
-            "name": "DEFAULT_ADMIN_ROLE",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [],
-            "name": "contractManager",
-            "outputs": [
-                {
-                    "internalType": "contract ContractManager",
-                    "name": "",
-                    "type": "address"
-                }
-            ],
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint16",
-                    "name": "port",
-                    "type": "uint16"
-                },
-                {
-                    "internalType": "uint16",
-                    "name": "nonce",
-                    "type": "uint16"
-                },
-                {
-                    "internalType": "bytes4",
-                    "name": "ip",
-                    "type": "bytes4"
-                },
-                {
-                    "internalType": "bytes4",
-                    "name": "publicIp",
-                    "type": "bytes4"
-                },
-                {
-                    "internalType": "bytes32[2]",
-                    "name": "publicKey",
-                    "type": "bytes32[2]"
-                },
-                {
-                    "internalType": "string",
-                    "name": "name",
-                    "type": "string"
-                }
-            ],
-            "name": "createNode",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "string",
-                    "name": "name",
-                    "type": "string"
-                }
-            ],
-            "name": "deleteSchain",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "string",
-                    "name": "name",
-                    "type": "string"
-                }
-            ],
-            "name": "deleteSchainByRoot",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "inputs": [
-                {
-                    "internalType": "uint256",
+                    "type": "uint256",
                     "name": "nodeIndex",
-                    "type": "uint256"
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "owner",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "averageDowntime",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "averageLatency",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "bounty",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "previousBlockEvent",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "time",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "gasSpend",
+                    "indexed": false
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "RoleGranted",
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "account",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "sender",
+                    "indexed": true
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "RoleRevoked",
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "account",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "sender",
+                    "indexed": true
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "ADMIN_ROLE",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "DEFAULT_ADMIN_ROLE",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "contractManager",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "address"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "createNode",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint16",
+                    "name": "port"
+                },
+                {
+                    "type": "uint16",
+                    "name": "nonce"
+                },
+                {
+                    "type": "bytes4",
+                    "name": "ip"
+                },
+                {
+                    "type": "bytes4",
+                    "name": "publicIp"
+                },
+                {
+                    "type": "bytes32[2]",
+                    "name": "publicKey"
+                },
+                {
+                    "type": "string",
+                    "name": "name"
+                },
+                {
+                    "type": "string",
+                    "name": "domainName"
                 }
             ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "deleteSchain",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "string",
+                    "name": "name"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "deleteSchainByRoot",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "string",
+                    "name": "name"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "getBounty",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
+            "constant": false,
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
+                    "type": "uint256",
+                    "name": "nodeIndex"
                 }
             ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "getRoleAdmin",
-            "outputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "",
-                    "type": "bytes32"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "uint256",
-                    "name": "index",
-                    "type": "uint256"
+                    "type": "bytes32",
+                    "name": "role"
                 }
             ],
+            "outputs": [
+                {
+                    "type": "bytes32"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "getRoleMember",
-            "outputs": [
-                {
-                    "internalType": "address",
-                    "name": "",
-                    "type": "address"
-                }
-            ],
+            "constant": true,
             "stateMutability": "view",
-            "type": "function"
-        },
-        {
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "uint256",
+                    "name": "index"
                 }
             ],
-            "name": "getRoleMemberCount",
             "outputs": [
                 {
-                    "internalType": "uint256",
-                    "name": "",
+                    "type": "address"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getRoleMemberCount",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                }
+            ],
+            "outputs": [
+                {
                     "type": "uint256"
                 }
-            ],
-            "stateMutability": "view",
-            "type": "function"
+            ]
         },
         {
-            "inputs": [
-                {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
-                }
-            ],
+            "type": "function",
             "name": "grantRole",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
+            "constant": false,
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
+                    "type": "bytes32",
+                    "name": "role"
                 },
                 {
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
+                    "type": "address",
+                    "name": "account"
                 }
             ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "hasRole",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
             "outputs": [
                 {
-                    "internalType": "bool",
-                    "name": "",
                     "type": "bool"
                 }
-            ],
-            "stateMutability": "view",
-            "type": "function"
+            ]
         },
         {
-            "inputs": [
-                {
-                    "internalType": "address",
-                    "name": "newContractsAddress",
-                    "type": "address"
-                }
-            ],
+            "type": "function",
             "name": "initialize",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
+            "constant": false,
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "uint256",
-                    "name": "nodeIndex",
-                    "type": "uint256"
+                    "type": "address",
+                    "name": "newContractsAddress"
                 }
             ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "nodeExit",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
+            "constant": false,
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
-                },
-                {
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
+                    "type": "uint256",
+                    "name": "nodeIndex"
                 }
             ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "renounceRole",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
+            "constant": false,
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "bytes32",
-                    "name": "role",
-                    "type": "bytes32"
+                    "type": "bytes32",
+                    "name": "role"
                 },
                 {
-                    "internalType": "address",
-                    "name": "account",
-                    "type": "address"
+                    "type": "address",
+                    "name": "account"
                 }
             ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "revokeRole",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
+            "constant": false,
+            "payable": false,
             "inputs": [
                 {
-                    "internalType": "address",
-                    "name": "",
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "tokensReceived",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
                     "type": "address"
                 },
                 {
-                    "internalType": "address",
-                    "name": "from",
-                    "type": "address"
+                    "type": "address",
+                    "name": "from"
                 },
                 {
-                    "internalType": "address",
-                    "name": "to",
-                    "type": "address"
+                    "type": "address",
+                    "name": "to"
                 },
                 {
-                    "internalType": "uint256",
-                    "name": "value",
-                    "type": "uint256"
+                    "type": "uint256",
+                    "name": "value"
                 },
                 {
-                    "internalType": "bytes",
-                    "name": "userData",
-                    "type": "bytes"
+                    "type": "bytes",
+                    "name": "userData"
                 },
                 {
-                    "internalType": "bytes",
-                    "name": "",
                     "type": "bytes"
                 }
             ],
-            "name": "tokensReceived",
-            "outputs": [],
-            "stateMutability": "nonpayable",
-            "type": "function"
+            "outputs": []
         }
     ],
     "skale_manager_address": "0x51dAFE36778FF8526B8019Fc5BEE35acdb237465",
