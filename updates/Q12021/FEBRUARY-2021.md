@@ -91,3 +91,35 @@ January:
 -   Fixed and improved S-Chain network discovery  [\[PR#459\]](https://github.com/skalenetwork/ima/pull/459)
 -   Updated dependencies
 
+**SKALE Admin (2.0.0-develop.16)/(1.1.0-beta.36)**
+
+-   Backup containers logs before removal [\[PR#433\]](https://github.com/skalenetwork/skale-admin/pull/433)
+-   Fixed log message [\[PR#436\]](https://github.com/skalenetwork/skale-admin/pull/436)
+-   Added check if eth network provider is trusted [\[PR#437\]](https://github.com/skalenetwork/skale-admin/pull/437)
+-   Added needs_reload to sChainRecord, reload sChains after SSL upload [\[PR#438\]](https://github.com/skalenetwork/skale-admin/pull/438)
+-   Added check web3 client version [\[PR#440\]](https://github.com/skalenetwork/skale-admin/pull/440)
+-   Fixed volume wasn't deleted after state root mismatch error [\[PR#441\]](https://github.com/skalenetwork/skale-admin/pull/441)
+-   Fixed get previous public key for repair [\[PR#443\]](https://github.com/skalenetwork/skale-admin/pull/443)
+-   Fixed read sChain cmd from config [\[PR#444\]](https://github.com/skalenetwork/skale-admin/pull/444)
+-   Added sleeping between removing container and volume [\[PR#445\]](https://github.com/skalenetwork/skale-admin/pull/445)
+-   Updated skale.py. Improved logs [\[PR#447\]](https://github.com/skalenetwork/skale-admin/pull/447)
+-   Updated to skale.py 4.1b16 with rpc dry run handling fix [\[PR#451\]](https://github.com/skalenetwork/skale-admin/pull/451)
+-   Updated Skale Manager container [\[PR#452\]](https://github.com/skalenetwork/skale-admin/pull/452)
+-   Updated skale.py, removed hotfix with 0 node id [\[PR#453\]](https://github.com/skalenetwork/skale-admin/pull/453)
+-   Added getting client version error handling [\[PR#458\]](https://github.com/skalenetwork/skale-admin/pull/458)
+-   Merged beta into develop [\[PR#459\]](https://github.com/skalenetwork/skale-admin/pull/459)
+-   Added request block device size from lvmpy [\[PR#460\]](https://github.com/skalenetwork/skale-admin/pull/460)
+-   Fixed monitor_filebeat name [\[PR#461\]](https://github.com/skalenetwork/skale-admin/pull/461)
+-   Fixed RPC wallet init [\[PR#462\]](https://github.com/skalenetwork/skale-admin/pull/462)
+-   Updated dependencies
+
+**SKALE Node CLI (2.0.0-develop.9)/(1.1.0-beta.16)**
+
+-   Added saving sChains logs during node update [\[PR#410\]](https://github.com/skalenetwork/skale-node-cli/pull/410)
+-   Merged beta to develop [\[PR#414\]](https://github.com/skalenetwork/skale-node-cli/pull/414)
+-   Turned off SLA [\[PR#417\]](https://github.com/skalenetwork/skale-node-cli/pull/417), [\[PR#418\]](https://github.com/skalenetwork/skale-node-cli/pull/418)
+-   Fixed update [\[PR#419\]](https://github.com/skalenetwork/skale-node-cli/pull/419), [\[PR#421\]](https://github.com/skalenetwork/skale-node-cli/pull/421)
+-   Refactored node-cli structure [\[PR#420\]](https://github.com/skalenetwork/skale-node-cli/pull/420)
+-   Moved Bash logic to Python, refactor code [\[PR#422\]](https://github.com/skalenetwork/skale-node-cli/pull/422)
+-   Added docker lvmpy meta info [\[PR#423\]](https://github.com/skalenetwork/skale-node-cli/pull/423)
+-   Updated dependencies
