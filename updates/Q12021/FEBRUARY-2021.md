@@ -160,3 +160,14 @@ January:
 -   New beta  [\[PR#162\]](https://github.com/skalenetwork/transaction-manager/pull/162)
 -   Updated dependencies
 
+**Watchdog (1.1.3-develop.2)/(1.1.3-beta.2)**
+
+-   Added skaled, IMA, containers config stream endpoints [\[PR#20\]](https://github.com/skalenetwork/skale-watchdog/pull/20)
+-   New beta [\[PR#21\]](https://github.com/skalenetwork/skale-watchdog/pull/21)
+-    Increased API_TIMEOUT to 1000s [\[PR#23\]](https://github.com/skalenetwork/skale-watchdog/pull/23)
+-   New beta [\[PR#24\]](https://github.com/skalenetwork/skale-watchdog/pull/24)
+
+**sgx.py (0.7dev3)/(0.6b1)**
+
+-   Bump web3 version  [\[PR#97\]](https://github.com/skalenetwork/sgx.py/pull/97)
+-   Fix set-env command in publish pipeline  [\[PR#98\]](https://github.com/skalenetwork/sgx.py/pull/98)
