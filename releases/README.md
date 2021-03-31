@@ -100,3 +100,10 @@
 - [1.3.2 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.3.2-testnet) (4 Jan 2021)
 - [1.4.1 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.4.1-testnet) (19 Jan 2021)
 - [1.5.0 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.5.0-testnet) (17 Feb 2021)
+
+### ETH Global release
+
+#### SKALE Manager
+
+- Rinkeby
+  - [Release 1.8.0-beta.1](/releases/eth-global/skale-manager/1.8.0/skale-manager-1.8.0-beta.1-rinkeby-abi.json) (30 Mar 2021)
