@@ -107,3 +107,12 @@ March:
 -   Set Skaled stop timeout 1 minute [\[PR#448\]](https://github.com/skalenetwork/skale-node-cli/pull/448)
 -   Add disable IMA variable [\[PR#453\]](https://github.com/skalenetwork/skale-node-cli/pull/453)
 -   Updated dependencies
+
+**Validator CLI (1.3.0-develop.2)/(1.2.0-beta.11)**
+
+-   Updated SM and skale.py [\[PR#273\]](https://github.com/skalenetwork/validator-cli/pull/273)
+-   Updated skale.py to 4.1b21  [\[PR#278\]](https://github.com/skalenetwork/validator-cli/pull/278)
+-   Update skale.py forBerlin Fork support [\[PR#281\]](https://github.com/skalenetwork/validator-cli/pull/281)
+-   Fixed run builds using ubuntu 18.04 [\[PR#284\]](https://github.com/skalenetwork/validator-cli/pull/284)
+-   Updated dependencies
+
