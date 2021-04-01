@@ -22,4 +22,5 @@
 - [SKALE Manager Subgraph](https://thegraph.com/explorer/subgraph/ministry-of-decentralization/skale-manager-subgraph)
 - [ChorusOne SKALE Tools for Validators](https://github.com/ChorusOne/skale-tools)
 - [ConsenSys Activate Staking Portal](https://activate.codefi.network/staking/skale/validators)
+- [EverStake Delegation Notifications](https://github.com/everstake/skale-delegations-notificationbot)
 - [StakingRewards Staking Portal](https://www.stakingrewards.com/earn/skale)
