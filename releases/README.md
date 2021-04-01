@@ -107,3 +107,8 @@
 
 - Rinkeby
   - [Release 1.8.0-beta.1](/releases/eth-global/skale-manager/1.8.0/skale-manager-1.8.0-beta.1-rinkeby-abi.json) (30 Mar 2021)
+
+#### IMA
+
+- Rinkeby
+  - [Release 1.0.0-develop.148](/releases/eth-global/IMA/1.0.0-develop.148/proxyMainnet.json) (1 April 2021)
