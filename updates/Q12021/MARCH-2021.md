@@ -55,7 +55,7 @@ March:
 -   Fixed partial catchup [\[PR#546\]](https://github.com/skalenetwork/skaled/pull/546)
 -   Updated consensus [\[PR#547\]](https://github.com/skalenetwork/skaled/pull/547)
 
-**SGXWallet (1.72.1-develop.1/1.70.0-beta.1)**
+**SGXWallet (1.72.1-develop.1)/(1.70.0-beta.1)**
 
 -   Added check for memory usage [\[PR#276\]](https://github.com/skalenetwork/SGXWallet/pull/276)
 -   Updated memory usage [\[PR#280\]](https://github.com/skalenetwork/SGXWallet/pull/280)
@@ -83,3 +83,27 @@ March:
 -   Added gas costs optimization[\[PR#504\]](https://github.com/skalenetwork/ima/pull/504)
 -   Updated dependencies
 
+**SKALE Admin (2.0.0-develop.18)/(1.1.0-beta.43)**
+
+-   Update skale.py [\[PR#471\]](https://github.com/skalenetwork/skale-admin/pull/471)
+-   Added always running cleanup when downloading snapshots [\[PR#472\]](https://github.com/skalenetwork/skale-admin/pull/472)
+-   Updated skale.py to 4.1b21 [\[PR#476\]](https://github.com/skalenetwork/skale-admin/pull/476)
+-   Ensure node config data if skale node register tx failed [\[PR#477\]](https://github.com/skalenetwork/skale-admin/pull/477)
+-   Commented out IMA [\[PR#480\]](https://github.com/skalenetwork/skale-admin/pull/480)
+-   Increase skaled stop timeout to 1 minute [\[PR#484\]](https://github.com/skalenetwork/skale-admin/pull/484)
+-   Fixed schains healthckecks endpoint with unregistered node [\[PR#486\]](https://github.com/skalenetwork/skale-admin/pull/486)
+-   Added disable IMA option [\[PR#494\]](https://github.com/skalenetwork/skale-admin/pull/494)
+-   Updated dependencies
+
+**SKALE Node CLI (2.0.0-develop.11)/(1.1.0-beta.24)**
+
+-   Set static disk size allocation [\[PR#429\]](https://github.com/skalenetwork/skale-node-cli/pull/429)
+-   Updated readme [\[PR#430\]](https://github.com/skalenetwork/skale-node-cli/pull/430)
+-   Hide sync option [\[PR#431\]](https://github.com/skalenetwork/skale-node-cli/pull/431)
+-   Fixed NotValidAbiError log message [\[PR#433\]](https://github.com/skalenetwork/skale-node-cli/pull/433)
+-   Added validaton test [\[PR#435\]](https://github.com/skalenetwork/skale-node-cli/pull/435)
+-   Added check if node is inited to register cmd [\[PR#437\]](https://github.com/skalenetwork/skale-node-cli/pull/437)
+-   Moved turn on/off scripts to python, moved iptables [\[PR#440\]](https://github.com/skalenetwork/skale-node-cli/pull/440)
+-   Set Skaled stop timeout 1 minute [\[PR#448\]](https://github.com/skalenetwork/skale-node-cli/pull/448)
+-   Add disable IMA variable [\[PR#453\]](https://github.com/skalenetwork/skale-node-cli/pull/453)
+-   Updated dependencies
