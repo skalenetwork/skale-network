@@ -1,0 +1,1417 @@
+{
+    "contracts": {
+      "MessageProxyForMainnet": {
+        "address": "0x2D1893B231541728f6c9114B6AE5B2dD388A1f81",
+        "constructorCode": "608060405234801561001057600080fd5b506130ff806100206000396000f3fe",
+        "bodyBytecodeHash": "bc3c20c9e00d37db98af7cf0fcbb3970a39c636d1a982d221a975ab5257fbb2d",
+        "localBytecodeHash": "a41e50596f55424f23da22578b18849cd200655131c4e4c2cfa0949ac197b77a",
+        "deployedBytecodeHash": "a41e50596f55424f23da22578b18849cd200655131c4e4c2cfa0949ac197b77a",
+        "types": {
+          "t_bool": {
+            "id": "t_bool",
+            "kind": "elementary",
+            "label": "bool"
+          },
+          "t_uint256": {
+            "id": "t_uint256",
+            "kind": "elementary",
+            "label": "uint256"
+          },
+          "t_array:50<t_uint256>": {
+            "id": "t_array:50<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "50",
+            "kind": "array",
+            "label": "uint256[50]"
+          },
+          "t_struct<AccessControlUpgradeSafe.RoleData>": {
+            "id": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "kind": "struct",
+            "label": "AccessControlUpgradeSafe.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "astId": 10985,
+                "type": "t_struct<EnumerableSet.AddressSet>",
+                "src": "1655:32:38"
+              },
+              {
+                "label": "adminRole",
+                "astId": 10987,
+                "type": "t_bytes32",
+                "src": "1697:17:38"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.AddressSet>": {
+            "id": "t_struct<EnumerableSet.AddressSet>",
+            "kind": "struct",
+            "label": "EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "astId": 14267,
+                "type": "t_struct<EnumerableSet.Set>",
+                "src": "4644:10:54"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.Set>": {
+            "id": "t_struct<EnumerableSet.Set>",
+            "kind": "struct",
+            "label": "EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "astId": 14083,
+                "type": "t_array:dyn<t_bytes32>",
+                "src": "1213:17:54"
+              },
+              {
+                "label": "_indexes",
+                "astId": 14087,
+                "type": "t_mapping<t_uint256>",
+                "src": "1364:37:54"
+              }
+            ]
+          },
+          "t_bytes32": {
+            "id": "t_bytes32",
+            "kind": "elementary",
+            "label": "bytes32"
+          },
+          "t_array:dyn<t_bytes32>": {
+            "id": "t_array:dyn<t_bytes32>",
+            "valueType": "t_bytes32",
+            "length": "dyn",
+            "kind": "array",
+            "label": "bytes32[]"
+          },
+          "t_mapping<t_uint256>": {
+            "id": "t_mapping<t_uint256>",
+            "valueType": "t_uint256",
+            "label": "mapping(key => uint256)",
+            "kind": "mapping"
+          },
+          "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>": {
+            "id": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "valueType": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "label": "mapping(key => AccessControlUpgradeSafe.RoleData)",
+            "kind": "mapping"
+          },
+          "t_array:49<t_uint256>": {
+            "id": "t_array:49<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "49",
+            "kind": "array",
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "id": "t_address",
+            "kind": "elementary",
+            "label": "address"
+          },
+          "t_string": {
+            "id": "t_string",
+            "kind": "elementary",
+            "label": "string"
+          },
+          "t_struct<MessageProxyForMainnet.ConnectedChainInfo>": {
+            "id": "t_struct<MessageProxyForMainnet.ConnectedChainInfo>",
+            "kind": "struct",
+            "label": "MessageProxyForMainnet.ConnectedChainInfo",
+            "members": [
+              {
+                "label": "incomingMessageCounter",
+                "astId": 2678,
+                "type": "t_uint256",
+                "src": "3144:30:6"
+              },
+              {
+                "label": "outgoingMessageCounter",
+                "astId": 2680,
+                "type": "t_uint256",
+                "src": "3184:30:6"
+              },
+              {
+                "label": "inited",
+                "astId": 2682,
+                "type": "t_bool",
+                "src": "3224:11:6"
+              }
+            ]
+          },
+          "t_mapping<t_struct<MessageProxyForMainnet.ConnectedChainInfo>>": {
+            "id": "t_mapping<t_struct<MessageProxyForMainnet.ConnectedChainInfo>>",
+            "valueType": "t_struct<MessageProxyForMainnet.ConnectedChainInfo>",
+            "label": "mapping(key => MessageProxyForMainnet.ConnectedChainInfo)",
+            "kind": "mapping"
+          },
+          "t_mapping<t_bytes32>": {
+            "id": "t_mapping<t_bytes32>",
+            "valueType": "t_bytes32",
+            "label": "mapping(key => bytes32)",
+            "kind": "mapping"
+          }
+        },
+        "storage": [
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initialized",
+            "astId": 10879,
+            "type": "t_bool",
+            "src": "757:24:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initializing",
+            "astId": 10882,
+            "type": "t_bool",
+            "src": "876:25:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "______gap",
+            "astId": 10947,
+            "type": "t_array:50<t_uint256>",
+            "src": "1982:29:37"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+            "label": "__gap",
+            "astId": 10872,
+            "type": "t_array:50<t_uint256>",
+            "src": "1277:25:36"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "_roles",
+            "astId": 10992,
+            "type": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "src": "1727:44:38"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "__gap",
+            "astId": 11237,
+            "type": "t_array:49<t_uint256>",
+            "src": "6927:25:38"
+          },
+          {
+            "contract": "PermissionsForMainnet",
+            "path": "contracts/PermissionsForMainnet.sol",
+            "label": "lockAndDataAddress_",
+            "astId": 3894,
+            "type": "t_address",
+            "src": "1351:34:8"
+          },
+          {
+            "contract": "MessageProxyForMainnet",
+            "path": "contracts/MessageProxyForMainnet.sol",
+            "label": "chainID",
+            "astId": 2707,
+            "type": "t_string",
+            "src": "3535:21:6"
+          },
+          {
+            "contract": "MessageProxyForMainnet",
+            "path": "contracts/MessageProxyForMainnet.sol",
+            "label": "owner",
+            "astId": 2709,
+            "type": "t_address",
+            "src": "3629:20:6"
+          },
+          {
+            "contract": "MessageProxyForMainnet",
+            "path": "contracts/MessageProxyForMainnet.sol",
+            "label": "connectedChains",
+            "astId": 2713,
+            "type": "t_mapping<t_struct<MessageProxyForMainnet.ConnectedChainInfo>>",
+            "src": "3656:63:6"
+          },
+          {
+            "contract": "MessageProxyForMainnet",
+            "path": "contracts/MessageProxyForMainnet.sol",
+            "label": "_outgoingMessageDataHash",
+            "astId": 2719,
+            "type": "t_mapping<t_bytes32>",
+            "src": "3781:83:6"
+          },
+          {
+            "contract": "MessageProxyForMainnet",
+            "path": "contracts/MessageProxyForMainnet.sol",
+            "label": "_idxHead",
+            "astId": 2723,
+            "type": "t_mapping<t_uint256>",
+            "src": "3923:43:6"
+          },
+          {
+            "contract": "MessageProxyForMainnet",
+            "path": "contracts/MessageProxyForMainnet.sol",
+            "label": "_idxTail",
+            "astId": 2727,
+            "type": "t_mapping<t_uint256>",
+            "src": "4025:43:6"
+          }
+        ],
+        "warnings": {
+          "hasConstructor": false,
+          "hasSelfDestruct": false,
+          "hasDelegateCall": false,
+          "hasInitialValuesInDeclarations": false,
+          "uninitializedBaseContracts": []
+        }
+      },
+      "LockAndDataForMainnet": {
+        "address": "0x80c6249aA970e87037FbD16f2413c07bEf9e14fa",
+        "constructorCode": "608060405234801561001057600080fd5b50611d4e806100206000396000f3fe",
+        "bodyBytecodeHash": "49e23cc0ac28e9a501b7addaab147b57152ce3ee7f515436b367d36ce3ae1975",
+        "localBytecodeHash": "105991b48b6babcb1247979de6d44ff8f21d3ba9d61d917030116bfbd1279d5c",
+        "deployedBytecodeHash": "105991b48b6babcb1247979de6d44ff8f21d3ba9d61d917030116bfbd1279d5c",
+        "types": {
+          "t_bool": {
+            "id": "t_bool",
+            "kind": "elementary",
+            "label": "bool"
+          },
+          "t_uint256": {
+            "id": "t_uint256",
+            "kind": "elementary",
+            "label": "uint256"
+          },
+          "t_array:50<t_uint256>": {
+            "id": "t_array:50<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "50",
+            "kind": "array",
+            "label": "uint256[50]"
+          },
+          "t_address": {
+            "id": "t_address",
+            "kind": "elementary",
+            "label": "address"
+          },
+          "t_array:49<t_uint256>": {
+            "id": "t_array:49<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "49",
+            "kind": "array",
+            "label": "uint256[49]"
+          },
+          "t_mapping<t_address>": {
+            "id": "t_mapping<t_address>",
+            "valueType": "t_address",
+            "label": "mapping(key => address)",
+            "kind": "mapping"
+          },
+          "t_mapping<t_uint256>": {
+            "id": "t_mapping<t_uint256>",
+            "valueType": "t_uint256",
+            "label": "mapping(key => uint256)",
+            "kind": "mapping"
+          }
+        },
+        "storage": [
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initialized",
+            "astId": 10879,
+            "type": "t_bool",
+            "src": "757:24:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initializing",
+            "astId": 10882,
+            "type": "t_bool",
+            "src": "876:25:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "______gap",
+            "astId": 10947,
+            "type": "t_array:50<t_uint256>",
+            "src": "1982:29:37"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+            "label": "__gap",
+            "astId": 10872,
+            "type": "t_array:50<t_uint256>",
+            "src": "1277:25:36"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol",
+            "label": "_owner",
+            "astId": 11249,
+            "type": "t_address",
+            "src": "651:22:39"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol",
+            "label": "__gap",
+            "astId": 11367,
+            "type": "t_array:49<t_uint256>",
+            "src": "2434:25:39"
+          },
+          {
+            "contract": "LockAndDataForMainnet",
+            "path": "contracts/LockAndDataForMainnet.sol",
+            "label": "permitted",
+            "astId": 1517,
+            "type": "t_mapping<t_address>",
+            "src": "1480:44:3"
+          },
+          {
+            "contract": "LockAndDataForMainnet",
+            "path": "contracts/LockAndDataForMainnet.sol",
+            "label": "tokenManagerAddresses",
+            "astId": 1521,
+            "type": "t_mapping<t_address>",
+            "src": "1531:56:3"
+          },
+          {
+            "contract": "LockAndDataForMainnet",
+            "path": "contracts/LockAndDataForMainnet.sol",
+            "label": "approveTransfers",
+            "astId": 1525,
+            "type": "t_mapping<t_uint256>",
+            "src": "1594:51:3"
+          }
+        ],
+        "warnings": {
+          "hasConstructor": false,
+          "hasSelfDestruct": false,
+          "hasDelegateCall": false,
+          "hasInitialValuesInDeclarations": false,
+          "uninitializedBaseContracts": []
+        }
+      },
+      "DepositBox": {
+        "address": "0x61A7f4E8564d9a4c88484358834b8D53d969F44B",
+        "constructorCode": "608060405234801561001057600080fd5b506130a3806100206000396000f3fe",
+        "bodyBytecodeHash": "a7292d54b80167255ff00e566bd069ce071ba6ca57c2f72c80abbc1d7248444e",
+        "localBytecodeHash": "858db861f8509f0cc95149abe395998d8094cfffa15483bd4b05b118c908458e",
+        "deployedBytecodeHash": "858db861f8509f0cc95149abe395998d8094cfffa15483bd4b05b118c908458e",
+        "types": {
+          "t_bool": {
+            "id": "t_bool",
+            "kind": "elementary",
+            "label": "bool"
+          },
+          "t_uint256": {
+            "id": "t_uint256",
+            "kind": "elementary",
+            "label": "uint256"
+          },
+          "t_array:50<t_uint256>": {
+            "id": "t_array:50<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "50",
+            "kind": "array",
+            "label": "uint256[50]"
+          },
+          "t_struct<AccessControlUpgradeSafe.RoleData>": {
+            "id": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "kind": "struct",
+            "label": "AccessControlUpgradeSafe.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "astId": 10985,
+                "type": "t_struct<EnumerableSet.AddressSet>",
+                "src": "1655:32:38"
+              },
+              {
+                "label": "adminRole",
+                "astId": 10987,
+                "type": "t_bytes32",
+                "src": "1697:17:38"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.AddressSet>": {
+            "id": "t_struct<EnumerableSet.AddressSet>",
+            "kind": "struct",
+            "label": "EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "astId": 14267,
+                "type": "t_struct<EnumerableSet.Set>",
+                "src": "4644:10:54"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.Set>": {
+            "id": "t_struct<EnumerableSet.Set>",
+            "kind": "struct",
+            "label": "EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "astId": 14083,
+                "type": "t_array:dyn<t_bytes32>",
+                "src": "1213:17:54"
+              },
+              {
+                "label": "_indexes",
+                "astId": 14087,
+                "type": "t_mapping<t_uint256>",
+                "src": "1364:37:54"
+              }
+            ]
+          },
+          "t_bytes32": {
+            "id": "t_bytes32",
+            "kind": "elementary",
+            "label": "bytes32"
+          },
+          "t_array:dyn<t_bytes32>": {
+            "id": "t_array:dyn<t_bytes32>",
+            "valueType": "t_bytes32",
+            "length": "dyn",
+            "kind": "array",
+            "label": "bytes32[]"
+          },
+          "t_mapping<t_uint256>": {
+            "id": "t_mapping<t_uint256>",
+            "valueType": "t_uint256",
+            "label": "mapping(key => uint256)",
+            "kind": "mapping"
+          },
+          "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>": {
+            "id": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "valueType": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "label": "mapping(key => AccessControlUpgradeSafe.RoleData)",
+            "kind": "mapping"
+          },
+          "t_array:49<t_uint256>": {
+            "id": "t_array:49<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "49",
+            "kind": "array",
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "id": "t_address",
+            "kind": "elementary",
+            "label": "address"
+          }
+        },
+        "storage": [
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initialized",
+            "astId": 10879,
+            "type": "t_bool",
+            "src": "757:24:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initializing",
+            "astId": 10882,
+            "type": "t_bool",
+            "src": "876:25:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "______gap",
+            "astId": 10947,
+            "type": "t_array:50<t_uint256>",
+            "src": "1982:29:37"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+            "label": "__gap",
+            "astId": 10872,
+            "type": "t_array:50<t_uint256>",
+            "src": "1277:25:36"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "_roles",
+            "astId": 10992,
+            "type": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "src": "1727:44:38"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "__gap",
+            "astId": 11237,
+            "type": "t_array:49<t_uint256>",
+            "src": "6927:25:38"
+          },
+          {
+            "contract": "PermissionsForMainnet",
+            "path": "contracts/PermissionsForMainnet.sol",
+            "label": "lockAndDataAddress_",
+            "astId": 3894,
+            "type": "t_address",
+            "src": "1351:34:8"
+          },
+          {
+            "contract": "DepositBox",
+            "path": "contracts/DepositBox.sol",
+            "label": "gasConsumptions",
+            "astId": 44,
+            "type": "t_mapping<t_uint256>",
+            "src": "1767:64:0"
+          }
+        ],
+        "warnings": {
+          "hasConstructor": false,
+          "hasSelfDestruct": false,
+          "hasDelegateCall": false,
+          "hasInitialValuesInDeclarations": false,
+          "uninitializedBaseContracts": []
+        }
+      },
+      "LockAndDataForMainnetERC20": {
+        "address": "0xB12a3BcDb778DFC1b234E4691561179669A75D7f",
+        "constructorCode": "608060405234801561001057600080fd5b50611a2c806100206000396000f3fe",
+        "bodyBytecodeHash": "2f2256fd7de6d57c4c4c9e4160dfadaf521f4294584c43e8c26055108da765e0",
+        "localBytecodeHash": "49dd9f72425da036571f1aa5bde397cb3a3809412be02c746bfbb67c93d4e493",
+        "deployedBytecodeHash": "49dd9f72425da036571f1aa5bde397cb3a3809412be02c746bfbb67c93d4e493",
+        "types": {
+          "t_bool": {
+            "id": "t_bool",
+            "kind": "elementary",
+            "label": "bool"
+          },
+          "t_uint256": {
+            "id": "t_uint256",
+            "kind": "elementary",
+            "label": "uint256"
+          },
+          "t_array:50<t_uint256>": {
+            "id": "t_array:50<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "50",
+            "kind": "array",
+            "label": "uint256[50]"
+          },
+          "t_struct<AccessControlUpgradeSafe.RoleData>": {
+            "id": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "kind": "struct",
+            "label": "AccessControlUpgradeSafe.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "astId": 10985,
+                "type": "t_struct<EnumerableSet.AddressSet>",
+                "src": "1655:32:38"
+              },
+              {
+                "label": "adminRole",
+                "astId": 10987,
+                "type": "t_bytes32",
+                "src": "1697:17:38"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.AddressSet>": {
+            "id": "t_struct<EnumerableSet.AddressSet>",
+            "kind": "struct",
+            "label": "EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "astId": 14267,
+                "type": "t_struct<EnumerableSet.Set>",
+                "src": "4644:10:54"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.Set>": {
+            "id": "t_struct<EnumerableSet.Set>",
+            "kind": "struct",
+            "label": "EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "astId": 14083,
+                "type": "t_array:dyn<t_bytes32>",
+                "src": "1213:17:54"
+              },
+              {
+                "label": "_indexes",
+                "astId": 14087,
+                "type": "t_mapping<t_uint256>",
+                "src": "1364:37:54"
+              }
+            ]
+          },
+          "t_bytes32": {
+            "id": "t_bytes32",
+            "kind": "elementary",
+            "label": "bytes32"
+          },
+          "t_array:dyn<t_bytes32>": {
+            "id": "t_array:dyn<t_bytes32>",
+            "valueType": "t_bytes32",
+            "length": "dyn",
+            "kind": "array",
+            "label": "bytes32[]"
+          },
+          "t_mapping<t_uint256>": {
+            "id": "t_mapping<t_uint256>",
+            "valueType": "t_uint256",
+            "label": "mapping(key => uint256)",
+            "kind": "mapping"
+          },
+          "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>": {
+            "id": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "valueType": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "label": "mapping(key => AccessControlUpgradeSafe.RoleData)",
+            "kind": "mapping"
+          },
+          "t_array:49<t_uint256>": {
+            "id": "t_array:49<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "49",
+            "kind": "array",
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "id": "t_address",
+            "kind": "elementary",
+            "label": "address"
+          },
+          "t_mapping<t_bool>": {
+            "id": "t_mapping<t_bool>",
+            "valueType": "t_bool",
+            "label": "mapping(key => bool)",
+            "kind": "mapping"
+          }
+        },
+        "storage": [
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initialized",
+            "astId": 10879,
+            "type": "t_bool",
+            "src": "757:24:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initializing",
+            "astId": 10882,
+            "type": "t_bool",
+            "src": "876:25:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "______gap",
+            "astId": 10947,
+            "type": "t_array:50<t_uint256>",
+            "src": "1982:29:37"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+            "label": "__gap",
+            "astId": 10872,
+            "type": "t_array:50<t_uint256>",
+            "src": "1277:25:36"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "_roles",
+            "astId": 10992,
+            "type": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "src": "1727:44:38"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "__gap",
+            "astId": 11237,
+            "type": "t_array:49<t_uint256>",
+            "src": "6927:25:38"
+          },
+          {
+            "contract": "PermissionsForMainnet",
+            "path": "contracts/PermissionsForMainnet.sol",
+            "label": "lockAndDataAddress_",
+            "astId": 3894,
+            "type": "t_address",
+            "src": "1351:34:8"
+          },
+          {
+            "contract": "LockAndDataForMainnetERC20",
+            "path": "contracts/LockAndDataForMainnetERC20.sol",
+            "label": "schainToERC20",
+            "astId": 2057,
+            "type": "t_mapping<t_bool>",
+            "src": "1320:65:4"
+          },
+          {
+            "contract": "LockAndDataForMainnetERC20",
+            "path": "contracts/LockAndDataForMainnetERC20.sol",
+            "label": "withoutWhitelist",
+            "astId": 2061,
+            "type": "t_mapping<t_bool>",
+            "src": "1391:48:4"
+          }
+        ],
+        "warnings": {
+          "hasConstructor": false,
+          "hasSelfDestruct": false,
+          "hasDelegateCall": false,
+          "hasInitialValuesInDeclarations": false,
+          "uninitializedBaseContracts": []
+        }
+      },
+      "ERC20ModuleForMainnet": {
+        "address": "0x0D6A0484F9893ADE3e36769D09e9Ca6833A47b1b",
+        "constructorCode": "608060405234801561001057600080fd5b50611af3806100206000396000f3fe",
+        "bodyBytecodeHash": "ece5b2116a99e1265c8981a1f035948ba34f90ff9c39d46f03c600eb2d3d6f53",
+        "localBytecodeHash": "44d66ea26e69ce9d66e2ff8e2da93749dae2b5a5d4d37e9ef65114b681f483c6",
+        "deployedBytecodeHash": "44d66ea26e69ce9d66e2ff8e2da93749dae2b5a5d4d37e9ef65114b681f483c6",
+        "types": {
+          "t_bool": {
+            "id": "t_bool",
+            "kind": "elementary",
+            "label": "bool"
+          },
+          "t_uint256": {
+            "id": "t_uint256",
+            "kind": "elementary",
+            "label": "uint256"
+          },
+          "t_array:50<t_uint256>": {
+            "id": "t_array:50<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "50",
+            "kind": "array",
+            "label": "uint256[50]"
+          },
+          "t_struct<AccessControlUpgradeSafe.RoleData>": {
+            "id": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "kind": "struct",
+            "label": "AccessControlUpgradeSafe.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "astId": 10985,
+                "type": "t_struct<EnumerableSet.AddressSet>",
+                "src": "1655:32:38"
+              },
+              {
+                "label": "adminRole",
+                "astId": 10987,
+                "type": "t_bytes32",
+                "src": "1697:17:38"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.AddressSet>": {
+            "id": "t_struct<EnumerableSet.AddressSet>",
+            "kind": "struct",
+            "label": "EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "astId": 14267,
+                "type": "t_struct<EnumerableSet.Set>",
+                "src": "4644:10:54"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.Set>": {
+            "id": "t_struct<EnumerableSet.Set>",
+            "kind": "struct",
+            "label": "EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "astId": 14083,
+                "type": "t_array:dyn<t_bytes32>",
+                "src": "1213:17:54"
+              },
+              {
+                "label": "_indexes",
+                "astId": 14087,
+                "type": "t_mapping<t_uint256>",
+                "src": "1364:37:54"
+              }
+            ]
+          },
+          "t_bytes32": {
+            "id": "t_bytes32",
+            "kind": "elementary",
+            "label": "bytes32"
+          },
+          "t_array:dyn<t_bytes32>": {
+            "id": "t_array:dyn<t_bytes32>",
+            "valueType": "t_bytes32",
+            "length": "dyn",
+            "kind": "array",
+            "label": "bytes32[]"
+          },
+          "t_mapping<t_uint256>": {
+            "id": "t_mapping<t_uint256>",
+            "valueType": "t_uint256",
+            "label": "mapping(key => uint256)",
+            "kind": "mapping"
+          },
+          "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>": {
+            "id": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "valueType": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "label": "mapping(key => AccessControlUpgradeSafe.RoleData)",
+            "kind": "mapping"
+          },
+          "t_array:49<t_uint256>": {
+            "id": "t_array:49<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "49",
+            "kind": "array",
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "id": "t_address",
+            "kind": "elementary",
+            "label": "address"
+          }
+        },
+        "storage": [
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initialized",
+            "astId": 10879,
+            "type": "t_bool",
+            "src": "757:24:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initializing",
+            "astId": 10882,
+            "type": "t_bool",
+            "src": "876:25:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "______gap",
+            "astId": 10947,
+            "type": "t_array:50<t_uint256>",
+            "src": "1982:29:37"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+            "label": "__gap",
+            "astId": 10872,
+            "type": "t_array:50<t_uint256>",
+            "src": "1277:25:36"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "_roles",
+            "astId": 10992,
+            "type": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "src": "1727:44:38"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "__gap",
+            "astId": 11237,
+            "type": "t_array:49<t_uint256>",
+            "src": "6927:25:38"
+          },
+          {
+            "contract": "PermissionsForMainnet",
+            "path": "contracts/PermissionsForMainnet.sol",
+            "label": "lockAndDataAddress_",
+            "astId": 3894,
+            "type": "t_address",
+            "src": "1351:34:8"
+          }
+        ],
+        "warnings": {
+          "hasConstructor": false,
+          "hasSelfDestruct": false,
+          "hasDelegateCall": false,
+          "hasInitialValuesInDeclarations": false,
+          "uninitializedBaseContracts": []
+        }
+      },
+      "LockAndDataForMainnetERC721": {
+        "address": "0x62ca3A2eF743d3568aC411f5eAb0cEAb7cF7B301",
+        "constructorCode": "608060405234801561001057600080fd5b50611a44806100206000396000f3fe",
+        "bodyBytecodeHash": "50e8b639e3015c4756fb6381f29a6957f41f820b1846533770ef5d38c9228143",
+        "localBytecodeHash": "2b8654de7e63e7ba593b5a459e8d2c86c070d3925ff03f044d4aa37fb319f2d5",
+        "deployedBytecodeHash": "2b8654de7e63e7ba593b5a459e8d2c86c070d3925ff03f044d4aa37fb319f2d5",
+        "types": {
+          "t_bool": {
+            "id": "t_bool",
+            "kind": "elementary",
+            "label": "bool"
+          },
+          "t_uint256": {
+            "id": "t_uint256",
+            "kind": "elementary",
+            "label": "uint256"
+          },
+          "t_array:50<t_uint256>": {
+            "id": "t_array:50<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "50",
+            "kind": "array",
+            "label": "uint256[50]"
+          },
+          "t_struct<AccessControlUpgradeSafe.RoleData>": {
+            "id": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "kind": "struct",
+            "label": "AccessControlUpgradeSafe.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "astId": 10985,
+                "type": "t_struct<EnumerableSet.AddressSet>",
+                "src": "1655:32:38"
+              },
+              {
+                "label": "adminRole",
+                "astId": 10987,
+                "type": "t_bytes32",
+                "src": "1697:17:38"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.AddressSet>": {
+            "id": "t_struct<EnumerableSet.AddressSet>",
+            "kind": "struct",
+            "label": "EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "astId": 14267,
+                "type": "t_struct<EnumerableSet.Set>",
+                "src": "4644:10:54"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.Set>": {
+            "id": "t_struct<EnumerableSet.Set>",
+            "kind": "struct",
+            "label": "EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "astId": 14083,
+                "type": "t_array:dyn<t_bytes32>",
+                "src": "1213:17:54"
+              },
+              {
+                "label": "_indexes",
+                "astId": 14087,
+                "type": "t_mapping<t_uint256>",
+                "src": "1364:37:54"
+              }
+            ]
+          },
+          "t_bytes32": {
+            "id": "t_bytes32",
+            "kind": "elementary",
+            "label": "bytes32"
+          },
+          "t_array:dyn<t_bytes32>": {
+            "id": "t_array:dyn<t_bytes32>",
+            "valueType": "t_bytes32",
+            "length": "dyn",
+            "kind": "array",
+            "label": "bytes32[]"
+          },
+          "t_mapping<t_uint256>": {
+            "id": "t_mapping<t_uint256>",
+            "valueType": "t_uint256",
+            "label": "mapping(key => uint256)",
+            "kind": "mapping"
+          },
+          "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>": {
+            "id": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "valueType": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "label": "mapping(key => AccessControlUpgradeSafe.RoleData)",
+            "kind": "mapping"
+          },
+          "t_array:49<t_uint256>": {
+            "id": "t_array:49<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "49",
+            "kind": "array",
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "id": "t_address",
+            "kind": "elementary",
+            "label": "address"
+          },
+          "t_mapping<t_bool>": {
+            "id": "t_mapping<t_bool>",
+            "valueType": "t_bool",
+            "label": "mapping(key => bool)",
+            "kind": "mapping"
+          }
+        },
+        "storage": [
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initialized",
+            "astId": 10879,
+            "type": "t_bool",
+            "src": "757:24:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initializing",
+            "astId": 10882,
+            "type": "t_bool",
+            "src": "876:25:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "______gap",
+            "astId": 10947,
+            "type": "t_array:50<t_uint256>",
+            "src": "1982:29:37"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+            "label": "__gap",
+            "astId": 10872,
+            "type": "t_array:50<t_uint256>",
+            "src": "1277:25:36"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "_roles",
+            "astId": 10992,
+            "type": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "src": "1727:44:38"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "__gap",
+            "astId": 11237,
+            "type": "t_array:49<t_uint256>",
+            "src": "6927:25:38"
+          },
+          {
+            "contract": "PermissionsForMainnet",
+            "path": "contracts/PermissionsForMainnet.sol",
+            "label": "lockAndDataAddress_",
+            "astId": 3894,
+            "type": "t_address",
+            "src": "1351:34:8"
+          },
+          {
+            "contract": "LockAndDataForMainnetERC721",
+            "path": "contracts/LockAndDataForMainnetERC721.sol",
+            "label": "schainToERC721",
+            "astId": 2336,
+            "type": "t_mapping<t_bool>",
+            "src": "1280:66:5"
+          },
+          {
+            "contract": "LockAndDataForMainnetERC721",
+            "path": "contracts/LockAndDataForMainnetERC721.sol",
+            "label": "withoutWhitelist",
+            "astId": 2340,
+            "type": "t_mapping<t_bool>",
+            "src": "1352:48:5"
+          }
+        ],
+        "warnings": {
+          "hasConstructor": false,
+          "hasSelfDestruct": false,
+          "hasDelegateCall": false,
+          "hasInitialValuesInDeclarations": false,
+          "uninitializedBaseContracts": []
+        }
+      },
+      "ERC721ModuleForMainnet": {
+        "address": "0xf2589Ba15d7866D3400B5FDF95426d315eb1a21D",
+        "constructorCode": "608060405234801561001057600080fd5b506118bf806100206000396000f3fe",
+        "bodyBytecodeHash": "cfc3ac5f67926a8e61fdafa10e39bda2bff8282336fd3077b0fc8a344e58dce7",
+        "localBytecodeHash": "af424cad327dc93f531ccd2a7326095a24c90ef4c95fa4d45bebcca9316f781f",
+        "deployedBytecodeHash": "af424cad327dc93f531ccd2a7326095a24c90ef4c95fa4d45bebcca9316f781f",
+        "types": {
+          "t_bool": {
+            "id": "t_bool",
+            "kind": "elementary",
+            "label": "bool"
+          },
+          "t_uint256": {
+            "id": "t_uint256",
+            "kind": "elementary",
+            "label": "uint256"
+          },
+          "t_array:50<t_uint256>": {
+            "id": "t_array:50<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "50",
+            "kind": "array",
+            "label": "uint256[50]"
+          },
+          "t_struct<AccessControlUpgradeSafe.RoleData>": {
+            "id": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "kind": "struct",
+            "label": "AccessControlUpgradeSafe.RoleData",
+            "members": [
+              {
+                "label": "members",
+                "astId": 10985,
+                "type": "t_struct<EnumerableSet.AddressSet>",
+                "src": "1655:32:38"
+              },
+              {
+                "label": "adminRole",
+                "astId": 10987,
+                "type": "t_bytes32",
+                "src": "1697:17:38"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.AddressSet>": {
+            "id": "t_struct<EnumerableSet.AddressSet>",
+            "kind": "struct",
+            "label": "EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "astId": 14267,
+                "type": "t_struct<EnumerableSet.Set>",
+                "src": "4644:10:54"
+              }
+            ]
+          },
+          "t_struct<EnumerableSet.Set>": {
+            "id": "t_struct<EnumerableSet.Set>",
+            "kind": "struct",
+            "label": "EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "astId": 14083,
+                "type": "t_array:dyn<t_bytes32>",
+                "src": "1213:17:54"
+              },
+              {
+                "label": "_indexes",
+                "astId": 14087,
+                "type": "t_mapping<t_uint256>",
+                "src": "1364:37:54"
+              }
+            ]
+          },
+          "t_bytes32": {
+            "id": "t_bytes32",
+            "kind": "elementary",
+            "label": "bytes32"
+          },
+          "t_array:dyn<t_bytes32>": {
+            "id": "t_array:dyn<t_bytes32>",
+            "valueType": "t_bytes32",
+            "length": "dyn",
+            "kind": "array",
+            "label": "bytes32[]"
+          },
+          "t_mapping<t_uint256>": {
+            "id": "t_mapping<t_uint256>",
+            "valueType": "t_uint256",
+            "label": "mapping(key => uint256)",
+            "kind": "mapping"
+          },
+          "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>": {
+            "id": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "valueType": "t_struct<AccessControlUpgradeSafe.RoleData>",
+            "label": "mapping(key => AccessControlUpgradeSafe.RoleData)",
+            "kind": "mapping"
+          },
+          "t_array:49<t_uint256>": {
+            "id": "t_array:49<t_uint256>",
+            "valueType": "t_uint256",
+            "length": "49",
+            "kind": "array",
+            "label": "uint256[49]"
+          },
+          "t_address": {
+            "id": "t_address",
+            "kind": "elementary",
+            "label": "address"
+          }
+        },
+        "storage": [
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initialized",
+            "astId": 10879,
+            "type": "t_bool",
+            "src": "757:24:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "initializing",
+            "astId": 10882,
+            "type": "t_bool",
+            "src": "876:25:37"
+          },
+          {
+            "contract": "Initializable",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/Initializable.sol",
+            "label": "______gap",
+            "astId": 10947,
+            "type": "t_array:50<t_uint256>",
+            "src": "1982:29:37"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/GSN/Context.sol",
+            "label": "__gap",
+            "astId": 10872,
+            "type": "t_array:50<t_uint256>",
+            "src": "1277:25:36"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "_roles",
+            "astId": 10992,
+            "type": "t_mapping<t_struct<AccessControlUpgradeSafe.RoleData>>",
+            "src": "1727:44:38"
+          },
+          {
+            "contract": "AccessControlUpgradeSafe",
+            "path": "@openzeppelin/contracts-ethereum-package/contracts/access/AccessControl.sol",
+            "label": "__gap",
+            "astId": 11237,
+            "type": "t_array:49<t_uint256>",
+            "src": "6927:25:38"
+          },
+          {
+            "contract": "PermissionsForMainnet",
+            "path": "contracts/PermissionsForMainnet.sol",
+            "label": "lockAndDataAddress_",
+            "astId": 3894,
+            "type": "t_address",
+            "src": "1351:34:8"
+          }
+        ],
+        "warnings": {
+          "hasConstructor": false,
+          "hasSelfDestruct": false,
+          "hasDelegateCall": false,
+          "hasInitialValuesInDeclarations": false,
+          "uninitializedBaseContracts": []
+        }
+      }
+    },
+    "solidityLibs": {},
+    "proxies": {
+      "skale-ima-proxy/LockAndDataForMainnet": [
+        {
+          "address": "0x010bFe64d589303C341918c203c5F46E497622ab",
+          "version": "1.0.0",
+          "implementation": "0x80c6249aA970e87037FbD16f2413c07bEf9e14fa",
+          "admin": "0xcC6517B2de16bd73261ED81Ad0A051B88002cb98",
+          "kind": "Upgradeable"
+        }
+      ],
+      "skale-ima-proxy/MessageProxyForMainnet": [
+        {
+          "address": "0xAf3f5EA0B45831fa2477133e3EA8aD5cb9e1D49d",
+          "version": "1.0.0",
+          "implementation": "0x2D1893B231541728f6c9114B6AE5B2dD388A1f81",
+          "admin": "0xcC6517B2de16bd73261ED81Ad0A051B88002cb98",
+          "kind": "Upgradeable"
+        }
+      ],
+      "skale-ima-proxy/DepositBox": [
+        {
+          "address": "0x8106f5Cb5ea964DF3101562AA835C1d557bb2Ac9",
+          "version": "1.0.0",
+          "implementation": "0x61A7f4E8564d9a4c88484358834b8D53d969F44B",
+          "admin": "0xcC6517B2de16bd73261ED81Ad0A051B88002cb98",
+          "kind": "Upgradeable"
+        }
+      ],
+      "skale-ima-proxy/ERC20ModuleForMainnet": [
+        {
+          "address": "0xb82ef4467029b8F4d1919ed5B16b1B6aA2FA4a7e",
+          "version": "1.0.0",
+          "implementation": "0x0D6A0484F9893ADE3e36769D09e9Ca6833A47b1b",
+          "admin": "0xcC6517B2de16bd73261ED81Ad0A051B88002cb98",
+          "kind": "Upgradeable"
+        }
+      ],
+      "skale-ima-proxy/LockAndDataForMainnetERC20": [
+        {
+          "address": "0xBbbd6e5708Fdba3B0235fE8ADBed9082c8523584",
+          "version": "1.0.0",
+          "implementation": "0xB12a3BcDb778DFC1b234E4691561179669A75D7f",
+          "admin": "0xcC6517B2de16bd73261ED81Ad0A051B88002cb98",
+          "kind": "Upgradeable"
+        }
+      ],
+      "skale-ima-proxy/ERC721ModuleForMainnet": [
+        {
+          "address": "0x000Ee3c762cc29b39ed7Bd3496eF9Df8896D5Ca5",
+          "version": "1.0.0",
+          "implementation": "0xf2589Ba15d7866D3400B5FDF95426d315eb1a21D",
+          "admin": "0xcC6517B2de16bd73261ED81Ad0A051B88002cb98",
+          "kind": "Upgradeable"
+        }
+      ],
+      "skale-ima-proxy/LockAndDataForMainnetERC721": [
+        {
+          "address": "0xDD2F06b468f0c92A9703311ECD8181CCAF46d0ec",
+          "version": "1.0.0",
+          "implementation": "0x62ca3A2eF743d3568aC411f5eAb0cEAb7cF7B301",
+          "admin": "0xcC6517B2de16bd73261ED81Ad0A051B88002cb98",
+          "kind": "Upgradeable"
+        }
+      ]
+    },
+    "manifestVersion": "2.2",
+    "version": "1.0.0",
+    "proxyAdmin": {
+      "address": "0xcC6517B2de16bd73261ED81Ad0A051B88002cb98"
+    }
+  }
+  
