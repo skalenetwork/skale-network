@@ -12,7 +12,11 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During March, the team has been mostly working on:
 
--   
+-   ETH Berlin Fork support and fixes
+-   Skale Manager: finalising mutlisig process updates, TestNet fixes and support
+-   Skaled and Consensus: schains stability fixes and supporrting TestNet issues, finalising ZeroMQ work for one of the upcoming releases
+-   IMA: gas usage optimisations, core flow enhancements and functional fixes, cleanup and enhancements
+-   Skale Node components: TestNet support and fixes, improved errror handling, updated storage settings
 
 
 ## Code changes
@@ -115,4 +119,32 @@ March:
 -   Update skale.py forBerlin Fork support [\[PR#281\]](https://github.com/skalenetwork/validator-cli/pull/281)
 -   Fixed run builds using ubuntu 18.04 [\[PR#284\]](https://github.com/skalenetwork/validator-cli/pull/284)
 -   Updated dependencies
+
+**bounty-agent (1.1.1-develop.5)/(1.1.1-beta.5)**
+
+-   Updated skale.py version to 4.1b20 [\[PR#132\]](https://github.com/skalenetwork/bounty-agent/pull/132)
+-   Updated skale.py to 4.1b21 [\[PR#137\]](https://github.com/skalenetwork/bounty-agent/pull/137)
+-   Updated dependencies
+
+**SKALE.py (5.0dev17)/(4.1b22)**
+
+-   Updated skale-manager version[\[PR#389\]](https://github.com/skalenetwork/skale.py/pull/389)
+-   Increased allowed ts diff [\[PR#392\]](https://github.com/skalenetwork/skale.py/pull/392)
+-   Berlin Fork support: added ensure chainId in all wallets [\[PR#377\]](https://github.com/skalenetwork/skale.py/pull/377)
+-   Updated dependencies
+
+**Transaction-manager (1.1.0-develop.9)/(1.1.0-beta.10)**
+
+-   Updated skale.py to 4.1b20 [\[PR#165\]](https://github.com/skalenetwork/transaction-manager/pull/165)
+-   Update skale.py to 4.1b21 [\[PR#168\]](https://github.com/skalenetwork/transaction-manager/pull/168)
+-   Gas estimation fixes [\[PR#170\]](https://github.com/skalenetwork/transaction-manager/pull/170)
+-   Updated dependencies
+
+**Watchdog (1.1.3-develop.3)/(1.1.3-beta.3)**
+
+-   Added cache to watchdog requests [\[PR#26\]](https://github.com/skalenetwork/skale-watchdog/pull/26)
+
+**sgx.py (0.7dev3)/(0.6b1)**
+
+-   No updates
 
