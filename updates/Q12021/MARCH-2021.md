@@ -13,10 +13,10 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 During March, the team has been mostly working on:
 
 -   ETH Berlin Fork support and fixes
--   Skale Manager: finalising mutlisig process updates, TestNet fixes and support
--   Skaled and Consensus: schains stability fixes and supporrting TestNet issues, finalising ZeroMQ work for one of the upcoming releases
--   IMA: gas usage optimisations, core flow enhancements and functional fixes, cleanup and enhancements
--   Skale Node components: TestNet support and fixes, improved errror handling, updated storage settings
+-   Skale Manager: finalizing multi-sig process updates, TestNet fixes and support
+-   Skaled and Consensus: schains stability fixes and supporting TestNet issues, finalizing ZeroMQ work for one of the upcoming releases
+-   IMA: gas usage optimizations, core flow enhancements and functional fixes, cleanup and enhancements
+-   Skale Node components: TestNet support and fixes, improved error handling, updated storage settings
 
 
 ## Code changes
@@ -24,7 +24,7 @@ During March, the team has been mostly working on:
 March:
 
 **SKALE Manager (1.8.0-develop.25)**
--   Upgraded libraties [\[PR#545\]](https://github.com/skalenetwork/skale-manager/pull/545)
+-   Upgraded libraries [\[PR#545\]](https://github.com/skalenetwork/skale-manager/pull/545)
 -   Added upgrades transactions to multisig wallet [\[PR#546\]](https://github.com/skalenetwork/skale-manager/pull/546)
 -   Added hotfix for manifest filename [\[PR#548\]](https://github.com/skalenetwork/skale-manager/pull/548)
 -   Updated dependencies
@@ -50,7 +50,7 @@ March:
 -   Re-designed true/fail tests for REST client/server [\[PR#508\]](https://github.com/skalenetwork/skaled/pull/508)
 -   Cleanup before starting from snapshot [\[PR#509\]](https://github.com/skalenetwork/skaled/pull/509)
 -   Added skaled emulator [\[PR#512\]](https://github.com/skalenetwork/skaled/pull/512)
--   Adjsuted IMA MessageProxy contract call parameters [\[PR#518\]](https://github.com/skalenetwork/skaled/pull/518)
+-   Adjusted IMA MessageProxy contract call parameters [\[PR#518\]](https://github.com/skalenetwork/skaled/pull/518)
 -   Fixed IMA message envelope validation  [\[PR#522\]](https://github.com/skalenetwork/skaled/pull/522)
 -   Switched to manual SSL init [\[PR#531\]](https://github.com/skalenetwork/skaled/pull/531)
 -   Integrated Consensus with exit fix [\[PR#538\]](https://github.com/skalenetwork/skaled/pull/538)
@@ -93,9 +93,8 @@ March:
 -   Added always running cleanup when downloading snapshots [\[PR#472\]](https://github.com/skalenetwork/skale-admin/pull/472)
 -   Updated skale.py to 4.1b21 [\[PR#476\]](https://github.com/skalenetwork/skale-admin/pull/476)
 -   Ensure node config data if skale node register tx failed [\[PR#477\]](https://github.com/skalenetwork/skale-admin/pull/477)
--   Commented out IMA [\[PR#480\]](https://github.com/skalenetwork/skale-admin/pull/480)
 -   Increase skaled stop timeout to 1 minute [\[PR#484\]](https://github.com/skalenetwork/skale-admin/pull/484)
--   Fixed schains healthckecks endpoint with unregistered node [\[PR#486\]](https://github.com/skalenetwork/skale-admin/pull/486)
+-   Fixed schains health checks endpoint with unregistered node [\[PR#486\]](https://github.com/skalenetwork/skale-admin/pull/486)
 -   Added disable IMA option [\[PR#494\]](https://github.com/skalenetwork/skale-admin/pull/494)
 -   Updated dependencies
 
@@ -105,7 +104,7 @@ March:
 -   Updated readme [\[PR#430\]](https://github.com/skalenetwork/skale-node-cli/pull/430)
 -   Hide sync option [\[PR#431\]](https://github.com/skalenetwork/skale-node-cli/pull/431)
 -   Fixed NotValidAbiError log message [\[PR#433\]](https://github.com/skalenetwork/skale-node-cli/pull/433)
--   Added validaton test [\[PR#435\]](https://github.com/skalenetwork/skale-node-cli/pull/435)
+-   Added validator test [\[PR#435\]](https://github.com/skalenetwork/skale-node-cli/pull/435)
 -   Added check if node is inited to register cmd [\[PR#437\]](https://github.com/skalenetwork/skale-node-cli/pull/437)
 -   Moved turn on/off scripts to python, moved iptables [\[PR#440\]](https://github.com/skalenetwork/skale-node-cli/pull/440)
 -   Set Skaled stop timeout 1 minute [\[PR#448\]](https://github.com/skalenetwork/skale-node-cli/pull/448)
