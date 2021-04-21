@@ -46,6 +46,7 @@
 - [Release 1.1.0](https://github.com/skalenetwork/skale-node/releases/tag/1.1.0) (17 Sept 2020)
 - [Release 1.1.1](https://github.com/skalenetwork/skale-node/releases/tag/1.1.1) (18 Nov 2020)
 - [Release 1.2.0](https://github.com/skalenetwork/skale-node/releases/tag/1.2.0) (19 Apr 2021)
+- [Release 1.2.1](https://github.com/skalenetwork/skale-node/releases/tag/1.2.1) (20 Apr 2021)
 
 #### Skaled
 
