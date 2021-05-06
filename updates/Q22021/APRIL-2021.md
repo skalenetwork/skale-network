@@ -10,7 +10,7 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 ## Month focus
 
-During March, the team has been mostly working on:
+During April, the team has been mostly working on:
 
 -   
 
@@ -85,3 +85,39 @@ April:
 -   Removed logs blueprint [\[PR#512\]](https://github.com/skalenetwork/skale-admin/pull/512)
 -   Improved DKG filter performance [\[PR#513\]](https://github.com/skalenetwork/skale-admin/pull/513)
 -   Updated dependencies
+
+**SKALE Node CLI (2.0.0-develop.20)/(1.1.0)**
+
+-   New storage allocation [\[PR#454\]](https://github.com/skalenetwork/skale-node-cli/pull/454)
+-   Set ubuntu version to 18.04 for GA builds [\[PR#456\]](https://github.com/skalenetwork/skale-node-cli/pull/456)
+-   Added python-setuptools to publish pipeline [\[PR#457\]](https://github.com/skalenetwork/skale-node-cli/pull/457)
+-   Local logs command [\[PR#470\]](https://github.com/skalenetwork/skale-node-cli/pull/470)
+-   Fixed wrong user from env [\[PR#471\]](https://github.com/skalenetwork/skale-node-cli/pull/471)
+-   Changed get system user logic [\[PR#473\]](https://github.com/skalenetwork/skale-node-cli/pull/473)
+-   Updated dependencies
+
+**Validator CLI (1.3.0-develop.2)/(1.2.0)**
+
+-   No updates
+
+**bounty-agent (1.1.1-develop.5)/(1.1.1-stable.0)**
+
+-   No updates
+
+**SKALE.py (5.0dev17)/(4.1b22)**
+
+-   No updates
+
+**Transaction-manager (1.1.0-develop.10)/(1.1.0-stable.0)**
+
+-   Update skale.py to 4.1b22 (with berlin fork support) [\[PR#173\]](https://github.com/skalenetwork/transaction-manager/pull/173), [\[PR#174\]](https://github.com/skalenetwork/transaction-manager/pull/174)
+-   Updated dependencies
+
+**Watchdog (1.1.3-develop.5)/(1.1.3-stable.0)**
+
+-   Added hiding log formatter [\[PR#28\]](https://github.com/skalenetwork/skale-watchdog/pull/28
+-   Fixed schains null response [\[PR#31\]](https://github.com/skalenetwork/skale-watchdog/pull/31)
+
+**sgx.py (0.7dev3)/(0.6b1)**
+
+-   No updates
