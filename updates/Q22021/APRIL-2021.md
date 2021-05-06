@@ -44,7 +44,7 @@ April:
 
 -   Fixed 1 catchup thread [\[PR#551\]](https://github.com/skalenetwork/skaled/pull/551)
 -   Fixed IMA message verification [\[PR#554\]](https://github.com/skalenetwork/skaled/pull/554)
--   Fix 11 out of 16 and catchup timeout in consensus [\[PR#555\]](https://github.com/skalenetwork/skaled/pull/555)
+-   Fixed 11 out of 16 and catchup timeout in consensus [\[PR#555\]](https://github.com/skalenetwork/skaled/pull/555)
 -   skaled access control improvements [\[PR#563\]](https://github.com/skalenetwork/skaled/pull/563)
 -   Fixed IMA compatibilitiy [\[PR#566\]](https://github.com/skalenetwork/skaled/pull/566)
 -   Fixed json rpc call [\[PR#569\]](https://github.com/skalenetwork/skaled/pull/569)
@@ -64,7 +64,7 @@ April:
 
 **IMA (1.0.0-develop.179)**
 
--   Fixув all-skale/functional test based on latest IMA/skale-manager/skaled [\[PR#506\]](https://github.com/skalenetwork/ima/pull/506)
+-   Fixed all-skale/functional test based on latest IMA/skale-manager/skaled [\[PR#506\]](https://github.com/skalenetwork/ima/pull/506)
 -   Berlin fork compatibility fix [\[PR#512\]](https://github.com/skalenetwork/ima/pull/512)
 -   Code cleanup, fixed compatibility issie with various web3 js versions [\[PR#518\]](https://github.com/skalenetwork/ima/pull/518)
 -   Added BLS signature verification for mainnet -> schain messages [\[PR#520\]](https://github.com/skalenetwork/ima/pull/520)
