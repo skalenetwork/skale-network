@@ -12,7 +12,12 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During April, the team has been mostly working on:
 
--   
+-   Denali Mainnet Upgrade readiness and additional fixes
+-   Eth Global preparation and support
+-   Skale Manager: Mainnet upgrade and IMA release preparation
+-   Skaled and Consensus: schains stability fixes and supporting TestNet issues, continuing ZeroMQ work and testing for the upcoming releases
+-   IMA: BLS signatures fixes, cleanup and enhancements, improving stability and tests coverage
+-   Skale Node components: TestNet support and fixes, improved error handling, updated storage settings
 
 
 ## Code changes
