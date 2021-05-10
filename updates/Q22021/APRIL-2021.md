@@ -14,15 +14,13 @@ During April, the team has been mostly working on:
 
 -   Denali Mainnet Upgrade readiness and additional fixes
 -   Eth Global preparation and support
--   Skale Manager: Mainnet upgrade and IMA release preparation
+-   SKALE Manager: Mainnet upgrade and IMA release preparation
 -   Skaled and Consensus: schains stability fixes and supporting TestNet issues, continuing ZeroMQ work and testing for the upcoming releases
--   IMA: BLS signatures fixes, cleanup and enhancements, improving stability and tests coverage
--   Skale Node components: TestNet support and fixes, improved error handling, updated storage settings
+-   IMA: BLS signature fixes, cleanup and enhancements, improving stability and tests coverage
+-   SKALE Node components: TestNet support and fixes, improved error handling, updated storage settings
 
 
 ## Code changes
-
-April:
 
 **SKALE Manager (1.8.0-develop.34)**
 
@@ -51,7 +49,7 @@ April:
 -   Fixed IMA message verification [\[PR#554\]](https://github.com/skalenetwork/skaled/pull/554)
 -   Fixed 11 out of 16 and catchup timeout in consensus [\[PR#555\]](https://github.com/skalenetwork/skaled/pull/555)
 -   skaled access control improvements [\[PR#563\]](https://github.com/skalenetwork/skaled/pull/563)
--   Fixed IMA compatibilitiy [\[PR#566\]](https://github.com/skalenetwork/skaled/pull/566)
+-   Fixed IMA compatibility [\[PR#566\]](https://github.com/skalenetwork/skaled/pull/566)
 -   Fixed json rpc call [\[PR#569\]](https://github.com/skalenetwork/skaled/pull/569)
 -   Snapshot improvements   [\[PR#572\]](https://github.com/skalenetwork/skaled/pull/572)
 -   Fixed parsing id json rpc [\[PR#575\]](https://github.com/skalenetwork/skaled/pull/575)
@@ -71,7 +69,7 @@ April:
 
 -   Fixed all-skale/functional test based on latest IMA/skale-manager/skaled [\[PR#506\]](https://github.com/skalenetwork/ima/pull/506)
 -   Berlin fork compatibility fix [\[PR#512\]](https://github.com/skalenetwork/ima/pull/512)
--   Code cleanup, fixed compatibility issie with various web3 js versions [\[PR#518\]](https://github.com/skalenetwork/ima/pull/518)
+-   Code cleanup, fixed compatibility with various web3 js versions [\[PR#518\]](https://github.com/skalenetwork/ima/pull/518)
 -   Added BLS signature verification for mainnet -> schain messages [\[PR#520\]](https://github.com/skalenetwork/ima/pull/520)
 -   Fixed erc721 vulnerability [\[PR#523\]](https://github.com/skalenetwork/ima/pull/523)
 -   Added test tokens [\[PR#529\]](https://github.com/skalenetwork/ima/pull/529)
@@ -85,7 +83,7 @@ April:
 -   Added chainId for IMA [\[PR#496\]](https://github.com/skalenetwork/skale-admin/pull/496)
 -   Fixed Read rotate_after_block from schain allocation file [\[PR#497\]](https://github.com/skalenetwork/skale-admin/pull/497)
 -   Fixed DKG typo [\[PR#498\]](https://github.com/skalenetwork/skale-admin/pull/498)
--   Precompileds protection [\[PR#499\]](https://github.com/skalenetwork/skale-admin/pull/499)
+-   Precompiles protection [\[PR#499\]](https://github.com/skalenetwork/skale-admin/pull/499)
 -   Rotation process fix [\[PR#510\]](https://github.com/skalenetwork/skale-admin/pull/510)
 -   Removed logs blueprint [\[PR#512\]](https://github.com/skalenetwork/skale-admin/pull/512)
 -   Improved DKG filter performance [\[PR#513\]](https://github.com/skalenetwork/skale-admin/pull/513)
