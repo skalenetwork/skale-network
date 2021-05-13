@@ -58,6 +58,7 @@
 
 - [Release 1.0.0-stable.1](https://github.com/skalenetwork/skale-admin/releases/tag/1.0.0-stable.0) (17 Sept 2020) 
 - [Release 1.1.0-stable.0](https://github.com/skalenetwork/skale-admin/releases/tag/1.1.0-stable.0) (19 Apr 2021)   
+- [Release 1.1.0-stable.1](https://github.com/skalenetwork/skale-admin/releases/tag/1.1.0-stable.1) (27 Apr 2021) 
 
 #### Transaction Manager
 
