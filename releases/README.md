@@ -105,6 +105,7 @@
   - [Release 1.7.0](/releases/rinkeby/skale-manager/1.7.0) (29 Dec 2020)
   - [Release 1.8.0-beta.0](/releases/rinkeby/skale-manager/1.8.0/skale-manager-1.8.0-rinkeby-abi.json) (16 Feb 2021)
   - [Release 1.8.0-beta.1](/releases/rinkeby/skale-manager/1.8.0/skale-manager-1.8.0-beta.1-rinkeby-abi.json) (22 Mar 2021)
+  - [Release 1.8.1-beta.1](/releases/rinkeby/skale-manager/1.8.1/skale-manager-1.8.1-beta.1-rinkeby-abi.json) (16 Jun 2021)
 - Kovan
   - [Release 1.5.0](/releases/kovan/skale-manager/1.5.0) (20 Jul 2020)
 
