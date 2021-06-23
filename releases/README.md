@@ -17,6 +17,7 @@
   - [Release 1.7.1](/releases/mainnet/skale-manager/1.7.1) (21 Jan 2021)
   - [Release 1.7.2](/releases/mainnet/skale-manager/1.7.2) (29 Jan 2021)
   - [Release 1.8.0](/releases/mainnet/skale-manager/1.8.0) (15 Apr 2021)
+  - [Release 1.8.1](/releases/mainnet/skale-manager/1.8.1) (18 June 2021)
 
 #### SKALE Allocator
 
@@ -27,6 +28,7 @@
 
 - [Release 1.0.0](https://github.com/skalenetwork/skale-node-cli/releases/tag/1.0.0) (16 Sept 2020)
 - [Release 1.1.0](https://github.com/skalenetwork/skale-node-cli/releases/tag/1.1.0) (19 Apr 2021)
+- [Release 1.1.1](https://github.com/skalenetwork/skale-node-cli/releases/tag/1.1.1) (18 June 2021)
 
 #### Validator CLI
 
@@ -35,6 +37,7 @@
 - [Release 1.1.1](https://github.com/skalenetwork/validator-cli/releases/tag/1.1.1) (18 Sept 2020)
 - [Release 1.1.2](https://github.com/skalenetwork/validator-cli/releases/tag/1.1.2) (25 Sept 2020)
 - [Release 1.2.0](https://github.com/skalenetwork/validator-cli/releases/tag/1.2.0) (19 Apr 2021)
+- [Release 1.2.1](https://github.com/skalenetwork/validator-cli/releases/tag/1.2.1) (18 June 2021)
 
 #### SGX Wallet
 
@@ -48,22 +51,26 @@
 - [Release 1.2.0](https://github.com/skalenetwork/skale-node/releases/tag/1.2.0) (19 Apr 2021)
 - [Release 1.2.1](https://github.com/skalenetwork/skale-node/releases/tag/1.2.1) (20 Apr 2021)
 - [Release 1.2.2](https://github.com/skalenetwork/skale-node/releases/tag/1.2.2) (27 Apr 2021)
+- [Release 1.2.3](https://github.com/skalenetwork/skale-node/releases/tag/1.2.3) (18 June 2021)
 
 #### Skaled
 
 - [Release 1.46-stable.0](https://github.com/skalenetwork/skaled/releases/tag/1.46-stable.0) (17 Sept 2020)  
 - [Release 3.5.12-stable.1](https://github.com/skalenetwork/skaled/releases/tag/3.5.12-stable.1) (19 Apr 2021) 
+- [Release 3.5.14-stable.0](https://github.com/skalenetwork/skaled/releases/tag/3.5.14-stable.0) (18 June 2021) 
 
 #### SKALE Admin
 
 - [Release 1.0.0-stable.1](https://github.com/skalenetwork/skale-admin/releases/tag/1.0.0-stable.0) (17 Sept 2020) 
 - [Release 1.1.0-stable.0](https://github.com/skalenetwork/skale-admin/releases/tag/1.1.0-stable.0) (19 Apr 2021)   
 - [Release 1.1.0-stable.1](https://github.com/skalenetwork/skale-admin/releases/tag/1.1.0-stable.1) (27 Apr 2021) 
+- [Release 1.1.0-stable.2](https://github.com/skalenetwork/skale-admin/releases/tag/1.1.0-stable.2) (18 June 2021) 
 
 #### Transaction Manager
 
 - [Release 1.0.0-stable.0](https://github.com/skalenetwork/transaction-manager/releases/tag/1.0.0-stable.0) (17 Sept 2020)
 - [Release 1.1.0-stable.0](https://github.com/skalenetwork/transaction-manager/releases/tag/1.1.0-stable.0) (19 Apr 2021)
+- [Release 1.1.0-stable.1](https://github.com/skalenetwork/transaction-manager/releases/tag/1.1.0-stable.1) (18 June 2021)
 
 #### SKALE SLA
 
@@ -74,16 +81,19 @@
 - [Release 1.0.0-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/1.0.0-stable.0) (17 Sept 2020)
 - [Release 1.1.0-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/1.1.0-stable.0) (18 Nov 2020)
 - [Release 1.1.1-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/1.1.1-stable.0) (19 Apr 2021)
+- [Release 1.1.1-stable.1](https://github.com/skalenetwork/bounty-agent/releases/tag/1.1.1-stable.1) (18 June 2021)
 
 #### docker lvmpy
 
 - [Release 1.0.0](https://github.com/skalenetwork/docker-lvmpy/releases/tag/1.0.0) (17 Sept 2020)
 - [Release 1.0.1-stable.1](https://github.com/skalenetwork/docker-lvmpy/releases/tag/1.0.1-stable.1) (19 Apr 2021)
+- [Release 1.0.1-stable.2](https://github.com/skalenetwork/docker-lvmpy/releases/tag/1.0.1-stable.2) (18 June 2021)
 
 #### Watchdog
 
 - [Release 1.0.0-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/1.0.0-stable.0) (17 Sept 2020)
 - [Release 1.1.3-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/1.1.3-stable.0) (19 Apr 2021)
+- [Release 1.1.3-stable.1](https://github.com/skalenetwork/skale-watchdog/releases/tag/1.1.3-stable.1) (18 June 2021)
 
 ### Test Releases
 
