@@ -1,0 +1,9 @@
+{
+    "message_proxy_mainnet_address": "0xbBdD0A139DaA91bCEbBF0BdAfA2EfAb768d7f265",
+    "linker_address": "0x17A1a0901bB734216E3c8cdfE417a88753Ec359d",
+    "community_pool_address": "0x37C41D7596EDD0bF0a5697e4dc4Ad0CD4b177780",
+    "deposit_box_eth_address": "0x979Dc7511e91C2499669b17DF64FAf95e4E7CbF0",
+    "deposit_box_erc20_address": "0x5c751A851594214a5eD5C2070445a111CC1F8459",
+    "deposit_box_erc721_address": "0x8AcBE0dA4d8E1099E31F5933F680C9595CD3C317",
+    "deposit_box_erc1155_address": "0xbDE9dAEa31283e8a404F3531F2B3a559ad587747"
+}
