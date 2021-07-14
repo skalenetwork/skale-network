@@ -1,5 +1,5 @@
 {
-    "contract_manager_address": "0xE928eeb8B0796Ac4510522E850942133a942eD10",
+    "contract_manager_address": "0xA6B37d106193e1Edf3E2435030F3b6757Baa4a49",
     "contract_manager_abi": [
         {
             "type": "event",
@@ -358,7 +358,7 @@
             "outputs": []
         }
     ],
-    "delegation_controller_address": "0xA4500b01d5c7511490a7Fbe1fcFE6896bb28764C",
+    "delegation_controller_address": "0x18C523224683999F7774059979a6Bc400FbB09f2",
     "delegation_controller_abi": [
         {
             "type": "event",
@@ -1225,7 +1225,7 @@
             "outputs": []
         }
     ],
-    "delegation_period_manager_address": "0xF09599F34653642FEbc7Ec93e6bfcFB7f77e69ef",
+    "delegation_period_manager_address": "0xaa1d9725124431eB84879e11Ec0C6dBa625e3070",
     "delegation_period_manager_abi": [
         {
             "type": "event",
@@ -1534,7 +1534,7 @@
             ]
         }
     ],
-    "distributor_address": "0x7C7B9e80B0c3D19C238cb1322FD50b19AE446768",
+    "distributor_address": "0x42ADc39Cb838f2c7FA026dD1B162d9f6b7dfb4B7",
     "distributor_abi": [
         {
             "type": "event",
@@ -1975,7 +1975,7 @@
             "outputs": []
         }
     ],
-    "punisher_address": "0x213d5C261daf0dA130BE86F74768F1D7fd35De4f",
+    "punisher_address": "0xCe05C34b3bfC70aB42e81114706fe5EBf17E5eb2",
     "punisher_abi": [
         {
             "type": "event",
@@ -2333,7 +2333,7 @@
             "outputs": []
         }
     ],
-    "slashing_table_address": "0x18b7EfCffD82663E036873757bc2f54eF8f163db",
+    "slashing_table_address": "0xdEf6fE2B90F76404978d2eEdC233180Ab8965082",
     "slashing_table_abi": [
         {
             "type": "event",
@@ -2606,7 +2606,7 @@
             "outputs": []
         }
     ],
-    "time_helpers_address": "0xb7E4387D5aA236a86BC89D8A04911bce1FA87B9B",
+    "time_helpers_address": "0x757E87E46D3bb7C3009E518953BEd157B0D887ce",
     "time_helpers_abi": [
         {
             "type": "function",
@@ -2791,7 +2791,7 @@
             ]
         }
     ],
-    "token_state_address": "0x03802C26095f133A376E74F34904E9534D61A5B3",
+    "token_state_address": "0xF654288FbC5bb2Cfbf8d5c6d1b1b51B42C56c8dB",
     "token_state_abi": [
         {
             "type": "event",
@@ -3114,7 +3114,7 @@
             "outputs": []
         }
     ],
-    "validator_service_address": "0x9eC78336bcF9F7d1e3db0E5bC2A7f3b95dDb5f75",
+    "validator_service_address": "0x87C1Da79eBF56b2980e16baD0Fe14cb7f7CFb563",
     "validator_service_abi": [
         {
             "type": "event",
@@ -4011,7 +4011,7 @@
             ]
         }
     ],
-    "constants_holder_address": "0xDA45A03B878DbdB45Aee7F1c64fEAc6324d0E1D3",
+    "constants_holder_address": "0x2B11Bb19D6CC0AD82F79590a9819039A8D962780",
     "constants_holder_abi": [
         {
             "type": "event",
@@ -4940,7 +4940,7 @@
             "outputs": []
         }
     ],
-    "nodes_address": "0x2f38BB76712ff20870c15ca5d2563246c47F3062",
+    "nodes_address": "0x9CA27401006D17525Ad07d7cAFB80c48928EB4Ce",
     "nodes_abi": [
         {
             "type": "event",
@@ -6310,7 +6310,7 @@
             ]
         }
     ],
-    "node_rotation_address": "0x59A7988f60851ddEf0f349de5352a913e65f2223",
+    "node_rotation_address": "0xF96C5d51fb6B3BcA9c1a1BE0e053F72D1b74F63F",
     "node_rotation_abi": [
         {
             "type": "event",
@@ -6818,7 +6818,7 @@
             ]
         }
     ],
-    "schains_internal_address": "0x5e5d55b612176bbd2fdfaF4aF2B22487bf877A32",
+    "schains_internal_address": "0x510AA864599BA938eD481dBc72997876BD2545B9",
     "schains_internal_abi": [
         {
             "type": "event",
@@ -8207,7 +8207,7 @@
             ]
         }
     ],
-    "schains_address": "0xEd1A9B875eD4cf86e43eD183aaD4DaF730F1206c",
+    "schains_address": "0xeA3Bbe68959D02Bfd6255772BC153F876927dd42",
     "schains_abi": [
         {
             "type": "event",
@@ -8771,7 +8771,7 @@
             ]
         }
     ],
-    "decryption_address": "0x40009D271F0F37f6622e79709aa64ebd0E6981bB",
+    "decryption_address": "0x7a9F13146fb7A9E30daCd98252B342c87C1a1b83",
     "decryption_abi": [
         {
             "type": "function",
@@ -8820,7 +8820,7 @@
             ]
         }
     ],
-    "e_c_d_h_address": "0xE620B3Ccf75A4a7671cA39F20aFfF457b4250249",
+    "e_c_d_h_address": "0x148f6F71F4a9F37bca5C4b245960DD8074C1DD54",
     "e_c_d_h_abi": [
         {
             "type": "function",
@@ -9157,7 +9157,7 @@
             ]
         }
     ],
-    "key_storage_address": "0xcC39D7d9035c443a0e13B1a20E85928E42250518",
+    "key_storage_address": "0x5E4AdBda4018692556fD6615Fc6725cc2c20E72e",
     "key_storage_abi": [
         {
             "type": "event",
@@ -9613,7 +9613,7 @@
             "outputs": []
         }
     ],
-    "skale_d_k_g_address": "0x202eD9b0207cf1174Daf3D81dE3285210995e2E5",
+    "skale_d_k_g_address": "0xF746e4629648D3D6AfbFFb38A53DF29BC0878025",
     "skale_d_k_g_abi": [
         {
             "type": "event",
@@ -11047,7 +11047,7 @@
             ]
         }
     ],
-    "skale_verifier_address": "0x13c07Ace038947EdbA5a9D1a28ee9D87Db25945f",
+    "skale_verifier_address": "0xF6c7Fe65F8fAD34a3b6aB73aeBfEC31fbcC522B6",
     "skale_verifier_abi": [
         {
             "type": "event",
@@ -11349,7 +11349,7 @@
             ]
         }
     ],
-    "skale_manager_address": "0x3BE3ee6ca3796A9F374B12BC31E4A0a7C683D491",
+    "skale_manager_address": "0x340F6a8164B7Fc1aDb11f30a03dE90ED8d8d9d09",
     "skale_manager_abi": [
         {
             "type": "event",
@@ -11796,7 +11796,7 @@
             ]
         }
     ],
-    "pricing_address": "0x726E31Da631182aA94695405E4ef1fb6fAF4b24D",
+    "pricing_address": "0xa418A6aa48730FfF68f4d7196E9171620ef528e6",
     "pricing_abi": [
         {
             "type": "event",
@@ -12113,7 +12113,7 @@
             ]
         }
     ],
-    "bounty_v2_address": "0x81F0C5a723189948635df9E3b811C508B5263563",
+    "bounty_v2_address": "0x75610dc2E680e2763184Aaae202febf65E37D015",
     "bounty_v2_abi": [
         {
             "type": "event",
@@ -12656,7 +12656,7 @@
             "outputs": []
         }
     ],
-    "wallets_address": "0x8a3d279F136A4a345E5cFfb5911d61A591443a2a",
+    "wallets_address": "0x929b499f192A19a2e58c69FBd2f704284C795c16",
     "wallets_abi": [
         {
             "type": "event",
@@ -13126,7 +13126,7 @@
             "outputs": []
         }
     ],
-    "time_helpers_with_debug_address": "0x17d91FC2bc2739d6c514189CE55C2CedCc9dF898",
+    "time_helpers_with_debug_address": "0x7c108bBA15DC26e91DC32FCDfaaeE0B8deFF8dfA",
     "time_helpers_with_debug_abi": [
         {
             "type": "event",
@@ -13384,7 +13384,7 @@
             "outputs": []
         }
     ],
-    "skale_token_address": "0xcf3bC4c07007dA69C147FA6489f417c3eDf0BAB4",
+    "skale_token_address": "0x4c71432e7B9FF3c4a0B3588eC74bF74422139450",
     "skale_token_abi": [
         {
             "type": "constructor",
