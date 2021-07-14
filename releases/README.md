@@ -131,6 +131,7 @@
 - [1.6.4 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.6.4-testnet) (7 Apr 2021)
 - [1.7.1 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.7.1-testnet) (28 May 2021)
 - [1.7.3 Testnet](https://github.com/skalenetwork/skale-node/releases/tag/1.7.3-testnet) (4 June 2021)
+- [2.0.0 Testnet-0](https://github.com/skalenetwork/skale-node/releases/tag/2.0.0-testnet.0) (13 July 2021)
 
 ### ETH Global release
 
