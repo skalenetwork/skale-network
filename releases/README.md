@@ -24,6 +24,11 @@
 - Main Ethereum Network
   - [Release 2.2.0](/releases/mainnet/skale-allocator/2.2.0) (11 Sept 2020)
 
+#### IMA
+
+- Main Ethereum Network
+  - [Release 1.0.0](/releases/mainnet/IMA/1.0.0) (19 Jul 2021)
+
 #### Node CLI
 
 - [Release 1.0.0](https://github.com/skalenetwork/skale-node-cli/releases/tag/1.0.0) (16 Sept 2020)
