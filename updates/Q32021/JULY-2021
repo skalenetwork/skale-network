@@ -102,3 +102,21 @@ During June, the team has been mostly working on:
 -   Updated skale.py lib [\[PR#299\]](https://github.com/skalenetwork/validator-cli/pull/299), [\[PR#303\]](https://github.com/skalenetwork/validator-cli/pull/303)
 -   Added support for the new skale.py lib + new SM  [\[PR#302\]](https://github.com/skalenetwork/validator-cli/pull/302)
 
+**bounty-agent (2.0.1-develop.0)**
+
+-   No updates
+
+**SKALE.py (5.1dev8)**
+
+-   Removed schain types dict [\[PR#425\]](https://github.com/skalenetwork/skale.py/pull/425)
+-   Specified eth-account version (0.5.3)[\[PR#430\]](https://github.com/skalenetwork/skale.py/pull/430)
+-   Updated dependencies
+
+**Transaction-manager (2.0.1-develop.7)**
+
+-   Added additional logs [\[PR#202\]](https://github.com/skalenetwork/transaction-manager/pull/202)
+-   Increased max gas price  [\[PR#205\]](https://github.com/skalenetwork/transaction-manager/pull/205)
+-   Updated to use latest block to estimateGas [\[PR#207\]](https://github.com/skalenetwork/transaction-manager/pull/207)
+-   Removed redundant logs  [\[PR#208\]](https://github.com/skalenetwork/transaction-manager/pull/208)
+-   Updated skale.py to 5.1dev7   [\[PR#213\]](https://github.com/skalenetwork/transaction-manager/pull/213)
+-   Updated dependencies
