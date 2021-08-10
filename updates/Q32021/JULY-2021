@@ -10,10 +10,13 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 ## Month focus
 
-During June, the team has been mostly working on:
+During July, the team has been mostly working on:
 
--   abc
-
+-   SKALE Manager: security improvements, increasing tests coverage, code cleanup
+-   Denali V2 release and mainnet update support
+-   SGX Wallet, SKALED and Consensus: IMA support and bug fixes, shared space updates, ZeroMQ support for IMA
+-   IMA: various bug fixes, logs scan and logging improvements
+-   SKALE Node components: IMA release support, improved stability and healthchecks, schain allocation updates
 
 
 ## Code changes
