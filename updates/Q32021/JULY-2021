@@ -74,3 +74,18 @@ During June, the team has been mostly working on:
 -   Logging improvements [\[PR#754\]](https://github.com/skalenetwork/ima/pull/754), [\[PR#755\]](https://github.com/skalenetwork/ima/pull/755)
 -   Improved progressive logs scan  [\[PR#761\]](https://github.com/skalenetwork/ima/pull/761)
 -   Updated dependencies
+
+**SKALE Admin (2.0.1-develop.28)**
+
+-   Updated IMA predeployed  [\[PR#611\]](https://github.com/skalenetwork/skale-admin/pull/611)
+-   Increased gunicorn workers number [\[PR#613\]](https://github.com/skalenetwork/skale-admin/pull/613)
+-   Added new schain size [\[PR#616\]](https://github.com/skalenetwork/skale-admin/pull/616)
+-   Updated IMA lib [\[PR#617\]](https://github.com/skalenetwork/skale-admin/pull/617)
+-   Increased tg notification timeout [\[PR#618\]](https://github.com/skalenetwork/skale-admin/pull/618)
+-   Fixed API DKG check [\[PR#623\]](https://github.com/skalenetwork/skale-admin/pull/623)
+-   Fixed dkg check [\[PR#625\]](https://github.com/skalenetwork/skale-admin/pull/625)
+-   Reduced gunicorn workers number [\[PR#629\]](https://github.com/skalenetwork/skale-admin/pull/629)
+-   Generated key names in dkg_clinet constructor [\[PR#631\]](https://github.com/skalenetwork/skale-admin/pull/631)
+-   Fixed repair mode [\[PR#633\]](https://github.com/skalenetwork/skale-admin/pull/633)
+-   Fix sChain and node owners alloc [\[PR#640\]](https://github.com/skalenetwork/skale-admin/pull/640)
+-   Updated dependencies
