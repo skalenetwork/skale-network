@@ -96,3 +96,9 @@ During June, the team has been mostly working on:
 -   Fixed SSL upload [\[PR#508\]](https://github.com/skalenetwork/skale-node-cli/pull/508)
 -   Changed sChain alloc to 80/20 [\[PR#509\]](https://github.com/skalenetwork/skale-node-cli/pull/509)
 -   Updated dependencies
+
+**Validator CLI (1.3.0-develop.6)**
+
+-   Updated skale.py lib [\[PR#299\]](https://github.com/skalenetwork/validator-cli/pull/299), [\[PR#303\]](https://github.com/skalenetwork/validator-cli/pull/303)
+-   Added support for the new skale.py lib + new SM  [\[PR#302\]](https://github.com/skalenetwork/validator-cli/pull/302)
+
