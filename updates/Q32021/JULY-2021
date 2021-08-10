@@ -89,3 +89,10 @@ During June, the team has been mostly working on:
 -   Fixed repair mode [\[PR#633\]](https://github.com/skalenetwork/skale-admin/pull/633)
 -   Fix sChain and node owners alloc [\[PR#640\]](https://github.com/skalenetwork/skale-admin/pull/640)
 -   Updated dependencies
+
+**SKALE Node CLI (2.0.1-develop.11)**
+
+-   Change medium sChain size to 1/8 [\[PR#507\]](https://github.com/skalenetwork/skale-node-cli/pull/507)
+-   Fixed SSL upload [\[PR#508\]](https://github.com/skalenetwork/skale-node-cli/pull/508)
+-   Changed sChain alloc to 80/20 [\[PR#509\]](https://github.com/skalenetwork/skale-node-cli/pull/509)
+-   Updated dependencies
