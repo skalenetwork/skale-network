@@ -120,3 +120,13 @@ During June, the team has been mostly working on:
 -   Removed redundant logs  [\[PR#208\]](https://github.com/skalenetwork/transaction-manager/pull/208)
 -   Updated skale.py to 5.1dev7   [\[PR#213\]](https://github.com/skalenetwork/transaction-manager/pull/213)
 -   Updated dependencies
+
+**Watchdog (2.0.0-develop.5)**
+
+-   Fixed btrfs check [\[PR#62\]](https://github.com/skalenetwork/skale-watchdog/pull/62), [\[PR#63\]](https://github.com/skalenetwork/skale-watchdog/pull/63)
+-   Fixed timeout issue [\[PR#60\]](https://github.com/skalenetwork/skale-watchdog/pull/60)
+
+**sgx.py (0.8dev0)**
+
+-   Specified eth account version [\[PR#116\]](https://github.com/skalenetwork/sgx.py/pull/116)
+-   Updated dependencies
