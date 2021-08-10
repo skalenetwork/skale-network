@@ -119,7 +119,7 @@ During July, the team has been mostly working on:
 
 -   Added additional logs [\[PR#202\]](https://github.com/skalenetwork/transaction-manager/pull/202)
 -   Increased max gas price  [\[PR#205\]](https://github.com/skalenetwork/transaction-manager/pull/205)
--   Updated to use latest block to estimateGas [\[PR#207\]](https://github.com/skalenetwork/transaction-manager/pull/207)
+-   Updated to use the latest block to estimateGas [\[PR#207\]](https://github.com/skalenetwork/transaction-manager/pull/207)
 -   Removed redundant logs  [\[PR#208\]](https://github.com/skalenetwork/transaction-manager/pull/208)
 -   Updated skale.py to 5.1dev7   [\[PR#213\]](https://github.com/skalenetwork/transaction-manager/pull/213)
 -   Updated dependencies
