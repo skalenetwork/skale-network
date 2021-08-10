@@ -1,0 +1,56 @@
+# SKALE Network Product Updates (JULY 2021)
+
+These updates are posted in: 
+
+-   <https://github.com/skalenetwork/skale-network/tree/master/updates>
+-   <https://forum.skale.network/>
+-   [SKALE Discord](https://discord.gg/vvUtWJB)
+
+If you would like to suggest changes, please post, discuss, or open a GitHub issue respective of the channels listed above.
+
+## Month focus
+
+During June, the team has been mostly working on:
+
+-   abc
+
+
+
+## Code changes
+
+**SKALE Manager (1.8.2-develop.14)**
+
+-   Added test for changing NodeSpace settings [\[PR#620\]](https://github.com/skalenetwork/skale-manager/pull/620)
+-   Added front run protection [\[PR#626\]](https://github.com/skalenetwork/skale-manager/pull/626)
+-   Upgraded interface and changed contract for community pool [\[PR#628\]](https://github.com/skalenetwork/skale-manager/pull/628)
+-   Renamed environment private keys [\[PR#632\]](https://github.com/skalenetwork/skale-manager/pull/632)
+-   Added githook to skale-manager to prevent committing without signatures [\[PR#635\]](https://github.com/skalenetwork/skale-manager/pull/635)
+-   Implemented compatibility with Node JS versions 16/14/12 [\[PR#642\]](https://github.com/skalenetwork/skale-manager/pull/642)
+-   Updated dependencies
+
+**SKALE Consensus**
+
+-   Fixed DA_Proof directory overflows after loading tests [\[PR#468\]](https://github.com/skalenetwork/skale-consensus/pull/468)
+-   Restructured schain.bootstrap() for better readability [\[PR#471\]](https://github.com/skalenetwork/skale-consensus/pull/471)
+-   Added an option to consensus to save history of messages for visualization [\[PR#473\]](https://github.com/skalenetwork/skale-consensus/pull/473), [\[PR#474\]](https://github.com/skalenetwork/skale-consensus/pull/474), [\[PR#479\]](https://github.com/skalenetwork/skale-consensus/pull/479)
+-   Enabled log_range test again [\[PR#480\]](https://github.com/skalenetwork/skale-consensus/pull/480)
+
+**SKALED (3.7.4-develop.2)**
+
+-   Fixed Skaled crash on eth_call [\[PR#703\]](https://github.com/skalenetwork/skaled/pull/703)
+-   Updated consensus with DA_Proof directory overflow fix [\[PR#704\]](https://github.com/skalenetwork/skaled/pull/704), [\[PR#705\]](https://github.com/skalenetwork/skaled/pull/705)
+-   Added more diagnostic info on HTTPS error [\[PR#709\]](https://github.com/skalenetwork/skaled/pull/709)
+-   Ignore unspecified --main-net-url [\[PR#710\]](https://github.com/skalenetwork/skaled/pull/710)
+-   Increased shared space size x2 [\[PR#724\]](https://github.com/skalenetwork/skaled/pull/724)
+-   Added call SGX via ZeroMQ for IMA queries [\[PR#726\]](https://github.com/skalenetwork/skaled/pull/726)
+-   Added accept empty string as SGX url  [\[PR#732\]](https://github.com/skalenetwork/skaled/pull/732)
+-   Implemented better way to delete snapshot that failed to unpack  [\[PR#734\]](https://github.com/skalenetwork/skaled/pull/734)
+-   Updated IMA to use progressive logs search [\[PR#736\]](https://github.com/skalenetwork/skaled/pull/736), [\[PR#737\]](https://github.com/skalenetwork/skaled/pull/737)
+
+**SGXWallet (1.78.0-develop.2)**
+
+-   Enabled interactive mode [\[PR#331\]](https://github.com/skalenetwork/SGXWallet/pull/331)
+-   Fixed duplicated certificates issue in openssl [\[PR#332\]](https://github.com/skalenetwork/SGXWallet/pull/332)
+-   Updated install_packages.sh  [\[PR#334\]](https://github.com/skalenetwork/SGXWallet/pull/334)
+-   Add e flag [\[PR#338\]](https://github.com/skalenetwork/SGXWallet/pull/338)
+
