@@ -54,3 +54,23 @@ During June, the team has been mostly working on:
 -   Updated install_packages.sh  [\[PR#334\]](https://github.com/skalenetwork/SGXWallet/pull/334)
 -   Add e flag [\[PR#338\]](https://github.com/skalenetwork/SGXWallet/pull/338)
 
+**IMA (1.0.0-develop.277)**
+
+-   Fixed incorrect date format [\[PR#715\]](https://github.com/skalenetwork/ima/pull/715)
+-   Fixed outgoing message verification [\[PR#716\]](https://github.com/skalenetwork/ima/pull/716)
+-   Duplicate transactions fix [\[PR#719\]](https://github.com/skalenetwork/ima/pull/719)
+-   Fixed tm_ensure_transaction throw condition [\[PR#721\]](https://github.com/skalenetwork/ima/pull/721)
+-   Improved transaction manager error handling [\[PR#722\]](https://github.com/skalenetwork/ima/pull/722)
+-   Fixed naming [\[PR#723\]](https://github.com/skalenetwork/ima/pull/723)
+-   Added community pool [\[PR#724\]](https://github.com/skalenetwork/ima/pull/724)
+-   Fixed web socket timeout handling issue [\[PR#725\]](https://github.com/skalenetwork/ima/pull/725)
+-   Fixed S-Chain discovery logging on IMA startup [\[PR#726\]](https://github.com/skalenetwork/ima/pull/726)
+-   Improved gas computation in transaction customizer [\[PR#731\]](https://github.com/skalenetwork/ima/pull/731)
+-   Updated security page [\[PR#735\]](https://github.com/skalenetwork/ima/pull/735)
+-   Implemented compatibility with Node JS versions 14/12/10 [\[PR#736\]](https://github.com/skalenetwork/ima/pull/736)
+-   IMA progressive logs scan search[\[PR#745\]](https://github.com/skalenetwork/ima/pull/745)
+-   Fixed re link issue [\[PR#748\]](https://github.com/skalenetwork/ima/pull/748), [\[PR#750\]](https://github.com/skalenetwork/ima/pull/750)
+-   Added more detailed logging while gathering partial BLS signatures [\[PR#749\]](https://github.com/skalenetwork/ima/pull/749)
+-   Logging improvements [\[PR#754\]](https://github.com/skalenetwork/ima/pull/754), [\[PR#755\]](https://github.com/skalenetwork/ima/pull/755)
+-   Improved progressive logs scan  [\[PR#761\]](https://github.com/skalenetwork/ima/pull/761)
+-   Updated dependencies
