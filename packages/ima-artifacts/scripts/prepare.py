@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from genericpath import isfile
 import json
 import logging

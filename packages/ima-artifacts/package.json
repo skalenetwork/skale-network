@@ -13,7 +13,8 @@
   "license": "AGPL-3.0",
   "scripts": {
     "prepare": "yarn compile",
-    "prepublishOnly": "yarn lint",
+    "resources": "./scripts/prepare.py",
+    "prepublishOnly": "yarn lint && yarn resources",
     "compile": "tsc",
     "lint": "tslint -p tsconfig.json"
   },
