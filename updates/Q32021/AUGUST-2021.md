@@ -46,6 +46,17 @@ During August, the team has been mostly working on:
 -   Fixed blocks rotation in beta branch [\[PR#757\]](https://github.com/skalenetwork/skaled/pull/757)
 -   Fixed typos [\[PR#758\]](https://github.com/skalenetwork/skaled/pull/758)
 -   Improved IMA message verifier, Main Net connectivity problem handling [\[PR#761\]](https://github.com/skalenetwork/skaled/pull/761), [\[PR#764\]](https://github.com/skalenetwork/skaled/pull/764)
--   Improved IMA message verifier, Main Net connectivity problem handling [\[PR#761\]](https://github.com/skalenetwork/skaled/pull/761)
+-   Updated SKALE Consensus with setting smaller memory buffers [\[PR#765\]](https://github.com/skalenetwork/skaled/pull/765)
+-   Fixed skaled behaviour when operating heavy transactions [\[PR#767\]](https://github.com/skalenetwork/skaled/pull/767)
+-   Updated SKALE Consensus with fixes for tests crash in mutex [\[PR#772\]](https://github.com/skalenetwork/skaled/pull/772)
+-    Improved HTTP(S) load balancing and overload error handing [\[PR#74\]](https://github.com/skalenetwork/skaled/pull/774)
+-   Removed HTTP/S GET requests for file downloads [\[PR#776\]](https://github.com/skalenetwork/skaled/pull/776)
+
+**SGXWallet (1.78.0-develop.6)**
+
+-   Added threshold encryption support [\[PR#340\]](https://github.com/skalenetwork/SGXWallet/pull/340)
+-   Added check key ownership false by default [\[PR#341\]](https://github.com/skalenetwork/SGXWallet/pull/341)
+-   Removed extra debug output  [\[PR#343\]](https://github.com/skalenetwork/SGXWallet/pull/343), [\[PR#345\]](https://github.com/skalenetwork/SGXWallet/pull/345)
+-   Fixed exportable keys, added tests [\[PR#346\]](https://github.com/skalenetwork/SGXWallet/pull/346), [\[PR#347\]](https://github.com/skalenetwork/SGXWallet/pull/347), [\[PR#348\]](https://github.com/skalenetwork/SGXWallet/pull/348)
 
 
