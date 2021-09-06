@@ -12,11 +12,11 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During August, the team has been mostly working on:
 
--   SKALE Manager: security improvements, increasing tests coverage, code cleanup
--   Denali V2 release and mainnet update support
--   SGX Wallet, SKALED and Consensus: IMA support and bug fixes, shared space updates, ZeroMQ support for IMA
--   IMA: various bug fixes, logs scan and logging improvements
--   SKALE Node components: IMA release support, improved stability and healthchecks, schain allocation updates
+-   SKALE Manager: cleanup and CI/CD improvements
+-   IMA Hotfix release: stability, memory, logging/search enhancements and critical bug fixes
+-   SGX Wallet: started work on supporting threshold signatures
+-   Skaled: improved block rotation functionality, snapshot and filestorage bugfixes
+-   SKALE Node components: IMA Hotfix release support, docker socket bugfixes
 
 
 ## Code changes
@@ -37,7 +37,7 @@ During August, the team has been mostly working on:
 
 **SKALED (3.8.0-develop.6 / 3.7.5-beta.4)**
 
--   Added accept empty string as SGX url [\[PR#732\]](https://github.com/skalenetwork/skaled/pull/732)
+-   Added accepting empty string as SGX url [\[PR#732\]](https://github.com/skalenetwork/skaled/pull/732)
 -   Improved way to delete snapshot that failed to unpack [\[PR#734\]](https://github.com/skalenetwork/skaled/pull/734)
 -   IMA progressive logs search enhancement [\[PR#736\]](https://github.com/skalenetwork/skaled/pull/736), [\[PR#737\]](https://github.com/skalenetwork/skaled/pull/737)
 -   Fixed filestorage hash after restore from snapshot [\[PR#744\]](https://github.com/skalenetwork/skaled/pull/744), [\[PR#747\]](https://github.com/skalenetwork/skaled/pull/747)
@@ -49,7 +49,7 @@ During August, the team has been mostly working on:
 -   Updated SKALE Consensus with setting smaller memory buffers [\[PR#765\]](https://github.com/skalenetwork/skaled/pull/765)
 -   Fixed skaled behaviour when operating heavy transactions [\[PR#767\]](https://github.com/skalenetwork/skaled/pull/767)
 -   Updated SKALE Consensus with fixes for tests crash in mutex [\[PR#772\]](https://github.com/skalenetwork/skaled/pull/772)
--    Improved HTTP(S) load balancing and overload error handing [\[PR#74\]](https://github.com/skalenetwork/skaled/pull/774)
+-   Improved HTTP(S) load balancing and overload error handing [\[PR#74\]](https://github.com/skalenetwork/skaled/pull/774)
 -   Removed HTTP/S GET requests for file downloads [\[PR#776\]](https://github.com/skalenetwork/skaled/pull/776)
 
 **SGXWallet (1.78.0-develop.6)**
