@@ -81,3 +81,40 @@ During August, the team has been mostly working on:
 -   Fixed skaled restart rules [\[PR#651\]](https://github.com/skalenetwork/skale-admin/pull/651), [\[PR#652\]](https://github.com/skalenetwork/skale-admin/pull/652)
 -   Added functionality to save first 400 log lines of removed schain [\[PR#653\]](https://github.com/skalenetwork/skale-admin/pull/653)
 -   Updated dependencies
+
+**SKALE Node CLI (2.0.1-develop.15 / 2.0.1-beta.3)**
+
+-   Fixed docker socket error [\[PR#517\]](https://github.com/skalenetwork/skale-node-cli/pull/517)
+-   Added docker configuration to init and restore [\[PR#520\]](https://github.com/skalenetwork/skale-node-cli/pull/520)
+-   Added ExecStartPre to docker service config [\[PR#523\]](https://github.com/skalenetwork/skale-node-cli/pull/523)
+-   Fixed reboot in beta [\[PR#524\]](https://github.com/skalenetwork/skale-node-cli/pull/524)
+-   Improved skaled head logs [\[PR#526\]](https://github.com/skalenetwork/skale-node-cli/pull/526)
+-   Updated dependencies
+
+**Validator CLI (1.3.0-develop.6)**
+
+-   No updates
+
+**bounty-agent (2.0.1-develop.0 / 2.0.1-beta.1)**
+
+-   No updates
+
+**SKALE.py (5.1dev8)**
+
+-   Updated to use latest block to estimate gas[\[PR#432\]](https://github.com/skalenetwork/skale.py/pull/432)
+-   Updated dependencies
+
+**Transaction-manager (2.0.1-develop.8 / 2.0.1-beta.4)**
+
+-   Updated skale.py to 5.1dev8 [\[PR#216\]](https://github.com/skalenetwork/transaction-manager/pull/216)
+-   New beta release [\[PR#217\]](https://github.com/skalenetwork/transaction-manager/pull/217)
+-   Updated dependencies
+
+**Watchdog (2.0.0-develop.6 / 2.0.0-beta.2)**
+
+-   Added report route [\[PR#66\]](https://github.com/skalenetwork/skale-watchdog/pull/66)
+-   New beta release [\[PR#67\]](https://github.com/skalenetwork/skale-watchdog/pull/67)
+
+**sgx.py (0.8dev0)**
+
+-   No updates
