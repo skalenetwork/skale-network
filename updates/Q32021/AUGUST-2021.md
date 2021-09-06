@@ -59,4 +59,25 @@ During August, the team has been mostly working on:
 -   Removed extra debug output  [\[PR#343\]](https://github.com/skalenetwork/SGXWallet/pull/343), [\[PR#345\]](https://github.com/skalenetwork/SGXWallet/pull/345)
 -   Fixed exportable keys, added tests [\[PR#346\]](https://github.com/skalenetwork/SGXWallet/pull/346), [\[PR#347\]](https://github.com/skalenetwork/SGXWallet/pull/347), [\[PR#348\]](https://github.com/skalenetwork/SGXWallet/pull/348)
 
+**IMA (1.0.0-develop.284 / 1.0.0-beta.11)**
 
+-   Improved progressive logs scan [\[PR#763\]](https://github.com/skalenetwork/ima/pull/763)
+-   Re-designed event logs search step by step using 1000 blocks per range [\[PR#774\]](https://github.com/skalenetwork/ima/pull/774)
+-   Iterative logs search [\[PR#775\]](https://github.com/skalenetwork/ima/pull/775)
+-   Fixed error handling on heavy load [\[PR#777\]](https://github.com/skalenetwork/ima/pull/777), [\[PR#778\]](https://github.com/skalenetwork/ima/pull/778)
+-   Added fromImaAgentIndex parameter [\[PR#780\]](https://github.com/skalenetwork/ima/pull/780), [\[PR#781\]](https://github.com/skalenetwork/ima/pull/781)
+-   Improved S-Chain network discovery [\[PR#790\]](https://github.com/skalenetwork/ima/pull/790)
+-   Improved IMA agent compact log output [\[PR#794\]](https://github.com/skalenetwork/ima/pull/794)
+-   Improved BLS glue, should not wait for more than threshold signatures to complete [\[PR#800\]](https://github.com/skalenetwork/ima/pull/800)
+-   Updated dependencies
+
+**SKALE Admin (2.0.1-develop.31 / 2.0.1-beta.6)**
+
+-   Fixed sChain and node owners allocation  [\[PR#640\]](https://github.com/skalenetwork/skale-admin/pull/640)
+-   Reduced gunicorn workers number [\[PR#642\]](https://github.com/skalenetwork/skale-admin/pull/642)
+-   Customize docker host [\[PR#645\]](https://github.com/skalenetwork/skale-admin/pull/645)
+-   Fixed docker socket in beta [\[PR#648\]](https://github.com/skalenetwork/skale-admin/pull/648)
+-   Fixed filebeat.yml update [\[PR#649\]](https://github.com/skalenetwork/skale-admin/pull/649)
+-   Fixed skaled restart rules [\[PR#651\]](https://github.com/skalenetwork/skale-admin/pull/651), [\[PR#652\]](https://github.com/skalenetwork/skale-admin/pull/652)
+-   Added functionality to save first 400 log lines of removed schain [\[PR#653\]](https://github.com/skalenetwork/skale-admin/pull/653)
+-   Updated dependencies
