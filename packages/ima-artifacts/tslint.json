@@ -1,0 +1,6 @@
+{
+    "extends": "tslint:all",
+    "rules": {
+        "no-inferrable-types": false
+    }
+}
