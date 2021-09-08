@@ -1,6 +1,6 @@
 {
   "name": "@skalenetwork/ima-artifacts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "ABIs and addresses of IMA smart contracts",
   "files": [
     "lib/**/*",
