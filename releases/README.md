@@ -28,6 +28,7 @@
 
 - Main Ethereum Network
   - [Release 1.0.0](/releases/mainnet/IMA/1.0.0) (19 Jul 2021)
+  - [Release 1.0.0-stable.1](/releases/mainnet/IMA/1.0.0-stable.1) (23 Sep 2021)
 
 #### Node CLI
 
