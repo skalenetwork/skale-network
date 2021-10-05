@@ -36,3 +36,23 @@ During September, the team has been mostly working on:
 -   Fixed skaled doesn't mine blocks if has 3 out of 4 nodes [\[PR#511\]](https://github.com/skalenetwork/skale-consensus/pull/511), [\[PR#512\]](https://github.com/skalenetwork/skale-consensus/pull/512)
 -   Deps build fix for libJsonRpcCpp [\[PR#514\]](https://github.com/skalenetwork/skale-consensus/pull/514)
 -   Increased stuck-restart interval [\[PR#517\]](https://github.com/skalenetwork/skale-consensus/pull/517)
+
+**SKALED (3.8.3-develop.3)**
+
+-   Implemented better crash resistance in block rotation code [\[PR#778\]](https://github.com/skalenetwork/skaled/pull/778)
+-   libproxygen built with all deps  [\[PR#780\]](https://github.com/skalenetwork/skaled/pull/780)
+-   Cleaning cache in the same thread where blocks created [\[PR#782\]](https://github.com/skalenetwork/skaled/pull/782)
+-   Removed redundant to and sender field check in skale_imaVerifyAndSign [\[PR#785\]](https://github.com/skalenetwork/skaled/pull/785), [\[PR#786\]](https://github.com/skalenetwork/skaled/pull/786)
+-   Added more logs to download snapshot [\[PR#789\]](https://github.com/skalenetwork/skaled/pull/789)
+-   Fixed tests, fixed garbage collector [\[PR#790\]](https://github.com/skalenetwork/skaled/pull/790)
+-   Remove bcBasicInsert test and related code pieces [\[PR#793\]](https://github.com/skalenetwork/skaled/pull/793)
+-   Fixed pathToFile not created after filestorage tests [\[PR#799\]](https://github.com/skalenetwork/skaled/pull/799)
+-   Fixed tests broken after new block rotation [\[PR#804\]](https://github.com/skalenetwork/skaled/pull/804)
+-   Fixed filestorage snapshot crashing [\[PR#807\]](https://github.com/skalenetwork/skaled/pull/807)
+-   Deps build improvements [\[PR#808\]](https://github.com/skalenetwork/skaled/pull/808)
+-   Updated consensus [\[PR#809\]](https://github.com/skalenetwork/skaled/pull/809)
+-   Added optionally disabling transaction acceptance [\[PR#811\]](https://github.com/skalenetwork/skaled/pull/811)
+-   Fixed build - update libJsonRpcCpp in consensus[\[PR#816\]] (https://github.com/skalenetwork/skaled/pull/816)
+-   Repaired support for binary http answers such as snapshot downloads  [\[PR#818\]](https://github.com/skalenetwork/skaled/pull/818)
+-   Made json rpc logs compact [\[PR#820\]](https://github.com/skalenetwork/skaled/pull/820)
+-   Tested event/log information is lost after block rotation [\[PR#823\]](https://github.com/skalenetwork/skaled/pull/823)
