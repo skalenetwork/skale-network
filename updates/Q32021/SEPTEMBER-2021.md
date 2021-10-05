@@ -56,3 +56,13 @@ During September, the team has been mostly working on:
 -   Repaired support for binary http answers such as snapshot downloads  [\[PR#818\]](https://github.com/skalenetwork/skaled/pull/818)
 -   Made json rpc logs compact [\[PR#820\]](https://github.com/skalenetwork/skaled/pull/820)
 -   Tested event/log information is lost after block rotation [\[PR#823\]](https://github.com/skalenetwork/skaled/pull/823)
+
+**SGXWallet (1.83.0-develop.4)**
+
+-   Fixed exportable function [\[PR#350\]](https://github.com/skalenetwork/SGXWallet/pull/350)
+-   Fixed buffer overflow [\[PR#352\]](https://github.com/skalenetwork/SGXWallet/pull/352)
+-   Fixed buffer length  [\[PR#353\]](https://github.com/skalenetwork/SGXWallet/pull/353)
+-   Fixed no response[\[PR#354\]](https://github.com/skalenetwork/SGXWallet/pull/354)
+-   Fixed automated signed build [\[PR#355\]](https://github.com/skalenetwork/SGXWallet/pull/355)
+-   Updated job file for new release procedure [\[PR#356\]](https://github.com/skalenetwork/SGXWallet/pull/356)
+-   Fixed register existing key owner [\[PR#358\]](https://github.com/skalenetwork/SGXWallet/pull/358)
