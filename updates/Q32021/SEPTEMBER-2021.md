@@ -12,11 +12,12 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During September, the team has been mostly working on:
 
--   SKALE Manager: cleanup and CI/CD improvements
--   IMA Hotfix release: stability, memory, logging/search enhancements and critical bug fixes
--   SGX Wallet: started work on supporting threshold signatures
--   Skaled: improved block rotation functionality, snapshot and filestorage bugfixes
--   SKALE Node components: IMA Hotfix release support, docker socket bugfixes
+-   IMA Hotfix release activities and final bug fixes
+-   SKALE Manager: cleanup and bug fixes
+-   Added Proxygen support (Facebook HTTP framework) to improve skaled performance and stability
+-   Skaled: improved block rotation functionality and crash resistance, filestorage fixes, test enhancements
+-   SGX Wallet: security fixes and release process improvements
+-   SKALE Node components: IMA Hotfix release support, Telegram notifications fixes, Proxygen support
 
 ## Code changes
 
