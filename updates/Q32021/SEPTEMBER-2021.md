@@ -12,9 +12,11 @@ If you would like to suggest changes, please post, discuss, or open a GitHub iss
 
 During September, the team has been mostly working on:
 
--   abc
--   abc
-
+-   SKALE Manager: cleanup and CI/CD improvements
+-   IMA Hotfix release: stability, memory, logging/search enhancements and critical bug fixes
+-   SGX Wallet: started work on supporting threshold signatures
+-   Skaled: improved block rotation functionality, snapshot and filestorage bugfixes
+-   SKALE Node components: IMA Hotfix release support, docker socket bugfixes
 
 ## Code changes
 
@@ -82,3 +84,49 @@ During September, the team has been mostly working on:
 -   Added transferOwnership script [\[PR#833\]](https://github.com/skalenetwork/ima/pull/833)
 -   Updated NPM modules on dependency bot suggestions [\[PR#838\]](https://github.com/skalenetwork/ima/pull/838)
 -   Updated dependencies
+
+**SKALE Admin (2.0.2-develop.2)**
+
+-   Fixed registration with already existed data  [\[PR#655\]](https://github.com/skalenetwork/skale-admin/pull/655)
+-   Updated ima-predeployed to 1.0.0-beta.11 [\[PR#659\]](https://github.com/skalenetwork/skale-admin/pull/659), [\[PR#660\]](https://github.com/skalenetwork/skale-admin/pull/660)
+-   Fixed Telegram notifications [\[PR#661\]](https://github.com/skalenetwork/skale-admin/pull/661)
+-   Added proxygen ports to firewall [\[PR#674\]](https://github.com/skalenetwork/skale-admin/pull/674)
+-   Fetch all data after key generation error [\[PR#676\]](https://github.com/skalenetwork/skale-admin/pull/676)
+-   Updated dependencies
+
+**SKALE Node CLI (2.0.1-develop.21)**
+
+-   Updated restore mountpoint [\[PR#529\]](https://github.com/skalenetwork/skale-node-cli/pull/529)
+-   Moved docker-compose rm to docker-compose down [\[PR#530\]](https://github.com/skalenetwork/skale-node-cli/pull/530)
+-   Fixed checks [\[PR#532\]](https://github.com/skalenetwork/skale-node-cli/pull/532)
+-   Fixed init procedure [\[PR#538\]](https://github.com/skalenetwork/skale-node-cli/pull/538)
+-   Fixed restore behavior if checks failed  [\[PR#539\]](https://github.com/skalenetwork/skale-node-cli/pull/539)
+-   Fixed restore check type  [\[PR#541\]](https://github.com/skalenetwork/skale-node-cli/pull/541)
+-   Updated dependencies
+
+**Validator CLI (1.3.0)**
+
+-   No updates
+
+**bounty-agent (2.0.2-stable.0)**
+
+-   No updates
+
+**SKALE.py (5.2dev0)**
+
+-   Added proxygen ports [\[PR#441\]](https://github.com/skalenetwork/skale.py/pull/441)
+-   Updated dependencies
+
+**Transaction-manager (2.0.1-develop.9)**
+
+-   Fixed transaction replacement not working for gas price 1 WEI [\[PR#218\]](https://github.com/skalenetwork/transaction-manager/pull/218)
+-   New stable release [\[PR#221\]](https://github.com/skalenetwork/transaction-manager/pull/221)
+-   Updated dependencies
+
+**Watchdog (2.0.2-stable.0)**
+
+-   No updates
+
+**sgx.py (0.8dev0)**
+
+-   No updates
