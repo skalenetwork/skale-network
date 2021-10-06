@@ -55,7 +55,7 @@ During September, the team has been mostly working on:
 -   Deps build improvements [\[PR#808\]](https://github.com/skalenetwork/skaled/pull/808)
 -   Updated consensus [\[PR#809\]](https://github.com/skalenetwork/skaled/pull/809)
 -   Added optionally disabling transaction acceptance [\[PR#811\]](https://github.com/skalenetwork/skaled/pull/811)
--   Fixed build - update libJsonRpcCpp in consensus[\[PR#816\]] (https://github.com/skalenetwork/skaled/pull/816)
+-   Fixed build - update libJsonRpcCpp in consensus[\[PR#816\]](https://github.com/skalenetwork/skaled/pull/816)
 -   Repaired support for binary http answers such as snapshot downloads  [\[PR#818\]](https://github.com/skalenetwork/skaled/pull/818)
 -   Made json rpc logs compact [\[PR#820\]](https://github.com/skalenetwork/skaled/pull/820)
 -   Tested event/log information is lost after block rotation [\[PR#823\]](https://github.com/skalenetwork/skaled/pull/823)
