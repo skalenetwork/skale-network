@@ -66,3 +66,19 @@ During September, the team has been mostly working on:
 -   Fixed automated signed build [\[PR#355\]](https://github.com/skalenetwork/SGXWallet/pull/355)
 -   Updated job file for new release procedure [\[PR#356\]](https://github.com/skalenetwork/SGXWallet/pull/356)
 -   Fixed register existing key owner [\[PR#358\]](https://github.com/skalenetwork/SGXWallet/pull/358)
+
+**IMA (1.1.0-develop.1)**
+
+-   Fixed lost message [\[PR#805\]](https://github.com/skalenetwork/ima/pull/805)
+-   BLS glue crash fix in IMA agent [\[PR#808\]](https://github.com/skalenetwork/ima/pull/808)
+-   Fixed burn community pool/schain wallet balance during S2M payment [\[PR#813\]](https://github.com/skalenetwork/ima/pull/813), [\[PR#814\]](https://github.com/skalenetwork/ima/pull/814)
+-   Add functionality to recharge user wallet from different address [\[PR#816\]](https://github.com/skalenetwork/ima/pull/816)
+-   Improved Dockerfile script [\[PR#817\]](https://github.com/skalenetwork/ima/pull/817)
+-   Refactored self recharging wallets [\[PR#818\]](https://github.com/skalenetwork/ima/pull/818)
+-   Added upgrade mainnet contracts [\[PR#819\]](https://github.com/skalenetwork/ima/pull/819)
+-   Added IMA-JS usage and code samples (ETH, ERC20, ERC721) [\[PR#821\]](https://github.com/skalenetwork/ima/pull/821)
+-   Fixed wait for S-Chain info arrived [\[PR#826\]](https://github.com/skalenetwork/ima/pull/826)
+-   Added estimate call [\[PR#828\]](https://github.com/skalenetwork/ima/pull/828), [\[PR#829\]](https://github.com/skalenetwork/ima/pull/829)
+-   Added transferOwnership script [\[PR#833\]](https://github.com/skalenetwork/ima/pull/833)
+-   Updated NPM modules on dependency bot suggestions [\[PR#838\]](https://github.com/skalenetwork/ima/pull/838)
+-   Updated dependencies
