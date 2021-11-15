@@ -54,6 +54,7 @@
 - [Release 1.70.0-stable.0](https://github.com/skalenetwork/sgxwallet/releases/tag/1.70.0-stable.0): Container: skalenetwork/sgxwallet_release:1.70.0-stable.0 (19 Apr 2021)
 - [Release 1.77.0-stable.0](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.0-stable.0): Container: skalenetwork/sgxwallet_release:1.77.0-stable.0 (20 July 2021)
 - [Release 1.77.1-stable.2](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.1-stable.2): Container: skalenetwork/sgxwallet_release:1.77.1-stable.2 (8 November 2021)
+- [Release 1.77.1-stable.3](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.1-stable.3): Container: skalenetwork/sgxwallet_release:1.77.1-stable.3 (12 November 2021)
 
 #### SKALE Node
 
