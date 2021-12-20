@@ -18,6 +18,7 @@
   - [Release 1.7.2](/releases/mainnet/skale-manager/1.7.2) (29 Jan 2021)
   - [Release 1.8.0](/releases/mainnet/skale-manager/1.8.0) (15 Apr 2021)
   - [Release 1.8.1](/releases/mainnet/skale-manager/1.8.1) (18 June 2021)
+  - [Release 1.8.2](/releases/mainnet/skale-manager/1.8.2) (18 Dec 2021)
 
 #### SKALE Allocator
 
