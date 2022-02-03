@@ -177,3 +177,15 @@
 
 - Rinkeby
   - [Release 1.0.0-develop.148](/releases/eth-global/IMA/1.0.0-develop.148/proxyMainnet.json) (1 April 2021)
+
+### ETH Denver 22 release
+
+#### SKALE Manager
+
+- Rinkeby
+  - [Release 1.8.2](/releases/eth-denver-22/skale-manager/1.8.2/abi.json) (03 Feb 2022)
+
+#### IMA
+
+- Rinkeby
+  - [Release 1.0.0-stable.1](/releases/eth-denver-22/IMA/1.0.0-stable.1/mainnet/abi.json) (3 Feb 2022)
