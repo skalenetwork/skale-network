@@ -197,3 +197,18 @@
 
 - Rinkeby
   - [Release 1.0.0-stable.1](/releases/eth-denver-22/IMA/1.0.0-stable.1/mainnet/abi.json) (3 Feb 2022)
+
+### Staging V2 network 
+
+#### SKALE Manager
+
+- Rinkeby
+  - [Release 1.9.0-beta.1](/releases/staging-v2/skale-manager/1.9.0-beta.1/abi.json) (14 Mar 2022)
+
+#### IMA
+
+- Rinkeby
+  - [Release 1.1.2-beta.0](/releases/staging-v2/IMA/1.1.2-beta.0/mainnet) (14 Mar 2022)
+
+- Chain
+  - [Release 1.1.2-beta.0](/releases/staging-v2/IMA/1.1.2-beta.0/schain) (14 Mar 2022)
