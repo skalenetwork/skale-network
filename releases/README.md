@@ -174,6 +174,7 @@
 - [Testnet 2.0.3 schain hotfix + consensus fix](https://github.com/skalenetwork/skale-node/releases/tag/2.0.3-testnet.1) (29 Nov 2021)
 - [Testnet 2.0.3 schain hotfix + eth_call latest fix](https://github.com/skalenetwork/skale-node/releases/tag/2.0.3-testnet.2) (6 December 2021)
 - [Release 2.0.4](https://github.com/skalenetwork/skale-node/releases/tag/2.0.4) (24 Feb 2022)
+- [Testnet 2.1.0-testnet.0 (V2)](https://github.com/skalenetwork/skale-node/releases/tag/2.1.0-testnet.0) (30 March 2022)
 
 ### ETH Global release
 
