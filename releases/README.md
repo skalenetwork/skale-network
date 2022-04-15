@@ -239,5 +239,5 @@
 - Rinkeby
   - [Release 1.1.3-beta.1](/releases/eth-amsterdam/IMA/1.1.3-beta.1/mainnet/abi.json) (30 Mar 2022)
   
-- Rinkeby
+- Schain
   - [Release 1.1.3-beta.1](/releases/eth-amsterdam/IMA/1.1.3-beta.1/schain/abi.json) (30 Mar 2022)
