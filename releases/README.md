@@ -97,6 +97,7 @@
 - [Release 1.1.0-stable.1](https://github.com/skalenetwork/skale-admin/releases/tag/1.1.0-stable.1) (27 Apr 2021) 
 - [Release 1.1.0-stable.2](https://github.com/skalenetwork/skale-admin/releases/tag/1.1.0-stable.2) (18 June 2021) 
 - [Release 2.0.1](https://github.com/skalenetwork/skale-admin/releases/tag/2.0.1) (20 July 2021) 
+- [Release 2.0.2](https://github.com/skalenetwork/skale-admin/releases/tag/2.0.2) (24 Sept 2021)
 - [Release 2.3.1](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.1) (19 Apr 2022) 
 
 #### Transaction Manager
