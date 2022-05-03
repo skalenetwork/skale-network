@@ -2,6 +2,8 @@
 
 [![Discord](https://img.shields.io/discord/534485763354787851.svg)](https://discord.gg/vvUtWJB)
 
+
+
 ## Release Calendar
 
 ### Production Releases
@@ -192,41 +194,19 @@
 - [Release 2.0.4](https://github.com/skalenetwork/skale-node/releases/tag/2.0.4) (24 Feb 2022)
 - [Testnet 2.1.0-testnet.0 (V2)](https://github.com/skalenetwork/skale-node/releases/tag/2.1.0-testnet.0) (30 March 2022)
 
-### ETH Global release
+### Dappnet V1 Network
 
 #### SKALE Manager
 
 - Rinkeby
-  - [Release 1.8.0-beta.1](/releases/eth-global/skale-manager/1.8.0/skale-manager-1.8.0-beta.1-rinkeby-abi.json) (30 Mar 2021)
-
+  - [Release 1.8.2-beta.0](/releases/dappnet-v1/skale-manager/1.8.2-beta.0/abi.json) (08 Dec 2021)
 #### IMA
 
 - Rinkeby
-  - [Release 1.0.0-develop.148](/releases/eth-global/IMA/1.0.0-develop.148/proxyMainnet.json) (1 April 2021)
+  - [Release 1.2.1-stable.0](/releases/dappnet-v1/IMA/1.2.1-stable.0/mainnet) (02 Mar 2022)
 
-### ETH Denver 22 release
-
-#### SKALE Manager
-
-- Rinkeby
-  - [Release 1.8.2](/releases/eth-denver-22/skale-manager/1.8.2/abi.json) (03 Feb 2022)
-
-#### IMA
-
-- Rinkeby
-  - [Release 1.0.0-stable.1](/releases/eth-denver-22/IMA/1.0.0-stable.1/mainnet/abi.json) (3 Feb 2022)
-
-### ETH Portland release
-
-#### SKALE Manager
-
-- Rinkeby
-  - [Release 1.9.0-beta.3](/releases/eth-portland/skale-manager/1.9.0-beta.3/abi.json) (29 Mar 2022)
-
-#### IMA
-
-- Rinkeby
-  - [Release 1.1.3-beta.1](/releases/eth-portland/IMA/1.1.3-beta.1/abi.json) (30 Mar 2022)
+- SKALE Chains
+  - [Release 1.0.0-beta.16](/releases/dappnet-v1/IMA/1.0.0-beta.16/schain) (10 Dec 2021)
 
 ### Staging V2 network 
 
