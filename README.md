@@ -8,7 +8,7 @@
 
 ## Other Resources
 
-- [Documentation](https://skale.network/docs)
+- [Documentation](https://docs.skale.network)
 - [Roadmap](https://skale.network/roadmap)
 - [SKALE Developer Community on Discord](http://skale.chat)
 - [SKALE Communities](https://skale.network/communities)
