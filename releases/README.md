@@ -80,7 +80,7 @@
 - [Release 2.0.4](https://github.com/skalenetwork/skale-node/releases/tag/2.0.4) (24 Feb 2022)
 - [Release 2.1.0](https://github.com/skalenetwork/skale-node/releases/tag/2.1.0) (19 Apr 2022)
 - [Release 2.1.3](https://github.com/skalenetwork/skale-node/releases/tag/2.1.3) (27 Apr 2022)
-- [Release 2.1.6](https://github.com/skalenetwork/skale-node/releases/tag/2.1.3) (6 May 2022)
+- [Release 2.1.6](https://github.com/skalenetwork/skale-node/releases/tag/2.1.6) (6 May 2022)
 
 
 #### Skaled
