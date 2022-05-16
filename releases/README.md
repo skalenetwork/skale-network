@@ -81,6 +81,7 @@
 - [Release 2.1.0](https://github.com/skalenetwork/skale-node/releases/tag/2.1.0) (19 Apr 2022)
 - [Release 2.1.3](https://github.com/skalenetwork/skale-node/releases/tag/2.1.3) (27 Apr 2022)
 - [Release 2.1.6](https://github.com/skalenetwork/skale-node/releases/tag/2.1.6) (6 May 2022)
+- [Release 2.1.7](https://github.com/skalenetwork/skale-node/releases/tag/2.1.7) (13 May 2022)
 
 
 #### Skaled
@@ -105,6 +106,7 @@
 - [Release 2.0.2](https://github.com/skalenetwork/skale-admin/releases/tag/2.0.2) (24 Sept 2021)
 - [Release 2.3.1](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.1) (19 Apr 2022) 
 - [Release 2.3.2](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.2) (27 Apr 2022) 
+- [Release 2.3.4](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.4) (13 May 2022) 
 
 #### Transaction Manager
 
@@ -114,6 +116,7 @@
 - [Release 2.0.1](https://github.com/skalenetwork/transaction-manager/releases/tag/2.0.1) (20 July 2021)
 - [Release 2.0.2](https://github.com/skalenetwork/transaction-manager/releases/tag/2.0.2) (24 Sept 2021)
 - [Release 2.1.1](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.1) (19 Apr 2022)
+- [Release 2.1.2](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.2) (13 May 2022)
 
 #### SKALE SLA
 
