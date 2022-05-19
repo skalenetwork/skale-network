@@ -95,6 +95,7 @@
 - [Release 3.7.6-stable.0](https://github.com/skalenetwork/skaled/releases/tag/3.7.6-stable.0) (24 February 2022) 
 - [Release 3.14.9-stable.1](https://github.com/skalenetwork/skaled/releases/tag/3.14.9-stable.1) (19 Apr 2022) 
 - [Release 3.14.9-stable.3](https://github.com/skalenetwork/skaled/releases/tag/3.14.9-stable.3) (27 Apr 2022) 
+- [Release 3.14.9-stable.5](https://github.com/skalenetwork/skaled/releases/tag/3.14.9-stable.5) (6 May 2022)
 
 #### SKALE Admin
 
