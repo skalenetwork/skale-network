@@ -82,6 +82,7 @@
 - [Release 2.1.3](https://github.com/skalenetwork/skale-node/releases/tag/2.1.3) (27 Apr 2022)
 - [Release 2.1.6](https://github.com/skalenetwork/skale-node/releases/tag/2.1.6) (6 May 2022)
 - [Release 2.1.7](https://github.com/skalenetwork/skale-node/releases/tag/2.1.7) (13 May 2022)
+- [Release 2.1.8](https://github.com/skalenetwork/skale-node/releases/tag/2.1.8) (20 May 2022)
 
 
 #### Skaled
@@ -96,6 +97,7 @@
 - [Release 3.14.9-stable.1](https://github.com/skalenetwork/skaled/releases/tag/3.14.9-stable.1) (19 Apr 2022) 
 - [Release 3.14.9-stable.3](https://github.com/skalenetwork/skaled/releases/tag/3.14.9-stable.3) (27 Apr 2022) 
 - [Release 3.14.9-stable.5](https://github.com/skalenetwork/skaled/releases/tag/3.14.9-stable.5) (6 May 2022)
+- Release 3.14.9-stable.5.1.hotfix (20 May 2022)
 
 #### SKALE Admin
 
