@@ -34,7 +34,7 @@
   - [Release 1.0.0](/releases/mainnet/IMA/1.0.0) (19 Jul 2021)
   - [Release 1.0.0-stable.1](/releases/mainnet/IMA/1.0.0-stable.1) (23 Sep 2021)
   - [Release 1.1.0](/releases/mainnet/IMA/1.1.0) (20 Dec 2021)
-  - [Release 1.2.1](/releases/mainnet/IMA/1.2.1) (21 Feb 2021)
+  - [Release 1.2.1](/releases/mainnet/IMA/1.2.1) (21 Feb 2022)
   - [Release 1.3.0](/releases/mainnet/IMA/1.3.0) (18 Apr 2022)
   - [Release 1.3.1](/releases/mainnet/IMA/1.3.1) (24 May 2022)
 
