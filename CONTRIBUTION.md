@@ -14,7 +14,7 @@ SKALE Network Engineering team utilizes GitHub Projects and Kanban process to ma
  - Add issues that you have found during integrating https://www.npmjs.com/package/@skalenetwork/ima-js client library to https://github.com/skalenetwork/ima-js
  - Filestorage-related queries should go to https://github.com/skalenetwork/filestorage 
  - Bugs that you find while using https://www.npmjs.com/package/@skalenetwork/filestorage.js  should be reported to https://github.com/skalenetwork/filestorage.js 
- - Any Block Explorer issues please raise a ticket here - https://github.com/skalenetwork/blockscout
+ - For any Block Explorer issues please raise a ticket here - https://github.com/skalenetwork/blockscout
  - For infrastructure related problems - https://github.com/skalenetwork/skale-node
 
 2. Please provide as much information as possible so the team can effectively troubleshoot: environment details, steps to reproduce, screenshots, logs. If we need anything else, we will reach out for more info 🙂
