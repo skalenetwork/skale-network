@@ -22,6 +22,7 @@
   - [Release 1.8.1](/releases/mainnet/skale-manager/1.8.1) (18 June 2021)
   - [Release 1.8.2](/releases/mainnet/skale-manager/1.8.2) (18 Dec 2021)
   - [Release 1.9.0](/releases/mainnet/skale-manager/1.9.0) (18 Apr 2022)
+  - [Release 1.9.1](/releases/mainnet/skale-manager/1.9.1) (30 Jun 2022)
 
 #### SKALE Allocator
 
@@ -37,6 +38,7 @@
   - [Release 1.2.1](/releases/mainnet/IMA/1.2.1) (21 Feb 2022)
   - [Release 1.3.0](/releases/mainnet/IMA/1.3.0) (18 Apr 2022)
   - [Release 1.3.1](/releases/mainnet/IMA/1.3.1) (24 May 2022)
+  - [Release 1.3.2](/releases/mainnet/IMA/1.3.2) (30 Jun 2022)
 
 #### Node CLI
 
