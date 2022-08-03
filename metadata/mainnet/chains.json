@@ -48,9 +48,10 @@
     "category": "apps"
   },
   "honorable-steel-rasalhague": {
-    "alias": "NFT Hub",
+    "alias": "Calypso NFT Hub",
     "background": "#ffffff",
-    "category": "apps"
+    "category": "apps",
+    "url": "https://calypsohub.network/"
   },
   "elegant-anser": {
     "alias": "Clet Domains",
