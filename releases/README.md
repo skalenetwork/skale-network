@@ -29,6 +29,7 @@
 
 - Main Ethereum Network
   - [Release 2.2.0](/releases/mainnet/skale-allocator/2.2.0) (11 Sept 2020)
+  - [Release 2.2.2](/releases/mainnet/skale-allocator/2.2.2) (15 Aug 2022)
 
 #### IMA
 
