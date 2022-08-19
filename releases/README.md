@@ -173,6 +173,7 @@
   - [Release 1.8.1-beta.1](/releases/rinkeby/skale-manager/1.8.1/skale-manager-1.8.1-beta.1-rinkeby-abi.json) (16 Jun 2021)
   - [Release 1.8.2-beta.0](/releases/rinkeby/skale-manager/1.8.2/skale-manager-1.8.2-beta.0.json) (3 Dec 2021)
   - [Release 1.9.0-beta.3](/releases/rinkeby/skale-manager/1.9.0/skale-manager-1.9.0-beta.3-rinkeby-abi.json) (28 Mar 2022)
+  - [Release 1.9.2-stable.0](/releases/rinkeby/skale-manager/1.9.2) (19 Aug 2022)
 - Kovan
   - [Release 1.5.0](/releases/kovan/skale-manager/1.5.0) (20 Jul 2020)
 
@@ -187,6 +188,7 @@
   - [Release 1.0.0-beta.4](/releases/rinkeby/IMA/1.0.0-beta.4) (12 Jul 2021)
   - [Release 1.0.0-beta.16](/releases/rinkeby/IMA/1.0.0-beta.16) (6 Dec 2021)
   - [Release 1.1.3-beta.1](/releases/rinkeby/IMA/1.1.3-beta.1) (30 Mar 2022)
+  - [Release 1.3.2-stable.1](/releases/rinkeby/IMA/1.3.2-stable.1) (30 Mar 2022)
 - Kovan
   - [Release 1.0.0-develop.38](/releases/kovan/IMA/1.0.0-develop.38)
 
