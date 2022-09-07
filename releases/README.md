@@ -238,10 +238,12 @@
 - Rinkeby
   - [Release 1.1.2-beta.0](/releases/staging-v2/IMA/1.1.2-beta.0/mainnet) (14 Mar 2022)
   - [Release 1.3.0](/releases/staging-v2/IMA/1.3.0/mainnet) (21 May 2022)
+  - [Release 1.3.4-beta.1](/releases/staging-v2/IMA/1.3.4-beta.1/mainnet) (7 Sep 2022)
 
 - Chain
   - [Release 1.1.2-beta.0](/releases/staging-v2/IMA/1.1.2-beta.0/schain) (14 Mar 2022)
   - [Release 1.3.0](/releases/staging-v2/IMA/1.3.0/schain) (21 May 2022)
+  - [Release 1.3.4-beta.1](/releases/staging-v2/IMA/1.3.4-beta.1/schain) (7 Sep 2022)
 
 ### ETH Amsterdam release
 
