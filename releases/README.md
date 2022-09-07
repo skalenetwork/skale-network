@@ -231,6 +231,7 @@
 
 - Rinkeby
   - [Release 1.9.0-beta.1](/releases/staging-v2/skale-manager/1.9.0-beta.1/abi.json) (14 Mar 2022)
+  - [Release 1.9.2-stable.0](/releases/staging-v2/skale-manager/1.9.2-stable.0/abi.json) (7 Sep 2022)
 
 #### IMA
 
