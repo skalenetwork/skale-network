@@ -50,6 +50,7 @@
 - [Release 2.0.1](https://github.com/skalenetwork/skale-node-cli/releases/tag/2.0.1) (20 July 2021)
 - [Release 2.0.2](https://github.com/skalenetwork/skale-node-cli/releases/tag/2.0.2) (24 Sept 2021)
 - [Release 2.1.0](https://github.com/skalenetwork/skale-node-cli/releases/tag/2.1.0) (19 Apr 2022)
+- [Release 2.1.2](https://github.com/skalenetwork/skale-node-cli/releases/tag/2.1.2) (9 Sep 2022)
 
 #### Validator CLI
 
@@ -89,6 +90,8 @@
 - [Release 2.1.7](https://github.com/skalenetwork/skale-node/releases/tag/2.1.7) (13 May 2022)
 - [Release 2.1.8](https://github.com/skalenetwork/skale-node/releases/tag/2.1.8) (20 May 2022)
 - [Release 2.1.9](https://github.com/skalenetwork/skale-node/releases/tag/2.1.9) (31 May 2022)
+- [Release 2.1.10 (REMOVED)](https://github.com/skalenetwork/skale-node/releases/tag/2.1.10) (9 Sep 2022)
+- [Release 2.1.11](https://github.com/skalenetwork/skale-node/releases/tag/2.1.10) (13 Sep 2022)
 
 
 #### Skaled
@@ -105,6 +108,11 @@
 - [Release 3.14.9-stable.5](https://github.com/skalenetwork/skaled/releases/tag/3.14.9-stable.5) (6 May 2022)
 - Release 3.14.9-stable.5.1.hotfix (20 May 2022)
 - Release 3.14.9-stable.5.3.hotfix (31 May 2022)
+- [Release 3.14.15-stable.1](https://github.com/skalenetwork/skaled/releases/tag/3.14.15-stable.1) (9 Sep 2022)
+
+
+#### IMA agent
+- Release [1.3.3-stable.0](https://github.com/skalenetwork/IMA/releases/tag/1.3.3-stable.0) (9 Sep 2022)
 
 #### SKALE Admin
 
@@ -117,6 +125,8 @@
 - [Release 2.3.1](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.1) (19 Apr 2022) 
 - [Release 2.3.2](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.2) (27 Apr 2022) 
 - [Release 2.3.4](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.4) (13 May 2022) 
+- [Release 2.3.9](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.9) (9 Sep 2022) 
+- [Release 2.3.10](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.10) (13 Sep 2022) 
 
 #### Transaction Manager
 
@@ -127,6 +137,7 @@
 - [Release 2.0.2](https://github.com/skalenetwork/transaction-manager/releases/tag/2.0.2) (24 Sept 2021)
 - [Release 2.1.1](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.1) (19 Apr 2022)
 - [Release 2.1.2](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.2) (13 May 2022)
+- [Release 2.1.3](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.3) (9 Sep 2022)
 
 #### SKALE SLA
 
@@ -141,6 +152,7 @@
 - [Release 2.0.1-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/2.0.1-stable.0) (20 July 2021)
 - [Release 2.0.2-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/2.0.2-stable.0) (24 Sept 2021)
 - [Release 2.1.1-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/2.1.1-stable.0) (19 Apr 2022)
+- [Release 2.1.1-stable.1](https://github.com/skalenetwork/bounty-agent/releases/tag/2.1.1-stable.1) (9 Sep 2022)
 
 #### docker lvmpy
 
@@ -159,6 +171,7 @@
 - [Release 2.0.2-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.0.2-stable.0) (24 Sept 2021)
 - [Release 2.0.2-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.0.2-stable.0) (24 Sept 2021)
 - [Release 2.1.0-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.1.0-stable.0) (19 Apr 2022)
+- [Release 2.1.1-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.1.1-stable.0) (9 Sep 2022)
 
 ### Test Releases
 
