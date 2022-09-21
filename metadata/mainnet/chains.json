@@ -62,5 +62,11 @@
     "alias": "Ivy Cash",
     "background": "#ffffff",
     "category": "apps"
-  }
+  },
+  "parallel-stormy-spica": {
+    "alias": "SKALE Community Hub",
+    "background": "#8BFCD9",
+    "category": "apps",
+    "url": "https://skale.space/"
+  },
 }
