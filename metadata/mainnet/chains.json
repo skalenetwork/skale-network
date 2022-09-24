@@ -3,7 +3,9 @@
     "alias": "Europa Hub",
     "background": "#02001f",
     "category": "apps",
-    "url": "https://ruby.exchange/"
+    "url": "https://ruby.exchange/",
+    "faucet": "https://ruby.exchange/faucet.html",
+    "description": "Gasless Trading, Yield Farms, and NFT Boosts"
   },
   "affectionate-immediate-pollux": {
     "alias": "CryptoBlades",
@@ -68,5 +70,5 @@
     "background": "#8BFCD9",
     "category": "apps",
     "url": "https://skale.space/"
-  },
+  }
 }
