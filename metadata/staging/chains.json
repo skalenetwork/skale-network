@@ -1,2 +1,49 @@
 {
+  "deafening-maia": {
+    "alias": "SE Team Chain",
+    "background": "#000000",
+    "category": "apps",
+    "url": "https://skale.space/"
+  },
+  "honorable-steel-rasalhague": {
+    "alias": "dApps Test",
+    "background": "#0a090b",
+    "category": "apps"
+  },
+  "stocky-pleione": {
+    "alias": "project1 / project2",
+    "background": "#0a090b",
+    "category": "apps"
+  },
+  "glamorous-grumium": {
+    "alias": "Cryptoblades",
+    "background": "#061126",
+    "category": "games"
+  },
+  "fancy-rasalhague": {
+    "alias": "Europa Hub",
+    "background": "#02001f",
+    "category": "apps",
+    "url": "https://ruby.exchange/",
+    "faucetUrl": "https://ruby.exchange/faucet.html",
+    "description": "Gasless Trading, Yield Farms, and NFT Boosts"
+  },
+  "naive-musty-merope": {
+    "alias": "MyLilius",
+    "background": "#2f7dde",
+    "category": "apps",
+    "url": "https://www.mylilius.com/"
+  },
+  "actual-secret-cebalrai": {
+    "alias": "Calypso NFT Hub",
+    "background": "#ce126f",
+    "category": "apps",
+    "url": "https://calypsohub.network/"
+  },
+  "shapely-dschubba": {
+    "alias": "Exorde",
+    "background": "#000000",
+    "category": "apps",
+    "url": "https://exorde.network/"
+  }
 }
