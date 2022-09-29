@@ -29,7 +29,7 @@
   },
   "potable-majestic-rasalhague": {
     "alias": "MyLilius",
-    "background": "#2f7dde",
+    "background": "#ffffff",
     "category": "apps",
     "url": "https://www.mylilius.com/"
   },
@@ -67,7 +67,7 @@
   },
   "parallel-stormy-spica": {
     "alias": "SKALE Community Hub",
-    "background": "#8BFCD9",
+    "background": "#ffffff",
     "category": "apps",
     "url": "https://skale.space/"
   }
