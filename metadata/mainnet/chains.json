@@ -86,5 +86,12 @@
     "category": "apps",
     "url": "https://skale.space/",
     "description": "The Blockchain Network of the Future. Available Now."
+  },
+  "turbulent-unique-scheat": {
+    "alias": "Razor Network",
+    "background": "#40429b",
+    "category": "apps",
+    "url": "https://razor.network/",
+    "description": "Truly decentralized oracle network"
   }
 }
