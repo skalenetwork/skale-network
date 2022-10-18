@@ -93,5 +93,13 @@
     "category": "apps",
     "url": "https://razor.network/",
     "description": "Truly decentralized oracle network"
+  },
+  "light-vast-diphda": {
+    "alias": "Exorde Network",
+    "background": "#000000",
+    "category": "apps",
+    "url": "https://exorde.network/",
+    "faucetUrl": "http://faucet.exorde.network/",
+    "description": "The Web3 protocol collecting data from the Web jungle to capture topics, news, reputation, and trends worldwide in real-time."
   }
 }
