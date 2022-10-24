@@ -101,5 +101,12 @@
     "url": "https://exorde.network/",
     "faucetUrl": "http://faucet.exorde.network/",
     "description": "The Web3 protocol collecting data from the Web jungle to capture topics, news, reputation, and trends worldwide in real-time."
+  },
+   "green-giddy-denebola": {
+    "alias": "Nebula Gaming HUB",
+    "background": "#8B8989",
+    "category": "games",
+    "url": "https://nebulachain.io/",
+    "description": "Official gaming Hub for SKALE blockchain games"
   }
 }
