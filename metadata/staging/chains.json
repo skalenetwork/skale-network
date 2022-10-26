@@ -43,6 +43,13 @@
     "url": "https://calypsohub.network/",
     "description": "Official launch point for SKALE NFT Projects"
   },
+   "faint-slimy-achird": {
+    "alias": "Nebula Gaming HUB",
+    "background": "#000000",
+    "category": "games",
+    "url": "https://nebulachain.io/",
+    "description": "Official gaming Hub for SKALE blockchain games"
+  },
   "shapely-dschubba": {
     "alias": "Exorde",
     "background": "#000000",
