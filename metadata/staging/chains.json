@@ -43,7 +43,7 @@
     "url": "https://calypsohub.network/",
     "description": "Official launch point for SKALE NFT Projects"
   },
-   "faint-slimy-achird": {
+  "staging-faint-slimy-achird": {
     "alias": "Nebula Gaming HUB",
     "background": "#000000",
     "category": "games",
@@ -55,5 +55,19 @@
     "background": "#000000",
     "category": "apps",
     "url": "https://exorde.network/"
+  },
+  "staging-perfect-parallel-gacrux": {
+    "alias": "Dog Chain (Metaport)",
+    "background": "#000000",
+    "category": "apps",
+    "url": "https://metaport-demo.skalenodes.com/",
+    "description": "Dog Chain is Chain 1 in the Metaport demo"
+  },
+  "staging-severe-violet-wezen": {
+    "alias": "Cat Chain (Metaport)",
+    "background": "#000000",
+    "category": "apps",
+    "url": "https://metaport-demo.skalenodes.com/",
+    "description": "Cat Chain is Chain 2 (receiver) in the Metaport demo"
   }
 }
