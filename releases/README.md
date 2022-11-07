@@ -92,6 +92,7 @@
 - [Release 2.1.9](https://github.com/skalenetwork/skale-node/releases/tag/2.1.9) (31 May 2022)
 - [Release 2.1.10 (REMOVED)](https://github.com/skalenetwork/skale-node/releases/tag/2.1.10) (9 Sep 2022)
 - [Release 2.1.11](https://github.com/skalenetwork/skale-node/releases/tag/2.1.11) (13 Sep 2022)
+- [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (7 Nov 2022)
 
 
 #### Skaled
@@ -109,6 +110,7 @@
 - Release 3.14.9-stable.5.1.hotfix (20 May 2022)
 - Release 3.14.9-stable.5.3.hotfix (31 May 2022)
 - [Release 3.14.15-stable.1](https://github.com/skalenetwork/skaled/releases/tag/3.14.15-stable.1) (9 Sep 2022)
+- [Release 3.14.15-stable.2](https://github.com/skalenetwork/skaled/releases/tag/3.14.15-stable.2) (7 Nov 2022)
 
 
 #### IMA agent
