@@ -260,6 +260,28 @@
   - [Release 1.3.0](/releases/staging-v2/IMA/1.3.0/schain) (21 May 2022)
   - [Release 1.3.4-beta.1](/releases/staging-v2/IMA/1.3.4-beta.1/schain) (7 Sep 2022)
 
+
+### Staging V3 network  
+
+#### SKALE Manager  
+
+- Goerli  
+  - link to abi  
+  - link to abi  
+
+#### IMA  
+- Goerli  
+  - link to abi  
+  - link to abi  
+- Schain  
+  - link to abi  
+  - link to abi   
+
+#### SKALE Node Release  
+
+  - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (7 Nov 2022)
+
+
 ### ETH Amsterdam release
 
 #### SKALE Manager
