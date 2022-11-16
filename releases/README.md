@@ -189,8 +189,6 @@
   - [Release 1.8.2-beta.0](/releases/rinkeby/skale-manager/1.8.2/skale-manager-1.8.2-beta.0.json) (3 Dec 2021)
   - [Release 1.9.0-beta.3](/releases/rinkeby/skale-manager/1.9.0/skale-manager-1.9.0-beta.3-rinkeby-abi.json) (28 Mar 2022)
   - [Release 1.9.2-stable.0](/releases/rinkeby/skale-manager/1.9.2) (19 Aug 2022)
-- Kovan
-  - [Release 1.5.0](/releases/kovan/skale-manager/1.5.0) (20 Jul 2020)
 
 #### IMA
 
@@ -204,8 +202,6 @@
   - [Release 1.0.0-beta.16](/releases/rinkeby/IMA/1.0.0-beta.16) (6 Dec 2021)
   - [Release 1.1.3-beta.1](/releases/rinkeby/IMA/1.1.3-beta.1) (30 Mar 2022)
   - [Release 1.3.2-stable.1](/releases/rinkeby/IMA/1.3.2-stable.1) (19 Aug 2022)
-- Kovan
-  - [Release 1.0.0-develop.38](/releases/kovan/IMA/1.0.0-develop.38)
 
 #### SKALE Node for testnet
 
@@ -226,20 +222,6 @@
 - [Testnet 2.1.0-testnet.0 (V2)](https://github.com/skalenetwork/skale-node/releases/tag/2.1.0-testnet.0) (30 March 2022)
 - [V2 Hotfix 5 release](https://github.com/skalenetwork/skale-node/releases/tag/2.1.10) (24 August 2022)
 
-### Dappnet V1 Network
-
-#### SKALE Manager
-
-- Rinkeby
-  - [Release 1.8.2-beta.0](/releases/dappnet-v1/skale-manager/1.8.2-beta.0/abi.json) (08 Dec 2021)
-#### IMA
-
-- Rinkeby
-  - [Release 1.2.1-stable.0](/releases/dappnet-v1/IMA/1.2.1-stable.0/mainnet) (02 Mar 2022)
-
-- SKALE Chains
-  - [Release 1.0.0-beta.16](/releases/dappnet-v1/IMA/1.0.0-beta.16/schain) (10 Dec 2021)
-
 ### Staging V2 network 
 
 #### SKALE Manager
@@ -259,50 +241,11 @@
   - [Release 1.1.2-beta.0](/releases/staging-v2/IMA/1.1.2-beta.0/schain) (14 Mar 2022)
   - [Release 1.3.0](/releases/staging-v2/IMA/1.3.0/schain) (21 May 2022)
   - [Release 1.3.4-beta.1](/releases/staging-v2/IMA/1.3.4-beta.1/schain) (7 Sep 2022)
-
-### ETH Amsterdam release
-
-#### SKALE Manager
-
-- Rinkeby
-  - [Release 1.9.0-beta.3](/releases/eth-amsterdam/skale-manager/1.9.0-beta.3/abi.json) (29 Mar 2022)
-
-#### IMA
-
-- Rinkeby
-  - [Release 1.1.3-beta.1](/releases/eth-amsterdam/IMA/1.1.3-beta.1/mainnet/abi.json) (30 Mar 2022)
-  
-- Schain
-  - [Release 1.1.3-beta.1](/releases/eth-amsterdam/IMA/1.1.3-beta.1/schain/abi.json) (30 Mar 2022)
+   
+ - SKALE Node
+  - - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (30 Oct 2022)
 
 
-### ETH NYC Release
+### Staging V3 network 
 
-#### SKALE Manager
 
-- Rinkeby
-  - [Release 1.9.0](/releases/eth-nyc/skale-manager/1.9.0/abi.json) (26 May 2022)
-
-#### IMA
-
-- Rinkeby
-  - [Release 1.3.1](/releases/eth-nyc/IMA/1.3.1/mainnet/abi.json) (26 May 2022)
-  
-- Schain
-  - [Release 1.3.1](/releases/eth-nyc/IMA/1.3.1/schain/abi.json) (26 May 2022)
-  
-
-### Graph Hackathon Release
-
-#### SKALE Manager
-
-- Rinkeby
-  - [Release 1.9.0](/releases/graph-hackathon/skale-manager/1.9.0/abi.json) (26 May 2022)
-
-#### IMA
-
-- Rinkeby
-  - [Release 1.3.1](/releases/graph-hackathon/IMA/1.3.1/mainnet/abi.json) (26 May 2022)
-  
-- Schain
-  - [Release 1.3.1](/releases/graph-hackathon/IMA/1.3.1/schain/abi.json) (26 May 2022)
