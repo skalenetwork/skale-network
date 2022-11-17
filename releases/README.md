@@ -245,8 +245,8 @@
 #### SKALE Manager
 
 - Rinkeby
-  - [Release 1.9.0-beta.1](/releases/staging-v2/skale-manager/1.9.0-beta.1/abi.json) (14 Mar 2022)
-  - [Release 1.9.2-stable.0](/releases/staging-v2/skale-manager/1.9.2-stable.0/abi.json) (7 Sep 2022)
+  - [Release 1.9.0-beta.1](/releases/staging-v2/skale-manager/1.9.0-beta.1) (14 Mar 2022)
+  - [Release 1.9.2-stable.0](/releases/staging-v2/skale-manager/1.9.2-stable.0) (7 Sep 2022)
 
 #### IMA
 
@@ -260,26 +260,27 @@
   - [Release 1.3.0](/releases/staging-v2/IMA/1.3.0/schain) (21 May 2022)
   - [Release 1.3.4-beta.1](/releases/staging-v2/IMA/1.3.4-beta.1/schain) (7 Sep 2022)
 
+#### SKALE Node Release  
+
+  - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (1 Nov 2022)
+
 
 ### Staging V3 network  
 
 #### SKALE Manager  
 
 - Goerli  
-  - link to abi  
-  - link to abi  
+  - [Release 1.9.2-stable.0](/releases/staging-v3/skale-manager/1.9.2) (11 Oct 2022)
 
 #### IMA  
 - Goerli  
-  - link to abi  
-  - link to abi  
+  - [Release 1.3.2-stable.1](/releases/staging-v3/IMA/1.3.2/mainnet) (11 Oct 2022) 
 - Schain  
-  - link to abi  
-  - link to abi   
+  - [Release 1.3.2-stable.1](/releases/staging-v3/IMA/1.3.2/schain) (11 Oct 2022)
 
 #### SKALE Node Release  
 
-  - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (7 Nov 2022)
+  - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (1 Nov 2022)
 
 
 ### ETH Amsterdam release
