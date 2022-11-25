@@ -277,7 +277,7 @@
   - [Release 1.3.2-stable.1](/releases/staging-v3/IMA/1.3.2-stable.1/mainnet) (11 Oct 2022)
   - [Release 1.3.4-beta.8](/releases/staging-v3/IMA/1.3.4-beta.8/mainnet) (21 Nov 2022)
 - Schain  
-  - [Release 1.3.2-stable.1](/releases/staging-v3/IMA/1.3.2/schain) (11 Oct 2022)
+  - [Release 1.3.2-stable.1](/releases/staging-v3/IMA/1.3.2-stable.1/schain) (11 Oct 2022)
   - [Release 1.3.4-beta.8](/releases/staging-v3/IMA/1.3.4-beta.8/schain) (21 Nov 2022)
 
 #### SKALE Node Release  
