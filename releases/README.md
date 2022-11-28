@@ -227,8 +227,8 @@
 #### SKALE Manager
 
 - Rinkeby
-  - [Release 1.9.0-beta.1](/releases/staging-v2/skale-manager/1.9.0-beta.1/abi.json) (14 Mar 2022)
-  - [Release 1.9.2-stable.0](/releases/staging-v2/skale-manager/1.9.2-stable.0/abi.json) (7 Sep 2022)
+  - [Release 1.9.0-beta.1](/releases/staging-v2/skale-manager/1.9.0-beta.1) (14 Mar 2022)
+  - [Release 1.9.2-stable.0](/releases/staging-v2/skale-manager/1.9.2-stable.0) (7 Sep 2022)
 
 #### IMA
 
@@ -239,13 +239,29 @@
 
 - Chain
   - [Release 1.1.2-beta.0](/releases/staging-v2/IMA/1.1.2-beta.0/schain) (14 Mar 2022)
-  - [Release 1.3.0](/releases/staging-v2/IMA/1.3.0/schain) (21 May 2022)
-  - [Release 1.3.4-beta.1](/releases/staging-v2/IMA/1.3.4-beta.1/schain) (7 Sep 2022)
-   
- - SKALE Node
-  - - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (30 Oct 2022)
+  - [Release 1.1.3-beta.0](/releases/staging-v2/IMA/1.3.0/schain) (21 May 2022)
+  - [Release 1.1.3-beta.0](/releases/staging-v2/IMA/1.3.4-beta.1/schain) (7 Sep 2022)
+
+#### SKALE Node Release  
+
+  - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (1 Nov 2022)
 
 
-### Staging V3 network 
+### Staging V3 network  
 
+#### SKALE Manager  
+
+- Goerli  
+  - [Release 1.9.2-stable.0](/releases/staging-v3/skale-manager/1.9.2) (11 Oct 2022)
+
+#### IMA  
+- Goerli  
+  - [Release 1.3.2-stable.1](/releases/staging-v3/IMA/1.3.2-stable.1/mainnet) (11 Oct 2022)
+  - [Release 1.3.4-beta.8](/releases/staging-v3/IMA/1.3.4-beta.8/mainnet) (21 Nov 2022)
+- Schain  
+  - [Release 1.1.3-beta.0](/releases/staging-v3/IMA/1.3.2-stable.1/schain) (11 Oct 2022)
+
+#### SKALE Node Release  
+
+  - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (1 Nov 2022)
 
