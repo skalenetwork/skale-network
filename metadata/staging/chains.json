@@ -57,17 +57,31 @@
     "url": "https://exorde.network/"
   },
   "staging-perfect-parallel-gacrux": {
-    "alias": "Dog Chain (Metaport)",
+    "alias": "Europa Hub (Demo)",
     "background": "#000000",
     "category": "apps",
     "url": "https://metaport-demo.skalenodes.com/",
-    "description": "Dog Chain is Chain 1 in the Metaport demo"
+    "description": "Chain 1 in the Metaport demo",
+    "apps": {
+      "ruby": {
+        "alias": "Ruby Exchange",
+        "background": "#02001f",
+        "url": "https://ruby.exchange/"
+      }
+    }
   },
   "staging-severe-violet-wezen": {
-    "alias": "Cat Chain (Metaport)",
-    "background": "#000000",
+    "alias": "Calypso NFT Hub (Demo)",
+    "background": "#ce126f",
     "category": "apps",
     "url": "https://metaport-demo.skalenodes.com/",
-    "description": "Cat Chain is Chain 2 (receiver) in the Metaport demo"
+    "description": "Chain 2 (receiver) in the Metaport demo",
+    "apps": {
+      "nftrade": {
+        "alias": "NFTrade",
+        "background": "#000000",
+        "url": "https://nftrade.com/"
+      }
+    }
   }
 }

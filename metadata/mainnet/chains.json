@@ -1,11 +1,18 @@
 {
   "elated-tan-skat": {
     "alias": "Europa Hub",
-    "background": "#02001f",
+    "background": "#000000",
     "category": "apps",
     "url": "https://ruby.exchange/",
     "faucetUrl": "https://ruby.exchange/faucet.html",
-    "description": "Gasless Trading, Yield Farms, and NFT Boosts"
+    "description": "Gasless Trading, Yield Farms, and NFT Boosts",
+    "apps": {
+      "ruby": {
+        "alias": "Ruby Exchange",
+        "background": "#02001f",
+        "url": "https://ruby.exchange/"
+      }
+    }
   },
   "affectionate-immediate-pollux": {
     "alias": "CryptoBlades",
@@ -64,7 +71,14 @@
     "background": "#ce126f",
     "category": "apps",
     "url": "https://calypsohub.network/",
-    "description": "Official launch point for SKALE NFT Projects"
+    "description": "Official launch point for SKALE NFT Projects",
+    "apps": {
+      "nftrade": {
+        "alias": "NFTrade",
+        "background": "#000000",
+        "url": "https://nftrade.com/"
+      }
+    }
   },
   "elegant-anser": {
     "alias": "Clet Domains",
@@ -102,7 +116,7 @@
     "faucetUrl": "http://faucet.exorde.network/",
     "description": "The Web3 protocol collecting data from the Web jungle to capture topics, news, reputation, and trends worldwide in real-time."
   },
-   "green-giddy-denebola": {
+  "green-giddy-denebola": {
     "alias": "Nebula Gaming HUB",
     "background": "#000000",
     "category": "games",
