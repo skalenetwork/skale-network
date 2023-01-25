@@ -42,6 +42,7 @@
   - [Release 1.3.1](/releases/mainnet/IMA/1.3.1) (24 May 2022)
   - [Release 1.3.2](/releases/mainnet/IMA/1.3.2) (30 Jun 2022)
   - [Release 1.3.4](/releases/mainnet/IMA/1.3.4) (30 Nov 2022)
+  - [Release 1.3.4-rc.0](/releases/mainnet/IMA/1.3.4) (4 Jan 2023)
 
 #### Node CLI
 
@@ -259,6 +260,7 @@
 - Goerli  
   - [Release 1.3.2-stable.1](/releases/staging-v3/IMA/1.3.2-stable.1/mainnet) (11 Oct 2022)
   - [Release 1.3.4-beta.8](/releases/staging-v3/IMA/1.3.4-beta.8/mainnet) (21 Nov 2022)
+  - [Release 1.3.4-rc.0](/releases/staging-v3/IMA/1.3.4-rc.0/mainnet) (4 Jan 2023)
 - Schain  
   - [Release 1.1.3-beta.0](/releases/staging-v3/IMA/1.3.2-stable.1/schain) (11 Oct 2022)
 
