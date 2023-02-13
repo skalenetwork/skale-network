@@ -42,7 +42,7 @@
   - [Release 1.3.1](/releases/mainnet/IMA/1.3.1) (24 May 2022)
   - [Release 1.3.2](/releases/mainnet/IMA/1.3.2) (30 Jun 2022)
   - [Release 1.3.4](/releases/mainnet/IMA/1.3.4) (30 Nov 2022)
-  - [Release 1.3.4-rc.0](/releases/mainnet/IMA/1.3.4) (4 Jan 2023)
+  - [Release 1.4.0](/releases/mainnet/IMA/1.4.0) (30 Jan 2023)
 
 #### Node CLI
 
