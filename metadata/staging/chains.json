@@ -89,6 +89,7 @@
     "background": "#ffffff",
     "category": "apps",
     "utl": "https://docs.skale.network/",
+    "faucetUrl": "https://sfuel.skale.network/staging/chaos",
     "description": "Public SKALE testnet chain - Let's get it deployed on CHAOS"
   }
 }
