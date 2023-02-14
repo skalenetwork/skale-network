@@ -83,5 +83,12 @@
         "url": "https://nftrade.com/"
       }
     }
+  },
+  "staging-fast-active-bellatrix": {
+    "alias": "CHAOS Testnet",
+    "background": "#ffffff",
+    "category": "apps",
+    "utl": "https://docs.skale.network/",
+    "description": "Public SKALE testnet chain - Let's get it deployed on CHAOS"
   }
 }
