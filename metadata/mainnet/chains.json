@@ -129,5 +129,12 @@
     "category": "games",
     "url": "https://nebulachain.io/",
     "description": "Official gaming Hub for SKALE blockchain games"
+  },
+  "wan-red-ain": {
+    "alias": "HUMAN Protocol",
+    "background": "#ffffff",
+    "category": "apps",
+    "url": "https://www.humanprotocol.org/",
+    "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
   }
 }
