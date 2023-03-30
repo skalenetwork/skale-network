@@ -136,5 +136,12 @@
     "category": "apps",
     "url": "https://www.humanprotocol.org/",
     "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
+  },
+  "curly-red-alterf": {
+    "alias": "Fireside",
+    "background": "#1E1B4D",
+    "category": "apps",
+    "url": "https://firesidechat.com/",
+    "description": "Fireside is the first interactive streaming platform that invites you to be part of the show. Co-founded by Falon Fatemi and Mark Cuban the media and entertainment networks of the future are emerging on Fireside."
   }
 }
