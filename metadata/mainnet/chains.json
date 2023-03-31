@@ -10,6 +10,7 @@
       "ruby": {
         "alias": "Ruby Exchange",
         "background": "#02001f",
+        "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
         "url": "https://ruby.exchange/"
       }
     }
@@ -17,6 +18,7 @@
   "adorable-quaint-bellatrix": {
     "alias": "StreamMyScreen",
     "background": "#399285",
+    "gradientBackground": "linear-gradient(273.67deg, rgb(57, 146, 133), rgb(32 132 134), rgb(53 135 143))",
     "category": "apps",
     "description": "StreamMyScreen is the easiest and most affordable way to go live on all your channels at the same time with multicast live streaming.",
     "url": "https://www.streammyscreen.com/"
@@ -24,6 +26,7 @@
   "affectionate-immediate-pollux": {
     "alias": "CryptoBlades",
     "background": "#061126",
+    "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
     "category": "games",
     "description": "BECOME THE MOST POWERFUL BLADE WIELDER IN THE BLOCKCHAIN",
     "url": "https://www.cryptoblades.io/"
@@ -83,6 +86,7 @@
       "nftrade": {
         "alias": "NFTrade",
         "background": "#ffffff",
+        "gradientBackground": "linear-gradient(230deg,#bbe5ff,#ffffff)",
         "url": "https://nftrade.com/"
       }
     }
@@ -111,6 +115,7 @@
   "turbulent-unique-scheat": {
     "alias": "Razor Network",
     "background": "#40429b",
+    "gradientBackground": "linear-gradient(200deg, rgba(64,66,155,1) 25%, rgba(44,46,124,1) 100%)",
     "category": "apps",
     "url": "https://razor.network/",
     "description": "Truly decentralized oracle network"
@@ -126,6 +131,7 @@
   "green-giddy-denebola": {
     "alias": "Nebula Gaming HUB",
     "background": "#000000",
+    "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
     "category": "games",
     "url": "https://nebulachain.io/",
     "description": "Official gaming Hub for SKALE blockchain games"
@@ -133,6 +139,7 @@
   "wan-red-ain": {
     "alias": "HUMAN Protocol",
     "background": "#ffffff",
+    "gradientBackground": "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(227,211,255,1) 100%)",
     "category": "apps",
     "url": "https://www.humanprotocol.org/",
     "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
