@@ -150,5 +150,12 @@
     "category": "apps",
     "url": "https://firesidechat.com/",
     "description": "Fireside is the first interactive streaming platform that invites you to be part of the show. Co-founded by Falon Fatemi and Mark Cuban the media and entertainment networks of the future are emerging on Fireside."
+  },
+  "fussy-smoggy-megrez": {
+    "alias": "0xBattleGround",
+    "background": "#ffffff",
+    "category": "games",
+    "url": "https://0xbattleground.com/",
+    "description": "0xBattleGround is a blockchain-powered multiplayer shooter game with one goal: to survive!"
   }
 }
