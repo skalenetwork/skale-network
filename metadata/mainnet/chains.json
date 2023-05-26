@@ -88,6 +88,12 @@
         "background": "#ffffff",
         "gradientBackground": "linear-gradient(230deg,#bbe5ff,#ffffff)",
         "url": "https://nftrade.com/"
+      },
+      "untitled-platformer": {
+        "alias": "Untitled Platformer",
+        "background": "#000000",
+        "gradientBackground": "linear-gradient(139deg, rgb(19 17 0), rgb(0, 0, 0))",
+        "url": "https://untitledplatformer.io/"
       }
     }
   },
