@@ -1,16 +1,16 @@
 {
   "elated-tan-skat": {
-    "alias": "Europa Hub",
+    "alias": "Europa Liquidity Hub",
     "background": "#000000",
     "category": "apps",
-    "url": "https://ruby.exchange/",
-    "faucetUrl": "https://ruby.exchange/faucet.html",
-    "description": "Gasless Trading, Yield Farms, and NFT Boosts",
+    "url": "https://github.com/EuropaHub",
+    "description": "Europa is the liquidity hub chain for the SKALE network, and acts as an entry point for tokens bridging onto SKALE.",
     "apps": {
       "ruby": {
         "alias": "Ruby Exchange",
         "background": "#02001f",
         "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
+        "description": "The first NFT-powered AMM. Built on SKALE with zero gas fees!",
         "url": "https://ruby.exchange/"
       }
     }
@@ -28,7 +28,7 @@
     "background": "#061126",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
     "category": "games",
-    "description": "BECOME THE MOST POWERFUL BLADE WIELDER IN THE BLOCKCHAIN",
+    "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
     "url": "https://www.cryptoblades.io/"
   },
   "portly-passionate-sirius": {
@@ -39,17 +39,17 @@
     "url": "https://www.solydaria.co/"
   },
   "round-hasty-alsafi": {
-    "alias": "DEXGames",
+    "alias": "DEXGAME",
     "background": "#391c4e",
     "category": "games",
-    "description": "Next-gen Metaverse for Gaming Ecosystem",
+    "description": "DEXGame is designed to bring together the core components of the game ecosystem's value chain on its metaverse platform",
     "url": "https://dexgame.io/"
   },
   "haunting-devoted-deneb": {
     "alias": "Crypto Colosseum",
     "background": "#101010",
     "category": "games",
-    "description": "Become the most powerful and important warrior patron.",
+    "description": "Crypto Colosseum is a suite of strategy based blockchain games live on SKALE.",
     "url": "https://cryptocolosseum.com/"
   },
   "potable-majestic-rasalhague": {
@@ -69,7 +69,7 @@
     "background": "rgb(0, 67, 103)",
     "category": "games",
     "url": "https://blockbrawlers.com/",
-    "description": "A PLAY-TO-EARN RPG POWERED BY SKALE AND GAME CREDITS"
+    "description": "Block Brawlers is a play-to-earn game powered by SKALE and GameCredits"
   },
   "fit-betelgeuse": {
     "alias": "Curio DAO",
@@ -81,7 +81,7 @@
     "background": "#ce126f",
     "category": "apps",
     "url": "https://calypsohub.network/",
-    "description": "Official launch point for SKALE NFT Projects",
+    "description": "The official launch point for SKALE NFT Projects",
     "apps": {
       "nftrade": {
         "alias": "NFTrade",
@@ -132,15 +132,15 @@
     "category": "apps",
     "url": "https://exorde.network/",
     "faucetUrl": "http://faucet.exorde.network/",
-    "description": "The Web3 protocol collecting data from the Web jungle to capture topics, news, reputation, and trends worldwide in real-time."
+    "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web"
   },
   "green-giddy-denebola": {
-    "alias": "Nebula Gaming HUB",
+    "alias": "Nebula Gaming Hub",
     "background": "#000000",
     "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
     "category": "games",
     "url": "https://nebulachain.io/",
-    "description": "Official gaming Hub for SKALE blockchain games"
+    "description": "Nebula is the dedicated gaming SKALE chain that offers a never-before-seen gaming experience."
   },
   "wan-red-ain": {
     "alias": "HUMAN Protocol",
@@ -155,7 +155,7 @@
     "background": "#1E1B4D",
     "category": "apps",
     "url": "https://firesidechat.com/",
-    "description": "Fireside is the first interactive streaming platform that invites you to be part of the show. Co-founded by Falon Fatemi and Mark Cuban the media and entertainment networks of the future are emerging on Fireside."
+    "description": "Fireside is the first streaming platform that invites audiences not to just view content, but participate in it"
   },
   "fussy-smoggy-megrez": {
     "alias": "0xBattleGround",
