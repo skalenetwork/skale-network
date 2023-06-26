@@ -94,6 +94,11 @@
         "background": "#000000",
         "gradientBackground": "linear-gradient(139deg, rgb(19 17 0), rgb(0, 0, 0))",
         "url": "https://untitledplatformer.io/"
+      },
+      "xp-network": {
+        "alias": "XP Network",
+        "background": "#ffffff",
+        "url": "https://xp.network/"
       }
     }
   },
@@ -163,5 +168,12 @@
     "category": "games",
     "url": "https://0xbattleground.com/",
     "description": "0xBattleGround is a blockchain-powered multiplayer shooter game with one goal: to survive!"
+  },
+  "wary-teeming-mizar": {
+    "alias": "Tank Wars Zone",
+    "background": "#191f54",
+    "category": "games",
+    "url": "https://tankwars.zone/",
+    "description": "A FULLY DECENTRALIZED PLAY-TO-EARN BATTLE GAME"
   }
 }
