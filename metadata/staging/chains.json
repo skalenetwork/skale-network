@@ -88,18 +88,31 @@
     "description": "0xBattleGround is a blockchain-powered multiplayer shooter game with one goal: to survive!"
   },
   "staging-perfect-parallel-gacrux": {
-    "alias": "HUMAN Protocol",
+    "alias": "Test Chain 1",
     "background": "#ffffff",
-    "gradientBackground": "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(227,211,255,1) 100%)",
     "category": "apps",
-    "url": "https://www.humanprotocol.org/",
-    "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
+    "url": "https://skale.space/",
+    "description": "Test Chain 1"
   },
   "staging-severe-violet-wezen": {
-    "alias": "Fireside",
-    "background": "#1E1B4D",
+    "alias": "Test Chain 2",
+    "background": "#ffffff",
     "category": "apps",
-    "url": "https://firesidechat.com/",
-    "description": "Fireside is the first streaming platform that invites audiences not to just view content, but participate in it"
+    "url": "https://skale.space.com/",
+    "description": "Test Chain 2"
+  },
+  "staging-awesome-grave-subra": {
+    "alias": "Roco Finance",
+    "background": "#ffffff",
+    "category": "apps",
+    "url": "https://roco.finance/",
+    "description": "Discover, find and sell extraordinary monster NFTs"
+  },
+  "staging-weepy-fitting-caph": {
+    "alias": "Tank Wars Zone",
+    "background": "#191f54",
+    "category": "games",
+    "url": "https://tankwars.zone/",
+    "description": "A FULLY DECENTRALIZED PLAY-TO-EARN BATTLE GAME"
   }
 }
