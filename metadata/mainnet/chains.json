@@ -92,15 +92,14 @@
         "alias": "XP Network",
         "background": "#ffffff",
         "url": "https://xp.network/"
+      },
+      "clet-domains": {
+        "alias": "Clet Domains",
+        "background": "#ffffff",
+        "url": "https://www.clet.domains/",
+        "description": "Get A Name For Your Crypto Addresses Now"
       }
     }
-  },
-  "elegant-anser": {
-    "alias": "Clet Domains",
-    "background": "#ffffff",
-    "category": "apps",
-    "url": "https://www.clet.domains/",
-    "description": "Get A Name For Your Crypto Addresses Now"
   },
   "plain-rotanev": {
     "alias": "Ivy Cash",
@@ -110,8 +109,8 @@
     "description": "You haven’t seen NFTs & Crypto delivered like this."
   },
   "parallel-stormy-spica": {
-    "alias": "SKALE Community Hub",
-    "background": "#8BFCD9",
+    "alias": "Titan Community Hub",
+    "background": "#ffffff",
     "category": "apps",
     "url": "https://skale.space/",
     "description": "The Blockchain Network of the Future. Available Now."
@@ -127,6 +126,7 @@
   "light-vast-diphda": {
     "alias": "Exorde Network",
     "background": "#000000",
+    "gradientBackground": "linear-gradient(78deg, rgb(0, 0, 0), rgb(24 24 24))",
     "category": "apps",
     "url": "https://exorde.network/",
     "faucetUrl": "http://faucet.exorde.network/",
@@ -161,12 +161,5 @@
     "category": "games",
     "url": "https://0xbattleground.com/",
     "description": "0xBattleGround is a blockchain-powered multiplayer shooter game with one goal: to survive!"
-  },
-  "wary-teeming-mizar": {
-    "alias": "Tank Wars Zone",
-    "background": "#191f54",
-    "category": "games",
-    "url": "https://tankwars.zone/",
-    "description": "A FULLY DECENTRALIZED PLAY-TO-EARN BATTLE GAME"
   }
 }
