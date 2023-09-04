@@ -3,7 +3,7 @@
     "alias": "Europa Liquidity Hub",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
-    "category": "apps",
+    "category": "hub",
     "url": "https://github.com/EuropaHub",
     "description": "Europa is the liquidity hub chain for the SKALE network, and acts as an entry point for tokens bridging onto SKALE.",
     "apps": {
@@ -74,7 +74,7 @@
     "alias": "Calypso NFT Hub",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
-    "category": "apps",
+    "category": "hub",
     "url": "https://calypsohub.network/",
     "description": "The official launch point for SKALE NFT Projects",
     "apps": {
@@ -113,7 +113,7 @@
   "parallel-stormy-spica": {
     "alias": "Titan Community Hub",
     "background": "#ffffff",
-    "category": "apps",
+    "category": "hub",
     "url": "https://skale.space/",
     "description": "The Blockchain Network of the Future. Available Now."
   },
@@ -138,7 +138,7 @@
     "alias": "Nebula Gaming Hub",
     "background": "#2c1626",
     "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
-    "category": "games",
+    "category": "hub",
     "url": "https://nebulachain.io/",
     "description": "Nebula is the dedicated gaming SKALE chain that offers a never-before-seen gaming experience."
   },
