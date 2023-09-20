@@ -51,7 +51,7 @@
       "nftrade": {
         "alias": "NFTrade",
         "background": "#ffffff",
-        "gradientBackground": "linear-gradient(230deg,#bbe5ff,#ffffff)",
+        "gradientBackground": "linear-gradient(230deg, rgb(0 65 106), rgb(0 34 54))",
         "url": "https://nftrade.com/"
       },
       "untitled-platformer": {

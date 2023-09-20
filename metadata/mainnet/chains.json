@@ -81,7 +81,7 @@
       "nftrade": {
         "alias": "NFTrade",
         "background": "#ffffff",
-        "gradientBackground": "linear-gradient(230deg,#bbe5ff,#ffffff)",
+        "gradientBackground": "linear-gradient(230deg, rgb(0 65 106), rgb(0 34 54))",
         "url": "https://nftrade.com/"
       },
       "untitled-platformer": {
@@ -145,7 +145,7 @@
   "wan-red-ain": {
     "alias": "HUMAN Protocol",
     "background": "#ffffff",
-    "gradientBackground": "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(227,211,255,1) 100%)",
+    "gradientBackground": "radial-gradient(circle, rgb(14 0 38) 0%, rgb(32 0 89) 100%)",
     "category": "apps",
     "url": "https://www.humanprotocol.org/",
     "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
