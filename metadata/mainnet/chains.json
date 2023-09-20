@@ -4,7 +4,7 @@
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
     "category": "hub",
-    "url": "https://github.com/EuropaHub",
+    "url": "https://europahub.network/",
     "description": "Europa is the liquidity hub chain for the SKALE network, and acts as an entry point for tokens bridging onto SKALE.",
     "apps": {
       "ruby": {
