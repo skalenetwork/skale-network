@@ -90,14 +90,17 @@
         "gradientBackground": "linear-gradient(139deg, rgb(19 17 0), rgb(0, 0, 0))",
         "url": "https://untitledplatformer.io/"
       },
-      "xp-network": {
-        "alias": "XP Network",
-        "background": "#ffffff",
-        "url": "https://xp.network/"
-      },
       "clet-domains": {
         "alias": "Clet Domains",
         "background": "#ffffff",
+        "gradientBackground": "linear-gradient(139deg, rgb(0 83 2), rgb(2 33 2))",
+        "url": "https://www.clet.domains/",
+        "description": "Get A Name For Your Crypto Addresses Now"
+      },
+      "collab-land": {
+        "alias": "Collab.land",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, rgb(51 51 51), rgb(84 84 84))",
         "url": "https://www.clet.domains/",
         "description": "Get A Name For Your Crypto Addresses Now"
       }
@@ -140,12 +143,26 @@
     "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
     "category": "hub",
     "url": "https://nebulachain.io/",
-    "description": "Nebula is the dedicated gaming SKALE chain that offers a never-before-seen gaming experience."
+    "description": "Nebula is the dedicated gaming SKALE chain that offers a never-before-seen gaming experience.",
+    "apps": {
+      "cryptocrusades": {
+        "alias": "CryptoCrusades",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #121e4c, #0f2165)",
+        "url": "https://cryptocrusades.io/"
+      },
+      "nftb": {
+        "alias": "NFTb",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(90deg,#02161b,#02042e 26.04%,#14032d 51.56%,#170223 77.08%,#100113)",
+        "url": "https://nftb.io/"
+      }
+    }
   },
   "wan-red-ain": {
     "alias": "HUMAN Protocol",
-    "background": "#ffffff",
-    "gradientBackground": "radial-gradient(circle, rgb(14 0 38) 0%, rgb(32 0 89) 100%)",
+    "background": "rgb(14, 0, 38)",
+    "gradientBackground": "linear-gradient(270deg, rgb(14, 0, 38), rgb(27 1 75))",
     "category": "apps",
     "url": "https://www.humanprotocol.org/",
     "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
