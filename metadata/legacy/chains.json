@@ -1,1 +1,55 @@
-{}
+{
+  "skale-innocent-nasty": {
+    "alias": "Europa Liquidity Hub",
+    "background": "rgb(5 19 37)",
+    "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
+    "category": "hub",
+    "url": "https://europahub.network/",
+    "description": "Europa is the liquidity hub chain for the SKALE network, and acts as an entry point for tokens bridging onto SKALE.",
+    "apps": {
+      "ruby": {
+        "alias": "Ruby Exchange",
+        "background": "#02001f",
+        "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
+        "description": "The first NFT-powered AMM. Built on SKALE with zero gas fees!",
+        "url": "https://ruby.exchange/"
+      }
+    }
+  },
+  "international-villainous-zaurak": {
+    "alias": "Calypso NFT Hub",
+    "background": "#ce126f",
+    "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
+    "category": "hub",
+    "url": "https://calypsohub.network/",
+    "description": "The official launch point for SKALE NFT Projects",
+    "apps": {
+      "nftrade": {
+        "alias": "NFTrade",
+        "background": "#ffffff",
+        "gradientBackground": "linear-gradient(230deg, rgb(0 65 106), rgb(0 34 54))",
+        "url": "https://nftrade.com/"
+      },
+      "untitled-platformer": {
+        "alias": "Untitled Platformer",
+        "background": "#000000",
+        "gradientBackground": "linear-gradient(139deg, rgb(19 17 0), rgb(0, 0, 0))",
+        "url": "https://untitledplatformer.io/"
+      },
+      "clet-domains": {
+        "alias": "Clet Domains",
+        "background": "#ffffff",
+        "gradientBackground": "linear-gradient(139deg, rgb(0 83 2), rgb(2 33 2))",
+        "url": "https://www.clet.domains/",
+        "description": "Get A Name For Your Crypto Addresses Now"
+      },
+      "collab-land": {
+        "alias": "Collab.land",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, rgb(51 51 51), rgb(84 84 84))",
+        "url": "https://www.clet.domains/",
+        "description": "Get A Name For Your Crypto Addresses Now"
+      }
+    }
+  }
+}
