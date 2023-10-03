@@ -2,6 +2,7 @@
   "staging-fast-active-bellatrix": {
     "alias": "CHAOS Testnet",
     "background": "#ffffff",
+    "gradientBackground": "linear-gradient(270deg, #0d2614, #07130a)",
     "category": "apps",
     "utl": "https://docs.skale.network/",
     "faucetUrl": "https://sfuel.skale.network/staging/chaos",
