@@ -14,15 +14,15 @@
     "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
     "category": "hub",
     "url": "https://nebulachain.io/",
-    "description": "Nebula is the dedicated gaming SKALE chain that offers a never-before-seen gaming experience."
+    "description": "The Nebula Gaming Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem on the SKALE Network. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities."
   },
   "staging-legal-crazy-castor": {
     "alias": "Europa Liquidity Hub",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
     "category": "hub",
-    "url": "https://github.com/EuropaHub",
-    "description": "Europa is the liquidity hub chain for the SKALE network, and acts as an entry point for tokens bridging onto SKALE.",
+    "url": "https://europahub.network/",
+    "description": "The Europa DeFi Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
       "ruby": {
         "alias": "Ruby Exchange",
@@ -47,7 +47,7 @@
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
     "category": "hub",
     "url": "https://calypsohub.network/",
-    "description": "The official launch point for SKALE NFT Projects",
+    "description": "The Calypso NFT Hub is a SKALE chain that enables creators and projects created Non-Fungible Token based applications in a gas-free manner.",
     "apps": {
       "nftrade": {
         "alias": "NFTrade",
@@ -73,7 +73,7 @@
     "background": "rgb(50 22 11)",
     "category": "hub",
     "url": "https://calypsohub.network/",
-    "description": "SKALE Titan - General/Community Hub"
+    "description": "The Titan Community Hub is a SKALE chain that focuses on offering projects focused on building communities to have a place to operate without the full need of a SKALE Chain. "
   },
   "staging-lost-likely-aludra": {
     "alias": "CryptoBlades",
