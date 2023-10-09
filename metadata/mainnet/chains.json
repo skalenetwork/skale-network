@@ -115,7 +115,8 @@
   },
   "parallel-stormy-spica": {
     "alias": "Titan Community Hub",
-    "background": "#ffffff",
+    "background": "rgb(50, 22, 11)",
+    "gradientBackground": "linear-gradient(270deg, rgb(72 33 17), rgb(34 13 5))",
     "category": "hub",
     "url": "https://skale.space/",
     "description": "The Blockchain Network of the Future. Available Now."
