@@ -10,6 +10,7 @@
   },
   "staging-faint-slimy-achird": {
     "alias": "Nebula Gaming Hub",
+    "shortAlias": "nebula",
     "background": "#2c1626",
     "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
     "category": [
@@ -50,6 +51,7 @@
   },
   "staging-utter-unripe-menkar": {
     "alias": "Calypso NFT Hub",
+    "shortAlias": "calyso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
     "category": [
@@ -80,6 +82,7 @@
   },
   "staging-aware-chief-gianfar": {
     "alias": "Titan Community Hub",
+    "shortAlias": "titan",
     "background": "rgb(50 22 11)",
     "category": [
       "Hub",
@@ -90,6 +93,7 @@
   },
   "staging-lost-likely-aludra": {
     "alias": "CryptoBlades",
+    "shortAlias": "cryptoblades",
     "background": "#061126",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
     "category": [
