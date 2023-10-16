@@ -3,7 +3,7 @@
     "alias": "CHAOS Testnet",
     "background": "#ffffff",
     "gradientBackground": "linear-gradient(270deg, #0d2614, #07130a)",
-    "category": "apps",
+    "category": "dApp",
     "utl": "https://docs.skale.network/",
     "faucetUrl": "https://sfuel.skale.network/staging/chaos",
     "description": "Public SKALE testnet chain - Let's get it deployed on CHAOS"
@@ -12,7 +12,7 @@
     "alias": "Nebula Gaming Hub",
     "background": "#2c1626",
     "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
-    "category": "hub",
+    "category": ["hub", "game"],
     "url": "https://nebulachain.io/",
     "description": "The Nebula Gaming Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem on the SKALE Network. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities."
   },
@@ -20,7 +20,7 @@
     "alias": "Europa Liquidity Hub",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
-    "category": "hub",
+    "category": ["hub", "DeFi"],
     "url": "https://europahub.network/",
     "description": "The Europa DeFi Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
@@ -37,7 +37,7 @@
     "alias": "StreamMyScreen",
     "background": "#399285",
     "gradientBackground": "linear-gradient(273.67deg, rgb(57, 146, 133), rgb(32 132 134), rgb(53 135 143))",
-    "category": "apps",
+    "category": "dApp",
     "description": "StreamMyScreen is the easiest and most affordable way to go live on all your channels at the same time with multicast live streaming.",
     "url": "https://www.streammyscreen.com/"
   },
@@ -45,7 +45,7 @@
     "alias": "Calypso NFT Hub",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
-    "category": "hub",
+    "category": ["hub", "NFT"],
     "url": "https://calypsohub.network/",
     "description": "The Calypso NFT Hub is a SKALE chain that enables creators and projects created Non-Fungible Token based applications in a gas-free manner.",
     "apps": {
@@ -71,7 +71,7 @@
   "staging-aware-chief-gianfar": {
     "alias": "Titan Community Hub",
     "background": "rgb(50 22 11)",
-    "category": "hub",
+    "category": ["hub", "community"],
     "url": "https://calypsohub.network/",
     "description": "The Titan Community Hub is a SKALE chain that focuses on offering projects focused on building communities to have a place to operate without the full need of a SKALE Chain. "
   },
@@ -79,42 +79,42 @@
     "alias": "CryptoBlades",
     "background": "#061126",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
-    "category": "games",
+    "category": ["game", "dApp"],
     "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
     "url": "https://www.cryptoblades.io/"
   },
   "staging-woozy-frizzy-merga": {
     "alias": "0xBattleGround",
     "background": "#ffffff",
-    "category": "games",
+    "category": ["game", "dApp"],
     "url": "https://0xbattleground.com/",
     "description": "0xBattleGround is a blockchain-powered multiplayer shooter game with one goal: to survive!"
   },
   "staging-perfect-parallel-gacrux": {
     "alias": "Test Chain 1",
     "background": "#ffffff",
-    "category": "apps",
+    "category": "dApp",
     "url": "https://skale.space/",
     "description": "Test Chain 1"
   },
   "staging-severe-violet-wezen": {
     "alias": "Test Chain 2",
     "background": "#ffffff",
-    "category": "apps",
+    "category": "dApp",
     "url": "https://skale.space.com/",
     "description": "Test Chain 2"
   },
   "staging-awesome-grave-subra": {
     "alias": "Roco Finance",
     "background": "#ffffff",
-    "category": "apps",
+    "category": "dApp",
     "url": "https://roco.finance/",
     "description": "Discover, find and sell extraordinary monster NFTs"
   },
   "staging-weepy-fitting-caph": {
     "alias": "Tank Wars Zone",
     "background": "#191f54",
-    "category": "games",
+    "category": ["game", "dApp"],
     "url": "https://tankwars.zone/",
     "description": "A FULLY DECENTRALIZED PLAY-TO-EARN BATTLE GAME"
   }
