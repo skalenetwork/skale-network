@@ -91,7 +91,7 @@
     "category": "dApp"
   },
   "honorable-steel-rasalhague": {
-    "alias": "Calypso NFT Hub",
+    "alias": "Calypso Hub",
     "shortAlias": "calyso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
@@ -100,7 +100,7 @@
       "NFT"
     ],
     "url": "https://calypsohub.network/",
-    "description": "The Calypso NFT Hub is a SKALE chain that enables creators and projects created Non-Fungible Token based applications in a gas-free manner.",
+    "description": "The Calypso Hub is a SKALE chain that enables creators and projects created Non-Fungible Token based applications in a gas-free manner.",
     "apps": {
       "nftrade": {
         "alias": "NFTrade",
@@ -127,6 +127,13 @@
         "gradientBackground": "linear-gradient(270deg, rgb(51 51 51), rgb(84 84 84))",
         "url": "https://www.clet.domains/",
         "description": "Get A Name For Your Crypto Addresses Now"
+      },
+      "tank-wars-zone": {
+        "alias": "Tank Wars Zone",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #191f54, #212b7c)",
+        "url": "https://tankwars.zone/",
+        "description": "Design your own 3D Tank Model and sell it in our game marketplace. Everyone can buy or trade these tanks and play them in all gameplay modes."
       }
     }
   },

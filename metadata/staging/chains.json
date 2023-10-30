@@ -50,7 +50,7 @@
     "url": "https://www.streammyscreen.com/"
   },
   "staging-utter-unripe-menkar": {
-    "alias": "Calypso NFT Hub",
+    "alias": "Calypso Hub",
     "shortAlias": "calyso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
@@ -59,7 +59,7 @@
       "NFT"
     ],
     "url": "https://calypsohub.network/",
-    "description": "The Calypso NFT Hub is a SKALE chain that enables creators and projects created Non-Fungible Token based applications in a gas-free manner.",
+    "description": "The Calypso Hub is a SKALE chain that enables creators and projects created Non-Fungible Token based applications in a gas-free manner.",
     "apps": {
       "nftrade": {
         "alias": "NFTrade",
