@@ -203,6 +203,12 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(90deg,#02161b,#02042e 26.04%,#14032d 51.56%,#170223 77.08%,#100113)",
         "url": "https://nftb.io/"
+      },
+      "motodex": {
+        "alias": "MotoDEX",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(92deg, rgb(18, 18, 18) 0%, rgb(56, 57, 59)",
+        "url": "https://openbisea.io/motodex"
       }
     }
   },
