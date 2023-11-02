@@ -53,6 +53,7 @@
   "round-hasty-alsafi": {
     "alias": "DEXGAME",
     "background": "#391c4e",
+    "gradientBackground": "linear-gradient(270deg, rgb(67 31 94), rgb(35 14 50))",
     "category": [
       "Game",
       "dApp"
@@ -63,6 +64,7 @@
   "haunting-devoted-deneb": {
     "alias": "Crypto Colosseum",
     "background": "#101010",
+    "gradientBackground": "linear-gradient(228deg,  rgb(32 15 4), rgb(15 10 6),  rgb(32 15 4))",
     "category": [
       "Game",
       "dApp"
@@ -78,6 +80,7 @@
   "frayed-decent-antares": {
     "alias": "Block Brawlers",
     "background": "rgb(0, 67, 103)",
+    "gradientBackground": "linear-gradient(270deg, rgb(2 45 67), rgb(0 78 103), rgb(5 47 70))",
     "category": [
       "Game",
       "dApp"
@@ -140,6 +143,7 @@
   "plain-rotanev": {
     "alias": "Ivy Cash",
     "background": "#ffffff",
+    "gradientBackground": "linear-gradient(45deg, rgb(157 157 157), rgb(255, 255, 255))",
     "category": "dApp",
     "url": "https://ivy.cash/",
     "description": "You haven’t seen NFTs & Crypto delivered like this."
