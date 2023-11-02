@@ -2,8 +2,11 @@
   "staging-fast-active-bellatrix": {
     "alias": "CHAOS Testnet",
     "background": "#ffffff",
-    "gradientBackground": "linear-gradient(270deg, #0d2614, #07130a)",
-    "category": "dApp",
+    "gradientBackground": "linear-gradient(227deg, rgb(65 159 91), rgb(26 81 40))",
+    "category": [
+      "dApp",
+      "Testnet"
+    ],
     "utl": "https://docs.skale.network/",
     "faucetUrl": "https://sfuel.skale.network/staging/chaos",
     "description": "Public SKALE testnet chain - Let's get it deployed on CHAOS"
@@ -59,7 +62,7 @@
       "NFT"
     ],
     "url": "https://calypsohub.network/",
-    "description": "The Calypso Hub is a SKALE chain that enables creators and projects created Non-Fungible Token based applications in a gas-free manner.",
+    "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
       "nftrade": {
         "alias": "NFTrade",
@@ -81,15 +84,15 @@
     }
   },
   "staging-aware-chief-gianfar": {
-    "alias": "Titan Community Hub",
+    "alias": "Titan AI Hub",
     "shortAlias": "titan",
     "background": "rgb(50 22 11)",
     "category": [
       "Hub",
       "Community"
     ],
-    "url": "https://calypsohub.network/",
-    "description": "The Titan Community Hub is a SKALE chain that focuses on offering projects focused on building communities to have a place to operate without the full need of a SKALE Chain. "
+    "url": "https://skale.space/",
+    "description": "The Titan AI Hub is a SKALE chain focusing on AI projects that need features like zero gas fees, fast speed, and high throughput."
   },
   "staging-lost-likely-aludra": {
     "alias": "CryptoBlades",
@@ -104,18 +107,20 @@
     "url": "https://www.cryptoblades.io/"
   },
   "staging-woozy-frizzy-merga": {
-    "alias": "0xBattleGround",
-    "background": "#ffffff",
+    "alias": "StrayShot",
+    "background": "#000000",
+    "gradientBackground": "linear-gradient(150deg, #070707, #151e28)",
     "category": [
       "Game",
       "dApp"
     ],
-    "url": "https://0xbattleground.com/",
-    "description": "0xBattleGround is a blockchain-powered multiplayer shooter game with one goal: to survive!"
+    "url": "https://strayshot.game/",
+    "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches."
   },
   "staging-perfect-parallel-gacrux": {
     "alias": "Test Chain 1",
     "background": "#ffffff",
+    "gradientBackground": "linear-gradient(45deg, rgb(15 12 5), rgb(50 28 21))",
     "category": "dApp",
     "url": "https://skale.space/",
     "description": "Test Chain 1"
@@ -123,6 +128,7 @@
   "staging-severe-violet-wezen": {
     "alias": "Test Chain 2",
     "background": "#ffffff",
+    "gradientBackground": "linear-gradient(45deg, rgb(66 21 24), rgb(29 10 13))",
     "category": "dApp",
     "url": "https://skale.space.com/",
     "description": "Test Chain 2"

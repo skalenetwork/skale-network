@@ -100,7 +100,7 @@
       "NFT"
     ],
     "url": "https://calypsohub.network/",
-    "description": "The Calypso Hub is a SKALE chain that enables creators and projects created Non-Fungible Token based applications in a gas-free manner.",
+    "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
       "nftrade": {
         "alias": "NFTrade",
@@ -145,7 +145,7 @@
     "description": "You haven’t seen NFTs & Crypto delivered like this."
   },
   "parallel-stormy-spica": {
-    "alias": "Titan Community Hub",
+    "alias": "Titan AI Hub",
     "shortAlias": "titan",
     "background": "rgb(50, 22, 11)",
     "gradientBackground": "linear-gradient(270deg, rgb(72 33 17), rgb(34 13 5))",
@@ -154,7 +154,7 @@
       "Community"
     ],
     "url": "https://skale.space/",
-    "description": "The Titan Community Hub is a SKALE chain that focuses on offering projects focused on building communities to have a place to operate without the full need of a SKALE Chain."
+    "description": "The Titan AI Hub is a SKALE chain focusing on AI projects that need features like zero gas fees, fast speed, and high throughput."
   },
   "turbulent-unique-scheat": {
     "alias": "Razor Network",
@@ -228,13 +228,14 @@
     "description": "Fireside is the first streaming platform that invites audiences not to just view content, but participate in it"
   },
   "fussy-smoggy-megrez": {
-    "alias": "0xBattleGround",
-    "background": "#ffffff",
+    "alias": "StrayShot",
+    "background": "#000000",
+    "gradientBackground": "linear-gradient(150deg, #070707, #151e28)",
     "category": [
       "Game",
       "dApp"
     ],
-    "url": "https://0xbattleground.com/",
-    "description": "0xBattleGround is a blockchain-powered multiplayer shooter game with one goal: to survive!"
+    "url": "https://strayshot.game/",
+    "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches."
   }
 }
