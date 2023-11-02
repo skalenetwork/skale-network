@@ -54,7 +54,7 @@
   },
   "staging-utter-unripe-menkar": {
     "alias": "Calypso Hub",
-    "shortAlias": "calyso",
+    "shortAlias": "calypso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
     "category": [
