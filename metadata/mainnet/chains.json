@@ -1,11 +1,15 @@
 {
   "elated-tan-skat": {
     "alias": "Europa Liquidity Hub",
+    "shortAlias": "europa",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
-    "category": "apps",
+    "category": [
+      "Hub",
+      "DeFi"
+    ],
     "url": "https://europahub.network/",
-    "description": "Europa is the liquidity hub chain for the SKALE network, and acts as an entry point for tokens bridging onto SKALE.",
+    "description": "The Europa DeFi Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
       "ruby": {
         "alias": "Ruby Exchange",
@@ -19,69 +23,92 @@
   "adorable-quaint-bellatrix": {
     "alias": "StreamMyScreen",
     "background": "#399285",
-    "gradientBackground": "linear-gradient(273.67deg, rgb(57, 146, 133), rgb(32 132 134), rgb(53 135 143))",
-    "category": "apps",
+    "gradientBackground": "linear-gradient(273.67deg, rgb(55 128 118), rgb(29 99 101), rgb(32 106 114))",
+    "category": [
+      "apps",
+      "entertainment"
+    ],
     "description": "StreamMyScreen is the easiest and most affordable way to go live on all your channels at the same time with multicast live streaming.",
     "url": "https://www.streammyscreen.com/"
   },
   "affectionate-immediate-pollux": {
     "alias": "CryptoBlades",
+    "shortAlias": "cryptoblades",
     "background": "#061126",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
-    "category": "games",
+    "category": [
+      "Game",
+      "dApp"
+    ],
     "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
     "url": "https://www.cryptoblades.io/"
   },
   "portly-passionate-sirius": {
     "alias": "Solydaria",
     "background": "#ffffff",
-    "category": "apps",
+    "category": "dApp",
     "description": "Solydaria is the new way for direct, fair exchanges of value between customers and creators.",
     "url": "https://www.solydaria.co/"
   },
   "round-hasty-alsafi": {
     "alias": "DEXGAME",
     "background": "#391c4e",
-    "category": "games",
+    "gradientBackground": "linear-gradient(270deg, rgb(67 31 94), rgb(35 14 50))",
+    "category": [
+      "Game",
+      "dApp"
+    ],
     "description": "DEXGame is designed to bring together the core components of the game ecosystem's value chain on its metaverse platform",
     "url": "https://dexgame.io/"
   },
   "haunting-devoted-deneb": {
     "alias": "Crypto Colosseum",
     "background": "#101010",
-    "category": "games",
+    "gradientBackground": "linear-gradient(228deg,  rgb(32 15 4), rgb(15 10 6),  rgb(32 15 4))",
+    "category": [
+      "Game",
+      "dApp"
+    ],
     "description": "Crypto Colosseum is a suite of strategy based blockchain games live on SKALE.",
     "url": "https://cryptocolosseum.com/"
   },
   "snappy-quarrelsome-salm": {
     "alias": "PitchDAO",
     "background": "#ffffff",
-    "category": "apps"
+    "category": "dApp"
   },
   "frayed-decent-antares": {
     "alias": "Block Brawlers",
     "background": "rgb(0, 67, 103)",
-    "category": "games",
+    "gradientBackground": "linear-gradient(270deg, rgb(2 45 67), rgb(0 78 103), rgb(5 47 70))",
+    "category": [
+      "Game",
+      "dApp"
+    ],
     "url": "https://blockbrawlers.com/",
     "description": "Block Brawlers is a play-to-earn game powered by SKALE and GameCredits"
   },
   "fit-betelgeuse": {
     "alias": "Curio DAO",
     "background": "#ffffff",
-    "category": "apps"
+    "category": "dApp"
   },
   "honorable-steel-rasalhague": {
-    "alias": "Calypso NFT Hub",
+    "alias": "Calypso Hub",
+    "shortAlias": "calypso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
-    "category": "apps",
+    "category": [
+      "Hub",
+      "NFT"
+    ],
     "url": "https://calypsohub.network/",
-    "description": "The official launch point for SKALE NFT Projects",
+    "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
       "nftrade": {
         "alias": "NFTrade",
         "background": "#ffffff",
-        "gradientBackground": "linear-gradient(230deg,#bbe5ff,#ffffff)",
+        "gradientBackground": "linear-gradient(230deg, rgb(0 65 106), rgb(0 34 54))",
         "url": "https://nftrade.com/"
       },
       "untitled-platformer": {
@@ -90,78 +117,129 @@
         "gradientBackground": "linear-gradient(139deg, rgb(19 17 0), rgb(0, 0, 0))",
         "url": "https://untitledplatformer.io/"
       },
-      "xp-network": {
-        "alias": "XP Network",
-        "background": "#ffffff",
-        "url": "https://xp.network/"
-      },
       "clet-domains": {
         "alias": "Clet Domains",
         "background": "#ffffff",
+        "gradientBackground": "linear-gradient(139deg, rgb(0 83 2), rgb(2 33 2))",
         "url": "https://www.clet.domains/",
         "description": "Get A Name For Your Crypto Addresses Now"
+      },
+      "collab-land": {
+        "alias": "Collab.land",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, rgb(51 51 51), rgb(84 84 84))",
+        "url": "https://www.clet.domains/",
+        "description": "Get A Name For Your Crypto Addresses Now"
+      },
+      "tank-wars-zone": {
+        "alias": "Tank Wars Zone",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #191f54, #212b7c)",
+        "url": "https://tankwars.zone/",
+        "description": "Design your own 3D Tank Model and sell it in our game marketplace. Everyone can buy or trade these tanks and play them in all gameplay modes."
       }
     }
   },
   "plain-rotanev": {
     "alias": "Ivy Cash",
     "background": "#ffffff",
-    "category": "apps",
+    "gradientBackground": "linear-gradient(45deg, rgb(157 157 157), rgb(255, 255, 255))",
+    "category": "dApp",
     "url": "https://ivy.cash/",
     "description": "You haven’t seen NFTs & Crypto delivered like this."
   },
   "parallel-stormy-spica": {
-    "alias": "Titan Community Hub",
-    "background": "#ffffff",
-    "category": "apps",
+    "alias": "Titan AI Hub",
+    "shortAlias": "titan",
+    "background": "rgb(50, 22, 11)",
+    "gradientBackground": "linear-gradient(270deg, rgb(72 33 17), rgb(34 13 5))",
+    "category": [
+      "Hub",
+      "Community"
+    ],
     "url": "https://skale.space/",
-    "description": "The Blockchain Network of the Future. Available Now."
+    "description": "The Titan AI Hub is a SKALE chain dedicated to AI and ML applications looking to utilize blockchain within their products. With all of the existing benefits of a SKALE Chain plus a dedicated place for AI projects to deploy, this hub is here for projects pushing the boundaries of the intersection between AI + Web3."
   },
   "turbulent-unique-scheat": {
     "alias": "Razor Network",
     "background": "#40429b",
     "gradientBackground": "linear-gradient(200deg, rgba(64,66,155,1) 25%, rgba(44,46,124,1) 100%)",
-    "category": "apps",
+    "category": [
+      "dApp",
+      "oracle"
+    ],
     "url": "https://razor.network/",
     "description": "Truly decentralized oracle network"
   },
   "light-vast-diphda": {
     "alias": "Exorde Network",
+    "shortAlias": "exorde",
     "background": "#000000",
     "gradientBackground": "linear-gradient(78deg, rgb(0, 0, 0), rgb(24 24 24))",
-    "category": "apps",
+    "category": [
+      "dApp",
+      "Data"
+    ],
     "url": "https://exorde.network/",
     "faucetUrl": "http://faucet.exorde.network/",
     "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web"
   },
   "green-giddy-denebola": {
     "alias": "Nebula Gaming Hub",
+    "shortAlias": "nebula",
     "background": "#2c1626",
     "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
-    "category": "games",
+    "category": [
+      "Hub",
+      "Game"
+    ],
     "url": "https://nebulachain.io/",
-    "description": "Nebula is the dedicated gaming SKALE chain that offers a never-before-seen gaming experience."
+    "description": "The Nebula Gaming Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem on the SKALE Network. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
+    "apps": {
+      "cryptocrusades": {
+        "alias": "CryptoCrusades",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #121e4c, #0f2165)",
+        "url": "https://cryptocrusades.io/"
+      },
+      "nftb": {
+        "alias": "NFTb",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(90deg,#02161b,#02042e 26.04%,#14032d 51.56%,#170223 77.08%,#100113)",
+        "url": "https://nftb.io/"
+      },
+      "motodex": {
+        "alias": "MotoDEX",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(92deg, rgb(18, 18, 18) 0%, rgb(56, 57, 59)",
+        "url": "https://openbisea.io/motodex"
+      }
+    }
   },
   "wan-red-ain": {
     "alias": "HUMAN Protocol",
-    "background": "#ffffff",
-    "gradientBackground": "radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(227,211,255,1) 100%)",
-    "category": "apps",
+    "background": "rgb(14, 0, 38)",
+    "gradientBackground": "linear-gradient(270deg, rgb(14, 0, 38), rgb(27 1 75))",
+    "category": "dApp",
     "url": "https://www.humanprotocol.org/",
     "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
   },
   "curly-red-alterf": {
     "alias": "Fireside",
     "background": "#1E1B4D",
-    "category": "apps",
+    "category": "dApp",
     "url": "https://firesidechat.com/",
     "description": "Fireside is the first streaming platform that invites audiences not to just view content, but participate in it"
   },
   "fussy-smoggy-megrez": {
-    "alias": "0xBattleGround",
-    "background": "#ffffff",
-    "category": "games",
-    "url": "https://0xbattleground.com/",
-    "description": "0xBattleGround is a blockchain-powered multiplayer shooter game with one goal: to survive!"
+    "alias": "StrayShot",
+    "background": "#000000",
+    "gradientBackground": "linear-gradient(150deg, #070707, #151e28)",
+    "category": [
+      "Game",
+      "dApp"
+    ],
+    "url": "https://strayshot.game/",
+    "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches."
   }
 }
