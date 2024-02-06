@@ -1,0 +1,77 @@
+{
+  "lanky-ill-funny-testnet": {
+    "alias": "Nebula Gaming Hub",
+    "shortAlias": "nebula",
+    "background": "#2c1626",
+    "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
+    "category": [
+      "Hub",
+      "Game"
+    ],
+    "url": "https://nebulachain.io/",
+    "description": "The Nebula Gaming Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem on the SKALE Network. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities."
+  },
+  "juicy-low-small-testnet": {
+    "alias": "Europa Liquidity Hub",
+    "shortAlias": "europa",
+    "background": "rgb(5 19 37)",
+    "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
+    "category": [
+      "Hub",
+      "DeFi"
+    ],
+    "url": "https://europahub.network/",
+    "description": "The Europa DeFi Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
+    "apps": {
+      "ruby": {
+        "alias": "Ruby Exchange",
+        "background": "#02001f",
+        "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
+        "description": "The first NFT-powered AMM. Built on SKALE with zero gas fees!",
+        "url": "https://ruby.exchange/"
+      }
+    }
+  },
+  "giant-half-dual-testnet": {
+    "alias": "Calypso Hub",
+    "shortAlias": "calypso",
+    "background": "#ce126f",
+    "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
+    "category": [
+      "Hub",
+      "NFT"
+    ],
+    "url": "https://calypsohub.network/",
+    "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
+    "apps": {
+      "nftrade": {
+        "alias": "NFTrade",
+        "background": "#ffffff",
+        "gradientBackground": "linear-gradient(230deg, rgb(0 65 106), rgb(0 34 54))",
+        "url": "https://nftrade.com/"
+      },
+      "untitled-platformer": {
+        "alias": "Untitled Platformer",
+        "background": "#000000",
+        "gradientBackground": "linear-gradient(139deg, rgb(19 17 0), rgb(0, 0, 0))",
+        "url": "https://untitledplatformer.io/"
+      },
+      "madnft": {
+        "alias": "Mad NFT",
+        "background": "#151619",
+        "url": "https://v1.madnfts.io/"
+      }
+    }
+  },
+  "aware-fake-trim-testnet": {
+    "alias": "Titan AI Hub",
+    "shortAlias": "titan",
+    "background": "rgb(50 22 11)",
+    "category": [
+      "Hub",
+      "Community"
+    ],
+    "url": "https://skale.space/",
+    "description": "The Titan AI Hub is a SKALE chain dedicated to AI and ML applications looking to utilize blockchain within their products. With all of the existing benefits of a SKALE Chain plus a dedicated place for AI projects to deploy, this hub is here for projects pushing the boundaries of the intersection between AI + Web3."
+  }
+}
