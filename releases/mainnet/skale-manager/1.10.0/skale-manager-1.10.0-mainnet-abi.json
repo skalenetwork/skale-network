@@ -6740,6 +6740,25 @@
         },
         {
             "type": "function",
+            "name": "getLastChangeIpTime",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": "timestamp"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "getNodeAddress",
             "constant": true,
             "stateMutability": "view",
@@ -7293,6 +7312,25 @@
                 }
             ],
             "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "nodeExtras",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": "lastChangeIpTime"
+                }
+            ]
         },
         {
             "type": "function",
