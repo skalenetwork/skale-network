@@ -2768,7 +2768,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -2790,7 +2790,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -2808,7 +2808,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -2856,7 +2856,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -2874,7 +2874,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -2892,7 +2892,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -2915,7 +2915,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -2934,6 +2934,7 @@
             "outputs": [
                 {
                     "type": "tuple",
+                    "name": "delegation",
                     "components": [
                         {
                             "type": "address",
@@ -2967,8 +2968,7 @@
                             "type": "string",
                             "name": "info"
                         }
-                    ],
-                    "name": ""
+                    ]
                 }
             ]
         },
@@ -2987,7 +2987,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "length"
                 }
             ]
         },
@@ -3006,7 +3006,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "length"
                 }
             ]
         },
@@ -3029,7 +3029,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -3048,7 +3048,7 @@
             "outputs": [
                 {
                     "type": "uint256[]",
-                    "name": ""
+                    "name": "amounts"
                 }
             ]
         },
@@ -3071,7 +3071,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "month"
                 }
             ]
         },
@@ -3090,7 +3090,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -3229,7 +3229,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "hasUnprocessed"
                 }
             ]
         },
@@ -6586,7 +6586,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "successful"
                 }
             ]
         },
@@ -6604,7 +6604,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "successful"
                 }
             ]
         },
@@ -6772,7 +6772,7 @@
             "outputs": [
                 {
                     "type": "address",
-                    "name": ""
+                    "name": "nodeAddress"
                 }
             ]
         },
@@ -6791,7 +6791,7 @@
             "outputs": [
                 {
                     "type": "string",
-                    "name": ""
+                    "name": "domainName"
                 }
             ]
         },
@@ -6810,7 +6810,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "timestamp"
                 }
             ]
         },
@@ -6829,7 +6829,7 @@
             "outputs": [
                 {
                     "type": "bytes4",
-                    "name": ""
+                    "name": "ip"
                 }
             ]
         },
@@ -6848,7 +6848,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "timestamp"
                 }
             ]
         },
@@ -6867,7 +6867,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "timestamp"
                 }
             ]
         },
@@ -6886,7 +6886,7 @@
             "outputs": [
                 {
                     "type": "uint16",
-                    "name": ""
+                    "name": "port"
                 }
             ]
         },
@@ -6905,7 +6905,7 @@
             "outputs": [
                 {
                     "type": "bytes32[2]",
-                    "name": ""
+                    "name": "publicKey"
                 }
             ]
         },
@@ -6924,7 +6924,7 @@
             "outputs": [
                 {
                     "type": "uint8",
-                    "name": ""
+                    "name": "status"
                 }
             ]
         },
@@ -6938,7 +6938,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -6952,7 +6952,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -6981,7 +6981,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "node"
                 }
             ]
         },
@@ -7061,7 +7061,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "id"
                 }
             ]
         },
@@ -7080,7 +7080,7 @@
             "outputs": [
                 {
                     "type": "uint256[]",
-                    "name": ""
+                    "name": "validatorNodes"
                 }
             ]
         },
@@ -7184,7 +7184,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "active"
                 }
             ]
         },
@@ -7207,7 +7207,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "exist"
                 }
             ]
         },
@@ -7226,7 +7226,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "maintenance"
                 }
             ]
         },
@@ -7245,7 +7245,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "leaving"
                 }
             ]
         },
@@ -7264,7 +7264,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "left"
                 }
             ]
         },
@@ -7283,7 +7283,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "timeForReward"
                 }
             ]
         },
@@ -7532,7 +7532,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "successful"
                 }
             ]
         },
@@ -9230,7 +9230,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "exception"
                 }
             ]
         },
@@ -9253,7 +9253,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "hole"
                 }
             ]
         },
@@ -9276,7 +9276,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "assigned"
                 }
             ]
         },
@@ -9316,7 +9316,7 @@
             "outputs": [
                 {
                     "type": "uint256[]",
-                    "name": ""
+                    "name": "group"
                 }
             ]
         },
@@ -9362,7 +9362,7 @@
             "outputs": [
                 {
                     "type": "bytes32",
-                    "name": ""
+                    "name": "schain"
                 }
             ]
         },
@@ -9400,7 +9400,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "generation"
                 }
             ]
         },
@@ -9423,7 +9423,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "node"
                 }
             ]
         },
@@ -9442,7 +9442,7 @@
             "outputs": [
                 {
                     "type": "uint256[]",
-                    "name": ""
+                    "name": "nodes"
                 }
             ]
         },
@@ -9461,7 +9461,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "amount"
                 }
             ]
         },
@@ -9541,7 +9541,7 @@
             "outputs": [
                 {
                     "type": "bytes32[]",
-                    "name": ""
+                    "name": "schainsByOwner"
                 }
             ]
         },
@@ -9560,7 +9560,7 @@
             "outputs": [
                 {
                     "type": "bytes32[]",
-                    "name": ""
+                    "name": "nodeSchains"
                 }
             ]
         },
@@ -9579,7 +9579,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "size"
                 }
             ]
         },
@@ -9598,7 +9598,7 @@
             "outputs": [
                 {
                     "type": "string",
-                    "name": ""
+                    "name": "schainName"
                 }
             ]
         },
@@ -9617,7 +9617,7 @@
             "outputs": [
                 {
                     "type": "address",
-                    "name": ""
+                    "name": "originator"
                 }
             ]
         },
@@ -9636,7 +9636,7 @@
             "outputs": [
                 {
                     "type": "address",
-                    "name": ""
+                    "name": "owner"
                 }
             ]
         },
@@ -9655,11 +9655,11 @@
             "outputs": [
                 {
                     "type": "uint8",
-                    "name": ""
+                    "name": "partOfNode"
                 },
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "schainType"
                 }
             ]
         },
@@ -9673,7 +9673,7 @@
             "outputs": [
                 {
                     "type": "bytes32[]",
-                    "name": ""
+                    "name": "allSchains"
                 }
             ]
         },
@@ -9692,7 +9692,7 @@
             "outputs": [
                 {
                     "type": "uint8",
-                    "name": ""
+                    "name": "partOfNode"
                 }
             ]
         },
@@ -9839,7 +9839,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "free"
                 }
             ]
         },
@@ -9862,7 +9862,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "isGroup"
                 }
             ]
         },
@@ -9885,7 +9885,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "owner"
                 }
             ]
         },
@@ -9923,7 +9923,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "exist"
                 }
             ]
         },
@@ -9942,7 +9942,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "available"
                 }
             ]
         },
@@ -9961,7 +9961,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "expired"
                 }
             ]
         },
@@ -13860,7 +13860,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "penalty"
                 }
             ]
         },
@@ -14051,7 +14051,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "result"
                 }
             ]
         },
@@ -14074,7 +14074,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "result"
                 }
             ]
         },
@@ -14097,7 +14097,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "result"
                 }
             ]
         },
@@ -14134,7 +14134,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "month"
                 }
             ]
         },
@@ -14172,7 +14172,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "month"
                 }
             ]
         },
@@ -14191,7 +14191,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "year"
                 }
             ]
         }
@@ -15683,7 +15683,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "valid"
                 }
             ]
         },
@@ -15780,7 +15780,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "bond"
                 }
             ]
         },
@@ -15794,7 +15794,7 @@
             "outputs": [
                 {
                     "type": "address[]",
-                    "name": ""
+                    "name": "addresses"
                 }
             ]
         },
@@ -15813,7 +15813,7 @@
             "outputs": [
                 {
                     "type": "address[]",
-                    "name": ""
+                    "name": "nodeAddresses"
                 }
             ]
         },
@@ -15888,7 +15888,7 @@
             "outputs": [
                 {
                     "type": "uint256[]",
-                    "name": ""
+                    "name": "trustedValidators"
                 }
             ]
         },
@@ -15907,6 +15907,7 @@
             "outputs": [
                 {
                     "type": "tuple",
+                    "name": "validator",
                     "components": [
                         {
                             "type": "string",
@@ -15940,8 +15941,7 @@
                             "type": "bool",
                             "name": "acceptNewRequests"
                         }
-                    ],
-                    "name": ""
+                    ]
                 }
             ]
         },
@@ -15960,7 +15960,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "id"
                 }
             ]
         },
@@ -16070,7 +16070,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "accept"
                 }
             ]
         },
@@ -16089,7 +16089,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "authorized"
                 }
             ]
         },
@@ -16334,7 +16334,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "exist"
                 }
             ]
         },
@@ -16353,7 +16353,7 @@
             "outputs": [
                 {
                     "type": "bool",
-                    "name": ""
+                    "name": "exist"
                 }
             ]
         },
