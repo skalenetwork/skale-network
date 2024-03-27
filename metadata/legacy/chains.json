@@ -1,5 +1,5 @@
 {
-  "skale-innocent-nasty": {
+  "these-long-sadalsuud": {
     "alias": "Europa Liquidity Hub",
     "shortAlias": "europa",
     "background": "rgb(5 19 37)",
@@ -20,7 +20,7 @@
       }
     }
   },
-  "international-villainous-zaurak": {
+  "spanish-smug-auva": {
     "alias": "Calypso Hub",
     "shortAlias": "calypso",
     "background": "#ce126f",
@@ -57,6 +57,38 @@
         "gradientBackground": "linear-gradient(270deg, rgb(51 51 51), rgb(84 84 84))",
         "url": "https://www.clet.domains/",
         "description": "Get A Name For Your Crypto Addresses Now"
+      }
+    }
+  },
+  "adorable-quaint-bellatrix": {
+    "alias": "Nebula Gaming Hub",
+    "shortAlias": "nebula",
+    "background": "#2c1626",
+    "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
+    "category": [
+      "Hub",
+      "Game"
+    ],
+    "url": "https://nebulachain.io/",
+    "description": "The Nebula Gaming Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem on the SKALE Network. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
+    "apps": {
+      "cryptocrusades": {
+        "alias": "CryptoCrusades",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #121e4c, #0f2165)",
+        "url": "https://cryptocrusades.io/"
+      },
+      "nftb": {
+        "alias": "NFTb",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(90deg,#02161b,#02042e 26.04%,#14032d 51.56%,#170223 77.08%,#100113)",
+        "url": "https://nftb.io/"
+      },
+      "motodex": {
+        "alias": "MotoDEX",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(92deg, rgb(18, 18, 18) 0%, rgb(56, 57, 59)",
+        "url": "https://openbisea.io/motodex"
       }
     }
   }
