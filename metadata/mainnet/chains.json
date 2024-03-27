@@ -137,6 +137,27 @@
         "gradientBackground": "linear-gradient(270deg, #191f54, #212b7c)",
         "url": "https://tankwars.zone/",
         "description": "Design your own 3D Tank Model and sell it in our game marketplace. Everyone can buy or trade these tanks and play them in all gameplay modes."
+      },
+      "pixudi": {
+        "alias": "Pixudi",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #1f1931, #271f33)",
+        "url": "https://game.pixudi.com/",
+        "description": "Pixudi is an RPG board game built on blockchain technology."
+      },
+      "dmail": {
+        "alias": "Dmail Network",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #4b120a, #320b05)",
+        "url": "https://dmail.ai/",
+        "description": "AI-powered decentralized messaging infrastructure built to provide encrypted emails, unified notifications, and targeted marketing."
+      },
+      "dripverse": {
+        "alias": "DripVerse Protocol",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #170926, #0f1935)",
+        "url": "https://dripverse.org",
+        "description": "Modular Digital Assets Ecosystem. An Omnichain NFT Infrastructure & scaling solutions for builders and creators!"
       }
     }
   },
@@ -213,6 +234,40 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(92deg, rgb(18, 18, 18) 0%, rgb(56, 57, 59)",
         "url": "https://openbisea.io/motodex"
+      },
+      "fivetars": {
+        "alias": "5TARS",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(92deg, #00121e 0%, #052b44",
+        "url": "https://5tars.io/"
+      },
+      "bit-hotel": {
+        "alias": "Bit Hotel",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(92deg, #262b35 0%, #14181e",
+        "url": "https://bithotel.io",
+        "description": "Bit Hotel is a Social Play and Earn Game, in which users are able to use Bit Hotel tokens to acquire native items and participate in all kinds of in-game competitions and events."
+      },
+      "jump-trade": {
+        "alias": "Jump.trade",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(92deg, #100f0f 0%, #222222",
+        "url": "https://www.jump.trade/",
+        "description": "Jump.trade, a premium NFT marketplace, brings exclusive NFT collections in a one-of-a-kind ecosystem featuring game, brands and international artists."
+      },
+      "dex-go": {
+        "alias": "dexGO",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(92deg, #18191d 0%, #282a32",
+        "url": "https://dexgo.club/en",
+        "description": "What is a DexGO? This is an NFT game with elements of augmented reality."
+      },
+      "heavens-compass": {
+        "alias": "Haven's Compass",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(92deg, #131313 0%, #092017",
+        "url": "https://www.havenscompass.com/",
+        "description": "In the heart-pounding world of Haven's Compass, players step into the boots of an operative of their choice in a dystopian future, where they are tasked with unraveling a conspiracy that threatens to plunge the world into chaos."
       }
     }
   },
