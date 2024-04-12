@@ -25,7 +25,7 @@
     "background": "#399285",
     "gradientBackground": "linear-gradient(273.67deg, rgb(55 128 118), rgb(29 99 101), rgb(32 106 114))",
     "category": [
-      "dApp",
+      "AppChain",
       "entertainment"
     ],
     "description": "StreamMyScreen is the easiest and most affordable way to go live on all your channels at the same time with multicast live streaming.",
@@ -37,8 +37,7 @@
     "background": "#061126",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
     "category": [
-      "Game",
-      "dApp"
+      "AppChain"
     ],
     "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
     "url": "https://www.cryptoblades.io/"
@@ -46,7 +45,7 @@
   "portly-passionate-sirius": {
     "alias": "Solydaria",
     "background": "#ffffff",
-    "category": "dApp",
+    "category": "AppChain",
     "description": "Solydaria is the new way for direct, fair exchanges of value between customers and creators.",
     "url": "https://www.solydaria.co/"
   },
@@ -55,8 +54,7 @@
     "background": "#391c4e",
     "gradientBackground": "linear-gradient(270deg, rgb(67 31 94), rgb(35 14 50))",
     "category": [
-      "Game",
-      "dApp"
+      "AppChain"
     ],
     "description": "DEXGame is designed to bring together the core components of the game ecosystem's value chain on its metaverse platform",
     "url": "https://dexgame.io/"
@@ -66,8 +64,7 @@
     "background": "#101010",
     "gradientBackground": "linear-gradient(228deg,  rgb(32 15 4), rgb(15 10 6),  rgb(32 15 4))",
     "category": [
-      "Game",
-      "dApp"
+      "AppChain"
     ],
     "description": "Crypto Colosseum is a suite of strategy based blockchain games live on SKALE.",
     "url": "https://cryptocolosseum.com/"
@@ -75,15 +72,14 @@
   "snappy-quarrelsome-salm": {
     "alias": "PitchDAO",
     "background": "#ffffff",
-    "category": "dApp"
+    "category": "AppChain"
   },
   "frayed-decent-antares": {
     "alias": "Block Brawlers",
     "background": "rgb(0, 67, 103)",
     "gradientBackground": "linear-gradient(270deg, rgb(2 45 67), rgb(0 78 103), rgb(5 47 70))",
     "category": [
-      "Game",
-      "dApp"
+      "AppChain"
     ],
     "url": "https://blockbrawlers.com/",
     "description": "Block Brawlers is a play-to-earn game powered by SKALE and GameCredits"
@@ -91,7 +87,7 @@
   "fit-betelgeuse": {
     "alias": "Curio DAO",
     "background": "#ffffff",
-    "category": "dApp"
+    "category": "AppChain"
   },
   "honorable-steel-rasalhague": {
     "alias": "Calypso Hub",
@@ -165,7 +161,7 @@
     "alias": "Ivy Cash",
     "background": "#ffffff",
     "gradientBackground": "linear-gradient(45deg, rgb(157 157 157), rgb(255, 255, 255))",
-    "category": "dApp",
+    "category": "AppChain",
     "url": "https://ivy.cash/",
     "description": "You haven’t seen NFTs & Crypto delivered like this."
   },
@@ -186,7 +182,7 @@
     "background": "#40429b",
     "gradientBackground": "linear-gradient(200deg, rgba(64,66,155,1) 25%, rgba(44,46,124,1) 100%)",
     "category": [
-      "dApp",
+      "AppChain",
       "oracle"
     ],
     "url": "https://razor.network/",
@@ -198,7 +194,7 @@
     "background": "#000000",
     "gradientBackground": "linear-gradient(78deg, rgb(0, 0, 0), rgb(24 24 24))",
     "category": [
-      "dApp",
+      "AppChain",
       "Data"
     ],
     "url": "https://exorde.network/",
@@ -275,14 +271,14 @@
     "alias": "HUMAN Protocol",
     "background": "rgb(14, 0, 38)",
     "gradientBackground": "linear-gradient(270deg, rgb(14, 0, 38), rgb(27 1 75))",
-    "category": "dApp",
+    "category": "AppChain",
     "url": "https://www.humanprotocol.org/",
     "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
   },
   "curly-red-alterf": {
     "alias": "Fireside",
     "background": "#1E1B4D",
-    "category": "dApp",
+    "category": "AppChain",
     "url": "https://firesidechat.com/",
     "description": "Fireside is the first streaming platform that invites audiences not to just view content, but participate in it"
   },
@@ -291,8 +287,8 @@
     "background": "#000000",
     "gradientBackground": "linear-gradient(150deg, #070707, #151e28)",
     "category": [
-      "Game",
-      "dApp"
+      "AppChain",
+      "Game"
     ],
     "url": "https://strayshot.game/",
     "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches."
