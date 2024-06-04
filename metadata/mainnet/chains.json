@@ -88,11 +88,6 @@
     "description": "Crypto Colosseum is a suite of strategy based blockchain games live on SKALE.",
     "url": "https://cryptocolosseum.com/"
   },
-  "snappy-quarrelsome-salm": {
-    "alias": "PitchDAO",
-    "background": "#ffffff",
-    "category": "AppChain"
-  },
   "frayed-decent-antares": {
     "alias": "Block Brawlers",
     "background": "rgb(0, 67, 103)",
