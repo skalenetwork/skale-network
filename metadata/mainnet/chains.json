@@ -586,8 +586,17 @@
         "alias": "Space Rush Odyssey",
         "background": "gray",
         "gradientBackground": "linear-gradient(#203e2f, #13261c)",
-        "url": "https://spacerushodyssey.io/connect",
-        "description": "Explore an expansive universe for legendary loot in a rogue-lite dungeon crawler."
+        "url": "https://spacerushodyssey.io",
+        "description": "Embark on an exhilarating journey with Xurono in Astro Assault as part of Space Rush Odyssey! Dive into the depths of space in this thrilling bullet hell adventure, where you'll seek the elusive Azul Fragment. Face off against waves of formidable foes in intense battles, armed with powerful weapons. Navigate treacherous obstacles and collect valuable loot to enhance your arsenal. But the challenges don't end there—immerse yourself in the rich lore, working alongside Winston and Artemis to unravel the ancient Smercin mystery. Delve into the secrets of the lost ritual to summon unknown powers",
+        "tags": [
+          "NFT",
+          "Games",
+          "Metaverse",
+          "Farming"
+        ],
+        "contracts": [
+          "0xc524F3022A09EE3163e071241C1D85c4F9140240"
+        ]
       },
       "katana-inu": {
         "alias": "Katana-Inu",
