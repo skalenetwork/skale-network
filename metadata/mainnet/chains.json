@@ -88,6 +88,11 @@
     "description": "Crypto Colosseum is a suite of strategy based blockchain games live on SKALE.",
     "url": "https://cryptocolosseum.com/"
   },
+  "snappy-quarrelsome-salm": {
+    "alias": "PitchDAO",
+    "background": "#ffffff",
+    "category": "AppChain"
+  },
   "frayed-decent-antares": {
     "alias": "Block Brawlers",
     "background": "rgb(0, 67, 103)",
@@ -326,7 +331,20 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #121e4c, #0f2165)",
         "gradientBackgroundLight": "linear-gradient(180deg, #e5cba1, #a2875c)",
-        "url": "https://cryptocrusades.io/"
+        "description": "Join players from around the globe and make your mark on the world of CryptoCrusades. Whether through conquest or trade, there are many ways to lead your Empire!",
+        "url": "https://cryptocrusades.io/",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0xf1a2e76725d1e22903f74f876a0c13bb8d870c5e",
+          "0x771b34e6a28d4faa98ed2b470763acbfd63b7413",
+          "0x3cea159b214913dac857dd0a00283cf335847511",
+          "0x1e4e4a5350d4d63f9610327e8a858f832b9d66fa",
+          "0x1f20b82262ac16d30d426a515c23a30f0cf51c59",
+          "0xab53a4e6bed7b5d82bfa85a4f5c5898dfc4c830a"
+        ]
       },
       "nftb": {
         "alias": "NFTb",
@@ -404,12 +422,25 @@
         "url": "https://www.jump.trade/",
         "description": "Jump.trade, a premium NFT marketplace, brings exclusive NFT collections in a one-of-a-kind ecosystem featuring game, brands and international artists."
       },
-      "dex-go": {
+      "dexgo": {
         "alias": "dexGO",
         "background": "gray",
         "gradientBackground": "linear-gradient(92deg, rgb(68 138 255) 0%, rgb(68 138 255))",
         "url": "https://dexgo.club/en",
-        "description": "What is a DexGO? This is an NFT game with elements of augmented reality."
+        "description": "What is a DexGO? This is an NFT game with elements of augmented reality. Put on NFT sneakers and walk along new interesting routes. Guaranteed to earn USDT by completing simple and fun quests and sharing with your followers.",
+        "tags": [
+          "NFT",
+          "Games",
+          "Metaverse"
+        ],
+        "contracts": [
+          "0xdDE147EcCe74Fe75f0bAccD67B069201E25E8Fe8",
+          "0xb172C9319637149B6918c8323BeB986ee64f5493",
+          "0x6e17bEF6871b5C0fd8a07eF4A1222aEaBd7b2f6E",
+          "0x86ADB8b5a18156146812363554A8710a11ba2CcD",
+          "0x54DB918B7eA57ab1D79F9874B1f5A7A2EAd4e2B9",
+          "0x7b1AC460c155ABb6b1D02b543952426A6aaF6b72"
+        ]
       },
       "heavens-compass": {
         "alias": "Haven's Compass",
