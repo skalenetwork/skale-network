@@ -11,6 +11,43 @@
     "url": "https://europahub.network/",
     "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
+      "coinsender": {
+        "alias": "CoinSender",
+        "background": "black",
+        "gradientBackground": "linear-gradient(45deg, #113643, #161826)",
+        "description": "Say 'goodbye' to complicated token distribution, and 'hello' to multi- transaction payouts with a few clicks. CoinSender makes it easy to distribute tokens to pay employees, staking pool participants, and airdrops. Just link your wallet and select your recipients - we'll handle the rest. With CoinSender, you can easily distribute tokens and make multi-transaction payouts in cryptocurrency hassle-free. Our platform is designed specifically to make the process fast, secure, and efficient.",
+        "url": "https://coinsender.io/",
+        "tags": [
+          "DeFi"
+        ],
+        "contracts": [
+          "0x8CACd4402E2F4248dc7CdF36f4049997F5B57aF7",
+          "0xb17A2f5040C7BDe9d52996b5679Fc3C3C51825fb"
+        ]
+      },
+      "aquas-trade": {
+        "alias": "Aquas.Trade",
+        "background": "black",
+        "gradientBackground": "linear-gradient(45deg, #0e0e0e, #0e1a36)",
+        "description": "Welcome to Aquas.Trade, your new defi experience awaits on a 0 gas fee network with native ethereum bridge, meson.fi stable coin bridge, layerzero connectivity, and over 100 game + ai partnerships on the same network. ",
+        "url": "https://aquas.trade",
+        "tags": [
+          "Exchanges",
+          "NFT",
+          "Marketplaces",
+          "DeFi"
+        ],
+        "contracts": [
+          "0x698EA133CBA3BACD4aA6405411d8e8c1726D5f61",
+          "0xc318a82CB7c2B0faf7e355BB8F285016956aBF55",
+          "0xc44A8E52A835c77932eB8747bD7E979c27308660",
+          "0xaCD323A49dC2Dd404551Ac9BfEB3e7Ef12aA3015",
+          "0x30A3180ED7fE976ADF737c4369320C5c13800Eaa",
+          "0xa099229c5Ed1649c069381af8D3851304EcFBb69",
+          "0x9E445066489df23427bC3bACcD7a3026BCfB2E0B",
+          "0xA88b25EBb3cb5B0f08124e8FFBc6249aE026cB07"
+        ]
+      },
       "ruby-exchange": {
         "alias": "Ruby Exchange",
         "background": "#02001f",
@@ -22,6 +59,19 @@
           "Staking",
           "Yield",
           "DeFi"
+        ],
+        "contracts": [
+          "0x28c6ac22aB738BB01FC6CBA75804dC088aae6193",
+          "0xC13F81c54273a50f42B1280426d77F6494Cbcf58",
+          "0x9Ba6777451F57859da195EfC0fA3714ab79FDBC2",
+          "0x15369d5E452614b26271a4796C3D63E7F549c12d",
+          "0x899F2f2c675811A91D680292cdCFce39b62FE209",
+          "0xADDf444E06B76044EAE278Bc725e27e61c3A5E38",
+          "0x2B4e4899b53E8b7958c4591a6d02f9C0b5c50F8f",
+          "0x9bE04C52d354de63C058A7A1988fe07A302f19e2",
+          "0xBDDad45160E10C3738785d9dD7F30b4B2a5Eeba8",
+          "0x1534c2eE179B5c307031F8dEF90E66D0D8B72028",
+          "0x1604098C09f5C338e520875Ca7E8D06B0e0BCd26"
         ]
       },
       "rehold": {
@@ -31,7 +81,7 @@
         "url": "https://rehold.io/",
         "description": "One-stop decentralized app to buy, swap, earn, or trade your crypto with up to 100x leverage and AI assistance.",
         "tags": [
-          "Exchanges",
+          "Farming",
           "Staking",
           "Yield",
           "DeFi"
@@ -420,7 +470,16 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(181deg, rgb(12 12 12) 0%, rgb(23 21 10))",
         "url": "https://www.jump.trade/",
-        "description": "Jump.trade, a premium NFT marketplace, brings exclusive NFT collections in a one-of-a-kind ecosystem featuring game, brands and international artists."
+        "description": "Jump.trade, a premium NFT marketplace, brings exclusive NFT collections in a one-of-a-kind ecosystem featuring game, brands and international artists. UnfoldingNFTs that hold a global impact.",
+        "tags": [
+          "NFT",
+          "Marketplaces",
+          "Games",
+          "Sports"
+        ],
+        "contracts": [
+          "0x3caF566834783a91Fb44Dfa750A59d57269aD612"
+        ]
       },
       "dexgo": {
         "alias": "dexGO",
@@ -447,7 +506,16 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(92deg, #131313 0%, #092017",
         "url": "https://www.havenscompass.com/",
-        "description": "In the heart-pounding world of Haven's Compass, players step into the boots of an operative of their choice in a dystopian future, where they are tasked with unraveling a conspiracy that threatens to plunge the world into chaos."
+        "description": "In the heart-pounding world of Haven's Compass, players step into the boots of an operative of their choice in a dystopian future, where they are tasked with unraveling a conspiracy that threatens to plunge the world into chaos. Set against a backdrop of stunningly rendered post-apocalyptic landscapes, Haven's Compass seamlessly blends intense gunplay with a gripping narrative, immersing players in a cinematic experience like never before. As players choose their operative, each with a unique background and skill set, they navigate through intricately designed levels, battling relentless waves of enemies and utilizing an arsenal of futuristic weapons, each with its own unique abilities and upgrades. The game's dynamic AI adapts to players' strategies, ensuring a challenging and unpredictable combat experience that rewards both precision and tactical thinking.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0x21055aD11b0D3F9577eD2fd9fD432e2a5E06a8Ee",
+          "0x9D13709c1b41DEDD9b8690c66d4590D6a52b3062",
+          "0x6D1a6B840714420D425c2F2658CEF390dbD809A7"
+        ]
       },
       "ballers-city": {
         "alias": "Ballers City",
@@ -496,28 +564,67 @@
         "background": "gray",
         "gradientBackground": "radial-gradient(#25182c, #0f0e13)",
         "url": "https://gamifly.co",
-        "description": "Gamifly is a fully transparent sports metaverse that provides esports events for fans and gamers alike."
+        "description": "Gamifly is a fully transparent sports metaverse that provides esports events for fans and gamers alike! Already having successful launch their flagship product, CricketFly in South Asia for cricket fans in the region, there are goals to expand into other countries across the Asia Pacific. Their product is already becoming a phenomenon amongst sports fans with almost a million downloads to date and growing since its launch in August 2022.",
+        "tags": [
+          "Games",
+          "Sports"
+        ],
+        "contracts": [
+          "0xB2205BD92fe5f3DE1b8ac78BCa0685e2327dD865",
+          "0x9Bb56637C78cA09C2a547E43E5714513a38612eb",
+          "0xb4b022421EC9f30B00972A7BD790c294070522d8",
+          "0x043fd106f9D1aD1B208781e1aF49bc98E5E44a1a",
+          "0x84B666972256d72BD2eD555A6d2b7613E15926b6",
+          "0x1fEB1123a7Db4c7ad487D3B5342648aA03dE3cBD",
+          "0xA7CA127fAb80415b6803166E04719c0C4EA7fD13",
+          "0xcc1f8c0Cd0cfdA6621E9d0E09105E3D4180e5568"
+        ]
       },
       "hatchyverse": {
         "alias": "HatchyVerse",
         "background": "gray",
         "gradientBackground": "linear-gradient(#5ab0e1, #125ea0)",
         "url": "https://www.hatchyverse.com/games/hatchy-rampage",
-        "description": "Embark on a collector's journey with HATCHY, shaping the brand's destiny. Build a remarkable collection of unique treasures, elevating the brand's value."
+        "description": "Decentralized IP of 150+ elemental monsters owned and managed by the $HATCHY token, earned exclusively by staking Hatchy and Hatchyverse NFTs. Build the future of IP!",
+        "tags": [
+          "NFT",
+          "Games",
+          "Metaverse",
+          "Staking"
+        ],
+        "contracts": [
+          "0xdB1DF93b8B0D6aD52E124CAFE7f8D1C3c6b4294f"
+        ]
       },
       "heroes-battle-arena": {
         "alias": "Heroes Battle Arena",
         "background": "gray",
         "gradientBackground": "linear-gradient(#2e1b01, #140d04)",
         "url": "https://heroesbattlearena.online/",
-        "description": "Welcome to play-to-earn strategic NFT game. A free, play&fun multichain game inspired by the legendary 'Heroes Might and Magic'."
+        "description": "Multichain Play-and-earn Strategic RPG with zero start investments based on NFTs for the army, magic stones, gods and guilds power. Well known problem of P2E games is the need for significant initial investment. Our game solves this problem with free initial units, low-cost entry payment and a large base of opportunities to increase own income. Our game is based on interaction with NFTs, allowing us to connect the additional project to our game and many blockchains. Our game has 3 types of assets: battle units, magic stones and gods. The gameplay of our game is based on two types of battles: standard and premium. In standard battle, users can set the army on the battleground and look at how to work the auto-battle system. In premium type, users get full control of each step in each battle.",
+        "tags": [
+          "NFT",
+          "Games",
+          "Governance"
+        ],
+        "contracts": [
+          "0xc6b4C3364a957d808F09C439ccd28C8f36934a0E"
+        ]
       },
       "interverse": {
         "alias": "Interverse (Paradise Brawl)",
         "background": "gray",
         "gradientBackground": "linear-gradient(rgb(31 31 31), rgb(0 0 0))",
         "url": "https://degenroyale.net/",
-        "description": "JOIN EPIC BATTLES AND CLAIM VICTORY"
+        "description": "In the heart of paradise, the mythical Benfica Island has emerged. Take up your weapons, harness your skills, and dive into the most epic battle experience between worlds leading football clubs to become the true champion of SL Benfica in Paradise Brawl. Unleash your gaming skills as you play on Benfica Island, earning experience points, leveling up, and unlocking a world of amazing rewards that await your triumphs. Embark on an epic journey where every move you make counts, and watch as your skills and achievements shape your destiny.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0x3869f94c99ECC94d636f17DE3Ff0D3f01A2B68Ec"
+        ],
+        "dappradar": "paradise-brawl"
       },
       "mystrios": {
         "alias": "Mystrios",
