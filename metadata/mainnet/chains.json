@@ -687,19 +687,37 @@
           "0xf23eF44CAC26f9A482243f6cB315e70C062223Fe"
         ]
       },
-      "star-z-play": {
+      "starzplay-fantasy-sports": {
         "alias": "STARZPLAY Fantasy Sports",
         "background": "gray",
         "gradientBackground": "linear-gradient(#014353, #002830)",
         "url": "https://games.starzplay.com/",
-        "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience."
+        "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience.",
+        "tags": [
+          "NFT",
+          "Games",
+          "Sports"
+        ],
+        "contracts": [
+          "0x92C42d6E573E05e73c085aE3846f6c592b123906",
+          "0x0E35e2bFFdAB3b47f73103BfddF634D835b49563",
+          "0xaE2Ab06D932FA9D7f31F1A2cD56e20331339A086",
+          "0xbb35Ec0824a9E298f0eadBEE886fb257d42eeF46",
+          "0x47384FFdA91aDeF203E80b7171B00E145C099679",
+          "0xDf0F09e9774C74987Bd2d8442828602a866a5d9E",
+          "0xA2804E7A1D30B18a66Ad77f3A55091b309704f35",
+          "0xa098aa7eFbD6fa09B4a8F9dBb4C5897E4757E7C4",
+          "0x38737F88bdfEd1749d1A832fa40E8867fcf0BA0C",
+          "0xD9F5A62AD7095595cE3bD4Fbd15c22BFa9780464",
+          "0x14a8D63Eec6738eA3b53c79de928b30403b5C597"
+        ]
       },
       "world-of-dypians": {
         "alias": "World of Dypians",
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #090b2a, #15184a)",
         "url": "https://www.worldofdypians.com/",
-        "description": "Experience unique gameplay and explore a world without end in a quest to form your destiny.",
+        "description": "The World of Dypians (WoD) is a massive multiplayer online role-playing game that is  set in a vast digital environment. Its target audience is individuals who enjoy playing  online games and exploring immersive digital environments. The goals of the game  are to provide players with a rich and engaging experience that allows them to  interact with others, complete quests, and engage in battles. WoD's unique  combination of fantasy and blockchain technology creates an exciting and dynamic  environment for players to explore and experience. The ultimate goal of the game is  to create a virtual world that is alive with activity, where players can form  communities, create their own content, and engage in meaningful interactions with  one another.    World of Dypians is built to support multiple blockchains, making it accessible and  interoperable with a wider audience. We aim to have a sustainable ecosystem where  users can contribute to the growth and development of the world. The multi-chain  integration and the wide range of offerings, including next-gen integrations like other  chains, tokens, NFTs, and a marketplace, make World of Dypians a cutting-edge  solution in the DeFi and metaverse space.",
         "tags": [
           "NFT",
           "Games",
@@ -716,14 +734,29 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(#251ae5, #e06729)",
         "url": "https://yomigames.gg/",
-        "description": "Yomi Block Puzzle is your classic block puzzle game, free to play, and has several original features including a lovable pet that reacts as you score combos!"
+        "description": "Yomi Block Puzzle is your classic block puzzle game, free to play, and has several original features including a lovable pet that reacts as you score combos!",
+        "tags": [
+          "Games"
+        ],
+        "contracts": [
+          "0xe94E779aBd08dd0c67d1c2530685565F19bc909a"
+        ],
+        "dappradar": "yomi-block-puzzle"
       },
       "zeus": {
         "alias": "Zeus",
         "background": "gray",
         "gradientBackground": "linear-gradient(rgb(30 30 30), rgb(0 0 0))",
         "url": "https://beta.devzeus.io/games",
-        "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies."
+        "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
+        "tags": [
+          "NFT",
+          "Staking",
+          "Games"
+        ],
+        "contracts": [
+          "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
+        ]
       },
       "omniaverse": {
         "alias": "OmniaVerse",
@@ -738,21 +771,28 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(#0a0b0a, #072013)",
         "url": "https://earnscape.io/",
-        "description": "While you play, you earn rewards. It's that simple. Every game on your phone is compatible."
+        "description": "While you play, you earn rewards. It's that simple. Every game on your phone is compatible.",
+        "dappradar": false
       },
       "starwolvez": {
         "alias": "Starwolvez",
         "background": "gray",
         "gradientBackground": "linear-gradient(#101018, #13132e)",
         "url": "https://www.starwolvez.com/",
-        "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others."
+        "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others.",
+        "dappradar": false
       },
       "hangry-animals": {
         "alias": "Hangry Animals",
         "background": "gray",
         "gradientBackground": "linear-gradient(rgb(239 255 0), rgb(158 170 9))",
         "url": "https://hangryanimals.com/",
-        "description": "Hangry Animals is a comprehensive ecosystem that blends gaming with charity, where players engage in quests and level completions to support animal welfare."
+        "description": "Hangry Animals is a comprehensive ecosystem that blends gaming with charity, where players engage in quests and level completions to support animal welfare.",
+        "tags": [
+          "Games",
+          "NFT"
+        ],
+        "dappradar": false
       },
       "floki-cyber-punk": {
         "alias": "Floki Cyber Punk",
@@ -799,6 +839,107 @@
         ],
         "contracts": [
           "0x7dE0dF352f6787BaF0657abc832EF2b620B10C45"
+        ]
+      },
+      "nftmining": {
+        "alias": "NFTMining",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #15141d, #32143b)",
+        "url": "https://nftmining.com/",
+        "description": "NFTMining is a platform that expands the utility of NFT collections and allows their communities to earn tokens and rewards. NFT holders can utilize their NFTs to earn tradeable tokens in real time. The NFTs never need to leave the wallet, providing users with a secure & safe method to stake and earn, enriching the NFT experience for the holders.",
+        "tags": [
+          "NFT",
+          "Staking",
+          "Social"
+        ],
+        "contracts": [
+          "0xE9d487B950A5075D8eaB084e2E04971340765b86",
+          "0xB4F39D20de49EE86c1d880B1b236684a5F875a87",
+          "0xD16539Fa2Fe90F80066a103dDB78cA81Bc33166B"
+        ]
+      },
+      "hurley-super-surfer": {
+        "alias": "Hurley Super Surfer™",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #6c787f, #386674)",
+        "url": "https://hurley.jump.trade/",
+        "description": "Welcome to the Hurleyverse™️ and with it, a world of endless adventure. Explore a virtual ocean inspired by the world’s best surf breaks and score world class waves from your mobile device. Use your digital avatar to get barreled and boost airs; dodge obstacles like sharks, pirate ship, and sea monsters — all while collecting Hurley Sand Dollars and power ups that give you a huge boost on your gameplay.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
+          "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
+          "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
+        ]
+      },
+      "metasoccer": {
+        "alias": "MetaSoccer",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, rgb(17 17 17), rgb(20 20 20))",
+        "url": "https://metasoccer.com/",
+        "description": "MetaSoccer is a soccer manager game built with blockchain technology where users can earn rewards through competitions, training, and trading players and scouts. Currently in its Alpha version, the game is set to expand with even more exciting ways to earn and have fun.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0x975fBFcF94Ea593e4f758E7F4e839f76153FDc7c",
+          "0xB810850769FF586Fb0Ac16Ef7E14d4cf5B228AF6",
+          "0x8A4a5d17Ee0276ca67Ffd9c3b343326d7af90Dc6",
+          "0x57dBF78C912a67aF7D170F1a247385AeA8E2D15B",
+          "0xB61cd84E1264bD6Fed7981F9194A44C60441E5F6",
+          "0xfCf71d52d1aD105A4Dcf5809af5Bd560ABDaca0c",
+          "0x83cf3694b3166B13882113aD370834286e7b7C19",
+          "0xF48b4c5E2C7115Fb696b5401648D47E07a83194C",
+          "0x46ff186319951399a336D4dd58E6fba1c9d2F79e",
+          "0x16109aa9D8e33eDA4C3d662Ad85324f7C8536e7b",
+          "0x8b7b78C1452B63f1C1aD95Be538C3f252Ad83689",
+          "0xE1ECEe729F99e902C354FcDF103116e0A542f8Dc",
+          "0xb2B7443f968c46ac296b58f417857CAf001fA123",
+          "0x05A5Af81cBbfa90e93aBE42438410e442659c2e2",
+          "0xE06E5605AF7e402FeE820B965d39C2eB44823730",
+          "0x8C109232F65a8A884D05ecb4358eFAad290e563b",
+          "0x2983a8654d3923f4ABADA00331865c9C06B5AaB4",
+          "0x1940d87EeA6280e1914869b1E48e0120b8a68A29",
+          "0x407a3b806c49707785b75F7dB87BF24ffd3c89A6",
+          "0xb281d917239a74013F319636aECf1DEAbFB79D28"
+        ]
+      },
+      "arena-games-platform": {
+        "alias": "Arena Games Platform",
+        "background": "gray",
+        "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
+        "url": "https://arenavs.com/",
+        "description": "We transform and distribute traditional games to the blockchain in just 2 days. Our complete SDK solution enables seamless blockchain gaming tools integration, while the Platform opens up new monetisation ways for game devs and gives access to the growing community of players.",
+        "tags": [
+          "NFT",
+          "Games",
+          "Staking",
+          "Farming"
+        ],
+        "contracts": [
+          "0x26E150637fd1e833f89def348D7A9f2cEd0BD7D5",
+          "0x320d8Fe0E5242a9480acb85734C22d772498f817",
+          "0xA24DA121a67631146F38928F9c77687F96fB8fd7",
+          "0x1536dbCc39c78B3e6f136339a64227b9936EB403",
+          "0xEF36f9A449758cC0eC265C04dDe092A583516f65",
+          "0x045521B29A6991f90A9227C4ABF076933e4c3C04"
+        ]
+      },
+      "rise-online-world": {
+        "alias": "Rise Online World",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #1b1b1b, #080808)",
+        "url": "https://www.riseonlineworld.com",
+        "description": "Rise Online World is a Turkish production MMORPG video game developed and published by RokoGame Studios. The game is about the war between Protean and Lunaskar. Rise Online launched the closed Beta Version in September 2021.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0xC23F65a409A236591d4ff36E37684993AC9fBd93"
         ]
       }
     }
