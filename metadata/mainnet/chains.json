@@ -943,6 +943,22 @@
         "contracts": [
           "0xC23F65a409A236591d4ff36E37684993AC9fBd93"
         ]
+      },
+      "roco-finance": {
+        "alias": "Roco Finance",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #ffffff, #fdccd0)",
+        "url": "https://roco.finance/",
+        "description": "Roco Finance offers promising and innovative projects a fast, secure, and efficient platform for decentralization. Also, Roco Finance is a decentralized GAMEFI platform that provides blockchain services to game developers, and player communities through the blockchain network.",
+        "tags": [
+          "NFT",
+          "Games",
+          "Staking"
+        ],
+        "contracts": [
+          "0xb2a85c5ecea99187a977ac34303b80acbddfa208",
+          "0x708cC7aB3B470D5Aa65Be528A7Ad40a1a743F91C"
+        ]
       }
     }
   },
