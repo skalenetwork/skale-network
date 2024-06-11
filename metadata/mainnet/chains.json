@@ -193,7 +193,8 @@
           "0x4A5B12722C57d48d3Cff9629E5B2039e11539cfd",
           "0xB968FD9Ab6827F1E37b6dcCef07375737DdE0efE",
           "0xE9e53822504270a13c690bF4458341a0E4D408Ad"
-        ]
+        ],
+        "legacy": true
       },
       "clet-name-service": {
         "alias": "Clet Name Service",
@@ -592,7 +593,8 @@
           "0x1fEB1123a7Db4c7ad487D3B5342648aA03dE3cBD",
           "0xA7CA127fAb80415b6803166E04719c0C4EA7fD13",
           "0xcc1f8c0Cd0cfdA6621E9d0E09105E3D4180e5568"
-        ]
+        ],
+        "legacy": true
       },
       "hatchyverse": {
         "alias": "HatchyVerse",
