@@ -173,8 +173,7 @@
       "nftrade": {
         "alias": "NFTrade",
         "background": "#ffffff",
-        "gradientBackground": "linear-gradient(230deg, rgb(0 65 106), rgb(0 34 54))",
-        "gradientBackgroundLight": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
+        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
         "url": "https://nftrade.com/"
       },
       "untitled-platformer": {
@@ -212,8 +211,7 @@
       "collab-land": {
         "alias": "Collab.land",
         "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, rgb(51 51 51), rgb(84 84 84))",
-        "gradientBackgroundLight": "linear-gradient(270deg, rgb(217 217 217), rgb(199 199 199))",
+        "gradientBackground": "linear-gradient(270deg, rgb(217 217 217), rgb(199 199 199))",
         "url": "https://www.clet.domains/",
         "description": "Get A Name For Your Crypto Addresses Now"
       },
@@ -227,8 +225,7 @@
       "pixudi": {
         "alias": "Pixudi",
         "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, #1f1931, #271f33)",
-        "gradientBackgroundLight": "linear-gradient(270deg, rgb(31, 25, 49), rgb(64 50 85))",
+        "gradientBackground": "linear-gradient(270deg, rgb(31, 25, 49), rgb(64 50 85))",
         "url": "https://game.pixudi.com/",
         "description": "Pixudi is a race board game built on the blockchain technology. Players compete with each other to collect more treasures than others by overcoming obstacles that come their way and completing missions.",
         "tags": [
@@ -246,8 +243,7 @@
       "dmail": {
         "alias": "Dmail Network",
         "background": "gray",
-        "gradientBackground": "linear-gradient(180deg, #4b120a, #320b05)",
-        "gradientBackgroundLight": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
+        "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
         "url": "https://dmail.ai/",
         "description": "Dmail Network is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
         "tags": [
@@ -380,8 +376,7 @@
       "cryptocrusades": {
         "alias": "CryptoCrusades",
         "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, #121e4c, #0f2165)",
-        "gradientBackgroundLight": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
         "description": "Join players from around the globe and make your mark on the world of CryptoCrusades. Whether through conquest or trade, there are many ways to lead your Empire!",
         "url": "https://cryptocrusades.io/",
         "tags": [
