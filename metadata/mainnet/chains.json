@@ -74,18 +74,13 @@
           "0x1604098C09f5C338e520875Ca7E8D06B0e0BCd26"
         ]
       },
-      "rehold": {
-        "alias": "ReHold",
+      "earnscape": {
+        "alias": "EarnScape",
         "background": "gray",
-        "gradientBackground": "linear-gradient(#20123f, #100820)",
-        "url": "https://rehold.io/",
-        "description": "One-stop decentralized app to buy, swap, earn, or trade your crypto with up to 100x leverage and AI assistance.",
-        "tags": [
-          "Farming",
-          "Staking",
-          "Yield",
-          "DeFi"
-        ]
+        "gradientBackground": "linear-gradient(#0a0b0a, #072013)",
+        "url": "https://earnscape.io/",
+        "description": "While you play, you earn rewards. It's that simple. Every game on your phone is compatible.",
+        "dappradar": false
       }
     }
   },
@@ -174,7 +169,15 @@
         "alias": "NFTrade",
         "background": "#ffffff",
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
-        "url": "https://nftrade.com/"
+        "url": "https://nftrade.com/",
+        "description": "NFTrade is the first cross-chain and blockchain-agnostic NFT platform. We are an aggregator of all NFT marketplaces and host the complete NFT lifecycle, allowing anyone to seamlessly create, buy, sell, swap, farm, and leverage NFTs across different blockchains. Using NFTrade, anyone can gain access to the entirety of their NFT, unlocking the total value of the NFT market.",
+        "tags": [
+          "NFT",
+          "Marketplaces"
+        ],
+        "contracts": [
+          "0xaff8a3e3B69E4e88e83B589ED080560C4359BBa8"
+        ]
       },
       "untitled-platformer": {
         "alias": "Untitled Platformer",
@@ -208,19 +211,16 @@
           "0x74Bd3bEB1ea954AF3ebf2d4a29F42c7eCFa99029"
         ]
       },
-      "collab-land": {
-        "alias": "Collab.land",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, rgb(217 217 217), rgb(199 199 199))",
-        "url": "https://www.clet.domains/",
-        "description": "Get A Name For Your Crypto Addresses Now"
-      },
       "tank-wars-zone": {
         "alias": "Tank Wars Zone",
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #191f54, #212b7c)",
         "url": "https://tankwars.zone/",
-        "description": "Design your own 3D Tank Model and sell it in our game marketplace. Everyone can buy or trade these tanks and play them in all gameplay modes."
+        "description": "Design your own 3D Tank Model and sell it in our game marketplace. Everyone can buy or trade these tanks and play them in all gameplay modes.",
+        "tags": [
+          "NFT",
+          "Games"
+        ]
       },
       "pixudi": {
         "alias": "Pixudi",
@@ -260,7 +260,17 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(180deg, #170926, #0f1935)",
         "url": "https://dripverse.org",
-        "description": "Modular Digital Assets Ecosystem. An Omnichain NFT Infrastructure & scaling solutions for builders and creators!"
+        "description": "Modular Digital Assets Ecosystem. An Omnichain NFT Infrastructure & scaling solutions for builders and creators!",
+        "tags": [
+          "NFT",
+          "Marketplaces",
+          "Metaverse",
+          "Social"
+        ],
+        "contracts": [
+          "0xE95A6E54Ab4F189A94F9a12DbF514f8485D3B561",
+          "0x3e0167DbC945c18e339ed532bcCb55c95Db36599"
+        ]
       },
       "hurley": {
         "alias": "Hurley",
@@ -269,12 +279,53 @@
         "url": "https://hurley.jump.trade/",
         "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!"
       },
-      "solo-network": {
+      "solo": {
         "alias": "Solo Network",
         "background": "gray",
         "gradientBackground": "linear-gradient(rgb(251 240 239), rgb(232 207 203))",
         "url": "https://thesolo.network/",
-        "description": "Welcome to SOLO: Your Gateway to the Future of Learning and Employment."
+        "description": "Welcome to SOLO: Your Gateway to the Future of Learning and Employment.",
+        "tags": [
+          "Social",
+          "Knowledge",
+          "Photos"
+        ],
+        "contracts": [
+          "0xC8B02F11Eb73bdA88375DE326FBeA88037b2e210"
+        ]
+      },
+      "hitmakr": {
+        "alias": "HITMAKR",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(#fbf9ff, #e5daff)",
+        "url": "https://hitmakr.io",
+        "description": "Hitmakr is a groundbreaking web3 audio platform designed to revolutionize the music industry by prioritizing artists' rights, transparency, and fair compensation. Our mission is to empower musicians and content creators, allowing them to take control of their work, maximize revenue, and build a sustainable career in the digital age.",
+        "tags": [
+          "NFT",
+          "Marketplaces",
+          "Photos"
+        ],
+        "contracts": [
+          "0xd9624d03c14C3E2DDf4bAdf2c178612395aF30cA",
+          "0xC76B5eBB0A7BEd71ceFeD1E489Ff77D64d30A5df"
+        ]
+      },
+      "kredeum-nfts-factory": {
+        "alias": "Kredeum NFTs Factory",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(#1e2046, #223060)",
+        "url": "https://www.kredeum.com",
+        "description": "Kredeum NFTs Factory : Mint it right! The easiest way to Create your NFT MarketPlace on WordPress. It features a Dapp NFT wallet, Smartcontracts library, WordPress plugin, and OpenSky market, which enable cross-chain NFTs on multiple EVM blockchains, including Ethereum, Arbitrum, Optimism and  Skale Calypso. The platform provides a range of customization options, such as collection templating, NFT auto-trading, and royalty enforcement.",
+        "tags": [
+          "NFT",
+          "Marketplaces",
+          "Exchanges",
+          "Photos"
+        ],
+        "contracts": [
+          "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
+          "0x25F56b5527F5634752Fd2C85564E8d2484cAAEF3"
+        ]
       }
     }
   },
@@ -308,7 +359,8 @@
           "Staking",
           "DeFi",
           "Governance",
-          "Knowledge"
+          "Knowledge",
+          "AI"
         ],
         "contracts": [
           "0x4F132eb3C7508C6394c3A1A7CF9440630B920D37"
@@ -319,21 +371,30 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(#262626, #1a1a1a)",
         "url": "https://palmai.tech/",
-        "description": "Multi-platform PaLM AI chatbot uses @Google AI tech for conversations, coding, and image generation, focusing on accessible AI and revenue sharing."
+        "description": "Multi-platform PaLM AI chatbot uses @Google AI tech for conversations, coding, and image generation, focusing on accessible AI and revenue sharing.",
+        "tags": [
+          "Knowledge",
+          "AI"
+        ],
+        "contracts": [
+          "0xE9d4fe986C039927F19c904C205594627644BB1B"
+        ]
       },
       "sirkl": {
         "alias": "SIRKL",
         "background": "gray",
         "gradientBackground": "linear-gradient(rgb(30, 86, 170), rgb(13 81 100))",
         "url": "https://sirkl.io/",
-        "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!"
-      },
-      "skillful-ai": {
-        "alias": "Skillful AI",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(#040046, #02002b)",
-        "url": "https://www.skillfulai.io/",
-        "description": "Building a Personalized AI Ecosystem powered by Web3"
+        "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
+        "tags": [
+          "Knowledge",
+          "AI",
+          "Games",
+          "Social"
+        ],
+        "contracts": [
+          "0x944a7A6833074122E9c2a7A5882392224C345807"
+        ]
       }
     }
   },
@@ -755,28 +816,12 @@
           "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
         ]
       },
-      "omniaverse": {
-        "alias": "OmniaVerse",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(rgb(0 24 20), rgb(11 55 34))",
-        "url": "https://www.omniaverse.io/",
-        "description": "Explore your distinct gamer profile and monitor your gaming stats effortlessly in one place.",
-        "dappradar": false
-      },
       "earnscape": {
         "alias": "EarnScape",
         "background": "gray",
         "gradientBackground": "linear-gradient(#0a0b0a, #072013)",
         "url": "https://earnscape.io/",
         "description": "While you play, you earn rewards. It's that simple. Every game on your phone is compatible.",
-        "dappradar": false
-      },
-      "starwolvez": {
-        "alias": "Starwolvez",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(#101018, #13132e)",
-        "url": "https://www.starwolvez.com/",
-        "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others.",
         "dappradar": false
       },
       "hangry-animals": {
