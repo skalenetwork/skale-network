@@ -326,6 +326,21 @@
           "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
           "0x25F56b5527F5634752Fd2C85564E8d2484cAAEF3"
         ]
+      },
+      "sirkl": {
+        "alias": "SIRKL",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(rgb(30, 86, 170), rgb(13 81 100))",
+        "url": "https://sirkl.io/",
+        "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
+        "tags": [
+          "Knowledge",
+          "Games",
+          "Social"
+        ],
+        "contracts": [
+          "0x944a7A6833074122E9c2a7A5882392224C345807"
+        ]
       }
     }
   },
@@ -378,22 +393,6 @@
         ],
         "contracts": [
           "0xE9d4fe986C039927F19c904C205594627644BB1B"
-        ]
-      },
-      "sirkl": {
-        "alias": "SIRKL",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(rgb(30, 86, 170), rgb(13 81 100))",
-        "url": "https://sirkl.io/",
-        "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
-        "tags": [
-          "Knowledge",
-          "AI",
-          "Games",
-          "Social"
-        ],
-        "contracts": [
-          "0x944a7A6833074122E9c2a7A5882392224C345807"
         ]
       }
     }
