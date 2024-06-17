@@ -359,7 +359,8 @@
     "gradientBackground": "linear-gradient(270deg, rgb(105 50 31), rgb(57 27 17))",
     "category": [
       "Hub",
-      "Community"
+      "Community",
+      "AI"
     ],
     "url": "https://skale.space/",
     "description": "The Titan Hub is a SKALE chain dedicated to AI and ML apps looking to utilize blockchain. With all of the existing benefits of a SKALE Chain plus a dedicated place for AI projects to deploy, this hub is here for projects pushing the boundaries of the intersection between AI + Web3.",
