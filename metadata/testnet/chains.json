@@ -128,7 +128,8 @@
           "Governance",
           "Knowledge",
           "AI"
-        ]
+        ],
+        "featured": true
       }
     }
   }
