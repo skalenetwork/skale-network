@@ -3,13 +3,28 @@
     "alias": "Nebula Gaming Hub",
     "shortAlias": "nebula",
     "background": "#2c1626",
-    "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
+    "gradientBackground": "linear-gradient(270deg, rgb(67 37 78), rgb(36 32 63))",
     "category": [
       "Hub",
       "Game"
     ],
     "url": "https://nebulachain.io/",
-    "description": "The Nebula Gaming Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem on the SKALE Network. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities."
+    "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
+    "apps": {
+      "cryptopia": {
+        "alias": "Cryptopia",
+        "background": "#02001f",
+        "gradientBackground": "linear-gradient(270deg, #211c37, #362f58)",
+        "description": "Cryptopia is a free-to-play-and-earn game built on our unique multisig wallet and p2p network embedded in the game engine. It is a virtual world where players can build, trade, and explore in a decentralized environment and sustainable economy. It has elements of so-called 4X games, Tycoon games, and RPGs. The game has four factions, each with unique characteristics and gameplay mechanics. Players can join a faction and work together to build a thriving community while upholding the goals of the faction they chose. They also have the choice to be a Pirate that loot regular players or to be a Bounty Hunter and catch these Pirates given that there is a bounty on their head put upon by their victims.",
+        "url": "https://cryptopia.com/",
+        "tags": [
+          "NFT",
+          "Staking",
+          "Games"
+        ],
+        "featured": true
+      }
+    }
   },
   "juicy-low-small-testnet": {
     "alias": "Europa DeFi Hub",
@@ -21,14 +36,19 @@
       "DeFi"
     ],
     "url": "https://europahub.network/",
-    "description": "The Europa DeFi Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
+    "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
       "ruby": {
         "alias": "Ruby Exchange",
         "background": "#02001f",
         "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
         "description": "The first NFT-powered AMM. Built on SKALE with zero gas fees!",
-        "url": "https://ruby.exchange/"
+        "url": "https://ruby.exchange/",
+        "tags": [
+          "NFT",
+          "DeFi"
+        ],
+        "featured": true
       }
     }
   },
@@ -47,19 +67,39 @@
       "nftrade": {
         "alias": "NFTrade",
         "background": "#ffffff",
-        "gradientBackground": "linear-gradient(230deg, rgb(0 65 106), rgb(0 34 54))",
-        "url": "https://nftrade.com/"
+        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
+        "url": "https://nftrade.com/",
+        "description": "NFTrade is the first cross-chain and blockchain-agnostic NFT platform. We are an aggregator of all NFT marketplaces and host the complete NFT lifecycle, allowing anyone to seamlessly create, buy, sell, swap, farm, and leverage NFTs across different blockchains. Using NFTrade, anyone can gain access to the entirety of their NFT, unlocking the total value of the NFT market.",
+        "tags": [
+          "NFT",
+          "Marketplaces"
+        ]
       },
-      "untitled-platformer": {
-        "alias": "Untitled Platformer",
-        "background": "#000000",
-        "gradientBackground": "linear-gradient(139deg, rgb(19 17 0), rgb(0, 0, 0))",
-        "url": "https://untitledplatformer.io/"
+      "dmail": {
+        "alias": "Dmail Network",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
+        "url": "https://dmail.ai/",
+        "description": "Dmail Network is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
+        "tags": [
+          "Social",
+          "NFT",
+          "Marketplaces"
+        ],
+        "featured": true
       },
-      "madnft": {
-        "alias": "Mad NFT",
-        "background": "#151619",
-        "url": "https://v1.madnfts.io/"
+      "dripverse": {
+        "alias": "DripVerse Protocol",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #170926, #0f1935)",
+        "url": "https://dripverse.org",
+        "description": "Modular Digital Assets Ecosystem. An Omnichain NFT Infrastructure & scaling solutions for builders and creators!",
+        "tags": [
+          "NFT",
+          "Marketplaces",
+          "Metaverse",
+          "Social"
+        ]
       }
     }
   },
@@ -67,11 +107,30 @@
     "alias": "Titan AI Hub",
     "shortAlias": "titan",
     "background": "rgb(50 22 11)",
+    "gradientBackground": "linear-gradient(270deg, rgb(105 50 31), rgb(57 27 17))",
     "category": [
       "Hub",
-      "Community"
+      "Community",
+      "AI"
     ],
     "url": "https://skale.space/",
-    "description": "The Titan AI Hub is a SKALE chain dedicated to AI and ML applications looking to utilize blockchain within their products. With all of the existing benefits of a SKALE Chain plus a dedicated place for AI projects to deploy, this hub is here for projects pushing the boundaries of the intersection between AI + Web3."
+    "description": "The Titan Hub is a SKALE chain dedicated to AI and ML apps looking to utilize blockchain. With all of the existing benefits of a SKALE Chain plus a dedicated place for AI projects to deploy, this hub is here for projects pushing the boundaries of the intersection between AI + Web3.",
+    "apps": {
+      "chaingpt": {
+        "alias": "ChainGPT",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
+        "url": "https://www.chaingpt.org/",
+        "description": "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. Using ChainGPT, users may quickly obtain whatever knowledge and information they require. With many other unique features designed for individuals, developers, and businesses, ChainGPT is an essential tool for all in the Blockchain space.",
+        "tags": [
+          "Staking",
+          "DeFi",
+          "Governance",
+          "Knowledge",
+          "AI"
+        ],
+        "featured": true
+      }
+    }
   }
 }

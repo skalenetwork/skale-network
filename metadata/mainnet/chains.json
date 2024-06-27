@@ -81,6 +81,25 @@
         "url": "https://earnscape.io/",
         "description": "While you play, you earn rewards. It's that simple. Every game on your phone is compatible.",
         "dappradar": false
+      },
+      "sushiswap": {
+        "alias": "SushiSwap",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(#0f172a, #162444)",
+        "url": "https://sushi.com/SKALE/swap",
+        "description": "Sushi is a community-driven organization built to solve what might be  called the “liquidity problem.” One could define this problem as the inability of disparate forms of liquidity to connect with markets in a decentralized way, and vice versa. While other solutions provide incrementally progressive advances toward solving the problem of liquidity, Sushi’s progress is intended to create a broader range of  network effects. Rather than limiting itself to a single solution, Sushi intertwines many decentralized markets and instruments.",
+        "tags": [
+          "DeFi",
+          "Exchanges"
+        ],
+        "dappradar": "sushiswap-v3",
+        "contracts": [
+          "0x4cddf8D1473df386b926ec14b23bfbD566CE827a",
+          "0xa4d2268f145CD5c835115441b877295C46F25b9b",
+          "0x1aaF6eB4F85F8775400C1B10E6BbbD98b2FF8483",
+          "0x51d15889b66A2c919dBbD624d53B47a9E8feC4bB"
+        ],
+        "featured": true
       }
     }
   },
@@ -253,7 +272,8 @@
         ],
         "contracts": [
           "0xD1A3abf42f9E66BE86cfDEa8c5C2c74f041c5e14"
-        ]
+        ],
+        "featured": true
       },
       "dripverse": {
         "alias": "DripVerse Protocol",
@@ -572,7 +592,7 @@
           "0x7b1AC460c155ABb6b1D02b543952426A6aaF6b72"
         ]
       },
-      "heavens-compass": {
+      "haven-s-compass": {
         "alias": "Haven's Compass",
         "background": "gray",
         "gradientBackground": "linear-gradient(92deg, #131313 0%, #092017",
@@ -586,7 +606,8 @@
           "0x21055aD11b0D3F9577eD2fd9fD432e2a5E06a8Ee",
           "0x9D13709c1b41DEDD9b8690c66d4590D6a52b3062",
           "0x6D1a6B840714420D425c2F2658CEF390dbD809A7"
-        ]
+        ],
+        "featured": true
       },
       "ballers-city": {
         "alias": "Ballers City",
@@ -999,6 +1020,21 @@
           "0xb2a85c5ecea99187a977ac34303b80acbddfa208",
           "0x708cC7aB3B470D5Aa65Be528A7Ad40a1a743F91C"
         ]
+      },
+      "playbits-by-playground": {
+        "alias": "PlayBits by PlayGround",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #000000, #152000)",
+        "url": "https://playground.game/",
+        "description": "PlayGround is the premier publisher of web3 games, with our own IP titles and a community building platform (PlayAcademy) that can onboard die-hard gamers from Tier 1 countries into any game requiring user acquisition.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0xE3D1379E0E9201ed67b899d9739d815cbcc9F795"
+        ],
+        "featured": true
       }
     }
   },
