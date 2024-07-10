@@ -1035,6 +1035,28 @@
           "0xE3D1379E0E9201ed67b899d9739d815cbcc9F795"
         ],
         "featured": true
+      },
+      "wareden": {
+        "alias": "WarEden",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
+        "url": "https://www.wareden.io/",
+        "description": "WarEden is a free-to-play PC MMORPG that invites both solo adventurers and guilds to embark on an epic journey. It is a hand-crafted high fantasy world carefully designed to appeal to old-school MMO aficionados introducing the real-life economy in the virtual world using blockchain technology.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0x5adc5d8934bb86286be2607c7a234492c0b8b4f4",
+          "0x2a51ED50Ed8f2A6A8a3A5d5DA19d058a385d131d",
+          "0x69501d089f18b56B8f4383Bba84C3Abf1A12D63b",
+          "0x9b97e2Ea69D22ed21ed16cB347409d789465c426",
+          "0x1C482A319c80d4139143A0DFbbe8baee079e3ad8",
+          "0x857BB67B3896Cc152fb4E86132D7177B5520c076",
+          "0xa1C9700758922261Df474Dd3dE9b3c423fe5F5AC",
+          "0xb54aFF896437B5d4cCA3aad1f50baF9e929b438b",
+          "0xb54aFF896437B5d4cCA3aad1f50baF9e929b438b"
+        ]
       }
     }
   },

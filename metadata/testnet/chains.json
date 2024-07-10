@@ -21,8 +21,53 @@
           "NFT",
           "Staking",
           "Games"
+        ]
+      },
+      "playbits-by-playground": {
+        "alias": "PlayGround",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #000000, #152000)",
+        "url": "https://playground.game/",
+        "description": "PlayGround is the premier publisher of web3 games, with our own IP titles and a community building platform (PlayAcademy) that can onboard die-hard gamers from Tier 1 countries into any game requiring user acquisition.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0x2edde099222705682f3956Cf01cb0fF36b2D53a2",
+          "0xbFbb5644188eBb0157767fD5faEa7cc73AcEF280",
+          "0xB90a0988325973Ed660a207235F978daE2E0f000",
+          "0x8f5fb16ac920f4ef619426A46571cDc1526C8141"
         ],
         "featured": true
+      },
+      "metasoccer": {
+        "alias": "MetaSoccer",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, rgb(17 17 17), rgb(20 20 20))",
+        "url": "https://metasoccer.com/",
+        "description": "MetaSoccer is a soccer manager game built with blockchain technology where users can earn rewards through competitions, training, and trading players and scouts. Currently in its Alpha version, the game is set to expand with even more exciting ways to earn and have fun.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0x420445E4ED20380977FFf2355d54575417dBC7f3"
+        ]
+      },
+      "wareden": {
+        "alias": "WarEden",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
+        "url": "https://www.wareden.io/",
+        "description": "WarEden is a free-to-play PC MMORPG that invites both solo adventurers and guilds to embark on an epic journey. It is a hand-crafted high fantasy world carefully designed to appeal to old-school MMO aficionados introducing the real-life economy in the virtual world using blockchain technology.",
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+        "contracts": [
+          "0x42D1DDd05c3eB618022903Cf97990cb25B21D66b"
+        ]
       }
     }
   },
@@ -86,7 +131,10 @@
           "NFT",
           "Marketplaces"
         ],
-        "featured": true
+        "featured": true,
+        "contracts": [
+          "0x47fbe95e981C0Df9737B6971B451fB15fdC989d9"
+        ]
       },
       "dripverse": {
         "alias": "DripVerse Protocol",
