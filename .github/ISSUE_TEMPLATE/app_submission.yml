@@ -1,0 +1,105 @@
+name: SKALE App Submission
+description: Submit your application metadata to the SKALE to be shown on SKALE Portal.
+title: "App Metadata Submission"
+labels: ["metadata"]
+assignees:
+  - dmytrotkk
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following information to submit your app/game metadata to the SKALE to be shown on SKALE Portal. <br/>
+        ![app-template](https://raw.githubusercontent.com/skalenetwork/skale-network/master/assets/app-template.png)
+  - type: input
+    id: alias
+    attributes:
+      label: 1. App Name
+      description: The name of your app/game.
+      placeholder: My dApp
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 2. Description of your app/game
+      placeholder: A short description of your app/game goes here.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 3. Website URL
+      description: Link to the website of your app/game.
+      placeholder: https://my-dapp.com
+    validations:
+      required: true
+  - type: input
+    id: dappradar
+    attributes:
+      label: 4. dAppRadar URL (optional)
+      description: If your app is listed on dAppRadar, please provide the URL. Leave blank if not applicable.
+      placeholder: https://dappradar.com/dapp/...
+    validations:
+      required: false
+  - type: dropdown
+    id: hub
+    attributes:
+      label: 5. Which SKALE Hub are you using?
+      multiple: false
+      default: 0
+      options:
+        - Nebula Gaming Hub
+        - Europa DeFi Hub
+        - Calypso Hub
+        - Titan AI Hub
+  - type: textarea
+    id: contracts
+    attributes:
+      label: 6. Smart Contract Addresses
+      description: Provide the addresses of the smart contracts used in your deployment on SKALE, one contract address per line.
+      placeholder: |
+        0xd1aAa00000000000000000000000000000000000
+        0xd2aAa00000000000000000000000000000000000
+        0xd3dAa00000000000000000000000000000000000
+    validations:
+      required: true
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: 7. Which tags apply to your project?
+      options:
+        - label: Games
+        - label: DeFi
+        - label: NFT
+        - label: Community
+        - label: Data
+        - label: Exchanges
+        - label: Staking
+        - label: Yield
+        - label: Pools
+        - label: Marketplaces
+        - label: Social
+        - label: Metaverse
+        - label: Governance
+        - label: Knowledge
+        - label: Sports
+        - label: Farming
+        - label: Photos
+        - label: Other
+  - type: textarea
+    id: logo
+    attributes:
+      label: 8. Logo and icon
+      description: Attach the logo and icon of your app/game. Supported formats for logo - PNG, SVG, GIF. Supported formats for icon - SVG only.
+      placeholder: Provide a link to the image or upload the image directly by dragging and dropping it here.
+    validations:
+      required: true
+  - type: input
+    id: colors
+    attributes:
+      label: 9. Logo Background Color
+      description: Provide the color for the logo background. If you want to use a gradient, provide two colors separated by a comma.
+      placeholder: Put a HEX color or two HEX colors separated by a comma.
+    validations:
+      required: true
+  
