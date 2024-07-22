@@ -9,14 +9,14 @@
       "DeFi"
     ],
     "url": "https://europahub.network/",
-    "description": "Europa is the DeFi hub chain for the SKALE network, and acts as an entry point for tokens bridging onto SKALE.",
+    "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
-      "ruby": {
-        "alias": "Ruby Exchange",
+      "swapchange": {
+        "alias": "SwapChange",
         "background": "#02001f",
-        "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
-        "description": "The first NFT-powered AMM. Built on SKALE with zero gas fees!",
-        "url": "https://ruby.exchange/"
+        "gradientBackground": "linear-gradient(270deg, rgb(0 31 11), rgb(4 44 32))",
+        "description": "SwapChange: A cutting-edge decentralized exchange (DEX) powered by SKALE's scalable blockchain infrastructure. Enjoy seamless token swaps with zero gas fees, lightning-fast transactions, and enhanced security. ",
+        "url": "https://example.com/"
       }
     }
   },
@@ -32,31 +32,12 @@
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
-      "nftrade": {
-        "alias": "NFTrade",
+      "swamp-collection": {
+        "alias": "Swamp Collection",
         "background": "#ffffff",
-        "gradientBackground": "linear-gradient(230deg, rgb(0 65 106), rgb(0 34 54))",
-        "url": "https://nftrade.com/"
-      },
-      "untitled-platformer": {
-        "alias": "Untitled Platformer",
-        "background": "#000000",
-        "gradientBackground": "linear-gradient(139deg, rgb(19 17 0), rgb(0, 0, 0))",
-        "url": "https://untitledplatformer.io/"
-      },
-      "clet-domains": {
-        "alias": "Clet Domains",
-        "background": "#ffffff",
-        "gradientBackground": "linear-gradient(139deg, rgb(0 83 2), rgb(2 33 2))",
-        "url": "https://www.clet.domains/",
-        "description": "Get A Name For Your Crypto Addresses Now"
-      },
-      "collab-land": {
-        "alias": "Collab.land",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, rgb(51 51 51), rgb(84 84 84))",
-        "url": "https://www.clet.domains/",
-        "description": "Get A Name For Your Crypto Addresses Now"
+        "gradientBackground": "linear-gradient(230deg, rgb(117 108 14), rgb(26 36 16))",
+        "description": "Swamp Collection: A unique and immersive NFT series hosted on SKALE's Calypso Hub. This collection features a diverse array of swamp-themed digital art, bringing the mysterious and lush wetland ecosystem to life. ",
+        "url": "https://example.com/"
       }
     }
   },
@@ -64,31 +45,34 @@
     "alias": "Nebula Gaming Hub",
     "shortAlias": "nebula",
     "background": "#2c1626",
-    "gradientBackground": "linear-gradient(270deg, #2f1728, #1b0e17)",
+    "gradientBackground": "linear-gradient(270deg, rgb(67 37 78), rgb(36 32 63))",
     "category": [
       "Hub",
       "Game"
     ],
     "url": "https://nebulachain.io/",
-    "description": "The Nebula Gaming Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem on the SKALE Network. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
+    "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
-      "cryptocrusades": {
-        "alias": "CryptoCrusades",
+      "lumberworld": {
+        "alias": "Lumber World",
         "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, #121e4c, #0f2165)",
-        "url": "https://cryptocrusades.io/"
+        "gradientBackground": "linear-gradient(270deg, rgb(50 73 165), rgb(30 45 104))",
+        "description": "Lumber World: An immersive blockchain-based simulation game set in the forestry industry. Players manage their own lumber empire on SKALE's Nebula Gaming Hub, experiencing seamless gameplay with zero gas fees. ",
+        "url": "https://example.com/"
       },
-      "nftb": {
-        "alias": "NFTb",
+      "cardex": {
+        "alias": "CarDex",
         "background": "gray",
-        "gradientBackground": "linear-gradient(90deg,#02161b,#02042e 26.04%,#14032d 51.56%,#170223 77.08%,#100113)",
-        "url": "https://nftb.io/"
+        "gradientBackground": "linear-gradient(270deg, rgb(77 130 153), rgb(45 65 80))",
+        "description": "CarDex: A high-octane, blockchain-powered racing game where players collect, trade, and race unique digital cars. Built on SKALE's Nebula Gaming Hub, CarDex offers lightning-fast gameplay with zero gas fees. Customize your vehicles, compete in global tournaments, and earn rewards.",
+        "url": "https://example.com/"
       },
-      "motodex": {
-        "alias": "MotoDEX",
+      "zombie-x": {
+        "alias": "Zombie X",
         "background": "gray",
         "gradientBackground": "linear-gradient(92deg, rgb(18, 18, 18) 0%, rgb(56, 57, 59)",
-        "url": "https://openbisea.io/motodex"
+        "description": "An intense, post-apocalyptic survival game set in a world overrun by the undead.",
+        "url": "https://example.com/"
       }
     }
   }
