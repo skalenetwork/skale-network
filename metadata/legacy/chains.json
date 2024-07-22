@@ -58,14 +58,21 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #e356c0, #d453b3)",
         "description": "Otter Heaven is an enchanting simulation game where players create and manage a thriving otter sanctuary. ",
-        "url": "https://otter-heaven.com/"
+        "url": "https://otter-heaven.com/",
+        "contracts": [
+          "0xc1d40923cf8775f52286911576AAAB60339a7d00",
+          "0xCD2094e4754c0fF24D44f0Ab42AFBfD4a391834D"
+        ]
       },
       "lumberworld": {
         "alias": "Lumber World",
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, rgb(50 73 165), rgb(30 45 104))",
         "description": "Lumber World: An immersive blockchain-based simulation game set in the forestry industry. Players manage their own lumber empire on SKALE's Nebula Gaming Hub, experiencing seamless gameplay with zero gas fees. ",
-        "url": "https://example.com/"
+        "url": "https://example.com/",
+        "contracts": [
+          "0x0E53fDa415cc6b2a7D9495D4a1F0659F0Ee45e0d"
+        ]
       },
       "cardex": {
         "alias": "CarDex",
