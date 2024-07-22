@@ -53,6 +53,13 @@
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
+      "otter-heaven": {
+        "alias": "Otter Heaven",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #e356c0, #d453b3)",
+        "description": "Otter Heaven is an enchanting simulation game where players create and manage a thriving otter sanctuary. ",
+        "url": "https://otter-heaven.com/"
+      },
       "lumberworld": {
         "alias": "Lumber World",
         "background": "gray",
