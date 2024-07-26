@@ -184,6 +184,20 @@
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
+      "virtualness": {
+        "alias": "Virtualness",
+        "background": "#ffffff",
+        "gradientBackground": "linear-gradient(230deg, #18232f, #0d141c)",
+        "url": "https://www.virtualness.io",
+        "description": "Virtualness enables proof of authenticity using AI-powered blockchain, addressing credential forgery and deep fakes. Companies can design and issue secure, immutable, and globally verifiable digital certificates.",
+        "tags": [
+          "NFT",
+          "Marketplaces"
+        ],
+        "contracts": [
+          "0xc8956A816aC7B35207202982da9cebc375bE378c"
+        ]
+      },
       "nftrade": {
         "alias": "NFTrade",
         "background": "#ffffff",
