@@ -1099,5 +1099,26 @@
     ],
     "url": "https://strayshot.game/",
     "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches."
+  },
+  "__offchain": {
+    "alias": "Off-chain",
+    "background": "#000000",
+    "tags": [
+      "offchain"
+    ],
+    "description": "",
+    "apps": {
+      "ledger": {
+        "alias": "Ledger",
+        "background": "#121024",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "wallets": null
+        },
+        "description": "Ledger Live is your one-stop shop to buy crypto, grow your assets, and manage NFTs.",
+        "url": "https://www.ledger.com/",
+        "dappradar": false
+      }
+    }
   }
 }
