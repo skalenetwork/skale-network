@@ -166,6 +166,14 @@
     ],
     "url": "https://blockbrawlers.com/",
     "description": "Block Brawlers is a play-to-earn game powered by SKALE and GameCredits"
+      "categories": {
+            "gaming": [ "pc", "rpg", "strategy"]
+        },
+        "social": {
+          "x": "https://x.com/brawlchain",
+          "telegram": "https://t.me/blockbrawlers/",
+          "discord": "https://discord.com/invite/KmWDjKRnXJ"
+        }
   },
   "fit-betelgeuse": {
     "alias": "Curio DAO",
@@ -468,6 +476,43 @@
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
+       "bionic_owls": {
+        "alias": "Bionic Owls",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "url": "https://bionicowls.io/",
+        "description": "An NFT-Enabled, Play to Impact, Play to Earn game, designed to bring inclusivity to the Web3 space.",
+         "categories": {
+            "gaming": [ "shooter", "fighting", "action-adventure"]
+        },
+        "social": {
+          "x": "https://x.com/bionicowls?lang=en",
+          "telegram": null,
+          "discord": "null
+        }
+        
+        ]
+          },
+      "boudicea": {
+        "alias": "Boudicea",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "description": "In Boudicea, a play-to-earn NFT-based game, become a tribal warrior under Queen Boudicea to protect the Iceni tribe.",
+        "url": "https://boudicea.io/",
+        "categories": {
+            "gaming": ["action-adventure"]
+        
+        },
+        "social": {
+          "x": "https://x.com/Boudicea_game",
+          "telegram": "https://t.me/boudiceagame",
+          "discord": "https://discord.com/invite/Boudicea"
+        }
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+      },
       "cryptocrusades": {
         "alias": "CryptoCrusades",
         "background": "gray",
@@ -534,6 +579,15 @@
         "gradientBackground": "linear-gradient(92deg, #00121e 0%, #052b44",
         "url": "https://5tars.io/",
         "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience!",
+        },
+       "categories": {
+            "gaming": [ "mobile", "sports", "cards_deck-building"]
+        },
+        "social": {
+          "x": "https://x.com/5tarsgame?lang=en",
+          "telegram": "https://t.me/Game5TARS",
+          "discord": "https://discord.com/invite/5tarsgame"
+        },
         "contracts": [
           "0x23C1F1a60F18e304fC81eDB2cb98C04a59aef466",
           "0xda7D9012A36d85F61Ca6e0d85998FBEf0BA640B6",
@@ -559,7 +613,15 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(92deg, #262b35 0%, #14181e",
         "url": "https://bithotel.io",
-        "description": "Bit Hotel is a Social Play and Earn Game, in which users are able to use Bit Hotel tokens to acquire native items and participate in all kinds of in-game competitions and events. The item NFTs have in-game usability and consist of characters, hotel rooms, furniture and other artifacts that have their own perks. They consist of varying rarities and can be traded on the open market.",
+        "description": "Bit Hotel consists of public and private rooms where player can interact with each other through text and voice based communication.",
+        "categories": {
+            "gaming": [ "metaverse", "mobile", "simulation"]
+        },
+        "social": {
+          "x": "https://x.com/playbithotel",
+          "telegram": https://t.me/bithotelcommunity,
+          "discord": "https://discord.com/invite/RFFZNwxY9n"
+        }
         "tags": [
           "NFT",
           "Games",
@@ -628,7 +690,16 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(180deg,#110929,rgba(17,9,41,.1) 145.5%)",
         "url": "https://ballers.fun/",
-        "description": "Ballers Studio is a web3 gaming infrastructure, a one stop shop for the community that loves games, parties, rewards, and unlimited fun! Ballers Studio is coming up with multiple hypercasual and competitive FREE-to-play games, a pop-style NFT collection inspired by OG influencers and personalities, and endless raffles and referral campaigns.",
+        "description": "A web3 gaming infrastructure that integrates hyper casual games, raffles, and a referral reward system.",
+        "categories": {
+            "gaming": [ "mobile", "casual"]
+        },
+         "social": {
+          "x": "https://x.com/Ballers_Studio",
+          "telegram": https://t.me/+HRPPZlNztto0NGI1,
+          "discord": null
+           }
+        
         "tags": [
           "NFT",
           "Games",
@@ -644,6 +715,14 @@
         "gradientBackground": "linear-gradient(#191A32, #101123)",
         "url": "https://booja.world/",
         "description": "Dive into a world of endless entertainment with our collection of casual blockchain games, powered by the cutting-edge SKALE Network technology. Experience seamless gameplay, trade assets securely, and earn rewards as you play. Join the revolution where fun meets blockchain innovation!",
+          "categories": {
+            "gaming": [ "casual"]
+        },
+        "social": {
+          "x": "https://x.com/BoojaWorld",
+          "telegram": null,
+          "discord": null
+        }
         "tags": [
           "NFT",
           "Games"
@@ -989,7 +1068,15 @@
         "background": "gray",
         "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
         "url": "https://arenavs.com/",
-        "description": "We transform and distribute traditional games to the blockchain in just 2 days. Our complete SDK solution enables seamless blockchain gaming tools integration, while the Platform opens up new monetisation ways for game devs and gives access to the growing community of players.",
+        "description": "Arena Games is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
+          "categories": {
+            "gaming": null
+        },
+         "social": {
+          "x": "https://x.com/arenaweb3?s=21&t=eJC2rnI1Ww1E49kSqeWi0g",
+          "telegram": "https://t.me/Arenaweb3games",
+          "discord": "https://discord.com/invite/FxVyTPtF7f"
+        }
         "tags": [
           "NFT",
           "Games",
@@ -1004,6 +1091,7 @@
           "0xEF36f9A449758cC0eC265C04dDe092A583516f65",
           "0x045521B29A6991f90A9227C4ABF076933e4c3C04"
         ]
+        
       },
       "rise-online-world": {
         "alias": "Rise Online World",
