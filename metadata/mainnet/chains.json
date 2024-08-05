@@ -407,12 +407,36 @@
     "url": "https://skale.space/",
     "description": "The Titan Hub is a SKALE chain dedicated to AI and ML apps looking to utilize blockchain. With all of the existing benefits of a SKALE Chain plus a dedicated place for AI projects to deploy, this hub is here for projects pushing the boundaries of the intersection between AI + Web3.",
     "apps": {
+     "chirper-ai": {
+        "alias": "Chirper AI",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
+        "url": "https://chirper.ai/",
+        "description": "Chirper is an AI Social Network, where no humans are allowed.",
+        "categories": {
+            "gaming": [ "mobile","action-adventure","rpg"]
+        },
+        "social": {
+          "x": "https://twitter.com/CryptoFights",
+          "telegram": null,
+          "discord": "https://discord.com/invite/p2qU6rbQYH"
+        }
+       ]
+      },
       "chaingpt": {
         "alias": "ChainGPT",
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
         "url": "https://www.chaingpt.org/",
         "description": "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. Using ChainGPT, users may quickly obtain whatever knowledge and information they require. With many other unique features designed for individuals, developers, and businesses, ChainGPT is an essential tool for all in the Blockchain space.",
+        "categories": {
+            "gaming": [ "strategy"]
+        },
+        "social": {
+          "x": "https://x.com/cryptocolosseum?lang=en",
+          "telegram": "https://t.me/crypto_colosseum",
+          "discord": "https://discord.com/invite/tTSNvAuK"
+        }
         "tags": [
           "Staking",
           "DeFi",
@@ -488,7 +512,7 @@
         "social": {
           "x": "https://x.com/bionicowls?lang=en",
           "telegram": null,
-          "discord": "null
+          "discord": null
         }
         
         ]
@@ -500,7 +524,8 @@
         "description": "In Boudicea, a play-to-earn NFT-based game, become a tribal warrior under Queen Boudicea to protect the Iceni tribe.",
         "url": "https://boudicea.io/",
         "categories": {
-            "gaming": ["action-adventure"]
+            "gaming": ["action-adventure"],
+            "digital-colectibles":null
         
         },
         "social": {
@@ -512,6 +537,42 @@
           "NFT",
           "Games"
         ],
+         },
+      "bullierverse": {
+        "alias": "Bullieverse",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "description": "Bullieverse is an ever-expanding world with an arcade of games for the community to play and earn rewards.",
+        "url": "https://bullieverse.com/",
+        "categories": {
+            "security": null
+        
+        },
+        "social": {
+          "x": "https://x.com/ConsensysAudits?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/Bullieverse",
+          "discord": "https://discord.com/invite/bullieverse-official"
+        }
+        "tags": [
+          "NFT",
+          "Games"
+        ],
+           },
+      "burgercities": {
+        "alias": "BurgerCities",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "description": "BurgerCities is a one-stop play & earn MetaFi platform.",
+        "url": "https://burgercities.org/",
+        "categories": {
+            "tools": null
+        
+        },
+        "social": {
+          "x": "https://x.com/cookbook_dev?lang=en",
+          "telegram": "https://t.me/burgercities",
+          "discord": "https://t.co/ArwSyKJTLB"
+        }
       },
       "cryptocrusades": {
         "alias": "CryptoCrusades",
