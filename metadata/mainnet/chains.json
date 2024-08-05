@@ -500,7 +500,7 @@
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
-       "bionic_owls": {
+      "bionic_owls": {
         "alias": "Bionic Owls",
         "background": "gray",
         "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
@@ -514,9 +514,7 @@
           "telegram": null,
           "discord": null
         }
-        
-        ]
-          },
+      },
       "boudicea": {
         "alias": "Boudicea",
         "background": "gray",
