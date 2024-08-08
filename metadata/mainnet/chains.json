@@ -502,6 +502,19 @@
           "discord": "https://discord.com/invite/p2qU6rbQYH"
         }
       },
+      "forumai": {
+        "alias": "ForumAI",
+        "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
+        "description": "Access the most powerful open-source machine learning models on ForumAI's marketplace, hosted by data centers around the world.",
+        "categories": {
+          "ai": null
+        },
+        "social": {
+          "website": "https://www.forumai.dev/",
+          "x": "https://x.com/ForumAILabs",
+          "telegram": "https://t.me/OfficalForumAI",
+          "discord": "https://discord.com/invite/22JCYyy7J5"
+      },
       "chaingpt": {
         "alias": "ChainGPT",
         "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
@@ -518,6 +531,7 @@
         "contracts": [
           "0x4F132eb3C7508C6394c3A1A7CF9440630B920D37"
         ]
+       } 
       },
       "palm-ai": {
         "alias": "PaLM AI",
@@ -575,15 +589,75 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
         "description": "Dypius is a powerful, decentralized ecosystem with a focus on scalability, security, and global adoption through next-gen infrastructure",
-        "categories": {
-          "gaming": ["mobile", "rpg", "action-adventure"
-          ],
-          "digital-colectibles": null
-        },
         "social": {
           "website": "https://www.dypius.com/",
           "x": "https://x.com/dypius",
           "telegram": "https://t.me/dypius",
+          "discord": null
+        }
+      }, 
+      "felines-of-sarvia": {
+        "alias": "Felines of Sarvia",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "description": "Felines of Sarvia is an Idle Clicker Game in which you manage your own Guild of Adventuring Warrior Cats.",
+        "categories": {
+          "gaming": ["casual", "strategy"
+          ],
+          "digital-colectibles": null
+        },
+        "social": {
+          "website": "https://golive.games/#games",
+          "x": "https://golive.games/#games",
+          "telegram": null,
+          "discord": null
+        }
+      }, 
+      "FusionwaveaI": {
+        "alias": "FusionwaveAI",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "description": "FusionwaveAI aims to become a robust Web3 Gaming and Generative AI platform, while building an AI driven Metaverse.",
+        "categories": {
+          "gaming": ["metaverse", "ai"
+          ]
+        },
+        "social": {
+          "website": "https://www.fusionwaveai.com/",
+          "x": "https://x.com/fusionwaveai",
+          "telegram": null,
+          "discord": null
+        }
+      }, 
+      "fusyfox": {
+        "alias": "FusyFox",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "description": "FusyFox is a Web3 project that offers a fast-paced multiplayer third-person shooter game.",
+        "categories": {
+          "gaming": ["metaverse", "ai"
+          ]
+        },
+        "social": {
+          "website": "https://fusyfox.com/",
+          "x": "https://x.com/fusyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/FUSYFOXGroup",
+          "discord": "https://discord.com/invite/fusyfox"
+        }
+      }, 
+      "ghost-merc-frontlines": {
+        "alias": "Ghost Merc: Frontlines",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "description": "Players assume the role of elite mercenaries, recruited by various factions to execute high-stakes missions across the globe.",
+        "categories": {
+          "gaming": ["action-adventure", "shooter"
+          ]
+        },
+        "social": {
+          "website": "https://www.ghostmerc.com/",
+          "x": "https://x.com/PlayGhostMerc",
+          "telegram": null,
           "discord": null
         }
       }, 
@@ -996,13 +1070,7 @@
           "x": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "discord": "https://discord.com/invite/WZDx96TNb3"
-        },
-        "tags": [
-          "NFT",
-          "Games",
-          "DeFi",
-          "Metaverse"
-        ]
+        }
       },
       "gamifly": {
         "alias": "Gamifly",
@@ -1030,14 +1098,18 @@
         "alias": "HatchyVerse",
         "background": "gray",
         "gradientBackground": "linear-gradient(#5ab0e1, #125ea0)",
-        "url": "https://www.hatchyverse.com/games/hatchy-rampage",
         "description": "Decentralized IP of 150+ elemental monsters owned and managed by the $HATCHY token, earned exclusively by staking Hatchy and Hatchyverse NFTs. Build the future of IP!",
-        "tags": [
-          "NFT",
-          "Games",
-          "Metaverse",
-          "Staking"
-        ],
+      "categories": {
+          "gaming":["mobile", "rpg", "pc", "action-adventure", "casual"
+          ],
+        "social": {
+          "website":"https://www.hatchyverse.com/games/hatchy-rampage",
+          "x": "https://x.com/Hatchyverse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": null,
+          "discord": "https://t.co/hvNXZDB8kw"
+        },
+        "digital-colectibles":null
+        },
         "contracts": [
           "0xdB1DF93b8B0D6aD52E124CAFE7f8D1C3c6b4294f"
         ]
@@ -1182,11 +1254,6 @@
         "gradientBackground": "linear-gradient(rgb(30 30 30), rgb(0 0 0))",
         "url": "https://beta.devzeus.io/games",
         "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
-        "tags": [
-          "NFT",
-          "Staking",
-          "Games"
-        ],
         "contracts": [
           "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
         ]
@@ -1194,31 +1261,50 @@
       "earnscape": {
         "alias": "EarnScape",
         "gradientBackground": "linear-gradient(#0a0b0a, #072013)",
-        "url": "https://earnscape.io/",
         "description": "While you play, you earn rewards. It's that simple. Every game on your phone is compatible.",
+        "categories": {
+            "gaming": [ "mobile"]
+        },
+        "social": {
+          "website": "https://earnscape.io/",
+          "x": "https://x.com/earnscape",
+          "telegram": "https://t.me/earnscapeio",
+          "discord": "https://t.me/earnscapeio"
+        },
         "dappradar": false
+        
       },
       "hangry-animals": {
         "alias": "Hangry Animals",
         "gradientBackground": "linear-gradient(rgb(239 255 0), rgb(158 170 9))",
         "url": "https://hangryanimals.com/",
         "description": "Hangry Animals is a comprehensive ecosystem that blends gaming with charity, where players engage in quests and level completions to support animal welfare.",
-        "tags": [
-          "Games",
-          "NFT"
-        ],
+        "categories": {
+          "gaming": [ "casual"]
+      },
+      "social": {
+        "website": "https://hangryanimals.com/",
+        "x": "https://x.com/hangryanimals",
+        "telegram": "https://t.me/HangryAnimalsCommunity",
+        "discord": "https://discord.com/invite/HangryAnimals"
+      },
         "dappradar": false
       },
       "floki-cyber-punk": {
         "alias": "Floki Cyber Punk",
         "background": "gray",
         "gradientBackground": "linear-gradient(360deg, rgb(0 0 0), rgb(44 11 52))",
-        "url": "https://flokicyberpunk.com/",
         "description": "Floki Cyber Punk is a multiplayer game that invites players to dive into online battles in a vibrant and engaging world where players can fight, earn, and grow within a dynamic digital ecosystem.",
+       "categories": {
+            "gaming": [ "pc", "casual"]
+        },
+        "social": {
+          "website": "https://flokicyberpunk.com/",
+          "x": "https://x.com/flokicyberpunk",
+          "telegram": "https://t.me/FlokiCyberPunk_NFT",
+          "discord": "https://t.me/FlokiCyberPunk_NFT"
+        },
         "dappradar": "flokicyberpunk",
-        "tags": [
-          "Games"
-        ],
         "contracts": [
           "0x8fD582331cf2a23aF3a5F8F3bdF4Aad24c012061",
           "0xD9105456dB9E0Ee73aA7349EF10b140e78BEbd2c"
