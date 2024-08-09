@@ -1070,8 +1070,7 @@
         "alias": "PixelRealm",
         "background": "gray",
         "gradientBackground": "linear-gradient(90deg,#02161b,#02042e 26.04%,#14032d 51.56%,#170223 77.08%,#100113)",
-        "url": "https://nftb.io/",
-        "description": "NFTb is the Binance backed go-to Gaming Platform committed to grow Web3 gaming projects at any stage since 2021 supporting with NFT/token sales, project token liquidity boosting initiatives, marketing and player growth initiatives.",
+        "description": "Pixel Realm is the Binance backed go-to Gaming Platform committed to grow Web3 gaming projects at any stage since 2021 supporting with NFT/token sales, project token liquidity boosting initiatives, marketing and player growth initiatives.",
         "categories": {
           "gaming": [
             "metaverse"
