@@ -1127,24 +1127,6 @@
           "discord": "https://discord.com/invite/zJqTExywtA"
         }
       },
-      "degen-royale": {
-        "alias": "Degen Royale",
-
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
-        "description": "Join epic battles and claim victory",
-        "categories": {
-          "gaming": [
-            "action-adventure",
-            "pc"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://degenroyale.net/",
-          "x": "https://x.com/Degen_Royale",
-          "discord": "https://discord.com/invite/fbPVv25bx8"
-        }
-      },
       "boudicea": {
         "alias": "Boudicea",
 
@@ -1163,6 +1145,24 @@
           "discord": "https://discord.com/invite/Boudicea"
         },
         "added": 1691430179
+      },
+      "degen-royale": {
+        "alias": "Degen Royale",
+
+        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "description": "Join epic battles and claim victory",
+        "categories": {
+          "gaming": [
+            "action-adventure",
+            "pc"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://degenroyale.net/",
+          "x": "https://x.com/Degen_Royale",
+          "discord": "https://discord.com/invite/fbPVv25bx8"
+        }
       },
       "cryptopolis": {
         "alias": "Cryptopolis",
