@@ -236,18 +236,6 @@
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
-      "virtualness": {
-        "alias": "Virtualness",
-        "gradientBackground": "linear-gradient(230deg, #18232f, #0d141c)",
-        "description": "Virtualness enables proof of authenticity using AI-powered blockchain, addressing credential forgery and deep fakes. Companies can design and issue secure, immutable, and globally verifiable digital certificates.",
-        "contracts": [
-          "0xc8956A816aC7B35207202982da9cebc375bE378c"
-        ],
-        "categories": {
-          "digital-collectibles": null,
-          "ai": null
-        }
-      },
       "reneverse": {
         "alias": "Reneverse",
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
@@ -354,18 +342,6 @@
           "0xE9e53822504270a13c690bF4458341a0E4D408Ad"
         ]
       },
-      "tank-wars-zone": {
-        "alias": "Tank Wars Zone",
-        "gradientBackground": "linear-gradient(270deg, #191f54, #212b7c)",
-        "description": "Design your own 3D Tank Model and sell it in our game marketplace. Everyone can buy or trade these tanks and play them in all gameplay modes.",
-        "categories": {
-          "gaming": [
-            "pc",
-            "browser"
-          ],
-          "digital-collectibles": null
-        }
-      },
       "pixudi": {
         "alias": "Pixudi",
         "gradientBackground": "linear-gradient(270deg, rgb(31, 25, 49), rgb(64 50 85))",
@@ -458,21 +434,10 @@
           "digital-collectibles": null
         },
         "social": {
-          "website": "https://hurley.jump.trade/"
+          "website": "https://hurley.jump.trade/",
+          "twiter": "https://t.me/jumptradenft",
+          "telegram": "https://t.me/jumptradenft"
         }
-      },
-      "solo": {
-        "alias": "Solo Network",
-        "gradientBackground": "linear-gradient(rgb(251 240 239), rgb(232 207 203))",
-        "description": "Welcome to SOLO: Your Gateway to the Future of Learning and Employment.",
-        "tags": [
-          "Social",
-          "Knowledge",
-          "Photos"
-        ],
-        "contracts": [
-          "0xC8B02F11Eb73bdA88375DE326FBeA88037b2e210"
-        ]
       },
       "hitmakr": {
         "alias": "Hitmakr",
@@ -738,6 +703,22 @@
           "telegram": "https://t.me/unipolygamesn"
         }
       },
+      "voxelverse": {
+        "alias": "VoxelVerse",
+
+        "gradientBackground": "gray",
+        "description": "The Voxelverse is a sandbox-style survival game that allows players to participate in quests, PVP, and freebuild scenarios while playing the role of a Prospector.",
+        "categories": {
+          "gaming": [
+            "action-adventure", "sandbox"
+          ]
+        },
+        "social": {
+          "website": "https://pickaxecrypto.io/",
+          "x": "https://x.com/voxelverseinfo",
+          "discord": "https://discord.com/invite/JBFYtybhR4"
+        }
+      },
       "vaselabs": {
         "alias": "Vaselabs",
         "gradientBackground": "gray",
@@ -768,6 +749,21 @@
           "github": "https://github.com/VitalVeda"
         }
       },
+      "starwolvez": {
+        "alias": "Starwolvez",
+        "gradientBackground": "gray",
+        "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others.",
+        "categories": {
+          "gaming": [
+            "strategy", "pc"
+          ]
+        },
+        "social": {
+          "website": "https://www.starwolvez.com/",
+          "x": "https://x.com/intent/follow?screen_name=starwolvez",
+          "discord": "https://discord.com/invite/starwolvez"
+        }
+      },
       "the-last-monarchy": {
         "alias": "The Last Monarchy",
         "gradientBackground": "gray",
@@ -786,7 +782,7 @@
         }
       },
       "token-tails": {
-        "alias": "The Last Monarchy",
+        "alias": "Token Tails",
         "gradientBackground": "gray",
         "description": "World's first play-to-save game dedicated to supporting sick and homeless cats.",
         "categories": {
@@ -1374,14 +1370,6 @@
           "0x90BF5e3622e1597Cde0193daB61b7171be0Fa63F"
         ]
       },
-      "jump-trade": {
-        "alias": "Jump.trade",
-        "gradientBackground": "linear-gradient(181deg, rgb(12 12 12) 0%, rgb(23 21 10))",
-        "description": "Jump.trade, a premium NFT marketplace, brings exclusive NFT collections in a one-of-a-kind ecosystem featuring game, brands and international artists. UnfoldingNFTs that hold a global impact.",
-        "contracts": [
-          "0x3caF566834783a91Fb44Dfa750A59d57269aD612"
-        ]
-      },
       "dexgo": {
         "alias": "DexGO",
 
@@ -1741,22 +1729,6 @@
           "0xc524F3022A09EE3163e071241C1D85c4F9140240"
         ]
       },
-      "nftmining": {
-        "alias": "NFTMining",
-
-        "gradientBackground": "linear-gradient(270deg, #15141d, #32143b)",
-        "description": "NFTMining is a platform that expands the utility of NFT collections and allows their communities to earn tokens and rewards. NFT holders can utilize their NFTs to earn tradeable tokens in real time. The NFTs never need to leave the wallet, providing users with a secure & safe method to stake and earn, enriching the NFT experience for the holders.",
-        "tags": [
-          "digital-collectibles",
-          "Staking",
-          "Social"
-        ],
-        "contracts": [
-          "0xE9d487B950A5075D8eaB084e2E04971340765b86",
-          "0xB4F39D20de49EE86c1d880B1b236684a5F875a87",
-          "0xD16539Fa2Fe90F80066a103dDB78cA81Bc33166B"
-        ]
-      },
       "metasoccer": {
         "alias": "MetaSoccer",
 
@@ -1827,20 +1799,6 @@
           "0x1536dbCc39c78B3e6f136339a64227b9936EB403",
           "0xEF36f9A449758cC0eC265C04dDe092A583516f65",
           "0x045521B29A6991f90A9227C4ABF076933e4c3C04"
-        ]
-      },
-      "rise-online-world": {
-        "alias": "Rise Online World",
-
-        "gradientBackground": "linear-gradient(270deg, #1b1b1b, #080808)",
-        "url": "https://www.riseonlineworld.com",
-        "description": "Rise Online World is a Turkish production MMORPG video game developed and published by RokoGame Studios. The game is about the war between Protean and Lunaskar. Rise Online launched the closed Beta Version in September 2021.",
-        "tags": [
-          "digital-collectibles",
-          "Games"
-        ],
-        "contracts": [
-          "0xC23F65a409A236591d4ff36E37684993AC9fBd93"
         ]
       },
       "roco-finance": {
