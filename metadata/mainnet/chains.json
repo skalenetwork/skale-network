@@ -1926,7 +1926,6 @@
           "github": "https://github.com/LedgerHQ"
         },
         "dappradar": false
-      }
       },
       "consensys": {
         "alias": "ConsenSys",
@@ -1945,4 +1944,5 @@
         }
     }
   }
+}
 }
