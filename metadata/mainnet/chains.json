@@ -1964,7 +1964,7 @@
         },
         "description": "BlockScout Explorer is an application for viewing, confirming, and inspecting transactions on EVM (Ethereum Virtual Machine) blockchains.",
         "social": {
-          "website": "https://blockscout.com/xdai/mainnet/",
+          "website": "https://www.blockscout.com/",
           "twiter": "https://x.com/blockscoutcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/blockscoutcommunity",
           "github": "https://github.com/blockscout"
