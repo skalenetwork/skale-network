@@ -1093,7 +1093,7 @@
       "cryptofights": {
         "alias": "CryptoFights",
 
-        "gradientBackground": "linear-gradient(180deg, #4E5669, #AE9CAC)",
+        "gradientBackground": "linear-gradient(180deg, #4e5669, #aE9Cac)",
         "description": "Prepare for the saga of CryptoFights, where heroes ascend, legends collide and the destiny of Elderia hangs on the edge of your will.",
         "categories": {
           "gaming": [
