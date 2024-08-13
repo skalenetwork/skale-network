@@ -1927,6 +1927,22 @@
         },
         "dappradar": false
       }
+      },
+      "consensys": {
+        "alias": "ConsenSys",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "tools": null,
+          "partner": null
+        },
+        "description": "Consensys makes it easy to build applications on Ethereum.",
+        "social": {
+          "website": "https://consensys.net/",
+          "twiter": "https://x.com/Consensys?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/consensys",
+          "discord": "https://discord.com/invite/consensys",
+          "github": "https://github.com/Consensys"
+        }
     }
   }
 }
