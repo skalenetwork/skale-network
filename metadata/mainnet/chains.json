@@ -1091,7 +1091,7 @@
       "cryptofights": {
         "alias": "CryptoFights",
 
-        "gradientBackground": "linear-gradient(180deg, ##292831, #17161b)",
+        "gradientBackground": "linear-gradient(180deg, #292831, #17161b)",
         "description": "Prepare for the saga of CryptoFights, where heroes ascend, legends collide and the destiny of Elderia hangs on the edge of your will.",
         "categories": {
           "gaming": [
@@ -2023,6 +2023,35 @@
           "website": "https://labrys.io/",
           "twiter": "https://x.com/labrys_io",
           "github": "https://github.com/Labrys-Group"
+        }
+      },
+      "lunacrush": {
+        "alias": "Lunacrush",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "tools": null
+        },
+        "description": "Discover the latest cryptocurrency, NFTs and stock insights with LunarCrush social media analytics.",
+        "social": {
+          "website": "https://lunarcrush.com/",
+          "twiter": "https://x.com/lunarcrush",
+          "telegram": "https://t.me/s/lunarcrush",
+          "github": "https://github.com/saizk/LunarCrushAPI"
+        }
+      },
+      "messari": {
+        "alias": "Messari",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "tools": null,
+          "data-information": null,
+          "partner": null
+        },
+        "description": "Messari provides crypto market intelligence products that help professionals navigate crypto/Web3.",
+        "social": {
+          "website": "https://messari.io/",
+          "twiter": "https://x.com/MessariCrypto",
+          "github": "https://github.com/messari"
         }
       },
       "consensys-deligence": {
