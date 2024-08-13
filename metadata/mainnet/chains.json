@@ -266,7 +266,7 @@
       },
       "belong": {
         "alias": "Belong",
-        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
+        "gradientBackground": "linear-gradient(230deg, rgb(22 22 22), rgb(22 22 22))",
         "description": "Token gating for communities, events, RWA and DePIN.",
         "categories": {
           "digital-collectibles": null
@@ -462,10 +462,8 @@
         "gradientBackground": "linear-gradient(rgb(30, 86, 170), rgb(13 81 100))",
         "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
         "categories": {
-          "gaming": [
-            "pc",
-            "platformer"
-          ]
+          "social-network":null,
+          "data-information":null
         },
         "social": {
           "website": "https://sirkl.io/",
@@ -1093,7 +1091,7 @@
       "cryptofights": {
         "alias": "CryptoFights",
 
-        "gradientBackground": "linear-gradient(180deg, #4e5669, #aE9Cac)",
+        "gradientBackground": "linear-gradient(180deg, ##292831, #17161b)",
         "description": "Prepare for the saga of CryptoFights, where heroes ascend, legends collide and the destiny of Elderia hangs on the edge of your will.",
         "categories": {
           "gaming": [
@@ -1130,7 +1128,7 @@
       "boudicea": {
         "alias": "Boudicea",
 
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #040404, #030303)",
         "description": "In Boudicea, a play-to-earn NFT-based game, become a tribal warrior under Queen Boudicea to protect the Iceni tribe.",
         "categories": {
           "gaming": [
@@ -1167,7 +1165,7 @@
       "cryptopolis": {
         "alias": "Cryptopolis",
 
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #253442, #93AABC)",
         "description": "Cryptopolis is an online social NFT game where you take your shot at becoming the wealthiest Cryptopian of the Tower.",
         "categories": {
           "gaming": [
