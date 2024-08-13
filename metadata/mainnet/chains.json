@@ -1093,7 +1093,7 @@
       "cryptofights": {
         "alias": "CryptoFights",
 
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #4E5669, #AE9CAC)",
         "description": "Prepare for the saga of CryptoFights, where heroes ascend, legends collide and the destiny of Elderia hangs on the edge of your will.",
         "categories": {
           "gaming": [
@@ -1926,6 +1926,134 @@
           "github": "https://github.com/LedgerHQ"
         },
         "dappradar": false
+      },
+      "cv-pad": {
+        "alias": "CV Pad",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "partner": null
+        },
+        "description": "Curated early-stage Web3 projects, powered by an industry-leading fund and a powerful web3 ecosystem.",
+        "social": {
+          "website": "https://www.cvpad.io/",
+          "twiter": "https://x.com/CvPad_xyz",
+          "telegram": "https://t.me/CVPAD_NEWS"
+        }
+      },
+      "bitski": {
+        "alias": "Bitski",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "partner": null,
+          "wallet":null,
+          "digital-collectibles":null
+        },
+        "description": "The NFT wallet for everyone.",
+        "social": {
+          "website": "https://www.bitski.com/",
+          "twiter": "https://x.com/bitski?lang=en",
+          "github": "https://github.com/BitskiCo"
+        }
+      },
+      "blockscout": {
+        "alias": "Blockscout",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "partner": null,
+          "tools":null,
+          "defi":null,
+          "explorer":null
+        },
+        "description": "BlockScout Explorer is an application for viewing, confirming, and inspecting transactions on EVM (Ethereum Virtual Machine) blockchains.",
+        "social": {
+          "website": "https://blockscout.com/xdai/mainnet/",
+          "twiter": "https://x.com/blockscoutcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/blockscoutcommunity",
+          "github": "https://github.com/blockscout"
+        }
+      },
+      "braintrust": {
+        "alias": "Braintrust",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "partner": null
+        },
+        "description": "Braintrust connects organizations with top technical talent to complete strategic projects and drive innovation.",
+        "social": {
+          "website": "https://www.usebraintrust.com/",
+          "twiter": "https://x.com/usebraintrust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "github": "https://github.com/braintrustdata"
+        }
+      },
+      "formatic": {
+        "alias": "Formatic",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "partner": null,
+          "wallet":null
+        },
+        "description": "Formatic lets users access your Ethereum app from anywhere.",
+        "social": {
+          "website": "https://fortmatic.com/",
+          "twiter": "https://x.com/fortmatic?lang=en",
+          "github": "https://github.com/fortmatic"
+        }
+      },
+      "halliday": {
+        "alias": "Halliday",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "partner": null,
+          "wallet":null
+        },
+        "description": "A unified wallet for every Appchain.",
+        "social": {
+          "website": "https://halliday.xyz/",
+          "twiter": "https://x.com/HallidayHQ",
+          "discord": "https://discord.gg/t5XSFC2SxH"
+        }
+      },
+      "labrys": {
+        "alias": "Labrys",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "tools": null,
+          "digital-collectibles":null
+        },
+        "description": "Labrys helps some of the world’s largest blockchain organisations conceptualise, plan, design, develop and launch blockchain applications.",
+        "social": {
+          "website": "https://labrys.io/",
+          "twiter": "https://x.com/labrys_io",
+          "github": "https://github.com/Labrys-Group"
+        }
+      },
+      "consensys-deligence": {
+        "alias": "ConsenSys Diligence",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "security": null,
+          "partner": null
+        },
+        "description": "Blockchain Security & Ethereum Smart Contract Audits.",
+        "social": {
+          "website": "https://consensys.net/diligence/",
+          "twiter": "https://x.com/ConsensysAudits?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "github": "https://github.com/ConsenSysDiligence"
+        }
+      },
+      "cookbook": {
+        "alias": "Cookbook",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "tools": null,
+          "partner": null
+        },
+        "description": "The easiest way for web3 developers to find documented smart contracts, solidity libraries, and discover protocols.",
+        "social": {
+          "website": "https://www.cookbook.dev/",
+          "twiter": "https://x.com/cookbook_dev?lang=en",
+          "discord": "https://t.co/ArwSyKJTLB"
+        }
       },
       "consensys": {
         "alias": "ConsenSys",
