@@ -31,8 +31,9 @@
         },
         "social": {
           "website": "https://capitaldex.exchange/",
-          "telegram": "https://x.com/dex_capital?lang=en",
-          "x": "https://x.com/dex_capital?lang=en"
+          "telegram": "https://t.me/CurioInvestCommunity",
+          "x": "https://x.com/dex_capital?lang=en",
+          "github": "https://github.com/CurioTeam"
         }
       },
       "mesonfi": {
@@ -1147,7 +1148,7 @@
       "degen-royale": {
         "alias": "Degen Royale",
 
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "Join epic battles and claim victory",
         "categories": {
           "gaming": [
