@@ -274,7 +274,7 @@
       },
       "mintpass": {
         "alias": "MintPass",
-        "gradientBackground": "linear-gradient(230deg, rgb(3 10 18), rgb(3 9 17))",
+        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(255 255 255))",
         "description": "Share your travels and get rewarded for your recommendations.",
         "categories": {
           "ai": null,
@@ -1226,7 +1226,7 @@
       },
       "burgercities": {
         "alias": "BurgerCities",
-        "gradientBackground": "linear-gradient(180deg, #07070F, #0B090E)",
+        "gradientBackground": "linear-gradient(180deg, #12121A, #19141A)",
         "description": "BurgerCities is a one-stop play & earn MetaFi platform.",
         "categories": {
           "gaming": [
@@ -1898,7 +1898,7 @@
     "apps": {
       "ledger": {
         "alias": "Ledger",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
           "wallet": null,
           "partner": null
@@ -2028,7 +2028,7 @@
       },
       "messari": {
         "alias": "Messari",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
           "tools": null,
           "data-information": null,
