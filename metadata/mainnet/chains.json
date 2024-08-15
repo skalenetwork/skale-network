@@ -891,7 +891,7 @@
       },
       "navis-war": {
         "alias": "Navis War",
-        "gradientBackground": "linear-gradient(180deg, #0A080A, #0A080A)",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Get ready to battle. Join the fray in Navis War, a gripping naval battle game that immerses you in the heart of intense sea warfare.",
         "categories": {
           "gaming": [
@@ -2014,7 +2014,7 @@
       },
       "lunacrush": {
         "alias": "Lunacrush",
-        "gradientBackground": "linear-gradient(150deg, #0B0D12, #0B0D12)",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
           "tools": null
         },
