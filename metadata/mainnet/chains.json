@@ -725,7 +725,7 @@
       },
       "voxelverse": {
         "alias": "VoxelVerse",
-        "gradientBackground": "gray",
+        "gradientBackground": "linear-gradient(180deg, #FFDD88, #59401A)",
         "description": "The Voxelverse is a sandbox-style survival game that allows players to participate in quests, PVP, and freebuild scenarios while playing the role of a Prospector.",
         "categories": {
           "gaming": [
@@ -771,7 +771,7 @@
       },
       "starwolvez": {
         "alias": "Starwolvez",
-        "gradientBackground": "gray",
+        "gradientBackground":"linear-gradient(180deg, #0F0F16, #0F0F16)",
         "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others.",
         "categories": {
           "gaming": [
@@ -991,7 +991,7 @@
       },
       "felines-of-sarvia": {
         "alias": "Felines of Sarvia",
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "white",
         "description": "Felines of Sarvia is an Idle Clicker Game in which you manage your own Guild of Adventuring Warrior Cats.",
         "categories": {
           "gaming": [
