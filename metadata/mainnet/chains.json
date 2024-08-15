@@ -1952,14 +1952,14 @@
           "github": "https://github.com/braintrustdata"
         }
       },
-      "formatic": {
-        "alias": "Formatic",
+      "fortmatic": {
+        "alias": "Fortmatic",
         "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
         "categories": {
           "partner": null,
           "wallet": null
         },
-        "description": "Formatic lets users access your Ethereum app from anywhere.",
+        "description": "Fortmatic lets users access your Ethereum app from anywhere.",
         "social": {
           "website": "https://fortmatic.com/",
           "twiter": "https://x.com/fortmatic?lang=en",
