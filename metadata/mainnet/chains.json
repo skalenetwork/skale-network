@@ -1959,7 +1959,7 @@
       },
       "braintrust": {
         "alias": "Braintrust",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
           "partner": null
         },
