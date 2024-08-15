@@ -82,11 +82,29 @@
         "alias": "Lazy Sloth",
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #AADFF1, #AADFF1)",
-        "description": "Lazy Sloth is a Web3 game where players collect and trade unique digital sloths, each with distinct abilities and traits, on a blockchain-powered adventure."
+        "description": "Lazy Sloth is a Web3 game where players collect and trade unique digital sloths, each with distinct abilities and traits, on a blockchain-powered adventure.",
         "url": "https://lazy-sloth.ua.com",
         "contracts": [
           "0xfd1DBBF7BC8C486E16c92ed5ab08f8AeEb27635c"
         ]
+      },
+      "superduper": {
+        "featured": true,
+        "dappradar": true,
+        "alias": "Super Duper",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #7a49a5, #7a49a5)",
+        "description": "Super Duper is a high-energy Web3 game where players race to collect rare, powerful items and characters, competing in thrilling challenges for blockchain-based rewards.",
+        "url": "https://super-duper.com"
+      },
+      "watermelon": {
+        "featured": true,
+        "dappradar": true,
+        "alias": "Watermelon Farm",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #565fe3, #565fe3)",
+        "description": "Watermelon is a vibrant Web3 game where players grow, harvest, and trade unique digital watermelons, each with special traits, in a dynamic blockchain ecosystem.",
+        "url": "https://watermelonfarm.com"
       },
       "cardex": {
         "alias": "CarDex",
