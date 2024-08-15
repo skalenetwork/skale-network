@@ -1226,7 +1226,7 @@
       },
       "burgercities": {
         "alias": "BurgerCities",
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #07070F, #0B090E)",
         "description": "BurgerCities is a one-stop play & earn MetaFi platform.",
         "categories": {
           "gaming": [
