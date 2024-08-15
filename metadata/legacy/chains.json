@@ -76,6 +76,18 @@
           "0x0E53fDa415cc6b2a7D9495D4a1F0659F0Ee45e0d"
         ]
       },
+      "lazysloth": {
+        "featured": true,
+        "dappradar": true,
+        "alias": "Lazy Sloth",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #AADFF1, #AADFF1)",
+        "description": "Lazy Sloth is a Web3 game where players collect and trade unique digital sloths, each with distinct abilities and traits, on a blockchain-powered adventure."
+        "url": "https://lazy-sloth.ua.com",
+        "contracts": [
+          "0xfd1DBBF7BC8C486E16c92ed5ab08f8AeEb27635c"
+        ]
+      },
       "cardex": {
         "alias": "CarDex",
         "background": "gray",
