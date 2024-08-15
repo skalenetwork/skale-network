@@ -13,7 +13,7 @@
     "apps": {
       "capital-dex": {
         "alias": "Capital DEX",
-        "gradientBackground": "linear-gradient(45deg, #0e0e0e, #0e1a36)",
+        "gradientBackground": "linear-gradient(45deg, #FFFFFF, #FFFFFF)",
         "description": "Swap, earn, farm crypto on the most cost-efficient decentralized exchange in the metaverse. ",
         "contracts": [
           "0x698EA133CBA3BACD4aA6405411d8e8c1726D5f61",
@@ -39,7 +39,7 @@
       },
       "mesonfi": {
         "alias": "Meson.Fi",
-        "gradientBackground": "linear-gradient(45deg, #0e0e0e, #0e1a36)",
+        "gradientBackground": "linear-gradient(45deg, #EFF3EB, #EFF4EA)",
         "description": "Stablecoin bridge connecting SKALE to more than 20 different chains. ",
         "categories": {
           "defi": null,
@@ -136,13 +136,20 @@
   "affectionate-immediate-pollux": {
     "alias": "CryptoBlades",
     "shortAlias": "cryptoblades",
-    "background": "#061126",
+    "background": "#121411",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
     "categories": {
-      "gaming": null
+      "gaming": ["pc", "rpg"],
+      "metaverse":null
     },
-    "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
-    "url": "https://www.cryptoblades.io/"
+    "social": {
+      "website":"https://www.cryptoblades.io/",
+            "x": "https://x.com/cryptoblades?lang=en",
+            "telegram": "https://t.me/cryptoblades_general",
+            "discord": "https://discord.com/invite/WZDx96TNb3",
+            "github": "https://github.com/CryptoBlades/cryptoblades"
+        },
+    "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!"
   },
   "portly-passionate-sirius": {
     "alias": "Solydaria",
@@ -375,7 +382,7 @@
       },
       "lightning-works": {
         "alias": "Lightning Works",
-        "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
+        "gradientBackground": "linear-gradient(rgb(33 40 54), rgb(37 43 56))",
         "description": "Creator App. With our platform, you can create complete NFT comic books without any prior knowledge of smart contracts or blockchain technology.",
         "categories": {
           "gaming": [
@@ -520,7 +527,7 @@
       },
       "forumai": {
         "alias": "ForumAI",
-        "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
+        "gradientBackground": "linear-gradient(270deg, #003F4B, #002637)",
         "description": "Access the most powerful open-source machine learning models on ForumAI's marketplace, hosted by data centers around the world.",
         "categories": {
           "ai": null
@@ -648,7 +655,7 @@
     "apps": {
       "dypius": {
         "alias": "Dypius",
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #5550D8, #5650D8)",
         "description": "Dypius is a powerful, decentralized ecosystem with a focus on scalability, security, and global adoption through next-gen infrastructure",
         "categories": {
           "defi": null
@@ -661,7 +668,7 @@
       },
       "land-of-chasers": {
         "alias": "Land of Chasers",
-        "gradientBackground": "gray",
+        "gradientBackground": "linear-gradient(180deg, #0A070D, #0D0A0F)",
         "description": "Land of Chasers is a roguelike action RPG set on a growing planet.",
         "categories": {
           "gaming": [
@@ -909,7 +916,7 @@
       },
       "metaverser": {
         "alias": "Metaverser",
-        "gradientBackground": "gray",
+        "gradientBackground": "linear-gradient(180deg, #261530, #151121)",
         "description": "First virtual free-to-play, play-to-earn world where you can create a custom 3D avatar, compete, utilize NFTs, mine $MTVT, socialize & much more!",
         "categories": {
           "metaverse": null,
@@ -942,7 +949,7 @@
       },
       "megafans": {
         "alias": "MegaFans",
-        "gradientBackground": "gray",
+        "gradientBackground":"linear-gradient(180deg, #010105, #040412)",
         "description": "Unlock the full potential of your gaming experience with #MegaFans Elevate your gameplay, enhance collaboration, and level up your victories.",
         "categories": {
           "gaming": [
@@ -960,7 +967,7 @@
       },
       "lapsus-next": {
         "alias": "Lapsus Next",
-        "gradientBackground": "gray",
+        "gradientBackground": "linear-gradient(180deg, #14141C, #111119)",
         "description": "Embark on a culinary journey like no other in 'Ramen Rumble: Apocalypse Express,' where the aroma of savory ramen meets the thrill of post-apocalyptic combat.",
         "categories": {
           "gaming": [
@@ -991,7 +998,7 @@
       },
       "FusionwaveaI": {
         "alias": "FusionwaveAI",
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "FusionwaveAI aims to become a robust Web3 Gaming and Generative AI platform, while building an AI driven Metaverse.",
         "categories": {
           "gaming": null,
@@ -1005,7 +1012,7 @@
       },
       "fusyfox": {
         "alias": "FusyFox",
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #060B11, #060B11)",
         "description": "FusyFox is a Web3 project that offers a fast-paced multiplayer third-person shooter game.",
         "categories": {
           "gaming": null,
@@ -1071,7 +1078,7 @@
       },
       "ghost-merc-frontlines": {
         "alias": "Ghost Merc: Frontlines",
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #030E12, #0D2D36)",
         "description": "Players assume the role of elite mercenaries, recruited by various factions to execute high-stakes missions across the globe.",
         "categories": {
           "gaming": [
@@ -1105,7 +1112,7 @@
       },
       "cthulhu-awakens": {
         "alias": "Cthulhu Awakens",
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #010100, #a010100)",
         "description": "An ancient cosmic horror is rising again! Bringing cosmic nightmares and decentralized fun to your screens!",
         "categories": {
           "gaming": [
@@ -1176,7 +1183,7 @@
       },
       "bullierverse": {
         "alias": "Bullieverse",
-        "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
+        "gradientBackground": "linear-gradient(180deg, #060001, #300306)",
         "description": "Bullieverse is an ever-expanding world with an arcade of games for the community to play and earn rewards.",
         "categories": {
           "gaming": [
@@ -1277,7 +1284,7 @@
       "motodex": {
         "alias": "MotoDEX",
         "description": "MotoDEX is a NFT game, competition of multi-level racing on motorcycles on high-speed tracks with unlimited opportunities for players.",
-        "gradientBackground": "linear-gradient(92deg, rgb(18, 18, 18) 0%, rgb(56, 57, 59)",
+        "gradientBackground": "linear-gradient(92deg, rgb(3, 17, 66) 0%, rgb(10, 67, 174)",
         "categories": {
           "gaming": [
             "mobile",
@@ -1357,7 +1364,7 @@
       },
       "dexgo": {
         "alias": "DexGO",
-        "gradientBackground": "linear-gradient(92deg, rgb(68 138 255) 0%, rgb(68 138 255))",
+        "gradientBackground": "linear-gradient(92deg, rgb(7 9 10) 0%, rgb(7 8 10))",
         "description": "What is a DexGO? This is an NFT game with elements of augmented reality. Put on NFT sneakers and walk along new interesting routes. Guaranteed to earn USDT by completing simple and fun quests and sharing with your followers.",
         "categories": {
           "gaming": [
@@ -1465,7 +1472,7 @@
       },
       "mystrios": {
         "alias": "Mystrios",
-        "gradientBackground": "linear-gradient(#1b2776, #050a2c)",
+        "gradientBackground": "linear-gradient(#1E2340, #1E2340)",
         "description": "Immerse yourself in the world of Mystrios for an unprecedented Play-to-Earn experience, now live on SKALE. Unparalleled gaming begins here.",
         "categories": {
           "gaming": [
@@ -1970,7 +1977,7 @@
       },
       "halliday": {
         "alias": "Halliday",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
           "partner": null,
           "wallet": null
@@ -1998,7 +2005,7 @@
       },
       "lunacrush": {
         "alias": "Lunacrush",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, #0B0D12, #0B0D12)",
         "categories": {
           "tools": null
         },
@@ -2027,7 +2034,7 @@
       },
       "consensys-deligence": {
         "alias": "ConsenSys Diligence",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, #202020, #111111)",
         "categories": {
           "security": null,
           "partner": null
@@ -2041,7 +2048,7 @@
       },
       "cookbook": {
         "alias": "Cookbook",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, #31333A, #202023)",
         "categories": {
           "tools": null,
           "partner": null
@@ -2055,7 +2062,7 @@
       },
       "consensys": {
         "alias": "ConsenSys",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
           "tools": null,
           "partner": null
