@@ -1972,7 +1972,7 @@
       },
       "fortmatic": {
         "alias": "Fortmatic",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "gradientBackground": "white",
         "categories": {
           "partner": null,
           "wallet": null
