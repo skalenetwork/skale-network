@@ -1500,7 +1500,7 @@
       },
       "mystrios": {
         "alias": "Mystrios",
-        "gradientBackground": "linear-gradient(#FF5755, #1E2340)",
+        "gradientBackground": "linear-gradient(#1E2341, #1E2341)",
         "description": "Immerse yourself in the world of Mystrios for an unprecedented Play-to-Earn experience, now live on SKALE. Unparalleled gaming begins here.",
         "categories": {
           "gaming": [
