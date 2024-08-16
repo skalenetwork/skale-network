@@ -1906,8 +1906,23 @@
         "shooter"
       ]
     },
-    "url": "https://strayshot.game/",
-    "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches."
+    "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches.",
+    "apps":{
+      "strayshot": {
+        "alias": "StrayShot",
+        "gradientBackground": "linear-gradient(150deg, #151619, #151619)",
+        "categories": {
+          "gaming": ["pc", "action-adventure","shooter"]
+        },
+        "description": "The next Gen Play To Earn Battle Royale built on ⛓ Blockchain.",
+        "social": {
+          "website": "https://strayshot.game/",
+          "twiter": "https://x.com/StrayShotGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/StrayShot_Chat",
+          "discord": "https://discord.com/invite/Strayshot"
+    }
+  }
+}
   },
   "__offchain": {
     "alias": "Off-chain",
