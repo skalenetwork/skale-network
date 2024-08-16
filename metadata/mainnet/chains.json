@@ -1500,7 +1500,7 @@
       },
       "mystrios": {
         "alias": "Mystrios",
-        "gradientBackground": "linear-gradient(#1E2340, #1E2340)",
+        "gradientBackground": "linear-gradient(#FF5755, #FF5755)",
         "description": "Immerse yourself in the world of Mystrios for an unprecedented Play-to-Earn experience, now live on SKALE. Unparalleled gaming begins here.",
         "categories": {
           "gaming": [
@@ -2062,7 +2062,7 @@
           "github": "https://github.com/messari"
         }
       },
-      "consensys-deligence": {
+      "consensys-diligence": {
         "alias": "ConsenSys Diligence",
         "gradientBackground": "linear-gradient(150deg, #202020, #111111)",
         "categories": {
