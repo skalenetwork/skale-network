@@ -50,7 +50,8 @@
           "telegram": "https://t.co/LyGsNBl7IS",
           "x": "https://x.com/mesonfi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "discord": "https://discord.com/invite/meson",
-          "github": "https://github.com/MesonFi"
+          "github": "https://github.com/MesonFi",
+          "dappradar":"https://dappradar.com/dapp/meson"
         }
       },
       "transak": {
@@ -345,7 +346,8 @@
           "website": "https://nftrade.com/",
           "x": "https://x.com/NFTradeOfficial",
           "telegram": "https://t.me/NFTrade",
-          "discord": "https://discord.com/invite/nftrade-828549961700081715"
+          "discord": "https://discord.com/invite/nftrade-828549961700081715",
+          "dappradar": "https://dappradar.com/dapp/nftrade"
         },
         "contracts": [
           "0xaff8a3e3B69E4e88e83B589ED080560C4359BBa8"
@@ -364,7 +366,8 @@
         },
         "social": {
           "website": "https://untitledplatformer.io/",
-          "x": "https://x.com/32bit_untitled"
+          "x": "https://x.com/32bit_untitled",
+          "dappradar": "https://dappradar.com/dapp/untitled-platformer"
         },
         "contracts": [
           "0xd3533204441F2c4046291186Ed5b67e8e2b64CdB",
@@ -470,7 +473,8 @@
         "social": {
           "website": "https://hurley.jump.trade/",
           "twiter": "https://t.me/jumptradenft",
-          "telegram": "https://t.me/jumptradenft"
+          "telegram": "https://t.me/jumptradenft",
+          "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
         }
       },
       "hitmakr": {
@@ -484,7 +488,8 @@
           "website": "https://hitmakr.io/",
           "x": "https://x.com/hitmakrr",
           "telegram": "https://t.me/Hitmakr_Portal",
-          "github": "https://github.com/IglooProtocol/hitmakr"
+          "github": "https://github.com/IglooProtocol/hitmakr",
+          "dappradar": "https://dappradar.com/dapp/hitmakr"
         },
         "contracts": [
           "0xd9624d03c14C3E2DDf4bAdf2c178612395aF30cA",
@@ -501,7 +506,8 @@
         },
         "social": {
           "website": "https://sirkl.io/",
-          "x": "https://x.com/sirkl_io"
+          "x": "https://x.com/sirkl_io",
+          "dappradar": "https://dappradar.com/dapp/sirkl"
         },
         "contracts": [
           "0x944a7A6833074122E9c2a7A5882392224C345807"
@@ -598,7 +604,8 @@
           "website": "https://www.chaingpt.org/",
           "x": "https://x.com/Chain_GPT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/chaingpt",
-          "discord": "https://discord.com/invite/sv2NfqSgVW"
+          "discord": "https://discord.com/invite/sv2NfqSgVW",
+          "dappradar": "https://dappradar.com/dapp/chaingpt"
         },
         "contracts": [
           "0x4F132eb3C7508C6394c3A1A7CF9440630B920D37"
@@ -644,7 +651,8 @@
           "website": "https://razor.network/",
           "x": "https://x.com/razor_network",
           "telegram": "https://t.me/razornetwork",
-          "github": "https://github.com/razor-network"
+          "github": "https://github.com/razor-network",
+          "dappradar": "https://dappradar.com/dapp/razor-network"
         }
       }
     }
@@ -662,6 +670,24 @@
     "faucetUrl": "http://faucet.exorde.network/",
     "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web"
   },
+  "apps": {
+    "exorde-network": {
+      "alias": "Exorde Network",
+      "gradientBackground": "linear-gradient(#40429B, #40429B)",
+      "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web.",
+      "categories": {
+        "ai": null
+      },
+      "social": {
+        "website": "https://exorde.network/",
+        "x": "https://x.com/exordelabs?lang=en",
+        "telegram": "https://t.me/exorde",
+        "discord": "https://discord.gg/DWfcz7ezSG",
+        "github": "https://github.com/exorde-labs",
+        "dappradar": "https://dappradar.com/dapp/exorde"
+      }
+    }
+    },
   "green-giddy-denebola": {
     "alias": "Nebula Gaming Hub",
     "shortAlias": "nebula",
@@ -738,7 +764,7 @@
       "voxelverse": {
         "alias": "VoxelVerse",
         "gradientBackground": "linear-gradient(180deg, #FFDD88, #59401A)",
-        "description": "The Voxelverse is a sandbox-style survival game that allows players to participate in quests, PVP, and freebuild scenarios while playing the role of a Prospector.",
+        "description": "The VoxelVerse is a sandbox-style survival game that allows players to participate in quests, PVP, and freebuild scenarios while playing the role of a Prospector.",
         "categories": {
           "gaming": [
             "action-adventure",
@@ -748,7 +774,8 @@
         "social": {
           "website": "https://pickaxecrypto.io/",
           "x": "https://x.com/voxelverseinfo",
-          "discord": "https://discord.com/invite/JBFYtybhR4"
+          "discord": "https://discord.com/invite/JBFYtybhR4",
+          "dappradar": "https://dappradar.com/dapp/voxelverse"
         }
       },
       "vaselabs": {
@@ -965,7 +992,8 @@
         },
         "social": {
           "website": "https://platformer.dirtroad.dev/",
-          "github": "https://github.com/TheGreatAxios/skale-platformer"
+          "github": "https://github.com/TheGreatAxios/skale-platformer",
+          "dappradar": "https://dappradar.com/dapp/skale-platformer"
         }
       },
       "megafans": {
@@ -1294,7 +1322,8 @@
           "website": "https://pixelrealm.io/",
           "x": "https://x.com/PixelRealmlabs",
           "telegram": "https://t.me/nftbmarket",
-          "discord": "https://discord.com/invite/4XEP5G3W7J"
+          "discord": "https://discord.com/invite/4XEP5G3W7J",
+          "dappradar": "https://dappradar.com/dapp/nftb-soon-pixelrealm"
         },
         "contracts": [
           "0xe2f691dfc01C6771f61937FF62cBbaF6B8B34f53",
@@ -1319,7 +1348,8 @@
           "website": "https://openbisea.io/motodex",
           "x": "https://x.com/openbisea",
           "telegram": "https://t.me/openbisea_en",
-          "discord": "https://discord.gg/8U3yYBkFEC"
+          "discord": "https://discord.gg/8U3yYBkFEC",
+          "dappradar": "https://dappradar.com/dapp/motodex"
         },
         "contracts": [
           "0x54bD7f566e05258AcE8eB979e4dbCE5F6376Ff38",
@@ -1402,7 +1432,8 @@
         "social": {
           "website": "https://dexgo.club/en",
           "x": "https://x.com/dexgo_official?lang=en",
-          "telegram": "https://t.me/dexgo_ua"
+          "telegram": "https://t.me/dexgo_ua",
+          "dappradar": "https://dappradar.com/dapp/dexgo"
         },
         "contracts": [
           "0xdDE147EcCe74Fe75f0bAccD67B069201E25E8Fe8",
@@ -1472,7 +1503,8 @@
         "social": {
           "website": "https://www.hatchyverse.com/games/hatchy-rampage",
           "x": "https://x.com/Hatchyverse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "discord": "https://t.co/hvNXZDB8kw"
+          "discord": "https://t.co/hvNXZDB8kw",
+          "dappradar": "https://dappradar.com/dapp/hatchyverse"
         },
         "contracts": [
           "0xdB1DF93b8B0D6aD52E124CAFE7f8D1C3c6b4294f"
@@ -1492,7 +1524,8 @@
           "website": "https://heroesbattlearena.online/",
           "x": "https://x.com/chess3app",
           "discord": "https://discord.com/invite/chess3",
-          "github": "https://github.com/heroesbattlearena"
+          "github": "https://github.com/heroesbattlearena",
+          "dappradar": "https://dappradar.com/dapp/heroes-battle-arena"
         },
         "contracts": [
           "0xc6b4C3364a957d808F09C439ccd28C8f36934a0E"
@@ -1513,7 +1546,8 @@
           "x": "https://x.com/PlanetMystrios",
           "telegram": "https://t.me/PlanetMystrios",
           "discord": "https://t.co/1bmUugq0yM",
-          "github": "https://github.com/PlanetMystrios"
+          "github": "https://github.com/PlanetMystrios",
+          "dappradar": "https://dappradar.com/dapp/mystrios"
         },
         "contracts": [
           "0xd640d4680935Dc972dCbFf067bc1BDAcDaDE6ef7",
@@ -1538,7 +1572,8 @@
           "website": "https://spellsofgenesis.com/",
           "x": "https://x.com/everdreamsoft",
           "telegram": "https://t.me/EverdreamSoft",
-          "discord": "https://t.co/f64PM9TNuh"
+          "discord": "https://t.co/f64PM9TNuh",
+          "dappradar": "https://dappradar.com/dapp/spells-of-genesis"
         },
         "contracts": [
           "0x9414633155eDd39E624F58c24a41d1f30de46CD7"
@@ -1636,7 +1671,8 @@
           "website": "https://yomigames.gg/",
           "x": "https://x.com/yomigamesgg",
           "discord": "https://t.co/mUcQarR56L",
-          "github": "https://github.com/yomi-digital"
+          "github": "https://github.com/yomi-digital",
+          "dappradar": "https://dappradar.com/dapp/yomi-block-puzzle"
         },
         "contracts": [
           "0xe94E779aBd08dd0c67d1c2530685565F19bc909a"
@@ -1751,7 +1787,8 @@
           "x": "https://x.com/playmetasoccer",
           "telegram": "https://t.me/MetaSoccerOfficial",
           "discord": "https://metasoccer.com/discord",
-          "github": "https://github.com/metasoccer"
+          "github": "https://github.com/metasoccer",
+          "dappradar": "https://dappradar.com/dapp/metasoccer"
         },
         "contracts": [
           "0x975fBFcF94Ea593e4f758E7F4e839f76153FDc7c",
@@ -1823,7 +1860,8 @@
           "x": "https://x.com/rocofinance",
           "telegram": "https://t.me/rocofinance",
           "discord": "https://discord.com/invite/Fxbf4PVtua",
-          "github": "https://github.com/rocofinance"
+          "github": "https://github.com/rocofinance",
+          "dappradar": "https://dappradar.com/dapp/roco-finance"
         },
         "contracts": [
           "0xb2a85c5ecea99187a977ac34303b80acbddfa208",
@@ -1919,7 +1957,8 @@
           "website": "https://strayshot.game/",
           "twiter": "https://x.com/StrayShotGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/StrayShot_Chat",
-          "discord": "https://discord.com/invite/Strayshot"
+          "discord": "https://discord.com/invite/Strayshot",
+          "dappradar": "https://dappradar.com/dapp/strayshot"
     }
   }
 }
