@@ -1391,7 +1391,7 @@
       },
       "dexgo": {
         "alias": "DexGO",
-        "gradientBackground": "linear-gradient(92deg, rgb(7 9 10) 0%, rgb(7 8 10))",
+        "gradientBackground": "linear-gradient(92deg, rgb(68, 138, 255) 0%, rgb(68, 138, 255))",
         "description": "What is a DexGO? This is an NFT game with elements of augmented reality. Put on NFT sneakers and walk along new interesting routes. Guaranteed to earn USDT by completing simple and fun quests and sharing with your followers.",
         "categories": {
           "gaming": [
