@@ -37,6 +37,24 @@
         "gradientBackground": "linear-gradient(270deg, #f2ea39, #f2ea39)",
         "description": "Avocado is a Web3 game where players nurture, evolve, and trade digital avocado characters, each with unique abilities, within a lively blockchain ecosystem.",
         "url": "https://avoavocado.com/"
+      },
+      "flower": {
+        "featured": true,
+        "dappradar": true,
+        "alias": "Flower",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #f4ecf1, #f4ecf1)",
+        "description": "Flower is a Web3 game where players grow, breed, and exchange unique digital flowers, each with special traits, in a beautifully crafted blockchain garden.",
+        "url": "https://flower.com/"
+      },
+      "hugme": {
+        "featured": true,
+        "dappradar": true,
+        "alias": "Hug Me",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #1dd8a4, #1dd8a4)",
+        "description": "Hug Me is a heartwarming Web3 game where players collect and trade adorable digital characters, spreading positivity and kindness through virtual hugs on the blockchain.",
+        "url": "https://hug-me.com/"
       }
     }
   },
@@ -67,6 +85,33 @@
         "gradientBackground": "linear-gradient(270deg, #e39d56, #e39d56)",
         "description": "Exchange It Now is a Web3 game where players strategically exchange digital assets in real-time, competing to maximize their blockchain-based holdings.",
         "url": "https://change-now.com/"
+      },
+      "passportplease": {
+        "featured": true,
+        "dappradar": true,
+        "alias": "Passport, please",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #d8561d, #d8561d)",
+        "description": "Passport Please is a Web3 game where players navigate through a virtual world, collecting stamps and visas on their digital passports, while trading and unlocking new destinations on the blockchain.",
+        "url": "https://passport-please.com/"
+      },
+      "whoruntheworld": {
+        "featured": true,
+        "dappradar": true,
+        "alias": "Who Run The World",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #a6f4af, #a6f4af)",
+        "description": "Who Run The World is a strategic Web3 game where players compete for global dominance, building empires and forming alliances in a decentralized blockchain universe.",
+        "url": "https://who-run-world.com/"
+      },
+      "puppy": {
+        "featured": true,
+        "dappradar": true,
+        "alias": "Puppies world",
+        "background": "gray",
+        "gradientBackground": "linear-gradient(270deg, #f00ee7, #f00ee7)",
+        "description": "Puppies World is a Web3 game where players explore a vibrant digital realm, adopting, training, and trading adorable virtual puppies, all within a blockchain-based community.",
+        "url": "https://puppy.com/"
       },
       "yournft": {
         "featured": true,
