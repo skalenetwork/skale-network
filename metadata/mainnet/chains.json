@@ -13,7 +13,7 @@
     "apps": {
       "capital-dex": {
         "alias": "Capital DEX",
-        "gradientBackground": "linear-gradient(45deg, #FFFFFF, #FFFFFF)",
+        "gradientBackground": "linear-gradient(45deg, #EEEEEE, #EEEEEE)",
         "description": "Swap, earn, farm crypto on the most cost-efficient decentralized exchange in the metaverse. ",
         "contracts": [
           "0x698EA133CBA3BACD4aA6405411d8e8c1726D5f61",
