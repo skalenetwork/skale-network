@@ -2120,7 +2120,7 @@
           "discord": "https://discord.com/invite/zM9xpSYEms"
         }
       },
-      "stakingrewards": {
+      "staking-rewards": {
         "alias": "Staking Rewards",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
