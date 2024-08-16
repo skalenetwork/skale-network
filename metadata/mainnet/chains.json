@@ -95,7 +95,8 @@
           "website": "https://ruby.exchange/",
           "x": "https://x.com/intent/follow?screen_name=ruby_exchange",
           "discord": "https://t.co/FvLC8svSxL",
-          "github": "https://github.com/RubyExchange"
+          "github": "https://github.com/RubyExchange",
+          "dappradar": "https://dappradar.com/dapp/ruby-exchange"
         }
       },
       "sushiswap": {
@@ -138,11 +139,36 @@
     "shortAlias": "cryptoblades",
     "background": "#121411",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
-    "url":"https://www.cryptoblades.io/",
+    "url": "https://www.cryptoblades.io/",
     "categories": {
-      "gaming":null
+      "gaming": [
+        "pc",
+        "rpg"
+      ]
+    },
+    "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
+    "apps": {
+      "cryptoblades": {
+        "alias": "CryptoBlades",
+        "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
+        "gradientBackground": "linear-gradient(270deg, rgb(5 20 43), rgb(46 55 71))",
+        "categories": {
+          "gaming": [
+            "pc",
+            "rpg"
+          ],
+          "metaverse": null
         },
-    "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!"
+        "social": {
+          "website": "https://www.cryptoblades.io/",
+          "x": "https://x.com/cryptoblades?lang=en",
+          "telegram": "https://t.me/cryptoblades_general",
+          "discord": "https://discord.com/invite/WZDx96TNb3",
+          "github": "https://github.com/CryptoBlades/cryptoblades",
+          "dappradar": "https://dappradar.com/dapp/cryptoblades"
+        }
+      }
+    }
   },
   "portly-passionate-sirius": {
     "alias": "Solydaria",
@@ -184,22 +210,6 @@
         },
         "social": {
           "website": "https://arena.cryptocolosseum.com/"
-        }
-        },
-        "cryptoblades": {
-        "alias": "CryptoBlades",
-        "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
-        "gradientBackground": "linear-gradient(270deg, rgb(5 20 43), rgb(46 55 71))",
-        "categories": {
-          "gaming": ["pc", "rpg"],
-          "metaverse":null
-            },
-        "social": {
-      "website":"https://www.cryptoblades.io/",
-            "x": "https://x.com/cryptoblades?lang=en",
-            "telegram": "https://t.me/cryptoblades_general",
-            "discord": "https://discord.com/invite/WZDx96TNb3",
-            "github": "https://github.com/CryptoBlades/cryptoblades"
         }
       }
     }
@@ -386,7 +396,8 @@
           "x": "https://x.com/thepixudi",
           "telegram": "https://t.me/pixudi",
           "discord": "https://discord.com/invite/W4QGHh9FRX",
-          "github": "https://github.com/kapcrew"
+          "github": "https://github.com/kapcrew",
+          "dappradar": "https://dappradar.com/dapp/pixudi"
         }
       },
       "lightning-works": {
@@ -426,7 +437,8 @@
           "github": "https://github.com/dmailofficial/dmail",
           "x": "https://x.com/Dmailofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "discord": "https://discord.com/invite/QbvaeqwMFg",
-          "telegram": "https://t.me/dmailofficial"
+          "telegram": "https://t.me/dmailofficial",
+          "dappradar": "https://dappradar.com/dapp/dmail-network"
         }
       },
       "dripverse": {
@@ -771,7 +783,7 @@
       },
       "starwolvez": {
         "alias": "Starwolvez",
-        "gradientBackground":"linear-gradient(180deg, #0F0F16, #0F0F16)",
+        "gradientBackground": "linear-gradient(180deg, #0F0F16, #0F0F16)",
         "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others.",
         "categories": {
           "gaming": [
@@ -840,7 +852,7 @@
       },
       "tcg-world": {
         "alias": "TCG World",
-        "gradientBackground":  "linear-gradient(180deg, #000000, #000000)",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "Explore TCG World Metaverse, an immersive virtual world where you can socialize, play games, create content, and earn in game rewards.",
         "categories": {
           "gaming": null,
@@ -958,7 +970,7 @@
       },
       "megafans": {
         "alias": "MegaFans",
-        "gradientBackground":"linear-gradient(180deg, #010105, #040412)",
+        "gradientBackground": "linear-gradient(180deg, #010105, #040412)",
         "description": "Unlock the full potential of your gaming experience with #MegaFans Elevate your gameplay, enhance collaboration, and level up your victories.",
         "categories": {
           "gaming": [
@@ -1145,7 +1157,9 @@
           ],
           "digital-collectibles": null
         },
-        "tags": ["pretge"],
+        "tags": [
+          "pretge"
+        ],
         "social": {
           "website": "https://boudicea.io/",
           "x": "https://x.com/Boudicea_game",
@@ -1328,12 +1342,15 @@
             "cards_deck-building"
           ]
         },
-        "tags": ["pretge"],
+        "tags": [
+          "pretge"
+        ],
         "social": {
           "website": "https://5tars.io/",
           "x": "https://x.com/5tarsgame?lang=en",
           "telegram": "https://t.me/Game5TARS",
-          "discord": "https://discord.com/invite/5tarsgame"
+          "discord": "https://discord.com/invite/5tarsgame",
+          "dappradar": "https://dappradar.com/dapp/5tars/"
         },
         "contracts": [
           "0x23C1F1a60F18e304fC81eDB2cb98C04a59aef466",
@@ -1364,7 +1381,8 @@
           "website": "https://bithotel.io",
           "x": "https://x.com/playbithotel",
           "telegram": "https://t.me/bithotelcommunity",
-          "discord": "https://discord.com/invite/RFFZNwxY9n"
+          "discord": "https://discord.com/invite/RFFZNwxY9n",
+          "dappradar": "https://dappradar.com/dapp/bit-hotel"
         },
         "added": 1722964465,
         "contracts": [
@@ -1418,7 +1436,8 @@
           "website": "https://www.havenscompass.com/",
           "x": "https://x.com/HavensCompass",
           "telegram": "https://t.me/havenscompass",
-          "discord": "https://discord.com/invite/havenscompass"
+          "discord": "https://discord.com/invite/havenscompass",
+          "dappradar": "https://dappradar.com/dapp/haven-s-compass"
         }
       },
       "chainguardians": {
@@ -1593,7 +1612,8 @@
           "x": "https://x.com/worldofdypians",
           "telegram": "https://t.me/worldofdypians",
           "discord": "https://discord.gg/worldofdypians",
-          "github": "https://github.com/worldofdypians"
+          "github": "https://github.com/worldofdypians",
+          "dappradar": "https://dappradar.com/dapp/world-of-dypians"
         },
         "contracts": [
           "0x6041dC62b74e28596b4917693f6B0F5baA61A13F",
@@ -1767,7 +1787,8 @@
           "website": "https://arenavs.com/games/arena_master",
           "x": "https://x.com/arenaweb3?s=21&t=eJC2rnI1Ww1E49kSqeWi0g",
           "telegram": "https://t.me/Arenaweb3games",
-          "discord": "https://discord.com/invite/FxVyTPtF7f"
+          "discord": "https://discord.com/invite/FxVyTPtF7f",
+          "dappradar": "https://dappradar.com/dapp/arena-games-platform"
         },
         "tags": [
           "digital-collectibles",
