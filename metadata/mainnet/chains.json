@@ -2076,6 +2076,111 @@
           "github": "https://github.com/MetaMask"
         }
       },
+      "my-ether-wallet": {
+        "alias": "My Ether Wallet (MEW)",
+        "gradientBackground": "linear-gradient(150deg, #7CCFE4, #9FE2F4)",
+        "categories": {
+          "wallet": null,
+          "partner": null
+        },
+        "description": "MEW (MyEtherWallet) is a free, client-side interface helping you interact with the Ethereum blockchain. ",
+        "social": {
+          "website": "https://www.myetherwallet.com/",
+          "twiter": "https://x.com/myetherwallet/",
+          "telegram": "https://t.me/myetherwallet",
+          "github": "https://github.com/MyEtherWallet"
+        }
+      },
+      "portis": {
+        "alias": "Portis",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "wallet": null,
+          "partner": null
+        },
+        "description": "The Non-Custodial Blockchain Wallet that Makes Apps Simple for Everyone.",
+        "social": {
+          "website": "https://www.portis.io/",
+          "twiter": "https://x.com/portis_io",
+          "telegram": "https://t.me/joinchat/FSICkFgEM48CEhz0NP3uPg",
+          "github": "https://github.com/portis-project"
+        }
+      },
+      "sphereone": {
+        "alias": "SphereOne",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "ai": null,
+          "partner": null
+        },
+        "description": "Expand chains, integrate protocols, solve your use case while generating rewards for your agent based on use.",
+        "social": {
+          "website": "https://sphereone.xyz/",
+          "twiter": "https://x.com/sphereone_",
+          "discord": "https://discord.com/invite/zM9xpSYEms"
+        }
+      },
+      "stakingrewards": {
+        "alias": "Staking Rewards",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "other": null,
+          "partner": null
+        },
+        "description": "Staking Rewards is the leading data provider for staking and crypto-growth tools.",
+        "social": {
+          "website": "https://www.stakingrewards.com/",
+          "twiter": "https://x.com/StakingRewards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/stakingrewards",
+          "discord": "https://discord.com/invite/44nxDZ2SEe",
+          "github": "https://github.com/stakingrewards"
+        }
+      },
+      "the-graph": {
+        "alias": "The Graph",
+        "gradientBackground": "linear-gradient(150deg, #0E0B1E, #0E0B1E)",
+        "categories": {
+          "data-information": null,
+          "tools":null,
+          "partner": null
+        },
+        "description": "The Graph is an indexing protocol for querying networks like Ethereum and IPFS.",
+        "social": {
+          "website": "https://thegraph.com/en/",
+          "twiter": "https://x.com/graphprotocol",
+          "telegram": "https://t.me/graphprotocol",
+          "discord": "https://discord.com/invite/graphprotocol",
+          "github": "https://github.com/graphprotocols"
+        }
+      },
+      "unity": {
+        "alias": "Unity",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "gaming":null,
+          "partner": null
+        },
+        "description": "Create and grow real-time 3D games, apps, and experiences for entertainment, film, automotive, architecture, and more. Get started with Unity today.",
+        "social": {
+          "website": "https://unity.com/",
+          "twiter": "https://x.com/unity"
+        }
+      },
+      "web3auth": {
+        "alias": "Web3Auth",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "wallet":null,
+          "partner": null
+        },
+        "description": "Passwordless authentication meets MPC enabled non-custodial key infrastructure for apps and wallets.",
+        "social": {
+          "website": "https://web3auth.io/",
+          "twiter": "https://x.com/web3auth",
+          "discord": "https://discord.com/invite/web3auth",
+          "github": "https://github.com/web3auth"
+        }
+      },
       "consensys-diligence": {
         "alias": "ConsenSys Diligence",
         "gradientBackground": "linear-gradient(150deg, #202020, #111111)",
