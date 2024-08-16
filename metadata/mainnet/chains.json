@@ -2062,6 +2062,20 @@
           "github": "https://github.com/messari"
         }
       },
+      "metamask": {
+        "alias": "MetaMask",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "wallet": null,
+          "partner": null
+        },
+        "description": "A crypto wallet & gateway to blockchain apps.",
+        "social": {
+          "website": "https://metamask.io/",
+          "twiter": "https://x.com/MetaMask?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "github": "https://github.com/MetaMask"
+        }
+      },
       "consensys-diligence": {
         "alias": "ConsenSys Diligence",
         "gradientBackground": "linear-gradient(150deg, #202020, #111111)",
