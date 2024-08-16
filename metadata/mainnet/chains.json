@@ -723,7 +723,7 @@
       },
       "unipoly-games": {
         "alias": "UniPoly Games",
-        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "gradientBackground": "linear-gradient(180deg, #151515, #151515)",
         "description": "Unipoly Games is a game studio and publisher embarked on a mission to push the boundaries of the gaming world.",
         "categories": {
           "gaming": null,
