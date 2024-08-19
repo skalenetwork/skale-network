@@ -4,57 +4,91 @@
     "shortAlias": "europa",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
-    "category": [
-      "Hub",
-      "DeFi"
-    ],
+    "category":{
+      "hub": null,
+      "defi": null
+    },
     "url": "https://europahub.network/",
     "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
       "swapchange": {
-        "featured": true,
-        "dappradar": true,
         "alias": "SwapChange",
-        "background": "#02001f",
         "gradientBackground": "linear-gradient(270deg, rgb(0 31 11), rgb(4 44 32))",
-        "description": "SwapChange: A cutting-edge decentralized exchange (DEX) powered by SKALE's scalable blockchain infrastructure. Enjoy seamless token swaps with zero gas fees, lightning-fast transactions, and enhanced security. ",
-        "url": "https://example.com/"
+        "description": "SwapChange: A cutting-edge decentralized exchange (DEX) powered by SKALE's scalable blockchain infrastructure. Enjoy seamless token swaps with zero gas fees, lightning-fast transactions, and enhanced security.",
+        "categories": {
+          "defi": [
+            "dex"
+          ]
+        },
+        "social": {
+          "website": "https://swapchange.com",
+          "x": "https://x.com/SkaleDevelopers"
+        }
       },
       "allin": {
-        "featured": true,
-        "dappradar": true,
         "alias": "All In",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #18b45a, #18b45a)",
         "description": "All In is a high-stakes platform where users commit their digital assets for a chance to win big, leveraging the power of blockchain for transparent and secure transactions.",
-        "url": "https://all-in.com/"
+        "categories": {
+          "defi": [
+            "dex"
+          ]
+        },
+        "social": {
+          "website": "https://all-in.com/",
+          "x": "https://x.com/SkaleNetwork",
+          "dappradar":"https://dappradar.com/"
+        }
       },
       "avocado": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Avocado",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #f2ea39, #f2ea39)",
         "description": "Avocado is a Web3 game where players nurture, evolve, and trade digital avocado characters, each with unique abilities, within a lively blockchain ecosystem.",
-        "url": "https://avoavocado.com/"
+        "categories":{
+          "gaming": [
+            "pc",
+            "rpg"
+          ]
+        },
+        "social": {
+          "website": "https://avoavocado.com/",
+          "x": "https://x.com/dmtkatwork",
+          "dappradar":"https://dappradar.com/"
+        }
       },
       "flower": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Flower",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #f4ecf1, #f4ecf1)",
         "description": "Flower is a Web3 game where players grow, breed, and exchange unique digital flowers, each with special traits, in a beautifully crafted blockchain garden.",
-        "url": "https://flower.com/"
+        "categories":{
+          "gaming": [
+            "pc"
+          ],
+          "metaverse": null
+        },
+        "social": {
+          "website": "https://flower.com/",
+          "x": "https://x.com/dmtkatwork",
+          "github": "https://github.com/skalenetwork",
+          "dappradar":"https://dappradar.com/"
+        }
       },
       "hugme": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Hug Me",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #1dd8a4, #1dd8a4)",
         "description": "Hug Me is a heartwarming Web3 game where players collect and trade adorable digital characters, spreading positivity and kindness through virtual hugs on the blockchain.",
-        "url": "https://hug-me.com/"
+        "categories": {
+          "gaming": [
+            "strategy"
+          ]
+        },
+        "social": {
+          "website": "https://hug-me.com/",
+          "x": "https://x.com/SkaleNetwork",
+          "github": "https://github.com/skalenetwork",
+          "discord": "https://discord.com",
+          "dappradar":"https://dappradar.com/"
+        }
       }
     }
   },
@@ -63,10 +97,10 @@
     "shortAlias": "calypso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
-    "category": [
-      "Hub",
-      "NFT"
-    ],
+    "category": {
+      "hub": null,
+      "nft": null
+    },
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
@@ -75,52 +109,99 @@
         "background": "#ffffff",
         "gradientBackground": "linear-gradient(230deg, rgb(117 108 14), rgb(26 36 16))",
         "description": "Swamp Collection: A unique and immersive NFT series hosted on SKALE's Calypso Hub. This collection features a diverse array of swamp-themed digital art, bringing the mysterious and lush wetland ecosystem to life. ",
-        "url": "https://example.com/"
+        "categories":{
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://example.com/",
+          "x": "https://x.com/dmtkatwork",
+          "dappradar":"https://dappradar.com/",
+          "discord": "https://discord.com/"
+        }
       },
       "exchangeitnow": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Exchange It Now",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #e39d56, #e39d56)",
         "description": "Exchange It Now is a Web3 game where players strategically exchange digital assets in real-time, competing to maximize their blockchain-based holdings.",
-        "url": "https://change-now.com/"
+        "categories": {
+          "defi": [
+            "dex"
+          ]
+        },
+        "social": {
+          "website": "https://change-now.com/",
+          "x": "https://x.com/SkaleNetwork"
+        },
+        "added": 1724070518
       },
       "passportplease": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Passport, please",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #d8561d, #d8561d)",
         "description": "Passport Please is a Web3 game where players navigate through a virtual world, collecting stamps and visas on their digital passports, while trading and unlocking new destinations on the blockchain.",
-        "url": "https://passport-please.com/"
+        "categories": {
+          "gaming": [
+            "mobile",
+            "rpg"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://passport-please.com/",
+          "x": "https://x.com/dmtkatwork",
+          "discord": "https://discord.com/"
+        }
       },
       "whoruntheworld": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Who Run The World",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #a6f4af, #a6f4af)",
         "description": "Who Run The World is a strategic Web3 game where players compete for global dominance, building empires and forming alliances in a decentralized blockchain universe.",
-        "url": "https://who-run-world.com/"
+        "categories": {
+          "gaming": [
+            "action-adventure"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://who-run-world.com/",
+          "x": "https://x.com/SkaleNetwork",
+          "discord": "https://discord.com/",
+          "telegram": "https://web.telegram.org/k/"
+        },
+        "added": 1724070518
       },
       "puppy": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Puppies world",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #f00ee7, #f00ee7)",
         "description": "Puppies World is a Web3 game where players explore a vibrant digital realm, adopting, training, and trading adorable virtual puppies, all within a blockchain-based community.",
-        "url": "https://puppy.com/"
+        "categories": {
+          "gaming": [
+            "action-adventure",
+            "pc"
+          ],
+          "digital-collectibles": null
+        },
+        "tags": [
+          "pretge"
+        ],
+        "social": {
+          "website": "https://puppy.com/",
+          "discord": "https://discord.com/",
+          "telegram": "https://web.telegram.org/k/"
+        },
+        "added": 1724070518
       },
       "yournft": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Your NFT",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #2508e5, #2508e5)",
         "description": "Your NFT is a platform where users can create, customize, and showcase their own unique digital assets, all secured and traded on the blockchain.",
-        "url": "https://yournft.com/"
+        "categories": {
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://yournft.com/",
+          "x": "https://x.com/SkaleNetwork",
+          "discord": "https://discord.com/"
+        }
       }
     }
   },
@@ -129,79 +210,139 @@
     "shortAlias": "nebula",
     "background": "#2c1626",
     "gradientBackground": "linear-gradient(270deg, rgb(67 37 78), rgb(36 32 63))",
-    "category": [
-      "Hub",
-      "Game"
-    ],
+    "categories": {
+      "hub": null,
+      "gaming": null
+    },
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
       "otter-heaven": {
-        "featured": true,
-        "dappradar": false,
         "alias": "Otter Heaven",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #e356c0, #d453b3)",
         "description": "Otter Heaven is an enchanting simulation game where players create and manage a thriving otter sanctuary. ",
-        "url": "https://otter-heaven.com/",
+        "categories": {
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://otter-heaven.com/",
+          "x": "https://x.com/SkaleDevelopers",
+          "telegram": "https://web.telegram.org/k/",
+          "discord": "https://discord.com/",
+          "dappradar": "https://dappradar.com/"
+        },
         "contracts": [
           "0xc1d40923cf8775f52286911576AAAB60339a7d00",
           "0xCD2094e4754c0fF24D44f0Ab42AFBfD4a391834D"
-        ]
+        ],
+        "added": 1724070518
       },
       "lumberworld": {
         "alias": "Lumber World",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, rgb(50 73 165), rgb(30 45 104))",
         "description": "Lumber World: An immersive blockchain-based simulation game set in the forestry industry. Players manage their own lumber empire on SKALE's Nebula Gaming Hub, experiencing seamless gameplay with zero gas fees. ",
-        "url": "https://example.com/",
+        "categories": {
+          "gaming": [
+            "casual",
+            "platformer",
+            "pc"
+          ]
+        },
+        "social": {
+          "website": "https://example.com/",
+          "x": "https://x.com/SkaleNetwork"
+        },
         "contracts": [
           "0x0E53fDa415cc6b2a7D9495D4a1F0659F0Ee45e0d"
         ]
       },
       "lazysloth": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Lazy Sloth",
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #AADFF1, #AADFF1)",
         "description": "Lazy Sloth is a Web3 game where players collect and trade unique digital sloths, each with distinct abilities and traits, on a blockchain-powered adventure.",
-        "url": "https://lazy-sloth.ua.com",
+        "categories": {
+          "gaming": [
+            "casual",
+            "platformer",
+            "pc",
+            "mobile"
+          ]
+        },
+        "social": {
+          "website": "https://lazy-sloth.ua.com",
+          "x": "https://x.com/SkaleNetwork",
+          "dappradar": "https://dappradar.com/"
+        },
         "contracts": [
           "0xfd1DBBF7BC8C486E16c92ed5ab08f8AeEb27635c"
         ]
       },
       "superduper": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Super Duper",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #7a49a5, #7a49a5)",
         "description": "Super Duper is a high-energy Web3 game where players race to collect rare, powerful items and characters, competing in thrilling challenges for blockchain-based rewards.",
-        "url": "https://super-duper.com"
+        "categories": {
+          "gaming": [
+            "pc",
+            "rpg"
+          ],
+          "partner": null,
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://super-duper.com",
+          "x": "https://x.com/SkaleDevelopers",
+          "telegram": "https://web.telegram.org/k/",
+          "discord": "https://discord.com/",
+          "dappradar": "https://dappradar.com/"
+        }
       },
       "watermelon": {
-        "featured": true,
-        "dappradar": true,
         "alias": "Watermelon Farm",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #565fe3, #565fe3)",
         "description": "Watermelon is a vibrant Web3 game where players grow, harvest, and trade unique digital watermelons, each with special traits, in a dynamic blockchain ecosystem.",
-        "url": "https://watermelonfarm.com"
+        "categories": {
+          "gaming": [
+            "pc",
+            "rpg"
+          ],
+          "metaverse": null
+        },
+        "social": {
+          "website": "https://watermelonfarm.com",
+          "x": "https://x.com/SkaleDevelopers",
+          "telegram": "https://web.telegram.org/k/",
+          "discord": "https://discord.com/",
+          "github": "https://github.com/skalenetwork",
+          "dappradar": "https://dappradar.com/"
+        }
       },
       "cardex": {
         "alias": "CarDex",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, rgb(77 130 153), rgb(45 65 80))",
         "description": "CarDex: A high-octane, blockchain-powered racing game where players collect, trade, and race unique digital cars. Built on SKALE's Nebula Gaming Hub, CarDex offers lightning-fast gameplay with zero gas fees. Customize your vehicles, compete in global tournaments, and earn rewards.",
-        "url": "https://example.com/"
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://example.com/",
+          "x": "https://x.com/SkaleNetwork",
+          "telegram": "https://web.telegram.org/k/",
+          "github": "https://github.com/skalenetwork"
+        }
       },
       "zombie-x": {
         "alias": "Zombie X",
-        "background": "gray",
         "gradientBackground": "linear-gradient(92deg, rgb(18, 18, 18) 0%, rgb(56, 57, 59)",
         "description": "An intense, post-apocalyptic survival game set in a world overrun by the undead.",
-        "url": "https://example.com/"
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://example.com/",
+          "x": "https://x.com/SkaleDevelopers"
+        }
       }
     }
   }
