@@ -51,7 +51,7 @@
           "x": "https://x.com/mesonfi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "discord": "https://discord.com/invite/meson",
           "github": "https://github.com/MesonFi",
-          "dappradar":"https://dappradar.com/dapp/meson"
+          "dappradar": "https://dappradar.com/dapp/meson"
         }
       },
       "transak": {
@@ -299,7 +299,7 @@
       },
       "belong": {
         "alias": "Belong",
-        "gradientBackground": "linear-gradient(230deg, rgb(22 22 22), rgb(22 22 22))",
+        "gradientBackground": "linear-gradient(230deg, rgb(22, 22, 22), rgb(39 39 39))",
         "description": "Token gating for communities, events, RWA and DePIN.",
         "categories": {
           "digital-collectibles": null
@@ -687,7 +687,7 @@
         "dappradar": "https://dappradar.com/dapp/exorde"
       }
     }
-    },
+  },
   "green-giddy-denebola": {
     "alias": "Nebula Gaming Hub",
     "shortAlias": "nebula",
@@ -873,7 +873,6 @@
         "social": {
           "website": "https://tomcoin.app/#home",
           "x": "https://x.com/TomCoinBnb",
-          "telegram": "https://tr.ee/dHGbwuEw_V",
           "discord": "https://t.me/TomCoinBNB"
         }
       },
@@ -1161,7 +1160,7 @@
       },
       "cthulhu-awakens": {
         "alias": "Cthulhu Awakens",
-        "gradientBackground": "linear-gradient(180deg, #010100, #a010100)",
+        "gradientBackground": "linear-gradient(180deg, #000000, #131313)",
         "description": "An ancient cosmic horror is rising again! Bringing cosmic nightmares and decentralized fun to your screens!",
         "categories": {
           "gaming": [
@@ -1336,7 +1335,7 @@
       "motodex": {
         "alias": "MotoDEX",
         "description": "MotoDEX is a NFT game, competition of multi-level racing on motorcycles on high-speed tracks with unlimited opportunities for players.",
-        "gradientBackground": "linear-gradient(92deg, rgb(3, 17, 66) 0%, rgb(10, 67, 174)",
+        "gradientBackground": "linear-gradient(92deg, rgb(30 30 30) 0%, rgb(63 63 63))",
         "categories": {
           "gaming": [
             "mobile",
@@ -1667,6 +1666,7 @@
             "puzzle"
           ]
         },
+        "added": 1722964465,
         "social": {
           "website": "https://yomigames.gg/",
           "x": "https://x.com/yomigamesgg",
@@ -1945,12 +1945,16 @@
       ]
     },
     "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches.",
-    "apps":{
+    "apps": {
       "strayshot": {
         "alias": "StrayShot",
         "gradientBackground": "linear-gradient(150deg, #151619, #151619)",
         "categories": {
-          "gaming": ["pc", "action-adventure","shooter"]
+          "gaming": [
+            "pc",
+            "action-adventure",
+            "shooter"
+          ]
         },
         "description": "The next Gen Play To Earn Battle Royale built on ⛓ Blockchain.",
         "social": {
@@ -1959,9 +1963,9 @@
           "telegram": "https://t.me/StrayShot_Chat",
           "discord": "https://discord.com/invite/Strayshot",
           "dappradar": "https://dappradar.com/dapp/strayshot"
+        }
+      }
     }
-  }
-}
   },
   "__offchain": {
     "alias": "Off-chain",
@@ -1989,7 +1993,7 @@
       },
       "cv-pad": {
         "alias": "CV Pad",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), #b0dbfe)",
         "categories": {
           "partner": null
         },
@@ -2002,7 +2006,7 @@
       },
       "bitski": {
         "alias": "Bitski",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), rgb(255 234 239))",
         "categories": {
           "partner": null,
           "wallet": null,
@@ -2017,7 +2021,7 @@
       },
       "blockscout": {
         "alias": "Blockscout",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), rgb(218 212 255))",
         "categories": {
           "partner": null,
           "tools": null,
@@ -2132,7 +2136,7 @@
       },
       "my-ether-wallet": {
         "alias": "My Ether Wallet (MEW)",
-        "gradientBackground": "linear-gradient(150deg, #7CCFE4, #9FE2F4)",
+        "gradientBackground": "linear-gradient(150deg, rgb(232 250 255), rgb(230 250 255))",
         "categories": {
           "wallet": null,
           "partner": null
@@ -2195,7 +2199,7 @@
         "gradientBackground": "linear-gradient(150deg, #0E0B1E, #0E0B1E)",
         "categories": {
           "data-information": null,
-          "tools":null,
+          "tools": null,
           "partner": null
         },
         "description": "The Graph is an indexing protocol for querying networks like Ethereum and IPFS.",
@@ -2211,7 +2215,7 @@
         "alias": "Unity",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
-          "gaming":null,
+          "gaming": null,
           "partner": null
         },
         "description": "Create and grow real-time 3D games, apps, and experiences for entertainment, film, automotive, architecture, and more. Get started with Unity today.",
@@ -2224,7 +2228,7 @@
         "alias": "Web3Auth",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
-          "wallet":null,
+          "wallet": null,
           "partner": null
         },
         "description": "Passwordless authentication meets MPC enabled non-custodial key infrastructure for apps and wallets.",
@@ -2237,7 +2241,7 @@
       },
       "consensys-diligence": {
         "alias": "ConsenSys Diligence",
-        "gradientBackground": "linear-gradient(150deg, #202020, #111111)",
+        "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), rgb(241 241 241))",
         "categories": {
           "security": null,
           "partner": null
@@ -2265,7 +2269,7 @@
       },
       "consensys": {
         "alias": "ConsenSys",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "gradientBackground": "linear-gradient(150deg, #c1ff16, #9dd10f)",
         "categories": {
           "tools": null,
           "partner": null
