@@ -4,7 +4,7 @@
     "shortAlias": "europa",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
-    "category":{
+    "categories": {
       "hub": null,
       "defi": null
     },
@@ -37,14 +37,14 @@
         "social": {
           "website": "https://all-in.com/",
           "x": "https://x.com/SkaleNetwork",
-          "dappradar":"https://dappradar.com/"
+          "dappradar": "https://dappradar.com/"
         }
       },
       "avocado": {
         "alias": "Avocado",
         "gradientBackground": "linear-gradient(270deg, #f2ea39, #f2ea39)",
         "description": "Avocado is a Web3 game where players nurture, evolve, and trade digital avocado characters, each with unique abilities, within a lively blockchain ecosystem.",
-        "categories":{
+        "categories": {
           "gaming": [
             "pc",
             "rpg"
@@ -53,14 +53,14 @@
         "social": {
           "website": "https://avoavocado.com/",
           "x": "https://x.com/dmtkatwork",
-          "dappradar":"https://dappradar.com/"
+          "dappradar": "https://dappradar.com/"
         }
       },
       "flower": {
         "alias": "Flower",
         "gradientBackground": "linear-gradient(270deg, #f4ecf1, #f4ecf1)",
         "description": "Flower is a Web3 game where players grow, breed, and exchange unique digital flowers, each with special traits, in a beautifully crafted blockchain garden.",
-        "categories":{
+        "categories": {
           "gaming": [
             "pc"
           ],
@@ -70,7 +70,7 @@
           "website": "https://flower.com/",
           "x": "https://x.com/dmtkatwork",
           "github": "https://github.com/skalenetwork",
-          "dappradar":"https://dappradar.com/"
+          "dappradar": "https://dappradar.com/"
         }
       },
       "hugme": {
@@ -87,7 +87,7 @@
           "x": "https://x.com/SkaleNetwork",
           "github": "https://github.com/skalenetwork",
           "discord": "https://discord.com",
-          "dappradar":"https://dappradar.com/"
+          "dappradar": "https://dappradar.com/"
         }
       }
     }
@@ -97,7 +97,7 @@
     "shortAlias": "calypso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
-    "category": {
+    "categories": {
       "hub": null,
       "nft": null
     },
@@ -106,16 +106,15 @@
     "apps": {
       "swamp-collection": {
         "alias": "Swamp Collection",
-        "background": "#ffffff",
         "gradientBackground": "linear-gradient(230deg, rgb(117 108 14), rgb(26 36 16))",
         "description": "Swamp Collection: A unique and immersive NFT series hosted on SKALE's Calypso Hub. This collection features a diverse array of swamp-themed digital art, bringing the mysterious and lush wetland ecosystem to life. ",
-        "categories":{
+        "categories": {
           "digital-collectibles": null
         },
         "social": {
           "website": "https://example.com/",
           "x": "https://x.com/dmtkatwork",
-          "dappradar":"https://dappradar.com/",
+          "dappradar": "https://dappradar.com/",
           "discord": "https://discord.com/"
         }
       },
@@ -258,7 +257,6 @@
       },
       "lazysloth": {
         "alias": "Lazy Sloth",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #AADFF1, #AADFF1)",
         "description": "Lazy Sloth is a Web3 game where players collect and trade unique digital sloths, each with distinct abilities and traits, on a blockchain-powered adventure.",
         "categories": {
