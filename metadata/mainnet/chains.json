@@ -4,39 +4,17 @@
     "shortAlias": "europa",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
-    "category": [
-      "Hub",
-      "DeFi"
-    ],
+    "categories": {
+      "hub": null,
+      "defi": null
+    },
     "url": "https://europahub.network/",
-    "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
+    "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It's primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
-      "coinsender": {
-        "alias": "CoinSender",
-        "background": "black",
-        "gradientBackground": "linear-gradient(45deg, #113643, #161826)",
-        "description": "Say 'goodbye' to complicated token distribution, and 'hello' to multi- transaction payouts with a few clicks. CoinSender makes it easy to distribute tokens to pay employees, staking pool participants, and airdrops. Just link your wallet and select your recipients - we'll handle the rest. With CoinSender, you can easily distribute tokens and make multi-transaction payouts in cryptocurrency hassle-free. Our platform is designed specifically to make the process fast, secure, and efficient.",
-        "url": "https://coinsender.io/",
-        "tags": [
-          "DeFi"
-        ],
-        "contracts": [
-          "0x8CACd4402E2F4248dc7CdF36f4049997F5B57aF7",
-          "0xb17A2f5040C7BDe9d52996b5679Fc3C3C51825fb"
-        ]
-      },
-      "aquas-trade": {
-        "alias": "Aquas.Trade",
-        "background": "black",
-        "gradientBackground": "linear-gradient(45deg, #0e0e0e, #0e1a36)",
-        "description": "Welcome to Aquas.Trade, your new defi experience awaits on a 0 gas fee network with native ethereum bridge, meson.fi stable coin bridge, layerzero connectivity, and over 100 game + ai partnerships on the same network. ",
-        "url": "https://aquas.trade",
-        "tags": [
-          "Exchanges",
-          "NFT",
-          "Marketplaces",
-          "DeFi"
-        ],
+      "capital-dex": {
+        "alias": "Capital DEX",
+        "gradientBackground": "linear-gradient(45deg, #EEEEEE, #EEEEEE)",
+        "description": "Swap, earn, farm crypto on the most cost-efficient decentralized exchange in the metaverse. ",
         "contracts": [
           "0x698EA133CBA3BACD4aA6405411d8e8c1726D5f61",
           "0xc318a82CB7c2B0faf7e355BB8F285016956aBF55",
@@ -46,20 +24,55 @@
           "0xa099229c5Ed1649c069381af8D3851304EcFBb69",
           "0x9E445066489df23427bC3bACcD7a3026BCfB2E0B",
           "0xA88b25EBb3cb5B0f08124e8FFBc6249aE026cB07"
-        ]
+        ],
+        "categories": {
+          "defi": [
+            "dex"
+          ]
+        },
+        "social": {
+          "website": "https://capitaldex.exchange/",
+          "telegram": "https://t.me/CurioInvestCommunity",
+          "x": "https://x.com/dex_capital?lang=en",
+          "github": "https://github.com/CurioTeam"
+        }
+      },
+      "mesonfi": {
+        "alias": "Meson.Fi",
+        "gradientBackground": "linear-gradient(45deg, #EFF3EB, #EFF4EA)",
+        "description": "Stablecoin bridge connecting SKALE to more than 20 different chains. ",
+        "categories": {
+          "defi": null,
+          "bridge": null
+        },
+        "social": {
+          "website": "https://meson.fi/",
+          "telegram": "https://t.co/LyGsNBl7IS",
+          "x": "https://x.com/mesonfi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "discord": "https://discord.com/invite/meson",
+          "github": "https://github.com/MesonFi",
+          "dappradar": "https://dappradar.com/dapp/meson"
+        }
+      },
+      "transak": {
+        "alias": "Transak",
+        "gradientBackground": "linear-gradient(45deg, #FFFFFF, #FFFFFF)",
+        "description": "Transak offers a simple on ramps integration to allow your users to buy more than 170 cryptocurrencies with credit/debit cards, or bank transfers. ",
+        "categories": {
+          "defi": null,
+          "bridge": null
+        },
+        "social": {
+          "website": "https://transak.com/",
+          "telegram": "https://twitter.com/intent/follow?screen_name=transak",
+          "x": "https://t.me/transakfinance",
+          "github": "https://github.com/Transak"
+        }
       },
       "ruby-exchange": {
         "alias": "Ruby Exchange",
-        "background": "#02001f",
         "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
         "description": "Ruby.Exchange is the leading AMM on the SKALE Network - a hybrid L1/L2 solution for Ethereum that offers unlimited scalability with zero gas fees, fast confirmation times, free and instant transfers between SKALE Chains via Metaport, and front-running protection at the network level.",
-        "url": "https://ruby.exchange/",
-        "tags": [
-          "Exchanges",
-          "Staking",
-          "Yield",
-          "DeFi"
-        ],
         "contracts": [
           "0x28c6ac22aB738BB01FC6CBA75804dC088aae6193",
           "0xC13F81c54273a50f42B1280426d77F6494Cbcf58",
@@ -72,34 +85,43 @@
           "0xBDDad45160E10C3738785d9dD7F30b4B2a5Eeba8",
           "0x1534c2eE179B5c307031F8dEF90E66D0D8B72028",
           "0x1604098C09f5C338e520875Ca7E8D06B0e0BCd26"
-        ]
-      },
-      "earnscape": {
-        "alias": "EarnScape",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(#0a0b0a, #072013)",
-        "url": "https://earnscape.io/",
-        "description": "While you play, you earn rewards. It's that simple. Every game on your phone is compatible.",
-        "dappradar": false
+        ],
+        "categories": {
+          "digital-collectibles": null,
+          "defi": [
+            "dex"
+          ]
+        },
+        "social": {
+          "website": "https://ruby.exchange/",
+          "x": "https://x.com/intent/follow?screen_name=ruby_exchange",
+          "discord": "https://t.co/FvLC8svSxL",
+          "github": "https://github.com/RubyExchange",
+          "dappradar": "https://dappradar.com/dapp/ruby-exchange"
+        }
       },
       "sushiswap": {
         "alias": "SushiSwap",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#0f172a, #162444)",
-        "url": "https://sushi.com/SKALE/swap",
-        "description": "Sushi is a community-driven organization built to solve what might be  called the “liquidity problem.” One could define this problem as the inability of disparate forms of liquidity to connect with markets in a decentralized way, and vice versa. While other solutions provide incrementally progressive advances toward solving the problem of liquidity, Sushi’s progress is intended to create a broader range of  network effects. Rather than limiting itself to a single solution, Sushi intertwines many decentralized markets and instruments.",
-        "tags": [
-          "DeFi",
-          "Exchanges"
-        ],
-        "dappradar": "sushiswap-v3",
+        "description": "Sushi is a community-driven organization built to solve what might be  called the 'liquidity problem.' One could define this problem as the inability of disparate forms of liquidity to connect with markets in a decentralized way, and vice versa. While other solutions provide incrementally progressive advances toward solving the problem of liquidity, Sushi's progress is intended to create a broader range of  network effects. Rather than limiting itself to a single solution, Sushi intertwines many decentralized markets and instruments.",
         "contracts": [
           "0x4cddf8D1473df386b926ec14b23bfbD566CE827a",
           "0xa4d2268f145CD5c835115441b877295C46F25b9b",
           "0x1aaF6eB4F85F8775400C1B10E6BbbD98b2FF8483",
           "0x51d15889b66A2c919dBbD624d53B47a9E8feC4bB"
         ],
-        "featured": true
+        "categories": {
+          "partner": null,
+          "defi": [
+            "dex"
+          ]
+        },
+        "social": {
+          "website": "https://www.sushi.com/swap",
+          "x": "https://x.com/SushiSwap?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "github": "https://github.com/sushiswap",
+          "dappradar": "https://dappradar.com/dapp/sushiswap-v3"
+        }
       }
     }
   },
@@ -107,28 +129,54 @@
     "alias": "StreamMyScreen",
     "background": "#399285",
     "gradientBackground": "linear-gradient(273.67deg, rgb(55 128 118), rgb(29 99 101), rgb(32 106 114))",
-    "category": [
-      "AppChain",
-      "entertainment"
-    ],
+    "categories": {
+      "infrastructure": null
+    },
     "description": "StreamMyScreen is the easiest and most affordable way to go live on all your channels at the same time with multicast live streaming.",
     "url": "https://www.streammyscreen.com/"
   },
   "affectionate-immediate-pollux": {
     "alias": "CryptoBlades",
     "shortAlias": "cryptoblades",
-    "background": "#061126",
+    "background": "#121411",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
-    "category": [
-      "AppChain"
-    ],
+    "url": "https://www.cryptoblades.io/",
+    "categories": {
+      "gaming": [
+        "pc",
+        "rpg"
+      ]
+    },
     "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
-    "url": "https://www.cryptoblades.io/"
+    "apps": {
+      "cryptoblades": {
+        "alias": "CryptoBlades",
+        "description": "CryptoBlades is a play-to-earn NFT blockchain game on 8 Chains, including SKALE!",
+        "gradientBackground": "linear-gradient(270deg, rgb(5 20 43), rgb(46 55 71))",
+        "categories": {
+          "gaming": [
+            "pc",
+            "rpg"
+          ],
+          "metaverse": null
+        },
+        "social": {
+          "website": "https://www.cryptoblades.io/",
+          "x": "https://x.com/cryptoblades?lang=en",
+          "telegram": "https://t.me/cryptoblades_general",
+          "discord": "https://discord.com/invite/WZDx96TNb3",
+          "github": "https://github.com/CryptoBlades/cryptoblades",
+          "dappradar": "https://dappradar.com/dapp/cryptoblades"
+        }
+      }
+    }
   },
   "portly-passionate-sirius": {
     "alias": "Solydaria",
     "background": "#ffffff",
-    "category": "AppChain",
+    "categories": {
+      "infrastructure": null
+    },
     "description": "Solydaria is the new way for direct, fair exchanges of value between customers and creators.",
     "url": "https://www.solydaria.co/"
   },
@@ -136,9 +184,9 @@
     "alias": "DEXGAME",
     "background": "#391c4e",
     "gradientBackground": "linear-gradient(270deg, rgb(67 31 94), rgb(35 14 50))",
-    "category": [
-      "AppChain"
-    ],
+    "categories": {
+      "gaming": null
+    },
     "description": "DEXGame is designed to bring together the core components of the game ecosystem's value chain on its metaverse platform",
     "url": "https://dexgame.io/"
   },
@@ -147,7 +195,7 @@
     "background": "#101010",
     "gradientBackground": "linear-gradient(228deg,  rgb(32 15 4), rgb(15 10 6),  rgb(32 15 4))",
     "category": [
-      "AppChain"
+      "gaming"
     ],
     "description": "Crypto Colosseum is a suite of strategy based blockchain games live on SKALE.",
     "url": "https://cryptocolosseum.com/"
@@ -155,152 +203,249 @@
   "snappy-quarrelsome-salm": {
     "alias": "PitchDAO",
     "background": "#ffffff",
-    "category": "AppChain"
+    "category": "daos"
   },
   "frayed-decent-antares": {
     "alias": "Block Brawlers",
     "background": "rgb(0, 67, 103)",
     "gradientBackground": "linear-gradient(270deg, rgb(2 45 67), rgb(0 78 103), rgb(5 47 70))",
     "category": [
-      "AppChain"
+      "gaming"
     ],
     "url": "https://blockbrawlers.com/",
-    "description": "Block Brawlers is a play-to-earn game powered by SKALE and GameCredits"
+    "description": "Block Brawlers is a play-to-earn game powered by SKALE and GameCredits",
+    "apps": {
+      "block-brawlers": {
+        "alias": "Block Brawlers",
+        "description": "Block Brawlers is a play-to-earn game powered by SKALE and GameCredits",
+        "gradientBackground": "linear-gradient(270deg, rgb(2 45 67), rgb(0 78 103), rgb(5 47 70))",
+        "categories": {
+          "gaming": [
+            "pc",
+            "rpg",
+            "strategy"
+          ]
+        },
+        "social": {
+          "website": "https://blockbrawlers.com/",
+          "x": "https://x.com/brawlchain",
+          "telegram": "https://t.me/blockbrawlers/",
+          "discord": "https://discord.com/invite/KmWDjKRnXJ"
+        }
+      }
+    }
   },
   "fit-betelgeuse": {
     "alias": "Curio DAO",
     "background": "#ffffff",
-    "category": "AppChain"
+    "categories": {
+      "defi": null
+    }
   },
   "honorable-steel-rasalhague": {
     "alias": "Calypso Hub",
     "shortAlias": "calypso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
-    "category": [
-      "Hub",
-      "NFT"
-    ],
+    "categories": {
+      "hub": null,
+      "digital-collectibles": null
+    },
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
-      "virtualness": {
-        "alias": "Virtualness",
-        "background": "#ffffff",
-        "gradientBackground": "linear-gradient(230deg, #18232f, #0d141c)",
-        "url": "https://www.virtualness.io",
-        "description": "Virtualness enables proof of authenticity using AI-powered blockchain, addressing credential forgery and deep fakes. Companies can design and issue secure, immutable, and globally verifiable digital certificates.",
-        "tags": [
-          "NFT",
-          "Marketplaces"
-        ],
-        "contracts": [
-          "0xc8956A816aC7B35207202982da9cebc375bE378c"
-        ]
+      "reneverse": {
+        "alias": "Reneverse",
+        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
+        "description": "ReneVerse offers dynamic image and video ad content across the surface of any in-game asset. For the first time ever, brands can easily add their own in-game ad objects known as Branded Assets.",
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://reneverse.io/",
+          "x": "https://x.com/ReneVerse_io",
+          "telegram": "https://t.me/reneverse",
+          "github": "https://github.com/topics/reneverse"
+        }
+      },
+      "mintpass": {
+        "alias": "MintPass",
+        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(255 255 255))",
+        "description": "Share your travels and get rewarded for your recommendations.",
+        "categories": {
+          "ai": null,
+          "entertainment": null
+        },
+        "added": 1723984193,
+        "social": {
+          "website": "https://mintpass.com/",
+          "x": "https://x.com/MintPassTravel",
+          "discord": "https://discord.com/invite/6CAeRQFFTs"
+        }
+      },
+      "belong": {
+        "alias": "Belong",
+        "gradientBackground": "linear-gradient(230deg, rgb(22, 22, 22), rgb(39 39 39))",
+        "description": "Token gating for communities, events, RWA and DePIN.",
+        "categories": {
+          "digital-collectibles": null
+        },
+        "added": 1723984242,
+        "social": {
+          "website": "https://belong.net/",
+          "x": "https://x.com/belongnet",
+          "discord": "https://t.co/UFkoU6ERvY"
+        }
+      },
+      "keepsake": {
+        "alias": "Keepsake",
+        "gradientBackground": "linear-gradient(230deg, rgb(129 179 167), rgb(61 152 157))",
+        "description": "A reimagined gaming NFT marketplace. We provide Unique Value & Utility to Every Collection! Discover your digital assets on Keepsake.",
+        "categories": {
+          "digital-collectibles": null
+        },
+        "added": 1723984256,
+        "social": {
+          "website": "https://keepsake.gg/",
+          "x": "https://x.com/KeepSakeMarket"
+        }
+      },
+      "scoredetect": {
+        "alias": "ScoreDetect",
+        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(225 225 225))",
+        "description": "A permanence layer for data provenance, enabling systems and authorities to independently verify data authenticity.",
+        "categories": {
+          "utility": null
+        },
+        "social": {
+          "website": "https://www.scoredetect.com/",
+          "x": "https://x.com/scoredetect",
+          "github": "https://github.com/scoredetect"
+        }
       },
       "nftrade": {
         "alias": "NFTrade",
-        "background": "#ffffff",
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
-        "url": "https://nftrade.com/",
         "description": "NFTrade is the first cross-chain and blockchain-agnostic NFT platform. We are an aggregator of all NFT marketplaces and host the complete NFT lifecycle, allowing anyone to seamlessly create, buy, sell, swap, farm, and leverage NFTs across different blockchains. Using NFTrade, anyone can gain access to the entirety of their NFT, unlocking the total value of the NFT market.",
-        "tags": [
-          "NFT",
-          "Marketplaces"
-        ],
+        "categories": {
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://nftrade.com/",
+          "x": "https://x.com/NFTradeOfficial",
+          "telegram": "https://t.me/NFTrade",
+          "discord": "https://discord.com/invite/nftrade-828549961700081715",
+          "dappradar": "https://dappradar.com/dapp/nftrade"
+        },
         "contracts": [
           "0xaff8a3e3B69E4e88e83B589ED080560C4359BBa8"
         ]
       },
       "untitled-platformer": {
         "alias": "Untitled Platformer",
-        "background": "#000000",
         "gradientBackground": "linear-gradient(139deg, rgb(37 34 0), rgb(15 11 2))",
-        "url": "https://untitledplatformer.io/",
         "description": "Welcome to the competitive world of Untitled. A retro multiplayer platformer that offers players the ability to either sabotage or befriend other players while exploring dynamic 2D worlds. Untitled has been designed with the primary goal of allowing gamers to hop on and off whenever they feel like it.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "casual",
+            "platformer",
+            "pc"
+          ]
+        },
+        "social": {
+          "website": "https://untitledplatformer.io/",
+          "x": "https://x.com/32bit_untitled",
+          "dappradar": "https://dappradar.com/dapp/untitled-platformer"
+        },
         "contracts": [
           "0xd3533204441F2c4046291186Ed5b67e8e2b64CdB",
           "0x5f2BCDFb7155cec50821026b92a911e14A2052A5",
           "0x4A5B12722C57d48d3Cff9629E5B2039e11539cfd",
           "0xB968FD9Ab6827F1E37b6dcCef07375737DdE0efE",
           "0xE9e53822504270a13c690bF4458341a0E4D408Ad"
-        ],
-        "legacy": true
-      },
-      "clet-name-service": {
-        "alias": "Clet Name Service",
-        "background": "#ffffff",
-        "gradientBackground": "linear-gradient(139deg, rgb(0 83 2), rgb(2 33 2))",
-        "url": "https://www.clet.domains/",
-        "description": "Clet is a decentralised web3 name service and a universal profile solution that allows users to link their various crypto addresses, as well as all other essential details that sums up an identity to a single human-readable name.",
-        "tags": [
-          "Knowledge"
-        ],
-        "contracts": [
-          "0x74Bd3bEB1ea954AF3ebf2d4a29F42c7eCFa99029"
-        ]
-      },
-      "tank-wars-zone": {
-        "alias": "Tank Wars Zone",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, #191f54, #212b7c)",
-        "url": "https://tankwars.zone/",
-        "description": "Design your own 3D Tank Model and sell it in our game marketplace. Everyone can buy or trade these tanks and play them in all gameplay modes.",
-        "tags": [
-          "NFT",
-          "Games"
         ]
       },
       "pixudi": {
         "alias": "Pixudi",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, rgb(31, 25, 49), rgb(64 50 85))",
-        "url": "https://game.pixudi.com/",
         "description": "Pixudi is a race board game built on the blockchain technology. Players compete with each other to collect more treasures than others by overcoming obstacles that come their way and completing missions.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Metaverse"
-        ],
         "contracts": [
           "0xCEC96cbCD6dD7ea9ddF10cC0a4072dADcdBc709E",
           "0xe7575Cd0f7DfF92E1C2d92860aA46e6E030DBF03",
           "0x12019b5bE762815DeFf88CD12c3D9c8D900Ed41d",
           "0x46939cf538cEEaE2D6E1D4F08629828aAb7349FE"
-        ]
-      },
-      "dmail": {
-        "alias": "Dmail Network",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
-        "url": "https://dmail.ai/",
-        "description": "Dmail Network is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
-        "tags": [
-          "Social",
-          "NFT",
-          "Marketplaces"
         ],
+        "categories": {
+          "gaming": [
+            "casual",
+            "strategy",
+            "action-adventure"
+          ]
+        },
+        "social": {
+          "website": "https://pixudi.com/",
+          "x": "https://x.com/thepixudi",
+          "telegram": "https://t.me/pixudi",
+          "discord": "https://discord.com/invite/W4QGHh9FRX",
+          "github": "https://github.com/kapcrew",
+          "dappradar": "https://dappradar.com/dapp/pixudi"
+        }
+      },
+      "lightning-works": {
+        "alias": "Lightning Works",
+        "gradientBackground": "linear-gradient(rgb(33 40 54), rgb(37 43 56))",
+        "description": "Creator App. With our platform, you can create complete NFT comic books without any prior knowledge of smart contracts or blockchain technology.",
+        "categories": {
+          "gaming": [
+            "action-adventure"
+          ],
+          "digital-collectibles": null
+        },
         "contracts": [
           "0xD1A3abf42f9E66BE86cfDEa8c5C2c74f041c5e14"
         ],
-        "featured": true
+        "social": {
+          "website": "https://dmail.ai/",
+          "github": "https://github.com/dmailofficial/dmail",
+          "x": "https://x.com/Dmailofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "discord": "https://discord.com/invite/QbvaeqwMFg",
+          "telegram": "https://t.me/dmailofficial"
+        }
+      },
+      "dmail": {
+        "alias": "Dmail",
+        "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
+        "description": "Dmail is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
+        "categories": {
+          "web3": null,
+          "social-network": null
+        },
+        "contracts": [
+          "0xD1A3abf42f9E66BE86cfDEa8c5C2c74f041c5e14"
+        ],
+        "social": {
+          "website": "https://dmail.ai/",
+          "github": "https://github.com/dmailofficial/dmail",
+          "x": "https://x.com/Dmailofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "discord": "https://discord.com/invite/QbvaeqwMFg",
+          "telegram": "https://t.me/dmailofficial",
+          "dappradar": "https://dappradar.com/dapp/dmail-network"
+        }
       },
       "dripverse": {
-        "alias": "DripVerse Protocol",
-        "background": "gray",
+        "alias": "DripVerse",
         "gradientBackground": "linear-gradient(180deg, #170926, #0f1935)",
-        "url": "https://dripverse.org",
         "description": "Modular Digital Assets Ecosystem. An Omnichain NFT Infrastructure & scaling solutions for builders and creators!",
-        "tags": [
-          "NFT",
-          "Marketplaces",
-          "Metaverse",
-          "Social"
-        ],
+        "categories": {
+          "digital-collectibles": null,
+          "infrastructure": null
+        },
+        "social": {
+          "website": "https://dripverse.org/",
+          "x": "https://x.com/0xdripverse",
+          "discord": "https://discord.com/invite/mCVFhmbQvw",
+          "telegram": "https://t.me/dripverse"
+        },
         "contracts": [
           "0xE95A6E54Ab4F189A94F9a12DbF514f8485D3B561",
           "0x3e0167DbC945c18e339ed532bcCb55c95Db36599"
@@ -308,70 +453,50 @@
       },
       "hurley": {
         "alias": "Hurley",
-        "background": "gray",
         "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
-        "url": "https://hurley.jump.trade/",
-        "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!"
-      },
-      "solo": {
-        "alias": "Solo Network",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(rgb(251 240 239), rgb(232 207 203))",
-        "url": "https://thesolo.network/",
-        "description": "Welcome to SOLO: Your Gateway to the Future of Learning and Employment.",
-        "tags": [
-          "Social",
-          "Knowledge",
-          "Photos"
-        ],
-        "contracts": [
-          "0xC8B02F11Eb73bdA88375DE326FBeA88037b2e210"
-        ]
+        "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
+        "categories": {
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://hurley.jump.trade/",
+          "twiter": "https://t.me/jumptradenft",
+          "telegram": "https://t.me/jumptradenft",
+          "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
+        }
       },
       "hitmakr": {
-        "alias": "HITMAKR",
-        "background": "gray",
+        "alias": "Hitmakr",
         "gradientBackground": "linear-gradient(#fbf9ff, #e5daff)",
-        "url": "https://hitmakr.io",
         "description": "Hitmakr is a groundbreaking web3 audio platform designed to revolutionize the music industry by prioritizing artists' rights, transparency, and fair compensation. Our mission is to empower musicians and content creators, allowing them to take control of their work, maximize revenue, and build a sustainable career in the digital age.",
-        "tags": [
-          "NFT",
-          "Marketplaces",
-          "Photos"
-        ],
+        "categories": {
+          "entertainment": null
+        },
+        "social": {
+          "website": "https://hitmakr.io/",
+          "x": "https://x.com/hitmakrr",
+          "telegram": "https://t.me/Hitmakr_Portal",
+          "github": "https://github.com/IglooProtocol/hitmakr",
+          "dappradar": "https://dappradar.com/dapp/hitmakr"
+        },
         "contracts": [
           "0xd9624d03c14C3E2DDf4bAdf2c178612395aF30cA",
           "0xC76B5eBB0A7BEd71ceFeD1E489Ff77D64d30A5df"
         ]
       },
-      "kredeum-nfts-factory": {
-        "alias": "Kredeum NFTs Factory",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(#1e2046, #223060)",
-        "url": "https://www.kredeum.com",
-        "description": "Kredeum NFTs Factory : Mint it right! The easiest way to Create your NFT MarketPlace on WordPress. It features a Dapp NFT wallet, Smartcontracts library, WordPress plugin, and OpenSky market, which enable cross-chain NFTs on multiple EVM blockchains, including Ethereum, Arbitrum, Optimism and  Skale Calypso. The platform provides a range of customization options, such as collection templating, NFT auto-trading, and royalty enforcement.",
-        "tags": [
-          "NFT",
-          "Marketplaces",
-          "Exchanges",
-          "Photos"
-        ],
-        "contracts": [
-          "0xb5c8CB0846317d82af2DbF90713716B01A2f680a",
-          "0x25F56b5527F5634752Fd2C85564E8d2484cAAEF3"
-        ]
-      },
       "sirkl": {
         "alias": "SIRKL",
-        "background": "gray",
         "gradientBackground": "linear-gradient(rgb(30, 86, 170), rgb(13 81 100))",
-        "url": "https://sirkl.io/",
         "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
-        "tags": [
-          "Knowledge",
-          "Games",
-          "Social"
-        ],
+        "categories": {
+          "social-network": null,
+          "data-information": null
+        },
+        "social": {
+          "website": "https://sirkl.io/",
+          "x": "https://x.com/sirkl_io",
+          "dappradar": "https://dappradar.com/dapp/sirkl"
+        },
         "contracts": [
           "0x944a7A6833074122E9c2a7A5882392224C345807"
         ]
@@ -382,7 +507,9 @@
     "alias": "Ivy Cash",
     "background": "#ffffff",
     "gradientBackground": "linear-gradient(45deg, rgb(157 157 157), rgb(255, 255, 255))",
-    "category": "AppChain",
+    "categories": {
+      "defi": null
+    },
     "url": "https://ivy.cash/",
     "description": "You haven’t seen NFTs & Crypto delivered like this."
   },
@@ -391,41 +518,101 @@
     "shortAlias": "titan",
     "background": "rgb(50, 22, 11)",
     "gradientBackground": "linear-gradient(270deg, rgb(105 50 31), rgb(57 27 17))",
-    "category": [
-      "Hub",
-      "Community",
-      "AI"
-    ],
+    "categories": {
+      "hub": null,
+      "ai": null
+    },
     "url": "https://skale.space/",
     "description": "The Titan Hub is a SKALE chain dedicated to AI and ML apps looking to utilize blockchain. With all of the existing benefits of a SKALE Chain plus a dedicated place for AI projects to deploy, this hub is here for projects pushing the boundaries of the intersection between AI + Web3.",
     "apps": {
+      "skillful-ai": {
+        "alias": "Skillful AI",
+        "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
+        "description": "Building a Personalized AI Ecosystem powered by Web3.",
+        "categories": {
+          "ai": null,
+          "gaming": null
+        },
+        "social": {
+          "website": "https://www.skillfulai.io/",
+          "x": "https://x.com/SkillfulAI",
+          "telegram": "https://t.me/+oNknk6vJj-0wODgx",
+          "discord": "https://discord.com/invite/WhAYqkXYkg"
+        }
+      },
+      "forumai": {
+        "alias": "ForumAI",
+        "gradientBackground": "linear-gradient(270deg, #003F4B, #002637)",
+        "description": "Access the most powerful open-source machine learning models on ForumAI's marketplace, hosted by data centers around the world.",
+        "categories": {
+          "ai": null
+        },
+        "social": {
+          "website": "https://www.forumai.dev/",
+          "x": "https://x.com/ForumAILabs",
+          "telegram": "https://t.me/OfficalForumAI",
+          "discord": "https://discord.com/invite/22JCYyy7J5"
+        }
+      },
+      "metakraft-ai": {
+        "alias": "MetaKraft AI",
+        "gradientBackground": "linear-gradient(270deg, #6D1C61, #46166F)",
+        "description": "Generative Tools & Platform for Creative Spatial Designers.",
+        "categories": {
+          "tools": null,
+          "metaverse": null
+        },
+        "added": "1723984166",
+        "social": {
+          "website": "https://www.metakraft.ai/",
+          "x": "https://x.com/themetakraft"
+        }
+      },
+      "music-moon": {
+        "alias": "Music Moon",
+        "gradientBackground": "linear-gradient(270deg, #2B2C2B, #2B2C2B)",
+        "description": "Empowering Artists: AI-powered music creation & Web3 platform for NFT royalties and DAO fan connection.",
+        "categories": {
+          "ai": null,
+          "entertainment": null
+        },
+        "added": 1723984272,
+        "social": {
+          "website": "https://www.musicmoon.io/",
+          "x": "https://x.com/MusicMoon111",
+          "discord": "https://discord.com/invite/ExH4YadUV9"
+        }
+      },
       "chaingpt": {
         "alias": "ChainGPT",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
-        "url": "https://www.chaingpt.org/",
         "description": "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. Using ChainGPT, users may quickly obtain whatever knowledge and information they require. With many other unique features designed for individuals, developers, and businesses, ChainGPT is an essential tool for all in the Blockchain space.",
-        "tags": [
-          "Staking",
-          "DeFi",
-          "Governance",
-          "Knowledge",
-          "AI"
-        ],
+        "categories": {
+          "ai": null
+        },
+        "social": {
+          "website": "https://www.chaingpt.org/",
+          "x": "https://x.com/Chain_GPT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/chaingpt",
+          "discord": "https://discord.com/invite/sv2NfqSgVW",
+          "dappradar": "https://dappradar.com/dapp/chaingpt"
+        },
         "contracts": [
           "0x4F132eb3C7508C6394c3A1A7CF9440630B920D37"
         ]
       },
       "palm-ai": {
         "alias": "PaLM AI",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#262626, #1a1a1a)",
-        "url": "https://palmai.tech/",
         "description": "Multi-platform PaLM AI chatbot uses @Google AI tech for conversations, coding, and image generation, focusing on accessible AI and revenue sharing.",
-        "tags": [
-          "Knowledge",
-          "AI"
-        ],
+        "categories": {
+          "ai": null
+        },
+        "social": {
+          "website": "https://palmai.tech/",
+          "x": "https://x.com/palmaierc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/paLMEthereum"
+        },
         "contracts": [
           "0xE9d4fe986C039927F19c904C205594627644BB1B"
         ]
@@ -441,41 +628,667 @@
       "oracle"
     ],
     "url": "https://razor.network/",
-    "description": "Truly decentralized oracle network"
+    "description": "Truly decentralized oracle network",
+    "apps": {
+      "razor-network": {
+        "alias": "Razor Network",
+        "gradientBackground": "linear-gradient(#40429B, #40429B)",
+        "description": "Truly decentralized oracle network.",
+        "categories": {
+          "oracle": null
+        },
+        "social": {
+          "website": "https://razor.network/",
+          "x": "https://x.com/razor_network",
+          "telegram": "https://t.me/razornetwork",
+          "github": "https://github.com/razor-network",
+          "dappradar": "https://dappradar.com/dapp/razor-network"
+        }
+      }
+    }
   },
   "light-vast-diphda": {
     "alias": "Exorde Network",
     "shortAlias": "exorde",
     "background": "#000000",
     "gradientBackground": "linear-gradient(78deg, rgb(0, 0, 0), rgb(24 24 24))",
-    "category": [
-      "AppChain",
-      "Data"
-    ],
+    "categories": {
+      "infrastructure": null,
+      "tools": null
+    },
     "url": "https://exorde.network/",
     "faucetUrl": "http://faucet.exorde.network/",
     "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web"
+  },
+  "apps": {
+    "exorde-network": {
+      "alias": "Exorde Network",
+      "gradientBackground": "linear-gradient(#40429B, #40429B)",
+      "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web.",
+      "categories": {
+        "ai": null
+      },
+      "social": {
+        "website": "https://exorde.network/",
+        "x": "https://x.com/exordelabs?lang=en",
+        "telegram": "https://t.me/exorde",
+        "discord": "https://discord.gg/DWfcz7ezSG",
+        "github": "https://github.com/exorde-labs",
+        "dappradar": "https://dappradar.com/dapp/exorde"
+      }
+    }
   },
   "green-giddy-denebola": {
     "alias": "Nebula Gaming Hub",
     "shortAlias": "nebula",
     "background": "#2c1626",
     "gradientBackground": "linear-gradient(270deg, rgb(67 37 78), rgb(36 32 63))",
-    "category": [
-      "Hub",
-      "Game"
-    ],
+    "categories": {
+      "hub": null,
+      "gaming": null
+    },
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
+      "dypius": {
+        "alias": "Dypius",
+        "gradientBackground": "linear-gradient(180deg, #5550D8, #5650D8)",
+        "description": "Dypius is a powerful, decentralized ecosystem with a focus on scalability, security, and global adoption through next-gen infrastructure",
+        "categories": {
+          "defi": null
+        },
+        "social": {
+          "website": "https://www.dypius.com/",
+          "x": "https://x.com/dypius",
+          "telegram": "https://t.me/dypius"
+        }
+      },
+      "land-of-chasers": {
+        "alias": "Land of Chasers",
+        "gradientBackground": "linear-gradient(180deg, #0A070D, #0D0A0F)",
+        "description": "Land of Chasers is a roguelike action RPG set on a growing planet.",
+        "categories": {
+          "gaming": [
+            "pc",
+            "action-adventure",
+            "rpg"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://thelandofchasers.io/",
+          "x": "https://x.com/landofchasers",
+          "discord": "https://t.co/RhX8BOiXcn"
+        }
+      },
+      "galaxy-dust-online": {
+        "alias": "Galaxy Dust Online",
+        "gradientBackground": "gray",
+        "description": "Galaxydust Online mmorgp: Farm, create, and conquer while exploring the universe!",
+        "categories": {
+          "gaming": [
+            "mmorpg"
+          ]
+        },
+        "added": 1723984224,
+        "social": {
+          "website": "https://galaxydust.io/",
+          "x": "https://x.com/galaxydustx",
+          "telegram": "https://t.me/Galaxydustonline",
+          "discord": "https://t.me/Galaxydustonline"
+        }
+      },
+      "unipoly-games": {
+        "alias": "UniPoly Games",
+        "gradientBackground": "linear-gradient(180deg, #151515, #151515)",
+        "description": "Unipoly Games is a game studio and publisher embarked on a mission to push the boundaries of the gaming world.",
+        "categories": {
+          "gaming": null,
+          "partner": null
+        },
+        "social": {
+          "website": "https://unipolygames.com/",
+          "x": "https://x.com/UnipolyGames",
+          "telegram": "https://t.me/unipolygamesn"
+        }
+      },
+      "voxelverse": {
+        "alias": "VoxelVerse",
+        "gradientBackground": "linear-gradient(180deg, #FFDD88, #59401A)",
+        "description": "The VoxelVerse is a sandbox-style survival game that allows players to participate in quests, PVP, and freebuild scenarios while playing the role of a Prospector.",
+        "categories": {
+          "gaming": [
+            "action-adventure",
+            "sandbox"
+          ]
+        },
+        "social": {
+          "website": "https://pickaxecrypto.io/",
+          "x": "https://x.com/voxelverseinfo",
+          "discord": "https://discord.com/invite/JBFYtybhR4",
+          "dappradar": "https://dappradar.com/dapp/voxelverse"
+        }
+      },
+      "vaselabs": {
+        "alias": "Vaselabs",
+        "gradientBackground": "linear-gradient(180deg, #06091D, #06091D)",
+        "description": "VASE is a decentralized community based project that brings together a wide range of DeFi, NFT concepts to the blockchain ecosystem and supports SMEs.",
+        "categories": {
+          "gaming": null,
+          "defi": null
+        },
+        "social": {
+          "website": "https://vaselabs.io/",
+          "x": "https://x.com/VaseLabs",
+          "telegram": "https://t.me/+TXW78t9fnZwxZjQ0"
+        }
+      },
+      "vital-veda": {
+        "alias": "Vital Veda",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "WEB3 Fitness App merges with AR & AI Technologies Creating a Comprehensive Social Workout Training platform!",
+        "categories": {
+          "gaming": [
+            "mobile"
+          ]
+        },
+        "social": {
+          "website": "https://vitalveda.fit/",
+          "x": "https://x.com/veda_vital",
+          "telegram": "https://t.me/vitalveda",
+          "github": "https://github.com/VitalVeda"
+        }
+      },
+      "starwolvez": {
+        "alias": "Starwolvez",
+        "gradientBackground": "linear-gradient(180deg, #0F0F16, #0F0F16)",
+        "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others.",
+        "categories": {
+          "gaming": [
+            "strategy",
+            "pc"
+          ]
+        },
+        "social": {
+          "website": "https://www.starwolvez.com/",
+          "x": "https://x.com/intent/follow?screen_name=starwolvez",
+          "discord": "https://discord.com/invite/starwolvez"
+        }
+      },
+      "the-last-monarchy": {
+        "alias": "The Last Monarchy",
+        "gradientBackground": "linear-gradient(180deg, #61615F, #4D565A)",
+        "description": "The Last Monarchy is a Web 3 strategy game set in the ancient world where players use their wits and in-game NFTs to claim the Throne.",
+        "categories": {
+          "gaming": [
+            "pc",
+            "simulation"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://thelastmonarchy.io/",
+          "x": "https://x.com/thelastmonarchy",
+          "discord": "https://discord.com/invite/v9zc2wgxPs"
+        }
+      },
+      "token-tails": {
+        "alias": "Token Tails",
+        "gradientBackground": "linear-gradient(180deg, #FCEFC2, #FCEDBC)",
+        "description": "World's first play-to-save game dedicated to supporting sick and homeless cats.",
+        "categories": {
+          "gaming": [
+            "platformer"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://tokentails.com/",
+          "x": "https://x.com/tokentails",
+          "telegram": "https://tr.ee/dHGbwuEw_V",
+          "discord": "https://discord.com/invite/4FVYmnd7Hg"
+        }
+      },
+      "tom": {
+        "alias": "TOM",
+        "gradientBackground": "linear-gradient(180deg, #68A5B2, #FFEAAC)",
+        "description": "TOM Clicker is a clicker, resource management and strategy game where players earn points by clicking the mouse, inviting friends, completing tasks and buying upgrades to grow faster.",
+        "categories": {
+          "gaming": [
+            "mobile",
+            "casual",
+            "strategy"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://tomcoin.app/#home",
+          "x": "https://x.com/TomCoinBnb",
+          "discord": "https://t.me/TomCoinBNB"
+        }
+      },
+      "tcg-world": {
+        "alias": "TCG World",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "Explore TCG World Metaverse, an immersive virtual world where you can socialize, play games, create content, and earn in game rewards.",
+        "categories": {
+          "gaming": null,
+          "metaverse": null
+        },
+        "social": {
+          "website": "https://tcg.world/",
+          "x": "https://x.com/OfficialTCGCoin",
+          "discord": "https://t.me/joinchat/d2Jha-JoIOozNjVk"
+        }
+      },
+      "subsquid": {
+        "alias": "Subsquid",
+        "gradientBackground": "black",
+        "description": "Subsquid is the most dev-friendly way to develop and deploy custom GraphQL APIs and ETLs for advanced blockchain use cases.",
+        "categories": {
+          "gaming": [
+            "pc",
+            "action-adventure",
+            "rpg"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://subsquid.io/",
+          "x": "https://x.com/subsquid",
+          "telegram": "https://t.me/subsquid",
+          "discord": "https://discord.com/invite/subsquid",
+          "github": "https://github.com/subsquid"
+        }
+      },
+      "super-vet": {
+        "alias": "Super Vet",
+        "gradientBackground": "linear-gradient(180deg, #15181E, #2C2B2E)",
+        "description": "Embark on a thrilling P2E adventure in Super Vet! As you step into the paws of Super Vet.",
+        "categories": {
+          "gaming": [
+            "action-adventure"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://www.supervet.io/",
+          "x": "https://t.me/subsquid",
+          "telegram": "https://t.me/SuperVetOfficial",
+          "discord": "https://discord.com/invite/J3rywtphjz"
+        }
+      },
+      "navis-war": {
+        "alias": "Navis War",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "Get ready to battle. Join the fray in Navis War, a gripping naval battle game that immerses you in the heart of intense sea warfare.",
+        "categories": {
+          "gaming": [
+            "mobile",
+            "casual",
+            "strategy"
+          ]
+        },
+        "social": {
+          "website": "https://www.naviswar.com/",
+          "x": "https://x.com/naviswargame",
+          "telegram": "https://t.me/naviswargame",
+          "discord": "https://discord.com/invite/ujeY9vd5PA"
+        }
+      },
+      "olderfall": {
+        "alias": "Olderfall",
+        "gradientBackground": "linear-gradient(180deg, #F2931D, #C43131)",
+        "description": "Choose your FALLEN and enter the arenas of Olderfall! Shine in battle with your Sets and Weapons",
+        "categories": {
+          "gaming": [
+            "pc",
+            "cards_deck-building",
+            "strategy"
+          ]
+        },
+        "social": {
+          "website": "https://www.olderfall.com/",
+          "x": "https://x.com/olderfall"
+        }
+      },
+      "metaverser": {
+        "alias": "Metaverser",
+        "gradientBackground": "linear-gradient(180deg, #261530, #151121)",
+        "description": "First virtual free-to-play, play-to-earn world where you can create a custom 3D avatar, compete, utilize NFTs, mine $MTVT, socialize & much more!",
+        "categories": {
+          "metaverse": null,
+          "gaming": [
+            "pc"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://metaverser.me/",
+          "x": "https://x.com/metaversergame",
+          "telegram": "https://t.me/metaverserchat",
+          "discord": "https://t.co/RhX8BOiXcn"
+        }
+      },
+      "skale-platformer": {
+        "alias": "SKALE Platformer",
+        "gradientBackground": "linear-gradient(180deg, #030303, #030303)",
+        "description": "In SKALE Platformer, you step into the shoes of a cartoony alien on a mission to collect coins and squash flies and slimes.",
+        "categories": {
+          "gaming": [
+            "pc",
+            "platformer"
+          ]
+        },
+        "social": {
+          "website": "https://platformer.dirtroad.dev/",
+          "github": "https://github.com/TheGreatAxios/skale-platformer",
+          "dappradar": "https://dappradar.com/dapp/skale-platformer"
+        }
+      },
+      "megafans": {
+        "alias": "MegaFans",
+        "gradientBackground": "linear-gradient(180deg, #010105, #040412)",
+        "description": "Unlock the full potential of your gaming experience with #MegaFans Elevate your gameplay, enhance collaboration, and level up your victories.",
+        "categories": {
+          "gaming": [
+            "casual",
+            "mobile"
+          ]
+        },
+        "social": {
+          "website": "https://www.megafans.io/",
+          "x": "https://x.com/MegafansGaming",
+          "telegram": "https://t.me/MegaFans_eSports",
+          "discord": "https://discord.com/invite/megafansesports",
+          "github": "https://github.com/megafans"
+        }
+      },
+      "lapsus-next": {
+        "alias": "Lapsus Next",
+        "gradientBackground": "linear-gradient(180deg, #14141C, #111119)",
+        "description": "Embark on a culinary journey like no other in 'Ramen Rumble: Apocalypse Express,' where the aroma of savory ramen meets the thrill of post-apocalyptic combat.",
+        "categories": {
+          "gaming": [
+            "casual"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://www.lapsusnext.com/",
+          "x": "https://x.com/LapsusNext"
+        }
+      },
+      "felines-of-sarvia": {
+        "alias": "Felines of Sarvia",
+        "gradientBackground": "white",
+        "description": "Felines of Sarvia is an Idle Clicker Game in which you manage your own Guild of Adventuring Warrior Cats.",
+        "categories": {
+          "gaming": [
+            "casual",
+            "strategy"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://golive.games/#games",
+          "x": "https://golive.games/#games"
+        }
+      },
+      "fusionwaveai": {
+        "alias": "FusionwaveAI",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "FusionwaveAI aims to become a robust Web3 Gaming and Generative AI platform, while building an AI driven Metaverse.",
+        "categories": {
+          "gaming": null,
+          "metaverse": null,
+          "ai": null
+        },
+        "social": {
+          "website": "https://www.fusionwaveai.com/",
+          "x": "https://x.com/fusionwaveai"
+        }
+      },
+      "fusyfox": {
+        "alias": "FusyFox",
+        "gradientBackground": "linear-gradient(180deg, #370055, #370055)",
+        "description": "FusyFox is a Web3 project that offers a fast-paced multiplayer third-person shooter game.",
+        "categories": {
+          "gaming": null,
+          "metaverse": null,
+          "ai": null
+        },
+        "social": {
+          "website": "https://fusyfox.com/",
+          "x": "https://x.com/fusyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/FUSYFOXGroup",
+          "discord": "https://discord.com/invite/fusyfox"
+        }
+      },
+      "zesh": {
+        "alias": "Zesh",
+        "gradientBackground": "linear-gradient(180deg, #0E121A, #0E121A)",
+        "description": "Zesh is an integrated suite of AI-powered apps that leverage zkML and ultra-gamified models to build a genuine Web3 community and accelerate growth.",
+        "categories": {
+          "gaming": null,
+          "ai": null
+        },
+        "social": {
+          "website": "https://zesh.io/",
+          "x": "https://x.com/zeshapps",
+          "telegram": "https://t.me/ZeshApps",
+          "discord": "https://discord.com/invite/BKtYKdt3uS"
+        }
+      },
+      "cyberkart-ai": {
+        "alias": "CyberKart AI",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000007)",
+        "description": "Adrenaline-fueled Ai racing, Dynamic AI-generated maps, special abilities, futuristic weapons, and crypto rewards.",
+        "categories": {
+          "gaming": [
+            "racing"
+          ],
+          "ai": null
+        },
+        "social": {
+          "website": "https://www.cyberkart.ai/",
+          "x": "https://x.com/The_CyberKart",
+          "telegram": "https://t.me/CyberKart_official"
+        }
+      },
+      "goart-worlds": {
+        "alias": "GoArt Worlds",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "Join GoArt Worlds, create your avatar and become a part of this journey in space and time!",
+        "categories": {
+          "gaming": [
+            "mobile",
+            "casual"
+          ],
+          "digital-collectibles": null,
+          "metaverse": null
+        },
+        "added": 1723984132,
+        "social": {
+          "website": "https://www.goartworlds.com/",
+          "x": "https://x.com/goartworlds",
+          "telegram": "https://t.me/goartglobal",
+          "discord": "https://discord.com/invite/goartworlds"
+        }
+      },
+      "ghost-merc-frontlines": {
+        "alias": "Ghost Merc: Frontlines",
+        "gradientBackground": "linear-gradient(180deg, #030E12, #0D2D36)",
+        "description": "Players assume the role of elite mercenaries, recruited by various factions to execute high-stakes missions across the globe.",
+        "categories": {
+          "gaming": [
+            "action-adventure",
+            "shooter"
+          ]
+        },
+        "social": {
+          "website": "https://www.ghostmerc.com/",
+          "x": "https://x.com/PlayGhostMerc"
+        }
+      },
+      "cryptofights": {
+        "alias": "CryptoFights",
+        "gradientBackground": "linear-gradient(180deg, #292831, #17161b)",
+        "description": "Prepare for the saga of CryptoFights, where heroes ascend, legends collide and the destiny of Elderia hangs on the edge of your will.",
+        "categories": {
+          "gaming": [
+            "mobile",
+            "rpg",
+            "action-adventure"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://beacons.ai/cryptofights/home",
+          "x": "https://twitter.com/CryptoFights",
+          "discord": "https://discord.com/invite/p2qU6rbQYH"
+        },
+        "added": 1722966179
+      },
+      "cthulhu-awakens": {
+        "alias": "Cthulhu Awakens",
+        "gradientBackground": "linear-gradient(180deg, #000000, #131313)",
+        "description": "An ancient cosmic horror is rising again! Bringing cosmic nightmares and decentralized fun to your screens!",
+        "categories": {
+          "gaming": [
+            "action-adventure"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://www.cthulhuawakens.io/",
+          "x": "https://x.com/cthulhu_awakens",
+          "discord": "https://discord.com/invite/zJqTExywtA"
+        }
+      },
+      "boudicea": {
+        "alias": "Boudicea",
+        "gradientBackground": "linear-gradient(180deg, #040404, #030303)",
+        "description": "In Boudicea, a play-to-earn NFT-based game, become a tribal warrior under Queen Boudicea to protect the Iceni tribe.",
+        "categories": {
+          "gaming": [
+            "action-adventure"
+          ],
+          "digital-collectibles": null
+        },
+        "tags": [
+          "pretge"
+        ],
+        "social": {
+          "website": "https://boudicea.io/",
+          "x": "https://x.com/Boudicea_game",
+          "telegram": "https://t.me/boudiceagame",
+          "discord": "https://discord.com/invite/Boudicea"
+        },
+        "added": 1691430179
+      },
+      "degen-royale": {
+        "alias": "Degen Royale",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "Join epic battles and claim victory",
+        "categories": {
+          "gaming": [
+            "action-adventure",
+            "pc"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://degenroyale.net/",
+          "x": "https://x.com/Degen_Royale",
+          "discord": "https://discord.com/invite/fbPVv25bx8"
+        }
+      },
+      "cryptopolis": {
+        "alias": "Cryptopolis",
+        "gradientBackground": "linear-gradient(180deg, #253442, #93AABC)",
+        "description": "Cryptopolis is an online social NFT game where you take your shot at becoming the wealthiest Cryptopian of the Tower.",
+        "categories": {
+          "gaming": [
+            "simulation"
+          ],
+          "digital-collectibles": null,
+          "metaverse": null
+        },
+        "social": {
+          "website": "https://cryptopolisgame.com/",
+          "x": "https://x.com/cryptopolisgame?lang=en",
+          "telegram": "https://t.me/CryptopolisGame",
+          "discord": "https://discord.com/invite/cZ3GCwdgXP"
+        },
+        "added": 1720374179
+      },
+      "bullieverse": {
+        "alias": "Bullieverse",
+        "gradientBackground": " linear-gradient(rgb(6, 0, 1), rgb(28 2 3))",
+        "description": "Bullieverse is an ever-expanding world with an arcade of games for the community to play and earn rewards.",
+        "categories": {
+          "gaming": [
+            "casual",
+            "shooter",
+            "action-adventure"
+          ]
+        },
+        "social": {
+          "website": "https://bullieverse.com/",
+          "x": "https://x.com/Bullieverse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/Bullieverse",
+          "discord": "https://discord.com/invite/bullieverse-official"
+        }
+      },
+      "world-play-league": {
+        "alias": "World Play League",
+        "gradientBackground": "linear-gradient(180deg, #121133, #12204D)",
+        "description": "World's first player-owned game platform. Providing AI/ML tooling for game studios.",
+        "categories": {
+          "metaverse": null,
+          "gaming": [
+            "action-adventure",
+            "strategy"
+          ]
+        },
+        "social": {
+          "website": "https://worldplayleague.com/",
+          "x": "https://x.com/worldplayleague"
+        }
+      },
+      "burgercities": {
+        "alias": "BurgerCities",
+        "gradientBackground": "linear-gradient(180deg, #12121A, #19141A)",
+        "description": "BurgerCities is a one-stop play & earn MetaFi platform.",
+        "categories": {
+          "gaming": [
+            "web3"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://burgercities.org/",
+          "x": "https://x.com/BurgerCitiesBar",
+          "telegram": "https://t.me/burgercities",
+          "discord": "https://discord.com/invite/TmwJfQNzpF"
+        }
+      },
       "cryptocrusades": {
         "alias": "CryptoCrusades",
-        "background": "gray",
         "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
         "description": "Join players from around the globe and make your mark on the world of CryptoCrusades. Whether through conquest or trade, there are many ways to lead your Empire!",
-        "url": "https://cryptocrusades.io/",
+        "categories": {
+          "gaming": [
+            "mobile",
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://cryptocrusades.io/"
+        },
         "tags": [
-          "NFT",
+          "digital-collectibles",
           "Games"
         ],
         "contracts": [
@@ -487,18 +1300,22 @@
           "0xab53a4e6bed7b5d82bfa85a4f5c5898dfc4c830a"
         ]
       },
-      "nftb": {
-        "alias": "NFTb (Soon PixelRealm)",
-        "background": "gray",
+      "pixelrealm": {
+        "alias": "PixelRealm",
         "gradientBackground": "linear-gradient(90deg,#02161b,#02042e 26.04%,#14032d 51.56%,#170223 77.08%,#100113)",
-        "url": "https://nftb.io/",
-        "description": "NFTb is the Binance backed go-to Gaming Platform committed to grow Web3 gaming projects at any stage since 2021 supporting with NFT/token sales, project token liquidity boosting initiatives, marketing and player growth initiatives.",
-        "tags": [
-          "NFT",
-          "Staking",
-          "Games",
-          "Marketplaces"
-        ],
+        "description": "Pixel Realm is the Binance backed go-to Gaming Platform committed to grow Web3 gaming projects at any stage since 2021 supporting with NFT/token sales, project token liquidity boosting initiatives, marketing and player growth initiatives.",
+        "categories": {
+          "gaming": null,
+          "digital-collectibles": null,
+          "metaverse": null
+        },
+        "social": {
+          "website": "https://pixelrealm.io/",
+          "x": "https://x.com/PixelRealmlabs",
+          "telegram": "https://t.me/nftbmarket",
+          "discord": "https://discord.com/invite/4XEP5G3W7J",
+          "dappradar": "https://dappradar.com/dapp/nftb-soon-pixelrealm"
+        },
         "contracts": [
           "0xe2f691dfc01C6771f61937FF62cBbaF6B8B34f53",
           "0x677149cd9E9C08208096DeC1aea0bCfed9e1D367",
@@ -509,15 +1326,22 @@
       },
       "motodex": {
         "alias": "MotoDEX",
-        "background": "gray",
         "description": "MotoDEX is a NFT game, competition of multi-level racing on motorcycles on high-speed tracks with unlimited opportunities for players.",
-        "gradientBackground": "linear-gradient(92deg, rgb(18, 18, 18) 0%, rgb(56, 57, 59)",
-        "url": "https://openbisea.io/motodex",
-        "tags": [
-          "NFT",
-          "Games",
-          "Staking"
-        ],
+        "gradientBackground": "linear-gradient(92deg, rgb(30 30 30) 0%, rgb(63 63 63))",
+        "categories": {
+          "gaming": [
+            "mobile",
+            "racing",
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://openbisea.io/motodex",
+          "x": "https://x.com/openbisea",
+          "telegram": "https://t.me/openbisea_en",
+          "discord": "https://discord.gg/8U3yYBkFEC",
+          "dappradar": "https://dappradar.com/dapp/motodex"
+        },
         "contracts": [
           "0x54bD7f566e05258AcE8eB979e4dbCE5F6376Ff38",
           "0x9ace5e62A42F251b73daac20a6633CBD103b3668",
@@ -530,10 +1354,25 @@
       },
       "fivetars": {
         "alias": "5TARS",
-        "background": "gray",
         "gradientBackground": "linear-gradient(92deg, #00121e 0%, #052b44",
-        "url": "https://5tars.io/",
         "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience!",
+        "categories": {
+          "gaming": [
+            "mobile",
+            "sports",
+            "cards_deck-building"
+          ]
+        },
+        "tags": [
+          "pretge"
+        ],
+        "social": {
+          "website": "https://5tars.io/",
+          "x": "https://x.com/5tarsgame?lang=en",
+          "telegram": "https://t.me/Game5TARS",
+          "discord": "https://discord.com/invite/5tarsgame",
+          "dappradar": "https://dappradar.com/dapp/5tars/"
+        },
         "contracts": [
           "0x23C1F1a60F18e304fC81eDB2cb98C04a59aef466",
           "0xda7D9012A36d85F61Ca6e0d85998FBEf0BA640B6",
@@ -546,57 +1385,47 @@
           "0x4BF615f221Ef736548f38226Eb7173Fb69cF9906",
           "0x13feEcE0ACd24E175154f13849166f18287Cf07f",
           "0xb850De68296D091974Dc32F9D6aDD2F992fA4310"
-        ],
-        "tags": [
-          "NFT",
-          "Games",
-          "Sports",
-          "Marketplaces"
         ]
       },
       "bit-hotel": {
         "alias": "Bit Hotel",
-        "background": "gray",
         "gradientBackground": "linear-gradient(92deg, #262b35 0%, #14181e",
-        "url": "https://bithotel.io",
-        "description": "Bit Hotel is a Social Play and Earn Game, in which users are able to use Bit Hotel tokens to acquire native items and participate in all kinds of in-game competitions and events. The item NFTs have in-game usability and consist of characters, hotel rooms, furniture and other artifacts that have their own perks. They consist of varying rarities and can be traded on the open market.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Marketplaces",
-          "Social"
-        ],
+        "description": "Bit Hotel consists of public and private rooms where player can interact with each other through text and voice based communication.",
+        "categories": {
+          "metaverse": null,
+          "gaming": [
+            "mobile",
+            "simulation"
+          ]
+        },
+        "social": {
+          "website": "https://bithotel.io",
+          "x": "https://x.com/playbithotel",
+          "telegram": "https://t.me/bithotelcommunity",
+          "discord": "https://discord.com/invite/RFFZNwxY9n",
+          "dappradar": "https://dappradar.com/dapp/bit-hotel"
+        },
+        "added": 1722964465,
         "contracts": [
           "0x90BF5e3622e1597Cde0193daB61b7171be0Fa63F"
         ]
       },
-      "jump-trade": {
-        "alias": "Jump.trade",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(181deg, rgb(12 12 12) 0%, rgb(23 21 10))",
-        "url": "https://www.jump.trade/",
-        "description": "Jump.trade, a premium NFT marketplace, brings exclusive NFT collections in a one-of-a-kind ecosystem featuring game, brands and international artists. UnfoldingNFTs that hold a global impact.",
-        "tags": [
-          "NFT",
-          "Marketplaces",
-          "Games",
-          "Sports"
-        ],
-        "contracts": [
-          "0x3caF566834783a91Fb44Dfa750A59d57269aD612"
-        ]
-      },
       "dexgo": {
-        "alias": "dexGO",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(92deg, rgb(68 138 255) 0%, rgb(68 138 255))",
-        "url": "https://dexgo.club/en",
+        "alias": "DexGO",
+        "gradientBackground": "linear-gradient(92deg, rgb(68, 138, 255) 0%, rgb(68, 138, 255))",
         "description": "What is a DexGO? This is an NFT game with elements of augmented reality. Put on NFT sneakers and walk along new interesting routes. Guaranteed to earn USDT by completing simple and fun quests and sharing with your followers.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Metaverse"
-        ],
+        "categories": {
+          "gaming": [
+            "mobile",
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://dexgo.club/en",
+          "x": "https://x.com/dexgo_official?lang=en",
+          "telegram": "https://t.me/dexgo_ua",
+          "dappradar": "https://dappradar.com/dapp/dexgo"
+        },
         "contracts": [
           "0xdDE147EcCe74Fe75f0bAccD67B069201E25E8Fe8",
           "0xb172C9319637149B6918c8323BeB986ee64f5493",
@@ -608,141 +1437,109 @@
       },
       "haven-s-compass": {
         "alias": "Haven's Compass",
-        "background": "gray",
         "gradientBackground": "linear-gradient(92deg, #131313 0%, #092017",
-        "url": "https://www.havenscompass.com/",
         "description": "In the heart-pounding world of Haven's Compass, players step into the boots of an operative of their choice in a dystopian future, where they are tasked with unraveling a conspiracy that threatens to plunge the world into chaos. Set against a backdrop of stunningly rendered post-apocalyptic landscapes, Haven's Compass seamlessly blends intense gunplay with a gripping narrative, immersing players in a cinematic experience like never before. As players choose their operative, each with a unique background and skill set, they navigate through intricately designed levels, battling relentless waves of enemies and utilizing an arsenal of futuristic weapons, each with its own unique abilities and upgrades. The game's dynamic AI adapts to players' strategies, ensuring a challenging and unpredictable combat experience that rewards both precision and tactical thinking.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "pc",
+            "shooter"
+          ]
+        },
         "contracts": [
           "0x21055aD11b0D3F9577eD2fd9fD432e2a5E06a8Ee",
           "0x9D13709c1b41DEDD9b8690c66d4590D6a52b3062",
-          "0x6D1a6B840714420D425c2F2658CEF390dbD809A7"
+          "0x6D1a6B840714420D425c2F2658CEF390dbD809A7",
+          "0x0384eB9dF2A10a0075011E57112c8542C39689d1 0x6D7E80e3B76095a8c1a9903f77f4faacc241CE6e",
+          "0xc59c5D5220Eb9217cD4cce63e6E380F40f3a02a4 0xd1820D02B55Dc7936286F5004361d70Ae90B1FcB ",
+          "0x2e1dB04EF8cdFa4d0008F611755A3B726efF49Dd 0xFfFc8124B1244EaE0eB574A232e91Ce1572049e0",
+          "0xF689625822704DBE865FBB0591Ea1aFA3112B19c 0x9f5446692990948CfE3b30E81ceBe2Fa0A46b49e"
         ],
-        "featured": true
-      },
-      "ballers-city": {
-        "alias": "Ballers City",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(180deg,#110929,rgba(17,9,41,.1) 145.5%)",
-        "url": "https://ballers.fun/",
-        "description": "Ballers Studio is a web3 gaming infrastructure, a one stop shop for the community that loves games, parties, rewards, and unlimited fun! Ballers Studio is coming up with multiple hypercasual and competitive FREE-to-play games, a pop-style NFT collection inspired by OG influencers and personalities, and endless raffles and referral campaigns.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Pools"
-        ],
-        "contracts": [
-          "0xf2d89558b05459aa993318662360ba27caca9117"
-        ]
-      },
-      "booja-world": {
-        "alias": "Booja.World",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(#191A32, #101123)",
-        "url": "https://booja.world/",
-        "description": "Dive into a world of endless entertainment with our collection of casual blockchain games, powered by the cutting-edge SKALE Network technology. Experience seamless gameplay, trade assets securely, and earn rewards as you play. Join the revolution where fun meets blockchain innovation!",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
-        "contracts": [
-          "0x9d6c539FC67bd8dF5EAeD4E32bA78088C74EB6d1"
-        ]
+        "social": {
+          "website": "https://www.havenscompass.com/",
+          "x": "https://x.com/HavensCompass",
+          "telegram": "https://t.me/havenscompass",
+          "discord": "https://discord.com/invite/havenscompass",
+          "dappradar": "https://dappradar.com/dapp/haven-s-compass"
+        }
       },
       "chainguardians": {
         "alias": "ChainGuardians",
-        "background": "gray",
         "gradientBackground": "linear-gradient(180deg, #140842, #10082f)",
-        "url": "https://www.chainguardians.io/",
         "description": "Welcome to ChainGuardians, a player-driven platform revolutionizing the gaming world! By combining traditional gaming concepts with emerging technologies, we've created an ecosystem where players can earn rewards through our free-to-play digital asset mining platform and Role-Playing Game. But we don't stop there - we're constantly forming partnerships and working collaboratively to smash through ideological barriers oppressing user ownership and digital economies.",
-        "tags": [
-          "NFT",
-          "Games",
-          "DeFi",
-          "Metaverse"
-        ]
-      },
-      "gamifly": {
-        "alias": "Gamifly",
-        "background": "gray",
-        "gradientBackground": "radial-gradient(#25182c, #0f0e13)",
-        "url": "https://gamifly.co",
-        "description": "Gamifly is a fully transparent sports metaverse that provides esports events for fans and gamers alike! Already having successful launch their flagship product, CricketFly in South Asia for cricket fans in the region, there are goals to expand into other countries across the Asia Pacific. Their product is already becoming a phenomenon amongst sports fans with almost a million downloads to date and growing since its launch in August 2022.",
-        "tags": [
-          "Games",
-          "Sports"
-        ],
-        "contracts": [
-          "0xB2205BD92fe5f3DE1b8ac78BCa0685e2327dD865",
-          "0x9Bb56637C78cA09C2a547E43E5714513a38612eb",
-          "0xb4b022421EC9f30B00972A7BD790c294070522d8",
-          "0x043fd106f9D1aD1B208781e1aF49bc98E5E44a1a",
-          "0x84B666972256d72BD2eD555A6d2b7613E15926b6",
-          "0x1fEB1123a7Db4c7ad487D3B5342648aA03dE3cBD",
-          "0xA7CA127fAb80415b6803166E04719c0C4EA7fD13",
-          "0xcc1f8c0Cd0cfdA6621E9d0E09105E3D4180e5568"
-        ],
-        "legacy": true
+        "categories": {
+          "gaming": null,
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://www.chainguardians.io/",
+          "x": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "discord": "https://discord.com/invite/WZDx96TNb3"
+        }
       },
       "hatchyverse": {
         "alias": "HatchyVerse",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#5ab0e1, #125ea0)",
-        "url": "https://www.hatchyverse.com/games/hatchy-rampage",
         "description": "Decentralized IP of 150+ elemental monsters owned and managed by the $HATCHY token, earned exclusively by staking Hatchy and Hatchyverse NFTs. Build the future of IP!",
-        "tags": [
-          "NFT",
-          "Games",
-          "Metaverse",
-          "Staking"
-        ],
+        "categories": {
+          "gaming": [
+            "mobile",
+            "rpg",
+            "pc",
+            "action-adventure",
+            "casual"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://www.hatchyverse.com/games/hatchy-rampage",
+          "x": "https://x.com/Hatchyverse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "discord": "https://t.co/hvNXZDB8kw",
+          "dappradar": "https://dappradar.com/dapp/hatchyverse"
+        },
         "contracts": [
           "0xdB1DF93b8B0D6aD52E124CAFE7f8D1C3c6b4294f"
         ]
       },
       "heroes-battle-arena": {
         "alias": "Heroes Battle Arena",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#2e1b01, #140d04)",
-        "url": "https://heroesbattlearena.online/",
         "description": "Multichain Play-and-earn Strategic RPG with zero start investments based on NFTs for the army, magic stones, gods and guilds power. Well known problem of P2E games is the need for significant initial investment. Our game solves this problem with free initial units, low-cost entry payment and a large base of opportunities to increase own income. Our game is based on interaction with NFTs, allowing us to connect the additional project to our game and many blockchains. Our game has 3 types of assets: battle units, magic stones and gods. The gameplay of our game is based on two types of battles: standard and premium. In standard battle, users can set the army on the battleground and look at how to work the auto-battle system. In premium type, users get full control of each step in each battle.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Governance"
-        ],
+        "categories": {
+          "gaming": [
+            "mobile",
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://heroesbattlearena.online/",
+          "x": "https://x.com/chess3app",
+          "discord": "https://discord.com/invite/chess3",
+          "github": "https://github.com/heroesbattlearena",
+          "dappradar": "https://dappradar.com/dapp/heroes-battle-arena"
+        },
         "contracts": [
           "0xc6b4C3364a957d808F09C439ccd28C8f36934a0E"
         ]
       },
-      "interverse": {
-        "alias": "Interverse (Paradise Brawl)",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(rgb(31 31 31), rgb(0 0 0))",
-        "url": "https://degenroyale.net/",
-        "description": "In the heart of paradise, the mythical Benfica Island has emerged. Take up your weapons, harness your skills, and dive into the most epic battle experience between worlds leading football clubs to become the true champion of SL Benfica in Paradise Brawl. Unleash your gaming skills as you play on Benfica Island, earning experience points, leveling up, and unlocking a world of amazing rewards that await your triumphs. Embark on an epic journey where every move you make counts, and watch as your skills and achievements shape your destiny.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
-        "contracts": [
-          "0x3869f94c99ECC94d636f17DE3Ff0D3f01A2B68Ec"
-        ],
-        "dappradar": "paradise-brawl"
-      },
       "mystrios": {
         "alias": "Mystrios",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(#1b2776, #050a2c)",
-        "url": "https://mystrios.com",
+        "gradientBackground": "linear-gradient(#1E2341, #1E2341)",
         "description": "Immerse yourself in the world of Mystrios for an unprecedented Play-to-Earn experience, now live on SKALE. Unparalleled gaming begins here.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "action-adventure",
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://mystrios.com/",
+          "x": "https://x.com/PlanetMystrios",
+          "telegram": "https://t.me/PlanetMystrios",
+          "discord": "https://t.co/1bmUugq0yM",
+          "github": "https://github.com/PlanetMystrios",
+          "dappradar": "https://dappradar.com/dapp/mystrios"
+        },
         "contracts": [
           "0xd640d4680935Dc972dCbFf067bc1BDAcDaDE6ef7",
           "0xBf9485C782092dFB614c82ffa8cE716FdF3ea1F1",
@@ -753,28 +1550,44 @@
       },
       "spells-of-genesis": {
         "alias": "Spells of Genesis",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#49280f, #190b04)",
         "url": "https://spellsofgenesis.com/",
         "description": "As the first blockchain-based mobile game ever made, Spells of Genesis (SoG) combines trading card game (TCG) functionalities with the point-and-shoot aspects of arcade games. It was launched in April 2017 after a successful ICO, one of the first of its kind. Players have to collect and combine cards to create the strongest deck in order to fight their enemies in a series of battles. Associating deck-building strategy with an easy and intuitive gameplay, Spells of Genesis has already attracted numerous players around the world and the game is surrounded and supported by a strong community of players and fans. SoG is using two types of cards: in-game cards and blockchain cards.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "pc",
+            "cards_deck-building"
+          ]
+        },
+        "social": {
+          "website": "https://spellsofgenesis.com/",
+          "x": "https://x.com/everdreamsoft",
+          "telegram": "https://t.me/EverdreamSoft",
+          "discord": "https://t.co/f64PM9TNuh",
+          "dappradar": "https://dappradar.com/dapp/spells-of-genesis"
+        },
         "contracts": [
           "0x9414633155eDd39E624F58c24a41d1f30de46CD7"
         ]
       },
       "sportzchain": {
         "alias": "SportZchain",
-        "background": "gray",
         "gradientBackground": "linear-gradient(90deg, #021901, #441c03)",
-        "url": "https://sportzchain.com/",
         "description": "The first Engage-To-Earn (E2E) platform for sports fans powered by $SPN. We are building a digital world for fans by offering Sports Tokens.",
-        "tags": [
-          "Games",
-          "Sports"
-        ],
+        "categories": {
+          "gaming": [
+            "mobile",
+            "casual",
+            "sports"
+          ]
+        },
+        "social": {
+          "website": "https://sportzchain.com/",
+          "x": "https://x.com/sportzchain",
+          "telegram": "https://t.me/SportzchainCommunity",
+          "discord": "https://discord.com/invite/E4X3Gg9nbK",
+          "github": "https://github.com/sportzchain-core"
+        },
         "contracts": [
           "0x3b13564F347F7bdDaE0dAb079957D422585a5439",
           "0xf23eF44CAC26f9A482243f6cB315e70C062223Fe"
@@ -782,15 +1595,18 @@
       },
       "starzplay-fantasy-sports": {
         "alias": "STARZPLAY Fantasy Sports",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#014353, #002830)",
-        "url": "https://games.starzplay.com/",
         "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Sports"
-        ],
+        "categories": {
+          "gaming": [
+            "sports",
+            "mobile",
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://games.starzplay.com/"
+        },
         "contracts": [
           "0x92C42d6E573E05e73c085aE3846f6c592b123906",
           "0x0E35e2bFFdAB3b47f73103BfddF634D835b49563",
@@ -807,15 +1623,24 @@
       },
       "world-of-dypians": {
         "alias": "World of Dypians",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #090b2a, #15184a)",
-        "url": "https://www.worldofdypians.com/",
         "description": "The World of Dypians (WoD) is a massive multiplayer online role-playing game that is  set in a vast digital environment. Its target audience is individuals who enjoy playing  online games and exploring immersive digital environments. The goals of the game  are to provide players with a rich and engaging experience that allows them to  interact with others, complete quests, and engage in battles. WoD's unique  combination of fantasy and blockchain technology creates an exciting and dynamic  environment for players to explore and experience. The ultimate goal of the game is  to create a virtual world that is alive with activity, where players can form  communities, create their own content, and engage in meaningful interactions with  one another.    World of Dypians is built to support multiple blockchains, making it accessible and  interoperable with a wider audience. We aim to have a sustainable ecosystem where  users can contribute to the growth and development of the world. The multi-chain  integration and the wide range of offerings, including next-gen integrations like other  chains, tokens, NFTs, and a marketplace, make World of Dypians a cutting-edge  solution in the DeFi and metaverse space.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Metaverse"
-        ],
+        "categories": {
+          "gaming": [
+            "pc",
+            "sandbox",
+            "action-adventure",
+            "rpg"
+          ]
+        },
+        "social": {
+          "website": "https://www.worldofdypians.com/",
+          "x": "https://x.com/worldofdypians",
+          "telegram": "https://t.me/worldofdypians",
+          "discord": "https://discord.gg/worldofdypians",
+          "github": "https://github.com/worldofdypians",
+          "dappradar": "https://dappradar.com/dapp/world-of-dypians"
+        },
         "contracts": [
           "0x6041dC62b74e28596b4917693f6B0F5baA61A13F",
           "0x620655Ee8320bA51cf4cc06bf6a7C14022271764",
@@ -824,63 +1649,96 @@
       },
       "yomi-games": {
         "alias": "Yomi Games",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#251ae5, #e06729)",
-        "url": "https://yomigames.gg/",
         "description": "Yomi Block Puzzle is your classic block puzzle game, free to play, and has several original features including a lovable pet that reacts as you score combos!",
-        "tags": [
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "mobile",
+            "casual",
+            "puzzle"
+          ]
+        },
+        "added": 1722964465,
+        "social": {
+          "website": "https://yomigames.gg/",
+          "x": "https://x.com/yomigamesgg",
+          "discord": "https://t.co/mUcQarR56L",
+          "github": "https://github.com/yomi-digital",
+          "dappradar": "https://dappradar.com/dapp/yomi-block-puzzle"
+        },
         "contracts": [
           "0xe94E779aBd08dd0c67d1c2530685565F19bc909a"
-        ],
-        "dappradar": "yomi-block-puzzle"
+        ]
       },
       "zeus": {
         "alias": "Zeus",
-        "background": "gray",
         "gradientBackground": "linear-gradient(rgb(30 30 30), rgb(0 0 0))",
-        "url": "https://beta.devzeus.io/games",
         "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
-        "tags": [
-          "NFT",
-          "Staking",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "pc",
+            "shooter"
+          ]
+        },
+        "social": {
+          "website": "https://beta.devzeus.io/games",
+          "x": "https://x.com/DevZeusio",
+          "telegram": "https://t.me/zeusblock",
+          "discord": "https://t.co/h8zbAbEncR"
+        },
         "contracts": [
           "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
         ]
       },
       "earnscape": {
         "alias": "EarnScape",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#0a0b0a, #072013)",
-        "url": "https://earnscape.io/",
         "description": "While you play, you earn rewards. It's that simple. Every game on your phone is compatible.",
-        "dappradar": false
+        "categories": {
+          "partner": null,
+          "gaming": [
+            "mobile"
+          ]
+        },
+        "social": {
+          "website": "https://earnscape.io/",
+          "x": "https://x.com/earnscape",
+          "telegram": "https://t.me/earnscapeio",
+          "discord": "https://t.me/earnscapeio"
+        }
       },
       "hangry-animals": {
         "alias": "Hangry Animals",
-        "background": "gray",
         "gradientBackground": "linear-gradient(rgb(239 255 0), rgb(158 170 9))",
-        "url": "https://hangryanimals.com/",
         "description": "Hangry Animals is a comprehensive ecosystem that blends gaming with charity, where players engage in quests and level completions to support animal welfare.",
-        "tags": [
-          "Games",
-          "NFT"
-        ],
-        "dappradar": false
+        "categories": {
+          "gaming": [
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://hangryanimals.com/",
+          "x": "https://x.com/hangryanimals",
+          "telegram": "https://t.me/HangryAnimalsCommunity",
+          "discord": "https://discord.com/invite/HangryAnimals"
+        }
       },
       "floki-cyber-punk": {
         "alias": "Floki Cyber Punk",
-        "background": "gray",
         "gradientBackground": "linear-gradient(360deg, rgb(0 0 0), rgb(44 11 52))",
-        "url": "https://flokicyberpunk.com/",
         "description": "Floki Cyber Punk is a multiplayer game that invites players to dive into online battles in a vibrant and engaging world where players can fight, earn, and grow within a dynamic digital ecosystem.",
-        "dappradar": "flokicyberpunk",
-        "tags": [
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "pc",
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://flokicyberpunk.com/",
+          "x": "https://x.com/flokicyberpunk",
+          "telegram": "https://t.me/FlokiCyberPunk_NFT",
+          "discord": "https://t.me/FlokiCyberPunk_NFT"
+        },
         "contracts": [
           "0x8fD582331cf2a23aF3a5F8F3bdF4Aad24c012061",
           "0xD9105456dB9E0Ee73aA7349EF10b140e78BEbd2c"
@@ -888,79 +1746,42 @@
       },
       "space-rush-odyssey": {
         "alias": "Space Rush Odyssey",
-        "background": "gray",
         "gradientBackground": "linear-gradient(#203e2f, #13261c)",
-        "url": "https://spacerushodyssey.io",
         "description": "Embark on an exhilarating journey with Xurono in Astro Assault as part of Space Rush Odyssey! Dive into the depths of space in this thrilling bullet hell adventure, where you'll seek the elusive Azul Fragment. Face off against waves of formidable foes in intense battles, armed with powerful weapons. Navigate treacherous obstacles and collect valuable loot to enhance your arsenal. But the challenges don't end there—immerse yourself in the rich lore, working alongside Winston and Artemis to unravel the ancient Smercin mystery. Delve into the secrets of the lost ritual to summon unknown powers",
-        "tags": [
-          "NFT",
-          "Games",
-          "Metaverse",
-          "Farming"
-        ],
+        "categories": {
+          "gaming": [
+            "action-adventure"
+          ]
+        },
+        "social": {
+          "website": "https://spacerushodyssey.io/connect",
+          "x": "https://x.com/playspacerush",
+          "discord": "https://t.co/LUgiAhfOrv"
+        },
         "contracts": [
           "0xc524F3022A09EE3163e071241C1D85c4F9140240"
         ]
       },
-      "katana-inu": {
-        "alias": "Katana-Inu",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(#342e23, #1e1b14)",
-        "url": "https://katanainu.com/",
-        "description": "Katana Inu is a (crypto, NFT) PC game with AAA graphics, limited NFTs, and its own marketplace. It is a third-person game that focuses on fast-paced sword and spell fighting.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Marketplaces",
-          "Staking"
-        ],
-        "contracts": [
-          "0x7dE0dF352f6787BaF0657abc832EF2b620B10C45"
-        ]
-      },
-      "nftmining": {
-        "alias": "NFTMining",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, #15141d, #32143b)",
-        "url": "https://nftmining.com/",
-        "description": "NFTMining is a platform that expands the utility of NFT collections and allows their communities to earn tokens and rewards. NFT holders can utilize their NFTs to earn tradeable tokens in real time. The NFTs never need to leave the wallet, providing users with a secure & safe method to stake and earn, enriching the NFT experience for the holders.",
-        "tags": [
-          "NFT",
-          "Staking",
-          "Social"
-        ],
-        "contracts": [
-          "0xE9d487B950A5075D8eaB084e2E04971340765b86",
-          "0xB4F39D20de49EE86c1d880B1b236684a5F875a87",
-          "0xD16539Fa2Fe90F80066a103dDB78cA81Bc33166B"
-        ]
-      },
-      "hurley-super-surfer": {
-        "alias": "Hurley Super Surfer™",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, #6c787f, #386674)",
-        "url": "https://hurley.jump.trade/",
-        "description": "Welcome to the Hurleyverse™️ and with it, a world of endless adventure. Explore a virtual ocean inspired by the world’s best surf breaks and score world class waves from your mobile device. Use your digital avatar to get barreled and boost airs; dodge obstacles like sharks, pirate ship, and sea monsters — all while collecting Hurley Sand Dollars and power ups that give you a huge boost on your gameplay.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
-        "contracts": [
-          "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
-          "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
-          "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
-        ]
-      },
       "metasoccer": {
         "alias": "MetaSoccer",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, rgb(17 17 17), rgb(20 20 20))",
         "url": "https://metasoccer.com/",
         "description": "MetaSoccer is a soccer manager game built with blockchain technology where users can earn rewards through competitions, training, and trading players and scouts. Currently in its Alpha version, the game is set to expand with even more exciting ways to earn and have fun.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "sports",
+            "mobile",
+            "cards_deck-building"
+          ]
+        },
+        "social": {
+          "website": "https://metasoccer.com/",
+          "x": "https://x.com/playmetasoccer",
+          "telegram": "https://t.me/MetaSoccerOfficial",
+          "discord": "https://metasoccer.com/discord",
+          "github": "https://github.com/metasoccer",
+          "dappradar": "https://dappradar.com/dapp/metasoccer"
+        },
         "contracts": [
           "0x975fBFcF94Ea593e4f758E7F4e839f76153FDc7c",
           "0xB810850769FF586Fb0Ac16Ef7E14d4cf5B228AF6",
@@ -986,12 +1807,20 @@
       },
       "arena-games-platform": {
         "alias": "Arena Games Platform",
-        "background": "gray",
         "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
-        "url": "https://arenavs.com/",
-        "description": "We transform and distribute traditional games to the blockchain in just 2 days. Our complete SDK solution enables seamless blockchain gaming tools integration, while the Platform opens up new monetisation ways for game devs and gives access to the growing community of players.",
+        "description": "Arena Games is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://arenavs.com/games/arena_master",
+          "x": "https://x.com/arenaweb3?s=21&t=eJC2rnI1Ww1E49kSqeWi0g",
+          "telegram": "https://t.me/Arenaweb3games",
+          "discord": "https://discord.com/invite/FxVyTPtF7f",
+          "dappradar": "https://dappradar.com/dapp/arena-games-platform"
+        },
         "tags": [
-          "NFT",
+          "digital-collectibles",
           "Games",
           "Staking",
           "Farming"
@@ -1005,61 +1834,66 @@
           "0x045521B29A6991f90A9227C4ABF076933e4c3C04"
         ]
       },
-      "rise-online-world": {
-        "alias": "Rise Online World",
-        "background": "gray",
-        "gradientBackground": "linear-gradient(270deg, #1b1b1b, #080808)",
-        "url": "https://www.riseonlineworld.com",
-        "description": "Rise Online World is a Turkish production MMORPG video game developed and published by RokoGame Studios. The game is about the war between Protean and Lunaskar. Rise Online launched the closed Beta Version in September 2021.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
-        "contracts": [
-          "0xC23F65a409A236591d4ff36E37684993AC9fBd93"
-        ]
-      },
       "roco-finance": {
         "alias": "Roco Finance",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #ffffff, #fdccd0)",
         "url": "https://roco.finance/",
         "description": "Roco Finance offers promising and innovative projects a fast, secure, and efficient platform for decentralization. Also, Roco Finance is a decentralized GAMEFI platform that provides blockchain services to game developers, and player communities through the blockchain network.",
-        "tags": [
-          "NFT",
-          "Games",
-          "Staking"
-        ],
+        "categories": {
+          "gaming": [
+            "pc",
+            "racing",
+            "simulation",
+            "mmorpg"
+          ]
+        },
+        "social": {
+          "website": "https://roco.finance/",
+          "x": "https://x.com/rocofinance",
+          "telegram": "https://t.me/rocofinance",
+          "discord": "https://discord.com/invite/Fxbf4PVtua",
+          "github": "https://github.com/rocofinance",
+          "dappradar": "https://dappradar.com/dapp/roco-finance"
+        },
         "contracts": [
           "0xb2a85c5ecea99187a977ac34303b80acbddfa208",
           "0x708cC7aB3B470D5Aa65Be528A7Ad40a1a743F91C"
         ]
       },
-      "playbits-by-playground": {
-        "alias": "PlayBits by PlayGround",
-        "background": "gray",
+      "playground": {
+        "alias": "PlayGround",
         "gradientBackground": "linear-gradient(270deg, #000000, #152000)",
-        "url": "https://playground.game/",
         "description": "PlayGround is the premier publisher of web3 games, with our own IP titles and a community building platform (PlayAcademy) that can onboard die-hard gamers from Tier 1 countries into any game requiring user acquisition.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": null
+        },
         "contracts": [
           "0xE3D1379E0E9201ed67b899d9739d815cbcc9F795"
         ],
-        "featured": true
+        "featured": true,
+        "social": {
+          "website": "https://playground.game/",
+          "x": "https://x.com/PlayGroundCorp",
+          "discord": "https://discord.com/invite/playgroundgame"
+        }
       },
       "wareden": {
         "alias": "WarEden",
-        "background": "gray",
         "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
         "url": "https://www.wareden.io/",
         "description": "WarEden is a free-to-play PC MMORPG that invites both solo adventurers and guilds to embark on an epic journey. It is a hand-crafted high fantasy world carefully designed to appeal to old-school MMO aficionados introducing the real-life economy in the virtual world using blockchain technology.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "pc",
+            "action-adventure",
+            "mmorpg"
+          ]
+        },
+        "social": {
+          "website": "https://www.wareden.io/",
+          "x": "https://x.com/WarEdenOfficial",
+          "discord": "https://discord.gg/jzNkUPes9a"
+        },
         "contracts": [
           "0x5adc5d8934bb86286be2607c7a234492c0b8b4f4",
           "0x2a51ED50Ed8f2A6A8a3A5d5DA19d058a385d131d",
@@ -1078,14 +1912,18 @@
     "alias": "HUMAN Protocol",
     "background": "rgb(14, 0, 38)",
     "gradientBackground": "linear-gradient(270deg, rgb(14, 0, 38), rgb(27 1 75))",
-    "category": "AppChain",
+    "categories": {
+      "tools": null
+    },
     "url": "https://www.humanprotocol.org/",
     "description": "HUMAN Protocol enables collaboration at a global scale. Anyone can pay millions of people to complete work on-chain"
   },
   "curly-red-alterf": {
     "alias": "Fireside",
     "background": "#1E1B4D",
-    "category": "AppChain",
+    "categories": {
+      "entertainment": null
+    },
     "url": "https://firesidechat.com/",
     "description": "Fireside is the first streaming platform that invites audiences not to just view content, but participate in it"
   },
@@ -1093,11 +1931,350 @@
     "alias": "StrayShot",
     "background": "#000000",
     "gradientBackground": "linear-gradient(150deg, #070707, #151e28)",
-    "category": [
-      "AppChain",
-      "Game"
+    "categories": {
+      "gaming": [
+        "shooter"
+      ]
+    },
+    "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches.",
+    "apps": {
+      "strayshot": {
+        "alias": "StrayShot",
+        "gradientBackground": "linear-gradient(150deg, #151619, #151619)",
+        "categories": {
+          "gaming": [
+            "pc",
+            "action-adventure",
+            "shooter"
+          ]
+        },
+        "description": "The next Gen Play To Earn Battle Royale built on ⛓ Blockchain.",
+        "social": {
+          "website": "https://strayshot.game/",
+          "twiter": "https://x.com/StrayShotGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/StrayShot_Chat",
+          "discord": "https://discord.com/invite/Strayshot",
+          "dappradar": "https://dappradar.com/dapp/strayshot"
+        }
+      }
+    }
+  },
+  "__offchain": {
+    "alias": "Off-chain",
+    "background": "#000000",
+    "tags": [
+      "offchain"
     ],
-    "url": "https://strayshot.game/",
-    "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches."
+    "description": "",
+    "apps": {
+      "ledger": {
+        "alias": "Ledger",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "wallet": null,
+          "partner": null
+        },
+        "description": "Ledger Live is your one-stop shop to buy crypto, grow your assets, and manage NFTs.",
+        "social": {
+          "website": "https://www.ledger.com/",
+          "twiter": "https://x.com/Ledger",
+          "discord": "https://discord.com/invite/Ledger",
+          "github": "https://github.com/LedgerHQ"
+        },
+        "dappradar": false
+      },
+      "cv-pad": {
+        "alias": "CV Pad",
+        "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), #b0dbfe)",
+        "categories": {
+          "partner": null
+        },
+        "description": "Curated early-stage Web3 projects, powered by an industry-leading fund and a powerful web3 ecosystem.",
+        "social": {
+          "website": "https://www.cvpad.io/",
+          "twiter": "https://x.com/CvPad_xyz",
+          "telegram": "https://t.me/CVPAD_NEWS"
+        }
+      },
+      "bitski": {
+        "alias": "Bitski",
+        "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), rgb(255 234 239))",
+        "categories": {
+          "partner": null,
+          "wallet": null,
+          "digital-collectibles": null
+        },
+        "description": "The NFT wallet for everyone.",
+        "social": {
+          "website": "https://www.bitski.com/",
+          "twiter": "https://x.com/bitski?lang=en",
+          "github": "https://github.com/BitskiCo"
+        }
+      },
+      "blockscout": {
+        "alias": "Blockscout",
+        "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), rgb(218 212 255))",
+        "categories": {
+          "partner": null,
+          "tools": null,
+          "defi": null,
+          "explorer": null
+        },
+        "description": "BlockScout Explorer is an application for viewing, confirming, and inspecting transactions on EVM (Ethereum Virtual Machine) blockchains.",
+        "social": {
+          "website": "https://www.blockscout.com/",
+          "twiter": "https://x.com/blockscoutcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/blockscoutcommunity",
+          "github": "https://github.com/blockscout"
+        }
+      },
+      "braintrust": {
+        "alias": "Braintrust",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "partner": null
+        },
+        "description": "Braintrust connects organizations with top technical talent to complete strategic projects and drive innovation.",
+        "social": {
+          "website": "https://www.usebraintrust.com/",
+          "twiter": "https://x.com/usebraintrust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "github": "https://github.com/braintrustdata"
+        }
+      },
+      "fortmatic": {
+        "alias": "Fortmatic",
+        "gradientBackground": "white",
+        "categories": {
+          "partner": null,
+          "wallet": null
+        },
+        "description": "Fortmatic lets users access your Ethereum app from anywhere.",
+        "social": {
+          "website": "https://fortmatic.com/",
+          "twiter": "https://x.com/fortmatic?lang=en",
+          "github": "https://github.com/fortmatic"
+        }
+      },
+      "halliday": {
+        "alias": "Halliday",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "partner": null,
+          "wallet": null
+        },
+        "description": "A unified wallet for every Appchain.",
+        "social": {
+          "website": "https://halliday.xyz/",
+          "twiter": "https://x.com/HallidayHQ",
+          "discord": "https://discord.gg/t5XSFC2SxH"
+        }
+      },
+      "labrys": {
+        "alias": "Labrys",
+        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
+        "categories": {
+          "tools": null,
+          "digital-collectibles": null
+        },
+        "description": "Labrys helps some of the world’s largest blockchain organisations conceptualise, plan, design, develop and launch blockchain applications.",
+        "social": {
+          "website": "https://labrys.io/",
+          "twiter": "https://x.com/labrys_io",
+          "github": "https://github.com/Labrys-Group"
+        }
+      },
+      "lunacrush": {
+        "alias": "Lunacrush",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "tools": null
+        },
+        "description": "Discover the latest cryptocurrency, NFTs and stock insights with LunarCrush social media analytics.",
+        "social": {
+          "website": "https://lunarcrush.com/",
+          "twiter": "https://x.com/lunarcrush",
+          "telegram": "https://t.me/s/lunarcrush",
+          "github": "https://github.com/saizk/LunarCrushAPI"
+        }
+      },
+      "messari": {
+        "alias": "Messari",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "tools": null,
+          "data-information": null,
+          "partner": null
+        },
+        "description": "Messari provides crypto market intelligence products that help professionals navigate crypto/Web3.",
+        "social": {
+          "website": "https://messari.io/",
+          "twiter": "https://x.com/MessariCrypto",
+          "github": "https://github.com/messari"
+        }
+      },
+      "metamask": {
+        "alias": "MetaMask",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "wallet": null,
+          "partner": null
+        },
+        "description": "A crypto wallet & gateway to blockchain apps.",
+        "social": {
+          "website": "https://metamask.io/",
+          "twiter": "https://x.com/MetaMask?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "github": "https://github.com/MetaMask"
+        }
+      },
+      "my-ether-wallet": {
+        "alias": "My Ether Wallet (MEW)",
+        "gradientBackground": "linear-gradient(150deg, rgb(232 250 255), rgb(230 250 255))",
+        "categories": {
+          "wallet": null,
+          "partner": null
+        },
+        "description": "MEW (MyEtherWallet) is a free, client-side interface helping you interact with the Ethereum blockchain. ",
+        "social": {
+          "website": "https://www.myetherwallet.com/",
+          "twiter": "https://x.com/myetherwallet/",
+          "telegram": "https://t.me/myetherwallet",
+          "github": "https://github.com/MyEtherWallet"
+        }
+      },
+      "portis": {
+        "alias": "Portis",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "wallet": null,
+          "partner": null
+        },
+        "description": "The Non-Custodial Blockchain Wallet that Makes Apps Simple for Everyone.",
+        "social": {
+          "website": "https://www.portis.io/",
+          "twiter": "https://x.com/portis_io",
+          "telegram": "https://t.me/joinchat/FSICkFgEM48CEhz0NP3uPg",
+          "github": "https://github.com/portis-project"
+        }
+      },
+      "sphereone": {
+        "alias": "SphereOne",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "ai": null,
+          "partner": null
+        },
+        "description": "Expand chains, integrate protocols, solve your use case while generating rewards for your agent based on use.",
+        "social": {
+          "website": "https://sphereone.xyz/",
+          "twiter": "https://x.com/sphereone_",
+          "discord": "https://discord.com/invite/zM9xpSYEms"
+        }
+      },
+      "staking-rewards": {
+        "alias": "Staking Rewards",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "other": null,
+          "partner": null
+        },
+        "description": "Staking Rewards is the leading data provider for staking and crypto-growth tools.",
+        "social": {
+          "website": "https://www.stakingrewards.com/",
+          "twiter": "https://x.com/StakingRewards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/stakingrewards",
+          "discord": "https://discord.com/invite/44nxDZ2SEe",
+          "github": "https://github.com/stakingrewards"
+        }
+      },
+      "the-graph": {
+        "alias": "The Graph",
+        "gradientBackground": "linear-gradient(150deg, #0E0B1E, #0E0B1E)",
+        "categories": {
+          "data-information": null,
+          "tools": null,
+          "partner": null
+        },
+        "description": "The Graph is an indexing protocol for querying networks like Ethereum and IPFS.",
+        "social": {
+          "website": "https://thegraph.com/en/",
+          "twiter": "https://x.com/graphprotocol",
+          "telegram": "https://t.me/graphprotocol",
+          "discord": "https://discord.com/invite/graphprotocol",
+          "github": "https://github.com/graphprotocols"
+        }
+      },
+      "unity": {
+        "alias": "Unity",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "gaming": null,
+          "partner": null
+        },
+        "description": "Create and grow real-time 3D games, apps, and experiences for entertainment, film, automotive, architecture, and more. Get started with Unity today.",
+        "social": {
+          "website": "https://unity.com/",
+          "twiter": "https://x.com/unity"
+        }
+      },
+      "web3auth": {
+        "alias": "Web3Auth",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "wallet": null,
+          "partner": null
+        },
+        "description": "Passwordless authentication meets MPC enabled non-custodial key infrastructure for apps and wallets.",
+        "social": {
+          "website": "https://web3auth.io/",
+          "twiter": "https://x.com/web3auth",
+          "discord": "https://discord.com/invite/web3auth",
+          "github": "https://github.com/web3auth"
+        }
+      },
+      "consensys-diligence": {
+        "alias": "ConsenSys Diligence",
+        "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), rgb(241 241 241))",
+        "categories": {
+          "security": null,
+          "partner": null
+        },
+        "description": "Blockchain Security & Ethereum Smart Contract Audits.",
+        "social": {
+          "website": "https://consensys.net/diligence/",
+          "twiter": "https://x.com/ConsensysAudits?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "github": "https://github.com/ConsenSysDiligence"
+        }
+      },
+      "cookbook": {
+        "alias": "Cookbook",
+        "gradientBackground": "linear-gradient(150deg, #31333A, #202023)",
+        "categories": {
+          "tools": null,
+          "partner": null
+        },
+        "description": "The easiest way for web3 developers to find documented smart contracts, solidity libraries, and discover protocols.",
+        "social": {
+          "website": "https://www.cookbook.dev/",
+          "twiter": "https://x.com/cookbook_dev?lang=en",
+          "discord": "https://t.co/ArwSyKJTLB"
+        }
+      },
+      "consensys": {
+        "alias": "ConsenSys",
+        "gradientBackground": "linear-gradient(150deg, #c1ff16, #9dd10f)",
+        "categories": {
+          "tools": null,
+          "partner": null
+        },
+        "description": "Consensys makes it easy to build applications on Ethereum.",
+        "social": {
+          "website": "https://consensys.net/",
+          "twiter": "https://x.com/Consensys?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/consensys",
+          "discord": "https://discord.com/invite/consensys",
+          "github": "https://github.com/Consensys"
+        }
+      }
+    }
   }
 }
