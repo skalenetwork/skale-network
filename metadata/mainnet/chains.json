@@ -198,22 +198,7 @@
       "gaming"
     ],
     "description": "Crypto Colosseum is a suite of strategy based blockchain games live on SKALE.",
-    "url": "https://cryptocolosseum.com/",
-    "apps": {
-      "crypto-colosseum": {
-        "alias": "Crypto Colosseum",
-        "description": "CryptoColosseum is a layered game. We call it 'a crypto game of degenerate gambling and whimsical violence.' Gladiators (NFTs) fight in the arena. It's easy to get started, but difficult to master. It's a game of expected value, cash flow, markets and collecting.",
-        "gradientBackground": "linear-gradient(228deg,  rgb(32 15 4), rgb(15 10 6),  rgb(32 15 4))",
-        "categories": {
-          "gaming": [
-            "strategy"
-          ]
-        },
-        "social": {
-          "website": "https://arena.cryptocolosseum.com/"
-        }
-      }
-    }
+    "url": "https://cryptocolosseum.com/"
   },
   "snappy-quarrelsome-salm": {
     "alias": "PitchDAO",
@@ -307,7 +292,7 @@
         "social": {
           "website": "https://belong.net/",
           "x": "https://x.com/belongnet",
-          "discord": "hhttps://t.co/UFkoU6ERvY"
+          "discord": "https://t.co/UFkoU6ERvY"
         }
       },
       "keepsake": {
@@ -1233,7 +1218,7 @@
       },
       "bullieverse": {
         "alias": "Bullieverse",
-        "gradientBackground": "linear-gradient(180deg, #060001, #300306)",
+        "gradientBackground": " linear-gradient(rgb(6, 0, 1), rgb(28 2 3))",
         "description": "Bullieverse is an ever-expanding world with an arcade of games for the community to play and earn rewards.",
         "categories": {
           "gaming": [
