@@ -4,42 +4,34 @@
     "shortAlias": "nebula",
     "background": "#2c1626",
     "gradientBackground": "linear-gradient(270deg, rgb(67 37 78), rgb(36 32 63))",
-    "category": [
-      "Hub",
-      "Game"
-    ],
+    "categories": {
+      "hub": null,
+      "gaming": null
+    },
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
-      "cryptopia": {
-        "alias": "Cryptopia",
-        "background": "#02001f",
-        "gradientBackground": "linear-gradient(270deg, #211c37, #362f58)",
-        "description": "Cryptopia is a free-to-play-and-earn game built on our unique multisig wallet and p2p network embedded in the game engine. It is a virtual world where players can build, trade, and explore in a decentralized environment and sustainable economy. It has elements of so-called 4X games, Tycoon games, and RPGs. The game has four factions, each with unique characteristics and gameplay mechanics. Players can join a faction and work together to build a thriving community while upholding the goals of the faction they chose. They also have the choice to be a Pirate that loot regular players or to be a Bounty Hunter and catch these Pirates given that there is a bounty on their head put upon by their victims.",
-        "url": "https://cryptopia.com/",
-        "tags": [
-          "NFT",
-          "Staking",
-          "Games"
-        ]
-      },
       "playbits-by-playground": {
         "alias": "PlayGround",
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #000000, #152000)",
         "url": "https://playground.game/",
         "description": "PlayGround is the premier publisher of web3 games, with our own IP titles and a community building platform (PlayAcademy) that can onboard die-hard gamers from Tier 1 countries into any game requiring user acquisition.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "social": {
+          "website": "https://playground.game/",
+          "x": "https://x.com/PlayGroundCorp",
+          "discord": "https://discord.com/invite/playgroundgame"
+        },
+        "categories": {
+          "gaming": null
+        },
         "contracts": [
           "0x2edde099222705682f3956Cf01cb0fF36b2D53a2",
           "0xbFbb5644188eBb0157767fD5faEa7cc73AcEF280",
           "0xB90a0988325973Ed660a207235F978daE2E0f000",
           "0x8f5fb16ac920f4ef619426A46571cDc1526C8141"
         ],
-        "featured": true
+        "added": 1723991212
       },
       "metasoccer": {
         "alias": "MetaSoccer",
@@ -47,10 +39,21 @@
         "gradientBackground": "linear-gradient(270deg, rgb(17 17 17), rgb(20 20 20))",
         "url": "https://metasoccer.com/",
         "description": "MetaSoccer is a soccer manager game built with blockchain technology where users can earn rewards through competitions, training, and trading players and scouts. Currently in its Alpha version, the game is set to expand with even more exciting ways to earn and have fun.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "sports",
+            "mobile",
+            "cards_deck-building"
+          ]
+        },
+        "social": {
+          "website": "https://metasoccer.com/",
+          "x": "https://x.com/playmetasoccer",
+          "telegram": "https://t.me/MetaSoccerOfficial",
+          "discord": "https://metasoccer.com/discord",
+          "github": "https://github.com/metasoccer",
+          "dappradar": "https://dappradar.com/dapp/metasoccer"
+        },
         "contracts": [
           "0x420445E4ED20380977FFf2355d54575417dBC7f3"
         ]
@@ -61,10 +64,18 @@
         "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
         "url": "https://www.wareden.io/",
         "description": "WarEden is a free-to-play PC MMORPG that invites both solo adventurers and guilds to embark on an epic journey. It is a hand-crafted high fantasy world carefully designed to appeal to old-school MMO aficionados introducing the real-life economy in the virtual world using blockchain technology.",
-        "tags": [
-          "NFT",
-          "Games"
-        ],
+        "categories": {
+          "gaming": [
+            "pc",
+            "action-adventure",
+            "mmorpg"
+          ]
+        },
+        "social": {
+          "website": "https://www.wareden.io/",
+          "x": "https://x.com/WarEdenOfficial",
+          "discord": "https://discord.gg/jzNkUPes9a"
+        },
         "contracts": [
           "0x42D1DDd05c3eB618022903Cf97990cb25B21D66b"
         ]
@@ -76,10 +87,10 @@
     "shortAlias": "europa",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
-    "category": [
-      "Hub",
-      "DeFi"
-    ],
+    "categories": {
+      "hub": null,
+      "defi": null
+    },
     "url": "https://europahub.network/",
     "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
@@ -89,11 +100,37 @@
         "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
         "description": "The first NFT-powered AMM. Built on SKALE with zero gas fees!",
         "url": "https://ruby.exchange/",
-        "tags": [
-          "NFT",
-          "DeFi"
-        ],
-        "featured": true
+        "categories": {
+          "digital-collectibles": null,
+          "defi": [
+            "dex"
+          ]
+        },
+        "social": {
+          "website": "https://ruby.exchange/",
+          "x": "https://x.com/intent/follow?screen_name=ruby_exchange",
+          "discord": "https://t.co/FvLC8svSxL",
+          "github": "https://github.com/RubyExchange",
+          "dappradar": "https://dappradar.com/dapp/ruby-exchange"
+        }
+      },
+      "sushiswap": {
+        "alias": "SushiSwap",
+        "gradientBackground": "linear-gradient(#0f172a, #162444)",
+        "description": "Sushi is a community-driven organization built to solve what might be  called the 'liquidity problem.' One could define this problem as the inability of disparate forms of liquidity to connect with markets in a decentralized way, and vice versa. While other solutions provide incrementally progressive advances toward solving the problem of liquidity, Sushi's progress is intended to create a broader range of  network effects. Rather than limiting itself to a single solution, Sushi intertwines many decentralized markets and instruments.",
+        "categories": {
+          "partner": null,
+          "defi": [
+            "dex"
+          ]
+        },
+        "social": {
+          "website": "https://www.sushi.com/swap",
+          "x": "https://x.com/SushiSwap?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "github": "https://github.com/sushiswap",
+          "dappradar": "https://dappradar.com/dapp/sushiswap-v3"
+        },
+        "added": 1723991222
       }
     }
   },
@@ -102,10 +139,10 @@
     "shortAlias": "calypso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
-    "category": [
-      "Hub",
-      "NFT"
-    ],
+    "categories": {
+      "hub": null,
+      "digital-collectibles": null
+    },
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
@@ -115,39 +152,56 @@
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
         "url": "https://nftrade.com/",
         "description": "NFTrade is the first cross-chain and blockchain-agnostic NFT platform. We are an aggregator of all NFT marketplaces and host the complete NFT lifecycle, allowing anyone to seamlessly create, buy, sell, swap, farm, and leverage NFTs across different blockchains. Using NFTrade, anyone can gain access to the entirety of their NFT, unlocking the total value of the NFT market.",
-        "tags": [
-          "NFT",
-          "Marketplaces"
-        ]
+        "categories": {
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://nftrade.com/",
+          "x": "https://x.com/NFTradeOfficial",
+          "telegram": "https://t.me/NFTrade",
+          "discord": "https://discord.com/invite/nftrade-828549961700081715",
+          "dappradar": "https://dappradar.com/dapp/nftrade"
+        }
       },
       "dmail": {
         "alias": "Dmail Network",
         "background": "gray",
         "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
         "url": "https://dmail.ai/",
+        "added": 1723991282,
         "description": "Dmail Network is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
-        "tags": [
-          "Social",
-          "NFT",
-          "Marketplaces"
-        ],
-        "featured": true,
         "contracts": [
           "0x47fbe95e981C0Df9737B6971B451fB15fdC989d9"
-        ]
+        ],
+        "categories": {
+          "web3": null,
+          "social-network": null
+        },
+        "social": {
+          "website": "https://dmail.ai/",
+          "github": "https://github.com/dmailofficial/dmail",
+          "x": "https://x.com/Dmailofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "discord": "https://discord.com/invite/QbvaeqwMFg",
+          "telegram": "https://t.me/dmailofficial",
+          "dappradar": "https://dappradar.com/dapp/dmail-network"
+        }
       },
       "dripverse": {
-        "alias": "DripVerse Protocol",
+        "alias": "DripVerse",
         "background": "gray",
         "gradientBackground": "linear-gradient(180deg, #170926, #0f1935)",
         "url": "https://dripverse.org",
         "description": "Modular Digital Assets Ecosystem. An Omnichain NFT Infrastructure & scaling solutions for builders and creators!",
-        "tags": [
-          "NFT",
-          "Marketplaces",
-          "Metaverse",
-          "Social"
-        ]
+        "categories": {
+          "digital-collectibles": null,
+          "infrastructure": null
+        },
+        "social": {
+          "website": "https://dripverse.org/",
+          "x": "https://x.com/0xdripverse",
+          "discord": "https://discord.com/invite/mCVFhmbQvw",
+          "telegram": "https://t.me/dripverse"
+        }
       }
     }
   },
@@ -156,11 +210,10 @@
     "shortAlias": "titan",
     "background": "rgb(50 22 11)",
     "gradientBackground": "linear-gradient(270deg, rgb(105 50 31), rgb(57 27 17))",
-    "category": [
-      "Hub",
-      "Community",
-      "AI"
-    ],
+    "categories": {
+      "hub": null,
+      "ai": null
+    },
     "url": "https://skale.space/",
     "description": "The Titan Hub is a SKALE chain dedicated to AI and ML apps looking to utilize blockchain. With all of the existing benefits of a SKALE Chain plus a dedicated place for AI projects to deploy, this hub is here for projects pushing the boundaries of the intersection between AI + Web3.",
     "apps": {
@@ -169,15 +222,31 @@
         "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
         "url": "https://www.chaingpt.org/",
+        "added": 1723991292,
         "description": "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. Using ChainGPT, users may quickly obtain whatever knowledge and information they require. With many other unique features designed for individuals, developers, and businesses, ChainGPT is an essential tool for all in the Blockchain space.",
-        "tags": [
-          "Staking",
-          "DeFi",
-          "Governance",
-          "Knowledge",
-          "AI"
-        ],
-        "featured": true
+        "categories": {
+          "ai": null
+        },
+        "social": {
+          "website": "https://www.chaingpt.org/",
+          "x": "https://x.com/Chain_GPT?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/chaingpt",
+          "discord": "https://discord.com/invite/sv2NfqSgVW",
+          "dappradar": "https://dappradar.com/dapp/chaingpt"
+        }
+      },
+      "palm-ai": {
+        "alias": "PaLM AI",
+        "gradientBackground": "linear-gradient(#262626, #1a1a1a)",
+        "description": "Multi-platform PaLM AI chatbot uses @Google AI tech for conversations, coding, and image generation, focusing on accessible AI and revenue sharing.",
+        "categories": {
+          "ai": null
+        },
+        "social": {
+          "website": "https://palmai.tech/",
+          "x": "https://x.com/palmaierc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/paLMEthereum"
+        }
       }
     }
   }
