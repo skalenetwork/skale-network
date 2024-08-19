@@ -13,9 +13,7 @@
     "apps": {
       "playbits-by-playground": {
         "alias": "PlayGround",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #000000, #152000)",
-        "url": "https://playground.game/",
         "description": "PlayGround is the premier publisher of web3 games, with our own IP titles and a community building platform (PlayAcademy) that can onboard die-hard gamers from Tier 1 countries into any game requiring user acquisition.",
         "social": {
           "website": "https://playground.game/",
@@ -35,9 +33,7 @@
       },
       "metasoccer": {
         "alias": "MetaSoccer",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, rgb(17 17 17), rgb(20 20 20))",
-        "url": "https://metasoccer.com/",
         "description": "MetaSoccer is a soccer manager game built with blockchain technology where users can earn rewards through competitions, training, and trading players and scouts. Currently in its Alpha version, the game is set to expand with even more exciting ways to earn and have fun.",
         "categories": {
           "gaming": [
@@ -60,9 +56,7 @@
       },
       "wareden": {
         "alias": "WarEden",
-        "background": "gray",
         "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
-        "url": "https://www.wareden.io/",
         "description": "WarEden is a free-to-play PC MMORPG that invites both solo adventurers and guilds to embark on an epic journey. It is a hand-crafted high fantasy world carefully designed to appeal to old-school MMO aficionados introducing the real-life economy in the virtual world using blockchain technology.",
         "categories": {
           "gaming": [
@@ -96,10 +90,8 @@
     "apps": {
       "ruby": {
         "alias": "Ruby Exchange",
-        "background": "#02001f",
         "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
         "description": "The first NFT-powered AMM. Built on SKALE with zero gas fees!",
-        "url": "https://ruby.exchange/",
         "categories": {
           "digital-collectibles": null,
           "defi": [
@@ -148,9 +140,7 @@
     "apps": {
       "nftrade": {
         "alias": "NFTrade",
-        "background": "#ffffff",
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
-        "url": "https://nftrade.com/",
         "description": "NFTrade is the first cross-chain and blockchain-agnostic NFT platform. We are an aggregator of all NFT marketplaces and host the complete NFT lifecycle, allowing anyone to seamlessly create, buy, sell, swap, farm, and leverage NFTs across different blockchains. Using NFTrade, anyone can gain access to the entirety of their NFT, unlocking the total value of the NFT market.",
         "categories": {
           "digital-collectibles": null
@@ -165,9 +155,7 @@
       },
       "dmail": {
         "alias": "Dmail Network",
-        "background": "gray",
         "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
-        "url": "https://dmail.ai/",
         "added": 1723991282,
         "description": "Dmail Network is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
         "contracts": [
@@ -188,9 +176,7 @@
       },
       "dripverse": {
         "alias": "DripVerse",
-        "background": "gray",
         "gradientBackground": "linear-gradient(180deg, #170926, #0f1935)",
-        "url": "https://dripverse.org",
         "description": "Modular Digital Assets Ecosystem. An Omnichain NFT Infrastructure & scaling solutions for builders and creators!",
         "categories": {
           "digital-collectibles": null,
@@ -219,9 +205,7 @@
     "apps": {
       "chaingpt": {
         "alias": "ChainGPT",
-        "background": "gray",
         "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
-        "url": "https://www.chaingpt.org/",
         "added": 1723991292,
         "description": "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. Using ChainGPT, users may quickly obtain whatever knowledge and information they require. With many other unique features designed for individuals, developers, and businesses, ChainGPT is an essential tool for all in the Blockchain space.",
         "categories": {

@@ -194,24 +194,26 @@
     "alias": "Crypto Colosseum",
     "background": "#101010",
     "gradientBackground": "linear-gradient(228deg,  rgb(32 15 4), rgb(15 10 6),  rgb(32 15 4))",
-    "category": [
-      "gaming"
-    ],
+    "categories": {
+      "gaming": null
+    },
     "description": "Crypto Colosseum is a suite of strategy based blockchain games live on SKALE.",
     "url": "https://cryptocolosseum.com/"
   },
   "snappy-quarrelsome-salm": {
     "alias": "PitchDAO",
     "background": "#ffffff",
-    "category": "daos"
+    "categories": {
+      "defi": null
+    }
   },
   "frayed-decent-antares": {
     "alias": "Block Brawlers",
     "background": "rgb(0, 67, 103)",
     "gradientBackground": "linear-gradient(270deg, rgb(2 45 67), rgb(0 78 103), rgb(5 47 70))",
-    "category": [
-      "gaming"
-    ],
+    "categories": {
+      "gaming": null
+    },
     "url": "https://blockbrawlers.com/",
     "description": "Block Brawlers is a play-to-earn game powered by SKALE and GameCredits",
     "apps": {
@@ -460,7 +462,7 @@
         },
         "social": {
           "website": "https://hurley.jump.trade/",
-          "twiter": "https://t.me/jumptradenft",
+          "x": "https://t.me/jumptradenft",
           "telegram": "https://t.me/jumptradenft",
           "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
         }
@@ -562,7 +564,7 @@
           "tools": null,
           "metaverse": null
         },
-        "added": "1723984166",
+        "added": 1723984166,
         "social": {
           "website": "https://www.metakraft.ai/",
           "x": "https://x.com/themetakraft"
@@ -623,10 +625,9 @@
     "alias": "Razor Network",
     "background": "#40429b",
     "gradientBackground": "linear-gradient(200deg, rgba(64,66,155,1) 25%, rgba(44,46,124,1) 100%)",
-    "category": [
-      "AppChain",
-      "oracle"
-    ],
+    "categories": {
+      "tools": null
+    },
     "url": "https://razor.network/",
     "description": "Truly decentralized oracle network",
     "apps": {
@@ -658,23 +659,23 @@
     },
     "url": "https://exorde.network/",
     "faucetUrl": "http://faucet.exorde.network/",
-    "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web"
-  },
-  "apps": {
-    "exorde-network": {
-      "alias": "Exorde Network",
-      "gradientBackground": "linear-gradient(#40429B, #40429B)",
-      "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web.",
-      "categories": {
-        "ai": null
-      },
-      "social": {
-        "website": "https://exorde.network/",
-        "x": "https://x.com/exordelabs?lang=en",
-        "telegram": "https://t.me/exorde",
-        "discord": "https://discord.gg/DWfcz7ezSG",
-        "github": "https://github.com/exorde-labs",
-        "dappradar": "https://dappradar.com/dapp/exorde"
+    "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web",
+    "apps": {
+      "exorde-network": {
+        "alias": "Exorde Network",
+        "gradientBackground": "linear-gradient(#40429B, #40429B)",
+        "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web.",
+        "categories": {
+          "ai": null
+        },
+        "social": {
+          "website": "https://exorde.network/",
+          "x": "https://x.com/exordelabs?lang=en",
+          "telegram": "https://t.me/exorde",
+          "discord": "https://discord.gg/DWfcz7ezSG",
+          "github": "https://github.com/exorde-labs",
+          "dappradar": "https://dappradar.com/dapp/exorde"
+        }
       }
     }
   },
@@ -1551,7 +1552,6 @@
       "spells-of-genesis": {
         "alias": "Spells of Genesis",
         "gradientBackground": "linear-gradient(#49280f, #190b04)",
-        "url": "https://spellsofgenesis.com/",
         "description": "As the first blockchain-based mobile game ever made, Spells of Genesis (SoG) combines trading card game (TCG) functionalities with the point-and-shoot aspects of arcade games. It was launched in April 2017 after a successful ICO, one of the first of its kind. Players have to collect and combine cards to create the strongest deck in order to fight their enemies in a series of battles. Associating deck-building strategy with an easy and intuitive gameplay, Spells of Genesis has already attracted numerous players around the world and the game is surrounded and supported by a strong community of players and fans. SoG is using two types of cards: in-game cards and blockchain cards.",
         "categories": {
           "gaming": [
@@ -1765,7 +1765,6 @@
       "metasoccer": {
         "alias": "MetaSoccer",
         "gradientBackground": "linear-gradient(270deg, rgb(17 17 17), rgb(20 20 20))",
-        "url": "https://metasoccer.com/",
         "description": "MetaSoccer is a soccer manager game built with blockchain technology where users can earn rewards through competitions, training, and trading players and scouts. Currently in its Alpha version, the game is set to expand with even more exciting ways to earn and have fun.",
         "categories": {
           "gaming": [
@@ -1837,7 +1836,6 @@
       "roco-finance": {
         "alias": "Roco Finance",
         "gradientBackground": "linear-gradient(270deg, #ffffff, #fdccd0)",
-        "url": "https://roco.finance/",
         "description": "Roco Finance offers promising and innovative projects a fast, secure, and efficient platform for decentralization. Also, Roco Finance is a decentralized GAMEFI platform that provides blockchain services to game developers, and player communities through the blockchain network.",
         "categories": {
           "gaming": [
@@ -1870,7 +1868,6 @@
         "contracts": [
           "0xE3D1379E0E9201ed67b899d9739d815cbcc9F795"
         ],
-        "featured": true,
         "social": {
           "website": "https://playground.game/",
           "x": "https://x.com/PlayGroundCorp",
@@ -1880,7 +1877,6 @@
       "wareden": {
         "alias": "WarEden",
         "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
-        "url": "https://www.wareden.io/",
         "description": "WarEden is a free-to-play PC MMORPG that invites both solo adventurers and guilds to embark on an epic journey. It is a hand-crafted high fantasy world carefully designed to appeal to old-school MMO aficionados introducing the real-life economy in the virtual world using blockchain technology.",
         "categories": {
           "gaming": [
@@ -1951,7 +1947,7 @@
         "description": "The next Gen Play To Earn Battle Royale built on ⛓ Blockchain.",
         "social": {
           "website": "https://strayshot.game/",
-          "twiter": "https://x.com/StrayShotGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/StrayShotGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/StrayShot_Chat",
           "discord": "https://discord.com/invite/Strayshot",
           "dappradar": "https://dappradar.com/dapp/strayshot"
@@ -1962,10 +1958,10 @@
   "__offchain": {
     "alias": "Off-chain",
     "background": "#000000",
-    "tags": [
-      "offchain"
-    ],
     "description": "",
+    "categories": {
+      "tools": null
+    },
     "apps": {
       "ledger": {
         "alias": "Ledger",
@@ -1977,11 +1973,10 @@
         "description": "Ledger Live is your one-stop shop to buy crypto, grow your assets, and manage NFTs.",
         "social": {
           "website": "https://www.ledger.com/",
-          "twiter": "https://x.com/Ledger",
+          "x": "https://x.com/Ledger",
           "discord": "https://discord.com/invite/Ledger",
           "github": "https://github.com/LedgerHQ"
-        },
-        "dappradar": false
+        }
       },
       "cv-pad": {
         "alias": "CV Pad",
@@ -1992,7 +1987,7 @@
         "description": "Curated early-stage Web3 projects, powered by an industry-leading fund and a powerful web3 ecosystem.",
         "social": {
           "website": "https://www.cvpad.io/",
-          "twiter": "https://x.com/CvPad_xyz",
+          "x": "https://x.com/CvPad_xyz",
           "telegram": "https://t.me/CVPAD_NEWS"
         }
       },
@@ -2007,7 +2002,7 @@
         "description": "The best NFT and digital collectible wallet in the world is one click away.",
         "social": {
           "website": "https://www.bitski.com/",
-          "twiter": "https://x.com/bitski?lang=en",
+          "x": "https://x.com/bitski?lang=en",
           "github": "https://github.com/BitskiCo"
         }
       },
@@ -2023,7 +2018,7 @@
         "description": "BlockScout Explorer is an application for viewing, confirming, and inspecting transactions on EVM (Ethereum Virtual Machine) blockchains.",
         "social": {
           "website": "https://www.blockscout.com/",
-          "twiter": "https://x.com/blockscoutcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/blockscoutcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/blockscoutcommunity",
           "github": "https://github.com/blockscout"
         }
@@ -2037,7 +2032,7 @@
         "description": "Braintrust connects organizations with top technical talent to complete strategic projects and drive innovation.",
         "social": {
           "website": "https://www.usebraintrust.com/",
-          "twiter": "https://x.com/usebraintrust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/usebraintrust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "github": "https://github.com/braintrustdata"
         }
       },
@@ -2051,7 +2046,7 @@
         "description": "Fortmatic lets users access your Ethereum app from anywhere.",
         "social": {
           "website": "https://fortmatic.com/",
-          "twiter": "https://x.com/fortmatic?lang=en",
+          "x": "https://x.com/fortmatic?lang=en",
           "github": "https://github.com/fortmatic"
         }
       },
@@ -2065,7 +2060,7 @@
         "description": "A unified wallet for every Appchain.",
         "social": {
           "website": "https://halliday.xyz/",
-          "twiter": "https://x.com/HallidayHQ",
+          "x": "https://x.com/HallidayHQ",
           "discord": "https://discord.gg/t5XSFC2SxH"
         }
       },
@@ -2079,7 +2074,7 @@
         "description": "Labrys helps some of the world’s largest blockchain organisations conceptualise, plan, design, develop and launch blockchain applications.",
         "social": {
           "website": "https://labrys.io/",
-          "twiter": "https://x.com/labrys_io",
+          "x": "https://x.com/labrys_io",
           "github": "https://github.com/Labrys-Group"
         }
       },
@@ -2092,7 +2087,7 @@
         "description": "Discover the latest cryptocurrency, NFTs and stock insights with LunarCrush social media analytics.",
         "social": {
           "website": "https://lunarcrush.com/",
-          "twiter": "https://x.com/lunarcrush",
+          "x": "https://x.com/lunarcrush",
           "telegram": "https://t.me/s/lunarcrush",
           "github": "https://github.com/saizk/LunarCrushAPI"
         }
@@ -2108,7 +2103,7 @@
         "description": "Messari provides crypto market intelligence products that help professionals navigate crypto/Web3.",
         "social": {
           "website": "https://messari.io/",
-          "twiter": "https://x.com/MessariCrypto",
+          "x": "https://x.com/MessariCrypto",
           "github": "https://github.com/messari"
         }
       },
@@ -2122,7 +2117,7 @@
         "description": "A crypto wallet & gateway to blockchain apps.",
         "social": {
           "website": "https://metamask.io/",
-          "twiter": "https://x.com/MetaMask?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/MetaMask?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "github": "https://github.com/MetaMask"
         }
       },
@@ -2136,7 +2131,7 @@
         "description": "MEW (MyEtherWallet) is a free, client-side interface helping you interact with the Ethereum blockchain. ",
         "social": {
           "website": "https://www.myetherwallet.com/",
-          "twiter": "https://x.com/myetherwallet/",
+          "x": "https://x.com/myetherwallet/",
           "telegram": "https://t.me/myetherwallet",
           "github": "https://github.com/MyEtherWallet"
         }
@@ -2151,7 +2146,7 @@
         "description": "The Non-Custodial Blockchain Wallet that Makes Apps Simple for Everyone.",
         "social": {
           "website": "https://www.portis.io/",
-          "twiter": "https://x.com/portis_io",
+          "x": "https://x.com/portis_io",
           "telegram": "https://t.me/joinchat/FSICkFgEM48CEhz0NP3uPg",
           "github": "https://github.com/portis-project"
         }
@@ -2166,7 +2161,7 @@
         "description": "Expand chains, integrate protocols, solve your use case while generating rewards for your agent based on use.",
         "social": {
           "website": "https://sphereone.xyz/",
-          "twiter": "https://x.com/sphereone_",
+          "x": "https://x.com/sphereone_",
           "discord": "https://discord.com/invite/zM9xpSYEms"
         }
       },
@@ -2180,7 +2175,7 @@
         "description": "Staking Rewards is the leading data provider for staking and crypto-growth tools.",
         "social": {
           "website": "https://www.stakingrewards.com/",
-          "twiter": "https://x.com/StakingRewards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/StakingRewards?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/stakingrewards",
           "discord": "https://discord.com/invite/44nxDZ2SEe",
           "github": "https://github.com/stakingrewards"
@@ -2197,7 +2192,7 @@
         "description": "The Graph is an indexing protocol for querying networks like Ethereum and IPFS.",
         "social": {
           "website": "https://thegraph.com/en/",
-          "twiter": "https://x.com/graphprotocol",
+          "x": "https://x.com/graphprotocol",
           "telegram": "https://t.me/graphprotocol",
           "discord": "https://discord.com/invite/graphprotocol",
           "github": "https://github.com/graphprotocols"
@@ -2213,7 +2208,7 @@
         "description": "Create and grow real-time 3D games, apps, and experiences for entertainment, film, automotive, architecture, and more. Get started with Unity today.",
         "social": {
           "website": "https://unity.com/",
-          "twiter": "https://x.com/unity"
+          "x": "https://x.com/unity"
         }
       },
       "web3auth": {
@@ -2226,7 +2221,7 @@
         "description": "Passwordless authentication meets MPC enabled non-custodial key infrastructure for apps and wallets.",
         "social": {
           "website": "https://web3auth.io/",
-          "twiter": "https://x.com/web3auth",
+          "x": "https://x.com/web3auth",
           "discord": "https://discord.com/invite/web3auth",
           "github": "https://github.com/web3auth"
         }
@@ -2241,7 +2236,7 @@
         "description": "Blockchain Security & Ethereum Smart Contract Audits.",
         "social": {
           "website": "https://consensys.net/diligence/",
-          "twiter": "https://x.com/ConsensysAudits?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/ConsensysAudits?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "github": "https://github.com/ConsenSysDiligence"
         }
       },
@@ -2255,7 +2250,7 @@
         "description": "The easiest way for web3 developers to find documented smart contracts, solidity libraries, and discover protocols.",
         "social": {
           "website": "https://www.cookbook.dev/",
-          "twiter": "https://x.com/cookbook_dev?lang=en",
+          "x": "https://x.com/cookbook_dev?lang=en",
           "discord": "https://t.co/ArwSyKJTLB"
         }
       },
@@ -2269,7 +2264,7 @@
         "description": "Consensys makes it easy to build applications on Ethereum.",
         "social": {
           "website": "https://consensys.net/",
-          "twiter": "https://x.com/Consensys?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/Consensys?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/consensys",
           "discord": "https://discord.com/invite/consensys",
           "github": "https://github.com/Consensys"
