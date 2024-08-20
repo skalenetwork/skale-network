@@ -167,7 +167,49 @@
           "discord": "https://discord.com/invite/WZDx96TNb3",
           "github": "https://github.com/CryptoBlades/cryptoblades",
           "dappradar": "https://dappradar.com/dapp/cryptoblades"
-        }
+        },
+        "contracts": [
+          "0xd8dfa2e42e04720f8b9a01ed8D1DE8A085E2fEa1",
+          "0x3670C066960252fA7F614B4D886EB399cD292Ceb",
+          "0xDCd800389F9f696261E6bcde228AE137550E5425",
+          "0x7cf521Fa3CbFCe4524D04E700a9c182B364C268C",
+          "0x3F715995647fe44Db45411bb9e81b7A1aD5A8387",
+          "0xd6d69A155E997b0748aE883fC75B54A4906E4f57",
+          "0x45e873b4cFfd843eDDa61a6140a57D05b11b71F4",
+          "0x97F517EDf37aC79085f8D5C3f77a6e7B60485e6A",
+          "0xAC2c2D87B595095C60B79ce49137eD34e1C8dd28",
+          "0xd8dfa2e42e04720f8b9a01ed8D1DE8A085E2fEa1",
+          "0x8d8928e3cdD7C3772b108eb74bD071a964b01576",
+          "0x0b2A453095E6138e7372a8Bc2EC86649ec901624",
+          "0xFA4c107f640dF8B2896aec06624e93869a98057C",
+          "0x661d0C68fa4AA86d0ac7Cfa22Ab48fEe416F3A91",
+          "0x6E082D27CdE871e5e69F0d3d8F49D9Eaf32Bd7d6",
+          "0x354e4689282bE8B1bDd8a46fC1cFafe8aa3571ED",
+          "0x8Da717abd611AA4CF1a13c017ae7f3B86110715C",
+          "0x56aBf2ecdbb08ABc2654A212969569b5d2F907FF",
+          "0x2D5F9d54619310fDcA1d8Da9fA946d4Cce6d2c26",
+          "0xe1F266d7F0756CAC45807af92795b7C33903DADc",
+          "0x62168e7a24091398d165f56Cb0aFeC7F7D009332",
+          "0xD8075441CCF188D09DCB81eb02ddad2C9Ef25A33",
+          "0x0b140307200Ea06eE3E4737106202BE932f64218",
+          "0xE8f14F0a5a5f059ae060664e0f165B7e5A52e4e5",
+          "0x48bdd9a266fF01eEb81b1F89daB76b3816Ee848a",
+          "0x76dC13A74E2BbC26Fb08289c9D68fC99fdb3a7D6",
+          "0xdE2DDA740Db19e08E203c937310bBf2Ec3d1254C",
+          "0x69d3cBD6d6D92DBf1B82F405C4E9259351F2469f",
+          "0xDd65a28464649be0b32b3C51Cc7f14E405dfF1a0",
+          "0xEc9d6815931872C799682239ACeA0AE072d92C8f",
+          "0x39366C4b0C82a4a76dbF990c5b5286eC4A0d90E8",
+          "0x2405BA415A532dE0FD22906470c7E85C77e74BD0",
+          "0xb482C099980E36231851a3c3489aBB74A3e4861C",
+          "0xc0b99caA246f04F4b74579c05F8c5198492Cc3D1",
+          "0xBf51823955663556a837b62996F77978802B0E72",
+          "0x2e4C28aa3Cb14923F492Eeb8cbc953fABfeE2923",
+          "0xd999c01cdB9670c83e508F7435Eb3556b5deA3B1",
+          "0x0aBb23EA06960608a4fa1529678C9abc208b4E8d",
+          "0xca21a45398aBD621B9717d57E3423AD3BabaEAe2",
+          "0x08fDB9ea8Ae593CA881C9f0B81f6Bf2ecFA7D1CB"
+        ]
       }
     }
   },
@@ -721,6 +763,44 @@
           "x": "https://x.com/landofchasers",
           "discord": "https://t.co/RhX8BOiXcn"
         }
+      },
+      "drakons": {
+        "alias": "Drakons",
+        "gradientBackground": "linear-gradient(180deg, #FEFEFE, #FEFEFE)",
+        "description": "Drakons is a Dapp that lets you play to earn and stake $DRK with Dragon NFTs.",
+        "categories": {
+          "gaming": [
+            "strategy"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://www.drakons.io/",
+          "x": "https://x.com/DrakonsIO",
+          "telegram": "https://t.me/DrakonsIO",
+          "discord": "https://discord.com/invite/n9ZVQvv",
+          "dappradar":"https://dappradar.com/dapp/drakons-2" 
+        }
+      },
+      "rise-online-world": {
+        "alias": "Rise Online World",
+        "gradientBackground": "linear-gradient(180deg, #191D22, #191D22)",
+        "description": "A breathtaking adventure, an MMORPG that you will love and have fun, combination of oldschool and modern MMORPG!",
+        "categories": {
+          "gaming": [
+            "mmorpg",
+            "pc"
+          ]
+        },
+        "social": {
+          "website": "https://www.riseonlineworld.com/en",
+          "x": "https://x.com/riseonlineworld",
+          "discord": "https://www.riseonlineworld.com/discord",
+          "dappradar":"https://dappradar.com/dapp/rise-online-world" 
+        },
+        "contracts": [
+          "0xC23F65a409A236591d4ff36E37684993AC9fBd93"
+        ]
       },
       "galaxy-dust-online": {
         "alias": "Galaxy Dust Online",
@@ -1684,7 +1764,8 @@
           "website": "https://beta.devzeus.io/games",
           "x": "https://x.com/DevZeusio",
           "telegram": "https://t.me/zeusblock",
-          "discord": "https://t.co/h8zbAbEncR"
+          "discord": "https://t.co/h8zbAbEncR",
+          "dappradar": "https://dappradar.com/dapp/etherstrike-pentagon"
         },
         "contracts": [
           "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
@@ -1830,7 +1911,9 @@
           "0xA24DA121a67631146F38928F9c77687F96fB8fd7",
           "0x1536dbCc39c78B3e6f136339a64227b9936EB403",
           "0xEF36f9A449758cC0eC265C04dDe092A583516f65",
-          "0x045521B29A6991f90A9227C4ABF076933e4c3C04"
+          "0x045521B29A6991f90A9227C4ABF076933e4c3C04",
+          "0xFcAc3B9a033dAc33B04C1D26cED4682dDe50dd3E",
+          "0xFfed1aeE08708415C7d32DAB370e9DE872FBf8A5"
         ]
       },
       "roco-finance": {
@@ -1945,6 +2028,15 @@
           ]
         },
         "description": "The next Gen Play To Earn Battle Royale built on ⛓ Blockchain.",
+        "contracts": [
+          "0xb8538aE6F6EB0615AB924BFF646c4e7173BD1470",
+          "0xC5189b1F89979a8f0FbE70b3Be35Dfda6987680B",
+          "0xDc3F24E73623752Ce779049684D427655B0CbDEA",
+          "0xCfb23c3f910d59311FcCcbeEEe8C28c0156582c7",
+          "0x7660fac48878718649e68A965B9A94e83D4bDE2B",
+          "0x74F3D1540887cDf59aC6Cf4c9D7268fDeaf0246A",
+          "0x42A8225B8200ff77CDeBEe271F9EcFEaE633DD71"
+        ],
         "social": {
           "website": "https://strayshot.game/",
           "x": "https://x.com/StrayShotGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
