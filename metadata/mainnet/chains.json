@@ -235,6 +235,7 @@
   },
   "fit-betelgeuse": {
     "alias": "Curio DAO",
+    "description": "The most powerful multichain protocol for tokenization of global illiquid assets",
     "background": "#ffffff",
     "categories": {
       "defi": null
@@ -647,9 +648,9 @@
     "faucetUrl": "http://faucet.exorde.network/",
     "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web",
     "apps": {
-      "exorde-network": {
-        "alias": "Exorde Network",
-        "gradientBackground": "linear-gradient(#40429B, #40429B)",
+      "exorde": {
+        "alias": "Exorde",
+        "gradientBackground": "linear-gradient(#ffffff, #ffffff)",
         "description": "Exorde is the web3 protocol that empowers developers to crawl and link all public data on the web.",
         "categories": {
           "ai": null
