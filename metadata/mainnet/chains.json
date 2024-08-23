@@ -341,30 +341,6 @@
           "0xaff8a3e3B69E4e88e83B589ED080560C4359BBa8"
         ]
       },
-      "untitled-platformer": {
-        "alias": "Untitled Platformer",
-        "gradientBackground": "linear-gradient(139deg, rgb(37 34 0), rgb(15 11 2))",
-        "description": "Welcome to the competitive world of Untitled. A retro multiplayer platformer that offers players the ability to either sabotage or befriend other players while exploring dynamic 2D worlds. Untitled has been designed with the primary goal of allowing gamers to hop on and off whenever they feel like it.",
-        "categories": {
-          "gaming": [
-            "casual",
-            "platformer",
-            "pc"
-          ]
-        },
-        "social": {
-          "website": "https://untitledplatformer.io/",
-          "x": "https://x.com/32bit_untitled",
-          "dappradar": "https://dappradar.com/dapp/untitled-platformer"
-        },
-        "contracts": [
-          "0xd3533204441F2c4046291186Ed5b67e8e2b64CdB",
-          "0x5f2BCDFb7155cec50821026b92a911e14A2052A5",
-          "0x4A5B12722C57d48d3Cff9629E5B2039e11539cfd",
-          "0xB968FD9Ab6827F1E37b6dcCef07375737DdE0efE",
-          "0xE9e53822504270a13c690bF4458341a0E4D408Ad"
-        ]
-      },
       "pixudi": {
         "alias": "Pixudi",
         "gradientBackground": "linear-gradient(270deg, rgb(31, 25, 49), rgb(64 50 85))",
@@ -765,20 +741,6 @@
           "discord": "https://t.me/Galaxydustonline"
         }
       },
-      "unipoly-games": {
-        "alias": "UniPoly Games",
-        "gradientBackground": "linear-gradient(180deg, #151515, #151515)",
-        "description": "Unipoly Games is a game studio and publisher embarked on a mission to push the boundaries of the gaming world.",
-        "categories": {
-          "gaming": null,
-          "partner": null
-        },
-        "social": {
-          "website": "https://unipolygames.com/",
-          "x": "https://x.com/UnipolyGames",
-          "telegram": "https://t.me/unipolygamesn"
-        }
-      },
       "voxelverse": {
         "alias": "VoxelVerse",
         "gradientBackground": "linear-gradient(180deg, #FFDD88, #59401A)",
@@ -794,20 +756,6 @@
           "x": "https://x.com/voxelverseinfo",
           "discord": "https://discord.com/invite/JBFYtybhR4",
           "dappradar": "https://dappradar.com/dapp/voxelverse"
-        }
-      },
-      "vaselabs": {
-        "alias": "Vaselabs",
-        "gradientBackground": "linear-gradient(180deg, #06091D, #06091D)",
-        "description": "VASE is a decentralized community based project that brings together a wide range of DeFi, NFT concepts to the blockchain ecosystem and supports SMEs.",
-        "categories": {
-          "gaming": null,
-          "defi": null
-        },
-        "social": {
-          "website": "https://vaselabs.io/",
-          "x": "https://x.com/VaseLabs",
-          "telegram": "https://t.me/+TXW78t9fnZwxZjQ0"
         }
       },
       "vital-veda": {
@@ -1046,36 +994,6 @@
           "x": "https://x.com/LapsusNext"
         }
       },
-      "felines-of-sarvia": {
-        "alias": "Felines of Sarvia",
-        "gradientBackground": "white",
-        "description": "Felines of Sarvia is an Idle Clicker Game in which you manage your own Guild of Adventuring Warrior Cats.",
-        "categories": {
-          "gaming": [
-            "casual",
-            "strategy"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://golive.games/#games",
-          "x": "https://golive.games/#games"
-        }
-      },
-      "fusionwaveai": {
-        "alias": "FusionwaveAI",
-        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
-        "description": "FusionwaveAI aims to become a robust Web3 Gaming and Generative AI platform, while building an AI driven Metaverse.",
-        "categories": {
-          "gaming": null,
-          "metaverse": null,
-          "ai": null
-        },
-        "social": {
-          "website": "https://www.fusionwaveai.com/",
-          "x": "https://x.com/fusionwaveai"
-        }
-      },
       "fusyfox": {
         "alias": "FusyFox",
         "gradientBackground": "linear-gradient(180deg, #370055, #370055)",
@@ -1158,41 +1076,6 @@
           "x": "https://x.com/PlayGhostMerc"
         }
       },
-      "cryptofights": {
-        "alias": "CryptoFights",
-        "gradientBackground": "linear-gradient(180deg, #292831, #17161b)",
-        "description": "Prepare for the saga of CryptoFights, where heroes ascend, legends collide and the destiny of Elderia hangs on the edge of your will.",
-        "categories": {
-          "gaming": [
-            "mobile",
-            "rpg",
-            "action-adventure"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://beacons.ai/cryptofights/home",
-          "x": "https://twitter.com/CryptoFights",
-          "discord": "https://discord.com/invite/p2qU6rbQYH"
-        },
-        "added": 1722966179
-      },
-      "cthulhu-awakens": {
-        "alias": "Cthulhu Awakens",
-        "gradientBackground": "linear-gradient(180deg, #000000, #131313)",
-        "description": "An ancient cosmic horror is rising again! Bringing cosmic nightmares and decentralized fun to your screens!",
-        "categories": {
-          "gaming": [
-            "action-adventure"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://www.cthulhuawakens.io/",
-          "x": "https://x.com/cthulhu_awakens",
-          "discord": "https://discord.com/invite/zJqTExywtA"
-        }
-      },
       "boudicea": {
         "alias": "Boudicea",
         "gradientBackground": "linear-gradient(180deg, #040404, #030303)",
@@ -1249,24 +1132,6 @@
           "discord": "https://discord.com/invite/cZ3GCwdgXP"
         },
         "added": 1720374179
-      },
-      "bullieverse": {
-        "alias": "Bullieverse",
-        "gradientBackground": " linear-gradient(rgb(6, 0, 1), rgb(28 2 3))",
-        "description": "Bullieverse is an ever-expanding world with an arcade of games for the community to play and earn rewards.",
-        "categories": {
-          "gaming": [
-            "casual",
-            "shooter",
-            "action-adventure"
-          ]
-        },
-        "social": {
-          "website": "https://bullieverse.com/",
-          "x": "https://x.com/Bullieverse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "telegram": "https://t.me/Bullieverse",
-          "discord": "https://discord.com/invite/bullieverse-official"
-        }
       },
       "world-play-league": {
         "alias": "World Play League",
@@ -1595,29 +1460,6 @@
         },
         "contracts": [
           "0x9414633155eDd39E624F58c24a41d1f30de46CD7"
-        ]
-      },
-      "sportzchain": {
-        "alias": "SportZchain",
-        "gradientBackground": "linear-gradient(90deg, #021901, #441c03)",
-        "description": "The first Engage-To-Earn (E2E) platform for sports fans powered by $SPN. We are building a digital world for fans by offering Sports Tokens.",
-        "categories": {
-          "gaming": [
-            "mobile",
-            "casual",
-            "sports"
-          ]
-        },
-        "social": {
-          "website": "https://sportzchain.com/",
-          "x": "https://x.com/sportzchain",
-          "telegram": "https://t.me/SportzchainCommunity",
-          "discord": "https://discord.com/invite/E4X3Gg9nbK",
-          "github": "https://github.com/sportzchain-core"
-        },
-        "contracts": [
-          "0x3b13564F347F7bdDaE0dAb079957D422585a5439",
-          "0xf23eF44CAC26f9A482243f6cB315e70C062223Fe"
         ]
       },
       "starzplay-fantasy-sports": {
