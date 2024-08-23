@@ -1114,25 +1114,6 @@
           "discord": "https://discord.com/invite/fbPVv25bx8"
         }
       },
-      "cryptopolis": {
-        "alias": "Cryptopolis",
-        "gradientBackground": "linear-gradient(180deg, #253442, #93AABC)",
-        "description": "Cryptopolis is an online social NFT game where you take your shot at becoming the wealthiest Cryptopian of the Tower.",
-        "categories": {
-          "gaming": [
-            "simulation"
-          ],
-          "digital-collectibles": null,
-          "metaverse": null
-        },
-        "social": {
-          "website": "https://cryptopolisgame.com/",
-          "x": "https://x.com/cryptopolisgame?lang=en",
-          "telegram": "https://t.me/CryptopolisGame",
-          "discord": "https://discord.com/invite/cZ3GCwdgXP"
-        },
-        "added": 1720374179
-      },
       "world-play-league": {
         "alias": "World Play League",
         "gradientBackground": "linear-gradient(180deg, #121133, #12204D)",
