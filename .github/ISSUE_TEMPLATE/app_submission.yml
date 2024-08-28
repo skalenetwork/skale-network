@@ -13,22 +13,23 @@ body:
   - type: input
     id: alias
     attributes:
-      label: 1. App Name
-      description: The name of your app/game.
+      label: 1. Project/dApp Name
+      description: The name of your app/game
       placeholder: My dApp
     validations:
       required: true
   - type: textarea
     id: description
     attributes:
-      label: 2. Description of your app/game
-      placeholder: A short description of your app/game goes here.
+      label: 2. Description of your project
+      description: Must be less than 150-200 characters
+      placeholder: A short description of your app/game goes here
     validations:
       required: true
   - type: input
     id: url
     attributes:
-      label: 3. Website URL
+      label: 3. Project Website
       description: Link to the website of your app/game.
       placeholder: https://my-dapp.com
     validations:
@@ -36,7 +37,7 @@ body:
   - type: input
     id: dappradar
     attributes:
-      label: 4. dAppRadar URL (optional)
+      label: 4. Project Dappradar link
       description: If your app is listed on dAppRadar, please provide the URL. Leave blank if not applicable.
       placeholder: https://dappradar.com/dapp/...
     validations:
@@ -44,7 +45,7 @@ body:
   - type: dropdown
     id: hub
     attributes:
-      label: 5. Which SKALE Hub are you using?
+      label: 5. What SKALE Hub is your project on?
       multiple: false
       default: 0
       options:
@@ -55,7 +56,7 @@ body:
   - type: textarea
     id: contracts
     attributes:
-      label: 6. Smart Contract Addresses
+      label: 6. Project contract addresses
       description: Provide the addresses of the smart contracts used in your deployment on SKALE, one contract address per line.
       placeholder: |
         0xd1aAa00000000000000000000000000000000000
@@ -68,38 +69,122 @@ body:
     attributes:
       label: 7. Which tags apply to your project?
       options:
-        - label: Games
+        - label: Infrastructure
+        - label: Gaming
+        - label: Gaming - Action/Adventure
+        - label: Gaming - Battle Royale
+        - label: Gaming - Casual
+        - label: Gaming - Cards + Deck Building
+        - label: Gaming - Console
+        - label: Gaming - Fighting
+        - label: Gaming - Shooter
+        - label: Gaming - MMORPG
+        - label: Gaming - Mobile
+        - label: Gaming - PC
+        - label: Gaming - Platformer
+        - label: Gaming - Puzzle
+        - label: Gaming - Racing
+        - label: Gaming - RPG
+        - label: Gaming - Sandbox
+        - label: Gaming - Simulation
+        - label: Gaming - Sports
+        - label: Gaming - Strategy
+        - label: Digital Collectibles
+        - label: Oracle
+        - label: Data/Information
+        - label: Tools
         - label: DeFi
-        - label: NFT
-        - label: Community
-        - label: Data
-        - label: Exchanges
-        - label: Staking
-        - label: Yield
-        - label: Pools
-        - label: Marketplaces
-        - label: Social
-        - label: Metaverse
-        - label: Governance
-        - label: Knowledge
-        - label: Sports
-        - label: Farming
-        - label: Photos
+        - label: DeFi - Aggregators
+        - label: DeFi - Betting
+        - label: DeFi - Custody
+        - label: DeFi - DEX
+        - label: DeFi - Launchpads
+        - label: DeFi - Lending
+        - label: DeFi - Lottery
+        - label: DeFi - Options
+        - label: DeFi - Payments
+        - label: DeFi - Perps + Derivatives
+        - label: DeFi - Prediction Markets
+        - label: DeFi - Stablecoins
+        - label: DeFi - Synthetics
+        - label: DeFi - Yield
+        - label: Wallet
+        - label: AI
+        - label: Security
         - label: Other
+        - label: Social Network
+        - label: Entertainment
+        - label: Bridges
+        - label: DAO
+        - label: Explorer
+        - label: Partner
+        - label: CEX
+        - label: Consumer
+        - label: Analytics
+        - label: DePIN
+        - label: Utility
+        - label: RWA
+        - label: Privacy
   - type: textarea
     id: logo
     attributes:
-      label: 8. Logo and icon
-      description: Attach the logo and icon of your app/game. Supported formats for logo - PNG, SVG, GIF. Supported formats for icon - SVG only.
+      label: 8. Upload Logo and Icon (SVG or PNG)
+      description: Attach the logo and icon of your app/game. Supported formats for logo - PNG, SVG. Supported formats for icon - SVG only.
       placeholder: Provide a link to the image or upload the image directly by dragging and dropping it here.
     validations:
       required: true
   - type: input
     id: colors
     attributes:
-      label: 9. Logo Background Color
+      label: 9. Preferred Logo Background Color
       description: Provide the color for the logo background. If you want to use a gradient, provide two colors separated by a comma.
       placeholder: Put a HEX color or two HEX colors separated by a comma.
     validations:
       required: true
-  
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 10. Upload Game or Dapp Pictures
+      description: Attach the pictures of your app/game. Supported formats - PNG, JPG.
+      placeholder: Provide a link to the image or upload the image directly by dragging and dropping it here.
+    validations:
+      required: false
+  - type: input
+    id: twitter
+    attributes:
+      label: 11. Project Twitter
+      description: If your app has a Twitter (X) account, please provide the URL. Leave blank if not applicable.
+      placeholder: https://x.com/...
+    validations:
+      required: false
+  - type: input
+    id: telegram
+    attributes:
+      label: 12. Project Telegram
+      description: If your app has a Telegram account, please provide the URL. Leave blank if not applicable.
+      placeholder: https://t.me/...
+    validations:
+      required: false
+  - type: input
+    id: discord
+    attributes:
+      label: 13. Project Discord
+      description: If your app has a Discord account, please provide the URL. Leave blank if not applicable.
+      placeholder: https://discord.gg/...
+    validations:
+      required: false
+  - type: input
+    id: github
+    attributes:
+      label: 14. Project Github
+      description: If your app has a Github account, please provide the URL. Leave blank if not applicable.
+      placeholder: https://github.com/...
+    validations:
+      required: false
+  - type: checkboxes
+    id: pretge
+    attributes:
+      label: 15. Is your project Pre-TGE? 
+      options:
+        - label: Yes, it is Pre-TGE
+          required: false
