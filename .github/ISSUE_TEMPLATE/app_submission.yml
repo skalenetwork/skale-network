@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Please fill out the following information to submit your app/game metadata to the SKALE to be shown on SKALE Portal. <br/>
-        ![app-template](https://raw.githubusercontent.com/skalenetwork/skale-network/master/assets/app-template.png)
+        ![app-template](https://raw.githubusercontent.com/skalenetwork/skale-network/master/assets/app-template-v3.png)
   - type: input
     id: alias
     attributes:
