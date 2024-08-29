@@ -181,10 +181,18 @@ body:
       placeholder: https://github.com/...
     validations:
       required: false
+  - type: input
+    id: swell
+    attributes:
+      label: 15. Project Swell
+      description: If your app has a Swell page, please provide the URL. Leave blank if not applicable.
+      placeholder: https://swell.skale.space/
+    validations:
+      required: false
   - type: checkboxes
     id: pretge
     attributes:
-      label: 15. Is your project Pre-TGE? 
+      label: 16. Is your project Pre-TGE? 
       options:
         - label: Yes, it is Pre-TGE
           required: false
