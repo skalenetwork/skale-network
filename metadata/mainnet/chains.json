@@ -716,7 +716,8 @@
         },
         "social": {
           "website": "https://anotherworld.gg/",
-          "twitter": "https://x.com/anotherworldgg"
+          "x": "https://x.com/anotherworldgg",
+          "github": "https://github.com/AnotherWorldDAO/Game-Release"
         },
         "contracts": [
           "0xd151dD27A459F71642A306E7fE0b6C51B88fFcD7",
