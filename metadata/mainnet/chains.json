@@ -704,6 +704,26 @@
           "dappradar":"https://dappradar.com/dapp/drakons-2" 
         }
       },
+      "another-world": {
+        "alias": "Another World",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "A Ready-Player-One-like digital world powered by community IPs & digital ownership.",
+        "added": 1725016929, 
+        "categories": {
+          "gaming": null,
+          "digital-collectibles": null,
+          "metaverse":null
+        },
+        "social": {
+          "website": "https://anotherworld.gg/",
+          "twitter": "https://x.com/anotherworldgg"
+        },
+        "contracts": [
+          "0xd151dD27A459F71642A306E7fE0b6C51B88fFcD7",
+          "0x68BabB19323c43D521F50371dd9921cf48eF9f62",
+          "0x9aFE991Bc98C5bf8Aa4D9d7e4ee38F33eC1Ff671"
+        ]
+      },
       "rise-online-world": {
         "alias": "Rise Online World",
         "gradientBackground": "linear-gradient(180deg, #191D22, #191D22)",
