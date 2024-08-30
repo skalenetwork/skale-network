@@ -706,7 +706,7 @@
       },
       "another-world": {
         "alias": "Another World",
-        "gradientBackground": "linear-gradient(180deg, #FEFEFE, #FEFEFE)",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "A Ready-Player-One-like digital world powered by community IPs & digital ownership.",
         "added": 1725016929, 
         "categories": {
