@@ -64,8 +64,8 @@
         },
         "social": {
           "website": "https://transak.com/",
-          "telegram": "https://twitter.com/intent/follow?screen_name=transak",
-          "x": "https://t.me/transakfinance",
+          "x": "https://twitter.com/intent/follow?screen_name=transak",
+          "telegram": "https://t.me/transakfinance",
           "github": "https://github.com/Transak"
         }
       },
@@ -704,6 +704,90 @@
           "dappradar":"https://dappradar.com/dapp/drakons-2" 
         }
       },
+      "zoppel": {
+        "alias": "Zoppel",
+        "gradientBackground": "linear-gradient(180deg, #3A201C, #67462E)",
+        "description": "Zoppel is a story, a Universe, an unimaginable future, a drifting humanity with existential doubts, worlds&dreams, hidden truths, love.",
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://www.zoppel.io/",
+          "x": "https://x.com/zoppel_u",
+          "telegram": "https://t.me/ZOPPELINT",
+          "discord": "https://discord.com/invite/VP356srQGR",
+          "dappradar": "https://dappradar.com/dapp/etherstrike-pentagon"
+        } 
+      },
+      "netherak-demons": {
+        "alias": "Netherak Demons",
+        "gradientBackground": "linear-gradient(180deg, #AB6059, #250E0E)",
+        "description": "The summoning ritual draws near, prepare your soul.",
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://netherak.com/",
+          "x": "https://x.com/nkdemons"
+        } 
+      },
+      "wodo-network": {
+        "alias": "Wodo Network",
+        "gradientBackground": "linear-gradient(180deg, #18122A, #18122A)",
+        "description": "Wodo Network is a next generation tech company that offers a wide range of solutions and APIs to adopt blockchain.",
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://wodo.network/",
+          "x": "https://twitter.com/wodoio",
+          "telegram": "https://t.me/wodoio",
+          "discord": "https://discord.gg/fbyns8Egpb"
+        } 
+      },
+      "crossmint": {
+        "alias": "Crossmint",
+        "gradientBackground": "linear-gradient(180deg, #EAFBF5, #F9FAFA)",
+        "description": "All the infra you need to build onchain: embedded wallets, minting, payments, and more.",
+        "categories": {
+          "wallet": null
+        },
+        "social": {
+          "website": "https://www.crossmint.com/",
+          "x": "https://x.com/crossmint?s=11&t=1ZO_0XgPOLPSc_kZEX5wCA",
+          "discord": "https://discord.com/invite/crossmint",
+          "github": "https://github.com/crossmint"
+        } 
+      },
+      "katana-inu": {
+        "alias": "Katana Inu",
+        "gradientBackground": "linear-gradient(180deg, #1D0E11, #181A21)",
+        "description": "A Battle Royale - Web3 PC Game with NFT Ecosystem.",
+        "categories": {
+          "gaming": ["pc"],
+          "digital-collectibles":null
+        },
+        "social": {
+          "website": "https://www.katanainu.com/",
+          "x": "https://x.com/katanainu",
+          "telegram": "https://t.me/katanainu",
+          "discord": "https://discord.com/invite/katanainu",
+          "dappradar": "https://dappradar.com/dapp/katana-inu"
+        } 
+      },
+      "cryptopia": {
+        "alias": "Cryptopia",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "Cryptopia is a serverless blockchain game with an embedded multisig wallet and P2P network.",
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://cryptopia.com/",
+          "x": "https://x.com/CryptopiaOFCL",
+          "dappradar": "https://dappradar.com/dapp/cryptopia"
+        } 
+      },
       "another-world": {
         "alias": "Another World",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
@@ -1229,8 +1313,8 @@
           ]
         },
         "social": {
-          "website": "https://openbisea.io/motodex",
-          "x": "https://x.com/openbisea",
+          "website": "https://www.dexstudios.net/",
+          "x": "https://x.com/motodex_game",
           "telegram": "https://t.me/openbisea_en",
           "discord": "https://discord.gg/8U3yYBkFEC",
           "dappradar": "https://dappradar.com/dapp/motodex"
@@ -1605,7 +1689,6 @@
           ]
         },
         "social": {
-          "website": "https://flokicyberpunk.com/",
           "x": "https://x.com/flokicyberpunk",
           "telegram": "https://t.me/FlokiCyberPunk_NFT",
           "discord": "https://t.me/FlokiCyberPunk_NFT"
@@ -1869,6 +1952,20 @@
           "x": "https://x.com/blockscoutcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/blockscoutcommunity",
           "github": "https://github.com/blockscout"
+        }
+      },
+      "quantstamp": {
+        "alias": "QuantStamp",
+        "gradientBackground": "linear-gradient(150deg, #0A153D, #0A388A)",
+        "categories": {
+          "partner": null,
+          "security":null
+        },
+        "description": "A global leader in blockchain security, Quantstamp has secured billions in digital assets and is trusted by web3's most notable projects.",
+        "social": {
+          "website": "https://quantstamp.com/",
+          "x": "https://x.com/Quantstamp",
+          "github": "https://github.com/quantstamp"
         }
       },
       "braintrust": {
