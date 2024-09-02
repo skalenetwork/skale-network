@@ -708,6 +708,7 @@
         "alias": "Zoppel",
         "gradientBackground": "linear-gradient(180deg, #3A201C, #67462E)",
         "description": "Zoppel is a story, a Universe, an unimaginable future, a drifting humanity with existential doubts, worlds&dreams, hidden truths, love.",
+        "added":1725279614,
         "categories": {
           "gaming": null
         },
@@ -723,6 +724,7 @@
         "alias": "Netherak Demons",
         "gradientBackground": "linear-gradient(180deg, #AB6059, #250E0E)",
         "description": "The summoning ritual draws near, prepare your soul.",
+        "added":1725279614,
         "categories": {
           "gaming": null
         },
@@ -735,6 +737,7 @@
         "alias": "Wodo Network",
         "gradientBackground": "linear-gradient(180deg, #18122A, #18122A)",
         "description": "Wodo Network is a next generation tech company that offers a wide range of solutions and APIs to adopt blockchain.",
+        "added":1725279614,
         "categories": {
           "gaming": null
         },
@@ -749,6 +752,7 @@
         "alias": "Crossmint",
         "gradientBackground": "linear-gradient(180deg, #EAFBF5, #F9FAFA)",
         "description": "All the infra you need to build onchain: embedded wallets, minting, payments, and more.",
+        "added":1725279614,
         "categories": {
           "wallet": null
         },
@@ -763,6 +767,7 @@
         "alias": "Katana Inu",
         "gradientBackground": "linear-gradient(180deg, #1D0E11, #181A21)",
         "description": "A Battle Royale - Web3 PC Game with NFT Ecosystem.",
+        "added":1725279614,
         "categories": {
           "gaming": ["pc"],
           "digital-collectibles":null
@@ -779,6 +784,7 @@
         "alias": "Cryptopia",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Cryptopia is a serverless blockchain game with an embedded multisig wallet and P2P network.",
+        "added":1725279614,
         "categories": {
           "gaming": null
         },
@@ -1962,6 +1968,7 @@
           "security":null
         },
         "description": "A global leader in blockchain security, Quantstamp has secured billions in digital assets and is trusted by web3's most notable projects.",
+        "added":1725279614,
         "social": {
           "website": "https://quantstamp.com/",
           "x": "https://x.com/Quantstamp",
