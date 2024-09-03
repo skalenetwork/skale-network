@@ -1683,26 +1683,6 @@
           "discord": "https://discord.com/invite/HangryAnimals"
         }
       },
-      "floki-cyber-punk": {
-        "alias": "Floki Cyber Punk",
-        "gradientBackground": "linear-gradient(360deg, rgb(0 0 0), rgb(44 11 52))",
-        "description": "Floki Cyber Punk is a multiplayer game that invites players to dive into online battles in a vibrant and engaging world where players can fight, earn, and grow within a dynamic digital ecosystem.",
-        "categories": {
-          "gaming": [
-            "pc",
-            "casual"
-          ]
-        },
-        "social": {
-          "x": "https://x.com/flokicyberpunk",
-          "telegram": "https://t.me/FlokiCyberPunk_NFT",
-          "discord": "https://t.me/FlokiCyberPunk_NFT"
-        },
-        "contracts": [
-          "0x8fD582331cf2a23aF3a5F8F3bdF4Aad24c012061",
-          "0xD9105456dB9E0Ee73aA7349EF10b140e78BEbd2c"
-        ]
-      },
       "space-rush-odyssey": {
         "alias": "Space Rush Odyssey",
         "gradientBackground": "linear-gradient(#203e2f, #13261c)",
