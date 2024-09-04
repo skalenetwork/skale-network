@@ -70,7 +70,7 @@
         }
       },
       "ruby-exchange": {
-        "alias": "Ruby Exchange",
+        "alias": "Ruby.Exchange",
         "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
         "description": "Ruby.Exchange is the leading AMM on the SKALE Network - a hybrid L1/L2 solution for Ethereum that offers unlimited scalability with zero gas fees, fast confirmation times, free and instant transfers between SKALE Chains via Metaport, and front-running protection at the network level.",
         "contracts": [
@@ -1479,7 +1479,12 @@
           "x": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "discord": "https://discord.com/invite/WZDx96TNb3"
-        }
+        },
+        "contracts": [
+          "0xE9d487B950A5075D8eaB084e2E04971340765b86",
+          "0xB4F39D20de49EE86c1d880B1b236684a5F875a87",
+          "0xD16539Fa2Fe90F80066a103dDB78cA81Bc33166B"
+        ]
       },
       "hatchyverse": {
         "alias": "HatchyVerse",
@@ -1769,7 +1774,7 @@
         ]
       },
       "arena-games-platform": {
-        "alias": "Arena Games Platform",
+        "alias": "Arena Games",
         "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
         "description": "Arena Games is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
         "categories": {
