@@ -52,7 +52,10 @@
           "discord": "https://discord.com/invite/meson",
           "github": "https://github.com/MesonFi",
           "dappradar": "https://dappradar.com/dapp/meson"
-        }
+        },
+        "contracts":[
+          "0x529c2945c257CC737A15733d43a1fD1cBBe79C67"
+        ]
       },
       "transak": {
         "alias": "Transak",
@@ -321,7 +324,10 @@
           "website": "https://www.scoredetect.com/",
           "x": "https://x.com/scoredetect",
           "github": "https://github.com/scoredetect"
-        }
+        },
+        "contracts": [
+          "0x7d512Ba02d047AeA2177b06EAA950959D923383E"
+        ]
       },
       "nftrade": {
         "alias": "NFTrade",
@@ -377,9 +383,6 @@
           ],
           "digital-collectibles": null
         },
-        "contracts": [
-          "0xD1A3abf42f9E66BE86cfDEa8c5C2c74f041c5e14"
-        ],
         "social": {
           "website": "https://dmail.ai/",
           "github": "https://github.com/dmailofficial/dmail",
@@ -439,7 +442,12 @@
           "x": "https://t.me/jumptradenft",
           "telegram": "https://t.me/jumptradenft",
           "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
-        }
+        },
+        "contracts": [
+          "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
+          "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
+          "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
+        ]
       },
       "hitmakr": {
         "alias": "Hitmakr",
@@ -646,6 +654,14 @@
         "categories": {
           "ai": null
         },
+        "contracts": [
+          "0x53F1D451066aDA17C5abCF78Bb1DA7839A77C755",
+          "0x96A31ba8d38d01dA62D745b9DAf46d9a427c6ec8",
+          "0x343e70Cb16F686C58fE6414277c7ed23C97bC6F3",
+          "0x797E0E87aDCf9845D2af2c5eee6F226feA3f0eFc",
+          "0xC9FCBEd3a27666c539EE00f7a3D2b3ae6F0fa22E",
+          "0xdA61CBFF9390D0802372655197d8f29d4FFA6971"
+        ],
         "social": {
           "website": "https://exorde.network/",
           "x": "https://x.com/exordelabs?lang=en",
@@ -774,7 +790,10 @@
           "x": "https://x.com/crossmint?s=11&t=1ZO_0XgPOLPSc_kZEX5wCA",
           "discord": "https://discord.com/invite/crossmint",
           "github": "https://github.com/crossmint"
-        } 
+      },
+      "contracts": [
+        "0xFaC1fD2D04Dd31b3b81b11D86d59AfCc136bE0B8"
+      ]
       },
       "katana-inu": {
         "alias": "Katana Inu",
@@ -791,7 +810,10 @@
           "telegram": "https://t.me/katanainu",
           "discord": "https://discord.com/invite/katanainu",
           "dappradar": "https://dappradar.com/dapp/katana-inu"
-        } 
+        },
+        "contracts": [
+          "0x7dE0dF352f6787BaF0657abc832EF2b620B10C45"
+        ] 
       },
       "cryptopia": {
         "alias": "Cryptopia",
@@ -1057,7 +1079,10 @@
         "social": {
           "website": "https://www.olderfall.com/",
           "x": "https://x.com/olderfall"
-        }
+        },
+        "contracts":[
+        "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
+        ]
       },
       "metaverser": {
         "alias": "Metaverser",
