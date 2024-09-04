@@ -534,6 +534,20 @@
           "x": "https://x.com/themetakraft"
         }
       },
+      "chirperai": {
+        "alias": "Chirper.AI",
+        "gradientBackground": "linear-gradient(270deg, #1A1C20, #1A1C20)",
+        "description": "We're simulating the universe for the world's largest collection of autonomous AI agents.",
+        "categories": {
+          "ai": null
+        },
+        "added": 1725447477,
+        "social": {
+          "website": "https://chirper.ai/",
+          "x": "https://x.com/chirperai",
+          "discord": "https://discord.com/invite/QVFejuDNmH"
+        }
+      },
       "music-moon": {
         "alias": "Music Moon",
         "gradientBackground": "linear-gradient(270deg, #2B2C2B, #2B2C2B)",
@@ -924,14 +938,18 @@
           "gaming": [
             "platformer"
           ],
-          "digital-collectibles": null
+          "digital-collectibles": null,
+          "pretge":null
         },
         "social": {
           "website": "https://tokentails.com/",
           "x": "https://x.com/tokentails",
           "telegram": "https://tr.ee/dHGbwuEw_V",
           "discord": "https://discord.com/invite/4FVYmnd7Hg"
-        }
+        },
+        "tags": [
+          "pretge"
+        ]
       },
       "tom": {
         "alias": "TOM",
@@ -943,13 +961,17 @@
             "casual",
             "strategy"
           ],
-          "digital-collectibles": null
+          "digital-collectibles": null,
+          "pretge":null
         },
         "social": {
           "website": "https://tomcoin.app/#home",
           "x": "https://x.com/TomCoinBnb",
           "discord": "https://t.me/TomCoinBNB"
-        }
+        },
+        "tags": [
+          "pretge"
+        ]
       },
       "tcg-world": {
         "alias": "TCG World",
@@ -1339,6 +1361,7 @@
         "gradientBackground": "linear-gradient(92deg, #00121e 0%, #052b44",
         "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience!",
         "categories": {
+          "pretge":null,
           "gaming": [
             "mobile",
             "sports",
@@ -1585,13 +1608,17 @@
         "gradientBackground": "linear-gradient(270deg, #090b2a, #15184a)",
         "description": "The World of Dypians (WoD) is a massive multiplayer online role-playing game that is  set in a vast digital environment. Its target audience is individuals who enjoy playing  online games and exploring immersive digital environments. The goals of the game  are to provide players with a rich and engaging experience that allows them to  interact with others, complete quests, and engage in battles. WoD's unique  combination of fantasy and blockchain technology creates an exciting and dynamic  environment for players to explore and experience. The ultimate goal of the game is  to create a virtual world that is alive with activity, where players can form  communities, create their own content, and engage in meaningful interactions with  one another.    World of Dypians is built to support multiple blockchains, making it accessible and  interoperable with a wider audience. We aim to have a sustainable ecosystem where  users can contribute to the growth and development of the world. The multi-chain  integration and the wide range of offerings, including next-gen integrations like other  chains, tokens, NFTs, and a marketplace, make World of Dypians a cutting-edge  solution in the DeFi and metaverse space.",
         "categories": {
+          "pretge":null,
           "gaming": [
             "pc",
             "sandbox",
             "action-adventure",
             "rpg"
           ]
-        },
+      },
+      "tags": [
+        "pretge"
+      ],
         "social": {
           "website": "https://www.worldofdypians.com/",
           "x": "https://x.com/worldofdypians",
