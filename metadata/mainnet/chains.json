@@ -1372,7 +1372,10 @@
           "telegram": "https://t.me/Game5TARS",
           "discord": "https://discord.com/invite/5tarsgame",
           "dappradar": "https://dappradar.com/dapp/5tars/"
-        },
+      },
+      "tags": [
+        "pretge"
+      ],
         "contracts": [
           "0x23C1F1a60F18e304fC81eDB2cb98C04a59aef466",
           "0xda7D9012A36d85F61Ca6e0d85998FBEf0BA640B6",
