@@ -715,14 +715,14 @@
           "x": "https://x.com/DrakonsIO",
           "telegram": "https://t.me/DrakonsIO",
           "discord": "https://discord.com/invite/n9ZVQvv",
-          "dappradar":"https://dappradar.com/dapp/drakons-2" 
+          "dappradar": "https://dappradar.com/dapp/drakons-2"
         }
       },
       "zoppel": {
         "alias": "Zoppel",
         "gradientBackground": "linear-gradient(180deg, #3A201C, #67462E)",
         "description": "Zoppel is a story, a Universe, an unimaginable future, a drifting humanity with existential doubts, worlds&dreams, hidden truths, love.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "gaming": null
         },
@@ -731,26 +731,26 @@
           "x": "https://x.com/zoppel_u",
           "telegram": "https://t.me/ZOPPELINT",
           "discord": "https://discord.com/invite/VP356srQGR"
-        } 
+        }
       },
       "netherak-demons": {
         "alias": "Netherak Demons",
         "gradientBackground": "linear-gradient(180deg, #AB6059, #250E0E)",
         "description": "The summoning ritual draws near, prepare your soul.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "gaming": null
         },
         "social": {
           "website": "https://netherak.com/",
           "x": "https://x.com/nkdemons"
-        } 
+        }
       },
       "wodo-network": {
         "alias": "Wodo Network",
         "gradientBackground": "linear-gradient(180deg, #18122A, #18122A)",
         "description": "Wodo Network is a next generation tech company that offers a wide range of solutions and APIs to adopt blockchain.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "gaming": null
         },
@@ -759,13 +759,13 @@
           "x": "https://twitter.com/wodoio",
           "telegram": "https://t.me/wodoio",
           "discord": "https://discord.gg/fbyns8Egpb"
-        } 
+        }
       },
       "crossmint": {
         "alias": "Crossmint",
         "gradientBackground": "linear-gradient(180deg, #EAFBF5, #F9FAFA)",
         "description": "All the infra you need to build onchain: embedded wallets, minting, payments, and more.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "wallet": null
         },
@@ -774,16 +774,18 @@
           "x": "https://x.com/crossmint?s=11&t=1ZO_0XgPOLPSc_kZEX5wCA",
           "discord": "https://discord.com/invite/crossmint",
           "github": "https://github.com/crossmint"
-        } 
+        }
       },
       "katana-inu": {
         "alias": "Katana Inu",
         "gradientBackground": "linear-gradient(180deg, #1D0E11, #181A21)",
         "description": "A Battle Royale - Web3 PC Game with NFT Ecosystem.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
-          "gaming": ["pc"],
-          "digital-collectibles":null
+          "gaming": [
+            "pc"
+          ],
+          "digital-collectibles": null
         },
         "social": {
           "website": "https://www.katanainu.com/",
@@ -791,13 +793,13 @@
           "telegram": "https://t.me/katanainu",
           "discord": "https://discord.com/invite/katanainu",
           "dappradar": "https://dappradar.com/dapp/katana-inu"
-        } 
+        }
       },
       "cryptopia": {
         "alias": "Cryptopia",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Cryptopia is a serverless blockchain game with an embedded multisig wallet and P2P network.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "gaming": null
         },
@@ -805,17 +807,17 @@
           "website": "https://cryptopia.com/",
           "x": "https://x.com/CryptopiaOFCL",
           "dappradar": "https://dappradar.com/dapp/cryptopia"
-        } 
+        }
       },
       "another-world": {
         "alias": "Another World",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "A Ready-Player-One-like digital world powered by community IPs & digital ownership.",
-        "added": 1725016929, 
+        "added": 1725016929,
         "categories": {
           "gaming": null,
           "digital-collectibles": null,
-          "metaverse":null
+          "metaverse": null
         },
         "social": {
           "website": "https://anotherworld.gg/",
@@ -842,7 +844,7 @@
           "website": "https://www.riseonlineworld.com/en",
           "x": "https://x.com/riseonlineworld",
           "discord": "https://www.riseonlineworld.com/discord",
-          "dappradar":"https://dappradar.com/dapp/rise-online-world" 
+          "dappradar": "https://dappradar.com/dapp/rise-online-world"
         },
         "contracts": [
           "0xC23F65a409A236591d4ff36E37684993AC9fBd93"
@@ -940,7 +942,7 @@
             "platformer"
           ],
           "digital-collectibles": null,
-          "pretge":null
+          "pretge": null
         },
         "social": {
           "website": "https://tokentails.com/",
@@ -963,7 +965,7 @@
             "strategy"
           ],
           "digital-collectibles": null,
-          "pretge":null
+          "pretge": null
         },
         "social": {
           "website": "https://tomcoin.app/#home",
@@ -1359,7 +1361,7 @@
         "gradientBackground": "linear-gradient(92deg, #00121e 0%, #052b44",
         "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience!",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "mobile",
             "sports",
@@ -1372,10 +1374,10 @@
           "telegram": "https://t.me/Game5TARS",
           "discord": "https://discord.com/invite/5tarsgame",
           "dappradar": "https://dappradar.com/dapp/5tars/"
-      },
-      "tags": [
-        "pretge"
-      ],
+        },
+        "tags": [
+          "pretge"
+        ],
         "contracts": [
           "0x23C1F1a60F18e304fC81eDB2cb98C04a59aef466",
           "0xda7D9012A36d85F61Ca6e0d85998FBEf0BA640B6",
@@ -1606,17 +1608,17 @@
         "gradientBackground": "linear-gradient(270deg, #090b2a, #15184a)",
         "description": "The World of Dypians (WoD) is a massive multiplayer online role-playing game that is  set in a vast digital environment. Its target audience is individuals who enjoy playing  online games and exploring immersive digital environments. The goals of the game  are to provide players with a rich and engaging experience that allows them to  interact with others, complete quests, and engage in battles. WoD's unique  combination of fantasy and blockchain technology creates an exciting and dynamic  environment for players to explore and experience. The ultimate goal of the game is  to create a virtual world that is alive with activity, where players can form  communities, create their own content, and engage in meaningful interactions with  one another.    World of Dypians is built to support multiple blockchains, making it accessible and  interoperable with a wider audience. We aim to have a sustainable ecosystem where  users can contribute to the growth and development of the world. The multi-chain  integration and the wide range of offerings, including next-gen integrations like other  chains, tokens, NFTs, and a marketplace, make World of Dypians a cutting-edge  solution in the DeFi and metaverse space.",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "pc",
             "sandbox",
             "action-adventure",
             "rpg"
           ]
-      },
-      "tags": [
-        "pretge"
-      ],
+        },
+        "tags": [
+          "pretge"
+        ],
         "social": {
           "website": "https://www.worldofdypians.com/",
           "x": "https://x.com/worldofdypians",
@@ -1919,6 +1921,25 @@
       "tools": null
     },
     "apps": {
+      "swell": {
+        "alias": "SKALE Swell",
+        "gradientBackground": "linear-gradient(150deg, #131313, #1d1d1d)",
+        "categories": {
+          "gaming": null,
+          "metaverse": null,
+          "defi": null,
+          "digital-collectibles": null,
+          "tools": null,
+          "web3": null
+        },
+        "description": "Ride the wave and win with SKALE Swell! On Swell you can: Explore live & pre-TGE dApps, Climb the Leaderboard via Quests, Win Exclusive Prizes.",
+        "social": {
+          "website": "https://swell.skale.space/",
+          "x": "https://twitter.com/skalenetwork",
+          "telegram": "https://t.me/skaleofficial",
+          "discord": "https://discord.com/invite/gM5XBy6"
+        }
+      },
       "ledger": {
         "alias": "Ledger",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
@@ -1969,10 +1990,10 @@
         "gradientBackground": "linear-gradient(150deg, #0A153D, #0A388A)",
         "categories": {
           "partner": null,
-          "security":null
+          "security": null
         },
         "description": "A global leader in blockchain security, Quantstamp has secured billions in digital assets and is trusted by web3's most notable projects.",
-        "added":1725279614,
+        "added": 1725279614,
         "social": {
           "website": "https://quantstamp.com/",
           "x": "https://x.com/Quantstamp",
