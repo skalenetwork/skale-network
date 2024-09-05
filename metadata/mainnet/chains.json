@@ -430,25 +430,6 @@
           "0x3e0167DbC945c18e339ed532bcCb55c95Db36599"
         ]
       },
-      "hurley": {
-        "alias": "Hurley",
-        "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
-        "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
-        "categories": {
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://hurley.jump.trade/",
-          "x": "https://t.me/jumptradenft",
-          "telegram": "https://t.me/jumptradenft",
-          "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
-        },
-        "contracts": [
-          "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
-          "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
-          "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
-        ]
-      },
       "hitmakr": {
         "alias": "Hitmakr",
         "gradientBackground": "linear-gradient(#fbf9ff, #e5daff)",
@@ -715,7 +696,26 @@
           "x": "https://x.com/landofchasers",
           "discord": "https://t.co/RhX8BOiXcn"
         }
+    },
+    "hurley": {
+      "alias": "Hurley",
+      "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
+      "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
+      "categories": {
+        "digital-collectibles": null
       },
+      "social": {
+        "website": "https://hurley.jump.trade/",
+        "x": "https://t.me/jumptradenft",
+        "telegram": "https://t.me/jumptradenft",
+        "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
+      },
+      "contracts": [
+        "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
+        "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
+        "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
+      ]
+    },
       "drakons": {
         "alias": "Drakons",
         "gradientBackground": "linear-gradient(180deg, #FEFEFE, #FEFEFE)",
