@@ -1977,6 +1977,18 @@
           "telegram": "https://t.me/CVPAD_NEWS"
         }
       },
+      "portal": {
+        "alias": "Portal",
+        "gradientBackground": "linear-gradient(150deg, rgb(17 2 32), #110220)",
+        "categories": {
+          "partner": null
+        },
+        "description": "The next-gen gaming platform and publisher. Redefining the way games and gamers connect. Game on!",
+        "social": {
+          "website": "https://www.portalgaming.com/",
+          "x": "https://x.com/PortalCoin"
+        }
+      },
       "blockscout": {
         "alias": "Blockscout",
         "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), rgb(218 212 255))",
