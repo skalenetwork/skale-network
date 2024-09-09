@@ -53,7 +53,7 @@
           "github": "https://github.com/MesonFi",
           "dappradar": "https://dappradar.com/dapp/meson"
         },
-        "contracts":[
+        "contracts": [
           "0x529c2945c257CC737A15733d43a1fD1cBBe79C67"
         ]
       },
@@ -696,26 +696,26 @@
           "x": "https://x.com/landofchasers",
           "discord": "https://t.co/RhX8BOiXcn"
         }
-    },
-    "hurley": {
-      "alias": "Hurley",
-      "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
-      "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
-      "categories": {
-        "digital-collectibles": null
       },
-      "social": {
-        "website": "https://hurley.jump.trade/",
-        "x": "https://t.me/jumptradenft",
-        "telegram": "https://t.me/jumptradenft",
-        "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
+      "hurley": {
+        "alias": "Hurley",
+        "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
+        "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
+        "categories": {
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://hurley.jump.trade/",
+          "x": "https://t.me/jumptradenft",
+          "telegram": "https://t.me/jumptradenft",
+          "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
+        },
+        "contracts": [
+          "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
+          "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
+          "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
+        ]
       },
-      "contracts": [
-        "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
-        "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
-        "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
-      ]
-    },
       "drakons": {
         "alias": "Drakons",
         "gradientBackground": "linear-gradient(180deg, #FEFEFE, #FEFEFE)",
@@ -790,10 +790,10 @@
           "x": "https://x.com/crossmint?s=11&t=1ZO_0XgPOLPSc_kZEX5wCA",
           "discord": "https://discord.com/invite/crossmint",
           "github": "https://github.com/crossmint"
-      },
-      "contracts": [
-        "0xFaC1fD2D04Dd31b3b81b11D86d59AfCc136bE0B8"
-      ]
+        },
+        "contracts": [
+          "0xFaC1fD2D04Dd31b3b81b11D86d59AfCc136bE0B8"
+        ]
       },
       "katana-inu": {
         "alias": "Katana Inu",
@@ -1082,8 +1082,8 @@
           "website": "https://www.olderfall.com/",
           "x": "https://x.com/olderfall"
         },
-        "contracts":[
-        "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
+        "contracts": [
+          "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
         ]
       },
       "metaverser": {
@@ -1479,10 +1479,14 @@
           "0x21055aD11b0D3F9577eD2fd9fD432e2a5E06a8Ee",
           "0x9D13709c1b41DEDD9b8690c66d4590D6a52b3062",
           "0x6D1a6B840714420D425c2F2658CEF390dbD809A7",
-          "0x0384eB9dF2A10a0075011E57112c8542C39689d1 0x6D7E80e3B76095a8c1a9903f77f4faacc241CE6e",
-          "0xc59c5D5220Eb9217cD4cce63e6E380F40f3a02a4 0xd1820D02B55Dc7936286F5004361d70Ae90B1FcB ",
-          "0x2e1dB04EF8cdFa4d0008F611755A3B726efF49Dd 0xFfFc8124B1244EaE0eB574A232e91Ce1572049e0",
-          "0xF689625822704DBE865FBB0591Ea1aFA3112B19c 0x9f5446692990948CfE3b30E81ceBe2Fa0A46b49e"
+          "0x0384eB9dF2A10a0075011E57112c8542C39689d1",
+          "0xc59c5D5220Eb9217cD4cce63e6E380F40f3a02a4",
+          "0x2e1dB04EF8cdFa4d0008F611755A3B726efF49Dd",
+          "0xF689625822704DBE865FBB0591Ea1aFA3112B19c",
+          "0x6D7E80e3B76095a8c1a9903f77f4faacc241CE6e",
+          "0xd1820D02B55Dc7936286F5004361d70Ae90B1FcB",
+          "0xFfFc8124B1244EaE0eB574A232e91Ce1572049e0",
+          "0x9f5446692990948CfE3b30E81ceBe2Fa0A46b49e"
         ],
         "social": {
           "website": "https://www.havenscompass.com/",
