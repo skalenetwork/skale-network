@@ -1169,7 +1169,8 @@
           "website": "https://fusyfox.com/",
           "x": "https://x.com/fusyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/FUSYFOXGroup",
-          "discord": "https://discord.com/invite/fusyfox"
+          "discord": "https://discord.com/invite/fusyfox",
+          "egs": "https://store.epicgames.com/en-US/p/fusyfox-752d01"
         }
       },
       "zesh": {
@@ -1498,7 +1499,8 @@
           "telegram": "https://t.me/havenscompass",
           "discord": "https://discord.com/invite/havenscompass",
           "dappradar": "https://dappradar.com/dapp/haven-s-compass",
-          "swell": "https://swell.skale.space/"
+          "swell": "https://swell.skale.space/",
+          "egs": "https://store.epicgames.com/en-US/p/havens-compass-c31bb4"
         }
       },
       "chainguardians": {
@@ -1664,7 +1666,8 @@
           "telegram": "https://t.me/worldofdypians",
           "discord": "https://discord.gg/worldofdypians",
           "github": "https://github.com/worldofdypians",
-          "dappradar": "https://dappradar.com/dapp/world-of-dypians"
+          "dappradar": "https://dappradar.com/dapp/world-of-dypians",
+          "egs": "https://store.epicgames.com/en-US/p/world-of-dypians-2e0694"
         },
         "contracts": [
           "0x6041dC62b74e28596b4917693f6B0F5baA61A13F",
@@ -1948,7 +1951,8 @@
           "x": "https://x.com/StrayShotGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/StrayShot_Chat",
           "discord": "https://discord.com/invite/Strayshot",
-          "dappradar": "https://dappradar.com/dapp/strayshot"
+          "dappradar": "https://dappradar.com/dapp/strayshot",
+          "egs": "https://store.epicgames.com/en-US/p/strayshot-2ad9a8"
         }
       }
     }
