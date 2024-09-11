@@ -1159,7 +1159,7 @@
         "description": "FusyFox is a Web3 project that offers a fast-paced multiplayer third-person shooter game.",
         "categories": {
           "gaming": [
-            "egs",
+            "epic-games-store",
             "shooter"
           ],
           "metaverse": null,
@@ -1170,7 +1170,7 @@
           "x": "https://x.com/fusyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/FUSYFOXGroup",
           "discord": "https://discord.com/invite/fusyfox",
-          "egs": "https://store.epicgames.com/en-US/p/fusyfox-752d01"
+          "epic-games-store": "https://store.epicgames.com/en-US/p/fusyfox-752d01"
         }
       },
       "zesh": {
@@ -1475,7 +1475,7 @@
         "description": "In the heart-pounding world of Haven's Compass, players step into the boots of an operative of their choice in a dystopian future, where they are tasked with unraveling a conspiracy that threatens to plunge the world into chaos. Set against a backdrop of stunningly rendered post-apocalyptic landscapes, Haven's Compass seamlessly blends intense gunplay with a gripping narrative, immersing players in a cinematic experience like never before. As players choose their operative, each with a unique background and skill set, they navigate through intricately designed levels, battling relentless waves of enemies and utilizing an arsenal of futuristic weapons, each with its own unique abilities and upgrades. The game's dynamic AI adapts to players' strategies, ensuring a challenging and unpredictable combat experience that rewards both precision and tactical thinking.",
         "categories": {
           "gaming": [
-            "egs",
+            "epic-games-store",
             "pc",
             "shooter"
           ]
@@ -1500,7 +1500,7 @@
           "discord": "https://discord.com/invite/havenscompass",
           "dappradar": "https://dappradar.com/dapp/haven-s-compass",
           "swell": "https://swell.skale.space/",
-          "egs": "https://store.epicgames.com/en-US/p/havens-compass-c31bb4"
+          "epic-games-store": "https://store.epicgames.com/en-US/p/havens-compass-c31bb4"
         }
       },
       "chainguardians": {
@@ -1649,7 +1649,7 @@
         "description": "The World of Dypians (WoD) is a massive multiplayer online role-playing game that is  set in a vast digital environment. Its target audience is individuals who enjoy playing  online games and exploring immersive digital environments. The goals of the game  are to provide players with a rich and engaging experience that allows them to  interact with others, complete quests, and engage in battles. WoD's unique  combination of fantasy and blockchain technology creates an exciting and dynamic  environment for players to explore and experience. The ultimate goal of the game is  to create a virtual world that is alive with activity, where players can form  communities, create their own content, and engage in meaningful interactions with  one another.    World of Dypians is built to support multiple blockchains, making it accessible and  interoperable with a wider audience. We aim to have a sustainable ecosystem where  users can contribute to the growth and development of the world. The multi-chain  integration and the wide range of offerings, including next-gen integrations like other  chains, tokens, NFTs, and a marketplace, make World of Dypians a cutting-edge  solution in the DeFi and metaverse space.",
         "categories": {
           "gaming": [
-            "egs",
+            "epic-games-store",
             "pc",
             "sandbox",
             "action-adventure",
@@ -1667,7 +1667,7 @@
           "discord": "https://discord.gg/worldofdypians",
           "github": "https://github.com/worldofdypians",
           "dappradar": "https://dappradar.com/dapp/world-of-dypians",
-          "egs": "https://store.epicgames.com/en-US/p/world-of-dypians-2e0694"
+          "epic-games-store": "https://store.epicgames.com/en-US/p/world-of-dypians-2e0694"
         },
         "contracts": [
           "0x6041dC62b74e28596b4917693f6B0F5baA61A13F",
@@ -1930,7 +1930,7 @@
         "gradientBackground": "linear-gradient(150deg, #151619, #151619)",
         "categories": {
           "gaming": [
-            "egs",
+            "epic-games-store",
             "pc",
             "action-adventure",
             "shooter"
@@ -1952,7 +1952,7 @@
           "telegram": "https://t.me/StrayShot_Chat",
           "discord": "https://discord.com/invite/Strayshot",
           "dappradar": "https://dappradar.com/dapp/strayshot",
-          "egs": "https://store.epicgames.com/en-US/p/strayshot-2ad9a8"
+          "epic-games-store": "https://store.epicgames.com/en-US/p/strayshot-2ad9a8"
         }
       }
     }
