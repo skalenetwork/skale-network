@@ -1684,8 +1684,8 @@
           "0xe94E779aBd08dd0c67d1c2530685565F19bc909a"
         ]
       },
-      "zeus": {
-        "alias": "Zeus",
+      "ether-strike": {
+        "alias": "Ether Strike",
         "gradientBackground": "linear-gradient(rgb(30 30 30), rgb(0 0 0))",
         "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
         "categories": {
