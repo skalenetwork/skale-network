@@ -53,7 +53,7 @@
           "github": "https://github.com/MesonFi",
           "dappradar": "https://dappradar.com/dapp/meson"
         },
-        "contracts":[
+        "contracts": [
           "0x529c2945c257CC737A15733d43a1fD1cBBe79C67"
         ]
       },
@@ -696,26 +696,26 @@
           "x": "https://x.com/landofchasers",
           "discord": "https://t.co/RhX8BOiXcn"
         }
-    },
-    "hurley": {
-      "alias": "Hurley",
-      "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
-      "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
-      "categories": {
-        "digital-collectibles": null
       },
-      "social": {
-        "website": "https://hurley.jump.trade/",
-        "x": "https://t.me/jumptradenft",
-        "telegram": "https://t.me/jumptradenft",
-        "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
+      "hurley": {
+        "alias": "Hurley",
+        "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
+        "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
+        "categories": {
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://hurley.jump.trade/",
+          "x": "https://t.me/jumptradenft",
+          "telegram": "https://t.me/jumptradenft",
+          "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
+        },
+        "contracts": [
+          "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
+          "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
+          "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
+        ]
       },
-      "contracts": [
-        "0x147b7B4f514cfa252F3302e97fc50689fB179a9C",
-        "0x9B0a4e5Fd1564584d7D4FF30e9c35eA60674De7C",
-        "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
-      ]
-    },
       "drakons": {
         "alias": "Drakons",
         "gradientBackground": "linear-gradient(180deg, #FEFEFE, #FEFEFE)",
@@ -731,14 +731,14 @@
           "x": "https://x.com/DrakonsIO",
           "telegram": "https://t.me/DrakonsIO",
           "discord": "https://discord.com/invite/n9ZVQvv",
-          "dappradar":"https://dappradar.com/dapp/drakons-2" 
+          "dappradar": "https://dappradar.com/dapp/drakons-2"
         }
       },
       "zoppel": {
         "alias": "Zoppel",
         "gradientBackground": "linear-gradient(180deg, #3A201C, #67462E)",
         "description": "Zoppel is a story, a Universe, an unimaginable future, a drifting humanity with existential doubts, worlds&dreams, hidden truths, love.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "gaming": null
         },
@@ -747,26 +747,26 @@
           "x": "https://x.com/zoppel_u",
           "telegram": "https://t.me/ZOPPELINT",
           "discord": "https://discord.com/invite/VP356srQGR"
-        } 
+        }
       },
       "netherak-demons": {
         "alias": "Netherak Demons",
         "gradientBackground": "linear-gradient(180deg, #AB6059, #250E0E)",
         "description": "The summoning ritual draws near, prepare your soul.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "gaming": null
         },
         "social": {
           "website": "https://netherak.com/",
           "x": "https://x.com/nkdemons"
-        } 
+        }
       },
       "wodo-network": {
         "alias": "Wodo Network",
         "gradientBackground": "linear-gradient(180deg, #18122A, #18122A)",
         "description": "Wodo Network is a next generation tech company that offers a wide range of solutions and APIs to adopt blockchain.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "gaming": null
         },
@@ -775,13 +775,13 @@
           "x": "https://twitter.com/wodoio",
           "telegram": "https://t.me/wodoio",
           "discord": "https://discord.gg/fbyns8Egpb"
-        } 
+        }
       },
       "crossmint": {
         "alias": "Crossmint",
         "gradientBackground": "linear-gradient(180deg, #EAFBF5, #F9FAFA)",
         "description": "All the infra you need to build onchain: embedded wallets, minting, payments, and more.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "wallet": null
         },
@@ -790,19 +790,21 @@
           "x": "https://x.com/crossmint?s=11&t=1ZO_0XgPOLPSc_kZEX5wCA",
           "discord": "https://discord.com/invite/crossmint",
           "github": "https://github.com/crossmint"
-      },
-      "contracts": [
-        "0xFaC1fD2D04Dd31b3b81b11D86d59AfCc136bE0B8"
-      ]
+        },
+        "contracts": [
+          "0xFaC1fD2D04Dd31b3b81b11D86d59AfCc136bE0B8"
+        ]
       },
       "katana-inu": {
         "alias": "Katana Inu",
         "gradientBackground": "linear-gradient(180deg, #1D0E11, #181A21)",
         "description": "A Battle Royale - Web3 PC Game with NFT Ecosystem.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
-          "gaming": ["pc"],
-          "digital-collectibles":null
+          "gaming": [
+            "pc"
+          ],
+          "digital-collectibles": null
         },
         "social": {
           "website": "https://www.katanainu.com/",
@@ -813,13 +815,13 @@
         },
         "contracts": [
           "0x7dE0dF352f6787BaF0657abc832EF2b620B10C45"
-        ] 
+        ]
       },
       "cryptopia": {
         "alias": "Cryptopia",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Cryptopia is a serverless blockchain game with an embedded multisig wallet and P2P network.",
-        "added":1725279614,
+        "added": 1725279614,
         "categories": {
           "gaming": null
         },
@@ -827,17 +829,17 @@
           "website": "https://cryptopia.com/",
           "x": "https://x.com/CryptopiaOFCL",
           "dappradar": "https://dappradar.com/dapp/cryptopia"
-        } 
+        }
       },
       "another-world": {
         "alias": "Another World",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "A Ready-Player-One-like digital world powered by community IPs & digital ownership.",
-        "added": 1725016929, 
+        "added": 1725016929,
         "categories": {
           "gaming": null,
           "digital-collectibles": null,
-          "metaverse":null
+          "metaverse": null
         },
         "social": {
           "website": "https://anotherworld.gg/",
@@ -864,7 +866,7 @@
           "website": "https://www.riseonlineworld.com/en",
           "x": "https://x.com/riseonlineworld",
           "discord": "https://www.riseonlineworld.com/discord",
-          "dappradar":"https://dappradar.com/dapp/rise-online-world" 
+          "dappradar": "https://dappradar.com/dapp/rise-online-world"
         },
         "contracts": [
           "0xC23F65a409A236591d4ff36E37684993AC9fBd93"
@@ -962,7 +964,7 @@
             "platformer"
           ],
           "digital-collectibles": null,
-          "pretge":null
+          "pretge": null
         },
         "social": {
           "website": "https://tokentails.com/",
@@ -985,7 +987,7 @@
             "strategy"
           ],
           "digital-collectibles": null,
-          "pretge":null
+          "pretge": null
         },
         "social": {
           "website": "https://tomcoin.app/#home",
@@ -1080,8 +1082,8 @@
           "website": "https://www.olderfall.com/",
           "x": "https://x.com/olderfall"
         },
-        "contracts":[
-        "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
+        "contracts": [
+          "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
         ]
       },
       "metaverser": {
@@ -1156,7 +1158,10 @@
         "gradientBackground": "linear-gradient(180deg, #370055, #370055)",
         "description": "FusyFox is a Web3 project that offers a fast-paced multiplayer third-person shooter game.",
         "categories": {
-          "gaming": null,
+          "gaming": [
+            "epic-games-store",
+            "shooter"
+          ],
           "metaverse": null,
           "ai": null
         },
@@ -1164,7 +1169,8 @@
           "website": "https://fusyfox.com/",
           "x": "https://x.com/fusyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/FUSYFOXGroup",
-          "discord": "https://discord.com/invite/fusyfox"
+          "discord": "https://discord.com/invite/fusyfox",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/fusyfox-752d01"
         }
       },
       "zesh": {
@@ -1384,7 +1390,7 @@
         "gradientBackground": "linear-gradient(92deg, #00121e 0%, #052b44",
         "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience!",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "mobile",
             "sports",
@@ -1397,10 +1403,10 @@
           "telegram": "https://t.me/Game5TARS",
           "discord": "https://discord.com/invite/5tarsgame",
           "dappradar": "https://dappradar.com/dapp/5tars/"
-      },
-      "tags": [
-        "pretge"
-      ],
+        },
+        "tags": [
+          "pretge"
+        ],
         "contracts": [
           "0x23C1F1a60F18e304fC81eDB2cb98C04a59aef466",
           "0xda7D9012A36d85F61Ca6e0d85998FBEf0BA640B6",
@@ -1469,6 +1475,7 @@
         "description": "In the heart-pounding world of Haven's Compass, players step into the boots of an operative of their choice in a dystopian future, where they are tasked with unraveling a conspiracy that threatens to plunge the world into chaos. Set against a backdrop of stunningly rendered post-apocalyptic landscapes, Haven's Compass seamlessly blends intense gunplay with a gripping narrative, immersing players in a cinematic experience like never before. As players choose their operative, each with a unique background and skill set, they navigate through intricately designed levels, battling relentless waves of enemies and utilizing an arsenal of futuristic weapons, each with its own unique abilities and upgrades. The game's dynamic AI adapts to players' strategies, ensuring a challenging and unpredictable combat experience that rewards both precision and tactical thinking.",
         "categories": {
           "gaming": [
+            "epic-games-store",
             "pc",
             "shooter"
           ]
@@ -1477,10 +1484,14 @@
           "0x21055aD11b0D3F9577eD2fd9fD432e2a5E06a8Ee",
           "0x9D13709c1b41DEDD9b8690c66d4590D6a52b3062",
           "0x6D1a6B840714420D425c2F2658CEF390dbD809A7",
-          "0x0384eB9dF2A10a0075011E57112c8542C39689d1 0x6D7E80e3B76095a8c1a9903f77f4faacc241CE6e",
-          "0xc59c5D5220Eb9217cD4cce63e6E380F40f3a02a4 0xd1820D02B55Dc7936286F5004361d70Ae90B1FcB ",
-          "0x2e1dB04EF8cdFa4d0008F611755A3B726efF49Dd 0xFfFc8124B1244EaE0eB574A232e91Ce1572049e0",
-          "0xF689625822704DBE865FBB0591Ea1aFA3112B19c 0x9f5446692990948CfE3b30E81ceBe2Fa0A46b49e"
+          "0x0384eB9dF2A10a0075011E57112c8542C39689d1",
+          "0xc59c5D5220Eb9217cD4cce63e6E380F40f3a02a4",
+          "0x2e1dB04EF8cdFa4d0008F611755A3B726efF49Dd",
+          "0xF689625822704DBE865FBB0591Ea1aFA3112B19c",
+          "0x6D7E80e3B76095a8c1a9903f77f4faacc241CE6e",
+          "0xd1820D02B55Dc7936286F5004361d70Ae90B1FcB",
+          "0xFfFc8124B1244EaE0eB574A232e91Ce1572049e0",
+          "0x9f5446692990948CfE3b30E81ceBe2Fa0A46b49e"
         ],
         "social": {
           "website": "https://www.havenscompass.com/",
@@ -1488,7 +1499,8 @@
           "telegram": "https://t.me/havenscompass",
           "discord": "https://discord.com/invite/havenscompass",
           "dappradar": "https://dappradar.com/dapp/haven-s-compass",
-          "swell": "https://swell.skale.space/"
+          "swell": "https://swell.skale.space/",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/havens-compass-c31bb4"
         }
       },
       "chainguardians": {
@@ -1636,24 +1648,26 @@
         "gradientBackground": "linear-gradient(270deg, #090b2a, #15184a)",
         "description": "The World of Dypians (WoD) is a massive multiplayer online role-playing game that is  set in a vast digital environment. Its target audience is individuals who enjoy playing  online games and exploring immersive digital environments. The goals of the game  are to provide players with a rich and engaging experience that allows them to  interact with others, complete quests, and engage in battles. WoD's unique  combination of fantasy and blockchain technology creates an exciting and dynamic  environment for players to explore and experience. The ultimate goal of the game is  to create a virtual world that is alive with activity, where players can form  communities, create their own content, and engage in meaningful interactions with  one another.    World of Dypians is built to support multiple blockchains, making it accessible and  interoperable with a wider audience. We aim to have a sustainable ecosystem where  users can contribute to the growth and development of the world. The multi-chain  integration and the wide range of offerings, including next-gen integrations like other  chains, tokens, NFTs, and a marketplace, make World of Dypians a cutting-edge  solution in the DeFi and metaverse space.",
         "categories": {
-          "pretge":null,
           "gaming": [
+            "epic-games-store",
             "pc",
             "sandbox",
             "action-adventure",
             "rpg"
-          ]
-      },
-      "tags": [
-        "pretge"
-      ],
+          ],
+          "pretge": null
+        },
+        "tags": [
+          "pretge"
+        ],
         "social": {
           "website": "https://www.worldofdypians.com/",
           "x": "https://x.com/worldofdypians",
           "telegram": "https://t.me/worldofdypians",
           "discord": "https://discord.gg/worldofdypians",
           "github": "https://github.com/worldofdypians",
-          "dappradar": "https://dappradar.com/dapp/world-of-dypians"
+          "dappradar": "https://dappradar.com/dapp/world-of-dypians",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/world-of-dypians-2e0694"
         },
         "contracts": [
           "0x6041dC62b74e28596b4917693f6B0F5baA61A13F",
@@ -1916,6 +1930,7 @@
         "gradientBackground": "linear-gradient(150deg, #151619, #151619)",
         "categories": {
           "gaming": [
+            "epic-games-store",
             "pc",
             "action-adventure",
             "shooter"
@@ -1936,7 +1951,8 @@
           "x": "https://x.com/StrayShotGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "telegram": "https://t.me/StrayShot_Chat",
           "discord": "https://discord.com/invite/Strayshot",
-          "dappradar": "https://dappradar.com/dapp/strayshot"
+          "dappradar": "https://dappradar.com/dapp/strayshot",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/strayshot-2ad9a8"
         }
       }
     }
@@ -1949,6 +1965,25 @@
       "tools": null
     },
     "apps": {
+      "swell": {
+        "alias": "🌊 SKALE Swell",
+        "gradientBackground": "linear-gradient(150deg, #131313, #1d1d1d)",
+        "categories": {
+          "gaming": null,
+          "metaverse": null,
+          "defi": null,
+          "digital-collectibles": null,
+          "tools": null,
+          "web3": null
+        },
+        "description": "Ride the wave and win with SKALE Swell! On Swell you can: Explore live & pre-TGE dApps, Climb the Leaderboard via Quests, Win Exclusive Prizes.",
+        "social": {
+          "website": "https://swell.skale.space/",
+          "x": "https://twitter.com/skalenetwork",
+          "telegram": "https://t.me/skaleofficial",
+          "discord": "https://discord.com/invite/gM5XBy6"
+        }
+      },
       "ledger": {
         "alias": "Ledger",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
@@ -2011,10 +2046,10 @@
         "gradientBackground": "linear-gradient(150deg, #0A153D, #0A388A)",
         "categories": {
           "partner": null,
-          "security":null
+          "security": null
         },
         "description": "A global leader in blockchain security, Quantstamp has secured billions in digital assets and is trusted by web3's most notable projects.",
-        "added":1725279614,
+        "added": 1725279614,
         "social": {
           "website": "https://quantstamp.com/",
           "x": "https://x.com/Quantstamp",
