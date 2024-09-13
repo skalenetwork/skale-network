@@ -1698,8 +1698,8 @@
           "0xe94E779aBd08dd0c67d1c2530685565F19bc909a"
         ]
       },
-      "zeus": {
-        "alias": "Zeus",
+      "ether-strike": {
+        "alias": "Ether Strike",
         "gradientBackground": "linear-gradient(rgb(30 30 30), rgb(0 0 0))",
         "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
         "categories": {
@@ -1966,7 +1966,7 @@
     },
     "apps": {
       "swell": {
-        "alias": "SKALE Swell",
+        "alias": "🌊 SKALE Swell",
         "gradientBackground": "linear-gradient(150deg, #131313, #1d1d1d)",
         "categories": {
           "gaming": null,
@@ -2010,6 +2010,18 @@
           "website": "https://www.cvpad.io/",
           "x": "https://x.com/CvPad_xyz",
           "telegram": "https://t.me/CVPAD_NEWS"
+        }
+      },
+      "portal": {
+        "alias": "Portal",
+        "gradientBackground": "linear-gradient(150deg, rgb(17 2 32), #110220)",
+        "categories": {
+          "partner": null
+        },
+        "description": "The next-gen gaming platform and publisher. Redefining the way games and gamers connect. Game on!",
+        "social": {
+          "website": "https://www.portalgaming.com/",
+          "x": "https://x.com/PortalCoin"
         }
       },
       "blockscout": {
