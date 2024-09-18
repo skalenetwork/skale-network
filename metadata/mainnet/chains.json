@@ -233,7 +233,13 @@
           "x": "https://x.com/brawlchain",
           "telegram": "https://t.me/blockbrawlers/",
           "discord": "https://discord.com/invite/KmWDjKRnXJ"
-        }
+        },
+        "contracts": [
+          "0xd2963f7e218609b91373cdda853b20746ba24d61",
+          "0x3c969cfb4a7d11a270d0d8069ab7260aeb91c11e",
+          "0x3a5317d58090e67d74cec50ac8b6c18cb426ffe4",
+          "0x2b81ad7120491839f0d55445a8560107d85ce801"
+        ]
       }
     }
   },
