@@ -57,6 +57,19 @@
           "0x529c2945c257CC737A15733d43a1fD1cBBe79C67"
         ]
       },
+      "coinchance": {
+        "alias": "CoinChance",
+        "gradientBackground": "linear-gradient(45deg, #0A0A0A, #0A0A0A)",
+        "description": "Coinchance is the #1 aggregation platform SocialFi, BotyFi, and GameFi platform. ",
+        "categories": {
+          "defi": null
+        },
+        "social": {
+          "website": "https://coinchance.io/",
+          "telegram": "https://t.co/4JiXrAx6sO",
+          "x": "https://x.com/CoinChanceDAO"
+        }
+      },
       "transak": {
         "alias": "Transak",
         "gradientBackground": "linear-gradient(45deg, #FFFFFF, #FFFFFF)",
@@ -263,20 +276,6 @@
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
-      "reneverse": {
-        "alias": "Reneverse",
-        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
-        "description": "ReneVerse offers dynamic image and video ad content across the surface of any in-game asset. For the first time ever, brands can easily add their own in-game ad objects known as Branded Assets.",
-        "categories": {
-          "gaming": null
-        },
-        "social": {
-          "website": "https://reneverse.io/",
-          "x": "https://x.com/ReneVerse_io",
-          "telegram": "https://t.me/reneverse",
-          "github": "https://github.com/topics/reneverse"
-        }
-      },
       "mintpass": {
         "alias": "MintPass",
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(255 255 255))",
@@ -492,7 +491,7 @@
         "description": "Building a Personalized AI Ecosystem powered by Web3.",
         "categories": {
           "ai": null,
-          "gaming": null
+          "tools": null
         },
         "social": {
           "website": "https://www.skillfulai.io/",
@@ -703,6 +702,108 @@
           "discord": "https://t.co/RhX8BOiXcn"
         }
       },
+      "egoverse": {
+        "alias": "EgoVerse",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "The EgoVerse  is a forward-thinking gaming and tech company with a bold mission: to  bridge the gap between Web2 and Web3 gaming.",
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://theegoverse.com/",
+          "x": "https://x.com/TheEgoVerse",
+          "discord": "https://discord.com/invite/YNGqUJtwSw"
+        }
+      },
+      "moxy": {
+        "alias": "Moxy",
+        "gradientBackground": "linear-gradient(180deg, #46227A, #46227A)",
+        "description": "Esports for All - Real Competition, Real Rewards, Real Games.",
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://moxy.io/",
+          "x": "https://x.com/moxyio",
+          "telegram": "https://t.me/moxyofficial",
+          "discord": "https://discord.com/invite/moxyio"
+        }
+      },
+      "manetho": {
+        "alias": "Manetho",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "Manetho brings you blockchain and NFT technology with tens of thousands of audio content.",
+        "categories": {
+          "entertainment":null 
+        },
+        "social": {
+          "website": "https://manetho.com/",
+          "x": "https://x.com/manetho_app"
+        }
+      },
+      "chilled-worlds": {
+        "alias": "Chilled Worlds",
+        "gradientBackground": "linear-gradient(180deg, #5D19E6, #5D19E6)",
+        "description": "Chilled Worlds is a blockchain-based next-generation MMORPG, offering players an innovative, dynamic and living universe.",
+        "categories": {
+          "gaming" : [
+            "mmorpg"
+          ]
+        },
+        "social": {
+          "website": "https://chilledworlds.zone/",
+          "x": "https://x.com/chilledworlds",
+          "discord": "https://discord.com/invite/chilledworlds"
+        }
+      },
+      "turf": {
+        "alias": "Turf",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "Permissionless eSports Engine Revolutionizing Gaming Economy with Prediction Markets.",
+        "categories": {
+          "gaming" : null
+        },
+        "social": {
+          "website": "https://0xturf.gg/",
+          "x": "https://x.com/turfGG_",
+          "discord": "https://discord.com/invite/nEfKP6cH6t"
+        }
+      },
+      "reign-alter-world-hunter": {
+        "alias": "Reign Alter World : Hunter",
+        "gradientBackground": "linear-gradient(180deg, #6E2A34, #321D21)",
+        "description": "Reign Alter World: Hunter, Next generation of Survival MMORPG where you can hunt, gather, grow, govern, and earn.",
+        "added":1727360850,
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://reignalter.world/"
+        }
+      },
+      "smartmuv": {
+        "alias": "SmartMuv",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "SmartMuv is an automated tool for data extraction and storage layout analysis, that enables migration of complex gaming smart contracts across blockchains.",
+        "categories": {
+          "infrastructure": null,
+          "data-information":null,
+          "tools":null,
+          "explorer": null,
+          "analytics": null,
+          "pretge": null
+        },
+        "social": {
+          "website": "https://smartmuv.app/",
+          "x": "https://x.com/SmartMuv",
+          "discord": "https://discord.com/invite/XbHnbmDAnf",
+          "github": "https://github.com/WaizKhan7/SmartMuv",
+          "dappradar": "https://dappradar.com/dapp/smartmuv"
+        },
+        "tags": [
+          "pretge"
+        ]
+      },
       "hurley": {
         "alias": "Hurley",
         "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
@@ -789,7 +890,8 @@
         "description": "All the infra you need to build onchain: embedded wallets, minting, payments, and more.",
         "added": 1725279614,
         "categories": {
-          "wallet": null
+          "wallet": null,
+          "partner":null
         },
         "social": {
           "website": "https://www.crossmint.com/",
@@ -1994,8 +2096,7 @@
         "alias": "Ledger",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
-          "wallet": null,
-          "partner": null
+          "wallet": null
         },
         "description": "Ledger Live is your one-stop shop to buy crypto, grow your assets, and manage NFTs.",
         "social": {
@@ -2030,6 +2131,44 @@
           "x": "https://x.com/PortalCoin"
         }
       },
+      "chorus-one": {
+        "alias": "Chorus One",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "We provide staking solutions on 60+ decentralized networks.",
+        "social": {
+          "website": "https://chorus.one/",
+          "x": "https://x.com/chorusone",
+          "discord": "https://discord.com/invite/C3J8kwAtDF",
+          "github": "https://github.com/ChorusOne"
+        }
+      },
+      "figment": {
+        "alias": "Figment",
+        "gradientBackground": "linear-gradient(150deg, #FFF850, #FFF850)",
+        "categories": {
+          "validator": null
+        },
+        "description": "With Figment, you're not just staking, you're investing in the future and growth of blockchain ecosystems while securing your digital assets.",
+        "social": {
+          "website": "https://figment.io/",
+          "x": "https://x.com/Figment_io"
+        }
+      },
+      "blockdaemon": {
+        "alias": "BlockDaemon",
+        "gradientBackground": "linear-gradient(150deg, #FFF850, #FFF850)",
+        "categories": {
+          "validator": null
+        },
+        "description": "The complete institutional solution for seamless, secure, and efficient Web3 services.",
+        "social": {
+          "website": "https://www.blockdaemon.com/",
+          "x": "https://x.com/BlockdaemonHQ"
+        }
+      },
       "blockscout": {
         "alias": "Blockscout",
         "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), rgb(218 212 255))",
@@ -2047,21 +2186,6 @@
           "github": "https://github.com/blockscout"
         }
       },
-      "quantstamp": {
-        "alias": "QuantStamp",
-        "gradientBackground": "linear-gradient(150deg, #0A153D, #0A388A)",
-        "categories": {
-          "partner": null,
-          "security": null
-        },
-        "description": "A global leader in blockchain security, Quantstamp has secured billions in digital assets and is trusted by web3's most notable projects.",
-        "added": 1725279614,
-        "social": {
-          "website": "https://quantstamp.com/",
-          "x": "https://x.com/Quantstamp",
-          "github": "https://github.com/quantstamp"
-        }
-      },
       "braintrust": {
         "alias": "Braintrust",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
@@ -2073,20 +2197,6 @@
           "website": "https://www.usebraintrust.com/",
           "x": "https://x.com/usebraintrust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "github": "https://github.com/braintrustdata"
-        }
-      },
-      "fortmatic": {
-        "alias": "Fortmatic",
-        "gradientBackground": "white",
-        "categories": {
-          "partner": null,
-          "wallet": null
-        },
-        "description": "Fortmatic lets users access your Ethereum app from anywhere.",
-        "social": {
-          "website": "https://fortmatic.com/",
-          "x": "https://x.com/fortmatic?lang=en",
-          "github": "https://github.com/fortmatic"
         }
       },
       "halliday": {
@@ -2150,8 +2260,7 @@
         "alias": "MetaMask",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
-          "wallet": null,
-          "partner": null
+          "wallet": null
         },
         "description": "A crypto wallet & gateway to blockchain apps.",
         "social": {
@@ -2179,8 +2288,7 @@
         "alias": "Portis",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
-          "wallet": null,
-          "partner": null
+          "wallet": null
         },
         "description": "The Non-Custodial Blockchain Wallet that Makes Apps Simple for Everyone.",
         "social": {
@@ -2190,26 +2298,12 @@
           "github": "https://github.com/portis-project"
         }
       },
-      "sphereone": {
-        "alias": "SphereOne",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
-        "categories": {
-          "ai": null,
-          "partner": null
-        },
-        "description": "Expand chains, integrate protocols, solve your use case while generating rewards for your agent based on use.",
-        "social": {
-          "website": "https://sphereone.xyz/",
-          "x": "https://x.com/sphereone_",
-          "discord": "https://discord.com/invite/zM9xpSYEms"
-        }
-      },
       "staking-rewards": {
         "alias": "Staking Rewards",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
         "categories": {
-          "other": null,
-          "partner": null
+          "validator": null,
+          "tools": null
         },
         "description": "Staking Rewards is the leading data provider for staking and crypto-growth tools.",
         "social": {
@@ -2225,8 +2319,7 @@
         "gradientBackground": "linear-gradient(150deg, #0E0B1E, #0E0B1E)",
         "categories": {
           "data-information": null,
-          "tools": null,
-          "partner": null
+          "tools": null
         },
         "description": "The Graph is an indexing protocol for querying networks like Ethereum and IPFS.",
         "social": {
@@ -2277,20 +2370,6 @@
           "website": "https://consensys.net/diligence/",
           "x": "https://x.com/ConsensysAudits?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "github": "https://github.com/ConsenSysDiligence"
-        }
-      },
-      "cookbook": {
-        "alias": "Cookbook",
-        "gradientBackground": "linear-gradient(150deg, #31333A, #202023)",
-        "categories": {
-          "tools": null,
-          "partner": null
-        },
-        "description": "The easiest way for web3 developers to find documented smart contracts, solidity libraries, and discover protocols.",
-        "social": {
-          "website": "https://www.cookbook.dev/",
-          "x": "https://x.com/cookbook_dev?lang=en",
-          "discord": "https://t.co/ArwSyKJTLB"
         }
       },
       "consensys": {
