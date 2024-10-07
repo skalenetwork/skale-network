@@ -2119,6 +2119,29 @@
           "telegram": "https://t.me/CVPAD_NEWS"
         }
       },
+      "reservoir": {
+        "alias": "Reservoir",
+        "gradientBackground": "linear-gradient(150deg, #060606, #060606)",
+        "categories": {
+          "digital-collectibles": null
+        },
+        "description": "Reservoir is a powerful developer platform tailored for creating NFT applications and marketplaces.",
+        "social": {
+          "website": "https://reservoir.tools/",
+          "x": "https://x.com/reservoir0x"
+        }
+      },
+      "superbooking-ai": {
+        "alias": "SuperBooking AI",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "ai": null
+        },
+        "description": "SuperBooking AI is a booking platform that also contains a decentralized AI-based management infrastructure and analytics platform.",
+        "social": {
+          "x": "https://x.com/SuperbookingAI"
+        }
+      },
       "portal": {
         "alias": "Portal",
         "gradientBackground": "linear-gradient(150deg, rgb(17 2 32), #110220)",
