@@ -61,6 +61,7 @@
         "alias": "CoinChance",
         "gradientBackground": "linear-gradient(45deg, #0A0A0A, #0A0A0A)",
         "description": "Coinchance is the #1 aggregation platform SocialFi, BotyFi, and GameFi platform. ",
+        "added": 1728303236,
         "categories": {
           "defi": null
         },
@@ -706,6 +707,7 @@
         "alias": "EgoVerse",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "The EgoVerse  is a forward-thinking gaming and tech company with a bold mission: to  bridge the gap between Web2 and Web3 gaming.",
+        "added": 1728303236,
         "categories": {
           "gaming": null
         },
@@ -719,6 +721,7 @@
         "alias": "Moxy",
         "gradientBackground": "linear-gradient(180deg, #46227A, #46227A)",
         "description": "Esports for All - Real Competition, Real Rewards, Real Games.",
+        "added": 1728303236,
         "categories": {
           "gaming": null
         },
@@ -733,6 +736,7 @@
         "alias": "Manetho",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Manetho brings you blockchain and NFT technology with tens of thousands of audio content.",
+        "added": 1728303236,
         "categories": {
           "entertainment":null 
         },
@@ -745,6 +749,7 @@
         "alias": "Chilled Worlds",
         "gradientBackground": "linear-gradient(180deg, #5D19E6, #5D19E6)",
         "description": "Chilled Worlds is a blockchain-based next-generation MMORPG, offering players an innovative, dynamic and living universe.",
+        "added": 1728303236,
         "categories": {
           "gaming" : [
             "mmorpg"
@@ -760,6 +765,7 @@
         "alias": "Turf",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Permissionless eSports Engine Revolutionizing Gaming Economy with Prediction Markets.",
+        "added": 1728303236,
         "categories": {
           "gaming" : null
         },
@@ -785,6 +791,7 @@
         "alias": "SmartMuv",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "SmartMuv is an automated tool for data extraction and storage layout analysis, that enables migration of complex gaming smart contracts across blockchains.",
+        "added": 1728303236,
         "categories": {
           "infrastructure": null,
           "data-information":null,
@@ -2126,6 +2133,7 @@
           "digital-collectibles": null
         },
         "description": "Reservoir is a powerful developer platform tailored for creating NFT applications and marketplaces.",
+        "added": 1728303236,
         "social": {
           "website": "https://reservoir.tools/",
           "x": "https://x.com/reservoir0x"
@@ -2138,6 +2146,7 @@
           "ai": null
         },
         "description": "SuperBooking AI is a booking platform that also contains a decentralized AI-based management infrastructure and analytics platform.",
+        "added": 1728303236,
         "social": {
           "x": "https://x.com/SuperbookingAI"
         }
@@ -2161,6 +2170,7 @@
           "validator": null
         },
         "description": "We provide staking solutions on 60+ decentralized networks.",
+        "added": 1728303236,
         "social": {
           "website": "https://chorus.one/",
           "x": "https://x.com/chorusone",
@@ -2175,6 +2185,7 @@
           "validator": null
         },
         "description": "With Figment, you're not just staking, you're investing in the future and growth of blockchain ecosystems while securing your digital assets.",
+        "added": 1728303236,
         "social": {
           "website": "https://figment.io/",
           "x": "https://x.com/Figment_io"
@@ -2187,6 +2198,7 @@
           "validator": null
         },
         "description": "The complete institutional solution for seamless, secure, and efficient Web3 services.",
+        "added": 1728303236,
         "social": {
           "website": "https://www.blockdaemon.com/",
           "x": "https://x.com/BlockdaemonHQ"
