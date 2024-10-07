@@ -2193,7 +2193,7 @@
       },
       "blockdaemon": {
         "alias": "BlockDaemon",
-        "gradientBackground": "linear-gradient(150deg, #FFF850, #FFF850)",
+        "gradientBackground": "linear-gradient(150deg, #23232A, #23232A)",
         "categories": {
           "validator": null
         },
