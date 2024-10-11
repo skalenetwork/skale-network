@@ -1813,27 +1813,6 @@
           "0xe94E779aBd08dd0c67d1c2530685565F19bc909a"
         ]
       },
-      "ether-strike": {
-        "alias": "Ether Strike",
-        "gradientBackground": "linear-gradient(rgb(30 30 30), rgb(0 0 0))",
-        "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
-        "categories": {
-          "gaming": [
-            "pc",
-            "shooter"
-          ]
-        },
-        "social": {
-          "website": "https://beta.devzeus.io/games",
-          "x": "https://x.com/DevZeusio",
-          "telegram": "https://t.me/zeusblock",
-          "discord": "https://t.co/h8zbAbEncR",
-          "dappradar": "https://dappradar.com/dapp/etherstrike-pentagon"
-        },
-        "contracts": [
-          "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
-        ]
-      },
       "earnscape": {
         "alias": "EarnScape",
         "gradientBackground": "linear-gradient(#0a0b0a, #072013)",
