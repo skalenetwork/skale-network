@@ -177,11 +177,9 @@
             "action-adventure",
             "pc"
           ],
-          "digital-collectibles": null
+          "digital-collectibles": null,
+          "pretge": null
         },
-        "tags": [
-          "pretge"
-        ],
         "social": {
           "website": "https://puppy.com/",
           "discord": "https://discord.com/",
@@ -223,6 +221,10 @@
         "categories": {
           "digital-collectibles": null
         },
+        "pretge": {
+        "from": 1730229764,
+         "to": 31730230244
+    },
         "social": {
           "website": "https://otter-heaven.com/",
           "x": "https://x.com/SkaleDevelopers",
