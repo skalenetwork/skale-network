@@ -219,11 +219,12 @@
         "gradientBackground": "linear-gradient(270deg, #e356c0, #d453b3)",
         "description": "Otter Heaven is an enchanting simulation game where players create and manage a thriving otter sanctuary. ",
         "categories": {
-          "digital-collectibles": null
+          "digital-collectibles": null,
+          "pretge": null
         },
         "pretge": {
         "from": 1730229764,
-         "to": 31730230244
+         "to": 1730230844
     },
         "social": {
           "website": "https://otter-heaven.com/",
