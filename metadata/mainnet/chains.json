@@ -57,20 +57,6 @@
           "0x529c2945c257CC737A15733d43a1fD1cBBe79C67"
         ]
       },
-      "coinchance": {
-        "alias": "CoinChance",
-        "gradientBackground": "linear-gradient(45deg, #0A0A0A, #0A0A0A)",
-        "description": "Coinchance is the #1 aggregation platform SocialFi, BotyFi, and GameFi platform. ",
-        "added": 1728303236,
-        "categories": {
-          "defi": null
-        },
-        "social": {
-          "website": "https://coinchance.io/",
-          "telegram": "https://t.co/4JiXrAx6sO",
-          "x": "https://x.com/CoinChanceDAO"
-        }
-      },
       "transak": {
         "alias": "Transak",
         "gradientBackground": "linear-gradient(45deg, #FFFFFF, #FFFFFF)",
@@ -527,35 +513,6 @@
         "social": {
           "website": "https://www.metakraft.ai/",
           "x": "https://x.com/themetakraft"
-        }
-      },
-      "chirperai": {
-        "alias": "Chirper.AI",
-        "gradientBackground": "linear-gradient(270deg, #1A1C20, #1A1C20)",
-        "description": "We're simulating the universe for the world's largest collection of autonomous AI agents.",
-        "categories": {
-          "ai": null
-        },
-        "added": 1725447477,
-        "social": {
-          "website": "https://chirper.ai/",
-          "x": "https://x.com/chirperai",
-          "discord": "https://discord.com/invite/QVFejuDNmH"
-        }
-      },
-      "music-moon": {
-        "alias": "Music Moon",
-        "gradientBackground": "linear-gradient(270deg, #2B2C2B, #2B2C2B)",
-        "description": "Empowering Artists: AI-powered music creation & Web3 platform for NFT royalties and DAO fan connection.",
-        "categories": {
-          "ai": null,
-          "entertainment": null
-        },
-        "added": 1723984272,
-        "social": {
-          "website": "https://www.musicmoon.io/",
-          "x": "https://x.com/MusicMoon111",
-          "discord": "https://discord.com/invite/ExH4YadUV9"
         }
       },
       "chaingpt": {
@@ -1019,22 +976,6 @@
           "x": "https://x.com/voxelverseinfo",
           "discord": "https://discord.com/invite/JBFYtybhR4",
           "dappradar": "https://dappradar.com/dapp/voxelverse"
-        }
-      },
-      "vital-veda": {
-        "alias": "Vital Veda",
-        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
-        "description": "WEB3 Fitness App merges with AR & AI Technologies Creating a Comprehensive Social Workout Training platform!",
-        "categories": {
-          "gaming": [
-            "mobile"
-          ]
-        },
-        "social": {
-          "website": "https://vitalveda.fit/",
-          "x": "https://x.com/veda_vital",
-          "telegram": "https://t.me/vitalveda",
-          "github": "https://github.com/VitalVeda"
         }
       },
       "starwolvez": {
@@ -1683,32 +1624,6 @@
           "0xc6b4C3364a957d808F09C439ccd28C8f36934a0E"
         ]
       },
-      "mystrios": {
-        "alias": "Mystrios",
-        "gradientBackground": "linear-gradient(#1E2341, #1E2341)",
-        "description": "Immerse yourself in the world of Mystrios for an unprecedented Play-to-Earn experience, now live on SKALE. Unparalleled gaming begins here.",
-        "categories": {
-          "gaming": [
-            "action-adventure",
-            "casual"
-          ]
-        },
-        "social": {
-          "website": "https://mystrios.com/",
-          "x": "https://x.com/PlanetMystrios",
-          "telegram": "https://t.me/PlanetMystrios",
-          "discord": "https://t.co/1bmUugq0yM",
-          "github": "https://github.com/PlanetMystrios",
-          "dappradar": "https://dappradar.com/dapp/mystrios"
-        },
-        "contracts": [
-          "0xd640d4680935Dc972dCbFf067bc1BDAcDaDE6ef7",
-          "0xBf9485C782092dFB614c82ffa8cE716FdF3ea1F1",
-          "0x8D509005585aF4333942fAA94874E44c6bBbAFcd",
-          "0x81ec4C8B25dc70D43a1c251A9887e5AFD1041859",
-          "0x923468712f33e571c5B9a68684613668b00f2CA5"
-        ]
-      },
       "spells-of-genesis": {
         "alias": "Spells of Genesis",
         "gradientBackground": "linear-gradient(#49280f, #190b04)",
@@ -2227,20 +2142,6 @@
           "discord": "https://discord.gg/t5XSFC2SxH"
         }
       },
-      "labrys": {
-        "alias": "Labrys",
-        "gradientBackground": "linear-gradient(150deg, #0c0b1b, #292251)",
-        "categories": {
-          "tools": null,
-          "digital-collectibles": null
-        },
-        "description": "Labrys helps some of the world’s largest blockchain organisations conceptualise, plan, design, develop and launch blockchain applications.",
-        "social": {
-          "website": "https://labrys.io/",
-          "x": "https://x.com/labrys_io",
-          "github": "https://github.com/Labrys-Group"
-        }
-      },
       "lunacrush": {
         "alias": "Lunacrush",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
@@ -2298,20 +2199,6 @@
           "github": "https://github.com/MyEtherWallet"
         }
       },
-      "portis": {
-        "alias": "Portis",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
-        "categories": {
-          "wallet": null
-        },
-        "description": "The Non-Custodial Blockchain Wallet that Makes Apps Simple for Everyone.",
-        "social": {
-          "website": "https://www.portis.io/",
-          "x": "https://x.com/portis_io",
-          "telegram": "https://t.me/joinchat/FSICkFgEM48CEhz0NP3uPg",
-          "github": "https://github.com/portis-project"
-        }
-      },
       "staking-rewards": {
         "alias": "Staking Rewards",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
@@ -2326,22 +2213,6 @@
           "telegram": "https://t.me/stakingrewards",
           "discord": "https://discord.com/invite/44nxDZ2SEe",
           "github": "https://github.com/stakingrewards"
-        }
-      },
-      "the-graph": {
-        "alias": "The Graph",
-        "gradientBackground": "linear-gradient(150deg, #0E0B1E, #0E0B1E)",
-        "categories": {
-          "data-information": null,
-          "tools": null
-        },
-        "description": "The Graph is an indexing protocol for querying networks like Ethereum and IPFS.",
-        "social": {
-          "website": "https://thegraph.com/en/",
-          "x": "https://x.com/graphprotocol",
-          "telegram": "https://t.me/graphprotocol",
-          "discord": "https://discord.com/invite/graphprotocol",
-          "github": "https://github.com/graphprotocols"
         }
       },
       "unity": {
