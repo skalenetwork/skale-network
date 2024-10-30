@@ -37,6 +37,34 @@
           "github": "https://github.com/CurioTeam"
         }
       },
+      "hello-pixel": {
+        "alias": "Hello Pixel",
+        "gradientBackground": "linear-gradient(45deg, #001A31, #021A2D)",
+        "description": "Hello Pixel is first GameFi ecosystem in Telegram that makes multichain operations friendly and easy for non Web3 users.",
+        "added": 1730305213,
+        "categories": {
+          "wallet": null
+        },
+        "social": {
+          "website": "https://www.hellopixel.network/",
+          "x": "https://x.com/hellopixelverse",
+          "telegram": "https://t.me/hellopixelverse"
+        },
+        "contracts": [
+          "0x049eEE4028Fb4fF8591Ea921F15843Cd2d9e9f94",
+          "0xcB48dF8e2FE472D8Be277348683bBD401Cab6201",
+          "0xD33fc9AC0dF1B1A6177fed43Ee7aA910C6D9c95E",
+          "0x824Ca69383843CaC1cF07c3A942054eB51c71737",
+          "0xD84e2811310C2B874BCe0CDB56697ee41d2E7eaA",
+          "0x7Fc2C8BC41418960e1A70eFEADBe4Ae93af64820",
+          "0x21e2967618EDb041A5a492292CFFEBCb5c3eB828",
+          "0x77103e45D2BDcbFb9E83969AcfCdaDa31075b966",
+          "0xDC056ba51981709E054F58310aE12B5164d200a4",
+          "0x9b9c4f527736fE53156199e36C6F4d7A8a195842",
+          "0xF77105bAd623Ab3b6B31dc4362433F9fc4753640",
+          "0x73bC332384Bc90F542Afe3FE5cc5dFcB97827AAE"
+        ]
+      },
       "mesonfi": {
         "alias": "Meson.Fi",
         "gradientBackground": "linear-gradient(45deg, #EFF3EB, #EFF4EA)",
@@ -659,6 +687,24 @@
           "x": "https://x.com/landofchasers",
           "discord": "https://t.co/RhX8BOiXcn"
         }
+      },
+      "world3": {
+        "alias": "World3",
+        "gradientBackground": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
+        "description": "Play, create, and connect in WORLD3, the first BTC Autonomous World.",
+        "added": 1730305213,
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://world3.ai/",
+          "x": "https://x.com/WORLD3_AI"
+        },
+        "contracts": [
+          "0xCbDa99b9C5e8dc5866F3CEEc809697CB7a724ed1",
+          "0x69C1c05aEc7DB1dEE73564D91721A89Da2df55cB",
+          "0x624524fba1D0CA5D6f17c48fE01967849f1ff71A"
+        ]
       },
       "egoverse": {
         "alias": "EgoVerse",
