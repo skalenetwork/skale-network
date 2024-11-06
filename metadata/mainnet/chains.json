@@ -331,7 +331,10 @@
         "social": {
           "website": "https://skl.name/",
           "x": "https://x.com/skalename"
-        }
+        },
+        "contracts": [
+          "0xDa19ef7c52a35f0731253658560F852c3348D7AD"
+        ]
       },
       "keepsake": {
         "alias": "Keepsake",
@@ -391,7 +394,7 @@
           "0x46939cf538cEEaE2D6E1D4F08629828aAb7349FE"
         ],
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "casual",
             "strategy",
@@ -488,7 +491,7 @@
         "gradientBackground": "linear-gradient(rgb(30, 86, 170), rgb(13 81 100))",
         "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "social-network": null,
           "data-information": null
         },
@@ -757,7 +760,7 @@
         "description": "Manetho brings you blockchain and NFT technology with tens of thousands of audio content.",
         "added": 1728303236,
         "categories": {
-          "entertainment":null 
+          "entertainment": null
         },
         "social": {
           "website": "https://manetho.com/",
@@ -770,7 +773,7 @@
         "description": "Chilled Worlds is a blockchain-based next-generation MMORPG, offering players an innovative, dynamic and living universe.",
         "added": 1728303236,
         "categories": {
-          "gaming" : [
+          "gaming": [
             "mmorpg"
           ]
         },
@@ -786,7 +789,7 @@
         "description": "Permissionless eSports Engine Revolutionizing Gaming Economy with Prediction Markets.",
         "added": 1728303236,
         "categories": {
-          "gaming" : null
+          "gaming": null
         },
         "social": {
           "website": "https://0xturf.gg/",
@@ -798,7 +801,7 @@
         "alias": "Reign Alter World : Hunter",
         "gradientBackground": "linear-gradient(180deg, #6E2A34, #321D21)",
         "description": "Reign Alter World: Hunter, Next generation of Survival MMORPG where you can hunt, gather, grow, govern, and earn.",
-        "added":1727360850,
+        "added": 1727360850,
         "categories": {
           "gaming": null
         },
@@ -813,8 +816,8 @@
         "added": 1728303236,
         "categories": {
           "infrastructure": null,
-          "data-information":null,
-          "tools":null,
+          "data-information": null,
+          "tools": null,
           "explorer": null,
           "analytics": null,
           "pretge": null
@@ -918,7 +921,7 @@
         "added": 1725279614,
         "categories": {
           "wallet": null,
-          "partner":null
+          "partner": null
         },
         "social": {
           "website": "https://www.crossmint.com/",
@@ -992,7 +995,7 @@
         "gradientBackground": "linear-gradient(180deg, #191D22, #191D22)",
         "description": "A breathtaking adventure, an MMORPG that you will love and have fun, combination of oldschool and modern MMORPG!",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "mmorpg",
             "pc"
@@ -1031,7 +1034,7 @@
         "gradientBackground": "linear-gradient(180deg, #FFDD88, #59401A)",
         "description": "The VoxelVerse is a sandbox-style survival game that allows players to participate in quests, PVP, and freebuild scenarios while playing the role of a Prospector.",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "action-adventure",
             "sandbox"
@@ -1049,7 +1052,7 @@
         "gradientBackground": "linear-gradient(180deg, #0F0F16, #0F0F16)",
         "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others.",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "strategy",
             "pc"
@@ -1124,7 +1127,7 @@
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "Explore TCG World Metaverse, an immersive virtual world where you can socialize, play games, create content, and earn in game rewards.",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": null,
           "metaverse": null
         },
@@ -1839,7 +1842,7 @@
         "gradientBackground": "linear-gradient(#203e2f, #13261c)",
         "description": "Embark on an exhilarating journey with Xurono in Astro Assault as part of Space Rush Odyssey! Dive into the depths of space in this thrilling bullet hell adventure, where you'll seek the elusive Azul Fragment. Face off against waves of formidable foes in intense battles, armed with powerful weapons. Navigate treacherous obstacles and collect valuable loot to enhance your arsenal. But the challenges don't end there—immerse yourself in the rich lore, working alongside Winston and Artemis to unravel the ancient Smercin mystery. Delve into the secrets of the lost ritual to summon unknown powers",
         "categories": {
-         "pretge":null,
+          "pretge": null,
           "gaming": [
             "action-adventure"
           ]
@@ -1956,7 +1959,7 @@
         "gradientBackground": "linear-gradient(270deg, #000000, #152000)",
         "description": "PlayGround is the premier publisher of web3 games, with our own IP titles and a community building platform (PlayAcademy) that can onboard die-hard gamers from Tier 1 countries into any game requiring user acquisition.",
         "categories": {
-         "pretge":null,
+          "pretge": null,
           "gaming": null
         },
         "contracts": [
@@ -2013,7 +2016,7 @@
         "alias": "StrayShot",
         "gradientBackground": "linear-gradient(150deg, #151619, #151619)",
         "categories": {
-         "pretge":null,
+          "pretge": null,
           "gaming": [
             "epic-games-store",
             "pc",
@@ -2088,7 +2091,7 @@
         "gradientBackground": "linear-gradient(150deg, #151515, #151515)",
         "categories": {
           "partner": null,
-          "pretge":null
+          "pretge": null
         },
         "description": "Global Venture Accelerator firm for the Web 3.0 space.",
         "social": {
