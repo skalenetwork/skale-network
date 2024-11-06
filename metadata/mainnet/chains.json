@@ -320,6 +320,19 @@
           "discord": "https://t.co/UFkoU6ERvY"
         }
       },
+      "skale-naming-service": {
+        "alias": "SKALE Naming Service",
+        "gradientBackground": "linear-gradient(230deg, rgb(14, 14, 14), rgb(14, 14, 14))",
+        "description": "Collect your SKALE Identity and get a chance to participate in exclusive on-chain rewards and contests.",
+        "categories": {
+          "infrastructure": null
+        },
+        "added": 1730831117,
+        "social": {
+          "website": "https://skl.name/",
+          "x": "https://x.com/skalename"
+        }
+      },
       "keepsake": {
         "alias": "Keepsake",
         "gradientBackground": "linear-gradient(230deg, rgb(129 179 167), rgb(61 152 157))",
@@ -378,6 +391,7 @@
           "0x46939cf538cEEaE2D6E1D4F08629828aAb7349FE"
         ],
         "categories": {
+          "pretge":null,
           "gaming": [
             "casual",
             "strategy",
@@ -474,6 +488,7 @@
         "gradientBackground": "linear-gradient(rgb(30, 86, 170), rgb(13 81 100))",
         "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
         "categories": {
+          "pretge":null,
           "social-network": null,
           "data-information": null
         },
@@ -534,6 +549,7 @@
         "gradientBackground": "linear-gradient(270deg, #6D1C61, #46166F)",
         "description": "Generative Tools & Platform for Creative Spatial Designers.",
         "categories": {
+          "pretge": null,
           "tools": null,
           "metaverse": null
         },
@@ -841,7 +857,8 @@
           "gaming": [
             "strategy"
           ],
-          "digital-collectibles": null
+          "digital-collectibles": null,
+          "pretge": null
         },
         "social": {
           "website": "https://www.drakons.io/",
@@ -975,6 +992,7 @@
         "gradientBackground": "linear-gradient(180deg, #191D22, #191D22)",
         "description": "A breathtaking adventure, an MMORPG that you will love and have fun, combination of oldschool and modern MMORPG!",
         "categories": {
+          "pretge":null,
           "gaming": [
             "mmorpg",
             "pc"
@@ -995,6 +1013,7 @@
         "gradientBackground": "gray",
         "description": "Galaxydust Online mmorgp: Farm, create, and conquer while exploring the universe!",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mmorpg"
           ]
@@ -1012,6 +1031,7 @@
         "gradientBackground": "linear-gradient(180deg, #FFDD88, #59401A)",
         "description": "The VoxelVerse is a sandbox-style survival game that allows players to participate in quests, PVP, and freebuild scenarios while playing the role of a Prospector.",
         "categories": {
+          "pretge":null,
           "gaming": [
             "action-adventure",
             "sandbox"
@@ -1029,6 +1049,7 @@
         "gradientBackground": "linear-gradient(180deg, #0F0F16, #0F0F16)",
         "description": "The gasless Web3 base building game with over 1 million compatible NFTs. Build your base and raid others.",
         "categories": {
+          "pretge":null,
           "gaming": [
             "strategy",
             "pc"
@@ -1065,8 +1086,7 @@
           "gaming": [
             "platformer"
           ],
-          "digital-collectibles": null,
-          "pretge": null
+          "digital-collectibles": null
         },
         "social": {
           "website": "https://tokentails.com/",
@@ -1088,8 +1108,7 @@
             "casual",
             "strategy"
           ],
-          "digital-collectibles": null,
-          "pretge": null
+          "digital-collectibles": null
         },
         "social": {
           "website": "https://tomcoin.app/#home",
@@ -1105,6 +1124,7 @@
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "Explore TCG World Metaverse, an immersive virtual world where you can socialize, play games, create content, and earn in game rewards.",
         "categories": {
+          "pretge":null,
           "gaming": null,
           "metaverse": null
         },
@@ -1265,7 +1285,8 @@
             "shooter"
           ],
           "metaverse": null,
-          "ai": null
+          "ai": null,
+          "pretge": null
         },
         "social": {
           "website": "https://fusyfox.com/",
@@ -1298,7 +1319,8 @@
           "gaming": [
             "racing"
           ],
-          "ai": null
+          "ai": null,
+          "pretge": null
         },
         "social": {
           "website": "https://www.cyberkart.ai/",
@@ -1316,7 +1338,8 @@
             "casual"
           ],
           "digital-collectibles": null,
-          "metaverse": null
+          "metaverse": null,
+          "pretge": null
         },
         "added": 1723984132,
         "social": {
@@ -1331,6 +1354,7 @@
         "gradientBackground": "linear-gradient(180deg, #030E12, #0D2D36)",
         "description": "Players assume the role of elite mercenaries, recruited by various factions to execute high-stakes missions across the globe.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "action-adventure",
             "shooter"
@@ -1368,7 +1392,8 @@
             "action-adventure",
             "pc"
           ],
-          "digital-collectibles": null
+          "digital-collectibles": null,
+          "pretge": null
         },
         "social": {
           "website": "https://degenroyale.net/",
@@ -1551,6 +1576,7 @@
         "gradientBackground": "linear-gradient(92deg, rgb(68, 138, 255) 0%, rgb(68, 138, 255))",
         "description": "What is a DexGO? This is an NFT game with elements of augmented reality. Put on NFT sneakers and walk along new interesting routes. Guaranteed to earn USDT by completing simple and fun quests and sharing with your followers.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "casual"
@@ -1654,6 +1680,7 @@
         "gradientBackground": "linear-gradient(#2e1b01, #140d04)",
         "description": "Multichain Play-and-earn Strategic RPG with zero start investments based on NFTs for the army, magic stones, gods and guilds power. Well known problem of P2E games is the need for significant initial investment. Our game solves this problem with free initial units, low-cost entry payment and a large base of opportunities to increase own income. Our game is based on interaction with NFTs, allowing us to connect the additional project to our game and many blockchains. Our game has 3 types of assets: battle units, magic stones and gods. The gameplay of our game is based on two types of battles: standard and premium. In standard battle, users can set the army on the battleground and look at how to work the auto-battle system. In premium type, users get full control of each step in each battle.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "casual"
@@ -1730,8 +1757,7 @@
             "sandbox",
             "action-adventure",
             "rpg"
-          ],
-          "pretge": null
+          ]
         },
         "tags": [
           "pretge"
@@ -1796,6 +1822,7 @@
         "gradientBackground": "linear-gradient(rgb(239 255 0), rgb(158 170 9))",
         "description": "Hangry Animals is a comprehensive ecosystem that blends gaming with charity, where players engage in quests and level completions to support animal welfare.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "casual"
           ]
@@ -1812,6 +1839,7 @@
         "gradientBackground": "linear-gradient(#203e2f, #13261c)",
         "description": "Embark on an exhilarating journey with Xurono in Astro Assault as part of Space Rush Odyssey! Dive into the depths of space in this thrilling bullet hell adventure, where you'll seek the elusive Azul Fragment. Face off against waves of formidable foes in intense battles, armed with powerful weapons. Navigate treacherous obstacles and collect valuable loot to enhance your arsenal. But the challenges don't end there—immerse yourself in the rich lore, working alongside Winston and Artemis to unravel the ancient Smercin mystery. Delve into the secrets of the lost ritual to summon unknown powers",
         "categories": {
+         "pretge":null,
           "gaming": [
             "action-adventure"
           ]
@@ -1928,6 +1956,7 @@
         "gradientBackground": "linear-gradient(270deg, #000000, #152000)",
         "description": "PlayGround is the premier publisher of web3 games, with our own IP titles and a community building platform (PlayAcademy) that can onboard die-hard gamers from Tier 1 countries into any game requiring user acquisition.",
         "categories": {
+         "pretge":null,
           "gaming": null
         },
         "contracts": [
@@ -1984,6 +2013,7 @@
         "alias": "StrayShot",
         "gradientBackground": "linear-gradient(150deg, #151619, #151619)",
         "categories": {
+         "pretge":null,
           "gaming": [
             "epic-games-store",
             "pc",
@@ -2051,6 +2081,20 @@
           "x": "https://x.com/Ledger",
           "discord": "https://discord.com/invite/Ledger",
           "github": "https://github.com/LedgerHQ"
+        }
+      },
+      "pivot": {
+        "alias": "Pivot",
+        "gradientBackground": "linear-gradient(150deg, #151515, #151515)",
+        "categories": {
+          "partner": null,
+          "pretge":null
+        },
+        "description": "Global Venture Accelerator firm for the Web 3.0 space.",
+        "social": {
+          "website": "https://0xpivot.com/",
+          "x": "https://x.com/0xPivot_",
+          "telegram": "https://t.me/pivotweb3"
         }
       },
       "cv-pad": {
