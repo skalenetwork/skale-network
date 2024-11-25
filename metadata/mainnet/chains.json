@@ -1278,27 +1278,6 @@
           "x": "https://x.com/LapsusNext"
         }
       },
-      "fusyfox": {
-        "alias": "FusyFox",
-        "gradientBackground": "linear-gradient(180deg, #370055, #370055)",
-        "description": "FusyFox is a Web3 project that offers a fast-paced multiplayer third-person shooter game.",
-        "categories": {
-          "gaming": [
-            "epic-games-store",
-            "shooter"
-          ],
-          "metaverse": null,
-          "ai": null,
-          "pretge": null
-        },
-        "social": {
-          "website": "https://fusyfox.com/",
-          "x": "https://x.com/fusyfox?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "telegram": "https://t.me/FUSYFOXGroup",
-          "discord": "https://discord.com/invite/fusyfox",
-          "epic-games-store": "https://store.epicgames.com/en-US/p/fusyfox-752d01"
-        }
-      },
       "zesh": {
         "alias": "Zesh",
         "gradientBackground": "linear-gradient(180deg, #0E121A, #0E121A)",
