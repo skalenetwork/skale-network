@@ -349,6 +349,28 @@
           "x": "https://x.com/KeepSakeMarket"
         }
       },
+      "caczero": {
+        "alias": "CACZero",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "CACZero can onboard web2 to web3 & assist your commerce to go viral. Enable Democratised hyperlocal distributors leveraging the power of your users/ community.",
+        "categories": {
+          "infrastructure": null,
+          "tools":null,
+          "wallet":null,
+          "social":null,
+          "consumer":null,
+          "utility":null,
+          "RWA":null
+        },
+        "added": 1732635221,
+        "social": {
+          "website": "https://caczero.xyz/",
+          "x": "https://x.com/theallyIndia"
+      },
+      "contracts": [
+        "0xb6e10cAb19aFcc77763071c114442A2D6fBA95E9"
+      ]
+      },
       "scoredetect": {
         "alias": "ScoreDetect",
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(225 225 225))",
@@ -434,7 +456,7 @@
         "description": "Dmail is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
         "categories": {
           "web3": null,
-          "social-network": null
+          "social": null
         },
         "contracts": [
           "0xD1A3abf42f9E66BE86cfDEa8c5C2c74f041c5e14"
@@ -492,7 +514,7 @@
         "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
         "categories": {
           "pretge": null,
-          "social-network": null,
+          "social": null,
           "data-information": null
         },
         "social": {
@@ -531,7 +553,11 @@
           "x": "https://x.com/SkillfulAI",
           "telegram": "https://t.me/+oNknk6vJj-0wODgx",
           "discord": "https://discord.com/invite/WhAYqkXYkg"
-        }
+      },
+      "contracts": [
+        "0x133B8F6B93BCF0E50c4B19499E1909E9F8Fb03B0",
+        "0xD45A094Df292d84ec071d70d186Eb0061e0Be199"
+      ]
       },
       "forumai": {
         "alias": "ForumAI",
@@ -724,6 +750,150 @@
           "0x69C1c05aEc7DB1dEE73564D91721A89Da2df55cB",
           "0x624524fba1D0CA5D6f17c48fE01967849f1ff71A"
         ]
+      },
+      "ether-strike": {
+        "alias": "Ether Strike",
+        "gradientBackground": "linear-gradient(180deg, #020D12, #020D12)",
+        "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
+        "added": 1732625133,
+        "categories": {
+          "gaming": [
+            "shooter",
+            "pc"
+          ]
+        },
+        "social": {
+          "website": "https://beta.devzeus.io/games",
+          "x": "https://x.com/FPS_EtherStrike",
+          "telegram": "https://t.me/zeusblock",
+          "discord":"https://t.co/h8zbAbEncR"
+        },
+        "contracts": [
+          "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
+        ]
+      },
+      "codyfight": {
+        "alias": "Codyfight",
+        "gradientBackground": "linear-gradient(rgb(7, 35, 68), rgb(42, 129, 194))",
+        "description": "Codyfight is an AI-driven game where players strategize manually or deploy code-powered bots to battle and climb the ranks for the best rewards.",
+        "added": 1732625133,
+        "categories": {
+          "pretge": null,
+          "ai": null,
+          "gaming":[
+            "strategy",
+            "mobile"
+          ]
+        },
+        "social": {
+          "website": "https://codyfight.com/",
+          "x": "https://twitter.com/codyfight",
+          "telegram": "https://t.me/codyfight",
+          "discord": "https://discord.gg/codyfight",
+          "github": "https://github.com/zvimbalynas",
+          "dappradar": "https://dappradar.com/dapp/codyfight"
+        },
+        "contracts": [
+          "0x9604077aeab99cAd148Aa82f4A1CE10d9cf2AeF1"
+        ]
+      },
+      "for-loot-and-glory": {
+        "alias": "For Loot And Glory",
+        "gradientBackground": "linear-gradient(180deg, #020D12, #020D12)",
+        "description": "Dive into 'For Loot And Glory', a pirate-themed strategic RPG with innovative decentralized gameplay on Skale",
+        "added": 1732625133,
+        "categories": {
+          "pretge": null,
+          "gaming":[
+            "strategy",
+            "mobile",
+            "rpg"
+          ]
+        },
+        "social": {
+          "website": "https://forlootandglory.io/",
+          "x": "https://x.com/ForLootAndGlory",
+          "discord": "https://discord.com/invite/Jqvnb7E8gc",
+          "github": "https://github.com/ForLootAndGlory-Team"
+        },
+        "contracts": [
+          "0xebd6B79662d6c37971C36CC549271Efa6342b43e",
+          "0x5d9c5c28d43C3Ceb594CB695638629737123A181",
+          "0x6Cc60f3eb645Bb4D4d38A2049706f273d735e546",
+          "0xc17117aE156ff482b7ef96e6fC3c1F71d10bc97C",
+          "0x192416a84FB6eD3EF04540Bcd9275880015DD734",
+          "0x691Fcb183f3BC4Ac442c41c2655866A9402Adf2d",
+          "0x9C8A3D86255E0be540b2A2d4ADD9645266D9E435",
+          "0xf596f78cf03dd9545F88fF51eb5f7E638Dcc8348",
+          "0x72c1DD89E4e3bc4F1D355c1f8eBE39c18FF66EcF",
+          "0x701e94FB9A1a44F5D066D0b841175692673D2B47",
+          "0x49179a2972d3022D2Ac92887cB51742A30264899",
+          "0xc910dE62DBcEd0114147b29E674E0a092013aE3e",
+          "0xdD437584fd0A80a97B0575F133E16c70c74f5550",
+          "0x3287587Bb72a49b116f103C19be35cc7317A086F",
+          "0x5489c7B367B32C00350e724511073961641DE574",
+          "0x97150Bc82AdaB507E71c1E648B0fbA05e8Bdce79",
+          "0xF75E9d8821fEe533Ec4a0897BAAac0de2C880111",
+          "0x082081c8E607ca6C1c53aC093cAb3847ED59C0b0",
+          "0x423Be6FFcd47152F778F3E9dd7a742127235B81F",
+          "0xC6F6a09e6912B7214a7Ef2798983b2F1d05871E6",
+          "0x8B87bdDfdF51b02b29b4F22a40c06bD08904E5d1",
+          "0xC0b2EE1Fb77Fb7eb91c499AB01C640dC41798DdF",
+          "0x78DcD6Fa27409d442784A0F3F1B118fDeAaD1c7E",
+          "0xaC3BCC4fcEB2ddCa114699fd42CA74B7Aa4124C4",
+          "0x84b1d4818FC37abcD7Cd86F647832600eD995C73",
+          "0x06eab1ee61708C7E476e4Ae9a561904C35bE3941",
+          "0x51569d11B666C60B701705a8741d99D388eB18Bd",
+          "0xB6B03335952A6ABdcCFf8b2BB2531065B21180e3",
+          "0x79Bf3236d441F9f6ecEf5196e348c29644c5aFf0",
+          "0x4a839eF78f961091D739C4b4cD1c31dFA91b2316",
+          "0x451853ff91a359c4e69990893cc00aBD7E56aC0b",
+          "0xcdF030a3E65f917DFa8d74555A64a5eC5303c88e",
+          "0xaC9388994276E07bd7334163E83005C1F8240c68",
+          "0x218CA2eABD6dF36Ab1871770281d03B97f6786f2",
+          "0xaDDEdFC77f9D1B6aAf51C1Ca78d9c3634DDAB66a",
+          "0xAAf0df59AC5dC405027B0B10B9f079AE7bAC3e63",
+          "0x841EC3426D1f404a862BDf66DA9f4BceDd385Ac3",
+          "0x90b2d043372816fFE993854A3a485E13d6cF922F",
+          "0x637560Fe8Dd63623eC2966aA830bEEb6570ac10B",
+          "0x6096f9Bd7f6Ce2afdBbaecF00FFe1efDf6235C38",
+          "0x9d795629A8E48183Bed5140BC8D8fdCe1A1747f1",
+          "0x16174b94C2D6A71f66E37AC054c17Dd13c332A4e",
+          "0x5fef6726B6E529676cd2406cAf190e2B508CDA66",
+          "0x74E51796170C4e8c8b39D400ad1BdBC368B52e2F",
+          "0x41F9dd7C3743a783919210b8f1F10515f2abEf5e",
+          "0xb28A272921B5BF51dC1AeA46DcBcE2e28ED19A46",
+          "0x9EEaf89654568060f24E85D15965F240B0a80941",
+          "0x751f817dCfF2def0c079775618D81c596847f42a",
+          "0xEFEaC0B774350336dB3017F4fe9fe4c3aFa44A13",
+          "0xdb5A393Ba78c121bA21A676B09AD1e14a6340756"
+        ]
+      },
+      "eventy": {
+        "alias": "Eventy",
+        "gradientBackground": "linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255))",
+        "description": "We're a permissionless, onchain ticketing platform designed to help event organizers build and reward their communities.",
+        "added": 1732625133,
+        "categories": {
+          "entertainment": null
+        },
+        "social": {
+          "website": "https://eventy.xyz/",
+          "x": "https://x.com/eventyxyz"
+        }
+      },
+      "streamnft": {
+        "alias": "StreamNFT",
+        "gradientBackground": "linear-gradient(180deg, #DFF9E5, #DFF9E5)",
+        "description": "Your Digital Property, Your Rules. Create, trade, share, access benefits & liquidity.",
+        "added": 1732625133,
+        "categories": {
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://www.streamnft.tech/",
+          "x": "https://x.com/Streamnfthq"
+        }
       },
       "egoverse": {
         "alias": "EgoVerse",
@@ -1059,7 +1229,10 @@
         },
         "tags": [
           "pretge"
-        ]
+        ],
+      "contracts": [
+        "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
+      ]
       },
       "tom": {
         "alias": "TOM",
@@ -1869,7 +2042,10 @@
     "gradientBackground": "linear-gradient(150deg, #070707, #151e28)",
     "categories": {
       "gaming": [
-        "shooter"
+        "shooter",
+        "action-adventure",
+        "pc",
+        "mobile"
       ]
     },
     "description": "StrayShot is a thrilling third-person Shooter Game where you step into the boots of a Bounty Hunter, ready to take on rivals in intense matches.",
