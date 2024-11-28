@@ -2165,6 +2165,230 @@
           "github": "https://github.com/ChorusOne"
         }
       },
+      "wolfedgecapital": {
+        "alias": "WolfEdge-Capital",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "WolfEdge Capital is a multi-faceted investment fund which also provides validator nodes, focusing on the most ambitious early-stage blockchain startups.",
+        "social": {
+          "website": "https://wolfedge.capital/"
+        }
+      },
+      "stakin": {
+        "alias": "Stakin",
+        "gradientBackground": "linear-gradient(150deg, #160DC7, #1C56AF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Your Trusted Crypto Rewards.",
+        "social": {
+          "website": "https://stakin.com/",
+          "twitter": "https://x.com/StakinOfficial",
+          "telegram": "https://t.me/StakinOfficial"
+        }
+      },
+      "staked": {
+        "alias": "Staked",
+        "gradientBackground": "linear-gradient(150deg, #071A36, #071A36)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Staked runs secure and reliable infrastructure on the leading proof-of-stake blockchains.",
+        "social": {
+          "website": "https://staked.us/",
+          "twitter": "https://x.com/staked_us/",
+          "discord": "https://discord.com/invite/ddHep6E",
+          "github": "https://github.com/Stakedllc/"
+        }
+      },
+      "signia": {
+        "alias": "Signia",
+        "gradientBackground": "linear-gradient(150deg, #265952, #648B4C)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Helping passionate entrepreneurs build impactful world-changing companies.",
+        "social": {
+          "website": "https://signiaventurepartners.com/",
+          "twitter": "https://x.com/signiavc"
+        }
+      },
+      "infstones": {
+        "alias": "InfStones",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Fueling Blockchain Beyond Infinity!",
+        "social": {
+          "website": "https://infstones.com/",
+          "twitter": "https://x.com/infstones",
+          "telegram": "https://t.me/infstones/"
+        }
+      },
+      "hashkey-cloud": {
+        "alias": "Hashkey Cloud",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "AHashQuark provides the most secure, stable and convenient enterprise-level staking services. We have completed the global server deployment and all mainstream Proof of Stake blockchains are supported. HashQuark will be your best choice to participate in the Staking ecosystem.",
+        "social": {
+          "website": "https://www.hashkey.cloud/",
+          "twitter": "https://x.com/HashKeyCloud"
+        }
+      },
+      "freshstaking": {
+        "alias": "FreshSTAKING",
+        "gradientBackground": "linear-gradient(150deg, #182655, #070809)",
+        "categories": {
+          "validator": null
+        },
+        "description": "FreshSTAKING runs bare metal in a SSAE16 SOC2 certified Tier 4 datacenter with geographically distributed private sentry nodes, YubiHSM2 hardware protected keys, with 24/7 monitoring, alerting, and analytics.",
+        "social": {
+          "website": "https://freshstaking.com/",
+          "twitter": "https://freshstaking.com/"
+        }
+      },
+      "easy-2-stake": {
+        "alias": "Easy 2 Stake",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Complete transparency and trust with a secure and stable validator.",
+        "social": {
+          "website": "https://www.easy2stake.com/",
+          "twitter": "https://x.com/easy2stake",
+          "telegram": "https://t.me/easy2stake"
+        }
+      },
+      "cypher-core": {
+        "alias": "Cypher Core",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "We are devoted to bringing financial freedom to everyone.",
+        "social": {
+          "website": "https://cyphercore.io/",
+          "twitter": "https://x.com/cypher_core"
+        }
+      },
+      "chainode-tech": {
+        "alias": "Chainode Tech",
+        "gradientBackground": "linear-gradient(150deg, #050505, #050505)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Chainode Tech is your reliable partner for DLT validation and staking services.",
+        "social": {
+          "website": "https://chainode.tech/",
+          "twitter": "https://x.com/chainodetech"
+        }
+      },
+      "chainflow": {
+        "alias": "Chainflow",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Fair and equitable staking for everyone.",
+        "social": {
+          "website": "https://chainflow.io/",
+          "twitter": "https://x.com/chainflowpos?ref=chainflow.io"
+        }
+      },
+      "blockware": {
+        "alias": "Blockware",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Skale Alpine member, early investor, experienced validator.",
+        "social": {
+          "website": "https://www.blockwaresolutions.com/",
+          "twitter": "https://x.com/blockwareteam"
+        }
+      },
+      "anonstake": {
+        "alias": "Anonstake",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Anonstake is a staking infrastructure provider for Proof-of-Stake blockchains.",
+        "social": {
+          "website": "https://anonstake.com/",
+          "twitter": "https://x.com/anonstake",
+          "telegram": "https://t.me/anonstakecom"
+        }
+      },
+      "ankr": {
+        "alias": "Ankr",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Ankr is your gateway to the Web 3.0, which is connecting consumers, developers and enterprises to the new internet, in a few easy clicks.",
+        "social": {
+          "website": "https://www.ankr.com/",
+          "twitter": "https://x.com/ankr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/anonstakecom"
+        }
+      },
+      "01node": {
+        "alias": "01node",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "01node Professional Staking Services for Skale, Cosmos, Iris, Terra, Solana, Kava, Near, Secret Network",
+        "social": {
+          "website": "https://01node.com/",
+          "twitter": "https://x.com/01node?lang=en"
+        }
+      },
+      "ngcstakex": {
+        "alias": "NGC_StakeX",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "NGC Ventures invests in early stage, web 3.0 infrastructure startups and projects. We identify projects with innovative ideas to today’s blockchain problems and work with them from ideation to strategy and market adoption.",
+        "social": {
+          "website": "https://ngc.fund/"
+        }
+      },
+      "nansen": {
+        "alias": "Nansen",
+        "gradientBackground": "linear-gradient(150deg, #061019, #061019)",
+        "categories": {
+          "validator": null
+        },
+        "description": "See forward with the most powerful multichain analytics platform, helping you surface actionable insights fast.",
+        "social": {
+          "website": "https://www.nansen.ai/",
+          "twitter": "https://x.com/nansen_ai",
+          "discord": "https://discord.com/invite/X5u3a7Wef6"
+        }
+      },
+      "myetherwallet": {
+        "alias": "MyEtherWallet",
+        "gradientBackground": "linear-gradient(150deg, #1A96A4, #1A96A4)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Trusted by millions of users, MyEtherWallet is the first and best open source Ethereum wallet. Create a secure crypto wallet, buy, sell, stake and swap.",
+        "social": {
+          "website": "https://www.myetherwallet.com/",
+          "twitter": "https://x.com/myetherwallet/",
+          "telegram": "https://t.me/myetherwallet",
+          "github": "https://github.com/myetherwallet"
+        }
+      },
       "figment": {
         "alias": "Figment",
         "gradientBackground": "linear-gradient(150deg, #FFF850, #FFF850)",
