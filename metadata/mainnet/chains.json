@@ -296,6 +296,7 @@
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(255 255 255))",
         "description": "Share your travels and get rewarded for your recommendations.",
         "categories": {
+          "pretge": null,
           "ai": null,
           "entertainment": null
         },
@@ -341,6 +342,7 @@
         "gradientBackground": "linear-gradient(230deg, rgb(129 179 167), rgb(61 152 157))",
         "description": "A reimagined gaming NFT marketplace. We provide Unique Value & Utility to Every Collection! Discover your digital assets on Keepsake.",
         "categories": {
+          "pretge": null,
           "digital-collectibles": null
         },
         "added": 1723984256,
@@ -415,6 +417,7 @@
         "gradientBackground": "linear-gradient(rgb(33 40 54), rgb(37 43 56))",
         "description": "Creator App. With our platform, you can create complete NFT comic books without any prior knowledge of smart contracts or blockchain technology.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "action-adventure"
           ],
@@ -694,6 +697,7 @@
         "gradientBackground": "linear-gradient(180deg, #0A070D, #0D0A0F)",
         "description": "Land of Chasers is a roguelike action RPG set on a growing planet.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "pc",
             "action-adventure",
@@ -731,6 +735,7 @@
         "description": "The EgoVerse  is a forward-thinking gaming and tech company with a bold mission: to  bridge the gap between Web2 and Web3 gaming.",
         "added": 1728303236,
         "categories": {
+          "pretge": null,
           "gaming": null
         },
         "social": {
@@ -745,6 +750,7 @@
         "description": "Esports for All - Real Competition, Real Rewards, Real Games.",
         "added": 1728303236,
         "categories": {
+          "pretge": null,
           "gaming": null
         },
         "social": {
@@ -760,6 +766,7 @@
         "description": "Manetho brings you blockchain and NFT technology with tens of thousands of audio content.",
         "added": 1728303236,
         "categories": {
+          "pretge": null,
           "entertainment": null
         },
         "social": {
@@ -892,6 +899,7 @@
         "description": "The summoning ritual draws near, prepare your soul.",
         "added": 1725279614,
         "categories": {
+          "pretge": null,
           "gaming": null
         },
         "social": {
@@ -1069,6 +1077,7 @@
         "gradientBackground": "linear-gradient(180deg, #61615F, #4D565A)",
         "description": "The Last Monarchy is a Web 3 strategy game set in the ancient world where players use their wits and in-game NFTs to claim the Throne.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "pc",
             "simulation"
@@ -1086,6 +1095,7 @@
         "gradientBackground": "linear-gradient(180deg, #FCEFC2, #FCEDBC)",
         "description": "World's first play-to-save game dedicated to supporting sick and homeless cats.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "platformer"
           ],
@@ -1179,6 +1189,7 @@
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Get ready to battle. Join the fray in Navis War, a gripping naval battle game that immerses you in the heart of intense sea warfare.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "casual",
@@ -1268,6 +1279,7 @@
         "gradientBackground": "linear-gradient(180deg, #14141C, #111119)",
         "description": "Embark on a culinary journey like no other in 'Ramen Rumble: Apocalypse Express,' where the aroma of savory ramen meets the thrill of post-apocalyptic combat.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "casual"
           ],
@@ -1409,6 +1421,7 @@
         "gradientBackground": "linear-gradient(180deg, #121133, #12204D)",
         "description": "World's first player-owned game platform. Providing AI/ML tooling for game studios.",
         "categories": {
+          "pretge": null,
           "metaverse": null,
           "gaming": [
             "action-adventure",
@@ -1442,6 +1455,7 @@
         "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
         "description": "Join players from around the globe and make your mark on the world of CryptoCrusades. Whether through conquest or trade, there are many ways to lead your Empire!",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "casual"
@@ -1492,6 +1506,7 @@
         "description": "MotoDEX is a NFT game, competition of multi-level racing on motorcycles on high-speed tracks with unlimited opportunities for players.",
         "gradientBackground": "linear-gradient(92deg, rgb(30 30 30) 0%, rgb(63 63 63))",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "racing",
@@ -1726,6 +1741,7 @@
         "gradientBackground": "linear-gradient(#014353, #002830)",
         "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "sports",
             "mobile",
@@ -1785,6 +1801,7 @@
         "gradientBackground": "linear-gradient(#251ae5, #e06729)",
         "description": "Yomi Block Puzzle is your classic block puzzle game, free to play, and has several original features including a lovable pet that reacts as you score combos!",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "casual",
@@ -1976,6 +1993,7 @@
         "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
         "description": "WarEden is a free-to-play PC MMORPG that invites both solo adventurers and guilds to embark on an epic journey. It is a hand-crafted high fantasy world carefully designed to appeal to old-school MMO aficionados introducing the real-life economy in the virtual world using blockchain technology.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "pc",
             "action-adventure",
@@ -2136,6 +2154,20 @@
         "added": 1728303236,
         "social": {
           "x": "https://x.com/SuperbookingAI"
+        }
+      },
+      "droplinked": {
+        "alias": "Droplinked",
+        "gradientBackground": "linear-gradient(150deg, #141414, #141414)",
+        "categories": {
+          "partner": null,
+          "entertainment":null
+        },
+        "description": "The leading onchain commerce platform | Supporting the next billion companies and customers to earn more transparently.",
+        "added": 1733245680,
+        "social": {
+          "website": "https://droplinked.com/",
+          "x": "https://x.com/droplinked?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
         }
       },
       "portal": {
