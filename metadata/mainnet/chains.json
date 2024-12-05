@@ -692,8 +692,8 @@
           "telegram": "https://t.me/dypius"
         }
       },
-      "ether-strike": {
-        "alias": "Ether Strike",
+      "etherstrike": {
+        "alias": "EtherStrike",
         "gradientBackground": "linear-gradient(180deg, #020D12, #020D12)",
         "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
         "added": 1732625133,
@@ -2373,7 +2373,7 @@
       },
       "01node": {
         "alias": "01node",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "gradientBackground": "linear-gradient(150deg, #202126, #202126)",
         "categories": {
           "validator": null
         },
