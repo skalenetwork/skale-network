@@ -1004,14 +1004,17 @@
         "description": "A Ready-Player-One-like digital world powered by community IPs & digital ownership.",
         "added": 1725016929,
         "categories": {
-          "gaming": null,
+          "gaming": [
+            "epic-games-store"
+          ],
           "digital-collectibles": null,
           "metaverse": null
         },
         "social": {
           "website": "https://anotherworld.gg/",
           "x": "https://x.com/anotherworldgg",
-          "github": "https://github.com/AnotherWorldDAO/Game-Release"
+          "github": "https://github.com/AnotherWorldDAO/Game-Release",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/another-world-b86b7e"
         },
         "contracts": [
           "0xd151dD27A459F71642A306E7fE0b6C51B88fFcD7",
@@ -1250,7 +1253,8 @@
         "categories": {
           "metaverse": null,
           "gaming": [
-            "pc"
+            "pc",
+            "epic-games-store"
           ],
           "digital-collectibles": null
         },
@@ -1258,7 +1262,8 @@
           "website": "https://metaverser.me/",
           "x": "https://x.com/metaversergame",
           "telegram": "https://t.me/metaverserchat",
-          "discord": "https://t.co/RhX8BOiXcn"
+          "discord": "https://t.co/RhX8BOiXcn",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/metaverser-725e3c"
         }
       },
       "skale-platformer": {
