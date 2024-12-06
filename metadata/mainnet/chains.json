@@ -795,22 +795,6 @@
           "x": "https://x.com/manetho_app"
         }
       },
-      "chilled-worlds": {
-        "alias": "Chilled Worlds",
-        "gradientBackground": "linear-gradient(180deg, #5D19E6, #5D19E6)",
-        "description": "Chilled Worlds is a blockchain-based next-generation MMORPG, offering players an innovative, dynamic and living universe.",
-        "added": 1728303236,
-        "categories": {
-          "gaming": [
-            "mmorpg"
-          ]
-        },
-        "social": {
-          "website": "https://chilledworlds.zone/",
-          "x": "https://x.com/chilledworlds",
-          "discord": "https://discord.com/invite/chilledworlds"
-        }
-      },
       "turf": {
         "alias": "Turf",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
@@ -836,26 +820,6 @@
         "social": {
           "website": "https://reignalter.world/"
         }
-      },
-      "smartmuv": {
-        "alias": "SmartMuv",
-        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
-        "description": "SmartMuv is an automated tool for data extraction and storage layout analysis, that enables migration of complex gaming smart contracts across blockchains.",
-        "added": 1728303236,
-        "categories": {
-          "infrastructure": null,
-          "data-information": null,
-          "tools": null,
-          "explorer": null,
-          "analytics": null,
-          "pretge": null
-        },
-        "social": {
-          "website": "https://smartmuv.app/",
-          "x": "https://x.com/SmartMuv",
-          "discord": "https://discord.com/invite/XbHnbmDAnf",
-          "github": "https://github.com/WaizKhan7/SmartMuv",
-          "dappradar": "https://dappradar.com/dapp/smartmuv"
         },
         "tags": [
           "pretge"
@@ -1319,21 +1283,6 @@
           "x": "https://x.com/LapsusNext"
         }
       },
-      "zesh": {
-        "alias": "Zesh",
-        "gradientBackground": "linear-gradient(180deg, #0E121A, #0E121A)",
-        "description": "Zesh is an integrated suite of AI-powered apps that leverage zkML and ultra-gamified models to build a genuine Web3 community and accelerate growth.",
-        "categories": {
-          "gaming": null,
-          "ai": null
-        },
-        "social": {
-          "website": "https://zesh.io/",
-          "x": "https://x.com/zeshapps",
-          "telegram": "https://t.me/ZeshApps",
-          "discord": "https://discord.com/invite/BKtYKdt3uS"
-        }
-      },
       "cyberkart-ai": {
         "alias": "CyberKart AI",
         "gradientBackground": "linear-gradient(180deg, #000000, #000007)",
@@ -1677,30 +1626,6 @@
           "0xD16539Fa2Fe90F80066a103dDB78cA81Bc33166B"
         ]
       },
-      "hatchyverse": {
-        "alias": "HatchyVerse",
-        "gradientBackground": "linear-gradient(#5ab0e1, #125ea0)",
-        "description": "Decentralized IP of 150+ elemental monsters owned and managed by the $HATCHY token, earned exclusively by staking Hatchy and Hatchyverse NFTs. Build the future of IP!",
-        "categories": {
-          "gaming": [
-            "mobile",
-            "rpg",
-            "pc",
-            "action-adventure",
-            "casual"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://www.hatchyverse.com/games/hatchy-rampage",
-          "x": "https://x.com/Hatchyverse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "discord": "https://t.co/hvNXZDB8kw",
-          "dappradar": "https://dappradar.com/dapp/hatchyverse"
-        },
-        "contracts": [
-          "0xdB1DF93b8B0D6aD52E124CAFE7f8D1C3c6b4294f"
-        ]
-      },
       "heroes-battle-arena": {
         "alias": "Heroes Battle Arena",
         "gradientBackground": "linear-gradient(#2e1b01, #140d04)",
@@ -1721,27 +1646,6 @@
         },
         "contracts": [
           "0xc6b4C3364a957d808F09C439ccd28C8f36934a0E"
-        ]
-      },
-      "spells-of-genesis": {
-        "alias": "Spells of Genesis",
-        "gradientBackground": "linear-gradient(#49280f, #190b04)",
-        "description": "As the first blockchain-based mobile game ever made, Spells of Genesis (SoG) combines trading card game (TCG) functionalities with the point-and-shoot aspects of arcade games. It was launched in April 2017 after a successful ICO, one of the first of its kind. Players have to collect and combine cards to create the strongest deck in order to fight their enemies in a series of battles. Associating deck-building strategy with an easy and intuitive gameplay, Spells of Genesis has already attracted numerous players around the world and the game is surrounded and supported by a strong community of players and fans. SoG is using two types of cards: in-game cards and blockchain cards.",
-        "categories": {
-          "gaming": [
-            "pc",
-            "cards_deck-building"
-          ]
-        },
-        "social": {
-          "website": "https://spellsofgenesis.com/",
-          "x": "https://x.com/everdreamsoft",
-          "telegram": "https://t.me/EverdreamSoft",
-          "discord": "https://t.co/f64PM9TNuh",
-          "dappradar": "https://dappradar.com/dapp/spells-of-genesis"
-        },
-        "contracts": [
-          "0x9414633155eDd39E624F58c24a41d1f30de46CD7"
         ]
       },
       "starzplay-fantasy-sports": {
@@ -1978,23 +1882,6 @@
           "0xb2a85c5ecea99187a977ac34303b80acbddfa208",
           "0x708cC7aB3B470D5Aa65Be528A7Ad40a1a743F91C"
         ]
-      },
-      "playground": {
-        "alias": "PlayGround",
-        "gradientBackground": "linear-gradient(270deg, #000000, #152000)",
-        "description": "PlayGround is the premier publisher of web3 games, with our own IP titles and a community building platform (PlayAcademy) that can onboard die-hard gamers from Tier 1 countries into any game requiring user acquisition.",
-        "categories": {
-          "pretge": null,
-          "gaming": null
-        },
-        "contracts": [
-          "0xE3D1379E0E9201ed67b899d9739d815cbcc9F795"
-        ],
-        "social": {
-          "website": "https://playground.game/",
-          "x": "https://x.com/PlayGroundCorp",
-          "discord": "https://discord.com/invite/playgroundgame"
-        }
       },
       "wareden": {
         "alias": "WarEden",
