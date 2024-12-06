@@ -696,8 +696,8 @@
         "alias": "EtherStrike",
         "gradientBackground": "linear-gradient(180deg, #020D12, #020D12)",
         "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
-        "added": 1732625133,
         "categories": {
+          "pretge":null,
           "gaming": [
             "shooter",
             "pc"
@@ -921,11 +921,14 @@
         "added": 1725279614,
         "categories": {
           "pretge": null,
-          "gaming": null
+          "gaming": [
+            "epic-games-store"
+          ]
         },
         "social": {
           "website": "https://netherak.com/",
-          "x": "https://x.com/nkdemons"
+          "x": "https://x.com/nkdemons",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/netherak-demons-a419cf"
         }
       },
       "wodo-network": {
