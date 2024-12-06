@@ -296,6 +296,7 @@
         "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(255 255 255))",
         "description": "Share your travels and get rewarded for your recommendations.",
         "categories": {
+          "pretge": null,
           "ai": null,
           "entertainment": null
         },
@@ -341,6 +342,7 @@
         "gradientBackground": "linear-gradient(230deg, rgb(129 179 167), rgb(61 152 157))",
         "description": "A reimagined gaming NFT marketplace. We provide Unique Value & Utility to Every Collection! Discover your digital assets on Keepsake.",
         "categories": {
+          "pretge": null,
           "digital-collectibles": null
         },
         "added": 1723984256,
@@ -437,6 +439,7 @@
         "gradientBackground": "linear-gradient(rgb(33 40 54), rgb(37 43 56))",
         "description": "Creator App. With our platform, you can create complete NFT comic books without any prior knowledge of smart contracts or blockchain technology.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "action-adventure"
           ],
@@ -715,11 +718,33 @@
           "telegram": "https://t.me/dypius"
         }
       },
+      "etherstrike": {
+        "alias": "EtherStrike",
+        "gradientBackground": "linear-gradient(180deg, #020D12, #020D12)",
+        "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
+        "categories": {
+          "pretge":null,
+          "gaming": [
+            "shooter",
+            "pc"
+          ]
+        },
+        "social": {
+          "website": "https://beta.devzeus.io/games",
+          "x": "https://x.com/FPS_EtherStrike",
+          "telegram": "https://t.me/zeusblock",
+          "discord":"https://t.co/h8zbAbEncR"
+        },
+        "contracts": [
+          "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
+        ]
+      },
       "land-of-chasers": {
         "alias": "Land of Chasers",
         "gradientBackground": "linear-gradient(180deg, #0A070D, #0D0A0F)",
         "description": "Land of Chasers is a roguelike action RPG set on a growing planet.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "pc",
             "action-adventure",
@@ -901,6 +926,7 @@
         "description": "The EgoVerse  is a forward-thinking gaming and tech company with a bold mission: to  bridge the gap between Web2 and Web3 gaming.",
         "added": 1728303236,
         "categories": {
+          "pretge": null,
           "gaming": null
         },
         "social": {
@@ -915,6 +941,7 @@
         "description": "Esports for All - Real Competition, Real Rewards, Real Games.",
         "added": 1728303236,
         "categories": {
+          "pretge": null,
           "gaming": null
         },
         "social": {
@@ -930,6 +957,7 @@
         "description": "Manetho brings you blockchain and NFT technology with tens of thousands of audio content.",
         "added": 1728303236,
         "categories": {
+          "pretge": null,
           "entertainment": null
         },
         "social": {
@@ -1022,11 +1050,15 @@
         "description": "The summoning ritual draws near, prepare your soul.",
         "added": 1725279614,
         "categories": {
-          "gaming": null
+          "pretge": null,
+          "gaming": [
+            "epic-games-store"
+          ]
         },
         "social": {
           "website": "https://netherak.com/",
-          "x": "https://x.com/nkdemons"
+          "x": "https://x.com/nkdemons",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/netherak-demons-a419cf"
         }
       },
       "wodo-network": {
@@ -1105,14 +1137,17 @@
         "description": "A Ready-Player-One-like digital world powered by community IPs & digital ownership.",
         "added": 1725016929,
         "categories": {
-          "gaming": null,
+          "gaming": [
+            "epic-games-store"
+          ],
           "digital-collectibles": null,
           "metaverse": null
         },
         "social": {
           "website": "https://anotherworld.gg/",
           "x": "https://x.com/anotherworldgg",
-          "github": "https://github.com/AnotherWorldDAO/Game-Release"
+          "github": "https://github.com/AnotherWorldDAO/Game-Release",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/another-world-b86b7e"
         },
         "contracts": [
           "0xd151dD27A459F71642A306E7fE0b6C51B88fFcD7",
@@ -1199,6 +1234,7 @@
         "gradientBackground": "linear-gradient(180deg, #61615F, #4D565A)",
         "description": "The Last Monarchy is a Web 3 strategy game set in the ancient world where players use their wits and in-game NFTs to claim the Throne.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "pc",
             "simulation"
@@ -1216,6 +1252,7 @@
         "gradientBackground": "linear-gradient(180deg, #FCEFC2, #FCEDBC)",
         "description": "World's first play-to-save game dedicated to supporting sick and homeless cats.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "platformer"
           ],
@@ -1312,6 +1349,7 @@
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Get ready to battle. Join the fray in Navis War, a gripping naval battle game that immerses you in the heart of intense sea warfare.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "casual",
@@ -1351,7 +1389,8 @@
         "categories": {
           "metaverse": null,
           "gaming": [
-            "pc"
+            "pc",
+            "epic-games-store"
           ],
           "digital-collectibles": null
         },
@@ -1359,7 +1398,8 @@
           "website": "https://metaverser.me/",
           "x": "https://x.com/metaversergame",
           "telegram": "https://t.me/metaverserchat",
-          "discord": "https://t.co/RhX8BOiXcn"
+          "discord": "https://t.co/RhX8BOiXcn",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/metaverser-725e3c"
         }
       },
       "skale-platformer": {
@@ -1401,6 +1441,7 @@
         "gradientBackground": "linear-gradient(180deg, #14141C, #111119)",
         "description": "Embark on a culinary journey like no other in 'Ramen Rumble: Apocalypse Express,' where the aroma of savory ramen meets the thrill of post-apocalyptic combat.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "casual"
           ],
@@ -1506,6 +1547,7 @@
         "gradientBackground": "linear-gradient(180deg, #121133, #12204D)",
         "description": "World's first player-owned game platform. Providing AI/ML tooling for game studios.",
         "categories": {
+          "pretge": null,
           "metaverse": null,
           "gaming": [
             "action-adventure",
@@ -1539,6 +1581,7 @@
         "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
         "description": "Join players from around the globe and make your mark on the world of CryptoCrusades. Whether through conquest or trade, there are many ways to lead your Empire!",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "casual"
@@ -1589,6 +1632,7 @@
         "description": "MotoDEX is a NFT game, competition of multi-level racing on motorcycles on high-speed tracks with unlimited opportunities for players.",
         "gradientBackground": "linear-gradient(92deg, rgb(30 30 30) 0%, rgb(63 63 63))",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "racing",
@@ -1778,6 +1822,7 @@
         "gradientBackground": "linear-gradient(#014353, #002830)",
         "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "sports",
             "mobile",
@@ -1837,6 +1882,7 @@
         "gradientBackground": "linear-gradient(#251ae5, #e06729)",
         "description": "Yomi Block Puzzle is your classic block puzzle game, free to play, and has several original features including a lovable pet that reacts as you score combos!",
         "categories": {
+          "pretge": null,
           "gaming": [
             "mobile",
             "casual",
@@ -2011,6 +2057,7 @@
         "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
         "description": "WarEden is a free-to-play PC MMORPG that invites both solo adventurers and guilds to embark on an epic journey. It is a hand-crafted high fantasy world carefully designed to appeal to old-school MMO aficionados introducing the real-life economy in the virtual world using blockchain technology.",
         "categories": {
+          "pretge": null,
           "gaming": [
             "pc",
             "action-adventure",
@@ -2176,6 +2223,20 @@
           "x": "https://x.com/SuperbookingAI"
         }
       },
+      "droplinked": {
+        "alias": "Droplinked",
+        "gradientBackground": "linear-gradient(150deg, #141414, #141414)",
+        "categories": {
+          "partner": null,
+          "entertainment":null
+        },
+        "description": "The leading onchain commerce platform | Supporting the next billion companies and customers to earn more transparently.",
+        "added": 1733245680,
+        "social": {
+          "website": "https://droplinked.com/",
+          "x": "https://x.com/droplinked?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+        }
+      },
       "portal": {
         "alias": "Portal",
         "gradientBackground": "linear-gradient(150deg, rgb(17 2 32), #110220)",
@@ -2201,6 +2262,230 @@
           "x": "https://x.com/chorusone",
           "discord": "https://discord.com/invite/C3J8kwAtDF",
           "github": "https://github.com/ChorusOne"
+        }
+      },
+      "wolfedgecapital": {
+        "alias": "WolfEdge-Capital",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "WolfEdge Capital is a multi-faceted investment fund which also provides validator nodes, focusing on the most ambitious early-stage blockchain startups.",
+        "social": {
+          "website": "https://wolfedge.capital/"
+        }
+      },
+      "stakin": {
+        "alias": "Stakin",
+        "gradientBackground": "linear-gradient(150deg, #160DC7, #1C56AF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Your Trusted Crypto Rewards.",
+        "social": {
+          "website": "https://stakin.com/",
+          "twitter": "https://x.com/StakinOfficial",
+          "telegram": "https://t.me/StakinOfficial"
+        }
+      },
+      "staked": {
+        "alias": "Staked",
+        "gradientBackground": "linear-gradient(150deg, #071A36, #071A36)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Staked runs secure and reliable infrastructure on the leading proof-of-stake blockchains.",
+        "social": {
+          "website": "https://staked.us/",
+          "twitter": "https://x.com/staked_us/",
+          "discord": "https://discord.com/invite/ddHep6E",
+          "github": "https://github.com/Stakedllc/"
+        }
+      },
+      "signia": {
+        "alias": "Signia",
+        "gradientBackground": "linear-gradient(150deg, #265952, #648B4C)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Helping passionate entrepreneurs build impactful world-changing companies.",
+        "social": {
+          "website": "https://signiaventurepartners.com/",
+          "twitter": "https://x.com/signiavc"
+        }
+      },
+      "infstones": {
+        "alias": "InfStones",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Fueling Blockchain Beyond Infinity!",
+        "social": {
+          "website": "https://infstones.com/",
+          "twitter": "https://x.com/infstones",
+          "telegram": "https://t.me/infstones/"
+        }
+      },
+      "hashkey-cloud": {
+        "alias": "Hashkey Cloud",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "AHashQuark provides the most secure, stable and convenient enterprise-level staking services. We have completed the global server deployment and all mainstream Proof of Stake blockchains are supported. HashQuark will be your best choice to participate in the Staking ecosystem.",
+        "social": {
+          "website": "https://www.hashkey.cloud/",
+          "twitter": "https://x.com/HashKeyCloud"
+        }
+      },
+      "freshstaking": {
+        "alias": "FreshSTAKING",
+        "gradientBackground": "linear-gradient(150deg, #182655, #070809)",
+        "categories": {
+          "validator": null
+        },
+        "description": "FreshSTAKING runs bare metal in a SSAE16 SOC2 certified Tier 4 datacenter with geographically distributed private sentry nodes, YubiHSM2 hardware protected keys, with 24/7 monitoring, alerting, and analytics.",
+        "social": {
+          "website": "https://freshstaking.com/",
+          "twitter": "https://freshstaking.com/"
+        }
+      },
+      "easy-2-stake": {
+        "alias": "Easy 2 Stake",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Complete transparency and trust with a secure and stable validator.",
+        "social": {
+          "website": "https://www.easy2stake.com/",
+          "twitter": "https://x.com/easy2stake",
+          "telegram": "https://t.me/easy2stake"
+        }
+      },
+      "cypher-core": {
+        "alias": "Cypher Core",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "We are devoted to bringing financial freedom to everyone.",
+        "social": {
+          "website": "https://cyphercore.io/",
+          "twitter": "https://x.com/cypher_core"
+        }
+      },
+      "chainode-tech": {
+        "alias": "Chainode Tech",
+        "gradientBackground": "linear-gradient(150deg, #050505, #050505)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Chainode Tech is your reliable partner for DLT validation and staking services.",
+        "social": {
+          "website": "https://chainode.tech/",
+          "twitter": "https://x.com/chainodetech"
+        }
+      },
+      "chainflow": {
+        "alias": "Chainflow",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Fair and equitable staking for everyone.",
+        "social": {
+          "website": "https://chainflow.io/",
+          "twitter": "https://x.com/chainflowpos?ref=chainflow.io"
+        }
+      },
+      "blockware": {
+        "alias": "Blockware",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Skale Alpine member, early investor, experienced validator.",
+        "social": {
+          "website": "https://www.blockwaresolutions.com/",
+          "twitter": "https://x.com/blockwareteam"
+        }
+      },
+      "anonstake": {
+        "alias": "Anonstake",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Anonstake is a staking infrastructure provider for Proof-of-Stake blockchains.",
+        "social": {
+          "website": "https://anonstake.com/",
+          "twitter": "https://x.com/anonstake",
+          "telegram": "https://t.me/anonstakecom"
+        }
+      },
+      "ankr": {
+        "alias": "Ankr",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Ankr is your gateway to the Web 3.0, which is connecting consumers, developers and enterprises to the new internet, in a few easy clicks.",
+        "social": {
+          "website": "https://www.ankr.com/",
+          "twitter": "https://x.com/ankr?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "telegram": "https://t.me/anonstakecom"
+        }
+      },
+      "01node": {
+        "alias": "01node",
+        "gradientBackground": "linear-gradient(150deg, #202126, #202126)",
+        "categories": {
+          "validator": null
+        },
+        "description": "01node Professional Staking Services for Skale, Cosmos, Iris, Terra, Solana, Kava, Near, Secret Network",
+        "social": {
+          "website": "https://01node.com/",
+          "twitter": "https://x.com/01node?lang=en"
+        }
+      },
+      "ngcstakex": {
+        "alias": "NGC_StakeX",
+        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
+        "categories": {
+          "validator": null
+        },
+        "description": "NGC Ventures invests in early stage, web 3.0 infrastructure startups and projects. We identify projects with innovative ideas to today’s blockchain problems and work with them from ideation to strategy and market adoption.",
+        "social": {
+          "website": "https://ngc.fund/"
+        }
+      },
+      "nansen": {
+        "alias": "Nansen",
+        "gradientBackground": "linear-gradient(150deg, #061019, #061019)",
+        "categories": {
+          "validator": null
+        },
+        "description": "See forward with the most powerful multichain analytics platform, helping you surface actionable insights fast.",
+        "social": {
+          "website": "https://www.nansen.ai/",
+          "twitter": "https://x.com/nansen_ai",
+          "discord": "https://discord.com/invite/X5u3a7Wef6"
+        }
+      },
+      "myetherwallet": {
+        "alias": "MyEtherWallet",
+        "gradientBackground": "linear-gradient(150deg, #1A96A4, #1A96A4)",
+        "categories": {
+          "validator": null
+        },
+        "description": "Trusted by millions of users, MyEtherWallet is the first and best open source Ethereum wallet. Create a secure crypto wallet, buy, sell, stake and swap.",
+        "social": {
+          "website": "https://www.myetherwallet.com/",
+          "twitter": "https://x.com/myetherwallet/",
+          "telegram": "https://t.me/myetherwallet",
+          "github": "https://github.com/myetherwallet"
         }
       },
       "figment": {
