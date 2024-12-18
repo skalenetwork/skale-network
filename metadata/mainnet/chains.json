@@ -756,6 +756,129 @@
           "discord": "https://t.co/RhX8BOiXcn"
         }
       },
+      "metadogeunity": {
+        "alias": "MetaDogeUnity",
+        "gradientBackground": "linear-gradient(180deg, #26014E, #693B83)",
+        "description": "TPS Kill To Earn Model Open World Game Curated at Zenith Studio.",
+        "added": "1734440392",
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "mobile",
+            "shooter"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://metadogeunity.com/",
+          "x": "https://x.com/MetaDogeUnity",
+          "telegram": "https://t.me/MetadogeUnity",
+          "discord": "https://discord.com/invite/Uffh5tzAqq",
+          "dappradar": "https://dappradar.com/dapp/metadogeunity-zenith-studio"
+        }
+      },
+      "race-4-riches": {
+        "alias": "MetaDogeUnity",
+        "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
+        "description": "F2P Win-To-Earn Multiplayer Racing Game.",
+        "added": "1734440392",
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "racing"
+          ]
+        },
+        "social": {
+          "website": "https://www.race4riches.com/",
+          "x": "https://x.com/RACE4RICHES",
+          "discord": "https://discord.com/invite/yYcXanz5Ha"
+        }
+      },
+      "billions-quest": {
+        "alias": "Billions Quest",
+        "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
+        "description": "Billions Quest is a unique fantasy game that combines real-world stock-picking skills, risk appetite, and game strategy to create a one-of-a-kind gaming experience.",
+        "added": "1734440392",
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "strategy"
+          ]
+        },
+        "social": {
+          "website": "https://skale.billions.quest/",
+          "x": "https://x.com/BillionsQuest",
+          "telegram": "https://telegram.me/BillionsQuest",
+          "discord": "https://discord.com/invite/b7xJrAzYVu",
+          "github": "https://gitlab.com/pv_ventures/billions-contract/-/tree/skale-blitz?ref_type=heads"
+        },
+        "contracts": [
+          "0x15900c9F45Fc734037AB89f0a20f81A04175A157"
+        ]
+    },
+    "sequence": {
+      "alias": "Sequence",
+      "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
+      "description": "Build web3 games with ease. Sequence is the leading all-in-one web3 development platform for games.",
+      "added": "1734440392",
+      "categories": {
+        "gaming": null
+      },
+      "social": {
+        "website": "https://sequence.xyz/",
+        "x": "https://x.com/0xsequence",
+        "discord": "https://discord.com/invite/sequence",
+        "github": "https://github.com/0xsequence"
+      },
+      "contracts": [
+        "0x15900c9F45Fc734037AB89f0a20f81A04175A157"
+      ]
+    },
+      "wits-tcg": {
+        "alias": "WITS-TCG",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "What Is This Sorcery? (WITS) is the next evolution of trading card games, seamlessly blending the physical and digital worlds.",
+        "added": 1734008793,
+        "categories": {
+          "pretge": null,
+          "RWA":null,
+          "gaming": [
+            "pc",
+            "cards_deck-building",
+            "mobile",
+            "strategy",
+            "epic-games-store"
+          ],
+          "digital-collectibles": null,
+          "consumer":null
+        },
+        "social": {
+          "website": "https://wits.academy/",
+          "x": "https://twitter.com/wits_tcg",
+          "discord": "https://discord.gg/wits",
+          "dappradar": "https://dappradar.com/dapp/what-is-this-sorcery?range-ds=30d",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/what-is-this-sorcery-trading-card-game-166a41"
+        }
+      },
+      "death-touch": {
+        "alias": "Death Touch",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "Death Touch is a digital trading card game created by Deadfellaz in partnership with SKALE.",
+        "added": 1734008793,
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "cards_deck-building",
+            "mobile"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://www.deadfellaz.io/",
+          "x": "https://x.com/deadfellaz",
+          "discord": "https://t.co/hZKpaxDt2O"
+        }
+      },
       "world3": {
         "alias": "World3",
         "gradientBackground": "linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0))",
