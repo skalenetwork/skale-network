@@ -100,6 +100,25 @@
           "github": "https://github.com/Transak"
         }
       },
+      "unipoly-coin": {
+        "alias": "Unipoly Coin",
+        "gradientBackground": "linear-gradient(180deg, #ffd51e, #ffd51e)",
+        "description": "Unipoly Coin is a revolutionary GameFi coin where you can earn rewards while having fun with our awesome games.",
+        "added": "1735821349",
+        "categories": {
+          "pretge": null,
+          "gaming": null
+        },
+        "social": {
+          "website": "https://unipolycoin.com/",
+          "x": "https://x.com/unipolycoin",
+          "telegram": "https://t.me/unipolycoinchannel",
+          "discord": "https://discord.com/invite/69QndCcb"
+        },
+        "contracts": [
+          "0x7cA58393EB55aeC51204f2370c1B9cCCAa9D9784"
+        ]
+      },
       "ruby-exchange": {
         "alias": "Ruby.Exchange",
         "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
@@ -814,6 +833,29 @@
         },
         "contracts": [
           "0x15900c9F45Fc734037AB89f0a20f81A04175A157"
+        ]
+      },
+      "mff-game": {
+        "alias": "MFF Game",
+        "gradientBackground": "linear-gradient(180deg, #342C38, #090810)",
+        "description": "MFF GAME | Build your legend, match by match!",
+        "added": "1735821349",
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "sports"
+          ]
+        },
+        "social": {
+          "website": "hhttps://www.mff.game/",
+          "x": "https://x.com/MFFgame",
+          "discord": "https://discord.com/invite/AEmDM8P4X9",
+          "dappradar": "https://dappradar.com/dapp/mff-game"
+        },
+        "contracts": [
+          "0x89C2ebF3b69F78cF8439217cd58d90220B36159C",
+          "0xF2EFbdA16619B5B0b6C23978745558Ee7BeB132B",
+          "0xe9AF133b7FB840a456799C9519A28C70f875C607"
         ]
     },
     "sequence": {
