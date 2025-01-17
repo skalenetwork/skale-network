@@ -102,9 +102,9 @@
       },
       "unipoly-coin": {
         "alias": "Unipoly Coin",
-        "gradientBackground": "linear-gradient(180deg, #ffd51e, #ffd51e)",
+        "gradientBackground": "linear-gradient(rgb(40 33 3), rgb(15 12 1))",
         "description": "Unipoly Coin is a revolutionary GameFi coin where you can earn rewards while having fun with our awesome games.",
-        "added": "1735821349",
+        "added": 1735821349,
         "categories": {
           "pretge": null,
           "gaming": null
@@ -376,21 +376,21 @@
         "description": "CACZero can onboard web2 to web3 & assist your commerce to go viral. Enable Democratised hyperlocal distributors leveraging the power of your users/ community.",
         "categories": {
           "infrastructure": null,
-          "tools":null,
-          "wallet":null,
-          "social-network":null,
-          "consumer":null,
-          "utility":null,
-          "RWA":null
+          "tools": null,
+          "wallet": null,
+          "social-network": null,
+          "consumer": null,
+          "utility": null,
+          "RWA": null
         },
         "added": 1732635221,
         "social": {
           "website": "https://caczero.xyz/",
           "x": "https://x.com/theallyIndia"
-      },
-      "contracts": [
-        "0xb6e10cAb19aFcc77763071c114442A2D6fBA95E9"
-      ]
+        },
+        "contracts": [
+          "0xb6e10cAb19aFcc77763071c114442A2D6fBA95E9"
+        ]
       },
       "scoredetect": {
         "alias": "ScoreDetect",
@@ -573,11 +573,11 @@
           "x": "https://x.com/SkillfulAI",
           "telegram": "https://t.me/+oNknk6vJj-0wODgx",
           "discord": "https://discord.com/invite/WhAYqkXYkg"
-      },
-      "contracts": [
-        "0x133B8F6B93BCF0E50c4B19499E1909E9F8Fb03B0",
-        "0xD45A094Df292d84ec071d70d186Eb0061e0Be199"
-      ]
+        },
+        "contracts": [
+          "0x133B8F6B93BCF0E50c4B19499E1909E9F8Fb03B0",
+          "0xD45A094Df292d84ec071d70d186Eb0061e0Be199"
+        ]
       },
       "forumai": {
         "alias": "ForumAI",
@@ -740,7 +740,7 @@
         "gradientBackground": "linear-gradient(180deg, #020D12, #020D12)",
         "description": "Ether Strike is a first person shooter launched by Zeus that places the player in the perspective of a character who is armed with more than 20 variations of weapons and must engage in combat with enemies.",
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "shooter",
             "pc"
@@ -750,7 +750,7 @@
           "website": "https://beta.devzeus.io/games",
           "x": "https://x.com/FPS_EtherStrike",
           "telegram": "https://t.me/zeusblock",
-          "discord":"https://t.co/h8zbAbEncR"
+          "discord": "https://t.co/h8zbAbEncR"
         },
         "contracts": [
           "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
@@ -777,9 +777,9 @@
       },
       "metadogeunity": {
         "alias": "MetaDogeUnity",
-        "gradientBackground": "linear-gradient(180deg, #26014E, #693B83)",
+        "gradientBackground": "linear-gradient(#333a50, #1e2331)",
         "description": "TPS Kill To Earn Model Open World Game Curated at Zenith Studio.",
-        "added": "1734440392",
+        "added": 1734440392,
         "categories": {
           "pretge": null,
           "gaming": [
@@ -800,7 +800,7 @@
         "alias": "Race 4 Riches",
         "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
         "description": "F2P Win-To-Earn Multiplayer Racing Game.",
-        "added": "1734440392",
+        "added": 1734440392,
         "categories": {
           "pretge": null,
           "gaming": [
@@ -817,7 +817,7 @@
         "alias": "Billions Quest",
         "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
         "description": "Billions Quest is a unique fantasy game that combines real-world stock-picking skills, risk appetite, and game strategy to create a one-of-a-kind gaming experience.",
-        "added": "1734440392",
+        "added": 1734440392,
         "categories": {
           "pretge": null,
           "gaming": [
@@ -839,7 +839,7 @@
         "alias": "MFF Game",
         "gradientBackground": "linear-gradient(180deg, #342C38, #090810)",
         "description": "MFF GAME | Build your legend, match by match!",
-        "added": "1735821349",
+        "added": 1735821349,
         "categories": {
           "pretge": null,
           "gaming": [
@@ -857,25 +857,25 @@
           "0xF2EFbdA16619B5B0b6C23978745558Ee7BeB132B",
           "0xe9AF133b7FB840a456799C9519A28C70f875C607"
         ]
-    },
-    "sequence": {
-      "alias": "Sequence",
-      "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
-      "description": "Build web3 games with ease. Sequence is the leading all-in-one web3 development platform for games.",
-      "added": "1734440392",
-      "categories": {
-        "gaming": null
       },
-      "social": {
-        "website": "https://sequence.xyz/",
-        "x": "https://x.com/0xsequence",
-        "discord": "https://discord.com/invite/sequence",
-        "github": "https://github.com/0xsequence"
+      "sequence": {
+        "alias": "Sequence",
+        "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
+        "description": "Build web3 games with ease. Sequence is the leading all-in-one web3 development platform for games.",
+        "added": 1734440392,
+        "categories": {
+          "gaming": null
+        },
+        "social": {
+          "website": "https://sequence.xyz/",
+          "x": "https://x.com/0xsequence",
+          "discord": "https://discord.com/invite/sequence",
+          "github": "https://github.com/0xsequence"
+        },
+        "contracts": [
+          "0x15900c9F45Fc734037AB89f0a20f81A04175A157"
+        ]
       },
-      "contracts": [
-        "0x15900c9F45Fc734037AB89f0a20f81A04175A157"
-      ]
-    },
       "wits-tcg": {
         "alias": "WITS-TCG",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
@@ -883,7 +883,7 @@
         "added": 1734008793,
         "categories": {
           "pretge": null,
-          "RWA":null,
+          "RWA": null,
           "gaming": [
             "pc",
             "cards_deck-building",
@@ -892,7 +892,7 @@
             "epic-games-store"
           ],
           "digital-collectibles": null,
-          "consumer":null
+          "consumer": null
         },
         "social": {
           "website": "https://wits.academy/",
@@ -947,7 +947,7 @@
         "categories": {
           "pretge": null,
           "ai": null,
-          "gaming":[
+          "gaming": [
             "strategy",
             "mobile"
           ]
@@ -971,7 +971,7 @@
         "added": 1732625133,
         "categories": {
           "pretge": null,
-          "gaming":[
+          "gaming": [
             "strategy",
             "mobile",
             "rpg"
@@ -1409,9 +1409,9 @@
         "tags": [
           "pretge"
         ],
-      "contracts": [
-        "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
-      ]
+        "contracts": [
+          "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
+        ]
       },
       "tom": {
         "alias": "TOM",
@@ -2367,10 +2367,10 @@
       },
       "droplinked": {
         "alias": "Droplinked",
-        "gradientBackground": "linear-gradient(150deg, #141414, #141414)",
+        "gradientBackground": "linear-gradient(150deg, rgb(19 37 33), rgb(4 4 4))",
         "categories": {
           "partner": null,
-          "entertainment":null
+          "entertainment": null
         },
         "description": "The leading onchain commerce platform | Supporting the next billion companies and customers to earn more transparently.",
         "added": 1733245680,
