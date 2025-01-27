@@ -340,6 +340,26 @@
           "discord": "https://t.co/UFkoU6ERvY"
         }
       },
+      "xo": {
+        "alias": "XO",
+        "gradientBackground": "linear-gradient(230deg, rgb(0, 0, 0), rgb(0 0 0))",
+        "description": "XO is the game changer of next generation social discovery platform. We help GenZ initiate intimate conversations with blockchain-verified identity and AI assistance.",
+        "categories": {
+          "ai": null,
+          "social-network":null,
+          "pretge":null
+        },
+        "added": 1737979094,
+        "social": {
+          "website": "https://dapps-rankings.dappradar.com/deeplink/48777",
+          "x": "https://twitter.com/XO_app",
+          "discord": "https://t.me/xo_protocol",
+          "dappradar": "https://dappradar.com/dapp/xo/"
+      },
+      "contracts": [
+        "0x624A399cB7eF3b9a409e0877f574CB03275ba0C3"
+      ]
+      },
       "skale-naming-service": {
         "alias": "SKALE Naming Service",
         "gradientBackground": "linear-gradient(230deg, rgb(14, 14, 14), rgb(14, 14, 14))",
@@ -475,7 +495,7 @@
         "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
         "description": "Dmail is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
         "categories": {
-          "web3": null,
+          "ai": null,
           "social-network": null
         },
         "contracts": [
