@@ -328,7 +328,7 @@
       },
       "belong": {
         "alias": "Belong",
-        "gradientBackground": "linear-gradient(230deg, rgb(22, 22, 22), rgb(39 39 39))",
+        "gradientBackground": "linear-gradient(230deg, rgb(22 22 22), rgb(39 39 39))",
         "description": "Token gating for communities, events, RWA and DePIN.",
         "categories": {
           "digital-collectibles": null
@@ -342,7 +342,7 @@
       },
       "xo": {
         "alias": "XO",
-        "gradientBackground": "linear-gradient(230deg, rgb(0, 0, 0), rgb(0 0 0))",
+        "gradientBackground": "linear-gradient(230deg, rgb(0 0 0), rgb(0 0 0))",
         "description": "XO is the game changer of next generation social discovery platform. We help GenZ initiate intimate conversations with blockchain-verified identity and AI assistance.",
         "categories": {
           "ai": null,
