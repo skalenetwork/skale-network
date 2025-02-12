@@ -495,8 +495,8 @@
         "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
         "description": "Dmail is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
         "categories": {
+          "social": null
           "ai": null,
-          "social-network": null
         },
         "contracts": [
           "0xD1A3abf42f9E66BE86cfDEa8c5C2c74f041c5e14"
@@ -554,7 +554,7 @@
         "description": "SIRKL is the first messaging app with a crypto wallet identification. Talk to wallets, friends, NFT communities, and more using only your wallet as a login!",
         "categories": {
           "pretge": null,
-          "social-network": null,
+          "social": null,
           "data-information": null
         },
         "social": {
