@@ -65,6 +65,20 @@
           "0x73bC332384Bc90F542Afe3FE5cc5dFcB97827AAE"
         ]
       },
+      "maiv": {
+        "alias": "MAIV",
+        "gradientBackground": "linear-gradient(45deg, #000000, #000000)",
+        "description": "A Unique RWA Platform. Eliminating Barriers to Institutional Grade Returns. Build the Future with MAIV.",
+        "added": 1741869331,
+        "categories": {
+          "RWA": null
+        },
+        "social": {
+          "website": "https://www.maiv.io/",
+          "x": "https://x.com/MAIV_FINANCE",
+          "telegram": "https://t.me/MAIV_FINANCE"
+        }
+        },
       "mesonfi": {
         "alias": "Meson.Fi",
         "gradientBackground": "linear-gradient(45deg, #EFF3EB, #EFF4EA)",
@@ -815,6 +829,30 @@
           "discord": "https://discord.com/invite/Uffh5tzAqq",
           "dappradar": "https://dappradar.com/dapp/metadogeunity-zenith-studio"
         }
+      },
+      "tenamint": {
+        "alias": "TENAMINT",
+        "gradientBackground": "linear-gradient(180deg, #fafaf9, #fafaf9)",
+        "description": "TENAMINT - the Ultimate Sports Pick'em App. Make your free picks, compete for cash prizes, and win rewards.",
+        "added": "1741869331",
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "mobile",
+            "casual",
+            "sports"
+          ],
+          "digital-collectibles": null
+        },
+        "social": {
+          "website": "https://tenamint.com/",
+          "x": "https://x.com/PlayTENAMINT",
+          "telegram": "https://t.me/+iA6HME9ek2wzOTNh",
+          "github": "https://github.com/tenamint"
+      },
+      "contracts": [
+        "0x2e3818324a9a37Ff42E40Ac5276fdd4B9775df0d"
+      ]
       },
       "race-4-riches": {
         "alias": "Race 4 Riches",
