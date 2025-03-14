@@ -1196,10 +1196,13 @@
         "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
         "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
         "categories": {
+          "gaming": [
+            "mobile"
+          ],
           "digital-collectibles": null
         },
         "social": {
-          "website": "https://hurley.jump.trade/",
+          "website": "https://apps.apple.com/us/app/hurley-super-surfer/id1668289807",
           "x": "https://t.me/jumptradenft",
           "telegram": "https://t.me/jumptradenft",
           "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
@@ -1238,7 +1241,7 @@
           "gaming": null
         },
         "social": {
-          "website": "https://www.zoppel.io/",
+          "website": "https://apps.apple.com/it/app/zoppel-the-legend-of-furiax/id6447437326",
           "x": "https://x.com/zoppel_u",
           "telegram": "https://t.me/ZOPPELINT",
           "discord": "https://discord.com/invite/VP356srQGR"
@@ -1977,17 +1980,17 @@
       },
       "chainguardians": {
         "alias": "ChainGuardians",
-        "gradientBackground": "linear-gradient(180deg, #140842, #10082f)",
-        "description": "Welcome to ChainGuardians, a player-driven platform revolutionizing the gaming world! By combining traditional gaming concepts with emerging technologies, we've created an ecosystem where players can earn rewards through our free-to-play digital asset mining platform and Role-Playing Game. But we don't stop there - we're constantly forming partnerships and working collaboratively to smash through ideological barriers oppressing user ownership and digital economies.",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "The ChainGuardians are the world's first superheroes dedicated to harnessing the power of blockchain technologies.",
         "categories": {
           "gaming": null,
           "digital-collectibles": null
         },
         "social": {
-          "website": "https://www.chainguardians.io/",
-          "x": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "telegram": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "discord": "https://discord.com/invite/WZDx96TNb3"
+          "website": "https://pentagon.games/",
+          "x": "https://x.com/PentagonGamesXP",
+          "telegram": "https://t.me/PentagonGamesXP",
+          "github": "https://github.com/ChainGuardians"
         },
         "contracts": [
           "0xE9d487B950A5075D8eaB084e2E04971340765b86",
@@ -2204,7 +2207,7 @@
           "gaming": null
         },
         "social": {
-          "website": "https://arenavs.com/games/arena_master",
+          "website": "https://arenavs.com/",
           "x": "https://x.com/arenaweb3?s=21&t=eJC2rnI1Ww1E49kSqeWi0g",
           "telegram": "https://t.me/Arenaweb3games",
           "discord": "https://discord.com/invite/FxVyTPtF7f",
@@ -2726,7 +2729,7 @@
         "description": "BlockScout Explorer is an application for viewing, confirming, and inspecting transactions on EVM (Ethereum Virtual Machine) blockchains.",
         "social": {
           "website": "https://www.blockscout.com/",
-          "x": "https://x.com/blockscoutcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/blockscout",
           "telegram": "https://t.me/blockscoutcommunity",
           "github": "https://github.com/blockscout"
         }
