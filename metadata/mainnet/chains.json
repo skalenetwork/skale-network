@@ -157,7 +157,7 @@
           ]
         },
         "social": {
-          "website": "https://ruby.exchange/",
+          "website": "https://mainnet.skalenodes.com/fs/elated-tan-skat/27d20f14b495c5c0831eaaeb9263cad8d56f4b73/ruby",
           "x": "https://x.com/intent/follow?screen_name=ruby_exchange",
           "discord": "https://t.co/FvLC8svSxL",
           "github": "https://github.com/RubyExchange",
@@ -621,7 +621,6 @@
           "ai": null
         },
         "social": {
-          "website": "https://www.forumai.dev/",
           "x": "https://x.com/ForumAILabs",
           "telegram": "https://t.me/OfficalForumAI",
           "discord": "https://discord.com/invite/22JCYyy7J5"
@@ -696,7 +695,6 @@
           "oracle": null
         },
         "social": {
-          "website": "https://razor.network/",
           "x": "https://x.com/razor_network",
           "telegram": "https://t.me/razornetwork",
           "github": "https://github.com/razor-network",
@@ -781,7 +779,6 @@
           ]
         },
         "social": {
-          "website": "https://beta.devzeus.io/games",
           "x": "https://x.com/FPS_EtherStrike",
           "telegram": "https://t.me/zeusblock",
           "discord":"https://t.co/h8zbAbEncR"
@@ -905,7 +902,6 @@
           ]
         },
         "social": {
-          "website": "hhttps://www.mff.game/",
           "x": "https://x.com/MFFgame",
           "discord": "https://discord.com/invite/AEmDM8P4X9",
           "dappradar": "https://dappradar.com/dapp/mff-game"
@@ -1161,8 +1157,7 @@
           "entertainment": null
         },
         "social": {
-          "website": "https://manetho.com/",
-          "x": "https://x.com/manetho_app"
+          "website": "https://manetho.com/"
         }
       },
       "turf": {
@@ -1203,7 +1198,6 @@
         },
         "social": {
           "website": "https://apps.apple.com/us/app/hurley-super-surfer/id1668289807",
-          "x": "https://t.me/jumptradenft",
           "telegram": "https://t.me/jumptradenft",
           "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
         },
@@ -1409,7 +1403,7 @@
           ]
         },
         "social": {
-          "website": "https://pickaxecrypto.io/",
+          "website": "https://voxelverse.io/",
           "x": "https://x.com/voxelverseinfo",
           "discord": "https://discord.com/invite/JBFYtybhR4",
           "dappradar": "https://dappradar.com/dapp/voxelverse"
@@ -1524,7 +1518,7 @@
         },
         "social": {
           "website": "https://subsquid.io/",
-          "x": "https://x.com/subsquid",
+          "x": "https://x.com/hellosqd",
           "telegram": "https://t.me/subsquid",
           "discord": "https://discord.com/invite/subsquid",
           "github": "https://github.com/subsquid"
@@ -1560,8 +1554,6 @@
           ]
         },
         "social": {
-          "website": "https://www.naviswar.com/",
-          "x": "https://x.com/naviswargame",
           "telegram": "https://t.me/naviswargame",
           "discord": "https://discord.com/invite/ujeY9vd5PA"
         }
@@ -1599,7 +1591,6 @@
         },
         "social": {
           "website": "https://metaverser.me/",
-          "x": "https://x.com/metaversergame",
           "telegram": "https://t.me/metaverserchat",
           "discord": "https://t.co/RhX8BOiXcn",
           "epic-games-store": "https://store.epicgames.com/en-US/p/metaverser-725e3c"
@@ -1740,7 +1731,7 @@
           "pretge": null
         },
         "social": {
-          "website": "https://degenroyale.net/",
+          "website": "https://opensea.io/collection/degenroyale-cashgun",
           "x": "https://x.com/Degen_Royale",
           "discord": "https://discord.com/invite/fbPVv25bx8"
         }
@@ -2200,9 +2191,9 @@
         ]
       },
       "arena-games-platform": {
-        "alias": "Arena Games",
+        "alias": "Arena VS",
         "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
-        "description": "Arena Games is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
+        "description": "ArenaVS is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
         "categories": {
           "gaming": null
         },
@@ -2388,16 +2379,16 @@
           "telegram": "https://t.me/pivotweb3"
         }
       },
-      "cv-pad": {
-        "alias": "CV Pad",
+      "agent-launcher": {
+        "alias": "Agent Launcher",
         "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), #b0dbfe)",
         "categories": {
           "partner": null
         },
         "description": "Curated early-stage Web3 projects, powered by an industry-leading fund and a powerful web3 ecosystem.",
         "social": {
-          "website": "https://www.cvpad.io/",
-          "x": "https://x.com/CvPad_xyz",
+          "website": "https://www.agentlauncher.io/",
+          "x": "https://x.com/CVAgentlauncher",
           "telegram": "https://t.me/CVPAD_NEWS"
         }
       },
