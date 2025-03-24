@@ -340,6 +340,26 @@
           "discord": "https://discord.com/invite/6CAeRQFFTs"
         }
       },
+      "tom-talk": {
+        "alias": "Tom Talk",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "First Talk to Earn Game on EVM Blockchain!",
+        "categories": {
+          "pretge":null,
+          "gaming": [
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "hhttps://tomtalk.io/",
+          "x": "https://x.com/Tomtalkofficial",
+          "telegram": "https://t.me/tomtalkofficial",
+          "dappradar": "https://dappradar.com/dapp/tomtalk-2/analytics?chains-ha=skale-calypso"
+        },
+          "contracts": [
+        "0x52D852938f3D9F84879f25Ebff33C4f37E420266"
+       ]
+      },
       "belong": {
         "alias": "Belong",
         "gradientBackground": "linear-gradient(230deg, rgb(22 22 22), rgb(39 39 39))",
@@ -353,26 +373,26 @@
           "x": "https://x.com/belongnet",
           "discord": "https://t.co/UFkoU6ERvY"
         }
+    },
+    "xo": {
+      "alias": "XO",
+      "gradientBackground": "linear-gradient(230deg, rgb(0 0 0), rgb(0 0 0))",
+      "description": "XO is the game changer of next generation social discovery platform. We help GenZ initiate intimate conversations with blockchain-verified identity and AI assistance.",
+      "categories": {
+        "ai": null,
+        "social-network":null,
+        "pretge":null
       },
-      "xo": {
-        "alias": "XO",
-        "gradientBackground": "linear-gradient(230deg, rgb(0 0 0), rgb(0 0 0))",
-        "description": "XO is the game changer of next generation social discovery platform. We help GenZ initiate intimate conversations with blockchain-verified identity and AI assistance.",
-        "categories": {
-          "ai": null,
-          "social-network":null,
-          "pretge":null
-        },
-        "added": 1737979094,
-        "social": {
-          "website": "https://dapps-rankings.dappradar.com/deeplink/48777",
-          "x": "https://twitter.com/XO_app",
-          "telegram": "https://t.me/xo_protocol",
-          "dappradar": "https://dappradar.com/dapp/xo/"
-      },
-      "contracts": [
-        "0x624A399cB7eF3b9a409e0877f574CB03275ba0C3"
-      ]
+      "added": 1742835799,
+      "social": {
+        "website": "https://dapps-rankings.dappradar.com/deeplink/48777",
+        "x": "https://twitter.com/XO_app",
+        "telegram": "https://t.me/xo_protocol",
+        "dappradar": "https://dappradar.com/dapp/xo/"
+    },
+    "contracts": [
+      "0x624A399cB7eF3b9a409e0877f574CB03275ba0C3"
+    ]
       },
       "skale-naming-service": {
         "alias": "SKALE Naming Service",
@@ -850,6 +870,31 @@
       "contracts": [
         "0x2e3818324a9a37Ff42E40Ac5276fdd4B9775df0d"
       ]
+    },
+    "peer2play": {
+      "alias": "Peer2Play",
+      "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+      "description": "Peer2Play empowers gamers and developers alike by offering intuitive tools, seamless blockchain integration, and true digital ownership.",
+      "added": "1742835799",
+      "categories": {
+        "infrastructure": null,
+        "gaming": null,
+        "tools": null,
+        "pretge": null
+      },
+      "social": {
+        "website": "https://app.p2p.network/",
+        "x": "https://x.com/Peer2Play_P2P",
+        "telegram": "https://t.me/Peer2PlayAI",
+        "discord": "https://discord.com/invite/peer2play-1246802812407382036",
+        "github": "https://github.com/Peer2Play"
+    },
+    "contracts": [
+      "0x8cFC5226d7e7807a24964a3dad1c860a874e4EAA",
+      "0xa53b75F1786efB6AC6a2E7571D9F17338BC4C3C7",
+      "0xB40FAc9a58a82982d2Cbe5e0e105fF84f52cec14",
+      "0x7Df33881190c34Ff46F996186D465A40E2c4B232"
+    ]
       },
       "race-4-riches": {
         "alias": "Race 4 Riches",
@@ -1467,27 +1512,6 @@
       "contracts": [
         "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
       ]
-      },
-      "tom": {
-        "alias": "TOM",
-        "gradientBackground": "linear-gradient(180deg, #68A5B2, #FFEAAC)",
-        "description": "TOM Clicker is a clicker, resource management and strategy game where players earn points by clicking the mouse, inviting friends, completing tasks and buying upgrades to grow faster.",
-        "categories": {
-          "gaming": [
-            "mobile",
-            "casual",
-            "strategy"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://tomcoin.app/#home",
-          "x": "https://x.com/TomCoinBnb",
-          "discord": "https://t.me/TomCoinBNB"
-        },
-        "tags": [
-          "pretge"
-        ]
       },
       "tcg-world": {
         "alias": "TCG World",
