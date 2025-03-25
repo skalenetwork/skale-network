@@ -554,7 +554,7 @@
           ]
         },
         "social": {
-          "website": "hhttps://tomtalk.io/",
+          "website": "https://tomtalk.io",
           "x": "https://x.com/Tomtalkofficial",
           "telegram": "https://t.me/tomtalkofficial",
           "dappradar": "https://dappradar.com/dapp/tomtalk-2/analytics?chains-ha=skale-calypso"
@@ -809,7 +809,7 @@
       },
       "peer2play": {
         "alias": "Peer2Play",
-        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "gradientBackground": "linear-gradient(180deg, #110a2c, #171146)",
         "description": "Peer2Play empowers gamers and developers alike by offering intuitive tools, seamless blockchain integration, and true digital ownership.",
         "added": "1742835799",
         "categories": {
@@ -2235,7 +2235,7 @@
           "0xb281d917239a74013F319636aECf1DEAbFB79D28"
         ]
       },
-      "arena-games-platform": {
+      "arena-vs": {
         "alias": "Arena VS",
         "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
         "description": "ArenaVS is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
