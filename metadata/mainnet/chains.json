@@ -324,22 +324,6 @@
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
-      "mintpass": {
-        "alias": "MintPass",
-        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(255 255 255))",
-        "description": "Share your travels and get rewarded for your recommendations.",
-        "categories": {
-          "pretge": null,
-          "ai": null,
-          "entertainment": null
-        },
-        "added": 1723984193,
-        "social": {
-          "website": "https://mintpass.com/",
-          "x": "https://x.com/MintPassTravel",
-          "discord": "https://discord.com/invite/6CAeRQFFTs"
-        }
-      },
       "belong": {
         "alias": "Belong",
         "gradientBackground": "linear-gradient(230deg, rgb(22 22 22), rgb(39 39 39))",
@@ -808,25 +792,6 @@
           "0xb656f77fC97F8c52698697c2604b9C962BA9E325"
         ]
       },
-      "land-of-chasers": {
-        "alias": "Land of Chasers",
-        "gradientBackground": "linear-gradient(180deg, #0A070D, #0D0A0F)",
-        "description": "Land of Chasers is a roguelike action RPG set on a growing planet.",
-        "categories": {
-          "pretge": null,
-          "gaming": [
-            "pc",
-            "action-adventure",
-            "rpg"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://thelandofchasers.io/",
-          "x": "https://x.com/landofchasers",
-          "discord": "https://t.co/RhX8BOiXcn"
-        }
-      },
       "metadogeunity": {
         "alias": "MetaDogeUnity",
         "gradientBackground": "linear-gradient(180deg, #26014E, #693B83)",
@@ -1193,19 +1158,6 @@
           "discord": "https://discord.com/invite/moxyio"
         }
       },
-      "manetho": {
-        "alias": "Manetho",
-        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
-        "description": "Manetho brings you blockchain and NFT technology with tens of thousands of audio content.",
-        "added": 1728303236,
-        "categories": {
-          "pretge": null,
-          "entertainment": null
-        },
-        "social": {
-          "website": "https://manetho.com/"
-        }
-      },
       "turf": {
         "alias": "Turf",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
@@ -1253,25 +1205,6 @@
           "0x43b1288794de3A9F4D8cA3BbEf8f1A5dD957fbE7"
         ]
       },
-      "drakons": {
-        "alias": "Drakons",
-        "gradientBackground": "linear-gradient(180deg, #FEFEFE, #FEFEFE)",
-        "description": "Drakons is a Dapp that lets you play to earn and stake $DRK with Dragon NFTs.",
-        "categories": {
-          "gaming": [
-            "strategy"
-          ],
-          "digital-collectibles": null,
-          "pretge": null
-        },
-        "social": {
-          "website": "https://www.drakons.io/",
-          "x": "https://x.com/DrakonsIO",
-          "telegram": "https://t.me/DrakonsIO",
-          "discord": "https://discord.com/invite/n9ZVQvv",
-          "dappradar": "https://dappradar.com/dapp/drakons-2"
-        }
-      },
       "zoppel": {
         "alias": "Zoppel",
         "gradientBackground": "linear-gradient(180deg, #3A201C, #67462E)",
@@ -1285,23 +1218,6 @@
           "x": "https://x.com/zoppel_u",
           "telegram": "https://t.me/ZOPPELINT",
           "discord": "https://discord.com/invite/VP356srQGR"
-        }
-      },
-      "netherak-demons": {
-        "alias": "Netherak Demons",
-        "gradientBackground": "linear-gradient(180deg, #AB6059, #250E0E)",
-        "description": "The summoning ritual draws near, prepare your soul.",
-        "added": 1725279614,
-        "categories": {
-          "pretge": null,
-          "gaming": [
-            "epic-games-store"
-          ]
-        },
-        "social": {
-          "website": "https://netherak.com/",
-          "x": "https://x.com/nkdemons",
-          "epic-games-store": "https://store.epicgames.com/en-US/p/netherak-demons-a419cf"
         }
       },
       "wodo-network": {
@@ -1513,27 +1429,6 @@
       "contracts": [
         "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
       ]
-      },
-      "tom": {
-        "alias": "TOM",
-        "gradientBackground": "linear-gradient(180deg, #68A5B2, #FFEAAC)",
-        "description": "TOM Clicker is a clicker, resource management and strategy game where players earn points by clicking the mouse, inviting friends, completing tasks and buying upgrades to grow faster.",
-        "categories": {
-          "gaming": [
-            "mobile",
-            "casual",
-            "strategy"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://tomcoin.app/#home",
-          "x": "https://x.com/TomCoinBnb",
-          "discord": "https://t.me/TomCoinBNB"
-        },
-        "tags": [
-          "pretge"
-        ]
       },
       "tcg-world": {
         "alias": "TCG World",
@@ -1799,23 +1694,6 @@
           "x": "https://x.com/worldplayleague"
         }
       },
-      "burgercities": {
-        "alias": "BurgerCities",
-        "gradientBackground": "linear-gradient(180deg, #12121A, #19141A)",
-        "description": "BurgerCities is a one-stop play & earn MetaFi platform.",
-        "categories": {
-          "gaming": [
-            "web3"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://burgercities.org/",
-          "x": "https://x.com/BurgerCitiesBar",
-          "telegram": "https://t.me/burgercities",
-          "discord": "https://discord.com/invite/TmwJfQNzpF"
-        }
-      },
       "cryptocrusades": {
         "alias": "CryptoCrusades",
         "gradientBackground": "linear-gradient(180deg, #e5cba1, #a2875c)",
@@ -1894,42 +1772,6 @@
           "0x56F57fa49DF41aE11610d362A00819755183733a",
           "0x3cE4e8Edd002e653aa07b0b239bF5aa3bafde775",
           "0xDD32347781d20406afA152B0067d67a8119e4d18"
-        ]
-      },
-      "fivetars": {
-        "alias": "5TARS",
-        "gradientBackground": "linear-gradient(92deg, #00121e 0%, #052b44",
-        "description": "Predict games and build your dream team in our free Web3 football game. Compete against fans worldwide for an immersive and engaging experience!",
-        "categories": {
-          "pretge": null,
-          "gaming": [
-            "mobile",
-            "sports",
-            "cards_deck-building"
-          ]
-        },
-        "social": {
-          "website": "https://5tars.io/",
-          "x": "https://x.com/5tarsgame?lang=en",
-          "telegram": "https://t.me/Game5TARS",
-          "discord": "https://discord.com/invite/5tarsgame",
-          "dappradar": "https://dappradar.com/dapp/5tars/"
-        },
-        "tags": [
-          "pretge"
-        ],
-        "contracts": [
-          "0x23C1F1a60F18e304fC81eDB2cb98C04a59aef466",
-          "0xda7D9012A36d85F61Ca6e0d85998FBEf0BA640B6",
-          "0xcBffbd2421B03786c256B117953a8486bc9880C9",
-          "0x9A46e3ea68d243f788C7499C88C6714cE67518D3",
-          "0x3b066a8C2487F5723A221cf29F81a17a4ed4cd5a",
-          "0x35fde43576E68F6EE5Dfa81DD8e0fc604B258d62",
-          "0x0F9eaeC79E7ec5e426B556eFAE3D9A7585EdC902",
-          "0xA18eDA12C87eF30cCB8f294D90f58Ce72144ac11",
-          "0x4BF615f221Ef736548f38226Eb7173Fb69cF9906",
-          "0x13feEcE0ACd24E175154f13849166f18287Cf07f",
-          "0xb850De68296D091974Dc32F9D6aDD2F992fA4310"
         ]
       },
       "bit-hotel": {
