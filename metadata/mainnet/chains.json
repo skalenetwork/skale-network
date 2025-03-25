@@ -157,7 +157,7 @@
           ]
         },
         "social": {
-          "website": "https://ruby.exchange/",
+          "website": "https://mainnet.skalenodes.com/fs/elated-tan-skat/27d20f14b495c5c0831eaaeb9263cad8d56f4b73/ruby",
           "x": "https://x.com/intent/follow?screen_name=ruby_exchange",
           "discord": "https://t.co/FvLC8svSxL",
           "github": "https://github.com/RubyExchange",
@@ -390,6 +390,26 @@
           "0xDa19ef7c52a35f0731253658560F852c3348D7AD"
         ]
       },
+      "tom-talk": {
+        "alias": "Tom Talk",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "First Talk to Earn Game on EVM Blockchain!",
+        "categories": {
+          "pretge":null,
+          "gaming": [
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://tomtalk.io",
+          "x": "https://x.com/Tomtalkofficial",
+          "telegram": "https://t.me/tomtalkofficial",
+          "dappradar": "https://dappradar.com/dapp/tomtalk-2/analytics?chains-ha=skale-calypso"
+        },
+        "contracts": [
+      "0x52D852938f3D9F84879f25Ebff33C4f37E420266"
+     ]
+      },
       "keepsake": {
         "alias": "Keepsake",
         "gradientBackground": "linear-gradient(230deg, rgb(129 179 167), rgb(61 152 157))",
@@ -621,7 +641,6 @@
           "ai": null
         },
         "social": {
-          "website": "https://www.forumai.dev/",
           "x": "https://x.com/ForumAILabs",
           "telegram": "https://t.me/OfficalForumAI",
           "discord": "https://discord.com/invite/22JCYyy7J5"
@@ -696,7 +715,6 @@
           "oracle": null
         },
         "social": {
-          "website": "https://razor.network/",
           "x": "https://x.com/razor_network",
           "telegram": "https://t.me/razornetwork",
           "github": "https://github.com/razor-network",
@@ -781,7 +799,6 @@
           ]
         },
         "social": {
-          "website": "https://beta.devzeus.io/games",
           "x": "https://x.com/FPS_EtherStrike",
           "telegram": "https://t.me/zeusblock",
           "discord": "https://t.co/h8zbAbEncR"
@@ -829,6 +846,31 @@
           "discord": "https://discord.com/invite/Uffh5tzAqq",
           "dappradar": "https://dappradar.com/dapp/metadogeunity-zenith-studio"
         }
+      },
+      "peer2play": {
+        "alias": "Peer2Play",
+        "gradientBackground": "linear-gradient(180deg, #110a2c, #171146)",
+        "description": "Peer2Play empowers gamers and developers alike by offering intuitive tools, seamless blockchain integration, and true digital ownership.",
+        "added": "1742835799",
+        "categories": {
+          "infrastructure": null,
+          "gaming": null,
+          "tools": null,
+          "pretge": null
+        },
+        "social": {
+          "website": "https://app.p2p.network/",
+          "x": "https://x.com/Peer2Play_P2P",
+          "telegram": "https://t.me/Peer2PlayAI",
+          "discord": "https://discord.com/invite/peer2play-1246802812407382036",
+          "github": "https://github.com/Peer2Play"
+      },
+      "contracts": [
+        "0x8cFC5226d7e7807a24964a3dad1c860a874e4EAA",
+        "0xa53b75F1786efB6AC6a2E7571D9F17338BC4C3C7",
+        "0xB40FAc9a58a82982d2Cbe5e0e105fF84f52cec14",
+        "0x7Df33881190c34Ff46F996186D465A40E2c4B232"
+      ]
       },
       "tenamint": {
         "alias": "TENAMINT",
@@ -905,7 +947,6 @@
           ]
         },
         "social": {
-          "website": "hhttps://www.mff.game/",
           "x": "https://x.com/MFFgame",
           "discord": "https://discord.com/invite/AEmDM8P4X9",
           "dappradar": "https://dappradar.com/dapp/mff-game"
@@ -1161,8 +1202,7 @@
           "entertainment": null
         },
         "social": {
-          "website": "https://manetho.com/",
-          "x": "https://x.com/manetho_app"
+          "website": "https://manetho.com/"
         }
       },
       "turf": {
@@ -1196,11 +1236,13 @@
         "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
         "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
         "categories": {
+          "gaming": [
+            "mobile"
+          ],
           "digital-collectibles": null
         },
         "social": {
-          "website": "https://hurley.jump.trade/",
-          "x": "https://t.me/jumptradenft",
+          "website": "https://apps.apple.com/us/app/hurley-super-surfer/id1668289807",
           "telegram": "https://t.me/jumptradenft",
           "dappradar": "https://dappradar.com/dapp/hurley-super-surfer"
         },
@@ -1238,7 +1280,7 @@
           "gaming": null
         },
         "social": {
-          "website": "https://www.zoppel.io/",
+          "website": "https://apps.apple.com/it/app/zoppel-the-legend-of-furiax/id6447437326",
           "x": "https://x.com/zoppel_u",
           "telegram": "https://t.me/ZOPPELINT",
           "discord": "https://discord.com/invite/VP356srQGR"
@@ -1406,7 +1448,7 @@
           ]
         },
         "social": {
-          "website": "https://pickaxecrypto.io/",
+          "website": "https://voxelverse.io/",
           "x": "https://x.com/voxelverseinfo",
           "discord": "https://discord.com/invite/JBFYtybhR4",
           "dappradar": "https://dappradar.com/dapp/voxelverse"
@@ -1521,7 +1563,7 @@
         },
         "social": {
           "website": "https://subsquid.io/",
-          "x": "https://x.com/subsquid",
+          "x": "https://x.com/hellosqd",
           "telegram": "https://t.me/subsquid",
           "discord": "https://discord.com/invite/subsquid",
           "github": "https://github.com/subsquid"
@@ -1557,8 +1599,6 @@
           ]
         },
         "social": {
-          "website": "https://www.naviswar.com/",
-          "x": "https://x.com/naviswargame",
           "telegram": "https://t.me/naviswargame",
           "discord": "https://discord.com/invite/ujeY9vd5PA"
         }
@@ -1596,7 +1636,6 @@
         },
         "social": {
           "website": "https://metaverser.me/",
-          "x": "https://x.com/metaversergame",
           "telegram": "https://t.me/metaverserchat",
           "discord": "https://t.co/RhX8BOiXcn",
           "epic-games-store": "https://store.epicgames.com/en-US/p/metaverser-725e3c"
@@ -1737,7 +1776,7 @@
           "pretge": null
         },
         "social": {
-          "website": "https://degenroyale.net/",
+          "website": "https://opensea.io/collection/degenroyale-cashgun",
           "x": "https://x.com/Degen_Royale",
           "discord": "https://discord.com/invite/fbPVv25bx8"
         }
@@ -1977,17 +2016,17 @@
       },
       "chainguardians": {
         "alias": "ChainGuardians",
-        "gradientBackground": "linear-gradient(180deg, #140842, #10082f)",
-        "description": "Welcome to ChainGuardians, a player-driven platform revolutionizing the gaming world! By combining traditional gaming concepts with emerging technologies, we've created an ecosystem where players can earn rewards through our free-to-play digital asset mining platform and Role-Playing Game. But we don't stop there - we're constantly forming partnerships and working collaboratively to smash through ideological barriers oppressing user ownership and digital economies.",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "description": "The ChainGuardians are the world's first superheroes dedicated to harnessing the power of blockchain technologies.",
         "categories": {
           "gaming": null,
           "digital-collectibles": null
         },
         "social": {
-          "website": "https://www.chainguardians.io/",
-          "x": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "telegram": "https://x.com/Chain_Guardians?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "discord": "https://discord.com/invite/WZDx96TNb3"
+          "website": "https://pentagon.games/",
+          "x": "https://x.com/PentagonGamesXP",
+          "telegram": "https://t.me/PentagonGamesXP",
+          "github": "https://github.com/ChainGuardians"
         },
         "contracts": [
           "0xE9d487B950A5075D8eaB084e2E04971340765b86",
@@ -2196,15 +2235,15 @@
           "0xb281d917239a74013F319636aECf1DEAbFB79D28"
         ]
       },
-      "arena-games-platform": {
-        "alias": "Arena Games",
+      "arena-vs": {
+        "alias": "Arena VS",
         "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
-        "description": "Arena Games is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
+        "description": "ArenaVS is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
         "categories": {
           "gaming": null
         },
         "social": {
-          "website": "https://arenavs.com/games/arena_master",
+          "website": "https://arenavs.com/",
           "x": "https://x.com/arenaweb3?s=21&t=eJC2rnI1Ww1E49kSqeWi0g",
           "telegram": "https://t.me/Arenaweb3games",
           "discord": "https://discord.com/invite/FxVyTPtF7f",
@@ -2385,16 +2424,16 @@
           "telegram": "https://t.me/pivotweb3"
         }
       },
-      "cv-pad": {
-        "alias": "CV Pad",
+      "agent-launcher": {
+        "alias": "Agent Launcher",
         "gradientBackground": "linear-gradient(150deg, rgb(255 255 255), #b0dbfe)",
         "categories": {
           "partner": null
         },
         "description": "Curated early-stage Web3 projects, powered by an industry-leading fund and a powerful web3 ecosystem.",
         "social": {
-          "website": "https://www.cvpad.io/",
-          "x": "https://x.com/CvPad_xyz",
+          "website": "https://www.agentlauncher.io/",
+          "x": "https://x.com/CVAgentlauncher",
           "telegram": "https://t.me/CVPAD_NEWS"
         }
       },
@@ -2726,7 +2765,7 @@
         "description": "BlockScout Explorer is an application for viewing, confirming, and inspecting transactions on EVM (Ethereum Virtual Machine) blockchains.",
         "social": {
           "website": "https://www.blockscout.com/",
-          "x": "https://x.com/blockscoutcom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "x": "https://x.com/blockscout",
           "telegram": "https://t.me/blockscoutcommunity",
           "github": "https://github.com/blockscout"
         }
