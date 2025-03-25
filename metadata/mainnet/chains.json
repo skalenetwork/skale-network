@@ -390,6 +390,26 @@
           "0xDa19ef7c52a35f0731253658560F852c3348D7AD"
         ]
       },
+      "tom-talk": {
+        "alias": "Tom Talk",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "First Talk to Earn Game on EVM Blockchain!",
+        "categories": {
+          "pretge":null,
+          "gaming": [
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://tomtalk.io",
+          "x": "https://x.com/Tomtalkofficial",
+          "telegram": "https://t.me/tomtalkofficial",
+          "dappradar": "https://dappradar.com/dapp/tomtalk-2/analytics?chains-ha=skale-calypso"
+        },
+        "contracts": [
+      "0x52D852938f3D9F84879f25Ebff33C4f37E420266"
+     ]
+      },
       "keepsake": {
         "alias": "Keepsake",
         "gradientBackground": "linear-gradient(230deg, rgb(129 179 167), rgb(61 152 157))",
@@ -826,6 +846,31 @@
           "discord": "https://discord.com/invite/Uffh5tzAqq",
           "dappradar": "https://dappradar.com/dapp/metadogeunity-zenith-studio"
         }
+      },
+      "peer2play": {
+        "alias": "Peer2Play",
+        "gradientBackground": "linear-gradient(180deg, #110a2c, #171146)",
+        "description": "Peer2Play empowers gamers and developers alike by offering intuitive tools, seamless blockchain integration, and true digital ownership.",
+        "added": "1742835799",
+        "categories": {
+          "infrastructure": null,
+          "gaming": null,
+          "tools": null,
+          "pretge": null
+        },
+        "social": {
+          "website": "https://app.p2p.network/",
+          "x": "https://x.com/Peer2Play_P2P",
+          "telegram": "https://t.me/Peer2PlayAI",
+          "discord": "https://discord.com/invite/peer2play-1246802812407382036",
+          "github": "https://github.com/Peer2Play"
+      },
+      "contracts": [
+        "0x8cFC5226d7e7807a24964a3dad1c860a874e4EAA",
+        "0xa53b75F1786efB6AC6a2E7571D9F17338BC4C3C7",
+        "0xB40FAc9a58a82982d2Cbe5e0e105fF84f52cec14",
+        "0x7Df33881190c34Ff46F996186D465A40E2c4B232"
+      ]
       },
       "tenamint": {
         "alias": "TENAMINT",
@@ -2190,7 +2235,7 @@
           "0xb281d917239a74013F319636aECf1DEAbFB79D28"
         ]
       },
-      "arena-games-platform": {
+      "arena-vs": {
         "alias": "Arena VS",
         "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
         "description": "ArenaVS is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
