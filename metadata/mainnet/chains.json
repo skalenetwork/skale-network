@@ -1898,8 +1898,8 @@
           "0xb281d917239a74013F319636aECf1DEAbFB79D28"
         ]
       },
-      "arena-games-platform": {
-        "alias": "Arena Games",
+      "arena-vs": {
+        "alias": "Arena VS",
         "gradientBackground": "radial-gradient(rgb(0 0 0), rgb(16 29 64))",
         "description": "Arena Games is a Web3 platform where blockchain meets gaming. It provides a marketplace for NFTs, gaming resources, and a host of exciting Play-to-Earn games.",
         "categories": {
