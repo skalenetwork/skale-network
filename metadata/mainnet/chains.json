@@ -65,6 +65,32 @@
           "0x73bC332384Bc90F542Afe3FE5cc5dFcB97827AAE"
         ]
       },
+      "razor-network": {
+          "alias": "Razor Network",
+          "gradientBackground": "linear-gradient(#40429B, #40429B)",
+          "description": "Truly decentralized oracle network.",
+          "categories": {
+            "oracle": null
+          },
+          "social": {
+            "x": "https://x.com/razor_network",
+            "telegram": "https://t.me/razornetwork",
+            "github": "https://github.com/razor-network",
+            "dappradar": "https://dappradar.com/dapp/razor-network"
+        },
+        "contracts": [
+          "0xBFF76e9E6B394e6945ef92C686444Ee4Ed5f1216",
+          "0xEa74913E6Ed2dce4c89c89F5A328b507AfD86c0e",
+          "0x389B9dCe6819735059d23bDdadCB91a6d89eFE77",
+          "0xd492408e4901CF658c7874285984F6D5Db648D1E",
+          "0xc9F3fc25B57B7F954A5e051b0f81CDF7A83dB610",
+          "0xa1f4Ff01bc744Db0aF31360f85D35366c7CfBA9F",
+          "0x66468f0FD37c3A0f5EaFA4cbDD0552ef9FbE7DAB",
+          "0xCA46B70cA3c510Ce9D0c43D25817032e2F5354c0",
+          "0x75f3E9b560BcF36Ae5fB9E9a218f8e0AAfa88446",
+          "0xF7c2F6362Cd8e3a7ec1CCa368d84799F7C49A609"
+        ]
+      },
       "maiv": {
         "alias": "MAIV",
         "gradientBackground": "linear-gradient(45deg, #000000, #000000)",
@@ -695,32 +721,6 @@
         "contracts": [
           "0xE9d4fe986C039927F19c904C205594627644BB1B"
         ]
-      }
-    }
-  },
-  "turbulent-unique-scheat": {
-    "alias": "Razor Network",
-    "background": "#40429b",
-    "gradientBackground": "linear-gradient(200deg, rgba(64,66,155,1) 25%, rgba(44,46,124,1) 100%)",
-    "categories": {
-      "tools": null
-    },
-    "url": "https://razor.network/",
-    "description": "Truly decentralized oracle network",
-    "apps": {
-      "razor-network": {
-        "alias": "Razor Network",
-        "gradientBackground": "linear-gradient(#40429B, #40429B)",
-        "description": "Truly decentralized oracle network.",
-        "categories": {
-          "oracle": null
-        },
-        "social": {
-          "x": "https://x.com/razor_network",
-          "telegram": "https://t.me/razornetwork",
-          "github": "https://github.com/razor-network",
-          "dappradar": "https://dappradar.com/dapp/razor-network"
-        }
       }
     }
   },
