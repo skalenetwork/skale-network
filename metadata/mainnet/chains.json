@@ -852,7 +852,7 @@
         "alias": "Peer2Play",
         "gradientBackground": "linear-gradient(180deg, #110a2c, #171146)",
         "description": "Peer2Play empowers gamers and developers alike by offering intuitive tools, seamless blockchain integration, and true digital ownership.",
-        "added": "1742835799",
+        "added": 1742835799,
         "categories": {
           "infrastructure": null,
           "gaming": null,
