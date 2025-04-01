@@ -66,17 +66,17 @@
         ]
       },
       "razor-network": {
-          "alias": "Razor Network",
-          "gradientBackground": "linear-gradient(#40429B, #40429B)",
-          "description": "Truly decentralized oracle network.",
-          "categories": {
-            "oracle": null
-          },
-          "social": {
-            "x": "https://x.com/razor_network",
-            "telegram": "https://t.me/razornetwork",
-            "github": "https://github.com/razor-network",
-            "dappradar": "https://dappradar.com/dapp/razor-network-2"
+        "alias": "Razor Network",
+        "gradientBackground": "linear-gradient(#40429B, #40429B)",
+        "description": "Truly decentralized oracle network.",
+        "categories": {
+          "oracle": null
+        },
+        "social": {
+          "x": "https://x.com/razor_network",
+          "telegram": "https://t.me/razornetwork",
+          "github": "https://github.com/razor-network",
+          "dappradar": "https://dappradar.com/dapp/razor-network-2"
         },
         "contracts": [
           "0xBFF76e9E6B394e6945ef92C686444Ee4Ed5f1216",
@@ -104,7 +104,7 @@
           "x": "https://x.com/MAIV_FINANCE",
           "telegram": "https://t.me/MAIV_FINANCE"
         }
-        },
+      },
       "mesonfi": {
         "alias": "Meson.Fi",
         "gradientBackground": "linear-gradient(45deg, #EFF3EB, #EFF4EA)",
@@ -420,9 +420,9 @@
         "alias": "Tom Talk",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "First Talk to Earn Game on EVM Blockchain!",
-        "added": "1742835799",
+        "added": 1742835799,
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "gaming": [
             "casual"
           ]
@@ -434,8 +434,8 @@
           "dappradar": "https://dappradar.com/dapp/tomtalk-2/analytics?chains-ha=skale-calypso"
         },
         "contracts": [
-      "0x52D852938f3D9F84879f25Ebff33C4f37E420266"
-     ]
+          "0x52D852938f3D9F84879f25Ebff33C4f37E420266"
+        ]
       },
       "keepsake": {
         "alias": "Keepsake",
@@ -852,7 +852,7 @@
         "alias": "Peer2Play",
         "gradientBackground": "linear-gradient(180deg, #110a2c, #171146)",
         "description": "Peer2Play empowers gamers and developers alike by offering intuitive tools, seamless blockchain integration, and true digital ownership.",
-        "added": "1742835799",
+        "added": 1742835799,
         "categories": {
           "infrastructure": null,
           "gaming": null,
@@ -865,19 +865,19 @@
           "telegram": "https://t.me/Peer2PlayAI",
           "discord": "https://discord.com/invite/peer2play-1246802812407382036",
           "github": "https://github.com/Peer2Play"
-      },
-      "contracts": [
-        "0x8cFC5226d7e7807a24964a3dad1c860a874e4EAA",
-        "0xa53b75F1786efB6AC6a2E7571D9F17338BC4C3C7",
-        "0xB40FAc9a58a82982d2Cbe5e0e105fF84f52cec14",
-        "0x7Df33881190c34Ff46F996186D465A40E2c4B232"
-      ]
+        },
+        "contracts": [
+          "0x8cFC5226d7e7807a24964a3dad1c860a874e4EAA",
+          "0xa53b75F1786efB6AC6a2E7571D9F17338BC4C3C7",
+          "0xB40FAc9a58a82982d2Cbe5e0e105fF84f52cec14",
+          "0x7Df33881190c34Ff46F996186D465A40E2c4B232"
+        ]
       },
       "tenamint": {
         "alias": "TENAMINT",
         "gradientBackground": "linear-gradient(180deg, #fafaf9, #fafaf9)",
         "description": "TENAMINT - the Ultimate Sports Pick'em App. Make your free picks, compete for cash prizes, and win rewards.",
-        "added": "1741869331",
+        "added": 1741869331,
         "categories": {
           "pretge": null,
           "gaming": [
@@ -892,10 +892,10 @@
           "x": "https://x.com/PlayTENAMINT",
           "telegram": "https://t.me/+iA6HME9ek2wzOTNh",
           "github": "https://github.com/tenamint"
-      },
-      "contracts": [
-        "0x2e3818324a9a37Ff42E40Ac5276fdd4B9775df0d"
-      ]
+        },
+        "contracts": [
+          "0x2e3818324a9a37Ff42E40Ac5276fdd4B9775df0d"
+        ]
       },
       "race-4-riches": {
         "alias": "Race 4 Riches",
