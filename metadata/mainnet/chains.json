@@ -2527,20 +2527,6 @@
           "telegram": "https://t.me/StakinOfficial"
         }
       },
-      "staked": {
-        "alias": "Staked",
-        "gradientBackground": "linear-gradient(150deg, #071A36, #071A36)",
-        "categories": {
-          "validator": null
-        },
-        "description": "Staked runs secure and reliable infrastructure on the leading proof-of-stake blockchains.",
-        "social": {
-          "website": "https://staked.us/",
-          "twitter": "https://x.com/staked_us/",
-          "discord": "https://discord.com/invite/ddHep6E",
-          "github": "https://github.com/Stakedllc/"
-        }
-      },
       "signia": {
         "alias": "Signia",
         "gradientBackground": "linear-gradient(150deg, #265952, #648B4C)",
@@ -2627,18 +2613,6 @@
           "twitter": "https://x.com/chainodetech"
         }
       },
-      "chainflow": {
-        "alias": "Chainflow",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
-        "categories": {
-          "validator": null
-        },
-        "description": "Fair and equitable staking for everyone.",
-        "social": {
-          "website": "https://chainflow.io/",
-          "twitter": "https://x.com/chainflowpos?ref=chainflow.io"
-        }
-      },
       "blockware": {
         "alias": "Blockware",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
@@ -2687,17 +2661,6 @@
         "social": {
           "website": "https://01node.com/",
           "twitter": "https://x.com/01node?lang=en"
-        }
-      },
-      "ngcstakex": {
-        "alias": "NGC_StakeX",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
-        "categories": {
-          "validator": null
-        },
-        "description": "NGC Ventures invests in early stage, web 3.0 infrastructure startups and projects. We identify projects with innovative ideas to today’s blockchain problems and work with them from ideation to strategy and market adoption.",
-        "social": {
-          "website": "https://ngc.fund/"
         }
       },
       "nansen": {
