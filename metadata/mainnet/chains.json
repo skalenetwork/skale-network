@@ -872,7 +872,54 @@
           "0xB40FAc9a58a82982d2Cbe5e0e105fF84f52cec14",
           "0x7Df33881190c34Ff46F996186D465A40E2c4B232"
         ]
+    },
+    "cropbytes-conquest": {
+      "alias": "CropBytes Conquest",
+      "gradientBackground": "linear-gradient(180deg, #5083BD, #39BCDB)",
+      "description": "CropBytes Conquest is a tactical and startegy based web3 game that emphasizes player-versus-player (PvP) battles and world expansion.",
+      "added": 1744910699,
+      "categories": {
+        "pretge":null,
+        "gaming": [
+            "fighting",
+            "strategy"
+          ]
       },
+      "social": {
+        "website": "https://www.cropbytes.com/conquest",
+        "x": "https://x.com/CropBytes",
+        "telegram": "https://t.me/cropbytes",
+        "discord": "https://discord.gg/zNascuh6At",
+        "dappradar": "https://dappradar.com/dapp/cropbytes-conquest"
+      },
+      "contracts": [
+        "0x01c7fD7E85a4Bb480334d51695F4e88aFa91e286",
+        "0x01Cd42418256E51434612f4dd1ff85753789039D"
+      ]
+    },
+    "royal-rampage": {
+      "alias": "Royal Rampage",
+      "gradientBackground": "linear-gradient(180deg, #C6D0F7, #DEBBFA)",
+      "description": "Kepithor Studios is an indie game developer crafting innovative Web3 games with sustainable rewards, built for both Web2 and Web3 players. Play & earn today!",
+      "added": 1744910699,
+      "categories": {
+        "pretge":null,
+        "gaming": [
+            "cards_deck-building",
+            "mobile"
+          ]
+      },
+      "social": {
+        "website": "https://www.kepithor.com/game/royal-rampage",
+        "x": "https://x.com/KepithorStudios",
+        "telegram": "https://t.me/Kepithor",
+        "discord": "https://discord.gg/M4tn5pR9aF",
+        "dappradar": "https://dappradar.com/dapp/royal-rampage"
+      },
+      "contracts": [
+        "0x9f9112060040c781eb284DF01E77761b99188982"
+      ]
+    },
       "tenamint": {
         "alias": "TENAMINT",
         "gradientBackground": "linear-gradient(180deg, #fafaf9, #fafaf9)",
