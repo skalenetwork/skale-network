@@ -24,6 +24,9 @@
   - [Release 1.9.0](/releases/mainnet/skale-manager/1.9.0) (18 Apr 2022)
   - [Release 1.9.1](/releases/mainnet/skale-manager/1.9.1) (30 Jun 2022)
   - [Release 1.9.2](/releases/mainnet/skale-manager/1.9.2) (13 Jul 2022)
+  - [Release 1.9.3](/releases/mainnet/skale-manager/1.9.3) (22 Jun 2023)
+  - [Release 1.9.4](/releases/mainnet/skale-manager/1.9.4) (12 Jan 2024)
+
 
 #### SKALE Allocator
 
@@ -43,6 +46,9 @@
   - [Release 1.3.2](/releases/mainnet/IMA/1.3.2) (30 Jun 2022)
   - [Release 1.3.4](/releases/mainnet/IMA/1.3.4) (30 Nov 2022)
   - [Release 1.4.0](/releases/mainnet/IMA/1.4.0) (30 Jan 2023)
+  - [Release 1.5.0](/releases/mainnet/IMA/1.5.0) (27 Jun 2023)
+  - [Release 2.2.0](/releases/mainnet/IMA/2.2.0) (26 Nov 2024)
+
 
 #### Node CLI
 
@@ -53,6 +59,16 @@
 - [Release 2.0.2](https://github.com/skalenetwork/skale-node-cli/releases/tag/2.0.2) (24 Sept 2021)
 - [Release 2.1.0](https://github.com/skalenetwork/skale-node-cli/releases/tag/2.1.0) (19 Apr 2022)
 - [Release 2.1.2](https://github.com/skalenetwork/skale-node-cli/releases/tag/2.1.2) (9 Sep 2022)
+- [Release 2.2.0](https://github.com/skalenetwork/node-cli/releases/tag/2.2.0) (16 Feb 2023)
+- [Release 2.3.0](https://github.com/skalenetwork/node-cli/releases/tag/2.3.0) (19 Apr 2023)
+- [Release 2.3.1](https://github.com/skalenetwork/node-cli/releases/tag/2.3.1) (23 Oct 2023)
+- [Release 2.4.0](https://github.com/skalenetwork/node-cli/releases/tag/2.4.0) (12 Jul 2024)
+- [Release 2.4.1](https://github.com/skalenetwork/node-cli/releases/tag/2.4.1) (18 Sep 2024)
+- [Release 2.5.0](https://github.com/skalenetwork/node-cli/releases/tag/2.5.0) (6 Nov 2024)
+- [Release 2.6.0](https://github.com/skalenetwork/node-cli/releases/tag/2.6.0) (3 Feb 2025)
+- [Release 2.6.1](https://github.com/skalenetwork/node-cli/releases/tag/2.6.1) (26 March 2025)
+- [Release 2.6.2](https://github.com/skalenetwork/node-cli/releases/tag/2.6.2) (9 Apr 2025)
+
 
 #### Validator CLI
 
@@ -64,15 +80,24 @@
 - [Release 1.2.1](https://github.com/skalenetwork/validator-cli/releases/tag/1.2.1) (18 June 2021)
 - [Release 1.3.0](https://github.com/skalenetwork/validator-cli/releases/tag/1.3.0) (20 July 2021)
 - [Release 1.3.2](https://github.com/skalenetwork/validator-cli/releases/tag/1.3.2) (19 Apr 2022)
+- [Release 1.2.1](https://github.com/skalenetwork/validator-cli/releases/tag/1.2.1) (18 June 2021)
+- [Release 1.3.0](https://github.com/skalenetwork/validator-cli/releases/tag/1.3.0) (20 July 2021)
+- [Release 1.3.2](https://github.com/skalenetwork/validator-cli/releases/tag/1.3.2) (28 Mar 2022)
+- [Release 1.3.3](https://github.com/skalenetwork/validator-cli/releases/tag/1.3.3) (4 Apr 2023)
+
 
 #### SGX Wallet
 
 - [Release 1.58.5-stable.1](https://github.com/skalenetwork/sgxwallet/releases/tag/1.58.5-stable.1) (16 Sept 2020)
-- [Release 1.70.0-stable.0](https://github.com/skalenetwork/sgxwallet/releases/tag/1.70.0-stable.0): Container: skalenetwork/sgxwallet_release:1.70.0-stable.0 (19 Apr 2021)
-- [Release 1.77.0-stable.0](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.0-stable.0): Container: skalenetwork/sgxwallet_release:1.77.0-stable.0 (20 July 2021)
-- [Release 1.77.1-stable.2](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.1-stable.2): Container: skalenetwork/sgxwallet_release:1.77.1-stable.2 (8 November 2021)
-- [Release 1.77.1-stable.3](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.1-stable.3): Container: skalenetwork/sgxwallet_release:1.77.1-stable.3 (12 November 2021)
-- [Release 1.83.0-stable.1](https://github.com/skalenetwork/sgxwallet/releases/tag/1.83.0-stable.1): Container: skalenetwork/sgxwallet_release:1.83.0-stable.1 (19 Apr 2022)
+- [Release 1.70.0-stable.0](https://github.com/skalenetwork/sgxwallet/releases/tag/1.70.0-stable.0) (19 Apr 2021)
+- [Release 1.77.0-stable.0](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.0-stable.0)(20 July 2021)
+- [Release 1.77.1-stable.2](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.1-stable.2)(8 November 2021)
+- [Release 1.77.1-stable.3](https://github.com/skalenetwork/sgxwallet/releases/tag/1.77.1-stable.3)(12 November 2021)
+- [Release 1.83.0-stable.1](https://github.com/skalenetwork/sgxwallet/releases/tag/1.83.0-stable.1) (28 Mar 2022)
+- [Release 1.9.0-stable.0](https://github.com/skalenetwork/sgxwallet/releases/tag/1.9.0-stable.0) (19 Apr 2023)
+- [Release 1.9.0-stable.1](https://github.com/skalenetwork/sgxwallet/releases/tag/1.9.0-stable.1) (27 Sep 2023)
+- [Release 1.9.0-stable.2](https://github.com/skalenetwork/sgxwallet/releases/tag/1.9.0-stable.2) (4 Feb 2025)
+- [Release 1.9.0-stable.3](https://github.com/skalenetwork/sgxwallet/releases/tag/1.9.0-stable.3) (12 Mar 2025)
 
 #### SKALE Node
 
@@ -95,6 +120,20 @@
 - [Release 2.1.10 (REMOVED)](https://github.com/skalenetwork/skale-node/releases/tag/2.1.10) (9 Sep 2022)
 - [Release 2.1.11](https://github.com/skalenetwork/skale-node/releases/tag/2.1.11) (13 Sep 2022)
 - [Release 2.1.12](https://github.com/skalenetwork/skale-node/releases/tag/2.1.12) (7 Nov 2022)
+- [Release 2.1.15](https://github.com/skalenetwork/skale-node/releases/tag/2.1.15) (17 Mar 2023)
+- [Release 2.1.16](https://github.com/skalenetwork/skale-node/releases/tag/2.1.16) (19 Apr 2023)
+- [Release 2.2.0](https://github.com/skalenetwork/skale-node/releases/tag/2.2.0) (30 Nov 2023)
+- [Release 2.2.1](https://github.com/skalenetwork/skale-node/releases/tag/2.2.1) (8 Dec 2023)
+- [Release 2.3.0](https://github.com/skalenetwork/skale-node/releases/tag/2.3.0) (18 Mar 2024)
+- [Release 2.3.2](https://github.com/skalenetwork/skale-node/releases/tag/2.3.2) (29 May 2024)
+- [Release 3.0.0 Pacifica](https://github.com/skalenetwork/skale-node/releases/tag/3.0.0) (25 Jul 2024)
+- [Release 3.0.1](https://github.com/skalenetwork/skale-node/releases/tag/3.0.1) (30 Aug 2024)
+- [Release 3.0.2](https://github.com/skalenetwork/skale-node/releases/tag/3.0.2) (18 Sep 2024)
+- [Release 3.0.3](https://github.com/skalenetwork/skale-node/releases/tag/3.0.3) (30 Sep 2024)
+- [Release 3.1.0](https://github.com/skalenetwork/skale-node/releases/tag/3.1.0) (10 Dec 2024)
+- [Release 3.1.1](https://github.com/skalenetwork/skale-node/releases/tag/3.1.1) (3 Feb 2025)
+- [Release 4.0.0](https://github.com/skalenetwork/skale-node/releases/tag/4.0.0) (16 Apr 2025)
+  
 
 
 #### Skaled
@@ -112,11 +151,36 @@
 - Release 3.14.9-stable.5.1.hotfix (20 May 2022)
 - Release 3.14.9-stable.5.3.hotfix (31 May 2022)
 - [Release 3.14.15-stable.1](https://github.com/skalenetwork/skaled/releases/tag/3.14.15-stable.1) (9 Sep 2022)
-- [Release 3.14.15-stable.2](https://github.com/skalenetwork/skaled/releases/tag/3.14.15-stable.2) (7 Nov 2022)
+- [Release 3.14.15-stable.2](https://github.com/skalenetwork/skaled/releases/tag/3.14.15-stable.2) (29 Sep 2022)
+- [Release 3.16.0-stable.0](https://github.com/skalenetwork/skaled/releases/tag/3.16.0-stable.0) (23 Jan 2023)
+- [Release 3.16.0-stable.1](https://github.com/skalenetwork/skaled/releases/tag/3.16.0-stable.1) (16 Feb 2023)
+- [Release 3.16.0-stable.2](https://github.com/skalenetwork/skaled/releases/tag/3.16.0-stable.2) (28 Feb 2023)
+- [Release 3.16.0-stable.3](https://github.com/skalenetwork/skaled/releases/tag/3.16.0-stable.3) (1 Mar 2023)
+- [Release 3.16.1](https://github.com/skalenetwork/skaled/releases/tag/3.16.1) (18 Apr 2023)
+- [Release 3.17.0](https://github.com/skalenetwork/skaled/releases/tag/3.17.0) (20 Oct 2023)
+- [Release 3.17.1](https://github.com/skalenetwork/skaled/releases/tag/3.17.1) (7 Nov 2023)
+- [Release 3.18.0](https://github.com/skalenetwork/skaled/releases/tag/3.18.0) (17 Feb 2024)
+- [Release 3.18.1](https://github.com/skalenetwork/skaled/releases/tag/3.18.1) (14 May 2024)
+- [Release 3.18.2](https://github.com/skalenetwork/skaled/releases/tag/3.18.2) (27 May 2024)
+- [Release 3.19.0](https://github.com/skalenetwork/skaled/releases/tag/3.19.0) (11 Jul 2024)
+- [Release 3.19.1](https://github.com/skalenetwork/skaled/releases/tag/3.19.1) (30 Aug 2024)
+- [Release 3.19.2](https://github.com/skalenetwork/skaled/releases/tag/3.19.2) (17 Sep 2024)
+- [Release 3.19.3](https://github.com/skalenetwork/skaled/releases/tag/3.19.3) (27 Sep 2024)
+- [Release 3.20.0](https://github.com/skalenetwork/skaled/releases/tag/3.20.0) (6 Nov 2024)
+- [Release 3.20.1](https://github.com/skalenetwork/skaled/releases/tag/3.20.1) (28 Nov 2024)
+- [Release 3.21.0](https://github.com/skalenetwork/skaled/releases/tag/3.21.0) (30 Jan 2025)
+- [Release 4.0.0](https://github.com/skalenetwork/skaled/releases/tag/4.0.0) (7 Apr 2025)
 
 
 #### IMA agent
-- Release [1.3.3-stable.0](https://github.com/skalenetwork/IMA/releases/tag/1.3.3-stable.0) (9 Sep 2022)
+- Release [1.3.3-stable.0](https://github.com/skalenetwork/IMA/releases/tag/1.3.3-stable.0) (19 Aug 2022)
+- Release [1.3.4-stable.0](https://github.com/skalenetwork/IMA/releases/tag/1.3.4-stable.0) (1 Dec 2022)
+- Release [1.4.0-stable.0](https://github.com/skalenetwork/IMA/releases/tag/1.4.0-stable.0) (13 Feb 2023)
+- Release [1.5.0-stable.0](https://github.com/skalenetwork/IMA/releases/tag/1.5.0-stable.0) (23 Aug 2023)
+- Release [1.5.0-stable.1](https://github.com/skalenetwork/IMA/releases/tag/1.5.0-stable.1) (26 Jun 2023)
+- Release [2.1.0-stable.0](https://github.com/skalenetwork/IMA/releases/tag/2.1.0-stable.0) (20 Mar 2024)
+- Release [2.2.0-stable.0](https://github.com/skalenetwork/IMA/releases/tag/2.2.0-stable.0) (11 Dec 2024)
+  
 
 #### SKALE Admin
 
@@ -130,7 +194,23 @@
 - [Release 2.3.2](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.2) (27 Apr 2022) 
 - [Release 2.3.4](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.4) (13 May 2022) 
 - [Release 2.3.9](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.9) (9 Sep 2022) 
-- [Release 2.3.10](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.10) (13 Sep 2022) 
+- [Release 2.3.10](https://github.com/skalenetwork/skale-admin/releases/tag/2.3.10) (12 Sep 2022)
+- [Release 2.4.0](https://github.com/skalenetwork/skale-admin/releases/tag/2.4.0) (16 Feb 2023)
+- [Release 2.5.0](https://github.com/skalenetwork/skale-admin/releases/tag/2.5.0) (9 Oct 2023)
+- [Release 2.5.1](https://github.com/skalenetwork/skale-admin/releases/tag/2.5.1) (20 Oct 2023)
+- [Release 2.5.2](https://github.com/skalenetwork/skale-admin/releases/tag/2.5.2) (24 Oct 2023)
+- [Release 2.5.3](https://github.com/skalenetwork/skale-admin/releases/tag/2.5.3) (6 Nov 2023)
+- [Release 2.5.4](https://github.com/skalenetwork/skale-admin/releases/tag/2.5.4) (7 Dec 2023)
+- [Release 2.6.0](https://github.com/skalenetwork/skale-admin/releases/tag/2.6.0) (16 Feb 2024)
+- [Release 2.6.1](https://github.com/skalenetwork/skale-admin/releases/tag/2.6.1) (5 Mar 2024)
+- [Release 2.7.0](https://github.com/skalenetwork/skale-admin/releases/tag/2.7.0) (12 Jul 2024)
+- [Release 2.7.1](https://github.com/skalenetwork/skale-admin/releases/tag/2.7.1) (30 Aug 2024)
+- [Release 2.7.2](https://github.com/skalenetwork/skale-admin/releases/tag/2.7.2) (18 Sep 2024)
+- [Release 2.8.0](https://github.com/skalenetwork/skale-admin/releases/tag/2.8.0) (12 Nov 2024)
+- [Release 2.9.0](https://github.com/skalenetwork/skale-admin/releases/tag/2.9.0) (3 Feb 2025)
+- [Release 2.10.0](https://github.com/skalenetwork/skale-admin/releases/tag/2.10.0) (9 April 2025)
+- [Release 2.10.1](https://github.com/skalenetwork/skale-admin/releases/tag/2.10.1) (16 April 2025)
+- [Release 2.10.2](https://github.com/skalenetwork/skale-admin/releases/tag/2.10.2) (18 April 2025)
 
 #### Transaction Manager
 
@@ -142,6 +222,10 @@
 - [Release 2.1.1](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.1) (19 Apr 2022)
 - [Release 2.1.2](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.2) (13 May 2022)
 - [Release 2.1.3](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.3) (9 Sep 2022)
+- [Release 2.1.4](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.4) (16 Feb 2023)
+- [Release 2.1.5](https://github.com/skalenetwork/transaction-manager/releases/tag/2.1.5) (19 Oct 2023)
+- [Release 2.2.0](https://github.com/skalenetwork/transaction-manager/releases/tag/2.2.0) (16 Feb 2024)
+- [Release 2.3.0](https://github.com/skalenetwork/transaction-manager/releases/tag/2.3.0) (12 Jul 2024)
 
 #### SKALE SLA
 
@@ -156,7 +240,9 @@
 - [Release 2.0.1-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/2.0.1-stable.0) (20 July 2021)
 - [Release 2.0.2-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/2.0.2-stable.0) (24 Sept 2021)
 - [Release 2.1.1-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/2.1.1-stable.0) (19 Apr 2022)
-- [Release 2.1.1-stable.1](https://github.com/skalenetwork/bounty-agent/releases/tag/2.1.1-stable.1) (9 Sep 2022)
+- [Release 2.1.1-stable.1](https://github.com/skalenetwork/bounty-agent/releases/tag/2.1.1-stable.1) (18 Aug 2022)
+- [Release 2.1.2-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/2.1.2-stable.0) (16 Feb 2023)
+- [Release 2.2.0-stable.0](https://github.com/skalenetwork/bounty-agent/releases/tag/2.2.0-stable.0) (16 Feb 2024)
 
 #### docker lvmpy
 
@@ -165,6 +251,7 @@
 - [Release 1.0.1-stable.2](https://github.com/skalenetwork/docker-lvmpy/releases/tag/1.0.1-stable.2) (18 June 2021)
 - [Release 1.0.1-stable.3](https://github.com/skalenetwork/docker-lvmpy/releases/tag/1.0.1-stable.3) (20 July 2021)
 - [Release 1.0.2-stable.0](https://github.com/skalenetwork/docker-lvmpy/releases/tag/1.0.2-stable.0) (19 Apr 2022)
+
 
 #### Watchdog
 
@@ -176,6 +263,8 @@
 - [Release 2.0.2-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.0.2-stable.0) (24 Sept 2021)
 - [Release 2.1.0-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.1.0-stable.0) (19 Apr 2022)
 - [Release 2.1.1-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.1.1-stable.0) (9 Sep 2022)
+- [Release 2.1.1-stable.1](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.1.1-stable.1) (16 Feb 2023)
+- [Release 2.2.0-stable.0](https://github.com/skalenetwork/skale-watchdog/releases/tag/2.2.0-stable.0) (16 Feb 2024)
 
 ### Test Releases
 
