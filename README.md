@@ -3,12 +3,11 @@
 ## Table of Contents
 
 - [Open Source Plan and Community](OPEN_SOURCE_PLAN.md)
-- [Product Updates](/updates)
 - [Releases](/releases)
 
 ## Other Resources
 
-- [Documentation](https://docs.skale.network)
+- [Documentation](https://docs.skale.space/)
 - [Roadmap](https://skale.network/roadmap)
 - [SKALE Developer Community on Discord](http://skale.chat)
 - [SKALE Communities](https://skale.network/communities)
