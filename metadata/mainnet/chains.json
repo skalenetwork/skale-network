@@ -987,19 +987,6 @@
           "0xdb5A393Ba78c121bA21A676B09AD1e14a6340756"
         ]
       },
-      "eventy": {
-        "alias": "Eventy",
-        "gradientBackground": "linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255))",
-        "description": "We're a permissionless, onchain ticketing platform designed to help event organizers build and reward their communities.",
-        "added": 1732625133,
-        "categories": {
-          "entertainment": null
-        },
-        "social": {
-          "website": "https://eventy.xyz/",
-          "x": "https://x.com/eventyxyz"
-        }
-      },
       "streamnft": {
         "alias": "StreamNFT",
         "gradientBackground": "linear-gradient(180deg, #DFF9E5, #DFF9E5)",
@@ -1369,23 +1356,6 @@
           "x": "https://x.com/LapsusNext"
         }
       },
-      "cyberkart-ai": {
-        "alias": "CyberKart AI",
-        "gradientBackground": "linear-gradient(180deg, #000000, #000007)",
-        "description": "Adrenaline-fueled Ai racing, Dynamic AI-generated maps, special abilities, futuristic weapons, and crypto rewards.",
-        "categories": {
-          "gaming": [
-            "racing"
-          ],
-          "ai": null,
-          "pretge": null
-        },
-        "social": {
-          "website": "https://www.cyberkart.ai/",
-          "x": "https://x.com/The_CyberKart",
-          "telegram": "https://t.me/CyberKart_official"
-        }
-      },
       "goart-worlds": {
         "alias": "GoArt Worlds",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
@@ -1439,23 +1409,6 @@
           "website": "https://opensea.io/collection/degenroyale-cashgun",
           "x": "https://x.com/Degen_Royale",
           "discord": "https://discord.com/invite/fbPVv25bx8"
-        }
-      },
-      "world-play-league": {
-        "alias": "World Play League",
-        "gradientBackground": "linear-gradient(180deg, #121133, #12204D)",
-        "description": "World's first player-owned game platform. Providing AI/ML tooling for game studios.",
-        "categories": {
-          "pretge": null,
-          "metaverse": null,
-          "gaming": [
-            "action-adventure",
-            "strategy"
-          ]
-        },
-        "social": {
-          "website": "https://worldplayleague.com/",
-          "x": "https://x.com/worldplayleague"
         }
       },
       "burgercities": {
@@ -1907,31 +1860,6 @@
           "0xFfed1aeE08708415C7d32DAB370e9DE872FBf8A5"
         ]
       },
-      "roco-finance": {
-        "alias": "Roco Finance",
-        "gradientBackground": "linear-gradient(270deg, #ffffff, #fdccd0)",
-        "description": "Roco Finance offers promising and innovative projects a fast, secure, and efficient platform for decentralization. Also, Roco Finance is a decentralized GAMEFI platform that provides blockchain services to game developers, and player communities through the blockchain network.",
-        "categories": {
-          "gaming": [
-            "pc",
-            "racing",
-            "simulation",
-            "mmorpg"
-          ]
-        },
-        "social": {
-          "website": "https://roco.finance/",
-          "x": "https://x.com/rocofinance",
-          "telegram": "https://t.me/rocofinance",
-          "discord": "https://discord.com/invite/Fxbf4PVtua",
-          "github": "https://github.com/rocofinance",
-          "dappradar": "https://dappradar.com/dapp/roco-finance"
-        },
-        "contracts": [
-          "0xb2a85c5ecea99187a977ac34303b80acbddfa208",
-          "0x708cC7aB3B470D5Aa65Be528A7Ad40a1a743F91C"
-        ]
-      },
       "wareden": {
         "alias": "WarEden",
         "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
@@ -2076,18 +2004,6 @@
         "social": {
           "website": "https://reservoir.tools/",
           "x": "https://x.com/reservoir0x"
-        }
-      },
-      "superbooking-ai": {
-        "alias": "SuperBooking AI",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
-        "categories": {
-          "ai": null
-        },
-        "description": "SuperBooking AI is a booking platform that also contains a decentralized AI-based management infrastructure and analytics platform.",
-        "added": 1728303236,
-        "social": {
-          "x": "https://x.com/SuperbookingAI"
         }
       },
       "droplinked": {
@@ -2372,20 +2288,6 @@
           "website": "https://www.usebraintrust.com/",
           "x": "https://x.com/usebraintrust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "github": "https://github.com/braintrustdata"
-        }
-      },
-      "halliday": {
-        "alias": "Halliday",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
-        "categories": {
-          "partner": null,
-          "wallet": null
-        },
-        "description": "A unified wallet for every Appchain.",
-        "social": {
-          "website": "https://halliday.xyz/",
-          "x": "https://x.com/HallidayHQ",
-          "discord": "https://discord.gg/t5XSFC2SxH"
         }
       },
       "lunacrush": {
