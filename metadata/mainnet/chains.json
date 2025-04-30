@@ -65,6 +65,24 @@
           "0x73bC332384Bc90F542Afe3FE5cc5dFcB97827AAE"
         ]
       },
+      "qstn": {
+        "alias": "QSTN",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "Earn tokens for completing surveys. Control your data. Start earning today.",
+        "added": 1746014419,
+        "categories": {
+          "pretge":null,
+          "other": null,
+          "entertainment":null
+        },
+        "social": {
+          "website": "https://qstn.us/",
+          "x": "https://x.com/qstnus",
+          "telegram": "https://t.me/qstnofficial",
+          "dappradar": "https://dappradar.com/dapp/qstn/",
+          "github": "https://github.com/qstnus"
+      }
+      },
       "razor-network": {
         "alias": "Razor Network",
         "gradientBackground": "linear-gradient(#40429B, #40429B)",
@@ -399,6 +417,22 @@
         "contracts": [
           "0x624A399cB7eF3b9a409e0877f574CB03275ba0C3"
         ]
+      },
+      "wal8": {
+        "alias": "Wal8",
+        "gradientBackground": "linear-gradient(180deg, #6247FF, #5545DA)",
+        "description": "A community building a fairer digital future.",
+        "added": 1746014419,
+        "categories": {
+          "pretge":null,
+          "other": null      
+        },
+        "social": {
+          "website": "https://www.wal8.io/",
+          "x": "https://x.com/wal8io",
+          "telegram": "https://t.me/wal8io",
+          "dappradar": "https://dappradar.com/dapp/wal8"
+      }
       },
       "skale-naming-service": {
         "alias": "SKALE Naming Service",
@@ -826,6 +860,70 @@
           "x": "https://x.com/landofchasers",
           "discord": "https://t.co/RhX8BOiXcn"
         }
+      },
+      "kickdom": {
+        "alias": "KickDOM",
+        "gradientBackground": "linear-gradient(180deg, #1523B0, #F52C95)",
+        "added": 1746014419,
+        "description": "The ultimate tycoon game to build your football empire. Crush your rivals, and claim the throne.",
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "sports"
+          ]
+        },
+        "social": {
+          "website": "https://hub.xyz/kickdomgame",
+          "x": "https://x.com/KickDom_Game",
+          "telegram": "https://discord.com/invite/AEmDM8P4X9",
+          "discord": "https://discord.com/invite/AEmDM8P4X9",
+          "dappradar": "https://dappradar.com/dapp/kickdom"
+      },
+      "contracts": [
+        "0x89C2ebF3b69F78cF8439217cd58d90220B36159C",
+        "0xF2EFbdA16619B5B0b6C23978745558Ee7BeB132B",
+        "0xe9AF133b7FB840a456799C9519A28C70f875C607"
+      ]
+    },
+    "gamifly": {
+      "alias": "Gamifly",
+      "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+      "description": "Gamifly is a fully transparent sports metaverse that provides esports events for fans and gamers alike.",
+      "added": 1746014419,
+      "categories": {
+        "pretge": null,
+        "gaming": [
+          "sports"       
+         ]
+      },
+      "social": {
+        "website": "https://gamifly.co/",
+        "x": "https://x.com/Gamiflyco",
+        "telegram": "https://t.me/gamifly",
+        "discord": "https://discord.com/invite/FMGNrjk75k",
+        "dappradar": "https://dappradar.com/dapp/gamifly"
+    }
+  },
+  "astra-nova": {
+    "alias": "Astra Nova",
+    "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+    "description": "AGI-driven Entertainment Ecosystem that evolves with player behavior.",
+    "added": 1746014419,
+    "categories": {
+      "pretge": null,
+      "gaming": [
+        "sports",
+        "epic-games-store"       
+       ]
+    },
+    "social": {
+      "website": "https://astranova.world/",
+      "x": "https://x.com/Astra__Nova",
+      "telegram": "https://t.me/astranovaofficial",
+      "discord": "https://discord.com/invite/g3NhHrD8K8",
+      "dappradar": "https://dappradar.com/dapp/novatoon-by-astra-nova",
+      "epic-games-store": "https://store.epicgames.com/en-US/p/astra-nova-13197f"
+  }
       },
       "metadogeunity": {
         "alias": "MetaDogeUnity",
