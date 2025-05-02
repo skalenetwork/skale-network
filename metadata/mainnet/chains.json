@@ -365,7 +365,8 @@
           "x": "https://x.com/wal8io",
           "telegram": "https://t.me/wal8io",
           "dappradar": "https://dappradar.com/dapp/wal8"
-      }
+        }
+      },
       "tom-talk": {
         "alias": "Tom Talk",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
