@@ -65,6 +65,24 @@
           "0x73bC332384Bc90F542Afe3FE5cc5dFcB97827AAE"
         ]
       },
+      "qstn": {
+        "alias": "QSTN",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "Earn tokens for completing surveys. Control your data. Start earning today.",
+        "added": 1746014419,
+        "categories": {
+          "pretge":null,
+          "other": null,
+          "entertainment":null
+        },
+        "social": {
+          "website": "https://qstn.us/",
+          "x": "https://x.com/qstnus",
+          "telegram": "https://t.me/qstnofficial",
+          "dappradar": "https://dappradar.com/dapp/qstn/",
+          "github": "https://github.com/qstnus"
+      }
+      },
       "razor-network": {
         "alias": "Razor Network",
         "gradientBackground": "linear-gradient(#40429B, #40429B)",
@@ -333,6 +351,21 @@
           "0x624A399cB7eF3b9a409e0877f574CB03275ba0C3"
         ]
       },
+      "wal8": {
+        "alias": "Wal8",
+        "gradientBackground": "linear-gradient(180deg, #6247FF, #5545DA)",
+        "description": "A community building a fairer digital future.",
+        "added": 1746014419,
+        "categories": {
+          "pretge":null,
+          "other": null      
+        },
+        "social": {
+          "website": "https://www.wal8.io/",
+          "x": "https://x.com/wal8io",
+          "telegram": "https://t.me/wal8io",
+          "dappradar": "https://dappradar.com/dapp/wal8"
+      }
       "tom-talk": {
         "alias": "Tom Talk",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
@@ -666,6 +699,70 @@
           "discord": "https://t.co/RhX8BOiXcn"
         }
       },
+      "kickdom": {
+        "alias": "KickDOM",
+        "gradientBackground": "linear-gradient(180deg, #1523B0, #F52C95)",
+        "added": 1746014419,
+        "description": "The ultimate tycoon game to build your football empire. Crush your rivals, and claim the throne.",
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "sports"
+          ]
+        },
+        "social": {
+          "website": "https://hub.xyz/kickdomgame",
+          "x": "https://x.com/KickDom_Game",
+          "telegram": "https://discord.com/invite/AEmDM8P4X9",
+          "discord": "https://discord.com/invite/AEmDM8P4X9",
+          "dappradar": "https://dappradar.com/dapp/kickdom"
+      },
+      "contracts": [
+        "0x89C2ebF3b69F78cF8439217cd58d90220B36159C",
+        "0xF2EFbdA16619B5B0b6C23978745558Ee7BeB132B",
+        "0xe9AF133b7FB840a456799C9519A28C70f875C607"
+      ]
+    },
+    "gamifly": {
+      "alias": "Gamifly",
+      "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+      "description": "Gamifly is a fully transparent sports metaverse that provides esports events for fans and gamers alike.",
+      "added": 1746014419,
+      "categories": {
+        "pretge": null,
+        "gaming": [
+          "sports"       
+         ]
+      },
+      "social": {
+        "website": "https://gamifly.co/",
+        "x": "https://x.com/Gamiflyco",
+        "telegram": "https://t.me/gamifly",
+        "discord": "https://discord.com/invite/FMGNrjk75k",
+        "dappradar": "https://dappradar.com/dapp/gamifly"
+    }
+  },
+  "astra-nova": {
+    "alias": "Astra Nova",
+    "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+    "description": "AGI-driven Entertainment Ecosystem that evolves with player behavior.",
+    "added": 1746014419,
+    "categories": {
+      "pretge": null,
+      "gaming": [
+        "sports",
+        "epic-games-store"       
+       ]
+    },
+    "social": {
+      "website": "https://astranova.world/",
+      "x": "https://x.com/Astra__Nova",
+      "telegram": "https://t.me/astranovaofficial",
+      "discord": "https://discord.com/invite/g3NhHrD8K8",
+      "dappradar": "https://dappradar.com/dapp/novatoon-by-astra-nova",
+      "epic-games-store": "https://store.epicgames.com/en-US/p/astra-nova-13197f"
+  }
+      },
       "metadogeunity": {
         "alias": "MetaDogeUnity",
         "gradientBackground": "linear-gradient(#333a50, #1e2331)",
@@ -955,19 +1052,6 @@
           "0xEFEaC0B774350336dB3017F4fe9fe4c3aFa44A13",
           "0xdb5A393Ba78c121bA21A676B09AD1e14a6340756"
         ]
-      },
-      "eventy": {
-        "alias": "Eventy",
-        "gradientBackground": "linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255))",
-        "description": "We're a permissionless, onchain ticketing platform designed to help event organizers build and reward their communities.",
-        "added": 1732625133,
-        "categories": {
-          "entertainment": null
-        },
-        "social": {
-          "website": "https://eventy.xyz/",
-          "x": "https://x.com/eventyxyz"
-        }
       },
       "streamnft": {
         "alias": "StreamNFT",
@@ -1338,23 +1422,6 @@
           "x": "https://x.com/LapsusNext"
         }
       },
-      "cyberkart-ai": {
-        "alias": "CyberKart AI",
-        "gradientBackground": "linear-gradient(180deg, #000000, #000007)",
-        "description": "Adrenaline-fueled Ai racing, Dynamic AI-generated maps, special abilities, futuristic weapons, and crypto rewards.",
-        "categories": {
-          "gaming": [
-            "racing"
-          ],
-          "ai": null,
-          "pretge": null
-        },
-        "social": {
-          "website": "https://www.cyberkart.ai/",
-          "x": "https://x.com/The_CyberKart",
-          "telegram": "https://t.me/CyberKart_official"
-        }
-      },
       "goart-worlds": {
         "alias": "GoArt Worlds",
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
@@ -1408,23 +1475,6 @@
           "website": "https://opensea.io/collection/degenroyale-cashgun",
           "x": "https://x.com/Degen_Royale",
           "discord": "https://discord.com/invite/fbPVv25bx8"
-        }
-      },
-      "world-play-league": {
-        "alias": "World Play League",
-        "gradientBackground": "linear-gradient(180deg, #121133, #12204D)",
-        "description": "World's first player-owned game platform. Providing AI/ML tooling for game studios.",
-        "categories": {
-          "pretge": null,
-          "metaverse": null,
-          "gaming": [
-            "action-adventure",
-            "strategy"
-          ]
-        },
-        "social": {
-          "website": "https://worldplayleague.com/",
-          "x": "https://x.com/worldplayleague"
         }
       },
       "burgercities": {
@@ -1876,31 +1926,6 @@
           "0xFfed1aeE08708415C7d32DAB370e9DE872FBf8A5"
         ]
       },
-      "roco-finance": {
-        "alias": "Roco Finance",
-        "gradientBackground": "linear-gradient(270deg, #ffffff, #fdccd0)",
-        "description": "Roco Finance offers promising and innovative projects a fast, secure, and efficient platform for decentralization. Also, Roco Finance is a decentralized GAMEFI platform that provides blockchain services to game developers, and player communities through the blockchain network.",
-        "categories": {
-          "gaming": [
-            "pc",
-            "racing",
-            "simulation",
-            "mmorpg"
-          ]
-        },
-        "social": {
-          "website": "https://roco.finance/",
-          "x": "https://x.com/rocofinance",
-          "telegram": "https://t.me/rocofinance",
-          "discord": "https://discord.com/invite/Fxbf4PVtua",
-          "github": "https://github.com/rocofinance",
-          "dappradar": "https://dappradar.com/dapp/roco-finance"
-        },
-        "contracts": [
-          "0xb2a85c5ecea99187a977ac34303b80acbddfa208",
-          "0x708cC7aB3B470D5Aa65Be528A7Ad40a1a743F91C"
-        ]
-      },
       "wareden": {
         "alias": "WarEden",
         "gradientBackground": "linear-gradient(183deg, rgb(17, 17, 17), rgb(28 20 16))",
@@ -2045,18 +2070,6 @@
         "social": {
           "website": "https://reservoir.tools/",
           "x": "https://x.com/reservoir0x"
-        }
-      },
-      "superbooking-ai": {
-        "alias": "SuperBooking AI",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
-        "categories": {
-          "ai": null
-        },
-        "description": "SuperBooking AI is a booking platform that also contains a decentralized AI-based management infrastructure and analytics platform.",
-        "added": 1728303236,
-        "social": {
-          "x": "https://x.com/SuperbookingAI"
         }
       },
       "droplinked": {
@@ -2341,20 +2354,6 @@
           "website": "https://www.usebraintrust.com/",
           "x": "https://x.com/usebraintrust?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "github": "https://github.com/braintrustdata"
-        }
-      },
-      "halliday": {
-        "alias": "Halliday",
-        "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
-        "categories": {
-          "partner": null,
-          "wallet": null
-        },
-        "description": "A unified wallet for every Appchain.",
-        "social": {
-          "website": "https://halliday.xyz/",
-          "x": "https://x.com/HallidayHQ",
-          "discord": "https://discord.gg/t5XSFC2SxH"
         }
       },
       "lunacrush": {
