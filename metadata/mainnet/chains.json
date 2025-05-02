@@ -159,37 +159,6 @@
           "0x7cA58393EB55aeC51204f2370c1B9cCCAa9D9784"
         ]
       },
-      "ruby-exchange": {
-        "alias": "Ruby.Exchange",
-        "gradientBackground": "linear-gradient(270deg, rgb(2, 0, 31), rgb(39 0 32))",
-        "description": "Ruby.Exchange is the leading AMM on the SKALE Network - a hybrid L1/L2 solution for Ethereum that offers unlimited scalability with zero gas fees, fast confirmation times, free and instant transfers between SKALE Chains via Metaport, and front-running protection at the network level.",
-        "contracts": [
-          "0x28c6ac22aB738BB01FC6CBA75804dC088aae6193",
-          "0xC13F81c54273a50f42B1280426d77F6494Cbcf58",
-          "0x9Ba6777451F57859da195EfC0fA3714ab79FDBC2",
-          "0x15369d5E452614b26271a4796C3D63E7F549c12d",
-          "0x899F2f2c675811A91D680292cdCFce39b62FE209",
-          "0xADDf444E06B76044EAE278Bc725e27e61c3A5E38",
-          "0x2B4e4899b53E8b7958c4591a6d02f9C0b5c50F8f",
-          "0x9bE04C52d354de63C058A7A1988fe07A302f19e2",
-          "0xBDDad45160E10C3738785d9dD7F30b4B2a5Eeba8",
-          "0x1534c2eE179B5c307031F8dEF90E66D0D8B72028",
-          "0x1604098C09f5C338e520875Ca7E8D06B0e0BCd26"
-        ],
-        "categories": {
-          "digital-collectibles": null,
-          "defi": [
-            "dex"
-          ]
-        },
-        "social": {
-          "website": "https://mainnet.skalenodes.com/fs/elated-tan-skat/27d20f14b495c5c0831eaaeb9263cad8d56f4b73/ruby",
-          "x": "https://x.com/intent/follow?screen_name=ruby_exchange",
-          "discord": "https://t.co/FvLC8svSxL",
-          "github": "https://github.com/RubyExchange",
-          "dappradar": "https://dappradar.com/dapp/ruby-exchange"
-        }
-      },
       "sushiswap": {
         "alias": "SushiSwap",
         "gradientBackground": "linear-gradient(#0f172a, #162444)",
