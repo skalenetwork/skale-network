@@ -228,8 +228,7 @@
           "website": "https://www.sushi.com/swap",
           "x": "https://x.com/SushiSwap?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "github": "https://github.com/sushiswap",
-          "dappradar": "https://dappradar.com/dapp/sushiswap-v3",
-          "swell": "https://swell.skale.space/"
+          "dappradar": "https://dappradar.com/dapp/sushiswap-v3"
         }
       }
     }
@@ -2087,7 +2086,6 @@
           "telegram": "https://t.me/havenscompass",
           "discord": "https://discord.com/invite/havenscompass",
           "dappradar": "https://dappradar.com/dapp/haven-s-compass",
-          "swell": "https://swell.skale.space/",
           "epic-games-store": "https://store.epicgames.com/en-US/p/havens-compass-c31bb4"
         }
       },
@@ -2412,25 +2410,6 @@
       "tools": null
     },
     "apps": {
-      "swell": {
-        "alias": "🌊 SKALE Swell",
-        "gradientBackground": "linear-gradient(150deg, #131313, #1d1d1d)",
-        "categories": {
-          "gaming": null,
-          "metaverse": null,
-          "defi": null,
-          "digital-collectibles": null,
-          "tools": null,
-          "web3": null
-        },
-        "description": "Quest across the ecosystem gas-free and win rewards.",
-        "social": {
-          "website": "https://swell.skale.space/",
-          "x": "https://twitter.com/skalenetwork",
-          "telegram": "https://t.me/skaleofficial",
-          "discord": "https://discord.com/invite/gM5XBy6"
-        }
-      },
       "ledger": {
         "alias": "Ledger",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
