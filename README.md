@@ -8,7 +8,7 @@ The SKALE Network is an open-source, Ethereum-native multichain network built to
 - **Zero gas fees** - by design, developers and end-users never pay for transactions.
 - **Instant finality** - the fastest chain to finality. Time to finality = blocktime.
 - **High performance**
-  - **Throughput** - baseline throughput of 400 transactions per second (TPS), scaling up to 700 TPS at peak performance.
+  - **Throughput** - an average throughput of 800 transactions per second (TPS) for each SKALE chain.
   - **High block gas limit** - 268 million block gas limit enables optimal throughput and allows complex transactions and smart contracts to be executed efficiently.
 - **Purpose-built chains** - app-chains and hub-chains for customization and and horizontal scaling.
 - **Native bridge** - fast and flexible, offering an average of 18-second finality between chains. Provides native support for popular token standards such as ERC-20, ERC-721, and ERC-1155, along with the flexibility to pass arbitrary data via a low-level messaging protocol.
