@@ -8,6 +8,16 @@
       "hub": null,
       "gaming": null
     },
+    "actions": [
+      {
+        "text": "Play World of Dypians",
+        "app": "world-of-dypians"
+      },
+      {
+      "text": "Play Bit Hotel",
+      "app": "bit-hotel"
+      }
+    ],
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
@@ -84,7 +94,17 @@
     "categories": {
       "hub": null,
       "defi": null
+   },
+  "actions": [
+    {
+      "text": "Swap on Sushi Swap",
+      "app": "sushi-swap"
     },
+    {
+    "text": "Bridge to Meson.Fi",
+    "app": "mesonfi"
+    }
+  ],
     "url": "https://europahub.network/",
     "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
@@ -135,6 +155,16 @@
       "hub": null,
       "digital-collectibles": null
     },
+    "actions": [
+      {
+        "text": "Use Dmail",
+        "app": "use-dmail"
+      },
+      {
+      "text": "Play Pixudi",
+      "app": "play-pixudi"
+      }
+    ],
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
