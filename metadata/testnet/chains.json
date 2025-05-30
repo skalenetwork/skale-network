@@ -98,7 +98,7 @@
   "actions": [
     {
       "text": "Swap on Sushi Swap",
-      "app": "sushi-swap"
+      "app": "sushiswap"
     },
     {
     "text": "Bridge to Meson.Fi",
@@ -158,11 +158,11 @@
     "actions": [
       {
         "text": "Use Dmail",
-        "app": "use-dmail"
+        "app": "dmail"
       },
       {
       "text": "Play Pixudi",
-      "app": "play-pixudi"
+      "app": "pixudi"
       }
     ],
     "url": "https://calypsohub.network/",
