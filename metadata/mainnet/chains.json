@@ -887,23 +887,6 @@
           "0x2e3818324a9a37Ff42E40Ac5276fdd4B9775df0d"
         ]
       },
-      "race-4-riches": {
-        "alias": "Race 4 Riches",
-        "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
-        "description": "F2P Win-To-Earn Multiplayer Racing Game.",
-        "added": 1734440392,
-        "categories": {
-          "pretge": null,
-          "gaming": [
-            "racing"
-          ]
-        },
-        "social": {
-          "website": "https://www.race4riches.com/",
-          "x": "https://x.com/RACE4RICHES",
-          "discord": "https://discord.com/invite/yYcXanz5Ha"
-        }
-      },
       "billions-quest": {
         "alias": "Billions Quest",
         "gradientBackground": "linear-gradient(180deg, #080300, #080300)",
@@ -1142,20 +1125,6 @@
           "website": "https://manetho.com/"
         }
       },
-      "turf": {
-        "alias": "Turf",
-        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
-        "description": "Permissionless eSports Engine Revolutionizing Gaming Economy with Prediction Markets.",
-        "added": 1728303236,
-        "categories": {
-          "gaming": null
-        },
-        "social": {
-          "website": "https://0xturf.gg/",
-          "x": "https://x.com/turfGG_",
-          "discord": "https://discord.com/invite/nEfKP6cH6t"
-        }
-      },
       "reign-alter-world-hunter": {
         "alias": "Reign Alter World : Hunter",
         "gradientBackground": "linear-gradient(180deg, #6E2A34, #321D21)",
@@ -1357,27 +1326,6 @@
           "0x866Fd3556A2C714aF32945A0C69A7c6f70fe25be"
         ]
       },
-      "tom": {
-        "alias": "TOM",
-        "gradientBackground": "linear-gradient(180deg, #68A5B2, #FFEAAC)",
-        "description": "TOM Clicker is a clicker, resource management and strategy game where players earn points by clicking the mouse, inviting friends, completing tasks and buying upgrades to grow faster.",
-        "categories": {
-          "gaming": [
-            "mobile",
-            "casual",
-            "strategy"
-          ],
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://tomcoin.app/#home",
-          "x": "https://x.com/TomCoinBnb",
-          "discord": "https://t.me/TomCoinBNB"
-        },
-        "tags": [
-          "pretge"
-        ]
-      },
       "tcg-world": {
         "alias": "TCG World",
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
@@ -1465,15 +1413,6 @@
           "website": "https://platformer.dirtroad.dev/",
           "github": "https://github.com/TheGreatAxios/skale-platformer",
           "dappradar": "https://dappradar.com/dapp/skale-platformer"
-        }
-        },
-        "social": {
-          "website": "https://www.megafans.io/",
-          "x": "https://x.com/MegafansGaming",
-          "telegram": "https://t.me/MegaFans_eSports",
-          "discord": "https://discord.com/invite/megafansesports",
-          "github": "https://github.com/megafans"
-        }
       },
       "lapsus-next": {
         "alias": "Lapsus Next",
