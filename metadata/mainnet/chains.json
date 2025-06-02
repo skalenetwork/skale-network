@@ -71,9 +71,9 @@
         "description": "Earn tokens for completing surveys. Control your data. Start earning today.",
         "added": 1746014419,
         "categories": {
-          "pretge":null,
+          "pretge": null,
           "other": null,
-          "entertainment":null
+          "entertainment": null
         },
         "social": {
           "website": "https://qstn.us/",
@@ -81,7 +81,7 @@
           "telegram": "https://t.me/qstnofficial",
           "dappradar": "https://dappradar.com/dapp/qstn/",
           "github": "https://github.com/qstnus"
-      }
+        }
       },
       "razor-network": {
         "alias": "Razor Network",
@@ -356,8 +356,8 @@
         "description": "A community building a fairer digital future.",
         "added": 1746014419,
         "categories": {
-          "pretge":null,
-          "other": null      
+          "pretge": null,
+          "other": null
         },
         "social": {
           "website": "https://www.wal8.io/",
@@ -716,52 +716,52 @@
           "telegram": "https://discord.com/invite/AEmDM8P4X9",
           "discord": "https://discord.com/invite/AEmDM8P4X9",
           "dappradar": "https://dappradar.com/dapp/kickdom"
+        },
+        "contracts": [
+          "0x89C2ebF3b69F78cF8439217cd58d90220B36159C",
+          "0xF2EFbdA16619B5B0b6C23978745558Ee7BeB132B",
+          "0xe9AF133b7FB840a456799C9519A28C70f875C607"
+        ]
       },
-      "contracts": [
-        "0x89C2ebF3b69F78cF8439217cd58d90220B36159C",
-        "0xF2EFbdA16619B5B0b6C23978745558Ee7BeB132B",
-        "0xe9AF133b7FB840a456799C9519A28C70f875C607"
-      ]
-    },
-    "gamifly": {
-      "alias": "Gamifly",
-      "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
-      "description": "Gamifly is a fully transparent sports metaverse that provides esports events for fans and gamers alike.",
-      "added": 1746014419,
-      "categories": {
-        "pretge": null,
-        "gaming": [
-          "sports"       
-         ]
+      "gamifly": {
+        "alias": "Gamifly",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "Gamifly is a fully transparent sports metaverse that provides esports events for fans and gamers alike.",
+        "added": 1746014419,
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "sports"
+          ]
+        },
+        "social": {
+          "website": "https://gamifly.co/",
+          "x": "https://x.com/Gamiflyco",
+          "telegram": "https://t.me/gamifly",
+          "discord": "https://discord.com/invite/FMGNrjk75k",
+          "dappradar": "https://dappradar.com/dapp/gamifly"
+        }
       },
-      "social": {
-        "website": "https://gamifly.co/",
-        "x": "https://x.com/Gamiflyco",
-        "telegram": "https://t.me/gamifly",
-        "discord": "https://discord.com/invite/FMGNrjk75k",
-        "dappradar": "https://dappradar.com/dapp/gamifly"
-    }
-  },
-  "astra-nova": {
-    "alias": "Astra Nova",
-    "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
-    "description": "AGI-driven Entertainment Ecosystem that evolves with player behavior.",
-    "added": 1746014419,
-    "categories": {
-      "pretge": null,
-      "gaming": [
-        "sports",
-        "epic-games-store"       
-       ]
-    },
-    "social": {
-      "website": "https://astranova.world/",
-      "x": "https://x.com/Astra__Nova",
-      "telegram": "https://t.me/astranovaofficial",
-      "discord": "https://discord.com/invite/g3NhHrD8K8",
-      "dappradar": "https://dappradar.com/dapp/novatoon-by-astra-nova",
-      "epic-games-store": "https://store.epicgames.com/en-US/p/astra-nova-13197f"
-  }
+      "astra-nova": {
+        "alias": "Astra Nova",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "AGI-driven Entertainment Ecosystem that evolves with player behavior.",
+        "added": 1746014419,
+        "categories": {
+          "pretge": null,
+          "gaming": [
+            "sports",
+            "epic-games-store"
+          ]
+        },
+        "social": {
+          "website": "https://astranova.world/",
+          "x": "https://x.com/Astra__Nova",
+          "telegram": "https://t.me/astranovaofficial",
+          "discord": "https://discord.com/invite/g3NhHrD8K8",
+          "dappradar": "https://dappradar.com/dapp/novatoon-by-astra-nova",
+          "epic-games-store": "https://store.epicgames.com/en-US/p/astra-nova-13197f"
+        }
       },
       "metadogeunity": {
         "alias": "MetaDogeUnity",
@@ -808,31 +808,31 @@
           "0xB40FAc9a58a82982d2Cbe5e0e105fF84f52cec14",
           "0x7Df33881190c34Ff46F996186D465A40E2c4B232"
         ]
-    },
-    "cropbytes-conquest": {
-      "alias": "CropBytes Conquest",
-      "gradientBackground": "linear-gradient(180deg, #5083BD, #39BCDB)",
-      "description": "CropBytes Conquest is a tactical and startegy based web3 game that emphasizes player-versus-player (PvP) battles and world expansion.",
-      "added": 1744910699,
-      "categories": {
-        "pretge":null,
-        "gaming": [
+      },
+      "cropbytes-conquest": {
+        "alias": "CropBytes Conquest",
+        "gradientBackground": "linear-gradient(180deg, #5083BD, #39BCDB)",
+        "description": "CropBytes Conquest is a tactical and startegy based web3 game that emphasizes player-versus-player (PvP) battles and world expansion.",
+        "added": 1744910699,
+        "categories": {
+          "pretge": null,
+          "gaming": [
             "fighting",
             "strategy"
           ]
+        },
+        "social": {
+          "website": "https://www.cropbytes.com/conquest",
+          "x": "https://x.com/CropBytes",
+          "telegram": "https://t.me/cropbytes",
+          "discord": "https://discord.gg/zNascuh6At",
+          "dappradar": "https://dappradar.com/dapp/cropbytes-conquest"
+        },
+        "contracts": [
+          "0x01c7fD7E85a4Bb480334d51695F4e88aFa91e286",
+          "0x01Cd42418256E51434612f4dd1ff85753789039D"
+        ]
       },
-      "social": {
-        "website": "https://www.cropbytes.com/conquest",
-        "x": "https://x.com/CropBytes",
-        "telegram": "https://t.me/cropbytes",
-        "discord": "https://discord.gg/zNascuh6At",
-        "dappradar": "https://dappradar.com/dapp/cropbytes-conquest"
-      },
-      "contracts": [
-        "0x01c7fD7E85a4Bb480334d51695F4e88aFa91e286",
-        "0x01Cd42418256E51434612f4dd1ff85753789039D"
-      ]
-    },
       "tenamint": {
         "alias": "TENAMINT",
         "gradientBackground": "linear-gradient(180deg, #fafaf9, #fafaf9)",
