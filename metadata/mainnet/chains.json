@@ -181,6 +181,7 @@
         "alias": "SushiSwap",
         "gradientBackground": "linear-gradient(#0f172a, #162444)",
         "description": "Sushi is a community-driven organization built to solve what might be  called the 'liquidity problem.' One could define this problem as the inability of disparate forms of liquidity to connect with markets in a decentralized way, and vice versa. While other solutions provide incrementally progressive advances toward solving the problem of liquidity, Sushi's progress is intended to create a broader range of  network effects. Rather than limiting itself to a single solution, Sushi intertwines many decentralized markets and instruments.",
+        "featured": true,
         "contracts": [
           "0x4cddf8D1473df386b926ec14b23bfbD566CE827a",
           "0xa4d2268f145CD5c835115441b877295C46F25b9b",
@@ -334,6 +335,7 @@
         "alias": "XO",
         "gradientBackground": "linear-gradient(230deg, rgb(0 0 0), rgb(0 0 0))",
         "description": "XO is the game changer of next generation social discovery platform. We help GenZ initiate intimate conversations with blockchain-verified identity and AI assistance.",
+        "featured": true,
         "categories": {
           "ai": null,
           "social-network": null,
@@ -447,6 +449,7 @@
         "alias": "Pixudi",
         "gradientBackground": "linear-gradient(270deg, rgb(31, 25, 49), rgb(64 50 85))",
         "description": "Pixudi is a race board game built on the blockchain technology. Players compete with each other to collect more treasures than others by overcoming obstacles that come their way and completing missions.",
+        "featured":true,
         "contracts": [
           "0xCEC96cbCD6dD7ea9ddF10cC0a4072dADcdBc709E",
           "0xe7575Cd0f7DfF92E1C2d92860aA46e6E030DBF03",
@@ -1111,6 +1114,7 @@
         "alias": "Hurley",
         "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
         "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
+        "featured": true,
         "categories": {
           "gaming": [
             "mobile"
@@ -1151,6 +1155,7 @@
         "alias": "Zoppel",
         "gradientBackground": "linear-gradient(180deg, #3A201C, #67462E)",
         "description": "Zoppel is a story, a Universe, an unimaginable future, a drifting humanity with existential doubts, worlds&dreams, hidden truths, love.",
+        "featured":true,
         "added": 1725279614,
         "categories": {
           "gaming": null
@@ -1203,6 +1208,7 @@
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Cryptopia is a serverless blockchain game with an embedded multisig wallet and P2P network.",
         "added": 1725279614,
+        "featured": true,
         "categories": {
           "gaming": null
         },
@@ -1663,6 +1669,7 @@
         "alias": "Haven's Compass",
         "gradientBackground": "linear-gradient(92deg, #131313 0%, #092017",
         "description": "In the heart-pounding world of Haven's Compass, players step into the boots of an operative of their choice in a dystopian future, where they are tasked with unraveling a conspiracy that threatens to plunge the world into chaos. Set against a backdrop of stunningly rendered post-apocalyptic landscapes, Haven's Compass seamlessly blends intense gunplay with a gripping narrative, immersing players in a cinematic experience like never before. As players choose their operative, each with a unique background and skill set, they navigate through intricately designed levels, battling relentless waves of enemies and utilizing an arsenal of futuristic weapons, each with its own unique abilities and upgrades. The game's dynamic AI adapts to players' strategies, ensuring a challenging and unpredictable combat experience that rewards both precision and tactical thinking.",
+        "featured": true,
         "categories": {
           "gaming": [
             "epic-games-store",
