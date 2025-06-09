@@ -1980,6 +1980,7 @@
       "strayshot": {
         "alias": "StrayShot",
         "gradientBackground": "linear-gradient(150deg, #151619, #151619)",
+        "featured": true,
         "categories": {
           "pretge": null,
           "gaming": [
