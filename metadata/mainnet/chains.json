@@ -356,7 +356,7 @@
         "description": "XO is the game changer of next generation social discovery platform. We help GenZ initiate intimate conversations with blockchain-verified identity and AI assistance.",
         "categories": {
           "ai": null,
-          "social-network": null,
+          "social": null,
           "pretge": null
         },
         "added": 1737979094,
@@ -415,7 +415,7 @@
           "infrastructure": null,
           "tools": null,
           "wallet": null,
-          "social-network": null,
+          "social": null,
           "consumer": null,
           "utility": null,
           "RWA": null
