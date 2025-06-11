@@ -51,6 +51,7 @@
         "alias": "Hello Pixel",
         "gradientBackground": "linear-gradient(45deg, #001A31, #021A2D)",
         "description": "Hello Pixel is first GameFi ecosystem in Telegram that makes multichain operations friendly and easy for non Web3 users.",
+        "featured": true,
         "added": 1730305213,
         "categories": {
           "wallet": null
@@ -80,6 +81,7 @@
         "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
         "description": "Earn tokens for completing surveys. Control your data. Start earning today.",
         "added": 1746014419,
+        "featured": true,
         "categories": {
           "pretge": null,
           "other": null,
@@ -497,6 +499,7 @@
         "alias": "Dmail",
         "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
         "description": "Dmail is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
+        "featured": true,
         "categories": {
           "social": null,
           "ai": null
@@ -568,6 +571,7 @@
         "alias": "Skillful AI",
         "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
         "description": "Building a Personalized AI Ecosystem powered by Web3.",
+        "featured": true,
         "categories": {
           "ai": null,
           "tools": null
@@ -587,6 +591,7 @@
         "alias": "ChainGPT",
         "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
         "description": "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. Using ChainGPT, users may quickly obtain whatever knowledge and information they require. With many other unique features designed for individuals, developers, and businesses, ChainGPT is an essential tool for all in the Blockchain space.",
+        "featured": true,
         "categories": {
           "ai": null
         },
@@ -605,6 +610,7 @@
         "alias": "PaLM AI",
         "gradientBackground": "linear-gradient(#262626, #1a1a1a)",
         "description": "Multi-platform PaLM AI chatbot uses @Google AI tech for conversations, coding, and image generation, focusing on accessible AI and revenue sharing.",
+        "featured": true,
         "categories": {
           "ai": null
         },
@@ -1018,6 +1024,7 @@
         "alias": "For Loot And Glory",
         "gradientBackground": "linear-gradient(180deg, #020D12, #020D12)",
         "description": "Dive into 'For Loot And Glory', a pirate-themed strategic RPG with innovative decentralized gameplay on Skale",
+        "featured": true,
         "added": 1732625133,
         "categories": {
           "pretge": null,
@@ -1144,7 +1151,6 @@
         "alias": "Hurley",
         "gradientBackground": "linear-gradient(rgb(57 57 31), rgb(31, 29, 0))",
         "description": "Surf the wave of Web3 with Hurley, the iconic surf brand out of Southern California, with exclusive Hurley Digital Collectible NFTs!",
-        "featured": true,
         "categories": {
           "gaming": [
             "mobile"
@@ -1185,7 +1191,6 @@
         "alias": "Zoppel",
         "gradientBackground": "linear-gradient(180deg, #3A201C, #67462E)",
         "description": "Zoppel is a story, a Universe, an unimaginable future, a drifting humanity with existential doubts, worlds&dreams, hidden truths, love.",
-        "featured":true,
         "added": 1725279614,
         "categories": {
           "gaming": null
@@ -1238,7 +1243,6 @@
         "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
         "description": "Cryptopia is a serverless blockchain game with an embedded multisig wallet and P2P network.",
         "added": 1725279614,
-        "featured": true,
         "categories": {
           "gaming": null
         },
@@ -1629,6 +1633,7 @@
         "alias": "Bit Hotel",
         "gradientBackground": "linear-gradient(92deg, #262b35 0%, #14181e",
         "description": "Bit Hotel consists of public and private rooms where player can interact with each other through text and voice based communication.",
+        "featured": true,
         "categories": {
           "metaverse": null,
           "gaming": [
@@ -1678,7 +1683,6 @@
         "alias": "Haven's Compass",
         "gradientBackground": "linear-gradient(92deg, #131313 0%, #092017",
         "description": "In the heart-pounding world of Haven's Compass, players step into the boots of an operative of their choice in a dystopian future, where they are tasked with unraveling a conspiracy that threatens to plunge the world into chaos. Set against a backdrop of stunningly rendered post-apocalyptic landscapes, Haven's Compass seamlessly blends intense gunplay with a gripping narrative, immersing players in a cinematic experience like never before. As players choose their operative, each with a unique background and skill set, they navigate through intricately designed levels, battling relentless waves of enemies and utilizing an arsenal of futuristic weapons, each with its own unique abilities and upgrades. The game's dynamic AI adapts to players' strategies, ensuring a challenging and unpredictable combat experience that rewards both precision and tactical thinking.",
-        "featured": true,
         "categories": {
           "gaming": [
             "epic-games-store",
@@ -1958,7 +1962,6 @@
       "alias": "StrayShot",
       "background": "#000000",
       "gradientBackground": "linear-gradient(150deg, #070707, #151e28)",
-      "featured": true,
       "categories": {
         "gaming": [
           "shooter",
