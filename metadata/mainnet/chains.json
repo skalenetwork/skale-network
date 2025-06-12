@@ -395,7 +395,7 @@
       },
       "reneverse": {
         "alias": "Reneverse",
-        "gradientBackground": "linear-gradient(230deg, #3825AF, #C84F17)",
+        "gradientBackground": "linear-gradient(50deg, rgb(44 14 155), rgb(202 84 18))",
         "description": "ReneVerse is an advertising technology for immersive in-game ads and product placement, at scale. Consisting of blended image/video advertisements called Smart Ads and 2D/3D in-game product placements called Branded Objects, the ReneVerse tech-stack makes in-game advertising accessible, high-performing, and cross-compatible with other solutions.",
         "categories": {
           "gaming": null
@@ -1741,7 +1741,7 @@
       },
       "dexgo": {
         "alias": "DexGO",
-        "gradientBackground": "linear-gradient(92deg, rgb(68, 138, 255) 0%, rgb(68, 138, 255))",
+        "gradientBackground": "linear-gradient(0deg, rgb(0, 48, 153) 0%, rgb(255, 43, 233))",
         "description": "What is a DexGO? This is an NFT game with elements of augmented reality. Put on NFT sneakers and walk along new interesting routes. Guaranteed to earn USDT by completing simple and fun quests and sharing with your followers.",
         "categories": {
           "pretge": null,
