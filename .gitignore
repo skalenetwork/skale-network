@@ -1,2 +1,6 @@
 .vscode
 .DS_Store
+
+bun.lock
+node_modules
+temp_abi.ts
