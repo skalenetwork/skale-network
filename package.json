@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "validate": "./validate-json.sh"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@skalenetwork/portal-core": "^latest"
+  }
+}
