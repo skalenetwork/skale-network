@@ -11,11 +11,13 @@
     "actions": [
       {
         "text": "Swap on Sushi Swap",
-        "app": "sushiswap"
+        "app": "sushiswap",
+        "description": "Swap tokens on Europa Hub using Sushi Swap"
       },
       {
         "text": "Bridge to Meson.Fi",
-        "app": "mesonfi"
+        "app": "mesonfi",
+        "description": "Bridge assets to Meson.Fi"
       }
     ],
     "url": "https://europahub.network/",
@@ -353,11 +355,13 @@
     "actions": [
       {
         "text": "Use Dmail",
-        "app": "dmail"
+        "app": "dmail",
+        "description": "Send and receive emails on Dmail"
       },
       {
         "text": "Play Pixudi",
-        "app": "pixudi"
+        "app": "pixudi",
+        "description": "Play Pixudi games"
       }
     ],
     "url": "https://calypsohub.network/",
@@ -729,11 +733,13 @@
     "actions": [
       {
         "text": "Play World of Dypians",
-        "app": "world-of-dypians"
+        "app": "world-of-dypians",
+        "description": "Play World of Dypians, a massive multiplayer online role-playing game"
       },
       {
         "text": "Play Bit Hotel",
-        "app": "bit-hotel"
+        "app": "bit-hotel",
+        "description": "Play Bit Hotel, a social metaverse game"
       }
     ],
     "url": "https://nebulachain.io/",
