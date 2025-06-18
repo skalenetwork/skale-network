@@ -8,6 +8,18 @@
       "hub": null,
       "defi": null
     },
+    "actions": [
+      {
+        "text": "Swap Tokens On SwapChange",
+        "app": "swapchange",
+        "description": "Swap tokens instantly with zero gas fees"
+      },
+      {
+        "text": "Play Flower",
+        "app": "flower",
+        "description": "Grow, breed, and trade digital flowers"
+      }
+    ],
     "url": "https://europahub.network/",
     "description": "The Europa Hub is a SKALE Chain that offers a number of benefits to the SKALE ecosystem. It’s primary purpose is to offer projects building in the Decentralized Finance space to have a place to utilize shared compute within the SKALE Network.",
     "apps": {
@@ -44,6 +56,7 @@
         "alias": "Avocado",
         "gradientBackground": "linear-gradient(270deg, #f2ea39, #f2ea39)",
         "description": "Avocado is a Web3 game where players nurture, evolve, and trade digital avocado characters, each with unique abilities, within a lively blockchain ecosystem.",
+        "featured": true,
         "categories": {
           "gaming": [
             "pc",
@@ -101,6 +114,18 @@
       "hub": null,
       "digital-collectibles": null
     },
+    "actions": [
+      {
+        "text": "Play Puppies World",
+        "app": "puppy",
+        "description": "Explore the world and train your puppies"
+      },
+      {
+        "text": "Enter the World",
+        "app": "whoruntheworld",
+        "description": "Build your empire and compete for dominance"
+      }
+    ],
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
@@ -108,6 +133,7 @@
         "alias": "Swamp Collection",
         "gradientBackground": "linear-gradient(230deg, rgb(117 108 14), rgb(26 36 16))",
         "description": "Swamp Collection: A unique and immersive NFT series hosted on SKALE's Calypso Hub. This collection features a diverse array of swamp-themed digital art, bringing the mysterious and lush wetland ecosystem to life. ",
+        "featured": true,
         "categories": {
           "digital-collectibles": null
         },
@@ -211,6 +237,18 @@
       "hub": null,
       "gaming": null
     },
+    "actions": [
+      {
+        "text": "Play Otter Heaven",
+        "app": "otter-heaven",
+        "description": "Create and manage your own otter sanctuary"
+      },
+      {
+        "text": "Enter Challenge",
+        "app": "superduper",
+        "description": "Compete in thrilling races for rewards"
+      }
+    ],
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
@@ -262,6 +300,7 @@
         "alias": "Lazy Sloth",
         "gradientBackground": "linear-gradient(270deg, #AADFF1, #AADFF1)",
         "description": "Lazy Sloth is a Web3 game where players collect and trade unique digital sloths, each with distinct abilities and traits, on a blockchain-powered adventure.",
+        "featured": true,
         "categories": {
           "gaming": [
             "casual",
@@ -303,6 +342,7 @@
         "alias": "Watermelon Farm",
         "gradientBackground": "linear-gradient(270deg, #565fe3, #565fe3)",
         "description": "Watermelon is a vibrant Web3 game where players grow, harvest, and trade unique digital watermelons, each with special traits, in a dynamic blockchain ecosystem.",
+        "featured": true,
         "categories": {
           "gaming": [
             "pc",
