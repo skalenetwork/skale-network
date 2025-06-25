@@ -15,7 +15,7 @@
         "description": "Swap tokens on Europa Hub using Sushi Swap"
       },
       {
-        "text": "Bridge to Meson.Fi",
+        "text": "Bridge with Meson.Fi",
         "app": "mesonfi",
         "description": "Bridge assets to Meson.Fi"
       }
