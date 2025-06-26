@@ -10,12 +10,12 @@
     },
     "actions": [
       {
-        "text": "Play World of Dypians",
-        "app": "world-of-dypians"
+        "text": "Play Metasoccer",
+        "app": "metasoccer"
       },
       {
-      "text": "Play Bit Hotel",
-      "app": "bit-hotel"
+      "text": "Play Wareden",
+      "app": "wareden"
       }
     ],
     "url": "https://nebulachain.io/",
@@ -101,8 +101,8 @@
       "app": "sushiswap"
     },
     {
-    "text": "Bridge to Meson.Fi",
-    "app": "mesonfi"
+    "text": "Bridge to Ruby",
+    "app": "ruby"
     }
   ],
     "url": "https://europahub.network/",
@@ -162,8 +162,8 @@
         "app": "dmail"
       },
       {
-      "text": "Play Pixudi",
-      "app": "pixudi"
+      "text": "Play Dripverse",
+      "app": "dripverse"
       }
     ],
     "url": "https://calypsohub.network/",
