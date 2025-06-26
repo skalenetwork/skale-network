@@ -8,16 +8,6 @@
       "hub": null,
       "gaming": null
     },
-    "actions": [
-      {
-        "text": "Play World of Dypians",
-        "app": "world-of-dypians"
-      },
-      {
-      "text": "Play Bit Hotel",
-      "app": "bit-hotel"
-      }
-    ],
     "url": "https://nebulachain.io/",
     "description": "The Nebula Hub is a SKALE Chain focused on supporting the fast-growing gaming ecosystem. With SKALE’s Zero Gas Fees, the Nebula Gaming Hub enables projects deployed on other EVM (Ethereum Virtual Machine) based chains to quickly and easily migrate to a zero-cost gas environment, opening up the door to invisible gaming experiences for their existing communities.",
     "apps": {
@@ -99,10 +89,6 @@
     {
       "text": "Swap on Sushi Swap",
       "app": "sushiswap"
-    },
-    {
-    "text": "Bridge to Meson.Fi",
-    "app": "mesonfi"
     }
   ],
     "url": "https://europahub.network/",
@@ -160,10 +146,6 @@
       {
         "text": "Use Dmail",
         "app": "dmail"
-      },
-      {
-      "text": "Play Pixudi",
-      "app": "pixudi"
       }
     ],
     "url": "https://calypsohub.network/",
