@@ -10,12 +10,12 @@
     },
     "actions": [
       {
-        "text": "Play World of Dypians",
-        "app": "world-of-dypians"
+        "text": "Play Metasoccer",
+        "app": "metasoccer"
       },
       {
-      "text": "Play Bit Hotel",
-      "app": "bit-hotel"
+      "text": "Play Wareden",
+      "app": "wareden"
       }
     ],
     "url": "https://nebulachain.io/",
@@ -101,8 +101,8 @@
       "app": "sushiswap"
     },
     {
-    "text": "Bridge to Meson.Fi",
-    "app": "mesonfi"
+    "text": "Bridge to Ruby",
+    "app": "ruby"
     }
   ],
     "url": "https://europahub.network/",
@@ -130,6 +130,7 @@
         "alias": "SushiSwap",
         "gradientBackground": "linear-gradient(#0f172a, #162444)",
         "description": "Sushi is a community-driven organization built to solve what might be  called the 'liquidity problem.' One could define this problem as the inability of disparate forms of liquidity to connect with markets in a decentralized way, and vice versa. While other solutions provide incrementally progressive advances toward solving the problem of liquidity, Sushi's progress is intended to create a broader range of  network effects. Rather than limiting itself to a single solution, Sushi intertwines many decentralized markets and instruments.",
+        "featured": true,
         "categories": {
           "partner": null,
           "defi": [
@@ -161,8 +162,8 @@
         "app": "dmail"
       },
       {
-      "text": "Play Pixudi",
-      "app": "pixudi"
+      "text": "Play Dripverse",
+      "app": "dripverse"
       }
     ],
     "url": "https://calypsohub.network/",
@@ -187,6 +188,7 @@
         "alias": "Dmail Network",
         "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
         "added": 1723991282,
+        "featured": true,
         "description": "Dmail Network is an AI-powered decentralized communication infrastructure built to provide encrypted emails, unified notifications, and targeted marketing across multiple chains and dApps for users, developers, marketers and influencers.",
         "contracts": [
           "0x47fbe95e981C0Df9737B6971B451fB15fdC989d9"
@@ -237,6 +239,7 @@
         "alias": "ChainGPT",
         "gradientBackground": "linear-gradient(270deg, #0a090f, #171424)",
         "added": 1723991292,
+        "featured": true,
         "description": "Unleash the power of Blockchain AI with ChainGPT. An advanced AI model explicitly designed for Blockchain Technology and Crypto-related topics. It uses the latest algorithms and high-speed computing capabilities to address challenging issues in the Blockchain and Crypto space. Using ChainGPT, users may quickly obtain whatever knowledge and information they require. With many other unique features designed for individuals, developers, and businesses, ChainGPT is an essential tool for all in the Blockchain space.",
         "categories": {
           "ai": null
@@ -252,6 +255,7 @@
       "palm-ai": {
         "alias": "PaLM AI",
         "gradientBackground": "linear-gradient(#262626, #1a1a1a)",
+        "featured": true,
         "description": "Multi-platform PaLM AI chatbot uses @Google AI tech for conversations, coding, and image generation, focusing on accessible AI and revenue sharing.",
         "categories": {
           "ai": null
