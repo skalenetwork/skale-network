@@ -512,24 +512,6 @@
           "0x7d512Ba02d047AeA2177b06EAA950959D923383E"
         ]
       },
-      "nftrade": {
-        "alias": "NFTrade",
-        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
-        "description": "NFTrade is the first cross-chain and blockchain-agnostic NFT platform. We are an aggregator of all NFT marketplaces and host the complete NFT lifecycle, allowing anyone to seamlessly create, buy, sell, swap, farm, and leverage NFTs across different blockchains. Using NFTrade, anyone can gain access to the entirety of their NFT, unlocking the total value of the NFT market.",
-        "categories": {
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://nftrade.com/",
-          "x": "https://x.com/NFTradeOfficial",
-          "telegram": "https://t.me/NFTrade",
-          "discord": "https://discord.com/invite/nftrade-828549961700081715",
-          "dappradar": "https://dappradar.com/dapp/nftrade"
-        },
-        "contracts": [
-          "0xaff8a3e3B69E4e88e83B589ED080560C4359BBa8"
-        ]
-      },
       "pixudi": {
         "alias": "Pixudi",
         "gradientBackground": "linear-gradient(270deg, rgb(31, 25, 49), rgb(64 50 85))",

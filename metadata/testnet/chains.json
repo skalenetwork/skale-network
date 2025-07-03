@@ -176,21 +176,8 @@
     "url": "https://calypsohub.network/",
     "description": "The Calypso Hub is a SKALE Chain focusing on innovation within the Web3 space. Home to a variety of projects in various industries, Calypso is the defacto location for projects looking to push the boundaries in Web3.",
     "apps": {
-      "nftrade": {
-        "alias": "NFTrade",
-        "gradientBackground": "linear-gradient(230deg, rgb(255 255 255), rgb(192 225 244))",
-        "description": "NFTrade is the first cross-chain and blockchain-agnostic NFT platform. We are an aggregator of all NFT marketplaces and host the complete NFT lifecycle, allowing anyone to seamlessly create, buy, sell, swap, farm, and leverage NFTs across different blockchains. Using NFTrade, anyone can gain access to the entirety of their NFT, unlocking the total value of the NFT market.",
-        "categories": {
-          "digital-collectibles": null
-        },
-        "social": {
-          "website": "https://nftrade.com/",
-          "x": "https://x.com/NFTradeOfficial",
-          "telegram": "https://t.me/NFTrade",
-          "discord": "https://discord.com/invite/nftrade-828549961700081715",
-          "dappradar": "https://dappradar.com/dapp/nftrade"
-        }
-      },
+      
+      
       "dmail": {
         "alias": "Dmail Network",
         "gradientBackground": "linear-gradient(rgb(134 33 18), rgb(61 18 12))",
