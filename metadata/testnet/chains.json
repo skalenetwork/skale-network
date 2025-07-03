@@ -11,11 +11,14 @@
     "actions": [
       {
         "text": "Play Metasoccer",
-        "app": "metasoccer"
+        "app": "metasoccer",
+        "description": "Play MetaSoccer on Nebula Hub"
       },
       {
       "text": "Play Wareden",
-      "app": "wareden"
+      "app": "wareden",
+      "description": "Play Wareden on Nebula Hub"
+
       }
     ],
     "url": "https://nebulachain.io/",
@@ -98,11 +101,13 @@
   "actions": [
     {
       "text": "Swap on Sushi Swap",
-      "app": "sushiswap"
+      "app": "sushiswap",
+      "description": "Swap tokens on Europa Hub using SushiSwap"
     },
     {
     "text": "Bridge to Ruby",
-    "app": "ruby"
+    "app": "ruby",
+    "description": "Bridge tokens to Europa Hub using Ruby Exchange"
     }
   ],
     "url": "https://europahub.network/",
@@ -159,11 +164,13 @@
     "actions": [
       {
         "text": "Use Dmail",
-        "app": "dmail"
+        "app": "dmail",
+        "description": "Use Dmail Network on Calypso Hub"
       },
       {
       "text": "Play Dripverse",
-      "app": "dripverse"
+      "app": "dripverse",
+      "description": "Play Dripverse on Calypso Hub"
       }
     ],
     "url": "https://calypsohub.network/",
