@@ -370,7 +370,7 @@
             "outputs": []
         }
     ],
-    "delegation_controller_address": "0x0F51B7a70C255088C9831A2451350DF8076DC3F1",
+    "delegation_controller_address": "0xC5BE0958642f36dE90a105D0133b6Eb218Fed14f",
     "delegation_controller_abi": [
         {
             "type": "event",
@@ -2096,7 +2096,7 @@
             "outputs": []
         }
     ],
-    "punisher_address": "0x576bd639a7282f476Ab6f378F5D38ECd75cf7946",
+    "punisher_address": "0x9CA1455919813776E660a885C5b9381d521dd11f",
     "punisher_abi": [
         {
             "type": "event",
@@ -3274,7 +3274,7 @@
             "outputs": []
         }
     ],
-    "validator_service_address": "0x0F51B7a70C255088C9831A2451350DF8076DC3F1",
+    "validator_service_address": "0xf3e63a1FBA9389ba5Fc3C6f6eC91D3420A4bA595",
     "validator_service_abi": [
         {
             "type": "error",
