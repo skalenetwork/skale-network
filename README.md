@@ -3,9 +3,9 @@
 
 The SKALE Network is an open-source, Ethereum-native multichain network built to scale Ethereum dApps with a focus on high-throughput, fast finality, and **zero gas fee** transactions via the native gas token sFUEL.
 
-## What does SKALE offer?
+## SKALE key features 
 
-- **Zero gas fees** - by design, developers and end-users never pay for transactions.
+- **Zero gas fee** - by design, developers and end-users never pay for transactions.
 - **Instant finality** - the fastest chain to finality. Time to finality = blocktime.
 - **High performance**
   - **Throughput** - an average throughput of 800 transactions per second (TPS) for each SKALE chain.
@@ -17,6 +17,7 @@ The SKALE Network is an open-source, Ethereum-native multichain network built to
 - **Layered Blockchain Security** - A unique hybrid design powers a network of Layer 1 blockchains, enhanced by additional security derived from the “brain of SKALE” — a core system operating on Ethereum.
 
 ### 🛠️ Tech Stack
+
 SKALE is an EVM-compatible network featuring a custom EVM implementation written in C++.
 The following are currently supported:
 
@@ -26,25 +27,29 @@ The following are currently supported:
 ## SKALE Block Exprorers 
 
 SKALE Chains support any EVM-compatible block explorer, such as Etherscan or Blockscout.
-By default, SKALE Chains run with the Blockscout explorer, providing access to essential on-chain data, tools to interact with smart contracts, and the ability to quickly view and verify transactions.
+By default, SKALE Chains run with the [SKALE Blockscout explorer](https://github.com/skalenetwork/blockscout)
 
-[Explore more](https://github.com/skalenetwork/blockscout)
+SKALE Blocksout allow users to:
+
+- Providing access to essential on-chain data
+- Tools to interact with smart contracts
+- Ability to quickly view and verify transactions
 
 ## SKALE Portal 
 
-The SKALE Portal is a web-based interface providing a user-friendly way to transfer assets and data between different SKALE Chains and the Ethereum Mainnet, enabling greater flexibility and scalability for decentralized applications. It also offers key features such as SKL staking and essential developer resources including chain IDs, RPC endpoints, explorer links, and more.
+[SKALE Portal](https://portal.skale.space/) is a web-based interface providing:
+- User-friendly way to transfer assets and data between different SKALE Chains and the Ethereum Mainnet enabling greater flexibility and scalability for decentralized applications (dApps)
+- SKL staking
+- Essential developer resources including chain IDs, RPC endpoints, explorer links, and more.
 
-[Visit the SKALE Portal](https://portal.skale.space/)
-
-## Documentation
-For the latest documentation, please visit: https://docs.skale.space/ 
-
-## Get Started on SKALE
-
-This guide outlines the essential steps for getting started in the SKALE ecosystem. From adding SKALE Chains to a wallet, to bridging assets between chains, and utilizing sFUEL, it includes everything needed to progress from beginner to advanced user.
-
-[Get started on SKALE](https://skale.space/get-started-on-skale)
-
+## Documentation & Resources
+- [Developer Docs](https://docs.skale.space/) - All latest documentation
+- [Guide getting Started on SKALE](https://skale.space/get-started-on-skale) This guide outlines the essential steps for getting started in the SKALE ecosystem. From adding SKALE Chains to a wallet, to bridging assets between chains, and utilizing sFUEL, it includes everything needed to progress from beginner to advanced user.
+- [Whitepaper (EN)](https://skale.network/whitepaper)
+  - [中文 (CN)](https://skale.network/skalenetwork_whitepaper-CN)
+  - [한국어 (KO)](https://skale.network/skalenetwork_whitepaper-KO)
+  - [日本語 (JP)](https://skale.network/skalenetwork_whitepaper-JA)
+- [Open Source Plan and Community](OPEN_SOURCE_PLAN.md)
 
 ## SKALE projects 
 - [SKALE Consensus](https://github.com/skalenetwork/skale-consensus) - SKALE Consensus is an ultra-high-performance blockchain consensus engine written in C++.
@@ -60,17 +65,6 @@ Actively maintained and utilized by SKALE, libBLS underpins critical protocol-le
 
 ## SKALE Releases
 - [Releases](/releases)
-
-## SKALE Whitepaper 
-- [Whitepaper](https://skale.network/whitepaper)
-- [Whitepaper CN (中文)](https://skale.network/skalenetwork_whitepaper-CN)
-- [Whitepaper KO (한국어)](https://skale.network/skalenetwork_whitepaper-KO)
-- [Whitepaper JP](https://skale.network/skalenetwork_whitepaper-JA)
-
-## Other Resources
-
-- [Open Source Plan and Community](OPEN_SOURCE_PLAN.md)
-- [Roadmap](https://skale.network/roadmap)
 
 ## SKALE Communities
 - [SKALE Developer Community on Discord](http://skale.chat)
