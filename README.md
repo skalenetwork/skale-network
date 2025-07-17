@@ -37,14 +37,14 @@ SKALE Blockscout provides:
 
 ## SKALE Portal 
 
-[SKALE Portal](https://portal.skale.space/) is a web-based interface providing:
-- A user-friendly interface for transferring assets and data between SKALE Chains and the Ethereum Mainnet, providing greater flexibility and scalability for dApps.
+[SKALE Portal](https://portal.skale.space/) is a web-based interface that provides:
+- A user-friendly interface for transferring assets and data between SKALE Chains and the Ethereum Mainnet, enabling greater flexibility and scalability for dApps
 - SKL staking interface
-- Essential developer resources including chain IDs, RPC endpoints, explorer links, and more.
+- Essential developer resources including chain IDs, RPC endpoints, explorer links, and more
 
 ## Documentation & Resources
 - [Developer Docs](https://docs.skale.space/) - Up-to-date documentation
-- [SKALE Getting Started Guide](https://skale.space/get-started-on-skale) The Getting Started Guide covers all essential steps for onboarding into the SKALE ecosystem — from adding SKALE Chains to a wallet, to bridging assets, and using sFUEL. It includes everything needed to progress from beginner to advanced user.
+- [SKALE Getting Started Guide](https://skale.space/get-started-on-skale) The Getting Started Guide covers all essential steps for onboarding into the SKALE ecosystem — from adding SKALE Chains to a wallet, bridging assets, to using sFUEL. It includes everything needed to progress from beginner to advanced user.
 - [Whitepaper (EN)](https://skale.network/whitepaper)
   - [中文 (CN)](https://skale.network/skalenetwork_whitepaper-CN)
   - [한국어 (KO)](https://skale.network/skalenetwork_whitepaper-KO)
@@ -53,7 +53,7 @@ SKALE Blockscout provides:
 
 ## SKALE projects 
 - [SKALE Consensus](https://github.com/skalenetwork/skale-consensus) - SKALE Consensus is an ultra-high-performance blockchain consensus engine written in C++.
-- [SKALED](https://github.com/skalenetwork/skaled) - Skaled is SKALE Proof-Of-Stake blockchain client, compatible with the Ethereum ecosystem, including EVM, Solidity, Metamask and Truffle. It uses SKALE BFT Consensus engine.
+- [SKALED](https://github.com/skalenetwork/skaled) - Skaled is the SKALE Proof-Of-Stake blockchain client, compatible with the Ethereum ecosystem, including EVM, Solidity, Metamask, and Truffle.
 - [SKALE Manager](https://github.com/skalenetwork/skale-manager) - SKALE Manager is a smart contract system that orchestrates and manages the operations of the SKALE Network. It controls Nodes, Validators, and SKALE Chains, and includes contracts for managing the SKALE Token, Distributed Key Generation (DKG), and BLS signature verification.
 - [SKALE Admin](https://github.com/skalenetwork/skale-admin) - SKALE Admin is a core component of the SKALE Node architecture. It operates within a containerized environment, running isolated environments for each chain to ensure scalability and security. The SKALE Admin Docker container is responsible for orchestrating all other SKALE-related Docker containers.
 - [SGX Wallet](https://github.com/skalenetwork/sgxwallet) - SGX Wallet is SKALE’s secure, next-generation hardware crypto wallet based on Intel® SGX. It supports Ethereum and SKALE, with all key generation and signing performed inside a secure SGX enclave—ensuring private keys never leave the enclave unencrypted. Running as a network server, SGX Wallet provides a registration service that issues client certificates, with manual admin approval for each registration.
