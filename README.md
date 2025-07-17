@@ -45,14 +45,27 @@ This guide outlines the essential steps for getting started in the SKALE ecosyst
 
 [Get started on SKALE](https://skale.space/get-started-on-skale)
 
+
+## SKALE projects 
+- [SKALE Consensus](https://github.com/skalenetwork/skale-consensus) - SKALE Consensus is an ultra-high-performance blockchain consensus engine written in C++.
+- [SKALED](https://github.com/skalenetwork/skaled) - Skaled is SKALE Proof-Of-Stake blockchain client, compatible with ETH ecocystem, including EVM, Solidity, Metamask and Truffle. It uses SKALE BFT Consensus engine.
+- [SKALE Manager](https://github.com/skalenetwork/skale-manager) - SKALE Manager is a smart contract system that orchestrates and manages the operations of the SKALE Network. It controls Nodes, Validators, and SKALE Chains, and includes contracts for managing the SKALE Token, Distributed Key Generation (DKG), and BLS signature verification.
+- [SKALE Admin](https://github.com/skalenetwork/skale-admin) - SKALE Admin is a core component of the SKALE Node architecture. It operates within a containerized environment, running isolated environments for each chain to ensure scalability and security. The SKALE Admin Docker container is responsible for orchestrating all other SKALE-related Docker containers.
+- [SGX wallet](https://github.com/skalenetwork/sgxwallet) - SGXWallet is SKALE’s secure, next-generation hardware crypto wallet based on Intel® SGX. It supports Ethereum and SKALE, with all key generation and signing performed inside a secure SGX enclave—ensuring private keys never leave the enclave unencrypted. Running as a network server, SGXWallet provides a registration service that issues client certificates, with manual admin approval for each registration.
+- [SKALE Bridge IMA](https://github.com/skalenetwork/IMA) - SKALE’s Interchain Messaging Agent (IMA) is a decentralized, high-performance message transport layer and bridging protocol. The unique design and flexiblity of IMA allows every SKALE Chain to be joined together into an interconnected web of blockchains that make up the SKALE Network. IMA (Interchain Messaging Agent) provides the most advanced, secure, and cost-effective solution for moving assets between Ethereum and SKALE chains.
+- [SKALE libBLS](https://github.com/skalenetwork/libBLS) - libBLS is a high-performance C++ cryptographic library implementing Boneh–Lynn–Shacham (BLS) signatures, threshold encryption, and Distributed Key Generation (DKG). It supports threshold signatures, aggregate (multi-)signatures, and is Solidity-compatible for seamless integration with EVM-based smart contracts.
+Actively maintained and utilized by SKALE, libBLS underpins critical protocol-level functions including Byzantine Fault Tolerant (BFT) consensus, verifiable distributed randomness, interchain messaging, and cryptographic protection of on-chain transactions.
+- [BITE Protocol library](https://github.com/skalenetwork/bite-ts) - BITE (Blockchain Integrated Threshold Encryption) is an extension of SKALE’s provably secure consensus protocol, enabling encrypted transaction processing.`bite.ts` is a TypeScript library for interacting with the BITE protocol. It encrypts transaction data using BLS public keys and appends metadata such as a magic number and epoch ID for secure and verifiable transmission.
+
+
+## SKALE Releases
+- [Releases](/releases)
+
 ## SKALE Whitepaper 
 - [Whitepaper](https://skale.network/whitepaper)
 - [Whitepaper CN (中文)](https://skale.network/skalenetwork_whitepaper-CN)
 - [Whitepaper KO (한국어)](https://skale.network/skalenetwork_whitepaper-KO)
 - [Whitepaper JP](https://skale.network/skalenetwork_whitepaper-JA)
-
-## SKALE Releases
-- [Releases](/releases)
 
 ## Other Resources
 
@@ -62,6 +75,7 @@ This guide outlines the essential steps for getting started in the SKALE ecosyst
 ## SKALE Communities
 - [SKALE Developer Community on Discord](http://skale.chat)
 - [SKALE Communities](https://skale.network/communities)
+- [SKALE Forum](https://forum.skale.network/)
 
 ## Community Built Tools
 
