@@ -2189,18 +2189,6 @@
           "telegram": "https://t.me/StakinOfficial"
         }
       },
-      "signia": {
-        "alias": "Signia",
-        "gradientBackground": "linear-gradient(150deg, #265952, #648B4C)",
-        "categories": {
-          "validator": null
-        },
-        "description": "Helping passionate entrepreneurs build impactful world-changing companies.",
-        "social": {
-          "website": "https://signiaventurepartners.com/",
-          "x": "https://x.com/signiavc"
-        }
-      },
       "infstones": {
         "alias": "InfStones",
         "gradientBackground": "linear-gradient(150deg, #FFFFFF, #FFFFFF)",
