@@ -7,7 +7,7 @@ The SKALE Network is an open-source, Ethereum-native multichain network built to
 
 ## SKALE Key Features 
 
-- **Zero gas fees** - by design, developers and end-users never pay for transactions. This enables compatiblity with EVM tooling.
+- **Zero gas fees** - by design, developers and end-users never pay for transactions. This enables compatibility with EVM tooling.
 - **Gasless Transactions** - native functionality that elevates zero gas fees with an invisible user experience
 - **Instant finality** - the fastest chain to finality. Time to finality = blocktime.
 - **High performance**
@@ -163,4 +163,4 @@ SKALE Chains with little to no modification. SKALE Chains are also compatible wi
 
 No, there is no main "SKALE chain". Every SKALE Chain is independent and operates on its own. The SKALE Network is a collection of many chains. If you are a user looking to start using SKALE, head over to the [Getting Started](https://skale.space/get-started-on-skale) page on the SKALE website.
 
-SKALE also has [FAIR](https://fairchain.ai) -- which is the ecosystems Layer 1 -- which is currently in develompent and will soon be the home to FAIR.
+SKALE also has [FAIR](https://fairchain.ai) -- which is the ecosystems Layer 1 -- which is currently in development and will soon be the home to FAIR.
