@@ -272,8 +272,8 @@
           "dappradar": "https://dappradar.com/"
         },
         "contracts": [
-          "0xc1d40923cf8775f52286911576AAAB60339a7d00",
-          "0xCD2094e4754c0fF24D44f0Ab42AFBfD4a391834D"
+          "0xb9ae7914E47Ae3cA174227ad49568EB21939DB4d",
+          "0xA36B11b9d66494Ec6E95F35884cC92BF9e476353"
         ],
         "added": 1724070518
       },
@@ -293,7 +293,7 @@
           "x": "https://x.com/SkaleNetwork"
         },
         "contracts": [
-          "0x0E53fDa415cc6b2a7D9495D4a1F0659F0Ee45e0d"
+          "0xDBCb078F79f3f0ed12340c3f307d76E5188EcB59"
         ]
       },
       "lazysloth": {
@@ -315,7 +315,7 @@
           "dappradar": "https://dappradar.com/"
         },
         "contracts": [
-          "0xfd1DBBF7BC8C486E16c92ed5ab08f8AeEb27635c"
+          "0x11344620fc3e7EdBe96cD53c497de054b8625a63"
         ]
       },
       "superduper": {
