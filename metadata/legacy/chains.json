@@ -1,5 +1,5 @@
 {
-  "international-villainous-zaurak": {
+  "honored-impish-wezen": {
     "alias": "Europa DeFi Hub",
     "shortAlias": "europa",
     "background": "rgb(5 19 37)",
@@ -228,7 +228,7 @@
       }
     }
   },
-  "peaceful-outlying-ankaa": {
+  "young-coarse-celaeno": {
     "alias": "Nebula Gaming Hub",
     "shortAlias": "nebula",
     "background": "#2c1626",
@@ -272,8 +272,8 @@
           "dappradar": "https://dappradar.com/"
         },
         "contracts": [
-          "0xb9ae7914E47Ae3cA174227ad49568EB21939DB4d",
-          "0xA36B11b9d66494Ec6E95F35884cC92BF9e476353"
+          "0xd0657Fd5bC980c722AB1b196Bd9176E5acf99E6B",
+          "0xd0A604054e5322344eeA2A77E5d71c1167670d0f"
         ],
         "added": 1724070518
       },
@@ -293,7 +293,7 @@
           "x": "https://x.com/SkaleNetwork"
         },
         "contracts": [
-          "0xDBCb078F79f3f0ed12340c3f307d76E5188EcB59"
+          "0xd9271785E81f640CF1C9F6C43BF69607CECd1986"
         ]
       },
       "lazysloth": {
@@ -315,7 +315,7 @@
           "dappradar": "https://dappradar.com/"
         },
         "contracts": [
-          "0x11344620fc3e7EdBe96cD53c497de054b8625a63"
+          "0xC3E554E49f0Ad593Cbdb7552B98a755f87EB0987"
         ]
       },
       "superduper": {
