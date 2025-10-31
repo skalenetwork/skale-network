@@ -1,6 +1,7 @@
 {
   "jubilant-horrible-ancha": {
     "alias": "SKALE Base Testnet",
+    "shortAlias": "base-testnet",
     "background": "rgb(0 0 0)",
     "url": "https://skale.space/",
     "description": "",
@@ -9,4 +10,4 @@
     }
   }
 }
-    
+     
