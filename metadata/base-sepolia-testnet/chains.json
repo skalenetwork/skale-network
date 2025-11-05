@@ -2,12 +2,12 @@
   "jubilant-horrible-ancha": {
     "alias": "SKALE Base Testnet",
     "shortAlias": "base-testnet",
-    "background": "rgb(0 0 0)",
+    "background": "#0000FF",
+    "gradientBackground": "linear-gradient(rgb(0 0 129), rgb(40 40 121))",
     "url": "https://skale.space/",
-    "description": "",
-    "categories":{
+    "description": "SKALE on Base Sepolia brings the speed and scalability of the SKALE Network to the Base ecosystem.",
+    "categories": {
       "hub": null
     }
   }
 }
-     
