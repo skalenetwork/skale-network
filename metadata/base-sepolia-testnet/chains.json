@@ -8,6 +8,7 @@
     "description": "SKALE on Base Sepolia brings the speed and scalability of the SKALE Network to the Base ecosystem.",
     "categories": {
       "hub": null
-    }
+    },
+    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com/"
   }
 }
