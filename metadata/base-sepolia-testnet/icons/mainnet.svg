@@ -1,10 +1,10 @@
 <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_277_47)">
-<rect width="500" height="500" rx="110" fill="#0000FF"/>
-<rect x="105" y="105" width="290" height="290" rx="66" fill="white"/>
+<g clip-path="url(#clip0_283_302)">
+<rect width="500" height="500" rx="130" fill="#B8A581"/>
+<rect x="108" y="108" width="284" height="284" rx="38" fill="white"/>
 </g>
 <defs>
-<clipPath id="clip0_277_47">
+<clipPath id="clip0_283_302">
 <rect width="500" height="500" fill="white"/>
 </clipPath>
 </defs>
