@@ -57,9 +57,11 @@ We welcome code contributions\! If you wish to contribute a fix or a new feature
 
 ### Before You Start
 
-1. **Check Issues:** See if a similar issue or feature request already exists. If not, consider creating an issue first to discuss your proposed changes with the team. This prevents wasted effort on features that may not align with the network's roadmap.
+1. **Check Issues:** Before starting, please review the existing issues to see if a similar report or feature request already exists.
+If not, you’re welcome to create a new issue to discuss your proposed changes with the team.
+This helps ensure your efforts align with the network’s roadmap and ongoing development priorities.
 2. **Clone the Repository:** Fork the relevant repository and clone it locally.
-3. **Branching:** Create a new, descriptive branch for your work (e.g., `fix/bug-in-ima-client` or `feat/new-logging-method`).
+3. **Branching:** Create a new, descriptive branch for your work (e.g., `fix/bug-in-ima-agent`).
 
 ### Submitting a Pull Request (PR)
 
