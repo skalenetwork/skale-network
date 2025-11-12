@@ -14,7 +14,7 @@ The SKALE Network Engineering team uses [GitHub Projects](https://github.com/org
 
       * **BITE-ts:** Issues with encrypted transactions (create, send, decrypt). Problems or unexpected behavior with BITE-ts library APIs (e.g., bite.encryptTransaction(tx), bite.getDecryptedTransactionData(transactionHash). $\rightarrow$ **[`skalenetwork/bite-ts`](https://github.com/skalenetwork/bite-ts)**
       * **SKALE Manager Smart Contracts:** Questions/issues regarding core smart contracts $\rightarrow$ **[`skalenetwork/skale-manager`](https://github.com/skalenetwork/skale-manager)**
-      * **SKALE Chains (Transactions/Calls):** Bugs faced when interacting with SKALE chains (calls, transactions, filters, etc.) $\rightarrow$ **[`skalenetwork/skaled`](https://github.com/skalenetwork/skaled)**
+      * **SKALE Chains (Blockchain interaction):** Bugs faced when interacting with SKALE chains (calls, transactions, filters, etc.) $\rightarrow$ **[`skalenetwork/skaled`](https://github.com/skalenetwork/skaled)**
       * **IMA Bridge:** Problems noticed while transferring tokens through the IMA bridge $\rightarrow$ **[`skalenetwork/IMA`](https://github.com/skalenetwork/IMA)**
       * **SKALE Portal** Problems with integrated tools/APIs (MetaMask, wallets, bridges, explorers), bugs in page functionality (UI, routing, formatting, performance), bugs in your local or production environment affecting Portal core functionality $\rightarrow$ **[`skalenetwork/portal`](https://github.com/skalenetwork/portal/issues)**
       * **Block Explorer:** Any issues with the Block Explorer (Blockscout) $\rightarrow$ **[`skalenetwork/blockscout`](https://github.com/skalenetwork/blockscout)**
