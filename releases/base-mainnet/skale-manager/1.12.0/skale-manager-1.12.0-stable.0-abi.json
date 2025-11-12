@@ -15263,5 +15263,925 @@
             ],
             "outputs": []
         }
+    ],
+    "skale_token_address": "0x91D00CF7bE6F47bf9BFAaA974d80Ea79a4A3bfe7",
+    "skale_token_abi": [
+        {
+            "type": "constructor",
+            "stateMutability": "undefined",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "contractsAddress"
+                },
+                {
+                    "type": "address[]",
+                    "name": "defOps"
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "Approval",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "owner",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "spender",
+                    "indexed": true
+                },
+                {
+                    "type": "uint256",
+                    "name": "value",
+                    "indexed": false
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "AuthorizedOperator",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "operator",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "tokenHolder",
+                    "indexed": true
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "Burned",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "operator",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "from",
+                    "indexed": true
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount",
+                    "indexed": false
+                },
+                {
+                    "type": "bytes",
+                    "name": "data",
+                    "indexed": false
+                },
+                {
+                    "type": "bytes",
+                    "name": "operatorData",
+                    "indexed": false
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "Initialized",
+            "inputs": [
+                {
+                    "type": "uint8",
+                    "name": "version",
+                    "indexed": false
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "Minted",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "operator",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "to",
+                    "indexed": true
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount",
+                    "indexed": false
+                },
+                {
+                    "type": "bytes",
+                    "name": "data",
+                    "indexed": false
+                },
+                {
+                    "type": "bytes",
+                    "name": "operatorData",
+                    "indexed": false
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "RevokedOperator",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "operator",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "tokenHolder",
+                    "indexed": true
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "RoleGranted",
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "account",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "sender",
+                    "indexed": true
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "RoleRevoked",
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "account",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "sender",
+                    "indexed": true
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "Sent",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "operator",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "from",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "to",
+                    "indexed": true
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount",
+                    "indexed": false
+                },
+                {
+                    "type": "bytes",
+                    "name": "data",
+                    "indexed": false
+                },
+                {
+                    "type": "bytes",
+                    "name": "operatorData",
+                    "indexed": false
+                }
+            ]
+        },
+        {
+            "type": "event",
+            "anonymous": false,
+            "name": "Transfer",
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "from",
+                    "indexed": true
+                },
+                {
+                    "type": "address",
+                    "name": "to",
+                    "indexed": true
+                },
+                {
+                    "type": "uint256",
+                    "name": "value",
+                    "indexed": false
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "CAP",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "DECIMALS",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "DEFAULT_ADMIN_ROLE",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "bytes32",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "MINTER_ROLE",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "bytes32",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "NAME",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "string",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "SYMBOL",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "string",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "allowance",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "holder"
+                },
+                {
+                    "type": "address",
+                    "name": "spender"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "approve",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "spender"
+                },
+                {
+                    "type": "uint256",
+                    "name": "value"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "authorizeOperator",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "operator"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "balanceOf",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "tokenHolder"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "burn",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                },
+                {
+                    "type": "bytes",
+                    "name": "data"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "contractManager",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "address",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "decimals",
+            "constant": true,
+            "stateMutability": "pure",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "uint8",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "defaultOperators",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "address[]",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getAndUpdateDelegatedAmount",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "wallet"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getAndUpdateLockedAmount",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "wallet"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getAndUpdateSlashedAmount",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "wallet"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getRoleAdmin",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bytes32",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getRoleMember",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "uint256",
+                    "name": "index"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "address",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "getRoleMemberCount",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "grantRole",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "granularity",
+            "constant": true,
+            "stateMutability": "pure",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "hasRole",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "initialize",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "contractManagerAddress"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "isOperatorFor",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "operator"
+                },
+                {
+                    "type": "address",
+                    "name": "tokenHolder"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "mint",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "account"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                },
+                {
+                    "type": "bytes",
+                    "name": "userData"
+                },
+                {
+                    "type": "bytes",
+                    "name": "operatorData"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": "successful"
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "name",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "string",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "operatorBurn",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "account"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                },
+                {
+                    "type": "bytes",
+                    "name": "data"
+                },
+                {
+                    "type": "bytes",
+                    "name": "operatorData"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "operatorSend",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "sender"
+                },
+                {
+                    "type": "address",
+                    "name": "recipient"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                },
+                {
+                    "type": "bytes",
+                    "name": "data"
+                },
+                {
+                    "type": "bytes",
+                    "name": "operatorData"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "renounceRole",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "revokeOperator",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "operator"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "revokeRole",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "role"
+                },
+                {
+                    "type": "address",
+                    "name": "account"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "send",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "recipient"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                },
+                {
+                    "type": "bytes",
+                    "name": "data"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "symbol",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "string",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "totalSupply",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "transfer",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "recipient"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "transferFrom",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "holder"
+                },
+                {
+                    "type": "address",
+                    "name": "recipient"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": ""
+                }
+            ]
+        }
     ]
 }
