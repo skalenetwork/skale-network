@@ -19,7 +19,8 @@ The SKALE Network Engineering team uses [GitHub Projects](https://github.com/org
       * **SKALE Portal** Problems with integrated tools/APIs (MetaMask, wallets, bridges, explorers), bugs in page functionality (UI, routing, formatting, performance), bugs in your local or production environment affecting Portal core functionality $\rightarrow$ **[`skalenetwork/portal`](https://github.com/skalenetwork/portal/issues)**
       * **Block Explorer:** Any issues with the Block Explorer (Blockscout) $\rightarrow$ **[`skalenetwork/blockscout`](https://github.com/skalenetwork/blockscout)**
       * **Infrastructure:** Infrastructure or SKALE Node deployment-related problems $\rightarrow$ **[`skalenetwork/skale-node`](https://github.com/skalenetwork/skale-node)**
-      * **docs.skale.network** - Raise a ticket if you’re having trouble finding information or encounter any website issues related to page functionality (misspellings, formatting errors, rendering, routing, loading, or page display problems). $\rightarrow$ **[`skalenetwork/docs.skale.space`](https://github.com/skalenetwork/docs.skale.space)**
+      * **Node-cli:** Raise a ticket if a node-cli command fails, behaves incorrectly, or causes errors, crashes, or compatibility issues $\rightarrow$ **[`skalenetwork/node-cli`](https://github.com/skalenetwork/node-cli)**
+      * **docs.skale.space** - Raise a ticket if you’re having trouble finding information or encounter any website issues related to page functionality (misspellings, formatting errors, rendering, routing, loading, or page display problems) $\rightarrow$ **[`skalenetwork/docs.skale.space`](https://github.com/skalenetwork/docs.skale.space)**
 
 2. **Before submitting:**
 Check if an issue for your problem already exists by searching under Issues.
@@ -37,7 +38,7 @@ If you can’t find an open issue addressing it, create a new one — include a 
 5. **Triage and Feedback:** The SKALE Team will triage the finding, determine the engineering plan, and agree on a release strategy. We will post follow-ups and release plans directly to the issue comments to keep you informed.
 
 ### Feature Requests & Proposals Sharing
-If you’d like to start a discussion about developing a new feature or modifying an existing one, please open a new topic on the [SKALE Forum](https://forum.skale.network/).Share your idea and explain why it would be a valuable addition to the SKALE ecosystem. 
+If you’d like to start a discussion about developing a new feature or modifying an existing one, please open a new topic on the [SKALE Forum](https://forum.skale.network/). Share your idea and explain why it would be a valuable addition to the SKALE ecosystem. 
 
 Alternatively, you can start a thread under [GitHub Discussions-> Ideas](https://github.com/orgs/skalenetwork/discussions/categories/ideas).
 
