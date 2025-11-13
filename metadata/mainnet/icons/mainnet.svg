@@ -1,25 +1,20 @@
 <svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_283_51)">
-<rect width="500" height="500" rx="130" fill="url(#paint0_linear_283_51)"/>
-<g clip-path="url(#clip1_283_51)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M363.549 272.306L250.25 422.676V338.253L363.549 272.306Z" fill="#C8B2F5" stroke="#3441C0" stroke-width="10" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M136.959 272.306L250.258 422.676V338.253L136.959 272.306Z" fill="#EECBC0" stroke="#3441C0" stroke-width="10" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M136.938 254.882L250.258 204.461V319.404L136.938 254.882Z" fill="#87A9F0" stroke="#3441C0" stroke-width="10" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M363.57 254.882L250.25 204.461V319.404L363.57 254.882Z" fill="#CAB3F5" stroke="#3441C0" stroke-width="10" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M136.959 254.878L250.258 76.9492V204.457L136.959 254.878Z" fill="#EECBC0" stroke="#3441C0" stroke-width="10" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M363.549 254.878L250.25 76.9492V204.457L363.549 254.878Z" fill="#B8FBF6" stroke="#3441C0" stroke-width="10" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#clip0_291_3)">
+<g clip-path="url(#clip1_291_3)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M410.333 282.004L250.172 495.215V375.511L410.333 282.004Z" fill="#C8B2F5" stroke="#3441C0" stroke-width="15" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M90.0264 282.004L250.188 495.215V375.511L90.0264 282.004Z" fill="#EECBC0" stroke="#3441C0" stroke-width="15" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M89.9962 257.294L250.188 185.801V348.78L89.9962 257.294Z" fill="#87A9F0" stroke="#3441C0" stroke-width="15" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M410.371 257.294L250.18 185.801V348.78L410.371 257.294Z" fill="#CAB3F5" stroke="#3441C0" stroke-width="15" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M90.0342 257.287L250.195 5V185.795L90.0342 257.287Z" fill="#EECBC0" stroke="#3441C0" stroke-width="15" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M410.341 257.287L250.18 5V185.795L410.341 257.287Z" fill="#B8FBF6" stroke="#3441C0" stroke-width="15" stroke-miterlimit="7" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 </g>
 <defs>
-<linearGradient id="paint0_linear_283_51" x1="250" y1="0" x2="250" y2="500" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FFF3EF"/>
-<stop offset="1" stop-color="#D8C4FF"/>
-</linearGradient>
-<clipPath id="clip0_283_51">
+<clipPath id="clip0_291_3">
 <rect width="500" height="500" fill="white"/>
 </clipPath>
-<clipPath id="clip1_283_51">
-<rect width="231" height="350" fill="white" transform="translate(135 75)"/>
+<clipPath id="clip1_291_3">
+<rect width="329" height="500" fill="white" transform="translate(86)"/>
 </clipPath>
 </defs>
 </svg>

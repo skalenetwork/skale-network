@@ -3,7 +3,7 @@
     "alias": "SKALE Base",
     "shortAlias": "base",
     "background": "#0000FF",
-    "gradientBackground": "linear-gradient(rgb(0 0 129), rgb(40 40 121))",
+    "gradientBackground": "linear-gradient(#0000FF, #0000D8)",
     "url": "https://skale.space/",
     "description": "SKALE on Base brings the speed and scalability of the SKALE Network to the Base ecosystem.",
     "categories": {
