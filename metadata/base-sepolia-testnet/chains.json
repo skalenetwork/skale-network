@@ -3,7 +3,7 @@
     "alias": "SKALE Base Testnet",
     "shortAlias": "base-testnet",
     "background": "#0000FF",
-    "gradientBackground": "linear-gradient(#B8A581, #625741)",
+    "gradientBackground": "linear-gradient(#B8A581, #9a8a6bff)",
     "url": "https://skale.space/",
     "description": "SKALE on Base Sepolia brings the speed and scalability of the SKALE Network to the Base ecosystem.",
     "categories": {
