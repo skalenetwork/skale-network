@@ -87,7 +87,7 @@
               },
               {
                 "label": "delay",
-                "type": "t_userDefinedValueType(Delay)5199",
+                "type": "t_userDefinedValueType(Delay)5062",
                 "offset": 6,
                 "slot": "0"
               }
@@ -165,7 +165,7 @@
               },
               {
                 "label": "grantDelay",
-                "type": "t_userDefinedValueType(Delay)5199",
+                "type": "t_userDefinedValueType(Delay)5062",
                 "offset": 16,
                 "slot": "1"
               }
@@ -201,7 +201,7 @@
               },
               {
                 "label": "adminDelay",
-                "type": "t_userDefinedValueType(Delay)5199",
+                "type": "t_userDefinedValueType(Delay)5062",
                 "offset": 0,
                 "slot": "1"
               },
@@ -226,7 +226,7 @@
             "label": "uint64",
             "numberOfBytes": "8"
           },
-          "t_userDefinedValueType(Delay)5199": {
+          "t_userDefinedValueType(Delay)5062": {
             "label": "Time.Delay",
             "numberOfBytes": "14",
             "underlying": "t_uint112"
@@ -2260,6 +2260,2155 @@
               "slot": "0"
             }
           ],
+          "erc7201:openzeppelin.storage.AccessManaged": [
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_authority",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_consumingSchedule",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:26",
+              "offset": 20,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "eafde228238df0ea7634690daa107718fc09491700349f5a7bc11fac1f86de8a": {
+      "address": "0x0B8e1E51a1eb7d81bB02A776d8844281B1fc0174",
+      "txHash": "0xda0b2dabc0bcc881fd94aba5d85b61481c74a1d6e902c453cc29841dab4b00b1",
+      "layout": {
+        "solcVersion": "0.8.30",
+        "storage": [
+          {
+            "label": "dkg",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IDkg)13766",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:57"
+          },
+          {
+            "label": "nodes",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(INodes)14053",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:58"
+          },
+          {
+            "label": "status",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IStatus)14590",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:59"
+          },
+          {
+            "label": "staking",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_contract(IStaking)14507",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:60"
+          },
+          {
+            "label": "skaleRng",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_address",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:61"
+          },
+          {
+            "label": "committees",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_mapping(t_userDefinedValueType(CommitteeIndex)13452,t_struct(Committee)13466_storage)",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:63"
+          },
+          {
+            "label": "_committeesAuxiliary",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_mapping(t_userDefinedValueType(CommitteeIndex)13452,t_struct(CommitteeAuxiliary)16118_storage)",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:64"
+          },
+          {
+            "label": "lastCommitteeIndex",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_userDefinedValueType(CommitteeIndex)13452",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:65"
+          },
+          {
+            "label": "committeeSize",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_uint256",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:66"
+          },
+          {
+            "label": "transitionDelay",
+            "offset": 0,
+            "slot": "9",
+            "type": "t_userDefinedValueType(Duration)14516",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:67"
+          },
+          {
+            "label": "minTransitionDelay",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_userDefinedValueType(Duration)14516",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:68"
+          },
+          {
+            "label": "version",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_string_storage",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:69"
+          },
+          {
+            "label": "_pool",
+            "offset": 0,
+            "slot": "12",
+            "type": "t_struct(Pool)30108_storage",
+            "contract": "Committee",
+            "src": "contracts/Committee.sol:71"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(AccessManagedStorage)26_storage": {
+            "label": "struct AccessManagedUpgradeable.AccessManagedStorage",
+            "members": [
+              {
+                "label": "_authority",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_consumingSchedule",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)669_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_array(t_userDefinedValueType(NodeId)13816)dyn_storage": {
+            "label": "NodeId[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IDkg)13766": {
+            "label": "contract IDkg",
+            "numberOfBytes": "20"
+          },
+          "t_contract(INodes)14053": {
+            "label": "contract INodes",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IStaking)14507": {
+            "label": "contract IStaking",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IStatus)14590": {
+            "label": "contract IStatus",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(CommitteeIndex)13452,t_struct(Committee)13466_storage)": {
+            "label": "mapping(CommitteeIndex => struct ICommittee.Committee)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(CommitteeIndex)13452,t_struct(CommitteeAuxiliary)16118_storage)": {
+            "label": "mapping(CommitteeIndex => struct Committee.CommitteeAuxiliary)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(Node)23609_storage)": {
+            "label": "mapping(NodeId => struct RedBlackTree.Node)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Committee)13466_storage": {
+            "label": "struct ICommittee.Committee",
+            "members": [
+              {
+                "label": "nodes",
+                "type": "t_array(t_userDefinedValueType(NodeId)13816)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "dkg",
+                "type": "t_userDefinedValueType(DkgId)13630",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "commonPublicKey",
+                "type": "t_struct(G2Point)13647_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "startingTimestamp",
+                "type": "t_userDefinedValueType(Timestamp)14596",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_struct(CommitteeAuxiliary)16118_storage": {
+            "label": "struct Committee.CommitteeAuxiliary",
+            "members": [
+              {
+                "label": "nodes",
+                "type": "t_struct(NodeIdSet)27337_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Fp2Point)13640_storage": {
+            "label": "struct IDkg.Fp2Point",
+            "members": [
+              {
+                "label": "a",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "b",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(G2Point)13647_storage": {
+            "label": "struct IDkg.G2Point",
+            "members": [
+              {
+                "label": "x",
+                "type": "t_struct(Fp2Point)13640_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "y",
+                "type": "t_struct(Fp2Point)13640_storage",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_struct(Node)23609_storage": {
+            "label": "struct RedBlackTree.Node",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_userDefinedValueType(NodeId)13816",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "parent",
+                "type": "t_userDefinedValueType(NodeId)13816",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "left",
+                "type": "t_userDefinedValueType(NodeId)13816",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "right",
+                "type": "t_userDefinedValueType(NodeId)13816",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "totalWeight",
+                "type": "t_uint248",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "red",
+                "type": "t_bool",
+                "offset": 31,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(NodeIdSet)27337_storage": {
+            "label": "struct TypedSet.NodeIdSet",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(UintSet)13018_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Pool)30108_storage": {
+            "label": "struct PoolLibrary.Pool",
+            "members": [
+              {
+                "label": "tree",
+                "type": "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(Node)23609_storage)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "root",
+                "type": "t_userDefinedValueType(NodeId)13816",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "presentNodes",
+                "type": "t_struct(NodeIdSet)27337_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "incomingNodes",
+                "type": "t_struct(NodeIdSet)27337_storage",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "status",
+                "type": "t_contract(IStatus)14590",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_struct(Set)12477_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_positions",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintSet)13018_storage": {
+            "label": "struct EnumerableSet.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint248": {
+            "label": "uint248",
+            "numberOfBytes": "31"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_userDefinedValueType(CommitteeIndex)13452": {
+            "label": "CommitteeIndex",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_userDefinedValueType(DkgId)13630": {
+            "label": "DkgId",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_userDefinedValueType(Duration)14516": {
+            "label": "Duration",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_userDefinedValueType(NodeId)13816": {
+            "label": "NodeId",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_userDefinedValueType(Timestamp)14596": {
+            "label": "Timestamp",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.AccessManaged": [
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_authority",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_consumingSchedule",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:26",
+              "offset": 20,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "698fabd73650bb3abc6dd606f52c9f10b92961e391de100b5dc89e91d7ab4e8e": {
+      "address": "0xb7AFDF38b4EA94f8a82cAe84F25980b856Ba7986",
+      "txHash": "0x05eafa8a37503c0924846b6775188cf0cb556f05be7d4a24f9b2541c1673131a",
+      "layout": {
+        "solcVersion": "0.8.30",
+        "storage": [
+          {
+            "label": "nodes",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(INodes)14053",
+            "contract": "DKG",
+            "src": "contracts/DKG.sol:54"
+          },
+          {
+            "label": "committee",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(ICommittee)13621",
+            "contract": "DKG",
+            "src": "contracts/DKG.sol:55"
+          },
+          {
+            "label": "_rounds",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_mapping(t_userDefinedValueType(DkgId)13630,t_struct(RoundData)17609_storage)",
+            "contract": "DKG",
+            "src": "contracts/DKG.sol:57"
+          },
+          {
+            "label": "lastDkgId",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_userDefinedValueType(DkgId)13630",
+            "contract": "DKG",
+            "src": "contracts/DKG.sol:59"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(AccessManagedStorage)26_storage": {
+            "label": "struct AccessManagedUpgradeable.AccessManagedStorage",
+            "members": [
+              {
+                "label": "_authority",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_consumingSchedule",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)669_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ICommittee)13621": {
+            "label": "contract ICommittee",
+            "numberOfBytes": "20"
+          },
+          "t_contract(INodes)14053": {
+            "label": "contract INodes",
+            "numberOfBytes": "20"
+          },
+          "t_enum(Status)13659": {
+            "label": "enum IDkg.Status",
+            "members": [
+              "SUCCESS",
+              "BROADCAST",
+              "ALRIGHT",
+              "FAILED"
+            ],
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_bytes32,t_bytes32)": {
+            "label": "mapping(bytes32 => bytes32)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(DkgId)13630,t_struct(RoundData)17609_storage)": {
+            "label": "mapping(DkgId => struct DKG.RoundData)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(Bytes32Set)12714_storage": {
+            "label": "struct EnumerableSet.Bytes32Set",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Bytes32ToBytes32Map)10306_storage": {
+            "label": "struct EnumerableMap.Bytes32ToBytes32Map",
+            "members": [
+              {
+                "label": "_keys",
+                "type": "t_struct(Bytes32Set)12714_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_values",
+                "type": "t_mapping(t_bytes32,t_bytes32)",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(Fp2Point)13640_storage": {
+            "label": "struct IDkg.Fp2Point",
+            "members": [
+              {
+                "label": "a",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "b",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(G2Point)13647_storage": {
+            "label": "struct IDkg.G2Point",
+            "members": [
+              {
+                "label": "x",
+                "type": "t_struct(Fp2Point)13640_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "y",
+                "type": "t_struct(Fp2Point)13640_storage",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_struct(NodeIdSet)27337_storage": {
+            "label": "struct TypedSet.NodeIdSet",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(UintSet)13018_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(NodeIdToBytes32Map)26528_storage": {
+            "label": "struct TypedMap.NodeIdToBytes32Map",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(UintToBytes32Map)11033_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(RoundData)17609_storage": {
+            "label": "struct DKG.RoundData",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_userDefinedValueType(DkgId)13630",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "status",
+                "type": "t_enum(Status)13659",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "nodes",
+                "type": "t_struct(NodeIdSet)27337_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "publicKey",
+                "type": "t_struct(G2Point)13647_storage",
+                "offset": 0,
+                "slot": "4"
+              },
+              {
+                "label": "startingBlockNumber",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "8"
+              },
+              {
+                "label": "hashedData",
+                "type": "t_struct(NodeIdToBytes32Map)26528_storage",
+                "offset": 0,
+                "slot": "9"
+              },
+              {
+                "label": "completed",
+                "type": "t_struct(NodeIdSet)27337_storage",
+                "offset": 0,
+                "slot": "12"
+              }
+            ],
+            "numberOfBytes": "448"
+          },
+          "t_struct(Set)12477_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_positions",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintSet)13018_storage": {
+            "label": "struct EnumerableSet.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintToBytes32Map)11033_storage": {
+            "label": "struct EnumerableMap.UintToBytes32Map",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Bytes32ToBytes32Map)10306_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_userDefinedValueType(DkgId)13630": {
+            "label": "DkgId",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.AccessManaged": [
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_authority",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_consumingSchedule",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:26",
+              "offset": 20,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "521c2de754c7cf03d64b16a1d78becd8f0755ff7a45e569f662c7f1bc38d95d2": {
+      "address": "0x16A9167fc452f4EeAE4d32b5E451ca0D81C2CBdC",
+      "txHash": "0x2bfc1fb2edb78b894d6395c194878f376e7a769fbb795cbcb747439ba936b454",
+      "layout": {
+        "solcVersion": "0.8.30",
+        "storage": [
+          {
+            "label": "nodes",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(Node)13833_storage)",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:56"
+          },
+          {
+            "label": "ownerChangeRequests",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_userDefinedValueType(NodeId)13816,t_address)",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:59"
+          },
+          {
+            "label": "committeeContract",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(ICommittee)13621",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:61"
+          },
+          {
+            "label": "_nodesInfo",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(NodeInfo)18598_storage)",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:64"
+          },
+          {
+            "label": "_activeNodesAddressToId",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_struct(AddressToNodeIdMap)26518_storage",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:67"
+          },
+          {
+            "label": "_passiveNodeIdByAddress",
+            "offset": 0,
+            "slot": "7",
+            "type": "t_struct(AddressToNodeIdSetMap)26524_storage",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:70"
+          },
+          {
+            "label": "_passiveNodeAddresses",
+            "offset": 0,
+            "slot": "8",
+            "type": "t_struct(AddressSet)12848_storage",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:72"
+          },
+          {
+            "label": "_nodeIdCounter",
+            "offset": 0,
+            "slot": "10",
+            "type": "t_uint256",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:75"
+          },
+          {
+            "label": "_passiveNodeIds",
+            "offset": 0,
+            "slot": "11",
+            "type": "t_struct(NodeIdSet)27337_storage",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:78"
+          },
+          {
+            "label": "_activeNodeIds",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_struct(NodeIdSet)27337_storage",
+            "contract": "Nodes",
+            "src": "contracts/Nodes.sol:81"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(AccessManagedStorage)26_storage": {
+            "label": "struct AccessManagedUpgradeable.AccessManagedStorage",
+            "members": [
+              {
+                "label": "_authority",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_consumingSchedule",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)669_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_bytes32)2_storage": {
+            "label": "bytes32[2]",
+            "numberOfBytes": "64"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_bytes_storage": {
+            "label": "bytes",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ICommittee)13621": {
+            "label": "contract ICommittee",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_struct(NodeIdSet)27337_storage)": {
+            "label": "mapping(address => struct TypedSet.NodeIdSet)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_bytes32)": {
+            "label": "mapping(bytes32 => bytes32)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(NodeId)13816,t_address)": {
+            "label": "mapping(NodeId => address)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(Node)13833_storage)": {
+            "label": "mapping(NodeId => struct INodes.Node)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(NodeInfo)18598_storage)": {
+            "label": "mapping(NodeId => struct Nodes.NodeInfo)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AddressSet)12848_storage": {
+            "label": "struct EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(AddressToNodeIdMap)26518_storage": {
+            "label": "struct TypedMap.AddressToNodeIdMap",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(AddressToUintMap)11244_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(AddressToNodeIdSetMap)26524_storage": {
+            "label": "struct TypedMap.AddressToNodeIdSetMap",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_mapping(t_address,t_struct(NodeIdSet)27337_storage)",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(AddressToUintMap)11244_storage": {
+            "label": "struct EnumerableMap.AddressToUintMap",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Bytes32ToBytes32Map)10306_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(Bytes32Set)12714_storage": {
+            "label": "struct EnumerableSet.Bytes32Set",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Bytes32ToBytes32Map)10306_storage": {
+            "label": "struct EnumerableMap.Bytes32ToBytes32Map",
+            "members": [
+              {
+                "label": "_keys",
+                "type": "t_struct(Bytes32Set)12714_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_values",
+                "type": "t_mapping(t_bytes32,t_bytes32)",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(Node)13833_storage": {
+            "label": "struct INodes.Node",
+            "members": [
+              {
+                "label": "id",
+                "type": "t_userDefinedValueType(NodeId)13816",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "ip",
+                "type": "t_bytes_storage",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "domainName",
+                "type": "t_string_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "nodeAddress",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "port",
+                "type": "t_uint16",
+                "offset": 20,
+                "slot": "3"
+              }
+            ],
+            "numberOfBytes": "128"
+          },
+          "t_struct(NodeIdSet)27337_storage": {
+            "label": "struct TypedSet.NodeIdSet",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(UintSet)13018_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(NodeInfo)18598_storage": {
+            "label": "struct Nodes.NodeInfo",
+            "members": [
+              {
+                "label": "publicKey",
+                "type": "t_array(t_bytes32)2_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Set)12477_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_positions",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintSet)13018_storage": {
+            "label": "struct EnumerableSet.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint16": {
+            "label": "uint16",
+            "numberOfBytes": "2"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_userDefinedValueType(NodeId)13816": {
+            "label": "NodeId",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.AccessManaged": [
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_authority",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_consumingSchedule",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:26",
+              "offset": 20,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "e82f89a6831811a178c5e42dfea07d392beff2cff9a75fd77e3c1b4f67e91107": {
+      "address": "0x4271B75e2Cb93c2E990e657988B3cc71A88bfba8",
+      "txHash": "0x28332d8f387016685e0be0803e5742d9bc6eb48ff86728f352ad8edd22cc181f",
+      "layout": {
+        "solcVersion": "0.8.30",
+        "storage": [
+          {
+            "label": "heartbeatInterval",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_userDefinedValueType(Duration)14516",
+            "contract": "Status",
+            "src": "contracts/Status.sol:40"
+          },
+          {
+            "label": "lastHeartbeatTimestamp",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_mapping(t_userDefinedValueType(NodeId)13816,t_uint256)",
+            "contract": "Status",
+            "src": "contracts/Status.sol:41"
+          },
+          {
+            "label": "_whitelist",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_struct(NodeIdSet)27337_storage",
+            "contract": "Status",
+            "src": "contracts/Status.sol:42"
+          },
+          {
+            "label": "committee",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_contract(ICommittee)13621",
+            "contract": "Status",
+            "src": "contracts/Status.sol:44"
+          },
+          {
+            "label": "nodes",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_contract(INodes)14053",
+            "contract": "Status",
+            "src": "contracts/Status.sol:45"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(AccessManagedStorage)26_storage": {
+            "label": "struct AccessManagedUpgradeable.AccessManagedStorage",
+            "members": [
+              {
+                "label": "_authority",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_consumingSchedule",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)669_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(ICommittee)13621": {
+            "label": "contract ICommittee",
+            "numberOfBytes": "20"
+          },
+          "t_contract(INodes)14053": {
+            "label": "contract INodes",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(NodeId)13816,t_uint256)": {
+            "label": "mapping(NodeId => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(NodeIdSet)27337_storage": {
+            "label": "struct TypedSet.NodeIdSet",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(UintSet)13018_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Set)12477_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_positions",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintSet)13018_storage": {
+            "label": "struct EnumerableSet.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_userDefinedValueType(Duration)14516": {
+            "label": "Duration",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_userDefinedValueType(NodeId)13816": {
+            "label": "NodeId",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.AccessManaged": [
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_authority",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_consumingSchedule",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:26",
+              "offset": 20,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "1aa421a18ce7eee13f54499f41213f98f0046aeef8512a761cec2731312514db": {
+      "address": "0x6fD98f76f1e5768C158fF7308a07e18e3fC0F474",
+      "txHash": "0xc0c857d177abe062405e59ce9d3dd4e690dc0315e04f72586951c98e4247f0c4",
+      "layout": {
+        "solcVersion": "0.8.30",
+        "storage": [
+          {
+            "label": "committee",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(ICommittee)13621",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:61"
+          },
+          {
+            "label": "nodes",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(INodes)14053",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:62"
+          },
+          {
+            "label": "rewardWalletBeacon",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_contract(IBeacon)3854",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:63"
+          },
+          {
+            "label": "totalDisabled",
+            "offset": 0,
+            "slot": "3",
+            "type": "t_userDefinedValueType(Fair)14594",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:64"
+          },
+          {
+            "label": "stakeLimit",
+            "offset": 0,
+            "slot": "4",
+            "type": "t_userDefinedValueType(Fair)14594",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:65"
+          },
+          {
+            "label": "selfStakeRequirement",
+            "offset": 0,
+            "slot": "5",
+            "type": "t_userDefinedValueType(Fair)14594",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:66"
+          },
+          {
+            "label": "_rootFund",
+            "offset": 0,
+            "slot": "6",
+            "type": "t_struct(Fund)28887_storage",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:68"
+          },
+          {
+            "label": "_exitQueue",
+            "offset": 0,
+            "slot": "13",
+            "type": "t_struct(ExitQueue)28320_storage",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:69"
+          },
+          {
+            "label": "_nodesFunds",
+            "offset": 0,
+            "slot": "18",
+            "type": "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(Fund)28887_storage)",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:70"
+          },
+          {
+            "label": "_rewardWallets",
+            "offset": 0,
+            "slot": "19",
+            "type": "t_mapping(t_userDefinedValueType(NodeId)13816,t_contract(IRewardWallet)14131)",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:71"
+          },
+          {
+            "label": "_nodesAllowedReceivers",
+            "offset": 0,
+            "slot": "20",
+            "type": "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(AddressSet)12848_storage)",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:72"
+          },
+          {
+            "label": "_stakedNodes",
+            "offset": 0,
+            "slot": "21",
+            "type": "t_mapping(t_address,t_struct(NodeIdSet)27337_storage)",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:73"
+          },
+          {
+            "label": "_disabledNodesBalances",
+            "offset": 0,
+            "slot": "22",
+            "type": "t_struct(NodeIdToFairMap)26532_storage",
+            "contract": "Staking",
+            "src": "contracts/Staking.sol:74"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(AccessManagedStorage)26_storage": {
+            "label": "struct AccessManagedUpgradeable.AccessManagedStorage",
+            "members": [
+              {
+                "label": "_authority",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_consumingSchedule",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)669_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(ReentrancyGuardStorage)803_storage": {
+            "label": "struct ReentrancyGuardUpgradeable.ReentrancyGuardStorage",
+            "members": [
+              {
+                "label": "_status",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_array(t_bytes32)dyn_storage": {
+            "label": "bytes32[]",
+            "numberOfBytes": "32"
+          },
+          "t_bytes32": {
+            "label": "bytes32",
+            "numberOfBytes": "32"
+          },
+          "t_contract(IBeacon)3854": {
+            "label": "contract IBeacon",
+            "numberOfBytes": "20"
+          },
+          "t_contract(ICommittee)13621": {
+            "label": "contract ICommittee",
+            "numberOfBytes": "20"
+          },
+          "t_contract(INodes)14053": {
+            "label": "contract INodes",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IRewardWallet)14131": {
+            "label": "contract IRewardWallet",
+            "numberOfBytes": "20"
+          },
+          "t_mapping(t_address,t_struct(NodeIdSet)27337_storage)": {
+            "label": "mapping(address => struct TypedSet.NodeIdSet)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_struct(UserExitData)28301_storage)": {
+            "label": "mapping(address => struct ExitQueueLibrary.UserExitData)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_bytes32)": {
+            "label": "mapping(bytes32 => bytes32)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_bytes32,t_uint256)": {
+            "label": "mapping(bytes32 => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_uint256,t_struct(ExitRequest)14159_storage)": {
+            "label": "mapping(uint256 => struct IStaking.ExitRequest)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(NodeId)13816,t_contract(IRewardWallet)14131)": {
+            "label": "mapping(NodeId => contract IRewardWallet)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(AddressSet)12848_storage)": {
+            "label": "mapping(NodeId => struct EnumerableSet.AddressSet)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_userDefinedValueType(NodeId)13816,t_struct(Fund)28887_storage)": {
+            "label": "mapping(NodeId => struct FundLibrary.Fund)",
+            "numberOfBytes": "32"
+          },
+          "t_struct(AddressSet)12848_storage": {
+            "label": "struct EnumerableSet.AddressSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Bytes32Set)12714_storage": {
+            "label": "struct EnumerableSet.Bytes32Set",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(Bytes32ToBytes32Map)10306_storage": {
+            "label": "struct EnumerableMap.Bytes32ToBytes32Map",
+            "members": [
+              {
+                "label": "_keys",
+                "type": "t_struct(Bytes32Set)12714_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_values",
+                "type": "t_mapping(t_bytes32,t_bytes32)",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(ExitQueue)28320_storage": {
+            "label": "struct ExitQueueLibrary.ExitQueue",
+            "members": [
+              {
+                "label": "exitRequests",
+                "type": "t_mapping(t_uint256,t_struct(ExitRequest)14159_storage)",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "userExitData",
+                "type": "t_mapping(t_address,t_struct(UserExitData)28301_storage)",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "retrievingDelay",
+                "type": "t_userDefinedValueType(Timestamp)14596",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "totalInExitQueue",
+                "type": "t_userDefinedValueType(Fair)14594",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "numRequests",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(ExitRequest)14159_storage": {
+            "label": "struct IStaking.ExitRequest",
+            "members": [
+              {
+                "label": "requestId",
+                "type": "t_uint256",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "user",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "nodeId",
+                "type": "t_userDefinedValueType(NodeId)13816",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "amount",
+                "type": "t_userDefinedValueType(Fair)14594",
+                "offset": 0,
+                "slot": "3"
+              },
+              {
+                "label": "unlockDate",
+                "type": "t_userDefinedValueType(Timestamp)14596",
+                "offset": 0,
+                "slot": "4"
+              }
+            ],
+            "numberOfBytes": "160"
+          },
+          "t_struct(Fund)28887_storage": {
+            "label": "struct FundLibrary.Fund",
+            "members": [
+              {
+                "label": "lastBalance",
+                "type": "t_userDefinedValueType(Fair)14594",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "totalCredits",
+                "type": "t_userDefinedValueType(Credit)28859",
+                "offset": 0,
+                "slot": "1"
+              },
+              {
+                "label": "credits",
+                "type": "t_struct(HolderToCreditMap)26536_storage",
+                "offset": 0,
+                "slot": "2"
+              },
+              {
+                "label": "earnedFee",
+                "type": "t_userDefinedValueType(Fair)14594",
+                "offset": 0,
+                "slot": "5"
+              },
+              {
+                "label": "feeRate",
+                "type": "t_uint16",
+                "offset": 0,
+                "slot": "6"
+              }
+            ],
+            "numberOfBytes": "224"
+          },
+          "t_struct(HolderToCreditMap)26536_storage": {
+            "label": "struct TypedMap.HolderToCreditMap",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(UintToUintMap)10563_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(NodeIdSet)27337_storage": {
+            "label": "struct TypedSet.NodeIdSet",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(UintSet)13018_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(NodeIdToFairMap)26532_storage": {
+            "label": "struct TypedMap.NodeIdToFairMap",
+            "members": [
+              {
+                "label": "inner",
+                "type": "t_struct(UintToUintMap)10563_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(Set)12477_storage": {
+            "label": "struct EnumerableSet.Set",
+            "members": [
+              {
+                "label": "_values",
+                "type": "t_array(t_bytes32)dyn_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_positions",
+                "type": "t_mapping(t_bytes32,t_uint256)",
+                "offset": 0,
+                "slot": "1"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintSet)13018_storage": {
+            "label": "struct EnumerableSet.UintSet",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Set)12477_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "64"
+          },
+          "t_struct(UintToUintMap)10563_storage": {
+            "label": "struct EnumerableMap.UintToUintMap",
+            "members": [
+              {
+                "label": "_inner",
+                "type": "t_struct(Bytes32ToBytes32Map)10306_storage",
+                "offset": 0,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_struct(UserExitData)28301_storage": {
+            "label": "struct ExitQueueLibrary.UserExitData",
+            "members": [
+              {
+                "label": "requestIds",
+                "type": "t_struct(UintSet)13018_storage",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "totalLeaving",
+                "type": "t_userDefinedValueType(Fair)14594",
+                "offset": 0,
+                "slot": "2"
+              }
+            ],
+            "numberOfBytes": "96"
+          },
+          "t_uint16": {
+            "label": "uint16",
+            "numberOfBytes": "2"
+          },
+          "t_userDefinedValueType(Credit)28859": {
+            "label": "Credit",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_userDefinedValueType(Fair)14594": {
+            "label": "Fair",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_userDefinedValueType(NodeId)13816": {
+            "label": "NodeId",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_userDefinedValueType(Timestamp)14596": {
+            "label": "Timestamp",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          }
+        },
+        "namespaces": {
+          "erc7201:openzeppelin.storage.ReentrancyGuard": [
+            {
+              "contract": "ReentrancyGuardUpgradeable",
+              "label": "_status",
+              "type": "t_uint256",
+              "src": "@openzeppelin/contracts-upgradeable/utils/ReentrancyGuardUpgradeable.sol:43",
+              "offset": 0,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.AccessManaged": [
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_authority",
+              "type": "t_address",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:24",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "AccessManagedUpgradeable",
+              "label": "_consumingSchedule",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/access/manager/AccessManagedUpgradeable.sol:26",
+              "offset": 20,
+              "slot": "0"
+            }
+          ],
+          "erc7201:openzeppelin.storage.Initializable": [
+            {
+              "contract": "Initializable",
+              "label": "_initialized",
+              "type": "t_uint64",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:69",
+              "offset": 0,
+              "slot": "0"
+            },
+            {
+              "contract": "Initializable",
+              "label": "_initializing",
+              "type": "t_bool",
+              "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:73",
+              "offset": 8,
+              "slot": "0"
+            }
+          ]
+        }
+      }
+    },
+    "0ec9780c63bdd4f218356efaccb1a9940e0d953689cd41e183db68e52390f14e": {
+      "address": "0x06a37E39f827fd755B66674b6e66B1Af29092aEc",
+      "txHash": "0x6a75507a1546086493cfddefebff988c3b3d8fb7cfd20454b92998665e721523",
+      "layout": {
+        "solcVersion": "0.8.30",
+        "storage": [
+          {
+            "label": "staking",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_contract(IStaking)14507",
+            "contract": "RewardWallet",
+            "src": "contracts/RewardWallet.sol:40"
+          },
+          {
+            "label": "nodes",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_contract(INodes)14053",
+            "contract": "RewardWallet",
+            "src": "contracts/RewardWallet.sol:41"
+          },
+          {
+            "label": "ownerNode",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_userDefinedValueType(NodeId)13816",
+            "contract": "RewardWallet",
+            "src": "contracts/RewardWallet.sol:42"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_struct(AccessManagedStorage)26_storage": {
+            "label": "struct AccessManagedUpgradeable.AccessManagedStorage",
+            "members": [
+              {
+                "label": "_authority",
+                "type": "t_address",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_consumingSchedule",
+                "type": "t_bool",
+                "offset": 20,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_struct(InitializableStorage)669_storage": {
+            "label": "struct Initializable.InitializableStorage",
+            "members": [
+              {
+                "label": "_initialized",
+                "type": "t_uint64",
+                "offset": 0,
+                "slot": "0"
+              },
+              {
+                "label": "_initializing",
+                "type": "t_bool",
+                "offset": 8,
+                "slot": "0"
+              }
+            ],
+            "numberOfBytes": "32"
+          },
+          "t_uint64": {
+            "label": "uint64",
+            "numberOfBytes": "8"
+          },
+          "t_contract(INodes)14053": {
+            "label": "contract INodes",
+            "numberOfBytes": "20"
+          },
+          "t_contract(IStaking)14507": {
+            "label": "contract IStaking",
+            "numberOfBytes": "20"
+          },
+          "t_userDefinedValueType(NodeId)13816": {
+            "label": "NodeId",
+            "numberOfBytes": "32",
+            "underlying": "t_uint256"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          }
+        },
+        "namespaces": {
           "erc7201:openzeppelin.storage.AccessManaged": [
             {
               "contract": "AccessManagedUpgradeable",
