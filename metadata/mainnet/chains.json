@@ -4,6 +4,7 @@
     "shortAlias": "europa",
     "background": "rgb(5 19 37)",
     "gradientBackground": "linear-gradient(270deg, rgb(5, 19, 37), rgb(13 36 65))",
+    "gradientBackgroundLight": "linear-gradient(270deg, rgb(203 226 255), rgb(224 238 255))",
     "categories": {
       "hub": null,
       "defi": null
@@ -171,7 +172,7 @@
           "telegram": "https://t.me/transakfinance",
           "github": "https://github.com/Transak"
         }
-          },
+      },
       "kommunitas": {
         "alias": "Kommunitas",
         "gradientBackground": "linear-gradient(#FFFFFF, #FFFFFF)",
@@ -194,7 +195,7 @@
           "github": "https://github.com/Kommunitas-net",
           "dappradar": "https://dappradar.com/dapp/kommunitas-2"
         }
-         },
+      },
       "abyiss": {
         "alias": "Abyiss",
         "gradientBackground": "linear-gradient(#FFFFFF, #FFFFFF)",
@@ -264,6 +265,7 @@
     "shortAlias": "cryptoblades",
     "background": "#121411",
     "gradientBackground": "radial-gradient(circle, rgba(7,17,39,1) 0%, rgba(7,17,39,1) 55%, rgba(13,26,54,1) 100%)",
+    "gradientBackgroundLight": "radial-gradient(circle, rgb(245 213 128) 0%, rgb(255 240 222) 55% 55%, rgb(255 255 255) 100%)",
     "url": "https://www.cryptoblades.io/",
     "categories": {
       "gaming": [
@@ -350,6 +352,7 @@
     "shortAlias": "calypso",
     "background": "#ce126f",
     "gradientBackground": "linear-gradient(270deg, rgb(103 35 71), rgb(57 15 68))",
+    "gradientBackgroundLight": "linear-gradient(180deg, rgb(255 202 230), rgb(248 222 255))",
     "categories": {
       "hub": null,
       "digital-collectibles": null
@@ -410,7 +413,7 @@
         "social": {
           "website": "https://reneverse.io/",
           "x": "https://x.com/ReneVerse_io",
-          "dappradar":"https://dappradar.com/dapp/reneverse"
+          "dappradar": "https://dappradar.com/dapp/reneverse"
         },
         "contracts": [
           "0x7A3DE75e38636757ec0976BC86e33BAf4B9922ea"
@@ -605,6 +608,7 @@
     "shortAlias": "titan",
     "background": "rgb(50, 22, 11)",
     "gradientBackground": "linear-gradient(270deg, rgb(105 50 31), rgb(57 27 17))",
+    "gradientBackgroundLight": "linear-gradient(270deg, rgb(255 216 202), rgb(255 234 227))",
     "categories": {
       "hub": null,
       "ai": null
@@ -714,6 +718,7 @@
     "shortAlias": "nebula",
     "background": "#2c1626",
     "gradientBackground": "linear-gradient(270deg, rgb(67 37 78), rgb(36 32 63))",
+    "gradientBackgroundLight": "linear-gradient(270deg, rgb(226 195 255), rgb(207 222 255))",
     "categories": {
       "hub": null,
       "gaming": null
@@ -784,13 +789,13 @@
         "social": {
           "website": "https://www.data2073.io",
           "telegram": "https://t.me/Gamedata2073",
-          "discord":"https://discord.com/invite/h8M44hudFx",
+          "discord": "https://discord.com/invite/h8M44hudFx",
           "x": "https://twitter.com/data2073"
         },
         "contracts": [
           "0x7A3DE75e38636757ec0976BC86e33BAf4B9922ea"
         ]
-       },
+      },
       "miomi": {
         "alias": "Miomi",
         "gradientBackground": "linear-gradient(230deg, #FFFFFF, #FFFFFF)",
