@@ -156,6 +156,34 @@
         "contracts": [
           "0x529c2945c257CC737A15733d43a1fD1cBBe79C67"
         ]
+        },
+      "zote": {
+        "alias": "Zote",
+        "gradientBackground": "linear-gradient(45deg, #000000, #000000)",
+        "description": "Zote is a prediction market platform which lets you forecast real event outcome and earn token rewards when you are right.",
+        "added": 1758817201,
+        "categories": {
+          "data-information": null,
+          "social-network": null,
+          "entertainment": null,
+          "consumer": null,
+          "defi": [
+            "betting",
+            "prediction-markets"
+          ]
+        },
+        "social": {
+          "website": "https://zote.live",
+          "telegram": "https://t.co/LyGsNBl7IS",
+          "x": "https://x.com/zotemarket",
+          "discord": "https://discord.gg/TPXeMd34tV"
+        },
+        "contracts": [
+          "0x75CdD3c20269B0F0b14b6efefD81378F00f22BFC",
+          "0xFCFe7A080bA6c8E548e800b48DAaB916E15DdFFf",
+          "0x9619814df940B861C6B82bf380d164702E7e87c5",
+          "0x89878DC58F196Aa50B4010FA9047b9F4E0081F0A"
+        ]
       },
       "transak": {
         "alias": "Transak",
@@ -436,6 +464,25 @@
         "contracts": [
           "0x624A399cB7eF3b9a409e0877f574CB03275ba0C3"
         ]
+        },
+      "avatarpose": {
+        "alias": "AvatarPose",
+        "gradientBackground": "linear-gradient(230deg, #FFFFFF, #FFFFFF)",
+        "description": "This project presents a novel way to create a meaningful association between the NFT (or NFT creator) and the collector.The association can be through either of two ways: the face features in a creator's video or the face avatar used for the NFT animation.",
+        "categories": {
+          "ai": null,
+          "consumer": null
+        },
+        "added": 1758817201,
+        "social": {
+          "website": "https://avatarpose.space",
+          "x": "https://x.com/avatarpose_",
+          "github": "https://github.com/Mberic/avatarpose"
+        },
+        "contracts": [
+          "0xdA3bC99Caed7179473b59e9384B1bF78547cF8d0",
+          "0x21DC440B43f34740B42580eb2d94Ceec0eF3640E"
+        ]
       },
       "wal8": {
         "alias": "Wal8",
@@ -596,6 +643,23 @@
         },
         "contracts": [
           "0x944a7A6833074122E9c2a7A5882392224C345807"
+        ]
+              },
+      "chaindoc": {
+        "alias": "Chaindoc",
+        "gradientBackground": "linear-gradient(rgb(14, 14, 14), rgb(0, 0, 0))",
+        "description": "Chaindoc is a decentralized e-signing platform that brings trust, transparency, and automation to Web3 knowledge management.",
+        "added": 1764162772,
+        "categories": {
+          "tools": null,
+          "utility": null
+        },
+        "social": {
+          "website": "https://chaindoc.io/",
+          "dappradar": "https://dappradar.com/dapp/chaindoc"
+        },
+        "contracts": [
+          "0x44b8499E074CEd43F3f025B74d9796F2C0574e8c"
         ]
       }
     }
@@ -826,6 +890,25 @@
           "x": "https://x.com/landofchasers",
           "discord": "https://t.co/RhX8BOiXcn"
         }
+         },
+      "swing-to-earn": {
+        "alias": "Swing To Earn",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "Swing To Earn is a skill-based, play-to-earn (P2E) golf game where every shot is a shot at earning crypto. Built in Unity and powered by SKALE, CrossFi, and now Polygon, Swing To Earn merges real-time physics, competitive gameplay, and provably fair smart contracts to deliver a Web3 sports experience like no other.",
+        "added": 1764162772,
+        "categories": {
+          "gaming": [
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://swingtoearn.com/",
+          "x": "https://x.com/SwingtoEarn",
+          "telegram": "https://t.me/+-QYcYyr3KWpmZDVl"
+            },
+        "contracts": [
+          "0x2dA4af0c0e5DBBaf9438C6d6467861dcf3661d30"
+        ]
       },
       "kickdom": {
         "alias": "KickDOM",
@@ -849,6 +932,73 @@
           "0x89C2ebF3b69F78cF8439217cd58d90220B36159C",
           "0xF2EFbdA16619B5B0b6C23978745558Ee7BeB132B",
           "0xe9AF133b7FB840a456799C9519A28C70f875C607"
+        ]
+         },
+      "napft": {
+        "alias": "Napft",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "added": 1758817201,
+        "description": "NapFT is a next-generation social platform empowering creators with tools to design over five unique NFT types including exclusive, gold-backed utility NFTs.",
+        "categories": {
+          "pretge": null,
+          "digital-collectibles": null,
+          "RWA": null,
+          "utility": null
+        },
+        "social": {
+          "website": "https://napft.com",
+          "x": "https://x.com/Napftofficial",
+          "telegram": "https://t.me/NapftCommunity",
+          "discord": "https://discord.gg/rhJvYnwr",
+          "github": "https://github.com/napftcom",
+          "dappradar": "https://dappradar.com/dapp/napft"
+        },
+        "contracts": [
+          "0x0C0c927878691Aa20B5F50Ce33CE61D5B8aC027E"
+        ]
+        },
+      "it-remains": {
+        "alias": "It Remains",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "added": 1758817201,
+        "description": "It Remains is an Augmented Reality companion app for the book 'It Remains'. Together, they become one as a phygital item capable of providing unique immersive experience.The It Remains app also provides games, audiobooks, contests and more.",
+        "categories": {
+          "entertainment": null,
+          "gaming": [
+            "action-adventure"
+          ]
+        },
+        "social": {
+          "website": "https://itremains.io/",
+          "x": "https://x.com/ItRemains_World",
+          "dappradar": "https://dappradar.com/dashboard/dapps/52787"
+        },
+        "contracts": [
+          "0x444101e39a49711D9C82707347B2C3dbd00A7Fc4"
+        ]
+          },
+      "roro-birds": {
+        "alias": "Roro Birds",
+        "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+        "added": 1758817201,
+        "description": "RoRo Birds is a competitive, skill-based PvP game where players control unique birds to compete in real-time battles and tournaments. Built for web3, RoRo Birds integrates wallet-based authentication and tokenized rewards, allowing players to earn crypto through strategic gameplay.",
+        "categories": {
+          "gaming": [
+            "action-adventure",
+            "pc",
+            "battle-royale",
+            "casual",
+            "strategy"
+          ]
+        },
+        "social": {
+          "website": "https://rorobirds.com/",
+          "x": "https://x.com/roro_birds",
+          "dappradar": "https://dappradar.com/dashboard/dapps/52787",
+          "discord": "https://discord.gg/aBhwpdAC"
+        },
+        "contracts": [
+          "https://discord.gg/aBhwpdAC"
         ]
       },
       "gamifly": {
