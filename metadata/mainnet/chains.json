@@ -644,6 +644,23 @@
         "contracts": [
           "0x944a7A6833074122E9c2a7A5882392224C345807"
         ]
+              },
+      "chaindoc": {
+        "alias": "Chaindoc",
+        "gradientBackground": "linear-gradient(rgb(14, 14, 14), rgb(0, 0, 0))",
+        "description": "Chaindoc is a decentralized e-signing platform that brings trust, transparency, and automation to Web3 knowledge management.",
+        "added": 1764162772,
+        "categories": {
+          "tools": null,
+          "utility": null
+        },
+        "social": {
+          "website": "https://chaindoc.io/",
+          "dappradar": "https://dappradar.com/dapp/chaindoc"
+        },
+        "contracts": [
+          "0x44b8499E074CEd43F3f025B74d9796F2C0574e8c"
+        ]
       }
     }
   },
@@ -873,6 +890,25 @@
           "x": "https://x.com/landofchasers",
           "discord": "https://t.co/RhX8BOiXcn"
         }
+         },
+      "swing-to-earn": {
+        "alias": "Swing To Earn",
+        "gradientBackground": "linear-gradient(180deg, #000000, #000000)",
+        "description": "Swing To Earn is a skill-based, play-to-earn (P2E) golf game where every shot is a shot at earning crypto. Built in Unity and powered by SKALE, CrossFi, and now Polygon, Swing To Earn merges real-time physics, competitive gameplay, and provably fair smart contracts to deliver a Web3 sports experience like no other.",
+        "added": 1764162772,
+        "categories": {
+          "gaming": [
+            "casual"
+          ]
+        },
+        "social": {
+          "website": "https://swingtoearn.com/",
+          "x": "https://x.com/SwingtoEarn",
+          "telegram": "https://t.me/+-QYcYyr3KWpmZDVl"
+            },
+        "contracts": [
+          "0x2dA4af0c0e5DBBaf9438C6d6467861dcf3661d30"
+        ]
       },
       "kickdom": {
         "alias": "KickDOM",
