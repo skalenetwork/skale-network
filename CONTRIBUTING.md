@@ -1,6 +1,6 @@
 # Contributing to SKALE Network
 
-Welcome\! We appreciate your interest in contributing to the **SKALE Network** and helping to drive its growth. Your contributions, whether reporting bugs, suggesting features, or submitting code, are vital to the health of the ecosystem.
+Welcome! We appreciate your interest in contributing to the **SKALE Network** and helping to drive its growth. Your contributions, whether reporting bugs, suggesting features, or submitting code, are vital to the health of the ecosystem.
 
 Please note that all contributors are expected to adhere to our [Code of Conduct](https://github.com/skalenetwork/skale-network?tab=coc-ov-file#skale-code-of-conduct).
 
@@ -16,11 +16,11 @@ The SKALE Network Engineering team uses [GitHub Projects](https://github.com/org
       * **SKALE Manager Smart Contracts:** Questions/issues regarding core smart contracts $\rightarrow$ **[`skalenetwork/skale-manager`](https://github.com/skalenetwork/skale-manager)**
       * **SKALE Chains (Blockchain interaction):** Bugs faced when interacting with SKALE chains (calls, transactions, filters, etc.) $\rightarrow$ **[`skalenetwork/skaled`](https://github.com/skalenetwork/skaled)**
       * **IMA Bridge:** Problems noticed while transferring tokens through the IMA bridge $\rightarrow$ **[`skalenetwork/IMA`](https://github.com/skalenetwork/IMA)**
-      * **SKALE Portal** Problems with integrated tools/APIs (MetaMask, wallets, bridges, explorers), bugs in page functionality (UI, routing, formatting, performance), bugs in your local or production environment affecting Portal core functionality $\rightarrow$ **[`skalenetwork/portal`](https://github.com/skalenetwork/portal/issues)**
+      * **SKALE Portal:** Problems with integrated tools/APIs (MetaMask, wallets, bridges, explorers), bugs in page functionality (UI, routing, formatting, performance), bugs in your local or production environment affecting Portal core functionality $\rightarrow$ **[`skalenetwork/portal`](https://github.com/skalenetwork/portal/issues)**
       * **Block Explorer:** Any issues with the Block Explorer (Blockscout) $\rightarrow$ **[`skalenetwork/blockscout`](https://github.com/skalenetwork/blockscout)**
       * **Infrastructure:** Infrastructure or SKALE Node deployment-related problems $\rightarrow$ **[`skalenetwork/skale-node`](https://github.com/skalenetwork/skale-node)**
       * **Node-cli:** If you are experiencing issues with a node-cli command - such as failures, incorrect behavior, errors, crashes, or compatibility problems $\rightarrow$ **[`skalenetwork/node-cli`](https://github.com/skalenetwork/node-cli)**
-      * **docs.skale.space** - If you’re having trouble finding information or encounter any website issues related to page functionality (misspellings, formatting errors, rendering, routing, loading, or page display problems) $\rightarrow$ **[`skalenetwork/docs.skale.space`](https://github.com/skalenetwork/docs.skale.space)**
+      * **docs.skale.space:** If you’re having trouble finding information or encounter any website issues related to page functionality (misspellings, formatting errors, rendering, routing, loading, or page display problems) $\rightarrow$ **[`skalenetwork/docs.skale.space`](https://github.com/skalenetwork/docs.skale.space)**
 
 2. **Before submitting:**
 Check if an issue for your problem already exists by searching under Issues.
@@ -40,19 +40,19 @@ If you can’t find an open issue addressing it, create a new one — include a 
 ### Feature Requests & Proposals Sharing
 If you’d like to start a discussion about developing a new feature or modifying an existing one, please open a new topic on the [SKALE Forum](https://forum.skale.network/). Share your idea and explain why it would be a valuable addition to the SKALE ecosystem. 
 
-## Security reports
+## Security Reports
 Please do not open up a GitHub issue if it relates to a security vulnerability, and instead refer to our [security policy](https://github.com/skalenetwork/skale-network?tab=security-ov-file#security).
 
 ## I Have a Question
 
 If you want to ask a question please use the following resources available for you:
 
-- [SKALE Docs portal](https://github.com/skalenetwork/docs.skale.space)
+- [SKALE Docs portal](https://docs.skale.space/welcome/get-started)
 -  Join the [SKALE Discord](https://discord.gg/skale) and open a support ticket — our team will be happy to assist you.
 
 ## Contributing Code (Pull Requests)
 
-We welcome code contributions\! If you wish to contribute a fix or a new feature, please follow the steps below.
+We welcome code contributions! If you wish to contribute a fix or a new feature, please follow the steps below.
 
 ### Before You Start
 
@@ -66,9 +66,9 @@ This helps ensure your efforts align with the network’s roadmap and ongoing de
 
 1. **Develop & Test:** Implement your fix or feature. Ensure all existing tests pass and add new tests to cover the changes you've made.
 2. **Commit Messages:** Write clear, concise, and descriptive commit messages.
-4. **Open the PR:** Submit your Pull Request to the `main` or designated branch of the original repository.
-5. **Attach ticket** Please attach the relevant issue that this PR fixes or resolves.
-6. **Complete the Template:** Fill out the PR template completely, providing a detailed summary of your changes, the motivation for the change, and any relevant technical details.
-7. **Review Process:** The engineering team will review your PR. Be responsive to feedback and prepared to make further changes. We may request updates to maintain code quality, consistency, and alignment with SKALE standards.
+3. **Open the PR:** Submit your Pull Request to the `main` or designated branch of the original repository.
+4. **Attach ticket:** Please attach the relevant issue that this PR fixes or resolves.
+5. **Complete the Template:** Fill out the PR template completely, providing a detailed summary of your changes, the motivation for the change, and any relevant technical details.
+6. **Review Process:** The engineering team will review your PR. Be responsive to feedback and prepared to make further changes. We may request updates to maintain code quality, consistency, and alignment with SKALE standards.
 
 
