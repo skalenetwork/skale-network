@@ -1,5 +1,5 @@
 {
-    "contract_manager_address": "0xe8c7E5C70B8a8c9C3896e59062EA3A879270AB4A",
+    "contract_manager_address": "0xA6B37d106193e1Edf3E2435030F3b6757Baa4a49",
     "contract_manager_abi": [
         {
             "type": "event",
@@ -358,25 +358,8 @@
             "outputs": []
         }
     ],
-    "delegation_controller_address": "0x6fe6F28199913Edb35478c45d46E55d82A3cF760",
+    "delegation_controller_address": "0x18C523224683999F7774059979a6Bc400FbB09f2",
     "delegation_controller_abi": [
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "Confiscated",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "validatorId",
-                    "indexed": true
-                },
-                {
-                    "type": "uint256",
-                    "name": "amount",
-                    "indexed": false
-                }
-            ]
-        },
         {
             "type": "event",
             "anonymous": false,
@@ -454,23 +437,6 @@
                     "type": "address",
                     "name": "sender",
                     "indexed": true
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "SlashesProcessed",
-            "inputs": [
-                {
-                    "type": "address",
-                    "name": "holder",
-                    "indexed": true
-                },
-                {
-                    "type": "uint256",
-                    "name": "limit",
-                    "indexed": false
                 }
             ]
         },
@@ -1259,7 +1225,7 @@
             "outputs": []
         }
     ],
-    "delegation_period_manager_address": "0x4CE537352645E57F23F9263C30991c51c475F022",
+    "delegation_period_manager_address": "0xaa1d9725124431eB84879e11Ec0C6dBa625e3070",
     "delegation_period_manager_abi": [
         {
             "type": "event",
@@ -1568,7 +1534,7 @@
             ]
         }
     ],
-    "distributor_address": "0x3Fc377c4322f9d448996c3faBe1150213A434bC1",
+    "distributor_address": "0x42ADc39Cb838f2c7FA026dD1B162d9f6b7dfb4B7",
     "distributor_abi": [
         {
             "type": "event",
@@ -2009,7 +1975,7 @@
             "outputs": []
         }
     ],
-    "punisher_address": "0xbF4ff0A2cc71060DFAb271F94293DfB89dC29779",
+    "punisher_address": "0xCe05C34b3bfC70aB42e81114706fe5EBf17E5eb2",
     "punisher_abi": [
         {
             "type": "event",
@@ -2367,30 +2333,8 @@
             "outputs": []
         }
     ],
-    "slashing_table_address": "0x72C39Abc9b7E02A11a941D69598290850459983e",
+    "slashing_table_address": "0xdEf6fE2B90F76404978d2eEdC233180Ab8965082",
     "slashing_table_abi": [
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "PenaltyAdded",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "offenseHash",
-                    "indexed": true
-                },
-                {
-                    "type": "string",
-                    "name": "offense",
-                    "indexed": false
-                },
-                {
-                    "type": "uint256",
-                    "name": "penalty",
-                    "indexed": false
-                }
-            ]
-        },
         {
             "type": "event",
             "anonymous": false,
@@ -2662,7 +2606,7 @@
             "outputs": []
         }
     ],
-    "time_helpers_address": "0xE3Fb3Fc88f1Fd0d5254fADE7bC4e45FA37eE34C6",
+    "time_helpers_address": "0x757E87E46D3bb7C3009E518953BEd157B0D887ce",
     "time_helpers_abi": [
         {
             "type": "function",
@@ -2791,6 +2735,25 @@
         },
         {
             "type": "function",
+            "name": "timestampToDay",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "timestamp"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "timestampToMonth",
             "constant": true,
             "stateMutability": "view",
@@ -2828,7 +2791,7 @@
             ]
         }
     ],
-    "token_state_address": "0x63b24E392d8E0C1889ED839D45C17aE5E1695Dc3",
+    "token_state_address": "0xF654288FbC5bb2Cfbf8d5c6d1b1b51B42C56c8dB",
     "token_state_abi": [
         {
             "type": "event",
@@ -3151,25 +3114,8 @@
             "outputs": []
         }
     ],
-    "validator_service_address": "0xfA900a25190D9bE829C1b3C82bD2eCE27B22356e",
+    "validator_service_address": "0x87C1Da79eBF56b2980e16baD0Fe14cb7f7CFb563",
     "validator_service_abi": [
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "AcceptingNewRequests",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "validatorId",
-                    "indexed": true
-                },
-                {
-                    "type": "bool",
-                    "name": "status",
-                    "indexed": false
-                }
-            ]
-        },
         {
             "type": "event",
             "anonymous": false,
@@ -3200,28 +3146,6 @@
                 {
                     "type": "address",
                     "name": "nodeAddress",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "RequestNewAddress",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "validatorId",
-                    "indexed": true
-                },
-                {
-                    "type": "address",
-                    "name": "previousAddress",
-                    "indexed": false
-                },
-                {
-                    "type": "address",
-                    "name": "newAddress",
                     "indexed": false
                 }
             ]
@@ -3267,72 +3191,6 @@
                     "type": "address",
                     "name": "sender",
                     "indexed": true
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "SetMinimumDelegationAmount",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "validatorId",
-                    "indexed": true
-                },
-                {
-                    "type": "uint256",
-                    "name": "previousMDA",
-                    "indexed": false
-                },
-                {
-                    "type": "uint256",
-                    "name": "newMDA",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "SetValidatorDescription",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "validatorId",
-                    "indexed": true
-                },
-                {
-                    "type": "string",
-                    "name": "previousDescription",
-                    "indexed": false
-                },
-                {
-                    "type": "string",
-                    "name": "newDescription",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "SetValidatorName",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "validatorId",
-                    "indexed": true
-                },
-                {
-                    "type": "string",
-                    "name": "previousName",
-                    "indexed": false
-                },
-                {
-                    "type": "string",
-                    "name": "newName",
-                    "indexed": false
                 }
             ]
         },
@@ -3385,18 +3243,6 @@
                 {
                     "type": "uint256",
                     "name": "validatorId",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "WhitelistDisabled",
-            "inputs": [
-                {
-                    "type": "bool",
-                    "name": "status",
                     "indexed": false
                 }
             ]
@@ -4165,30 +4011,8 @@
             ]
         }
     ],
-    "constants_holder_address": "0x477155EDB64A81b5d282238b2aA5159056fCEE87",
+    "constants_holder_address": "0x2B11Bb19D6CC0AD82F79590a9819039A8D962780",
     "constants_holder_abi": [
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "ConstantUpdated",
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "constantHash",
-                    "indexed": true
-                },
-                {
-                    "type": "uint256",
-                    "name": "previousValue",
-                    "indexed": false
-                },
-                {
-                    "type": "uint256",
-                    "name": "newValue",
-                    "indexed": false
-                }
-            ]
-        },
         {
             "type": "event",
             "anonymous": false,
@@ -4627,7 +4451,7 @@
         },
         {
             "type": "function",
-            "name": "complaintTimeLimit",
+            "name": "complaintTimelimit",
             "constant": true,
             "stateMutability": "view",
             "payable": false,
@@ -4970,13 +4794,13 @@
         },
         {
             "type": "function",
-            "name": "setComplaintTimeLimit",
+            "name": "setComplaintTimelimit",
             "constant": false,
             "payable": false,
             "inputs": [
                 {
                     "type": "uint256",
-                    "name": "timeLimit"
+                    "name": "timelimit"
                 }
             ],
             "outputs": []
@@ -5116,7 +4940,7 @@
             "outputs": []
         }
     ],
-    "nodes_address": "0xBE68321612367f0542cCf52E1B8D0D3A83Ea2E55",
+    "nodes_address": "0x9CA27401006D17525Ad07d7cAFB80c48928EB4Ce",
     "nodes_abi": [
         {
             "type": "event",
@@ -5126,6 +4950,16 @@
                 {
                     "type": "uint256",
                     "name": "nodeIndex",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "time",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "gasSpend",
                     "indexed": false
                 }
             ]
@@ -5144,61 +4978,15 @@
                     "type": "uint256",
                     "name": "startLeavingPeriod",
                     "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "IPChanged",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "nodeIndex",
-                    "indexed": true
                 },
                 {
-                    "type": "bytes4",
-                    "name": "previousIP",
+                    "type": "uint256",
+                    "name": "time",
                     "indexed": false
                 },
                 {
-                    "type": "bytes4",
-                    "name": "newIP",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "IncompliantNode",
-            "inputs": [
-                {
                     "type": "uint256",
-                    "name": "nodeIndex",
-                    "indexed": true
-                },
-                {
-                    "type": "bool",
-                    "name": "status",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "MaintenanceNode",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "nodeIndex",
-                    "indexed": true
-                },
-                {
-                    "type": "bool",
-                    "name": "status",
+                    "name": "gasSpend",
                     "indexed": false
                 }
             ]
@@ -5246,6 +5034,16 @@
                 {
                     "type": "string",
                     "name": "domainName",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "time",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "gasSpend",
                     "indexed": false
                 }
             ]
@@ -5984,7 +5782,12 @@
                     "name": "nodeIndex"
                 }
             ],
-            "outputs": []
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": ""
+                }
+            ]
         },
         {
             "type": "function",
@@ -6507,7 +6310,7 @@
             ]
         }
     ],
-    "node_rotation_address": "0x17A02359Fe28CEe6442A87272F51A34E0Cf43161",
+    "node_rotation_address": "0xF96C5d51fb6B3BcA9c1a1BE0e053F72D1b74F63F",
     "node_rotation_abi": [
         {
             "type": "event",
@@ -6549,18 +6352,6 @@
                 {
                     "type": "address",
                     "name": "sender",
-                    "indexed": true
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "RotationDelaySkipped",
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "schainHash",
                     "indexed": true
                 }
             ]
@@ -6660,36 +6451,13 @@
                     "components": [
                         {
                             "type": "bytes32",
-                            "name": "schainHash"
+                            "name": "schainIndex"
                         },
                         {
                             "type": "uint256",
                             "name": "finishedRotation"
                         }
                     ],
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getPreviousNode",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "schainHash"
-                },
-                {
-                    "type": "uint256",
-                    "name": "nodeIndex"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "uint256",
                     "name": ""
                 }
             ]
@@ -6764,7 +6532,7 @@
             "inputs": [
                 {
                     "type": "bytes32",
-                    "name": "schainHash"
+                    "name": "schainIndex"
                 }
             ],
             "outputs": [
@@ -6847,25 +6615,6 @@
         },
         {
             "type": "function",
-            "name": "isNewNodeFound",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "schainHash"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "bool",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
             "name": "isRotationInProgress",
             "constant": true,
             "stateMutability": "view",
@@ -6873,7 +6622,7 @@
             "inputs": [
                 {
                     "type": "bytes32",
-                    "name": "schainHash"
+                    "name": "schainIndex"
                 }
             ],
             "outputs": [
@@ -6902,7 +6651,7 @@
             "outputs": [
                 {
                     "type": "bytes32",
-                    "name": "schainHash"
+                    "name": "schainIndex"
                 },
                 {
                     "type": "uint256",
@@ -6918,7 +6667,7 @@
             "inputs": [
                 {
                     "type": "bytes32",
-                    "name": "schainHash"
+                    "name": "schainIndex"
                 }
             ],
             "outputs": []
@@ -6989,6 +6738,37 @@
         },
         {
             "type": "function",
+            "name": "rotations",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": ""
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                },
+                {
+                    "type": "uint256",
+                    "name": "newNodeIndex"
+                },
+                {
+                    "type": "uint256",
+                    "name": "freezeUntil"
+                },
+                {
+                    "type": "uint256",
+                    "name": "rotationCounter"
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "selectNodeToGroup",
             "constant": false,
             "payable": false,
@@ -7013,7 +6793,7 @@
             "inputs": [
                 {
                     "type": "bytes32",
-                    "name": "schainHash"
+                    "name": "schainIndex"
                 }
             ],
             "outputs": []
@@ -7038,7 +6818,7 @@
             ]
         }
     ],
-    "schains_internal_address": "0xCdC05f0318Db1dCB382d8dd606E01B553bd87030",
+    "schains_internal_address": "0x510AA864599BA938eD481dBc72997876BD2545B9",
     "schains_internal_abi": [
         {
             "type": "event",
@@ -7085,40 +6865,6 @@
             ]
         },
         {
-            "type": "event",
-            "anonymous": false,
-            "name": "SchainTypeAdded",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "schainType",
-                    "indexed": true
-                },
-                {
-                    "type": "uint256",
-                    "name": "partOfNode",
-                    "indexed": false
-                },
-                {
-                    "type": "uint256",
-                    "name": "numberOfNodes",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "SchainTypeRemoved",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "schainType",
-                    "indexed": true
-                }
-            ]
-        },
-        {
             "type": "function",
             "name": "DEBUGGER_ROLE",
             "constant": true,
@@ -7135,20 +6881,6 @@
         {
             "type": "function",
             "name": "DEFAULT_ADMIN_ROLE",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [],
-            "outputs": [
-                {
-                    "type": "bytes32",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "GENERATION_MANAGER_ROLE",
             "constant": true,
             "stateMutability": "view",
             "payable": false,
@@ -7277,29 +7009,6 @@
         },
         {
             "type": "function",
-            "name": "checkSchainOnNode",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "nodeIndex"
-                },
-                {
-                    "type": "bytes32",
-                    "name": "schainHash"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "bool",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
             "name": "contractManager",
             "constant": true,
             "stateMutability": "view",
@@ -7340,20 +7049,6 @@
         },
         {
             "type": "function",
-            "name": "currentGeneration",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [],
-            "outputs": [
-                {
-                    "type": "uint256",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
             "name": "deleteGroup",
             "constant": false,
             "payable": false,
@@ -7364,6 +7059,29 @@
                 }
             ],
             "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "findSchainAtSchainsForNode",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
+                },
+                {
+                    "type": "bytes32",
+                    "name": "schainHash"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
         },
         {
             "type": "function",
@@ -7405,14 +7123,14 @@
         },
         {
             "type": "function",
-            "name": "getGeneration",
+            "name": "getLengthOfSchainsForNode",
             "constant": true,
             "stateMutability": "view",
             "payable": false,
             "inputs": [
                 {
-                    "type": "bytes32",
-                    "name": "schainHash"
+                    "type": "uint256",
+                    "name": "nodeIndex"
                 }
             ],
             "outputs": [
@@ -7546,7 +7264,7 @@
         },
         {
             "type": "function",
-            "name": "getSchainHashesByAddress",
+            "name": "getSchainHashsByAddress",
             "constant": true,
             "stateMutability": "view",
             "payable": false,
@@ -7565,7 +7283,7 @@
         },
         {
             "type": "function",
-            "name": "getSchainHashesForNode",
+            "name": "getSchainHashsForNode",
             "constant": true,
             "stateMutability": "view",
             "payable": false,
@@ -7654,25 +7372,6 @@
             "outputs": [
                 {
                     "type": "string",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getSchainOriginator",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "schainHash"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "address",
                     "name": ""
                 }
             ]
@@ -7866,10 +7565,6 @@
                     "name": "from"
                 },
                 {
-                    "type": "address",
-                    "name": "originator"
-                },
-                {
                     "type": "uint256",
                     "name": "lifetime"
                 },
@@ -8049,10 +7744,15 @@
         },
         {
             "type": "function",
-            "name": "newGeneration",
+            "name": "moveToPlaceOfSchainOnNode",
             "constant": false,
             "payable": false,
-            "inputs": [],
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainHash"
+                }
+            ],
             "outputs": []
         },
         {
@@ -8105,19 +7805,6 @@
                     "name": ""
                 }
             ]
-        },
-        {
-            "type": "function",
-            "name": "removeAllNodesFromSchainExceptions",
-            "constant": false,
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "schainHash"
-                }
-            ],
-            "outputs": []
         },
         {
             "type": "function",
@@ -8354,14 +8041,6 @@
                 {
                     "type": "uint64",
                     "name": "index"
-                },
-                {
-                    "type": "uint256",
-                    "name": "generation"
-                },
-                {
-                    "type": "address",
-                    "name": "originator"
                 }
             ]
         },
@@ -8479,6 +8158,23 @@
         },
         {
             "type": "function",
+            "name": "setSchainIndex",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes32",
+                    "name": "schainHash"
+                },
+                {
+                    "type": "address",
+                    "name": "from"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "sumOfSchainsResources",
             "constant": true,
             "stateMutability": "view",
@@ -8511,7 +8207,7 @@
             ]
         }
     ],
-    "schains_address": "0x7d4F236099cC56c779527Ab3DE7ffCf3E7650bBE",
+    "schains_address": "0xeA3Bbe68959D02Bfd6255772BC153F876927dd42",
     "schains_abi": [
         {
             "type": "event",
@@ -8640,6 +8336,16 @@
                     "type": "bytes32",
                     "name": "schainHash",
                     "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "time",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "gasSpend",
+                    "indexed": false
                 }
             ]
         },
@@ -8683,6 +8389,16 @@
                 {
                     "type": "uint256[]",
                     "name": "nodesInGroup",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "time",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "gasSpend",
                     "indexed": false
                 }
             ]
@@ -8762,24 +8478,23 @@
                 {
                     "type": "address",
                     "name": "schainOwner"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "addSpace",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "nodeIndex"
                 },
                 {
-                    "type": "address",
-                    "name": "schainOriginator"
-                },
-                {
-                    "type": "tuple[]",
-                    "name": "options",
-                    "components": [
-                        {
-                            "type": "string",
-                            "name": "name"
-                        },
-                        {
-                            "type": "bytes",
-                            "name": "value"
-                        }
-                    ]
+                    "type": "uint8",
+                    "name": "partOfNode"
                 }
             ],
             "outputs": []
@@ -8827,58 +8542,6 @@
                 }
             ],
             "outputs": []
-        },
-        {
-            "type": "function",
-            "name": "getOption",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "schainHash"
-                },
-                {
-                    "type": "string",
-                    "name": "optionName"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "bytes",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getOptions",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "schainHash"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "tuple[]",
-                    "components": [
-                        {
-                            "type": "string",
-                            "name": "name"
-                        },
-                        {
-                            "type": "bytes",
-                            "name": "value"
-                        }
-                    ],
-                    "name": ""
-                }
-            ]
         },
         {
             "type": "function",
@@ -9108,7 +8771,7 @@
             ]
         }
     ],
-    "decryption_address": "0xCC7a28042aC8cBaA5B82a3970e157A1369a3d5A4",
+    "decryption_address": "0x7a9F13146fb7A9E30daCd98252B342c87C1a1b83",
     "decryption_abi": [
         {
             "type": "function",
@@ -9119,7 +8782,7 @@
             "inputs": [
                 {
                     "type": "bytes32",
-                    "name": "cipherText"
+                    "name": "ciphertext"
                 },
                 {
                     "type": "bytes32",
@@ -9129,7 +8792,7 @@
             "outputs": [
                 {
                     "type": "uint256",
-                    "name": ""
+                    "name": "secretNumber"
                 }
             ]
         },
@@ -9152,12 +8815,12 @@
             "outputs": [
                 {
                     "type": "bytes32",
-                    "name": ""
+                    "name": "ciphertext"
                 }
             ]
         }
     ],
-    "e_c_d_h_address": "0x7443f811588dCc722741f29aEd3DF733abd2A52C",
+    "e_c_d_h_address": "0x148f6F71F4a9F37bca5C4b245960DD8074C1DD54",
     "e_c_d_h_abi": [
         {
             "type": "function",
@@ -9494,7 +9157,7 @@
             ]
         }
     ],
-    "key_storage_address": "0x6A7b9D7a77cf039887266C66f858ce43155c5295",
+    "key_storage_address": "0x5E4AdBda4018692556fD6615Fc6725cc2c20E72e",
     "key_storage_abi": [
         {
             "type": "event",
@@ -9950,7 +9613,7 @@
             "outputs": []
         }
     ],
-    "skale_d_k_g_address": "0xf13372592e475B0a2f1fC11343788C32aaCc0853",
+    "skale_d_k_g_address": "0xF746e4629648D3D6AfbFFb38A53DF29BC0878025",
     "skale_d_k_g_abi": [
         {
             "type": "event",
@@ -10183,6 +9846,20 @@
                     "type": "bytes32",
                     "name": "schainHash",
                     "indexed": true
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "COMPLAINT_TIMELIMIT",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
                 }
             ]
         },
@@ -11182,7 +10859,7 @@
                 },
                 {
                     "type": "tuple[]",
-                    "name": "verificationVectorMultiplication",
+                    "name": "verificationVectorMult",
                     "components": [
                         {
                             "type": "tuple",
@@ -11370,7 +11047,7 @@
             ]
         }
     ],
-    "skale_verifier_address": "0xefF65Fc37d2ef48D0652B201ef8FfB9E1B129AC2",
+    "skale_verifier_address": "0xF6c7Fe65F8fAD34a3b6aB73aeBfEC31fbcC522B6",
     "skale_verifier_abi": [
         {
             "type": "event",
@@ -11672,7 +11349,7 @@
             ]
         }
     ],
-    "skale_manager_address": "0xD7ba6d085809c6E7D9Ccb08379578EEB2ecbF47A",
+    "skale_manager_address": "0x340F6a8164B7Fc1aDb11f30a03dE90ED8d8d9d09",
     "skale_manager_abi": [
         {
             "type": "event",
@@ -11707,6 +11384,16 @@
                 {
                     "type": "uint256",
                     "name": "previousBlockEvent",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "time",
+                    "indexed": false
+                },
+                {
+                    "type": "uint256",
+                    "name": "gasSpend",
                     "indexed": false
                 }
             ]
@@ -11756,23 +11443,6 @@
             ]
         },
         {
-            "type": "event",
-            "anonymous": false,
-            "name": "VersionUpdated",
-            "inputs": [
-                {
-                    "type": "string",
-                    "name": "oldVersion",
-                    "indexed": false
-                },
-                {
-                    "type": "string",
-                    "name": "newVersion",
-                    "indexed": false
-                }
-            ]
-        },
-        {
             "type": "function",
             "name": "ADMIN_ROLE",
             "constant": true,
@@ -11802,7 +11472,7 @@
         },
         {
             "type": "function",
-            "name": "SCHAIN_REMOVAL_ROLE",
+            "name": "SCHAIN_DELETER_ROLE",
             "constant": true,
             "stateMutability": "view",
             "payable": false,
@@ -12126,7 +11796,7 @@
             ]
         }
     ],
-    "pricing_address": "0xB1225dA1AAA4969e91494F5b35d7F0F9fD34047D",
+    "pricing_address": "0xa418A6aa48730FfF68f4d7196E9171620ef528e6",
     "pricing_abi": [
         {
             "type": "event",
@@ -12443,37 +12113,8 @@
             ]
         }
     ],
-    "bounty_v2_address": "0x84fd565d6e690b0F695114ECd3014E91b9A592C9",
+    "bounty_v2_address": "0x75610dc2E680e2763184Aaae202febf65E37D015",
     "bounty_v2_abi": [
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "BountyReduction",
-            "inputs": [
-                {
-                    "type": "bool",
-                    "name": "status",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "NodeCreationWindowWasChanged",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "oldValue",
-                    "indexed": false
-                },
-                {
-                    "type": "uint256",
-                    "name": "newValue",
-                    "indexed": false
-                }
-            ]
-        },
         {
             "type": "event",
             "anonymous": false,
@@ -13015,7 +12656,7 @@
             "outputs": []
         }
     ],
-    "wallets_address": "0xbBCb603874497c399469042E605AA69B59FCf3d3",
+    "wallets_address": "0x929b499f192A19a2e58c69FBd2f704284C795c16",
     "wallets_abi": [
         {
             "type": "event",
@@ -13145,40 +12786,6 @@
                 {
                     "type": "uint256",
                     "name": "validatorId",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "WithdrawFromSchainWallet",
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "schainHash",
-                    "indexed": true
-                },
-                {
-                    "type": "uint256",
-                    "name": "amount",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "WithdrawFromValidatorWallet",
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "validatorId",
-                    "indexed": true
-                },
-                {
-                    "type": "uint256",
-                    "name": "amount",
                     "indexed": false
                 }
             ]
@@ -13519,407 +13126,7 @@
             "outputs": []
         }
     ],
-    "sync_manager_address": "0x70f9118422243ec15d01b5E1f17810572ccb2182",
-    "sync_manager_abi": [
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "IPRangeAdded",
-            "inputs": [
-                {
-                    "type": "string",
-                    "name": "name",
-                    "indexed": false
-                },
-                {
-                    "type": "bytes4",
-                    "name": "startIP",
-                    "indexed": false
-                },
-                {
-                    "type": "bytes4",
-                    "name": "endIP",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "IPRangeRemoved",
-            "inputs": [
-                {
-                    "type": "string",
-                    "name": "name",
-                    "indexed": false
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "RoleGranted",
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role",
-                    "indexed": true
-                },
-                {
-                    "type": "address",
-                    "name": "account",
-                    "indexed": true
-                },
-                {
-                    "type": "address",
-                    "name": "sender",
-                    "indexed": true
-                }
-            ]
-        },
-        {
-            "type": "event",
-            "anonymous": false,
-            "name": "RoleRevoked",
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role",
-                    "indexed": true
-                },
-                {
-                    "type": "address",
-                    "name": "account",
-                    "indexed": true
-                },
-                {
-                    "type": "address",
-                    "name": "sender",
-                    "indexed": true
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "DEFAULT_ADMIN_ROLE",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [],
-            "outputs": [
-                {
-                    "type": "bytes32",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "SYNC_MANAGER_ROLE",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [],
-            "outputs": [
-                {
-                    "type": "bytes32",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "addIPRange",
-            "constant": false,
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "string",
-                    "name": "name"
-                },
-                {
-                    "type": "bytes4",
-                    "name": "startIP"
-                },
-                {
-                    "type": "bytes4",
-                    "name": "endIP"
-                }
-            ],
-            "outputs": []
-        },
-        {
-            "type": "function",
-            "name": "contractManager",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [],
-            "outputs": [
-                {
-                    "type": "address",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getIPRangeByIndex",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "uint256",
-                    "name": "index"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "tuple",
-                    "components": [
-                        {
-                            "type": "bytes4",
-                            "name": "startIP"
-                        },
-                        {
-                            "type": "bytes4",
-                            "name": "endIP"
-                        }
-                    ],
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getIPRangeByName",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "string",
-                    "name": "name"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "tuple",
-                    "components": [
-                        {
-                            "type": "bytes4",
-                            "name": "startIP"
-                        },
-                        {
-                            "type": "bytes4",
-                            "name": "endIP"
-                        }
-                    ],
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getIPRangesNumber",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [],
-            "outputs": [
-                {
-                    "type": "uint256",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getRoleAdmin",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "bytes32",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getRoleMember",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role"
-                },
-                {
-                    "type": "uint256",
-                    "name": "index"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "address",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "getRoleMemberCount",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "uint256",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "grantRole",
-            "constant": false,
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role"
-                },
-                {
-                    "type": "address",
-                    "name": "account"
-                }
-            ],
-            "outputs": []
-        },
-        {
-            "type": "function",
-            "name": "hasRole",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role"
-                },
-                {
-                    "type": "address",
-                    "name": "account"
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "bool",
-                    "name": ""
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "initialize",
-            "constant": false,
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "address",
-                    "name": "contractManagerAddress"
-                }
-            ],
-            "outputs": []
-        },
-        {
-            "type": "function",
-            "name": "ipRanges",
-            "constant": true,
-            "stateMutability": "view",
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": ""
-                }
-            ],
-            "outputs": [
-                {
-                    "type": "bytes4",
-                    "name": "startIP"
-                },
-                {
-                    "type": "bytes4",
-                    "name": "endIP"
-                }
-            ]
-        },
-        {
-            "type": "function",
-            "name": "removeIPRange",
-            "constant": false,
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "string",
-                    "name": "name"
-                }
-            ],
-            "outputs": []
-        },
-        {
-            "type": "function",
-            "name": "renounceRole",
-            "constant": false,
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role"
-                },
-                {
-                    "type": "address",
-                    "name": "account"
-                }
-            ],
-            "outputs": []
-        },
-        {
-            "type": "function",
-            "name": "revokeRole",
-            "constant": false,
-            "payable": false,
-            "inputs": [
-                {
-                    "type": "bytes32",
-                    "name": "role"
-                },
-                {
-                    "type": "address",
-                    "name": "account"
-                }
-            ],
-            "outputs": []
-        }
-    ],
-    "time_helpers_with_debug_address": "0x51382EB2ebe417842d3fb8d4f4AF441C54e0162d",
+    "time_helpers_with_debug_address": "0x7c108bBA15DC26e91DC32FCDfaaeE0B8deFF8dfA",
     "time_helpers_with_debug_abi": [
         {
             "type": "event",
@@ -14108,6 +13315,25 @@
         },
         {
             "type": "function",
+            "name": "timestampToDay",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "uint256",
+                    "name": "timestamp"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "uint256",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "timestampToMonth",
             "constant": true,
             "stateMutability": "view",
@@ -14158,7 +13384,7 @@
             "outputs": []
         }
     ],
-    "skale_token_address": "0x5A5f229AEc29223790b10e47A5753EB0de9df1c5",
+    "skale_token_address": "0x4c71432e7B9FF3c4a0B3588eC74bF74422139450",
     "skale_token_abi": [
         {
             "type": "constructor",
@@ -14739,7 +13965,7 @@
             "type": "function",
             "name": "granularity",
             "constant": true,
-            "stateMutability": "pure",
+            "stateMutability": "view",
             "payable": false,
             "inputs": [],
             "outputs": [
