@@ -12,7 +12,7 @@
     "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com/"
   },
   "fancy-this-usable-SKALE": {
-    "alias": "BITE V2 Sandbox ",
+    "alias": "SKALEW BITE v2 Sandbox",
     "shortAlias": "bite-v2-sandbox",
     "background": "#FA6944",
     "gradientBackground": "linear-gradient(180deg, #FA6944, #FF5220)",
@@ -25,8 +25,8 @@
     "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10032/"
   },
   "miniature-live-tabit": {
-    "background": "#FA6944",
-    "gradientBackground": "linear-gradient(180deg, #FA6944, #FF5220)",
+    "background": "#00B6EF",
+    "gradientBackground": "linear-gradient(180deg, #00B6EF, #0084BF)",
     "url": "https://docs.skale.space/get-started/hackathon/info",
     "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10012/",
     "categories": {}
