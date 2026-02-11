@@ -28,18 +28,21 @@
     "background": "#FA6944",
     "gradientBackground": "linear-gradient(180deg, #FA6944, #FF5220)",
     "url": "https://docs.skale.space/get-started/hackathon/info",
-    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10012/"
+    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10012/",
+    "categories": {}
   },
   "talkative-victorious-rasalgethi": {
     "background": "#FF336D",
     "gradientBackground": "linear-gradient(180deg, #FF336D, #FF001A)",
     "url": "https://docs.skale.space/get-started/hackathon/info",
-    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10022/"
+    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10022/",
+    "categories": {}
   },
   "flippant-precious-ancha": {
     "background": "#00C72E",
     "gradientBackground": "linear-gradient(180deg, #00DE55, #00C72E)",
     "url": "https://docs.skale.space/get-started/hackathon/info",
-    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10042/"
+    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10042/",
+    "categories": {}
   }
 }
