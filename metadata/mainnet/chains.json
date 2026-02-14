@@ -2185,7 +2185,7 @@
   },
   "fussy-smoggy-megrez": {
     "alias": "StrayShot",
-    "background": "#000000",
+    "background": "#BFBFBF",
     "gradientBackground": "linear-gradient(150deg, #070707, #151e28)",
     "categories": {
       "gaming": [
