@@ -10,5 +10,42 @@
       "hub": null
     },
     "explorerUrl": "https://skale-base-explorer.skalenodes.com/"
+  },
+  "ext-arbitrum": {
+    "alias": "Arbitrum",
+    "background": "#1b2231",
+    "gradientBackground": "linear-gradient(180deg, #1b2231, #10151e)",
+    "gradientBackgroundLight": "linear-gradient(rgb(224 242 255), rgb(231, 239, 255))",
+    "url": "https://arbitrum.io/",
+    "description": "Arbitrum is an Ethereum layer-two (L2) scaling solution.",
+    "categories": {},
+    "explorerUrl": "https://arbiscan.io/"
+  },
+  "ext-op-mainnet": {
+    "alias": "OP Mainnet",
+    "background": "#FF0421",
+    "gradientBackground": "linear-gradient(180deg, #FF0421, #FF0421)",
+    "url": "https://www.optimism.io/",
+    "description": "OP Mainnet is Optimism's flagship Ethereum Layer 2 blockchain.",
+    "categories": {},
+    "explorerUrl": "https://optimistic.etherscan.io/"
+  },
+  "ext-bsc": {
+    "alias": "BNB Smart Chain",
+    "background": "#f0b90a",
+    "gradientBackground": "linear-gradient(180deg, #f0b90a, #f0b90a)",
+    "url": "https://www.bnbchain.org/",
+    "description": "BNB Smart Chain (BSC) is an EVM-compatible and smart contract supporting blockchain.",
+    "categories": {},
+    "explorerUrl": "https://bsctrace.com/"
+  },
+  "ext-avalanche": {
+    "alias": "Avalanche",
+    "background": "#e84143",
+    "gradientBackground": "linear-gradient(180deg, #e84143, #e84143)",
+    "url": "https://www.avax.network/",
+    "description": "Avalanche is a high-performance blockchain platform designed for builders who need to scale.",
+    "categories": {},
+    "explorerUrl": "https://avascan.info/"
   }
 }
