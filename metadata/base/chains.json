@@ -15,7 +15,6 @@
     "alias": "Arbitrum",
     "background": "#1b2231",
     "gradientBackground": "linear-gradient(180deg, #1b2231, #10151e)",
-    "gradientBackgroundLight": "linear-gradient(rgb(224 242 255), rgb(231, 239, 255))",
     "url": "https://arbitrum.io/",
     "description": "Arbitrum is an Ethereum layer-two (L2) scaling solution.",
     "categories": {},
