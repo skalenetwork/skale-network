@@ -10,5 +10,68 @@
       "hub": null
     },
     "explorerUrl": "https://skale-base-explorer.skalenodes.com/"
+  },
+  "ext-arbitrum": {
+    "alias": "Arbitrum",
+    "background": "#1b2231",
+    "gradientBackground": "linear-gradient(180deg, #1b2231, #10151e)",
+    "url": "https://arbitrum.io/",
+    "description": "Arbitrum is an Ethereum layer-two (L2) scaling solution.",
+    "categories": {},
+    "explorerUrl": "https://arbiscan.io/"
+  },
+  "ext-op-mainnet": {
+    "alias": "OP Mainnet",
+    "background": "#FF0421",
+    "gradientBackground": "linear-gradient(180deg, #FF0421, #FF0421)",
+    "url": "https://www.optimism.io/",
+    "description": "OP Mainnet is Optimism's flagship Ethereum Layer 2 blockchain.",
+    "categories": {},
+    "explorerUrl": "https://optimistic.etherscan.io/"
+  },
+  "ext-bsc": {
+    "alias": "BNB Smart Chain",
+    "background": "#f0b90a",
+    "gradientBackground": "linear-gradient(180deg, #f0b90a, #f0b90a)",
+    "url": "https://www.bnbchain.org/",
+    "description": "BNB Smart Chain (BSC) is an EVM-compatible and smart contract supporting blockchain.",
+    "categories": {},
+    "explorerUrl": "https://bsctrace.com/"
+  },
+  "ext-avalanche": {
+    "alias": "Avalanche",
+    "background": "#e84143",
+    "gradientBackground": "linear-gradient(180deg, #e84143, #e84143)",
+    "url": "https://www.avax.network/",
+    "description": "Avalanche is a high-performance blockchain platform designed for builders who need to scale.",
+    "categories": {},
+    "explorerUrl": "https://avascan.info/"
+  },
+  "ext-gnosis": {
+    "alias": "Gnosis Chain",
+    "background": "#67EBA5",
+    "gradientBackground": "linear-gradient(180deg, #67EBA5, #67EBA5)",
+    "url": "https://www.gnosis.io/chain",
+    "description": "An Ethereum forerunner-companion that addresses scaling issues through solid engineering.",
+    "categories": {},
+    "explorerUrl": "https://gnosisscan.io/"
+  },
+  "ext-monad": {
+    "alias": "Monad",
+    "background": "#6E54FF",
+    "gradientBackground": "linear-gradient(180deg, #6E54FF, #6E54FF)",
+    "url": "https://www.monad.xyz",
+    "description": "The High-Performance EVM Blockchain Built for Scale.",
+    "categories": {},
+    "explorerUrl": "https://monad.socialscan.io"
+  },
+  "ext-polygon": {
+    "alias": "Polygon",
+    "background": "#7700FF",
+    "gradientBackground": "linear-gradient(180deg, #7700FF, #7700FF)",
+    "url": "https://polygon.technology",
+    "description": "Blockchain platform which aims to create a multi-chain blockchain system compatible with Ethereum.",
+    "categories": {},
+    "explorerUrl": "https://polygonscan.com"
   }
 }
