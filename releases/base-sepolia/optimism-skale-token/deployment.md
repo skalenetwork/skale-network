@@ -1,13 +1,13 @@
-# Skale L2 Token
+# Skale Clone Token
 
-## Stable
+## Stable `OptimismMintableERC20`
 
 `0x09F2a9f9EFddb0ab80DE57D93948F6C04f1Ea0F6` - Active
 
 - `OptimismMintableERC20` token deployed to Base, linked to Skale token on Sepolia. Publicly reccognised version.
 - Not Linked to `skale-manager` as there are no Delegations or simmilar features supported on Sepolia-Base deployment.
 
-## Legacy
+## Legacy `SkaleL2Token`
 
 `0xBeBb7CA7D7FFB39ad2d87C51c742E29B3C12C2b2` - AVOID
 
