@@ -11,8 +11,8 @@
     },
     "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com/"
   },
-  "fancy-this-usable-SKALE": {
-    "alias": "SKALE Hackathon Sandbox",
+  "vigilant-snappy-arcturus": {
+    "alias": "BITE V2 Sandbox",
     "shortAlias": "bite-v2-sandbox",
     "background": "#FA6944",
     "gradientBackground": "linear-gradient(180deg, #FA6944, #FF5220)",
@@ -22,7 +22,7 @@
       "sandbox": null,
       "bite": null
     },
-    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10032/"
+    "explorerUrl": "https://base-sepolia-testnet-explorer.skalenodes.com:10012/"
   },
   "miniature-live-tabit": {
     "background": "#00B6EF",
