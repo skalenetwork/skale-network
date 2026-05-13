@@ -73,5 +73,50 @@
     "description": "Blockchain platform which aims to create a multi-chain blockchain system compatible with Ethereum.",
     "categories": {},
     "explorerUrl": "https://polygonscan.com"
+       },
+  "ext-sonic": {
+    "alias": "Sonic",
+    "background": "#1a1a2e",
+    "gradientBackground": "linear-gradient(180deg, #1a1a2e, #16213e)",
+    "url": "https://soniclabs.com",
+    "description": "Sonic is a high-performance EVM Layer 1 blockchain with sub-second finality.",
+    "categories": {},
+    "explorerUrl": "https://sonicscan.org"
+  },
+  "ext-berachain": {
+    "alias": "Berachain",
+    "background": "#7B3F00",
+    "gradientBackground": "linear-gradient(180deg, #7B3F00, #5C2F00)",
+    "url": "https://berachain.com",
+    "description": "Berachain is an EVM-identical Layer 1 blockchain utilizing Proof of Liquidity.",
+    "categories": {},
+    "explorerUrl": "https://berascan.com"
+  },
+  "ext-soneium": {
+    "alias": "Soneium",
+    "background": "#0A0A0A",
+    "gradientBackground": "linear-gradient(180deg, #0A0A0A, #1A1A1A)",
+    "url": "https://soneium.org",
+    "description": "Soneium is Sony's Ethereum Layer 2 blockchain built on the OP Stack.",
+    "categories": {},
+    "explorerUrl": "https://soneium.blockscout.com"
+  },
+  "ext-b3": {
+    "alias": "B3",
+    "background": "#FF6B00",
+    "gradientBackground": "linear-gradient(180deg, #FF6B00, #CC5500)",
+    "url": "https://b3.fun",
+    "description": "B3 is the gaming Layer 3 built on Base.",
+    "categories": {},
+    "explorerUrl": "https://explorer.b3.fun"
+  },
+  "ext-katana": {
+    "alias": "Katana",
+    "background": "#1A0A2E",
+    "gradientBackground": "linear-gradient(180deg, #1A0A2E, #0D0517)",
+    "url": "https://katana.network",
+    "description": "Katana is a gaming-focused Ethereum Layer 2 blockchain.",
+    "categories": {},
+    "explorerUrl": "https://explorer.katanarpc.com"
   }
 }
