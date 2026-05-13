@@ -112,12 +112,11 @@
   },
   "ext-xai": {
     "alias": "Xai",
-    "background": "#161616",
-    "gradientBackground": "linear-gradient(180deg, #161616, #0A0A0A)",
+    "background": "#FFFFFF",
+    "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
     "url": "https://xai.games",
     "description": "Xai is a gaming-focused Layer 3 blockchain built on Arbitrum.",
-    "categories": {},
-    "explorerUrl": "https://xaiscan.io"
+    "categories": {}
   },
   "ext-somnia": {
     "alias": "Somnia",
