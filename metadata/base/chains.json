@@ -73,33 +73,6 @@
     "description": "Blockchain platform which aims to create a multi-chain blockchain system compatible with Ethereum.",
     "categories": {},
     "explorerUrl": "https://polygonscan.com"
-       },
-  "ext-sonic": {
-    "alias": "Sonic",
-    "background": "#1a1a2e",
-    "gradientBackground": "linear-gradient(180deg, #1a1a2e, #16213e)",
-    "url": "https://soniclabs.com",
-    "description": "Sonic is a high-performance EVM Layer 1 blockchain with sub-second finality.",
-    "categories": {},
-    "explorerUrl": "https://sonicscan.org"
-  },
-  "ext-berachain": {
-    "alias": "Berachain",
-    "background": "#7B3F00",
-    "gradientBackground": "linear-gradient(180deg, #7B3F00, #5C2F00)",
-    "url": "https://berachain.com",
-    "description": "Berachain is an EVM-identical Layer 1 blockchain utilizing Proof of Liquidity.",
-    "categories": {},
-    "explorerUrl": "https://berascan.com"
-  },
-  "ext-soneium": {
-    "alias": "Soneium",
-    "background": "#0A0A0A",
-    "gradientBackground": "linear-gradient(180deg, #0A0A0A, #1A1A1A)",
-    "url": "https://soneium.org",
-    "description": "Soneium is Sony's Ethereum Layer 2 blockchain built on the OP Stack.",
-    "categories": {},
-    "explorerUrl": "https://soneium.blockscout.com"
   },
   "ext-b3": {
     "alias": "B3",
@@ -110,13 +83,49 @@
     "categories": {},
     "explorerUrl": "https://explorer.b3.fun"
   },
-  "ext-katana": {
-    "alias": "Katana",
-    "background": "#1A0A2E",
-    "gradientBackground": "linear-gradient(180deg, #1A0A2E, #0D0517)",
-    "url": "https://katana.network",
-    "description": "Katana is a gaming-focused Ethereum Layer 2 blockchain.",
+  "ext-blast": {
+    "alias": "Blast",
+    "background": "#FCFC03",
+    "gradientBackground": "linear-gradient(180deg, #FCFC03, #D1D102)",
+    "url": "https://blast.io",
+    "description": "Blast is an Ethereum Layer 2 with native yield features.",
     "categories": {},
-    "explorerUrl": "https://explorer.katanarpc.com"
+    "explorerUrl": "https://blastscan.io"
+  },
+  "ext-arbitrum-nova": {
+    "alias": "Arbitrum Nova",
+    "background": "#1B4D9C",
+    "gradientBackground": "linear-gradient(180deg, #1B4D9C, #12356A)",
+    "url": "https://arbitrum.io/nova",
+    "description": "Arbitrum Nova is Arbitrum's AnyTrust chain for low-cost, high-throughput transactions.",
+    "categories": {},
+    "explorerUrl": "https://nova.arbiscan.io"
+  },
+  "ext-apechain": {
+    "alias": "ApeChain",
+    "background": "#0052FF",
+    "gradientBackground": "linear-gradient(180deg, #0052FF, #003BB8)",
+    "url": "https://apechain.com",
+    "description": "ApeChain is an Ethereum Layer 3 built for the ApeCoin ecosystem.",
+    "categories": {},
+    "explorerUrl": "https://apescan.io"
+  },
+  "ext-xai": {
+    "alias": "Xai",
+    "background": "#161616",
+    "gradientBackground": "linear-gradient(180deg, #161616, #0A0A0A)",
+    "url": "https://xai.games",
+    "description": "Xai is a gaming-focused Layer 3 blockchain built on Arbitrum.",
+    "categories": {},
+    "explorerUrl": "https://xaiscan.io"
+  },
+  "ext-somnia": {
+    "alias": "Somnia",
+    "background": "#2A0F6B",
+    "gradientBackground": "linear-gradient(180deg, #2A0F6B, #17083A)",
+    "url": "https://somnia.network",
+    "description": "Somnia is a high-performance EVM blockchain designed for on-chain consumer applications.",
+    "categories": {},
+    "explorerUrl": "https://explorer.somnia.network"
   }
 }
