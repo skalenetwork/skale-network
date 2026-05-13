@@ -103,8 +103,8 @@
   },
   "ext-apechain": {
     "alias": "ApeChain",
-    "background": "#0052FF",
-    "gradientBackground": "linear-gradient(180deg, #0052FF, #003BB8)",
+    "background": "#0253FA",
+    "gradientBackground": "linear-gradient(180deg, #0253FA, #0253FA)",
     "url": "https://apechain.com",
     "description": "ApeChain is an Ethereum Layer 3 built for the ApeCoin ecosystem.",
     "categories": {},
