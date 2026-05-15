@@ -73,5 +73,23 @@
     "description": "Blockchain platform which aims to create a multi-chain blockchain system compatible with Ethereum.",
     "categories": {},
     "explorerUrl": "https://polygonscan.com"
+  },
+  "ext-mainnet": {
+    "alias": "Ethereum",
+    "background": "#627EEA",
+    "gradientBackground": "linear-gradient(180deg, #627EEA, #627EEA)",
+    "url": "https://ethereum.org/",
+    "description": "Ethereum is a decentralized, open-source blockchain with smart contract functionality.",
+    "categories": {},
+    "explorerUrl": "https://etherscan.io/"
+  },
+  "ext-arbitrum-nova": {
+    "alias": "Arbitrum Nova",
+    "background": "#E57411",
+    "gradientBackground": "linear-gradient(180deg, #E57411, #E57411)",
+    "url": "https://nova.arbitrum.io/",
+    "description": "Arbitrum Nova is an AnyTrust-based Ethereum L2 optimized for low-cost, high-throughput applications.",
+    "categories": {},
+    "explorerUrl": "https://nova.arbiscan.io/"
   }
 }
