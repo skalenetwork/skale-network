@@ -76,8 +76,8 @@
   },
   "ext-mainnet": {
     "alias": "Ethereum",
-    "background": "#627EEA",
-    "gradientBackground": "linear-gradient(180deg, #627EEA, #627EEA)",
+    "background": "#3441C0",
+    "gradientBackground": "linear-gradient(180deg, #3441C0, #3441C0)",
     "url": "https://ethereum.org/",
     "description": "Ethereum is a decentralized, open-source blockchain with smart contract functionality.",
     "categories": {},
