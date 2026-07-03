@@ -15264,7 +15264,7 @@
             "outputs": []
         }
     ],
-    "skale_token_address": "0x9b91D2306D2c274afB367ED5ba10F8f1106640a3",
+    "skale_token_address": "0xBeBb7CA7D7FFB39ad2d87C51c742E29B3C12C2b2",
     "skale_token_abi": [
         {
             "type": "constructor",
@@ -15273,11 +15273,29 @@
             "inputs": [
                 {
                     "type": "address",
-                    "name": "contractsAddress"
+                    "name": "_contractManager"
                 },
                 {
                     "type": "address[]",
                     "name": "defOps"
+                },
+                {
+                    "type": "address",
+                    "name": "_remoteToken"
+                },
+                {
+                    "type": "address",
+                    "name": "_bridge"
+                }
+            ]
+        },
+        {
+            "type": "error",
+            "name": "ZeroAddress",
+            "inputs": [
+                {
+                    "type": "string",
+                    "name": "param"
                 }
             ]
         },
@@ -15560,6 +15578,20 @@
         },
         {
             "type": "function",
+            "name": "MINTER_ROLE",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "bytes32",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "NAME",
             "constant": true,
             "stateMutability": "view",
@@ -15662,6 +15694,37 @@
                     "name": ""
                 }
             ]
+        },
+        {
+            "type": "function",
+            "name": "bridge",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "address",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "burn",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "account"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                }
+            ],
+            "outputs": []
         },
         {
             "type": "function",
@@ -15940,6 +16003,23 @@
                 {
                     "type": "uint256",
                     "name": "amount"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "mint",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "account"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
                 },
                 {
                     "type": "bytes",
@@ -16027,6 +16107,20 @@
         },
         {
             "type": "function",
+            "name": "remoteToken",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "address",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "renounceRole",
             "constant": false,
             "payable": false,
@@ -16092,6 +16186,25 @@
                 }
             ],
             "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "supportsInterface",
+            "constant": true,
+            "stateMutability": "pure",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes4",
+                    "name": "interfaceId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": ""
+                }
+            ]
         },
         {
             "type": "function",

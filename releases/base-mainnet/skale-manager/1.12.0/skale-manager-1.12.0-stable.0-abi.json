@@ -15264,7 +15264,7 @@
             "outputs": []
         }
     ],
-    "skale_token_address": "0x91D00CF7bE6F47bf9BFAaA974d80Ea79a4A3bfe7",
+    "skale_token_address": "0xb49A02585E2BeB912027D8876DC1cdbE8F97C1A3",
     "skale_token_abi": [
         {
             "type": "constructor",
@@ -15273,11 +15273,29 @@
             "inputs": [
                 {
                     "type": "address",
-                    "name": "contractsAddress"
+                    "name": "_contractManager"
                 },
                 {
                     "type": "address[]",
                     "name": "defOps"
+                },
+                {
+                    "type": "address",
+                    "name": "_remoteToken"
+                },
+                {
+                    "type": "address",
+                    "name": "_bridge"
+                }
+            ]
+        },
+        {
+            "type": "error",
+            "name": "ZeroAddress",
+            "inputs": [
+                {
+                    "type": "string",
+                    "name": "param"
                 }
             ]
         },
@@ -15679,6 +15697,37 @@
         },
         {
             "type": "function",
+            "name": "bridge",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "address",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
+            "name": "burn",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "account"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
             "name": "burn",
             "constant": false,
             "payable": false,
@@ -15954,6 +16003,23 @@
                 {
                     "type": "uint256",
                     "name": "amount"
+                }
+            ],
+            "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "mint",
+            "constant": false,
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "address",
+                    "name": "account"
+                },
+                {
+                    "type": "uint256",
+                    "name": "amount"
                 },
                 {
                     "type": "bytes",
@@ -16041,6 +16107,20 @@
         },
         {
             "type": "function",
+            "name": "remoteToken",
+            "constant": true,
+            "stateMutability": "view",
+            "payable": false,
+            "inputs": [],
+            "outputs": [
+                {
+                    "type": "address",
+                    "name": ""
+                }
+            ]
+        },
+        {
+            "type": "function",
             "name": "renounceRole",
             "constant": false,
             "payable": false,
@@ -16106,6 +16186,25 @@
                 }
             ],
             "outputs": []
+        },
+        {
+            "type": "function",
+            "name": "supportsInterface",
+            "constant": true,
+            "stateMutability": "pure",
+            "payable": false,
+            "inputs": [
+                {
+                    "type": "bytes4",
+                    "name": "interfaceId"
+                }
+            ],
+            "outputs": [
+                {
+                    "type": "bool",
+                    "name": ""
+                }
+            ]
         },
         {
             "type": "function",
