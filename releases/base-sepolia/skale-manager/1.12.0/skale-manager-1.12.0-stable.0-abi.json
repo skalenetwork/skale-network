@@ -15264,7 +15264,7 @@
             "outputs": []
         }
     ],
-    "skale_token_address": "0xBeBb7CA7D7FFB39ad2d87C51c742E29B3C12C2b2",
+    "skale_token_address": "0x33b294F8e46C917bA699652FbCC7EeB56A0342Ef",
     "skale_token_abi": [
         {
             "type": "constructor",
