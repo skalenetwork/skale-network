@@ -73,5 +73,58 @@
     "description": "Blockchain platform which aims to create a multi-chain blockchain system compatible with Ethereum.",
     "categories": {},
     "explorerUrl": "https://polygonscan.com"
+  },
+  "ext-b3": {
+    "alias": "B3",
+    "background": "#FF6B00",
+    "gradientBackground": "linear-gradient(180deg, #FF6B00, #CC5500)",
+    "url": "https://b3.fun",
+    "description": "B3 is the gaming Layer 3 built on Base.",
+    "categories": {},
+    "explorerUrl": "https://explorer.b3.fun"
+  },
+  "ext-blast": {
+    "alias": "Blast",
+    "background": "#FCFC03",
+    "gradientBackground": "linear-gradient(180deg, #FCFC03, #D1D102)",
+    "url": "https://blast.io",
+    "description": "Blast is an Ethereum Layer 2 with native yield features.",
+    "categories": {},
+    "explorerUrl": "https://blastscan.io"
+  },
+  "ext-arbitrum-nova": {
+    "alias": "Arbitrum Nova",
+    "background": "#1B4D9C",
+    "gradientBackground": "linear-gradient(180deg, #1B4D9C, #12356A)",
+    "url": "https://arbitrum.io/nova",
+    "description": "Arbitrum Nova is Arbitrum's AnyTrust chain for low-cost, high-throughput transactions.",
+    "categories": {},
+    "explorerUrl": "https://nova.arbiscan.io"
+  },
+  "ext-apechain": {
+    "alias": "ApeChain",
+    "background": "#0253FA",
+    "gradientBackground": "linear-gradient(180deg, #0253FA, #0253FA)",
+    "url": "https://apechain.com",
+    "description": "ApeChain is an Ethereum Layer 3 built for the ApeCoin ecosystem.",
+    "categories": {},
+    "explorerUrl": "https://apescan.io"
+  },
+  "ext-xai": {
+    "alias": "Xai",
+    "background": "#FFFFFF",
+    "gradientBackground": "linear-gradient(180deg, #FFFFFF, #FFFFFF)",
+    "url": "https://xai.games",
+    "description": "Xai is a gaming-focused Layer 3 blockchain built on Arbitrum.",
+    "categories": {}
+  },
+  "ext-somnia": {
+    "alias": "Somnia",
+    "background": "#2A0F6B",
+    "gradientBackground": "linear-gradient(180deg, #2A0F6B, #17083A)",
+    "url": "https://somnia.network",
+    "description": "Somnia is a high-performance EVM blockchain designed for on-chain consumer applications.",
+    "categories": {},
+    "explorerUrl": "https://explorer.somnia.network"
   }
 }
