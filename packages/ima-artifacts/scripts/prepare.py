@@ -29,7 +29,7 @@ def normalize_contract_name(name: str) -> str:
     if name == 'message_proxy_chain':
         return normalize_contract_name('message_proxy_for_schain')
     if name == 'eth_erc20':
-        return 'ErhErc20'
+        return 'EthErc20'
     if 'erc' in name:
         return normalize_contract_name(name.replace('erc', 'e_r_c_'))
     return ''.join([word[0].upper() + word[1:] for word in name.split('_')])
